@@ -1,4 +1,6 @@
 site_name: MyGear Wiki
+site_url: https://foucent.github.io/mygear-wiki/
+repo_url: https://github.com/foucent/mygear-wiki
 theme:
   name: material
   language: en
