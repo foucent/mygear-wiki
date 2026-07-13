@@ -1,0 +1,26 @@
+site_name: MyGear Wiki
+theme:
+  name: material
+  language: en
+  features:
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tables.scroll
+    - navigation.sections
+
+plugins:
+  - search
+
+# 导航配置在这里
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Essential Questions: getting-started/basic-questions.md
+      - Blade Properties: getting-started/wood-types.md
+      - Setup Guide: getting-started/setup-guide.md
+  - Growth Strategy:
+      - Rapid Improvement: technique-growth/training-focus.md
+      - Training Drills: technique-growth/drills.md
+  - Deep Dive:
+      - Gear Philosophy: deep-dive/gear-philosophy.md
