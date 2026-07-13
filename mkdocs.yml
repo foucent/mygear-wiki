@@ -25,4 +25,5 @@ nav:
       - Rapid Improvement: technique-growth/training-focus.md
       - Training Drills: technique-growth/drills.md
   - Deep Dive:
+      - Blade Performance Metrics: deep-dive/blade-performance-metrics.md
       - Blade Elasticity, Hardness & Core: deep-dive/gear-philosophy.md
