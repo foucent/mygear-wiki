@@ -41,4 +41,4 @@ The outer wood looks close to Freitas-style **limba** color. One reason for the 
 
 For the two Super Harimotos, start with the simple matrix: **SZLC = faster / springier**, **SALC = more hold / spin-friendly**, amplified by **6.2 vs 5.9 mm**. Everything else is fine-tuning once that direction matches your loop distance and force habits.
 
-Related: [Elasticity, Hardness, and Core Wood](gear-philosophy.md) · [Blade Feel Fundamentals](blade-feel-fundamentals.md).
+Related: [Elasticity, Hardness, and Core Wood](gear-philosophy.md) · [Blade Feel Fundamentals](../getting-started/blade-feel-fundamentals.md).

@@ -1,6 +1,6 @@
 # Key Performance Metrics When Buying a Blade
 
-When you shop for a blade, brand and looks matter less than the playing qualities underneath. Beyond [elasticity, hardness, and core wood](gear-philosophy.md), these six metrics usually decide whether a blade fits your level and style.
+When you shop for a blade, brand and looks matter less than the playing qualities underneath. Beyond [elasticity, hardness, and core wood](../advanced/gear-philosophy.md) (see also [Blade Feel Fundamentals](blade-feel-fundamentals.md)), these six metrics usually decide whether a blade fits your level and style.
 
 ---
 
@@ -79,7 +79,7 @@ A blade with strong reserve power still keeps:
 Without it, many “fast close-table” blades feel empty once you drift back. With it, mid-distance and defensive-to-offense transitions stay playable.
 
 !!! note "Related reading"
-    Want the next layer—how **elasticity**, **hardness**, and **kiri vs. ayous cores** shape these feelings? See [Elasticity, Hardness, and Core Wood](gear-philosophy.md).
+    Want the next layer—how **elasticity**, **hardness**, and **kiri vs. ayous cores** shape these feelings? See [Blade Feel Fundamentals](blade-feel-fundamentals.md) or [Elasticity, Hardness, and Core Wood](../advanced/gear-philosophy.md).
 
 ---
 

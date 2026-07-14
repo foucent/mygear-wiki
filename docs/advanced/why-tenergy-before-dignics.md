@@ -71,4 +71,4 @@ A personal parallel: years ago **T80** on BH felt tough and slow; years later it
 
 Also worth watching in the same period: Tibhar’s Japan push—**Hao Shuai** on **MK Carbon + K3 PRO**, **Wu Junseong** moving from outer ALC special + D09c toward outer ALC special + **K3 PRO** after joining Tibhar. Brands follow “effective” ambassadors; gear paths still follow what the player can actually open.
 
-Related: [Rubber Lifespan & Wear](../getting-started/rubber-lifespan.md) · [Boosting Truth](boosting-truth.md)
+Related: [Boosting Truth](boosting-truth.md)

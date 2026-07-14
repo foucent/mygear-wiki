@@ -50,4 +50,4 @@ Same hardness, thicker sponge.
 - Want **more power / stronger support**, and you trust your stroke force → **40° / 2.1 mm**
 - Want to **keep dwell and feel**, but 2.1 mm bottoms out too soon → **39° / 2.15 mm**
 
-Related: [Hurricane Blue vs Orange Sponge](hurricane-blue-vs-orange-sponge.md) · [Boosting Truth](boosting-truth.md) · [Hurricane 3 Multi-Stage Boosting](hurricane-3-boosting-method.md)
+Related: [Hurricane Blue vs Orange Sponge](hurricane-blue-vs-orange-sponge.md) · [Boosting Truth](boosting-truth.md) · [Hurricane 3 Multi-Stage Boosting](../getting-started/hurricane-3-boosting-method.md)

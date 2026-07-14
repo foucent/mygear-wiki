@@ -82,4 +82,4 @@ Many players successfully migrate from boosted Hurricane to:
 | Want low maintenance | Fresh tuner-free / mild-tack outers |
 | Chase max china spin weapon | Boosted Hurricane-class |
 
-Related: [Rubber Lifespan & Wear](../getting-started/rubber-lifespan.md) · [Why Tenergy Before Dignics](why-tenergy-before-dignics.md)
+Related: [Why Tenergy Before Dignics](why-tenergy-before-dignics.md)

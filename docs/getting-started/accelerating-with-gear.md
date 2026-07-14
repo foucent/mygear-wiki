@@ -40,8 +40,10 @@ You rarely get “max spring + zero adaptation cost.” Stronger players adapt f
 
 Slow gear can feel more faithful and controllable, but it can also mean **not enough finishing threat**—especially if spin and raw force are not your strengths. Then speed + placement become your injury-free upgrade path.
 
-!!! note "Aging softens speed"
-    Long-used blades and rubber lose some spring. That alone can explain a season of “why am I slower?”
+<div class="admonition note mg-page-note">
+  <p class="admonition-title">Aging softens speed</p>
+  <p>Long-used blades and rubber lose some spring. That alone can explain a season of “why am I slower?”</p>
+</div>
 
 ---
 
@@ -61,4 +63,4 @@ Trade-off: lighter equipment often thins ball quality. Check whether your game i
 2. Elasticity: are you still fighting spring you could own with practice?
 3. Weight: is total kit helping swing tempo or dragging it?
 
-Related: [Essential Questions Before Buying](basic-questions.md) · [Blade Performance Metrics](../advanced/blade-performance-metrics.md)
+Related: [Essential Questions Before Buying](basic-questions.md) · [Blade Performance Metrics](blade-performance-metrics.md)

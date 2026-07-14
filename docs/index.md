@@ -7,8 +7,10 @@ Buy, wear, and speed up with less guesswork.
 | Guide | What you’ll get |
 | --- | --- |
 | [Essential Questions Before Buying](getting-started/basic-questions.md) | Weight, balance, face size, thickness, outer ply, construction |
-| [Rubber Lifespan & Wear](getting-started/rubber-lifespan.md) | When pilling and sponge fade still playable—and when to change |
+| [Blade Performance Metrics](getting-started/blade-performance-metrics.md) | Speed, spin, control, feel, power, reserve power |
+| [Blade Feel Fundamentals](getting-started/blade-feel-fundamentals.md) | Elasticity, hardness, and core wood as a buying map |
 | [Accelerating With Gear](getting-started/accelerating-with-gear.md) | Shoes, racket spring, and kit weight as real “speed” levers |
+| [Hurricane 3 Multi-Stage Boosting](getting-started/hurricane-3-boosting-method.md) | Five thin coats to open and lock H3 |
 
 ---
 
@@ -29,9 +31,7 @@ Feel, fiber, rubber families, and the traps between retail names and match-day s
 
 ### Feel & selection fundamentals
 
-- [Blade Performance Metrics](advanced/blade-performance-metrics.md) — speed, spin, control, feel, power, reserve power  
 - [Elasticity, Hardness, and Core Wood](advanced/gear-philosophy.md) — kiri vs ayous, force-level bounce  
-- [Blade Feel Fundamentals](advanced/blade-feel-fundamentals.md) — a fuller buying map of the same three pillars  
 - [Style and Gear Choices](advanced/style-and-gear-choices.md) — underspin vs topspin systems; tradition vs trend  
 
 ### Blades & fiber stories
@@ -44,7 +44,6 @@ Feel, fiber, rubber families, and the traps between retail names and match-day s
 - [Why Tenergy Before Dignics](advanced/why-tenergy-before-dignics.md) — why most players earn D through T first  
 - [Hurricane Blue vs Orange Sponge](advanced/hurricane-blue-vs-orange-sponge.md) — No. 20 crisp vs No. 22 dense support  
 - [Choosing Thickness vs Hardness](advanced/rubber-thickness-and-hardness.md) — 40°/2.1 vs 39°/2.15 and the 4.0 mm rule  
-- [Hurricane 3 Multi-Stage Boosting](advanced/hurricane-3-boosting-method.md) — five thin coats to open and lock H3  
 - [Boosting Truth](advanced/boosting-truth.md) — boost, factory energy, and china vs mild-tack paths  
 - [Victas V15 Sticky](advanced/victas-v15-sticky.md) — lively sticky tensor vs D09c  
 - [XIOM Vega H Review](advanced/xiom-vega-h.md) — heavy Red V Dual; why it’s often skipped  

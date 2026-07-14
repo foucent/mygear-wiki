@@ -2,7 +2,7 @@
 
 Choosing a blade is not just about brand or price. For recreational players, three properties matter most in daily play: **elasticity**, **hardness**, and **core wood**. This guide explains how each one affects feel and control, and how to match them to your level and style.
 
-For the broader buying checklist—speed, spin, control, feel, power, and reserve power—see [Key Performance Metrics When Buying a Blade](blade-performance-metrics.md).
+For the broader buying checklist—speed, spin, control, feel, power, and reserve power—see [Key Performance Metrics When Buying a Blade](../getting-started/blade-performance-metrics.md).
 
 ---
 

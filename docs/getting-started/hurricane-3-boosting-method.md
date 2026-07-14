@@ -10,7 +10,7 @@ For players chasing a transparent, lively H3 sponge—not just bulk expansion. F
 
 ![Boosted Hurricane 3 sponge edge](../images/h3-boost-method/01.jpg)
 
-Background on whether to boost at all: [Boosting Truth](boosting-truth.md).
+Background on whether to boost at all: [Boosting Truth](../advanced/boosting-truth.md).
 
 ---
 
@@ -65,4 +65,4 @@ One layer of water-based glue on blade and rubber; when dry, mount as usual.
 
 **Curl:** After this process H3 often curls hard. If mounting is difficult, flatten under books (plastic sheet in between) for **1–2 hours**.
 
-Related: [Hurricane Blue vs Orange Sponge](hurricane-blue-vs-orange-sponge.md) · [Choosing Thickness vs Hardness](rubber-thickness-and-hardness.md)
+Related: [Hurricane Blue vs Orange Sponge](../advanced/hurricane-blue-vs-orange-sponge.md) · [Choosing Thickness vs Hardness](../advanced/rubber-thickness-and-hardness.md)

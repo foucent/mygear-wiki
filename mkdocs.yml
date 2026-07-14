@@ -22,8 +22,25 @@ theme:
 plugins:
   - search
 
+markdown_extensions:
+  - toc
+  - tables
+  - fenced_code
+  - md_in_html
+
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/gallery-lightbox.js
+  - javascripts/unit-copy.js
+
+# Local `mkdocs serve` includes these; production `mkdocs build` / GitHub Pages omit them.
+draft_docs: |
+  shop/products/**
+  images/products/**
+  getting-started/rubber-lifespan.md
+  images/rubber-lifespan/**
 
 # Hot-reload overrides/ (template notes, header tweaks). docs/ is watched by default.
 watch:
@@ -43,17 +60,16 @@ nav:
   - Home: index.md
   - Getting Started:
       - Essential Questions Before Buying: getting-started/basic-questions.md
-      - Rubber Lifespan & Wear: getting-started/rubber-lifespan.md
+      - Blade Performance Metrics: getting-started/blade-performance-metrics.md
+      - Blade Feel Fundamentals: getting-started/blade-feel-fundamentals.md
       - Accelerating With Gear: getting-started/accelerating-with-gear.md
+      - Hurricane 3 Multi-Stage Boosting: getting-started/hurricane-3-boosting-method.md
   - Advanced:
-      - Blade Performance Metrics: advanced/blade-performance-metrics.md
       - Blade Elasticity, Hardness & Core: advanced/gear-philosophy.md
-      - Blade Feel Fundamentals: advanced/blade-feel-fundamentals.md
       - Harimoto SZLC vs SALC: advanced/harimoto-szlc-vs-salc.md
       - Why Tenergy Before Dignics: advanced/why-tenergy-before-dignics.md
       - Hurricane Blue vs Orange Sponge: advanced/hurricane-blue-vs-orange-sponge.md
       - Choosing Thickness vs Hardness: advanced/rubber-thickness-and-hardness.md
-      - Hurricane 3 Multi-Stage Boosting: advanced/hurricane-3-boosting-method.md
       - Boosting Truth: advanced/boosting-truth.md
       - Victas V15 Sticky: advanced/victas-v15-sticky.md
       - XIOM Vega H Review: advanced/xiom-vega-h.md
@@ -65,3 +81,8 @@ nav:
       - Price List: shop/price-list.md
       - Packaging & Tracking: shop/packaging-and-tracking.md
       - Store Log: shop/log.md
+      - Used by model:
+          - Overview: shop/products/index.md
+          - Butterfly Marcos Freitas ALC: shop/products/butterfly-marcos-freitas-alc.md
+          - Butterfly Harimoto Innerforce ALC: shop/products/butterfly-harimoto-innerforce-alc.md
+          - Butterfly Harimoto Innerforce Super ZLC: shop/products/butterfly-harimoto-innerforce-super-zlc.md

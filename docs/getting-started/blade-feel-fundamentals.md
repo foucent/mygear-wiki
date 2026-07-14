@@ -2,7 +2,7 @@
 
 This is a practical buying guide for recreational players. When you choose a blade, start with three feel fundamentals: **elasticity**, **hardness**, and **core wood**. Get those right, and brand, weight, and rubber pairing become much easier to decide.
 
-For a broader metrics checklist (speed, spin, control, power, reserve power), see [Key Performance Metrics When Buying a Blade](blade-performance-metrics.md). For a shorter companion note on the same themes, see [Elasticity, Hardness, and Core Wood](gear-philosophy.md).
+For a broader metrics checklist (speed, spin, control, power, reserve power), see [Key Performance Metrics When Buying a Blade](blade-performance-metrics.md). For a shorter companion note on the same themes, see [Elasticity, Hardness, and Core Wood](../advanced/gear-philosophy.md).
 
 ---
 
@@ -19,9 +19,6 @@ That is also why experienced coaches often give new players:
 - No boosting / no tuning oil
 
 All of those choices keep elasticity down while the stroke is still forming.
-
-!!! warning "Beginner trap"
-    Hand a new player a top-tier offensive combo—**Viscaria** + **Tenergy 05**—and they may struggle for a long time. The setup is excellent, but the catapult is hard to “hold.”
 
 ---
 
@@ -72,10 +69,6 @@ For most amateur decisions, the core conversation comes down to **kiri (paulowni
 - Low force: calmer, less shooty, easy to place
 - High force: more flex, then the catapult appears
 
-So if someone says “too bouncy,” ask the useful question:
-
-> Bouncy at **what force**, and in **what situation**?
-
 ---
 
 ## A Strong Modern Beginner Direction
@@ -115,7 +108,6 @@ Modern blade design increasingly aims for the same goal:
 
 If you choose an inner-fiber + kiri blade, give yourself one court reminder:
 
-!!! quote "Court-side reminder"
-    **Stay close. Don’t drift back.**
+> **Stay close. Don’t drift back.**
 
 Play to the blade’s distance window, and the setup will feel far more capable than it does from deep off the table.
