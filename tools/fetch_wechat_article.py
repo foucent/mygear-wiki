@@ -1,6 +1,6 @@
 """Fetch a public WeChat article into text + image URL list.
 
-Usage (from mygear-wiki):
+Usage (from MyGear Guide repo root):
   ..\\penv\\Scripts\\python.exe tools\\fetch_wechat_article.py URL
 """
 

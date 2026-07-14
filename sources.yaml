@@ -1,4 +1,4 @@
-# Hidden source registry for mygear-wiki pages (not shown on the site).
+# Hidden source registry for MyGear Guide pages (not shown on the site).
 # Each entry mirrors the YAML frontmatter on the matching Markdown file.
 
 docs/getting-started/basic-questions.md:

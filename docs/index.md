@@ -1,4 +1,4 @@
-# MyGear Wiki
+# MyGear Guide
 
 ## Getting Started
 
@@ -37,7 +37,7 @@ Feel, fiber, rubber families, and the traps between retail names and match-day s
 
 ---
 
-## How to use this wiki
+## How to use this guide
 
 1. **Shopping a first or next blade?** → Getting Started checklist, then Feel fundamentals.  
 2. **Stuck between two models?** → Fiber / rubber comparisons in Advanced.  

@@ -1,14 +1,14 @@
 ---
-name: wechat-to-wiki
+name: wechat-to-guide
 description: >-
   Fetches a WeChat public-account article URL (mp.weixin.qq.com), translates and
-  restructures it into an English MkDocs Material page for mygear-wiki, downloads
+  restructures it into an English MkDocs Material page for MyGear Guide, downloads
   images, updates mkdocs.yml nav, and previews locally. Use when the user pastes
-  a WeChat link, says 处理这篇到 mygear-wiki, or asks to publish a 公众号 article
-  into the wiki. Only a URL is required.
+  a WeChat link, says 处理这篇到 mygear-guide / guide, or asks to publish a 公众号
+  article into the guide. Only a URL is required.
 ---
 
-# WeChat → mygear-wiki
+# WeChat → MyGear Guide
 
 ## Trigger
 
@@ -37,10 +37,10 @@ imported: YYYY-MM-DD
 ```
 
 - Also append/update the same mapping in repo-root `sources.yaml` (inventory for humans; not part of the site nav).
-- Neutral wiki voice; product names and facts stay; remove personal blog branding.
+- Neutral guide voice; product names and facts stay; remove personal blog branding.
 - Skip ads / sponsor banners / unrelated promo images (Singapore Smash, 大球娱乐, unrelated rubber teases, etc.).
 - Prefer Material admonitions (`!!! tip`, `!!! note`, `!!! warning`) and compact tables.
-- Cross-link related existing wiki pages when useful.
+- Cross-link related existing guide pages when useful.
 - Do **not** `git commit` or `git push` unless the user explicitly asks.
 
 ## Pipeline
@@ -68,6 +68,7 @@ Choose the lightest fit:
 | Beginner buying checklist / basics / care | `docs/getting-started/` |
 | Metrics / feel theory / comparisons | `docs/advanced/` |
 | Product review / gear debate | `docs/advanced/<topic>.md` |
+| Store FAQ / price / shipping / log | `docs/shop/` |
 | Training / improvement | create `docs/technique-growth/` + nav if needed |
 
 - Filename: `kebab-case.md` from product or topic (English).
@@ -119,11 +120,11 @@ docs/getting-started/example.md:
 
 ### 5) Local preview
 
-`mkdocs serve` uses `site_url` path prefix. Tell the user:
+`site_url` is the site root. Tell the user:
 
-`http://127.0.0.1:8000/mygear-wiki/<section>/<page>/`
+`http://127.0.0.1:8000/<section>/<page>/`
 
-If serve looks stale or multiple `mkdocs` processes exist: kill and restart from `mygear-wiki` with `..\penv\Scripts\mkdocs.exe serve`.
+If serve looks stale or multiple `mkdocs` processes exist: kill and restart from the project root with `..\penv\Scripts\mkdocs.exe serve`.
 
 ### 6) Finish reply
 
@@ -142,6 +143,6 @@ https://mp.weixin.qq.com/s/79w00ptt3sK3aCcG4ObiQA
 or:
 
 ```text
-处理这篇到 mygear-wiki
+处理这篇到 MyGear Guide
 链接：https://mp.weixin.qq.com/s/xxxxxxxx
 ```

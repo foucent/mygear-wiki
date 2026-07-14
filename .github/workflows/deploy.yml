@@ -1,5 +1,5 @@
 # 文件路径: .github/workflows/deploy.yml
-name: Deploy Wiki
+name: Deploy Guide
 on:
   push:
     branches:
@@ -27,4 +27,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
           # Keep custom domain on every deploy (Settings → Pages alone is wiped otherwise)
-          cname: wiki.mygear.top
+          cname: guide.mygear.top
