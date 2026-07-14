@@ -1,0 +1,105 @@
+/* Clearer hierarchy: sidebar / TOC vs article body */
+
+:root {
+  --mg-ink: #0f172a;
+  --mg-ink-muted: #64748b;
+  --mg-nav-active-bg: rgba(13, 148, 136, 0.14);
+  --mg-nav-section: #0f766e;
+}
+
+/* —— Primary nav (left) —— */
+.md-nav--primary .md-nav__title {
+  color: var(--mg-ink);
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+
+.md-nav--primary .md-nav__link {
+  color: var(--mg-ink-muted);
+  font-weight: 500;
+}
+
+.md-nav--primary .md-nav__link:hover {
+  color: var(--mg-ink);
+}
+
+/*
+  Material marks parent sections as .md-nav__item--active when a child page
+  is open. Only highlight the leaf page link — never the section label.
+*/
+.md-nav--primary .md-nav__item--active > .md-nav__link:not(.md-nav__link--active) {
+  color: var(--mg-ink-muted) !important;
+  font-weight: 500 !important;
+  background: transparent !important;
+}
+
+.md-nav--primary .md-nav__item--section > .md-nav__link,
+.md-nav--primary .md-nav__item--section.md-nav__item--active > .md-nav__link {
+  color: var(--mg-nav-section) !important;
+  font-weight: 800 !important;
+  font-size: 0.78rem !important;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-top: 0.65rem;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.md-nav--primary .md-nav__link--active {
+  color: var(--mg-nav-section) !important;
+  font-weight: 700 !important;
+  background-color: var(--mg-nav-active-bg) !important;
+  border-radius: 0.35rem;
+}
+
+/* —— On-this-page TOC (right) —— */
+.md-nav--secondary .md-nav__title {
+  color: var(--mg-ink);
+  font-weight: 800;
+}
+
+.md-nav--secondary .md-nav__link {
+  color: var(--mg-ink-muted);
+  font-weight: 500;
+  border-left: 2px solid transparent;
+  padding-left: 0.65rem;
+}
+
+.md-nav--secondary .md-nav__link--active,
+.md-nav--secondary .md-nav__link:hover {
+  color: var(--mg-nav-section);
+  font-weight: 700;
+  border-left-color: var(--mg-nav-section);
+}
+
+/* —— Article headings (body size = theme default) —— */
+.md-typeset h1 {
+  color: var(--mg-ink);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  border-bottom: 2px solid rgba(13, 148, 136, 0.35);
+  padding-bottom: 0.35em;
+}
+
+.md-typeset h2 {
+  color: var(--mg-ink);
+  font-weight: 800;
+  margin-top: 1.6em;
+  padding-left: 0.55rem;
+  border-left: 4px solid var(--mg-nav-section);
+}
+
+.md-typeset h3 {
+  color: #134e4a;
+  font-weight: 700;
+}
+
+.md-typeset a {
+  font-weight: 600;
+}
+
+.md-typeset table th {
+  color: var(--mg-ink);
+  font-weight: 700;
+  background-color: rgba(13, 148, 136, 0.08);
+}
