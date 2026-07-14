@@ -1,5 +1,5 @@
 site_name: MyGear Wiki
-site_url: https://foucent.github.io/mygear-wiki/
+site_url: https://wiki.mygear.top/
 repo_url: https://mygear.top/
 repo_name: Shop now
 theme:
@@ -17,6 +17,15 @@ theme:
 
 plugins:
   - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@Mygear-top
+      name: YouTube
+    - icon: material/cart
+      link: https://mygear.top/
+      name: Shop at mygear.top
 
 # 导航配置在这里
 nav:
