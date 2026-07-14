@@ -104,6 +104,23 @@
   background-color: rgba(13, 148, 136, 0.08);
 }
 
+/* Keep price-style 2-column tables the same full width (blades vs rubbers) */
+.md-typeset .md-typeset__table {
+  width: 100%;
+}
+
+.md-typeset .md-typeset__table table,
+.md-typeset > table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.md-typeset table th:last-child,
+.md-typeset table td:last-child {
+  width: 7rem;
+  white-space: nowrap;
+}
+
 /* —— Tip at the bottom of every article (subtle) —— */
 .mg-page-note {
   margin: 1.5rem 0 0.25rem;
