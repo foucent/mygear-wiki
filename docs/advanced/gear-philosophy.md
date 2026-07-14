@@ -8,6 +8,8 @@ For the broader buying checklist—speed, spin, control, feel, power, and reserv
 
 ## 1. Elasticity
 
+![A Viscaria-style blade with black rubber](../images/elasticity-viscaria.jpg)
+
 Everyone has a personal preference—some like a livelier blade, others prefer something calmer. Both are valid. In general, though, **beginners should avoid blades that feel too springy**. Less rebound usually means easier control and fewer unforced errors.
 
 That is why many experienced coaches set kids up with older rubbers, lower sponge hardness, and no boosting: all of that keeps elasticity in check. Hand a beginner a top-tier setup—say, a **Viscaria** with **Tenergy 05**—and it may take a long time before they can actually manage the catapult. The equipment is simply too lively for them to "hold" the ball.
@@ -18,6 +20,8 @@ That is why many experienced coaches set kids up with older rubbers, lower spong
 ---
 
 ## 2. Hardness
+
+![Two bare blades showing similar faces with different handle finishes](../images/hardness-blades.jpg)
 
 For amateur players who rely more on **hitting** than looping—backhand flicks, forehand drives, quick counters—a **stiffer blade paired with softer rubber** can work very well.
 
@@ -35,6 +39,8 @@ There is no universal right answer. Let habit, experience, and small setup tweak
 ---
 
 ## 3. Core Wood: Kiri vs. Ayous
+
+![An inner-fiber style blade with a purple handle on the table](../images/core-innerforce.jpg)
 
 Most of the core-wood conversation for amateurs comes down to two types: **kiri** and **ayous**.
 

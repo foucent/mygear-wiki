@@ -1,9 +1,13 @@
 site_name: MyGear Wiki
 site_url: https://foucent.github.io/mygear-wiki/
-repo_url: https://github.com/foucent/mygear-wiki
+repo_url: https://mygear.top/
+repo_name: Shop now
 theme:
   name: material
-  language: en
+  custom_dir: overrides
+  language: custom
+  icon:
+    repo: material/cart
   features:
     - search.suggest
     - search.highlight
@@ -18,12 +22,17 @@ plugins:
 nav:
   - Home: index.md
   - Getting Started:
-      - Essential Questions: getting-started/basic-questions.md
-      - Blade Properties: getting-started/wood-types.md
-      - Setup Guide: getting-started/setup-guide.md
-  - Growth Strategy:
-      - Rapid Improvement: technique-growth/training-focus.md
-      - Training Drills: technique-growth/drills.md
-  - Deep Dive:
-      - Blade Performance Metrics: deep-dive/blade-performance-metrics.md
-      - Blade Elasticity, Hardness & Core: deep-dive/gear-philosophy.md
+      - Essential Questions Before Buying: getting-started/basic-questions.md
+      - Rubber Lifespan & Wear: getting-started/rubber-lifespan.md
+      - Accelerating With Gear: getting-started/accelerating-with-gear.md
+  - Advanced:
+      - Blade Performance Metrics: advanced/blade-performance-metrics.md
+      - Blade Elasticity, Hardness & Core: advanced/gear-philosophy.md
+      - Blade Feel Fundamentals: advanced/blade-feel-fundamentals.md
+      - Harimoto SZLC vs SALC: advanced/harimoto-szlc-vs-salc.md
+      - Why Tenergy Before Dignics: advanced/why-tenergy-before-dignics.md
+      - Hurricane Blue vs Orange Sponge: advanced/hurricane-blue-vs-orange-sponge.md
+      - Boosting Truth: advanced/boosting-truth.md
+      - Pro Special Blades: advanced/pro-special-blades.md
+      - Forehand Tensors Guide: advanced/forehand-tensors-guide.md
+      - Style and Gear Choices: advanced/style-and-gear-choices.md

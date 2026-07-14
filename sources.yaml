@@ -1,0 +1,52 @@
+# Hidden source registry for mygear-wiki pages (not shown on the site).
+# Each entry mirrors the YAML frontmatter on the matching Markdown file.
+
+docs/getting-started/basic-questions.md:
+  source_url: https://mp.weixin.qq.com/s/uqxz3iIhdzdJtUgf5ks1nA
+  source_title: "买一块底板，需要关注的几个基础问题"
+  imported: 2026-07-14
+
+docs/getting-started/rubber-lifespan.md:
+  source_url: https://mp.weixin.qq.com/s/JLzhdeX2-H3Z8q6kNxWcPw
+  source_title: "胶面起鳞、海绵内能消退，还能不能用，怎么用？"
+  imported: 2026-07-14
+
+docs/advanced/harimoto-szlc-vs-salc.md:
+  source_url: https://mp.weixin.qq.com/s/T0yAzaWtrasS8_tSLJ1ROQ
+  source_title: "每周乒器观察 217：张本SZLC和SALC的区别"
+  imported: 2026-07-14
+
+docs/advanced/why-tenergy-before-dignics.md:
+  source_url: https://mp.weixin.qq.com/s/6k_ctB0egpT4OZIFhvLvUw
+  source_title: "每周乒器观察 222：既然Dignics是必然终点，为什么还要打Tenergy"
+  imported: 2026-07-14
+
+docs/advanced/hurricane-blue-vs-orange-sponge.md:
+  source_url: https://mygear.top/blue-sponge-vs-orange-sponge-choosing-the-right-hurricane-3/
+  source_title: "Blue Sponge vs. Orange Sponge: Choosing the Right Hurricane 3"
+  imported: 2026-07-14
+
+docs/advanced/boosting-truth.md:
+  source_url: https://mp.weixin.qq.com/s/Av0frugbsDVge74reKV3Ig
+  source_title: "灌与不灌的真相"
+  imported: 2026-07-14
+
+docs/advanced/pro-special-blades.md:
+  source_url: https://mp.weixin.qq.com/s/lo-I4Cz0vyqWrigmAW5mgA
+  source_title: "奥恰洛夫ALC是外置，波尔ALC是内置"
+  imported: 2026-07-14
+
+docs/getting-started/accelerating-with-gear.md:
+  source_url: https://mp.weixin.qq.com/s/5bO144tg63pQ-ERPqc4qAQ
+  source_title: "谈谈器材“加速”的问题"
+  imported: 2026-07-14
+
+docs/advanced/forehand-tensors-guide.md:
+  source_url: https://mp.weixin.qq.com/s/2zyaun-5mEY-ekEpibUEvA
+  source_title: "这些正手涩套怎么用？"
+  imported: 2026-07-14
+
+docs/advanced/style-and-gear-choices.md:
+  source_url: https://mp.weixin.qq.com/s/w0xayyZzFWZJpjEo1kB7-w
+  source_title: "每周乒器观察 230：打法与器材，在传统与潮流之间选择"
+  imported: 2026-07-14

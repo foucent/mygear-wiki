@@ -1,0 +1,9 @@
+{% import "partials/languages/en.html" as language %}
+
+{% macro override(key) %}{{ {
+  "source": "Shop now"
+}[key] }}{% endmacro %}
+
+{% macro t(key) %}{{
+  override(key) or language.t(key)
+}}{% endmacro %}

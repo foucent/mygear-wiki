@@ -1,0 +1,15 @@
+---
+description: Auto-run WeChat article → mygear-wiki publish when user pastes mp.weixin.qq.com links
+alwaysApply: true
+---
+
+# WeChat → mygear-wiki
+
+When the user pastes an `mp.weixin.qq.com` link (alone or with「处理这篇到 mygear-wiki」):
+
+1. Read and follow the project skill: `.cursor/skills/wechat-to-wiki/SKILL.md`
+2. Execute end-to-end without waiting for section / filename / nav title unless fetch fails
+3. Never show source in the page body; always store `source_url` in YAML frontmatter + `sources.yaml`
+4. Do not commit or push unless explicitly asked
+
+Local preview base: `http://127.0.0.1:8000/mygear-wiki/`
