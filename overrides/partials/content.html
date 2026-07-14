@@ -5,10 +5,10 @@
 {% endif %}
 {{ page.content }}
 {% if not page.file.src_uri.startswith("shop/") %}
-<aside class="mg-page-note" role="note">
-  <p class="mg-page-note__title">Note</p>
+<div class="admonition note mg-page-note">
+  <p class="admonition-title">Note</p>
   <p>Translated from Chinese—please suggest fixes if wording looks off.</p>
-</aside>
+</div>
 {% endif %}
 {% include "partials/source-file.html" %}
 {% include "partials/feedback.html" %}

@@ -25,6 +25,10 @@ plugins:
 extra_css:
   - stylesheets/extra.css
 
+# Hot-reload overrides/ (template notes, header tweaks). docs/ is watched by default.
+watch:
+  - overrides
+
 extra:
   social:
     - icon: fontawesome/brands/youtube

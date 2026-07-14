@@ -104,42 +104,51 @@
   background-color: rgba(13, 148, 136, 0.08);
 }
 
-/* Keep price-style 2-column tables the same full width (blades vs rubbers) */
-.md-typeset .md-typeset__table {
-  width: 100%;
-}
-
-.md-typeset .md-typeset__table table,
-.md-typeset > table {
-  width: 100%;
+/*
+  Material defaults plain tables to display:inline-block (content-sized).
+  That makes the short blades list narrower than the long rubbers list.
+*/
+.md-typeset table:not([class]) {
+  display: table !important;
+  width: 100% !important;
+  max-width: 100%;
   table-layout: fixed;
 }
 
-.md-typeset table th:last-child,
-.md-typeset table td:last-child {
+.md-typeset table:not([class]) th:last-child,
+.md-typeset table:not([class]) td:last-child {
   width: 7rem;
   white-space: nowrap;
 }
 
-/* —— Tip at the bottom of every article (subtle) —— */
-.mg-page-note {
+/* —— Tip at the bottom of every article (subtle Material admonition) —— */
+.md-typeset .admonition.mg-page-note {
   margin: 1.5rem 0 0.25rem;
-  padding: 0.55rem 0.75rem;
-  border-radius: 0.25rem;
-  border-left: 2px solid rgba(15, 118, 110, 0.35);
-  background: #f1f5f9; /* soft gray, low contrast */
-  color: #64748b;
   font-size: 0.7rem;
-  line-height: 1.55;
+  border-color: rgba(15, 118, 110, 0.35);
+  /* force fill on mobile / Safari (theme can drop plain backgrounds) */
+  background-color: #eef6f5 !important;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+  color: #64748b;
 }
 
-.mg-page-note__title {
-  margin: 0 0 0.15rem;
+.md-typeset .admonition.mg-page-note > .admonition-title {
+  font-size: 0.7rem;
   font-weight: 600;
-  font-size: 0.7rem;
+  background-color: #e2f0ee !important;
+  border-color: rgba(15, 118, 110, 0.35);
   color: #64748b;
+  padding-top: 0.45rem;
+  padding-bottom: 0.45rem;
 }
 
-.mg-page-note p {
-  margin: 0;
+.md-typeset .admonition.mg-page-note > .admonition-title::before {
+  background-color: #0f766e;
+  opacity: 0.55;
+}
+
+.md-typeset .admonition.mg-page-note > :not(.admonition-title) {
+  font-size: 0.7rem;
+  color: #64748b;
 }
