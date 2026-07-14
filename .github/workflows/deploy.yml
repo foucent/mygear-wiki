@@ -26,3 +26,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
+          # Keep custom domain on every deploy (Settings → Pages alone is wiped otherwise)
+          cname: wiki.mygear.top
