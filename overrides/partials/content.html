@@ -1,0 +1,13 @@
+{% include "partials/tags.html" %}
+{% include "partials/actions.html" %}
+{% if "\u003ch1" not in page.content %}
+  <h1>{{ page.title | d(config.site_name, true)}}</h1>
+{% endif %}
+{{ page.content }}
+<aside class="mg-page-note" role="note">
+  <p class="mg-page-note__title">Note</p>
+  <p>Translated from Chinese—please suggest fixes if wording looks off.</p>
+</aside>
+{% include "partials/source-file.html" %}
+{% include "partials/feedback.html" %}
+{% include "partials/comments.html" %}

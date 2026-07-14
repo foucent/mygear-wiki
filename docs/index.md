@@ -58,6 +58,3 @@ Feel, fiber, rubber families, and the traps between retail names and match-day s
 2. **Stuck between two models?** → Fiber / rubber comparisons in Advanced.  
 3. **Ready to order or check shipping?** → Shop FAQ, price list, packaging.  
 4. **Gear feels dead or “too slow”?** → Lifespan, acceleration, and boosting notes.
-
-!!! tip "Search anytime"
-    Use the search bar for model names (Viscaria, SALC, D05, Hurricane…) or ideas like “kiri”, “inner”, “pilling”.
