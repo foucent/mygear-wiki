@@ -106,19 +106,22 @@
 
 /*
   Material defaults plain tables to display:inline-block (content-sized).
-  That makes the short blades list narrower than the long rubbers list.
+  Force full content width so short/long lists match — but let cells wrap
+  (do not pin the last column; that broke multi-column tables like Trade-offs).
 */
 .md-typeset table:not([class]) {
   display: table !important;
   width: 100% !important;
   max-width: 100%;
-  table-layout: fixed;
+  table-layout: auto;
+  box-sizing: border-box;
 }
 
-.md-typeset table:not([class]) th:last-child,
-.md-typeset table:not([class]) td:last-child {
-  width: 7rem;
-  white-space: nowrap;
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  white-space: normal;
 }
 
 /* —— Tip at the bottom of every article (subtle Material admonition) —— */
