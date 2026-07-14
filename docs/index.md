@@ -12,6 +12,17 @@ Buy, wear, and speed up with less guesswork.
 
 ---
 
+## Shop
+
+Ordering help from the store—quotes, prices, packing, and what’s changing.
+
+- [FAQ](shop/faq.md) — quote, payment, shipping regions, JP vs CN Butterfly  
+- [Price List](shop/price-list.md) — hot-selling blade & rubber USD reference prices  
+- [Packaging & Tracking](shop/packaging-and-tracking.md) — how orders are packed, trackers, timeline examples  
+- [Store Log](shop/log.md) — catalog, price, and logistics change history  
+
+---
+
 ## Advanced
 
 Feel, fiber, rubber families, and the traps between retail names and match-day specials.
@@ -38,19 +49,6 @@ Feel, fiber, rubber families, and the traps between retail names and match-day s
 - [Victas V15 Sticky](advanced/victas-v15-sticky.md) — lively sticky tensor vs D09c  
 - [XIOM Vega H Review](advanced/xiom-vega-h.md) — heavy Red V Dual; why it’s often skipped  
 - [Forehand Tensors Guide](advanced/forehand-tensors-guide.md) — Z03, Helix, DNA Platinum, G-1, T05 Hard  
-
----
-
-## Shop
-
-Ordering, list prices, packing / tracking, and store updates.
-
-| Page | What you’ll get |
-| --- | --- |
-| [FAQ](shop/faq.md) | Quote, payment, shipping regions, JP vs CN Butterfly |
-| [Price List](shop/price-list.md) | Hot-selling blade & rubber USD reference prices |
-| [Packaging & Tracking](shop/packaging-and-tracking.md) | How orders are packed, trackers, timeline examples |
-| [Store Log](shop/log.md) | Catalog, price, and logistics change history |
 
 ---
 
