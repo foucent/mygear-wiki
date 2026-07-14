@@ -124,6 +124,63 @@
   color: #fff !important;
 }
 
+/* —— Price list / shop CTA banner —— */
+.mg-cta {
+  margin: 1.25rem 0 0.5rem;
+  padding: 1.25rem 1.15rem 1.15rem;
+  border-radius: 0.65rem;
+  text-align: center;
+  background: linear-gradient(105deg, #0f766e 0%, #0d9488 55%, #115e59 100%);
+  box-shadow: 0 4px 14px rgba(15, 118, 110, 0.14);
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.mg-cta__title {
+  margin: 0 0 0.35rem !important;
+  color: #fff !important;
+  font-size: 0.98rem !important;
+  font-weight: 700 !important;
+  line-height: 1.3 !important;
+  letter-spacing: -0.01em;
+}
+
+.mg-cta__text {
+  margin: 0 auto 0.9rem !important;
+  max-width: 32rem;
+  color: rgba(255, 255, 255, 0.88) !important;
+  font-size: 0.78rem !important;
+  font-weight: 500 !important;
+  line-height: 1.45 !important;
+}
+
+.mg-cta__btn {
+  display: inline-block !important;
+  padding: 0.45rem 1.15rem !important;
+  border-radius: 999px !important;
+  background: #fff !important;
+  color: #0f766e !important;
+  font-weight: 700 !important;
+  font-size: 0.78rem !important;
+  text-decoration: none !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mg-cta__btn:hover {
+  background: #f0fdfa !important;
+  color: #115e59 !important;
+}
+
+@media (max-width: 600px) {
+  .mg-cta {
+    padding: 1.1rem 0.85rem 1rem;
+  }
+
+  .mg-cta__title {
+    font-size: 0.92rem !important;
+  }
+}
+
 .mg-unit {
   margin: 1.75rem 0 2.25rem;
   padding: 1rem 1rem 0.35rem;

@@ -12,18 +12,26 @@ Prices change with supply and FX. Final quotes (item + shipping) are confirmed o
 
 ---
 
-## Hot-selling Butterfly blades
+## Hot-selling blades
 
 | Product | Price (USD) |
 | --- | ---: |
 | Maze Advance | $75 |
+| Yasaka Ma Lin Carbon | $58 |
+| Nittaku Acoustic Carbon G-Revision | $108 |
+| DHS Hurricane Long 5 | $118 |
+| Donic Zhang Jike Original Carbon | $135 |
 | Harimoto Innerforce ALC | $136 |
+| Xiom An Jaehyun TMXi PRO | $138 |
 | Timo Boll ALC | $139 |
 | Viscaria | $139 |
 | Taksim (Butterfly King) | $140 |
+| Nittaku Goriki | $150 |
 | Ovtcharov Innerforce ALC | $155 |
+| Xiom Chrome XAXi | $158 |
 | Fan Zhendong ALC | $165 |
 | Zhang Jike ALC | $175 |
+| Stiga Cybershape Carbon CWT Truls Edition | $238 |
 
 ---
 
@@ -70,11 +78,15 @@ Prices change with supply and FX. Final quotes (item + shipping) are confirmed o
 | Tenergy 19 | $65 |
 | Dignics 05 | $68 |
 
-!!! warning "Stock notice"
-    This list focuses on sheets and blanks popular with Chinese players. Some items need **2–3 days** to restock. Ask on WhatsApp for live availability.
+<div class="admonition note mg-page-note">
+  <p class="admonition-title">Stock notice</p>
+  <p>This catalog is curated from hot-selling products popular among Chinese table tennis players. Some items may require <strong>2-3 days</strong> for restock. Please contact us via WhatsApp to verify real-time availability.</p>
+</div>
 
 ---
 
-## Next step
-
-Message your target setup for a personalized quote (blade + rubbers + shipping). Shop: [mygear.top](https://mygear.top/).
+<div class="mg-cta" markdown="0">
+  <p class="mg-cta__title">Get Your Customized Racket Quote Today!</p>
+  <p class="mg-cta__text">Message me with your desired setup for a personalized final quote including blades and rubbers.</p>
+  <a class="mg-cta__btn" href="https://wa.me/8618627156285?text=Hello%2C%20I%20want%20a%20customized%20racket%20quote.%0D%0A%0D%0APlease%20help%20me%20with%20blades%20%2B%20rubbers%20%2B%20shipping.%0D%0A%0D%0A%2AURL%3A%2A%20https%3A%2F%2Fguide.mygear.top%2Fshop%2Fprice-list%2F%0D%0A">Consult via WhatsApp for Best Price</a>
+</div>
