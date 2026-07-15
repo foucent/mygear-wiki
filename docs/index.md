@@ -29,15 +29,9 @@ Ordering help from the store—quotes, prices, packing, and what’s changing.
 
 Feel, fiber, rubber families, and the traps between retail names and match-day specials.
 
-### Feel & selection fundamentals
-
-- [Elasticity, Hardness, and Core Wood](advanced/gear-philosophy.md) — kiri vs ayous, force-level bounce  
-- [Style and Gear Choices](advanced/style-and-gear-choices.md) — underspin vs topspin systems; tradition vs trend  
-
 ### Blades & fiber stories
 
 - [Harimoto SZLC vs SALC](advanced/harimoto-szlc-vs-salc.md) — same skeleton, different fiber and thickness  
-- [Pro Special Blades](advanced/pro-special-blades.md) — when handle names don’t match retail structure  
 
 ### Rubbers & migration paths
 
@@ -45,9 +39,6 @@ Feel, fiber, rubber families, and the traps between retail names and match-day s
 - [Hurricane Blue vs Orange Sponge](advanced/hurricane-blue-vs-orange-sponge.md) — No. 20 crisp vs No. 22 dense support  
 - [Choosing Thickness vs Hardness](advanced/rubber-thickness-and-hardness.md) — 40°/2.1 vs 39°/2.15 and the 4.0 mm rule  
 - [Boosting Truth](advanced/boosting-truth.md) — boost, factory energy, and china vs mild-tack paths  
-- [Victas V15 Sticky](advanced/victas-v15-sticky.md) — lively sticky tensor vs D09c  
-- [XIOM Vega H Review](advanced/xiom-vega-h.md) — heavy Red V Dual; why it’s often skipped  
-- [Forehand Tensors Guide](advanced/forehand-tensors-guide.md) — Z03, Helix, DNA Platinum, G-1, T05 Hard  
 
 ---
 

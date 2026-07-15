@@ -2,7 +2,7 @@
 
 This is a practical buying guide for recreational players. When you choose a blade, start with three feel fundamentals: **elasticity**, **hardness**, and **core wood**. Get those right, and brand, weight, and rubber pairing become much easier to decide.
 
-For a broader metrics checklist (speed, spin, control, power, reserve power), see [Key Performance Metrics When Buying a Blade](blade-performance-metrics.md). For a shorter companion note on the same themes, see [Elasticity, Hardness, and Core Wood](../advanced/gear-philosophy.md).
+For a broader metrics checklist (speed, spin, control, power, reserve power), see [Key Performance Metrics When Buying a Blade](blade-performance-metrics.md).
 
 ---
 
