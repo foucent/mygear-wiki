@@ -6,9 +6,14 @@ imported: 2026-07-14
 
 # Pricing & Sourcing
 
-Hot-selling blades and rubbers for sourcing reference. **Last updated: 15 Jul 2026.**
+Hot-selling blades and rubbers — live sourcing prices in USD. **Last updated: 15 Jul 2026.**
 
-Prices change with supply and FX. Final quotes (item + shipping) are confirmed on WhatsApp—see [FAQ & Updates](faq-and-updates.md).
+Prices move with supply and FX. Tell me your setup and destination on WhatsApp for a final total (items + shipping)—see [FAQ & Updates](faq-and-updates.md).
+
+<div class="mg-cta mg-cta--compact" markdown="0">
+  <p class="mg-cta__text">WhatsApp for your setup + shipping total.</p>
+  <a class="mg-cta__btn" href="https://wa.me/8618627156285?text=Hello%2C%20I%20want%20a%20customized%20racket%20quote.%0D%0A%0D%0APlease%20help%20me%20with%20blades%20%2B%20rubbers%20%2B%20shipping.%0D%0A%0D%0A%2AURL%3A%2A%20https%3A%2F%2Fguide.mygear.top%2Fshop%2Fpricing-and-sourcing%2F%0D%0A">WhatsApp quote</a>
+</div>
 
 ---
 
@@ -80,10 +85,7 @@ Prices change with supply and FX. Final quotes (item + shipping) are confirmed o
   <p>This catalog is curated from hot-selling products popular among Chinese table tennis players. Sourcing these items usually means a temporary buy from our suppliers, so please allow an extra <strong>2–3 days</strong> for inbound shipping before we send your order.</p>
 </div>
 
----
-
-<div class="mg-cta" markdown="0">
-  <p class="mg-cta__title">Get Your Customized Racket Quote Today!</p>
-  <p class="mg-cta__text">Message me with your desired setup for a personalized final quote including blades and rubbers.</p>
-  <a class="mg-cta__btn" href="https://wa.me/8618627156285?text=Hello%2C%20I%20want%20a%20customized%20racket%20quote.%0D%0A%0D%0APlease%20help%20me%20with%20blades%20%2B%20rubbers%20%2B%20shipping.%0D%0A%0D%0A%2AURL%3A%2A%20https%3A%2F%2Fguide.mygear.top%2Fshop%2Fpricing-and-sourcing%2F%0D%0A">Consult via WhatsApp for Best Price</a>
+<div class="admonition note mg-page-note">
+  <p class="admonition-title">Related</p>
+  <p><a href="/shop/faq-and-updates/">FAQ & Updates</a> · <a href="/shop/shipping-and-delivery/">Shipping & Delivery</a></p>
 </div>
