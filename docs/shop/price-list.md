@@ -6,7 +6,7 @@ imported: 2026-07-14
 
 # Price List
 
-Hot-selling blades and rubbers for sourcing reference. **Last updated: 22 Jun 2026.**
+Hot-selling blades and rubbers for sourcing reference. **Last updated: 15 Jul 2026.**
 
 Prices change with supply and FX. Final quotes (item + shipping) are confirmed on WhatsApp—see [FAQ](faq.md).
 
