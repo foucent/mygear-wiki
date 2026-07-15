@@ -14,73 +14,70 @@ Prices change with supply and FX. Final quotes (item + shipping) are confirmed o
 
 ## Hot-selling blades
 
-| Product | Price (USD) |
-| --- | ---: |
-| Maze Advance | $75 |
-| Yasaka Ma Lin Carbon | $58 |
-| Nittaku Acoustic Carbon G-Revision | $108 |
-| DHS Hurricane Long 5 | $118 |
-| Donic Zhang Jike Original Carbon | $135 |
-| Harimoto Innerforce ALC | $136 |
-| Xiom An Jaehyun TMXi PRO | $138 |
-| Timo Boll ALC | $139 |
-| Viscaria | $139 |
-| Taksim (Butterfly King) | $140 |
-| Nittaku Goriki | $150 |
-| Ovtcharov Innerforce ALC | $155 |
-| Xiom Chrome XAXi | $158 |
-| Fan Zhendong ALC | $165 |
-| Zhang Jike ALC | $175 |
-| Stiga Cybershape Carbon CWT Truls Edition | $238 |
+<div class="mg-price-table" markdown="1">
+
+| | Product | Price (USD) |
+| :---: | --- | ---: |
+| ![ ](../images/price-list/blades/maze-advance.jpg) | Maze Advance | $75 |
+| ![ ](../images/price-list/blades/yasaka-ma-lin-carbon.jpg) | Yasaka Ma Lin Carbon | $58 |
+| ![ ](../images/price-list/blades/nittaku-acoustic-carbon-g-revision.jpg) | Nittaku Acoustic Carbon G-Revision | $108 |
+| ![ ](../images/price-list/blades/dhs-hurricane-long-5.jpg) | DHS Hurricane Long 5 | $118 |
+| ![ ](../images/price-list/blades/donic-zhang-jike-original-carbon.jpg) | Donic Zhang Jike Original Carbon | $135 |
+| ![ ](../images/price-list/blades/harimoto-innerforce-alc.jpg) | Harimoto Innerforce ALC | $136 |
+| ![ ](../images/price-list/blades/xiom-an-jaehyun-tmxi-pro.jpg) | Xiom An Jaehyun TMXi PRO | $138 |
+| ![ ](../images/price-list/blades/timo-boll-alc.jpg) | Timo Boll ALC | $139 |
+| ![ ](../images/price-list/blades/viscaria.jpg) | Viscaria | $139 |
+| ![ ](../images/price-list/blades/taksim-butterfly-king.jpg) | Taksim (Butterfly King) | $140 |
+| ![ ](../images/price-list/blades/nittaku-goriki.jpg) | Nittaku Goriki | $150 |
+| ![ ](../images/price-list/blades/ovtcharov-innerforce-alc.jpg) | Ovtcharov Innerforce ALC | $155 |
+| ![ ](../images/price-list/blades/xiom-chrome-xaxi.jpg) | Xiom Chrome XAXi | $158 |
+| ![ ](../images/price-list/blades/fan-zhendong-alc.jpg) | Fan Zhendong ALC | $165 |
+| ![ ](../images/price-list/blades/zhang-jike-alc.jpg) | Zhang Jike ALC | $175 |
+| ![ ](../images/price-list/blades/stiga-cybershape-carbon-cwt-truls.jpg) | Stiga Cybershape Carbon CWT Truls Edition | $238 |
+
+</div>
 
 ---
 
 ## Hot-selling rubbers
 
-| Product | Price (USD) |
-| --- | ---: |
-| Loki RXTON I | $2 |
-| Loki RXTON III | $5 |
-| Loki RXTON V (Orange Sponge) | $6 |
-| Loki RXTON VII | $11 |
-| Loki RXTON IX National (Blue Sponge) | $18 |
-| Loki Arthur China | $14 |
-| Friendship 729 Popular | $3 |
-| Loki T3 | $10 |
-| Palio CJ8000 | $5 |
-| Reactor Platinum Power | $12 |
-| Friendship 729 Battle II National | $25 |
-| Galaxy Moon Speed | $11 |
-| Galaxy Jupiter III | $10 |
-| XIOM Vega Asia | $25 |
-| XIOM Vega China | $30 |
-| Stiga DNA Dragon Grip | $28 |
-| DNA Hybrid M (Red/Black) | $38 |
-| DNA Platinum XH (Red/Black) | $38 |
-| Stiga DNA Pro | $29 |
-| Gewo Proton Neo 450 | $29 |
-| Gewo Venom Green | $46 |
-| Tibhar K1 | $25 |
-| Tibhar K1 Plus | $27 |
-| Tibhar K2 | $27 |
-| Tibhar K3 | $49 |
-| Tibhar Aurus | $25 |
-| Donic Bluefire F1 | $30 |
-| Yasaka Thunder Dragon | $17 |
-| Yasaka Flying Dragon | $21 |
-| Yasaka Flying Dragon Special Edition | $32 |
-| Yasaka Kanglong | $20 |
-| Victas V>102 | $34 |
-| Victas Spectol S3 | $34 |
-| Victas V>15 Stiff | $38 |
-| FLEXTRA | $25 |
-| GLAYZER 09C | $47 |
-| Tenergy 19 | $65 |
-| Dignics 05 | $68 |
+<div class="mg-price-table" markdown="1">
+
+| | Product | Price (USD) |
+| :---: | --- | ---: |
+| ![ ](../images/price-list/rubbers/loki-rxton-v.jpg) | Loki RXTON V (Orange Sponge) | $6 |
+| ![ ](../images/price-list/rubbers/loki-rxton-ix-national.jpg) | Loki RXTON IX National (Blue Sponge) | $18 |
+| ![ ](../images/price-list/rubbers/palio-cj8000.jpg) | Palio CJ8000 | $5 |
+| ![ ](../images/price-list/rubbers/friendship-729-battle-ii-national.jpg) | Friendship 729 Battle II National | $25 |
+| ![ ](../images/price-list/rubbers/galaxy-moon-speed.jpg) | Galaxy Moon Speed | $11 |
+| ![ ](../images/price-list/rubbers/galaxy-jupiter-iii.jpg) | Galaxy Jupiter III | $10 |
+| ![ ](../images/price-list/rubbers/xiom-vega-asia.jpg) | XIOM Vega Asia | $25 |
+| ![ ](../images/price-list/rubbers/xiom-vega-china.jpg) | XIOM Vega China | $30 |
+| ![ ](../images/price-list/rubbers/stiga-dna-dragon-grip.jpg) | Stiga DNA Dragon Grip | $28 |
+| ![ ](../images/price-list/rubbers/stiga-dna-hybrid-m.jpg) | DNA Hybrid M (Red/Black) | $38 |
+| ![ ](../images/price-list/rubbers/stiga-dna-platinum-xh.jpg) | DNA Platinum XH (Red/Black) | $38 |
+| ![ ](../images/price-list/rubbers/stiga-dna-pro.jpg) | Stiga DNA Pro | $29 |
+| ![ ](../images/price-list/rubbers/gewo-proton-neo-450.jpg) | Gewo Proton Neo 450 | $29 |
+| ![ ](../images/price-list/rubbers/tibhar-k1.jpg) | Tibhar K1 | $25 |
+| ![ ](../images/price-list/rubbers/tibhar-k1-plus.jpg) | Tibhar K1 Plus | $27 |
+| ![ ](../images/price-list/rubbers/tibhar-k2.jpg) | Tibhar K2 | $27 |
+| ![ ](../images/price-list/rubbers/tibhar-k3.jpg) | Tibhar K3 | $49 |
+| ![ ](../images/price-list/rubbers/tibhar-aurus.jpg) | Tibhar Aurus | $25 |
+| ![ ](../images/price-list/rubbers/yasaka-thunder-dragon.jpg) | Yasaka Thunder Dragon | $17 |
+| ![ ](../images/price-list/rubbers/yasaka-flying-dragon.jpg) | Yasaka Flying Dragon | $21 |
+| ![ ](../images/price-list/rubbers/victas-v102.jpg) | Victas V>102 | $34 |
+| ![ ](../images/price-list/rubbers/victas-spectol-s3.jpg) | Victas Spectol S3 | $34 |
+| ![ ](../images/price-list/rubbers/victas-v15-stiff.jpg) | Victas V>15 Stiff | $38 |
+| ![ ](../images/price-list/rubbers/flextra.jpg) | FLEXTRA | $25 |
+| ![ ](../images/price-list/rubbers/glayzer-09c.jpg) | GLAYZER 09C | $47 |
+| ![ ](../images/price-list/rubbers/tenergy-19.jpg) | Tenergy 19 | $65 |
+| ![ ](../images/price-list/rubbers/dignics-05.jpg) | Dignics 05 | $68 |
+
+</div>
 
 <div class="admonition note mg-page-note">
   <p class="admonition-title">Stock notice</p>
-  <p>This catalog is curated from hot-selling products popular among Chinese table tennis players. Some items may require <strong>2-3 days</strong> for restock. Please contact us via WhatsApp to verify real-time availability.</p>
+  <p>This catalog is curated from hot-selling products popular among Chinese table tennis players. Sourcing these items usually means a temporary buy from our suppliers, so please allow an extra <strong>2–3 days</strong> for inbound shipping before we send your order.</p>
 </div>
 
 ---

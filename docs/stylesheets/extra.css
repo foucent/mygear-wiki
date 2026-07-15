@@ -422,6 +422,29 @@ body.mg-lightbox-open {
   background-color: rgba(13, 148, 136, 0.08);
 }
 
+/* —— Price list product thumbs —— */
+.md-typeset .mg-price-table table td:first-child {
+  width: 3.25rem;
+  padding: 0.35rem 0.4rem;
+  vertical-align: middle;
+}
+
+.md-typeset .mg-price-table table img {
+  width: 2.75rem;
+  height: 2.75rem;
+  object-fit: cover;
+  border-radius: 0.3rem;
+  margin: 0 !important;
+  display: block;
+  background: #e2e8f0;
+  cursor: zoom-in;
+}
+
+.md-typeset .mg-price-table table img:hover {
+  outline: 2px solid rgba(15, 118, 110, 0.45);
+  outline-offset: 1px;
+}
+
 /* —— Tip at the bottom of every article (subtle Material admonition) —— */
 .md-typeset .admonition.mg-page-note {
   margin: 1.5rem 0 0.25rem;
