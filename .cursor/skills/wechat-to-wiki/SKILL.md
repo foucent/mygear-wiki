@@ -68,7 +68,7 @@ Choose the lightest fit:
 | Beginner buying checklist / basics / care | `docs/getting-started/` |
 | Metrics / feel theory / comparisons | `docs/advanced/` |
 | Product review / gear debate | `docs/advanced/<topic>.md` |
-| Store FAQ / price / shipping / log | `docs/shop/` |
+| Shop FAQ & Updates / Pricing & Sourcing / Shipping & Delivery | `docs/shop/` |
 | Training / improvement | create `docs/technique-growth/` + nav if needed |
 
 - Filename: `kebab-case.md` from product or topic (English).

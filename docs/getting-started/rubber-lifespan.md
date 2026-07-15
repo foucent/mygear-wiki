@@ -99,4 +99,4 @@ Boosting / expander on the sponge can also help **soften** the problem for a whi
 | Hard / lively blade | Worn sponge is more forgivable |
 | Dropping balls on pilled outers | More impact in the stroke, or light boost, or replace |
 
-Related: [Key Performance Metrics](blade-performance-metrics.md) · [Essential Questions Before Buying](essential-questions-before-buying.md)
+Related: [Blade Performance Metrics](blade-performance-metrics.md) · [Essential Questions Before Buying](essential-questions-before-buying.md)

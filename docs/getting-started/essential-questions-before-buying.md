@@ -127,4 +127,4 @@ Before you click buy:
 5. Outer ply matches your rubber and touch style?
 6. Construction is a common, well-documented type?
 
-For the next layer—speed, spin, control, power, and reserve power—see [Key Performance Metrics When Buying a Blade](blade-performance-metrics.md). For elasticity, hardness, and core wood, see [Blade Feel Fundamentals](blade-feel-fundamentals.md).
+For the next layer—speed, spin, control, power, and reserve power—see [Blade Performance Metrics](blade-performance-metrics.md). For elasticity, hardness, and core wood, see [Blade Feel Fundamentals](blade-feel-fundamentals.md).

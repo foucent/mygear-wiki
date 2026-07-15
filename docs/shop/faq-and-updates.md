@@ -6,7 +6,7 @@ imported: 2026-07-14
 
 # FAQ & Updates
 
-Quick answers for ordering, payment, shipping, and authenticity—plus store updates. Packing photos and trackers: [Shipping & Delivery](shipping-and-delivery.md). List prices: [Pricing & Sourcing](pricing-and-sourcing.md).
+Quick answers for ordering, payment, shipping, and authenticity—plus store updates. See also [Shipping & Delivery](shipping-and-delivery.md) and [Pricing & Sourcing](pricing-and-sourcing.md).
 
 ---
 
@@ -80,5 +80,5 @@ A boxed racket is about **600 g**, but shipping is charged per **1 kg**. You can
 
 <div class="admonition note mg-page-note">
   <p class="admonition-title">Related</p>
-  <p>List prices → <a href="pricing-and-sourcing.md">Pricing & Sourcing</a> · Packing & trackers → <a href="shipping-and-delivery.md">Shipping & Delivery</a></p>
+  <p><a href="pricing-and-sourcing.md">Pricing & Sourcing</a> · <a href="shipping-and-delivery.md">Shipping & Delivery</a></p>
 </div>
