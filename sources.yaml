@@ -1,7 +1,7 @@
 # Hidden source registry for MyGear Guide pages (not shown on the site).
 # Each entry mirrors the YAML frontmatter on the matching Markdown file.
 
-docs/getting-started/basic-questions.md:
+docs/getting-started/essential-questions-before-buying.md:
   source_url: https://mp.weixin.qq.com/s/uqxz3iIhdzdJtUgf5ks1nA
   source_title: "买一块底板，需要关注的几个基础问题"
   imported: 2026-07-14
@@ -36,32 +36,27 @@ docs/getting-started/accelerating-with-gear.md:
   source_title: "谈谈器材“加速”的问题"
   imported: 2026-07-14
 
-docs/shop/faq.md:
+docs/shop/faq-and-updates.md:
   source_url: https://mygear.top/faq/
   source_title: "FAQ"
   imported: 2026-07-14
 
-docs/shop/price-list.md:
+docs/shop/pricing-and-sourcing.md:
   source_url: https://mygear.top/sourcing-price-list/
   source_title: "Hot-Selling Equipment Sourcing Price List"
   imported: 2026-07-14
 
-docs/shop/packaging-and-tracking.md:
+docs/shop/shipping-and-delivery.md:
   source_url: https://mygear.top/cases/
   source_title: "Order Packaging | Tracking & Timelines"
   imported: 2026-07-14
 
-docs/shop/log.md:
-  source_url: https://mygear.top/log/
-  source_title: "Log"
-  imported: 2026-07-14
-
-docs/advanced/rubber-thickness-and-hardness.md:
+docs/advanced/choosing-thickness-vs-hardness.md:
   source_url: https://mygear.top/how-to-choose-rubber-thickness-and-hardness/
   source_title: "How to Choose Rubber Thickness and Hardness"
   imported: 2026-07-14
 
-docs/advanced/hurricane-3-boosting-method.md:
+docs/getting-started/hurricane-3-multi-stage-boosting.md:
   source_url: https://mygear.top/hurricane-3-boosting-guide-advanced-multi-stage-method/
   source_title: "Hurricane 3 Boosting Guide: Advanced Multi-Stage Method"
   imported: 2026-07-14

@@ -1,4 +1,4 @@
-site_name: MyGear Guide
+﻿site_name: MyGear Guide
 site_url: https://guide.mygear.top/
 repo_url: https://mygear.top/
 repo_name: Shop now
@@ -21,6 +21,15 @@ theme:
 
 plugins:
   - search
+  - redirects:
+      redirect_maps:
+        getting-started/basic-questions.md: getting-started/essential-questions-before-buying.md
+        getting-started/hurricane-3-boosting-method.md: getting-started/hurricane-3-multi-stage-boosting.md
+        advanced/rubber-thickness-and-hardness.md: advanced/choosing-thickness-vs-hardness.md
+        shop/faq.md: shop/faq-and-updates.md
+        shop/price-list.md: shop/pricing-and-sourcing.md
+        shop/packaging-and-tracking.md: shop/shipping-and-delivery.md
+        shop/log.md: shop/faq-and-updates.md
 
 markdown_extensions:
   - toc
@@ -59,22 +68,21 @@ extra:
 nav:
   - Home: index.md
   - Getting Started:
-      - Essential Questions Before Buying: getting-started/basic-questions.md
+      - Essential Questions Before Buying: getting-started/essential-questions-before-buying.md
       - Blade Performance Metrics: getting-started/blade-performance-metrics.md
       - Blade Feel Fundamentals: getting-started/blade-feel-fundamentals.md
       - Accelerating With Gear: getting-started/accelerating-with-gear.md
-      - Hurricane 3 Multi-Stage Boosting: getting-started/hurricane-3-boosting-method.md
+      - Hurricane 3 Multi-Stage Boosting: getting-started/hurricane-3-multi-stage-boosting.md
   - Advanced:
       - Harimoto SZLC vs SALC: advanced/harimoto-szlc-vs-salc.md
       - Why Tenergy Before Dignics: advanced/why-tenergy-before-dignics.md
       - Hurricane Blue vs Orange Sponge: advanced/hurricane-blue-vs-orange-sponge.md
-      - Choosing Thickness vs Hardness: advanced/rubber-thickness-and-hardness.md
+      - Choosing Thickness vs Hardness: advanced/choosing-thickness-vs-hardness.md
       - Boosting Truth: advanced/boosting-truth.md
   - Shop:
-      - FAQ: shop/faq.md
-      - Price List: shop/price-list.md
-      - Packaging & Tracking: shop/packaging-and-tracking.md
-      - Store Log: shop/log.md
+      - FAQ & Updates: shop/faq-and-updates.md
+      - Pricing & Sourcing: shop/pricing-and-sourcing.md
+      - Shipping & Delivery: shop/shipping-and-delivery.md
       - Used by model:
           - Overview: shop/products/index.md
           - Butterfly Marcos Freitas ALC: shop/products/butterfly-marcos-freitas-alc.md

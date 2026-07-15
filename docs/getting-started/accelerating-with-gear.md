@@ -1,4 +1,4 @@
----
+﻿---
 source_url: https://mp.weixin.qq.com/s/5bO144tg63pQ-ERPqc4qAQ
 source_title: "谈谈器材“加速”的问题"
 imported: 2026-07-14
@@ -63,4 +63,4 @@ Trade-off: lighter equipment often thins ball quality. Check whether your game i
 2. Elasticity: are you still fighting spring you could own with practice?
 3. Weight: is total kit helping swing tempo or dragging it?
 
-Related: [Essential Questions Before Buying](basic-questions.md) · [Blade Performance Metrics](blade-performance-metrics.md)
+Related: [Essential Questions Before Buying](essential-questions-before-buying.md) · [Blade Performance Metrics](blade-performance-metrics.md)

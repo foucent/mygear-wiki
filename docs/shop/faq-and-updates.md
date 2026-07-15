@@ -1,10 +1,46 @@
----
-source_url: https://mygear.top/log/
-source_title: "Log"
+﻿---
+source_url: https://mygear.top/faq/
+source_title: "FAQ"
 imported: 2026-07-14
 ---
 
-# Store Log
+# FAQ & Updates
+
+Quick answers for ordering, payment, shipping, and authenticity—plus store updates. Packing photos and trackers: [Shipping & Delivery](shipping-and-delivery.md). List prices: [Pricing & Sourcing](pricing-and-sourcing.md).
+
+---
+
+## Ordering & payment
+
+**How can I get a final quote and place an order?**  
+Send your location or postal code via WhatsApp. You’ll get a total that includes **product + shipping**.
+
+**How can I pay?**  
+To keep prices low, we recommend [Wise](https://wise.com/invite/ahpc/pingl621), Alipay, or bank transfer. Register on Wise in advance—verification can take time.
+
+---
+
+## Shipping
+
+**How long does delivery take?**  
+Transit is often around **10 days**. Counting processing and occasional courier delay, plan for about **15 days**. Real packing and timeline examples: [Shipping & Delivery](shipping-and-delivery.md).
+
+**Are there restricted regions?**  
+Shipping to **India, Brazil, Ukraine, Nigeria, and Iran** is not recommended (high duties / difficult logistics).
+
+**Can I save on shipping?**  
+A boxed racket is about **600 g**, but shipping is charged per **1 kg**. You can usually add rubbers or balls up to about **400 g** without raising the shipping tier. Liquid shipping is available when needed.
+
+---
+
+## Authenticity
+
+**JP vs CN Butterfly blades?**  
+**CN** versions include a serial code for online verification; **JP** versions do not. Both are authentic. Choose CN if you want online authenticity tracking.
+
+---
+
+## Updates
 
 | Date | Update |
 | --- | --- |
@@ -40,6 +76,9 @@ imported: 2026-07-14
 | **2026-03-07** | **Added:** brand-new Butterfly Timo Boll ALC / Spirit. |
 | **2026-03-06** | Rubber prices up avg **$1** (FX). |
 | **2026-03-01** | Rubber prices up avg **$1** (FX). |
-| **2026-03-01** | Store Log started. |
+| **2026-03-01** | Updates started. |
 
-Related: [FAQ](faq.md) · [Price List](price-list.md) · [Packaging & Tracking](packaging-and-tracking.md)
+<div class="admonition note mg-page-note">
+  <p class="admonition-title">Related</p>
+  <p>List prices → <a href="pricing-and-sourcing.md">Pricing & Sourcing</a> · Packing & trackers → <a href="shipping-and-delivery.md">Shipping & Delivery</a></p>
+</div>

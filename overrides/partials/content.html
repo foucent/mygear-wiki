@@ -3,9 +3,9 @@
 {% if "\u003ch1" not in page.content %}
   <h1>{{ page.title | d(config.site_name, true)}}</h1>
 {% endif %}
-{% if page.file.src_uri == "shop/faq.md" %}<div class="mg-faq">{% endif %}
+{% if page.file.src_uri == "shop/faq-and-updates.md" %}<div class="mg-faq">{% endif %}
 {{ page.content }}
-{% if page.file.src_uri == "shop/faq.md" %}</div>{% endif %}
+{% if page.file.src_uri == "shop/faq-and-updates.md" %}</div>{% endif %}
 {% if not page.file.src_uri.startswith("shop/") %}
 <div class="admonition note mg-page-note">
   <p class="admonition-title">Note</p>

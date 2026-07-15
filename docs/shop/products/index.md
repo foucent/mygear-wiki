@@ -1,4 +1,4 @@
-# Used stock by model
+﻿# Used stock by model
 
 Each model page lists **current used units** with photos. Final price (item + shipping) is confirmed on WhatsApp.
 

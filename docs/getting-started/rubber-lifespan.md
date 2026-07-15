@@ -1,4 +1,4 @@
----
+﻿---
 source_url: https://mp.weixin.qq.com/s/JLzhdeX2-H3Z8q6kNxWcPw
 source_title: "胶面起鳞、海绵内能消退，还能不能用，怎么用？"
 imported: 2026-07-14
@@ -99,4 +99,4 @@ Boosting / expander on the sponge can also help **soften** the problem for a whi
 | Hard / lively blade | Worn sponge is more forgivable |
 | Dropping balls on pilled outers | More impact in the stroke, or light boost, or replace |
 
-Related: [Key Performance Metrics](blade-performance-metrics.md) · [Essential Questions Before Buying](basic-questions.md)
+Related: [Key Performance Metrics](blade-performance-metrics.md) · [Essential Questions Before Buying](essential-questions-before-buying.md)

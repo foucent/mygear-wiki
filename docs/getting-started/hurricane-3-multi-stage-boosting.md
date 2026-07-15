@@ -1,4 +1,4 @@
----
+﻿---
 source_url: https://mygear.top/hurricane-3-boosting-guide-advanced-multi-stage-method/
 source_title: "Hurricane 3 Boosting Guide: Advanced Multi-Stage Method"
 imported: 2026-07-14
@@ -65,4 +65,4 @@ One layer of water-based glue on blade and rubber; when dry, mount as usual.
 
 **Curl:** After this process H3 often curls hard. If mounting is difficult, flatten under books (plastic sheet in between) for **1–2 hours**.
 
-Related: [Hurricane Blue vs Orange Sponge](../advanced/hurricane-blue-vs-orange-sponge.md) · [Choosing Thickness vs Hardness](../advanced/rubber-thickness-and-hardness.md)
+Related: [Hurricane Blue vs Orange Sponge](../advanced/hurricane-blue-vs-orange-sponge.md) · [Choosing Thickness vs Hardness](../advanced/choosing-thickness-vs-hardness.md)

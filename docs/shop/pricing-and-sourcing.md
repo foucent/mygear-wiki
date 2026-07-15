@@ -1,14 +1,14 @@
----
+﻿---
 source_url: https://mygear.top/sourcing-price-list/
 source_title: "Hot-Selling Equipment Sourcing Price List"
 imported: 2026-07-14
 ---
 
-# Price List
+# Pricing & Sourcing
 
 Hot-selling blades and rubbers for sourcing reference. **Last updated: 15 Jul 2026.**
 
-Prices change with supply and FX. Final quotes (item + shipping) are confirmed on WhatsApp—see [FAQ](faq.md).
+Prices change with supply and FX. Final quotes (item + shipping) are confirmed on WhatsApp—see [FAQ & Updates](faq-and-updates.md).
 
 ---
 
@@ -85,5 +85,5 @@ Prices change with supply and FX. Final quotes (item + shipping) are confirmed o
 <div class="mg-cta" markdown="0">
   <p class="mg-cta__title">Get Your Customized Racket Quote Today!</p>
   <p class="mg-cta__text">Message me with your desired setup for a personalized final quote including blades and rubbers.</p>
-  <a class="mg-cta__btn" href="https://wa.me/8618627156285?text=Hello%2C%20I%20want%20a%20customized%20racket%20quote.%0D%0A%0D%0APlease%20help%20me%20with%20blades%20%2B%20rubbers%20%2B%20shipping.%0D%0A%0D%0A%2AURL%3A%2A%20https%3A%2F%2Fguide.mygear.top%2Fshop%2Fprice-list%2F%0D%0A">Consult via WhatsApp for Best Price</a>
+  <a class="mg-cta__btn" href="https://wa.me/8618627156285?text=Hello%2C%20I%20want%20a%20customized%20racket%20quote.%0D%0A%0D%0APlease%20help%20me%20with%20blades%20%2B%20rubbers%20%2B%20shipping.%0D%0A%0D%0A%2AURL%3A%2A%20https%3A%2F%2Fguide.mygear.top%2Fshop%2Fpricing-and-sourcing%2F%0D%0A">Consult via WhatsApp for Best Price</a>
 </div>
