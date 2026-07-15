@@ -58,6 +58,9 @@ watch:
   - overrides
 
 extra:
+  analytics:
+    provider: google
+    property: G-1VPCP3FZN6
   social:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@Mygear-top
