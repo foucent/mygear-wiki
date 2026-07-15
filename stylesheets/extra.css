@@ -277,6 +277,33 @@
   }
 }
 
+/* Packaging page: compact thumbs (full image opens in lightbox) */
+.mg-gallery--pack {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: 22rem;
+}
+
+.mg-gallery--pack a {
+  aspect-ratio: 4 / 3;
+  cursor: zoom-in;
+}
+
+.mg-gallery--timelines {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.mg-gallery--timelines a {
+  aspect-ratio: 16 / 10;
+  cursor: zoom-in;
+}
+
+@media (max-width: 600px) {
+  .mg-gallery--pack,
+  .mg-gallery--timelines {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 /* —— Gallery lightbox —— */
 body.mg-lightbox-open {
   overflow: hidden;
