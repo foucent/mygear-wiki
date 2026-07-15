@@ -98,8 +98,18 @@
       });
   }
 
+  function imageItems(container) {
+    return Array.prototype.slice.call(container.querySelectorAll("img")).map(function (img) {
+      return {
+        href: img.currentSrc || img.src,
+        alt: img.alt || "",
+      };
+    });
+  }
+
   function bindGalleries() {
     var root = ensureLightbox();
+
     document.querySelectorAll(".mg-gallery").forEach(function (gallery) {
       var links = gallery.querySelectorAll("a[href]");
       links.forEach(function (a, i) {
@@ -108,6 +118,21 @@
         a.addEventListener("click", function (e) {
           e.preventDefault();
           root._open(galleryItems(gallery), i);
+        });
+      });
+    });
+
+    document.querySelectorAll(".mg-price-table").forEach(function (tableWrap) {
+      var imgs = tableWrap.querySelectorAll("img");
+      var items = imageItems(tableWrap);
+      imgs.forEach(function (img, i) {
+        if (img.dataset.mgLightboxBound === "1") return;
+        img.dataset.mgLightboxBound = "1";
+        img.classList.add("mg-price-thumb");
+        img.addEventListener("click", function (e) {
+          e.preventDefault();
+          e.stopPropagation();
+          root._open(items, i);
         });
       });
     });
