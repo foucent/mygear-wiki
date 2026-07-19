@@ -1,4 +1,4 @@
-﻿---
+---
 source_url: https://mygear.top/how-to-choose-rubber-thickness-and-hardness/
 source_title: "How to Choose Rubber Thickness and Hardness"
 imported: 2026-07-14

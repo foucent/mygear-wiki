@@ -1,4 +1,4 @@
-﻿---
+---
 source_url: https://mp.weixin.qq.com/s/uqxz3iIhdzdJtUgf5ks1nA
 source_title: "买一块底板，需要关注的几个基础问题"
 imported: 2026-07-14

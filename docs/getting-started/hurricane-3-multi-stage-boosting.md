@@ -1,4 +1,4 @@
-﻿---
+---
 source_url: https://mygear.top/hurricane-3-boosting-guide-advanced-multi-stage-method/
 source_title: "Hurricane 3 Boosting Guide: Advanced Multi-Stage Method"
 imported: 2026-07-14

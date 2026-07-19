@@ -1,4 +1,4 @@
-﻿---
+---
 source_url: https://mp.weixin.qq.com/s/6k_ctB0egpT4OZIFhvLvUw
 source_title: "每周乒器观察 222：既然Dignics是必然终点，为什么还要打Tenergy"
 imported: 2026-07-14

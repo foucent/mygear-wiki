@@ -1,4 +1,4 @@
-﻿---
+---
 source_url: https://mp.weixin.qq.com/s/JLzhdeX2-H3Z8q6kNxWcPw
 source_title: "胶面起鳞、海绵内能消退，还能不能用，怎么用？"
 imported: 2026-07-14
