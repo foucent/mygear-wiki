@@ -1,4 +1,15 @@
-﻿# MyGear Guide
+# MyGear Guide
+
+## Shop
+
+Ordering help from the store—quotes, prices, packing, and what’s changing.
+
+- [How to Order](shop/how-to-order.md) — WhatsApp checkout: quote, pay, ship, track  
+- [FAQ & Updates](shop/faq-and-updates.md) — quote, payment, shipping, authenticity, and store updates  
+- [Pricing & Sourcing](shop/pricing-and-sourcing.md) — hot-selling blade & rubber USD reference prices  
+- [Shipping & Delivery](shop/shipping-and-delivery.md) — how orders are packed, trackers, timeline examples  
+
+---
 
 ## Getting Started
 
@@ -14,19 +25,7 @@ Buy, wear, and speed up with less guesswork.
 
 ---
 
-## Shop
-
-Ordering help from the store—quotes, prices, packing, and what’s changing.
-
-- [FAQ & Updates](shop/faq-and-updates.md) — quote, payment, shipping, authenticity, and store updates  
-- [Pricing & Sourcing](shop/pricing-and-sourcing.md) — hot-selling blade & rubber USD reference prices  
-- [Shipping & Delivery](shop/shipping-and-delivery.md) — how orders are packed, trackers, timeline examples  
-
----
-
 ## Advanced
-
-Feel, fiber, rubber families, and the traps between retail names and match-day specials.
 
 ### Blades & fiber stories
 
@@ -38,12 +37,3 @@ Feel, fiber, rubber families, and the traps between retail names and match-day s
 - [Hurricane Blue vs Orange Sponge](advanced/hurricane-blue-vs-orange-sponge.md) — No. 20 crisp vs No. 22 dense support  
 - [Choosing Thickness vs Hardness](advanced/choosing-thickness-vs-hardness.md) — 40°/2.1 vs 39°/2.15 and the 4.0 mm rule  
 - [Boosting Truth](advanced/boosting-truth.md) — boost, factory energy, and china vs mild-tack paths  
-
----
-
-## How to use this guide
-
-1. **Shopping a first or next blade?** → Getting Started checklist, then Feel fundamentals.  
-2. **Stuck between two models?** → Fiber / rubber comparisons in Advanced.  
-3. **Ready to order or check shipping?** → FAQ & Updates, Pricing & Sourcing, Shipping & Delivery.  
-4. **Gear feels dead or “too slow”?** → Lifespan, acceleration, and boosting notes.

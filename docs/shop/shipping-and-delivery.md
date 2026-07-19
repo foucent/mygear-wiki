@@ -1,4 +1,4 @@
-﻿---
+---
 source_url: https://mygear.top/cases/
 source_title: "Order Packaging | Tracking & Timelines"
 imported: 2026-07-14
@@ -6,7 +6,7 @@ imported: 2026-07-14
 
 # Shipping & Delivery
 
-How orders are packed, how to track them, and example shipping timelines (FR / DE / IT / USA and similar routes).
+How orders are packed, how to track them, and example shipping timelines (FR / DE / IT / USA and similar routes). For the full WhatsApp checkout flow, see [How to Order](how-to-order.md).
 
 ---
 
@@ -54,5 +54,5 @@ Click a screenshot to enlarge:
 
 <div class="admonition note mg-page-note">
   <p class="admonition-title">Related</p>
-  <p><a href="/shop/faq-and-updates/">FAQ & Updates</a> · <a href="/shop/pricing-and-sourcing/">Pricing & Sourcing</a></p>
+  <p><a href="/shop/how-to-order/">How to Order</a> · <a href="/shop/faq-and-updates/">FAQ & Updates</a> · <a href="/shop/pricing-and-sourcing/">Pricing & Sourcing</a></p>
 </div>

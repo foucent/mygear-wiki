@@ -1,4 +1,4 @@
-﻿---
+---
 source_url: https://mygear.top/sourcing-price-list/
 source_title: "Hot-Selling Equipment Sourcing Price List"
 imported: 2026-07-14
@@ -87,5 +87,5 @@ Prices move with supply and FX. Tell me your setup and destination on WhatsApp f
 
 <div class="admonition note mg-page-note">
   <p class="admonition-title">Related</p>
-  <p><a href="/shop/faq-and-updates/">FAQ & Updates</a> · <a href="/shop/shipping-and-delivery/">Shipping & Delivery</a></p>
+  <p><a href="/shop/how-to-order/">How to Order</a> · <a href="/shop/faq-and-updates/">FAQ & Updates</a> · <a href="/shop/shipping-and-delivery/">Shipping & Delivery</a></p>
 </div>

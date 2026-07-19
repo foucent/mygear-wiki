@@ -1,4 +1,4 @@
-﻿site_name: MyGear Guide
+site_name: MyGear Guide
 site_url: https://guide.mygear.top/
 repo_url: https://mygear.top/
 repo_name: Shop now
@@ -72,6 +72,11 @@ extra:
 # 导航配置在这里
 nav:
   - Home: index.md
+  - Shop:
+      - How to Order: shop/how-to-order.md
+      - FAQ & Updates: shop/faq-and-updates.md
+      - Pricing & Sourcing: shop/pricing-and-sourcing.md
+      - Shipping & Delivery: shop/shipping-and-delivery.md
   - Getting Started:
       - Essential Questions Before Buying: getting-started/essential-questions-before-buying.md
       - Blade Performance Metrics: getting-started/blade-performance-metrics.md
@@ -84,7 +89,3 @@ nav:
       - Hurricane Blue vs Orange Sponge: advanced/hurricane-blue-vs-orange-sponge.md
       - Choosing Thickness vs Hardness: advanced/choosing-thickness-vs-hardness.md
       - Boosting Truth: advanced/boosting-truth.md
-  - Shop:
-      - FAQ & Updates: shop/faq-and-updates.md
-      - Pricing & Sourcing: shop/pricing-and-sourcing.md
-      - Shipping & Delivery: shop/shipping-and-delivery.md
