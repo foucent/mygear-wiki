@@ -16,6 +16,11 @@ docs/advanced/harimoto-szlc-vs-salc.md:
   source_title: "每周乒器观察 217：张本SZLC和SALC的区别"
   imported: 2026-07-14
 
+docs/advanced/outer-vs-inner-fiber.md:
+  source_url: https://mp.weixin.qq.com/s/xMwxUcglOtcADd555oWMUw
+  source_title: "外置和内置如何选择，简单告诉你"
+  imported: 2026-07-20
+
 docs/advanced/why-tenergy-before-dignics.md:
   source_url: https://mp.weixin.qq.com/s/6k_ctB0egpT4OZIFhvLvUw
   source_title: "每周乒器观察 222：既然Dignics是必然终点，为什么还要打Tenergy"
@@ -30,6 +35,11 @@ docs/advanced/boosting-truth.md:
   source_url: https://mp.weixin.qq.com/s/Av0frugbsDVge74reKV3Ig
   source_title: "灌与不灌的真相"
   imported: 2026-07-14
+
+docs/advanced/booster-oil-comparison.md:
+  source_url: https://mp.weixin.qq.com/s/spRTEkB8dwRNnrFmm_W6HA
+  source_title: "几种膨胀剂和打底油的效果对比"
+  imported: 2026-07-20
 
 docs/getting-started/accelerating-with-gear.md:
   source_url: https://mp.weixin.qq.com/s/5bO144tg63pQ-ERPqc4qAQ

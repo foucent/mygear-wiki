@@ -4,9 +4,9 @@ source_title: "How to Choose Rubber Thickness and Hardness"
 imported: 2026-07-14
 ---
 
-# Choosing Rubber Thickness vs Hardness
+# Rubber Thickness vs Hardness
 
-Classic provincial Hurricane setup question: you’re on **39° / 2.1 mm** and want more power—do you go **40° / 2.1 mm** or **39° / 2.15 mm**?
+This guide uses the **Hurricane 3** series as examples. Classic provincial Hurricane setup question: you’re on **39° / 2.1 mm** and want more power—do you go **40° / 2.1 mm** or **39° / 2.15 mm**?
 
 In the same model, raising hardness or thickness both add support to some degree, but the feel is not the same.
 

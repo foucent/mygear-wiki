@@ -30,10 +30,12 @@ Buy, wear, and speed up with less guesswork.
 ### Blades & fiber stories
 
 - [Harimoto SZLC vs SALC](advanced/harimoto-szlc-vs-salc.md) — same skeleton, different fiber and thickness  
+- [Outer vs Inner Fiber](advanced/outer-vs-inner-fiber.md) — where fiber sits, and how face wood / thickness change the feel  
 
 ### Rubbers & migration paths
 
 - [Why Tenergy Before Dignics](advanced/why-tenergy-before-dignics.md) — why most players earn D through T first  
 - [Hurricane Blue vs Orange Sponge](advanced/hurricane-blue-vs-orange-sponge.md) — No. 20 crisp vs No. 22 dense support  
-- [Choosing Thickness vs Hardness](advanced/choosing-thickness-vs-hardness.md) — 40°/2.1 vs 39°/2.15 and the 4.0 mm rule  
+- [Rubber Thickness vs Hardness](advanced/choosing-thickness-vs-hardness.md) — Hurricane 3 examples: 40°/2.1 vs 39°/2.15 and the 4.0 mm rule  
 - [Boosting Truth](advanced/boosting-truth.md) — boost, factory energy, and china vs mild-tack paths  
+- [Booster & Primer Oil Comparison](advanced/booster-oil-comparison.md) — Feeling / Sea Moon / national yellow & black oils  

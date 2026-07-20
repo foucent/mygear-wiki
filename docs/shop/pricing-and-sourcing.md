@@ -29,7 +29,6 @@ Prices move with supply and FX. Tell me your setup and destination on WhatsApp f
 | ![ ](../images/price-list/blades/dhs-hurricane-long-5.jpg) | DHS Hurricane Long 5 | $118 |
 | ![ ](../images/price-list/blades/donic-zhang-jike-original-carbon.jpg) | Donic Zhang Jike Original Carbon | $135 |
 | ![ ](../images/price-list/blades/harimoto-innerforce-alc.jpg) | Harimoto Innerforce ALC | $136 |
-| ![ ](../images/price-list/blades/xiom-an-jaehyun-tmxi-pro.jpg) | Xiom An Jaehyun TMXi PRO | $138 |
 | ![ ](../images/price-list/blades/timo-boll-alc.jpg) | Timo Boll ALC | $139 |
 | ![ ](../images/price-list/blades/viscaria.jpg) | Viscaria | $139 |
 | ![ ](../images/price-list/blades/taksim-butterfly-king.jpg) | Taksim (Butterfly King) | $140 |

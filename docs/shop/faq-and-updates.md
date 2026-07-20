@@ -16,10 +16,10 @@ Quick answers for ordering, payment, shipping, and authenticity—plus store upd
 Send your location or postal code via WhatsApp. You’ll get a total that includes **product + shipping**. Full steps: [How to Order](how-to-order.md).
 
 **Are there restricted regions?**  
-Shipping to **India, Brazil, Ukraine, Nigeria, and Iran** is not recommended (high duties / difficult logistics).
+Shipping to **India, Brazil, Ukraine, and Iran** is not recommended (high duties / difficult logistics).
 
 **Can I save on shipping?**  
-A boxed racket is about **600 g**, but shipping is charged per **1 kg**. You can usually add rubbers or balls up to about **400 g** without raising the shipping tier. Liquid shipping is available when needed.
+A boxed racket is about **600 g**, and one rubber is about **100 g**, but shipping is charged per **1 kg**. You can usually add rubbers or balls up to about **400 g** without raising the shipping tier. Liquid shipping is available when needed.
 
 **JP vs CN Butterfly blades?**  
 **CN** versions include a serial code for online verification; **JP** versions do not. Both are authentic. Choose CN if you want online authenticity tracking.
