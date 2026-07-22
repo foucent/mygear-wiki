@@ -23,9 +23,25 @@ plugins:
   - search
   - redirects:
       redirect_maps:
-        getting-started/basic-questions.md: getting-started/essential-questions-before-buying.md
-        getting-started/hurricane-3-boosting-method.md: getting-started/hurricane-3-multi-stage-boosting.md
-        advanced/rubber-thickness-and-hardness.md: advanced/choosing-thickness-vs-hardness.md
+        getting-started/basic-questions.md: guide/essential-questions-before-buying.md
+        getting-started/essential-questions-before-buying.md: guide/essential-questions-before-buying.md
+        getting-started/blade-performance-metrics.md: guide/blade-performance-metrics.md
+        getting-started/blade-feel-fundamentals.md: guide/blade-feel-fundamentals.md
+        getting-started/accelerating-with-gear.md: guide/accelerating-with-gear.md
+        getting-started/hurricane-3-boosting-method.md: guide/hurricane-3-multi-stage-boosting.md
+        getting-started/hurricane-3-multi-stage-boosting.md: guide/hurricane-3-multi-stage-boosting.md
+        getting-started/rubber-lifespan.md: guide/rubber-lifespan.md
+        advanced/rubber-thickness-and-hardness.md: guide/choosing-thickness-vs-hardness.md
+        advanced/choosing-thickness-vs-hardness.md: guide/choosing-thickness-vs-hardness.md
+        advanced/harimoto-szlc-vs-salc.md: guide/harimoto-szlc-vs-salc.md
+        advanced/outer-vs-inner-fiber.md: guide/outer-vs-inner-fiber.md
+        advanced/ma-long-blade-evolution.md: index.md
+        advanced/why-tenergy-before-dignics.md: guide/why-tenergy-before-dignics.md
+        advanced/hurricane-blue-vs-orange-sponge.md: guide/hurricane-blue-vs-orange-sponge.md
+        advanced/boosting-truth.md: guide/boosting-truth.md
+        advanced/booster-oil-comparison.md: guide/booster-oil-comparison.md
+        advanced/donic-zhang-jike-original-carbon.md: gear/donic-zhang-jike-original-carbon.md
+        equipment/donic-zhang-jike-original-carbon.md: gear/donic-zhang-jike-original-carbon.md
         shop/faq.md: shop/faq-and-updates.md
         shop/price-list.md: shop/pricing-and-sourcing.md
         shop/packaging-and-tracking.md: shop/shipping-and-delivery.md
@@ -40,6 +56,9 @@ markdown_extensions:
   - tables
   - fenced_code
   - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 extra_css:
   - stylesheets/extra.css
@@ -50,7 +69,7 @@ extra_javascript:
 
 # Local `mkdocs serve` includes these; production `mkdocs build` / GitHub Pages omit them.
 draft_docs: |
-  getting-started/rubber-lifespan.md
+  guide/rubber-lifespan.md
   images/rubber-lifespan/**
 
 # Hot-reload overrides/ (template notes, header tweaks). docs/ is watched by default.
@@ -77,17 +96,53 @@ nav:
       - FAQ & Updates: shop/faq-and-updates.md
       - Pricing & Sourcing: shop/pricing-and-sourcing.md
       - Shipping & Delivery: shop/shipping-and-delivery.md
-  - Getting Started:
-      - Essential Questions Before Buying: getting-started/essential-questions-before-buying.md
-      - Blade Performance Metrics: getting-started/blade-performance-metrics.md
-      - Blade Feel Fundamentals: getting-started/blade-feel-fundamentals.md
-      - Accelerating With Gear: getting-started/accelerating-with-gear.md
-      - Hurricane 3 Multi-Stage Boosting: getting-started/hurricane-3-multi-stage-boosting.md
-  - Advanced:
-      - Harimoto SZLC vs SALC: advanced/harimoto-szlc-vs-salc.md
-      - Outer vs Inner Fiber: advanced/outer-vs-inner-fiber.md
-      - Why Tenergy Before Dignics: advanced/why-tenergy-before-dignics.md
-      - Hurricane Blue vs Orange Sponge: advanced/hurricane-blue-vs-orange-sponge.md
-      - Rubber Thickness vs Hardness: advanced/choosing-thickness-vs-hardness.md
-      - Boosting Truth: advanced/boosting-truth.md
-      - Booster & Primer Oil Comparison: advanced/booster-oil-comparison.md
+  - Guide:
+      - Essential Questions Before Buying: guide/essential-questions-before-buying.md
+      - Blade Performance Metrics: guide/blade-performance-metrics.md
+      - Blade Feel Fundamentals: guide/blade-feel-fundamentals.md
+      - Accelerating With Gear: guide/accelerating-with-gear.md
+      - Hurricane 3 Multi-Stage Boosting: guide/hurricane-3-multi-stage-boosting.md
+      - Harimoto SZLC vs SALC: guide/harimoto-szlc-vs-salc.md
+      - Outer vs Inner Fiber: guide/outer-vs-inner-fiber.md
+      - Why Tenergy Before Dignics: guide/why-tenergy-before-dignics.md
+      - Hurricane Blue vs Orange Sponge: guide/hurricane-blue-vs-orange-sponge.md
+      - Rubber Thickness vs Hardness: guide/choosing-thickness-vs-hardness.md
+      - Boosting Truth: guide/boosting-truth.md
+      - Booster & Primer Oil Comparison: guide/booster-oil-comparison.md
+  - Gear:
+      - 729 50th Anniversary Limited: gear/729-50th-anniversary-limited.md
+      - Avalox P500: gear/avalox-p500.md
+      - Banda Offensive: gear/banda-offensive.md
+      - Butterfly Chuang Chih-Yuan Gold: gear/butterfly-chuang-chih-yuan-gold.md
+      - Butterfly Fan Zhendong ALC: gear/butterfly-fan-zhendong-alc.md
+      - Butterfly Guo Yue: gear/butterfly-guo-yue.md
+      - Butterfly Hadraw SK: gear/butterfly-hadraw-sk.md
+      - Butterfly Innerforce Layer ALC: gear/butterfly-innerforce-layer-alc.md
+      - Butterfly Kong Linghui Arylate-Carbon: gear/butterfly-kong-linghui-arylate-carbon.md
+      - Butterfly Minions CAF: gear/butterfly-minions-caf.md
+      - Butterfly Primorac Fiber Glass: gear/butterfly-primorac-fiber-glass.md
+      - Butterfly Schlager Light Carbon: gear/butterfly-schlager-light-carbon.md
+      - Butterfly Viscaria: gear/butterfly-viscaria.md
+      - DHS Bo Arylate-Carbon (Early): gear/dhs-bo-arylate-carbon.md
+      - DHS Hurricane Guo Yan: gear/dhs-hurricane-guo-yan.md
+      - DHS Hurricane Long 5X: gear/dhs-hurricane-long-5x.md
+      - DHS Hurricane Sa: gear/dhs-hurricane-sa.md
+      - Donic Linde Carbon: gear/donic-linde-carbon.md
+      - Donic Ovtcharov Seven: gear/donic-ocharov-seven.md
+      - Donic Zhang Jike Original Carbon: gear/donic-zhang-jike-original-carbon.md
+      - Double Fish Zhou Qihao Project Z: gear/double-fish-zhou-qihao-project-z.md
+      - Nittaku Kasumi Ishikawa Basic: gear/nittaku-kasumi-ishikawa-basic.md
+      - Nittaku Runlox-5: gear/nittaku-runlox-5.md
+      - Sanwei 75 PAR: gear/sanwei-75-par.md
+      - Sanwei 75G: gear/sanwei-75g.md
+      - Sanwei 75R: gear/sanwei-75r.md
+      - Stiga Cybershape Wood: gear/stiga-cybershape-wood.md
+      - Tibhar Elowa Violin (CS): gear/tibhar-elowa-violin-cs.md
+      - Tibhar Kenta Matsudaira MK Carbon: gear/tibhar-kenta-matsudaira-mk-carbon.md
+      - Tibhar Samsonov Alpha: gear/tibhar-samsonov-alpha.md
+      - Tibhar Samsonov Alpha & Elowa Violin: gear/tibhar-samsonov-alpha-elowa-violin.md
+      - Tibhar Szocs BS 1: gear/tibhar-szocs-bs-1.md
+      - Victas Koki Niwa 10th Anniversary: gear/victas-koki-niwa-10th-anniversary.md
+      - Victas VJ > 07 Stiff: gear/victas-vj-07-stiff.md
+      - Xiom Ice Cream AZXi: gear/xiom-ice-cream-azxi.md
+      - Yinhe V14 Pro: gear/yinhe-v14-pro.md

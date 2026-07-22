@@ -65,9 +65,10 @@ Choose the lightest fit:
 
 | Content type | Default location |
 | --- | --- |
-| Beginner buying checklist / basics / care | `docs/getting-started/` |
-| Metrics / feel theory / comparisons | `docs/advanced/` |
-| Product review / gear debate | `docs/advanced/<topic>.md` |
+| Beginner buying checklist / basics / care | `docs/guide/` |
+| Metrics / feel theory / comparisons | `docs/guide/` |
+| Product photo spotlight / gear album | `docs/gear/<topic>.md` |
+| Product review / gear debate (long-form) | `docs/guide/<topic>.md` |
 | Shop FAQ & Updates / Pricing & Sourcing / Shipping & Delivery | `docs/shop/` |
 | Training / improvement | create `docs/technique-growth/` + nav if needed |
 
@@ -112,7 +113,7 @@ Frontmatter must be the **first** lines of the file (`---` on line 1). Do not pu
 After writing the page, upsert `sources.yaml`:
 
 ```yaml
-docs/getting-started/example.md:
+docs/guide/example.md:
   source_url: https://mp.weixin.qq.com/s/xxxxxxxx
   source_title: "中文原标题"
   imported: 2026-07-14

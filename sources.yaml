@@ -1,47 +1,228 @@
 # Hidden source registry for MyGear Guide pages (not shown on the site).
 # Each entry mirrors the YAML frontmatter on the matching Markdown file.
 
-docs/getting-started/essential-questions-before-buying.md:
+docs/guide/essential-questions-before-buying.md:
   source_url: https://mp.weixin.qq.com/s/uqxz3iIhdzdJtUgf5ks1nA
   source_title: "买一块底板，需要关注的几个基础问题"
   imported: 2026-07-14
 
-docs/getting-started/rubber-lifespan.md:
+docs/guide/rubber-lifespan.md:
   source_url: https://mp.weixin.qq.com/s/JLzhdeX2-H3Z8q6kNxWcPw
   source_title: "胶面起鳞、海绵内能消退，还能不能用，怎么用？"
   imported: 2026-07-14
 
-docs/advanced/harimoto-szlc-vs-salc.md:
+docs/guide/harimoto-szlc-vs-salc.md:
   source_url: https://mp.weixin.qq.com/s/T0yAzaWtrasS8_tSLJ1ROQ
   source_title: "每周乒器观察 217：张本SZLC和SALC的区别"
   imported: 2026-07-14
 
-docs/advanced/outer-vs-inner-fiber.md:
+docs/guide/outer-vs-inner-fiber.md:
   source_url: https://mp.weixin.qq.com/s/xMwxUcglOtcADd555oWMUw
   source_title: "外置和内置如何选择，简单告诉你"
   imported: 2026-07-20
 
-docs/advanced/why-tenergy-before-dignics.md:
+docs/gear/donic-zhang-jike-original-carbon.md:
+  source_url: https://mp.weixin.qq.com/s/MOAtwehL5rNUkLh99fO2MQ
+  source_title: "多尼克 张继科原创碳素底板 横板FL手柄"
+  imported: 2026-07-22
+
+docs/gear/victas-koki-niwa-10th-anniversary.md:
+  source_url: https://mp.weixin.qq.com/s/Ckyr44bD4TtVsDZmtFcx5g
+  source_title: "Victas 丹羽孝希10周年纯木底板 横板FL手柄"
+  imported: 2026-07-22
+
+docs/gear/butterfly-schlager-light-carbon.md:
+  source_url: https://mp.weixin.qq.com/s/hpDB0lxG1yOAPA04AWb1qA
+  source_title: "蝴蝶 施拉格轻碳底板 横板ST手柄"
+  imported: 2026-07-22
+
+docs/gear/sanwei-75r.md:
+  source_url: https://mp.weixin.qq.com/s/3ABoS8wZS_zne_sr0fdd_Q
+  source_title: "三维 75R底板 横板FL手柄"
+  imported: 2026-07-22
+
+docs/gear/dhs-hurricane-sa.md:
+  source_url: https://mp.weixin.qq.com/s/gGSD4fBnWR6MhI5h0_D_PA
+  source_title: "红双喜 狂飙飒底板 横板FL手柄"
+  imported: 2026-07-22
+
+docs/gear/butterfly-chuang-chih-yuan-gold.md:
+  source_url: https://mp.weixin.qq.com/s/5-UbC9LW-XBZ_EZ0Pmg3Dw
+  source_title: "蝴蝶 庄智渊金标限量底板 横板FL手柄"
+  imported: 2026-07-22
+
+docs/gear/butterfly-guo-yue.md:
+  source_url: https://mp.weixin.qq.com/s/kgK_ofNEToWTYGfsIVhMyA
+  source_title: "彩蛋：蝴蝶 郭跃底板 横板FL手柄"
+  imported: 2026-07-22
+
+docs/gear/butterfly-innerforce-layer-alc.md:
+  source_url: https://mp.weixin.qq.com/s/4JdKfyd2RUkc7-y0PsZhYg
+  source_title: "蝴蝶 Innerforce layer alc底板 横板FL柄"
+  imported: 2026-07-22
+
+docs/gear/tibhar-kenta-matsudaira-mk-carbon.md:
+  source_url: https://mp.weixin.qq.com/s/daSxw0XEiCK15wR80-JGZA
+  source_title: "挺拔 松平健太MK Carbon底板 横板FL手柄"
+  imported: 2026-07-22
+
+docs/gear/nittaku-runlox-5.md:
+  source_url: https://mp.weixin.qq.com/s/EQKxCA9GqpJm3aX4pXHztA
+  source_title: "彩蛋：尼塔库Runlox-5底板 横板ST手柄"
+  imported: 2026-07-22
+
+docs/gear/stiga-cybershape-wood.md:
+  source_url: https://mp.weixin.qq.com/s/vplyhixvTntZlTOFIxDHfQ
+  source_title: "斯蒂卡 赛博纯木底板 横板FL手柄"
+  imported: 2026-07-22
+
+docs/gear/729-50th-anniversary-limited.md:
+  source_url: https://mp.weixin.qq.com/s/n-6Q7EefvSpkAiMy_hhuBw
+  source_title: "729品牌50周年名贵限量版底板 横板 FL手柄"
+  imported: 2026-07-22
+
+docs/gear/victas-vj-07-stiff.md:
+  source_url: https://mp.weixin.qq.com/s/iuC6K3TmC1EHCZnQNGW8VQ
+  source_title: "Victas VJ > 07 stiff 反胶套胶，红色Max"
+  imported: 2026-07-22
+
+docs/gear/butterfly-kong-linghui-arylate-carbon.md:
+  source_url: https://mp.weixin.qq.com/s/pMi03L6m1t3w2mTgXyX8qA
+  source_title: "蝴蝶 孔令辉芳碳 横板AN手柄"
+  imported: 2026-07-22
+
+docs/gear/tibhar-samsonov-alpha-elowa-violin.md:
+  source_url: https://mp.weixin.qq.com/s/madXMkyKJtCGaVyIzZmTxg
+  source_title: "两支老挺拔底板"
+  imported: 2026-07-22
+
+docs/gear/dhs-bo-arylate-carbon.md:
+  source_url: https://mp.weixin.qq.com/s/qksxPVDQ_Wvs8zxt7KyqZA
+  source_title: "红双喜 博芳碳底板 横板FL手柄 老款"
+  imported: 2026-07-22
+
+docs/gear/avalox-p500.md:
+  source_url: https://mp.weixin.qq.com/s/ZCHySmfX1gA7-0fCEUMeew
+  source_title: "阿瓦拉 P500底板 横板ST柄"
+  imported: 2026-07-22
+
+docs/gear/double-fish-zhou-qihao-project-z.md:
+  source_url: https://mp.weixin.qq.com/s/AK9gcfiJxqOJ0Ampe1wFyQ
+  source_title: "双鱼周启豪Project Z特注底板横板FL手柄"
+  imported: 2026-07-22
+
+docs/gear/butterfly-fan-zhendong-alc.md:
+  source_url: https://mp.weixin.qq.com/s/BTOdNBH8Su9tHCkrtgc3-w
+  source_title: "蝴蝶 樊振东alc底板 横板ST手柄"
+  imported: 2026-07-22
+
+docs/gear/banda-offensive.md:
+  source_url: https://mp.weixin.qq.com/s/vnwwPcfQOZ5LMTvFcPsuWg
+  source_title: "班达 OFFENSIVE底板 横板FL手柄"
+  imported: 2026-07-22
+
+docs/gear/xiom-ice-cream-azxi.md:
+  source_url: https://mp.weixin.qq.com/s/B53HL5N2wboBlDb0xwNlnQ
+  source_title: "骄猛 冰淇淋内置底板 横板FL手柄"
+  imported: 2026-07-22
+
+docs/gear/dhs-hurricane-long-5x.md:
+  source_url: https://mp.weixin.qq.com/s/DZh4pZm5sLpNPildE66rUQ
+  source_title: "红双喜 狂飙龙5x底板 横板AN柄"
+  imported: 2026-07-22
+
+docs/gear/tibhar-elowa-violin-cs.md:
+  source_url: https://mp.weixin.qq.com/s/kMHZ1YzNu_0kUUzwD8H4TA
+  source_title: "挺拔 埃洛瓦小提琴 直板"
+  imported: 2026-07-22
+
+docs/gear/sanwei-75-par.md:
+  source_url: https://mp.weixin.qq.com/s/8z65H7sshzoJZH3DUgcxZg
+  source_title: "补几张：三维75 par底板 横板ST手柄"
+  imported: 2026-07-22
+
+docs/gear/butterfly-minions-caf.md:
+  source_url: https://mp.weixin.qq.com/s/l_oESLutMsHpr9XvQ-duBQ
+  source_title: "蝴蝶 小黄人CAF底板 横板FL手柄"
+  imported: 2026-07-22
+
+docs/gear/nittaku-kasumi-ishikawa-basic.md:
+  source_url: https://mp.weixin.qq.com/s/BScaSfBr6nq05yoeBL16MA
+  source_title: "尼塔库 石川佳纯 Basic 横板ST手柄"
+  imported: 2026-07-22
+
+docs/gear/donic-ocharov-seven.md:
+  source_url: https://mp.weixin.qq.com/s/wuD5_k0vp1zj_7No7ZO9Lg
+  source_title: "多尼克 奥恰洛夫 七层纯木 横板AN柄"
+  imported: 2026-07-22
+
+docs/gear/tibhar-samsonov-alpha.md:
+  source_url: https://mp.weixin.qq.com/s/ZEXmkf9hOWmDD8TqZLyHYA
+  source_title: "老挺拔萨姆索诺夫alpha"
+  imported: 2026-07-22
+
+docs/gear/dhs-hurricane-guo-yan.md:
+  source_url: https://mp.weixin.qq.com/s/JYQq6_jN6KvGxPN3MSpC_Q
+  source_title: "红双喜狂飚郭焱，H-GY。横板ST手柄。"
+  imported: 2026-07-22
+
+docs/gear/butterfly-viscaria.md:
+  source_url: https://mp.weixin.qq.com/s/rCO5fqGINGSwE3h4GmFBhg
+  source_title: "蝴蝶VIS（Viscaria）底板FL"
+  imported: 2026-07-22
+
+docs/gear/butterfly-primorac-fiber-glass.md:
+  source_url: https://mp.weixin.qq.com/s/DKMWuz-Sgy9H7wF4S5hlGw
+  source_title: "蝴蝶 格林卡 玻璃纤维底板 横板FL手柄"
+  imported: 2026-07-22
+
+docs/gear/donic-linde-carbon.md:
+  source_url: https://mp.weixin.qq.com/s?__biz=Mzg2Mzk1ODM1OQ==&mid=2247485209&idx=1&sn=31757192991f61d147677410fe6a0130
+  source_title: "多尼克 林德 碳素底板 横板FL手柄"
+  imported: 2026-07-22
+
+docs/gear/butterfly-hadraw-sk.md:
+  source_url: https://mp.weixin.qq.com/s?__biz=Mzg2Mzk1ODM1OQ==&mid=2247485212&idx=1&sn=fe724b4f671b079ff96e9af20a3b8098
+  source_title: "蝴蝶 掌纹 Hadraw SK底板 横板FL手柄"
+  imported: 2026-07-22
+
+docs/gear/sanwei-75g.md:
+  source_url: https://mp.weixin.qq.com/s/WCyboliQ2qfJsgOcTZszYw
+  source_title: "三维 75G底板 横板FL手柄"
+  imported: 2026-07-22
+
+docs/gear/yinhe-v14-pro.md:
+  source_url: https://mp.weixin.qq.com/s?__biz=Mzg2Mzk1ODM1OQ==&mid=2247484539&idx=1&sn=86d808e79e4fc1ba790fdcf5d33408b9
+  source_title: "银河 V14 pro 横板FL手柄"
+  imported: 2026-07-22
+
+docs/gear/tibhar-szocs-bs-1.md:
+  source_url: https://mp.weixin.qq.com/s?__biz=Mzg2Mzk1ODM1OQ==&mid=2247485809&idx=1&sn=e815cd51fcb6b5c7d91a8fac70f5ba24
+  source_title: "挺拔 斯佐科斯BS 1底板 横板AN手柄"
+  imported: 2026-07-22
+
+
+docs/guide/why-tenergy-before-dignics.md:
   source_url: https://mp.weixin.qq.com/s/6k_ctB0egpT4OZIFhvLvUw
   source_title: "每周乒器观察 222：既然Dignics是必然终点，为什么还要打Tenergy"
   imported: 2026-07-14
 
-docs/advanced/hurricane-blue-vs-orange-sponge.md:
+docs/guide/hurricane-blue-vs-orange-sponge.md:
   source_url: https://mygear.top/blue-sponge-vs-orange-sponge-choosing-the-right-hurricane-3/
   source_title: "Blue Sponge vs. Orange Sponge: Choosing the Right Hurricane 3"
   imported: 2026-07-14
 
-docs/advanced/boosting-truth.md:
+docs/guide/boosting-truth.md:
   source_url: https://mp.weixin.qq.com/s/Av0frugbsDVge74reKV3Ig
   source_title: "灌与不灌的真相"
   imported: 2026-07-14
 
-docs/advanced/booster-oil-comparison.md:
+docs/guide/booster-oil-comparison.md:
   source_url: https://mp.weixin.qq.com/s/spRTEkB8dwRNnrFmm_W6HA
   source_title: "几种膨胀剂和打底油的效果对比"
   imported: 2026-07-20
 
-docs/getting-started/accelerating-with-gear.md:
+docs/guide/accelerating-with-gear.md:
   source_url: https://mp.weixin.qq.com/s/5bO144tg63pQ-ERPqc4qAQ
   source_title: "谈谈器材“加速”的问题"
   imported: 2026-07-14
@@ -66,12 +247,12 @@ docs/shop/shipping-and-delivery.md:
   source_title: "Order Packaging | Tracking & Timelines"
   imported: 2026-07-14
 
-docs/advanced/choosing-thickness-vs-hardness.md:
+docs/guide/choosing-thickness-vs-hardness.md:
   source_url: https://mygear.top/how-to-choose-rubber-thickness-and-hardness/
   source_title: "How to Choose Rubber Thickness and Hardness"
   imported: 2026-07-14
 
-docs/getting-started/hurricane-3-multi-stage-boosting.md:
+docs/guide/hurricane-3-multi-stage-boosting.md:
   source_url: https://mygear.top/hurricane-3-boosting-guide-advanced-multi-stage-method/
   source_title: "Hurricane 3 Boosting Guide: Advanced Multi-Stage Method"
   imported: 2026-07-14
