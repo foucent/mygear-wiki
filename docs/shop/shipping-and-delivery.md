@@ -54,5 +54,5 @@ Click a screenshot to enlarge:
 
 <div class="admonition note mg-page-note">
   <p class="admonition-title">Related</p>
-  <p><a href="/shop/how-to-order/">How to Order</a> · <a href="/shop/faq-and-updates/">FAQ & Updates</a> · <a href="/shop/pricing-and-sourcing/">Pricing & Sourcing</a></p>
+  <p><a href="/shop/how-to-order/">How to Order</a> · <a href="/shop/pricing-and-sourcing/">Pricing & Sourcing</a> · <a href="/shop/faq-and-updates/">FAQ & Updates</a></p>
 </div>

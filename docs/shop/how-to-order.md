@@ -90,5 +90,5 @@ You can still adjust contents before packing is finalized — message me as earl
 
 <div class="admonition note mg-page-note">
   <p class="admonition-title">Related</p>
-  <p><a href="/shop/faq-and-updates/">FAQ & Updates</a> · <a href="/shop/pricing-and-sourcing/">Pricing & Sourcing</a> · <a href="/shop/shipping-and-delivery/">Shipping & Delivery</a></p>
+  <p><a href="/shop/pricing-and-sourcing/">Pricing & Sourcing</a> · <a href="/shop/faq-and-updates/">FAQ & Updates</a> · <a href="/shop/shipping-and-delivery/">Shipping & Delivery</a></p>
 </div>
