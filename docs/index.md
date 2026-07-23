@@ -33,8 +33,6 @@ Buying basics, blade/rubber theory, and setup paths.
 
 ## Gear
 
-One page per brand—blades now, rubbers later. Each model opens with a hero shot and smaller gallery photos.
-
 - [729](gear/729.md) — 50th Anniversary Limited  
 - [Avalox](gear/avalox.md) — P500  
 - [Banda](gear/banda.md) — Offensive  
