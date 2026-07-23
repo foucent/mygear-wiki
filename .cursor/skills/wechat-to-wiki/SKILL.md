@@ -67,7 +67,7 @@ Choose the lightest fit:
 | --- | --- |
 | Beginner buying checklist / basics / care | `docs/guide/` |
 | Metrics / feel theory / comparisons | `docs/guide/` |
-| Product photo spotlight / gear album | `docs/gear/<topic>.md` |
+| Product photo spotlight / gear album | `docs/gear/<brand>.md` (one page per brand; `## Blades` / `## Rubbers`; hero + thumbs) |
 | Product review / gear debate (long-form) | `docs/guide/<topic>.md` |
 | Shop FAQ & Updates / Pricing & Sourcing / Shipping & Delivery | `docs/shop/` |
 | Training / improvement | create `docs/technique-growth/` + nav if needed |

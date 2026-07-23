@@ -39,9 +39,60 @@ plugins:
         advanced/why-tenergy-before-dignics.md: guide/why-tenergy-before-dignics.md
         advanced/hurricane-blue-vs-orange-sponge.md: guide/hurricane-blue-vs-orange-sponge.md
         advanced/boosting-truth.md: guide/boosting-truth.md
-        advanced/booster-oil-comparison.md: guide/booster-oil-comparison.md
-        advanced/donic-zhang-jike-original-carbon.md: gear/donic-zhang-jike-original-carbon.md
-        equipment/donic-zhang-jike-original-carbon.md: gear/donic-zhang-jike-original-carbon.md
+        advanced/booster-oil-comparison.md: guide/boosting-truth.md
+        guide/booster-oil-comparison.md: guide/boosting-truth.md
+        advanced/donic-zhang-jike-original-carbon.md: gear/donic.md
+        equipment/donic-zhang-jike-original-carbon.md: gear/donic.md
+        gear/729-50th-anniversary-limited.md: gear/729.md
+        gear/729-blades.md: gear/729.md
+        gear/avalox-blades.md: gear/avalox.md
+        gear/avalox-p500.md: gear/avalox.md
+        gear/banda-blades.md: gear/banda.md
+        gear/banda-offensive.md: gear/banda.md
+        gear/butterfly-blades.md: gear/butterfly.md
+        gear/butterfly-chuang-chih-yuan-gold.md: gear/butterfly.md
+        gear/butterfly-fan-zhendong-alc.md: gear/butterfly.md
+        gear/butterfly-guo-yue.md: gear/butterfly.md
+        gear/butterfly-hadraw-sk.md: gear/butterfly.md
+        gear/butterfly-innerforce-layer-alc.md: gear/butterfly.md
+        gear/butterfly-kong-linghui-arylate-carbon.md: gear/butterfly.md
+        gear/butterfly-minions-caf.md: gear/butterfly.md
+        gear/butterfly-primorac-fiber-glass.md: gear/butterfly.md
+        gear/butterfly-schlager-light-carbon.md: gear/butterfly.md
+        gear/butterfly-viscaria.md: gear/butterfly.md
+        gear/dhs-blades.md: gear/dhs.md
+        gear/dhs-bo-arylate-carbon.md: gear/dhs.md
+        gear/dhs-hurricane-guo-yan.md: gear/dhs.md
+        gear/dhs-hurricane-long-5x.md: gear/dhs.md
+        gear/dhs-hurricane-sa.md: gear/dhs.md
+        gear/donic-blades.md: gear/donic.md
+        gear/donic-linde-carbon.md: gear/donic.md
+        gear/donic-ocharov-seven.md: gear/donic.md
+        gear/donic-zhang-jike-original-carbon.md: gear/donic.md
+        gear/double-fish-blades.md: gear/double-fish.md
+        gear/double-fish-zhou-qihao-project-z.md: gear/double-fish.md
+        gear/nittaku-blades.md: gear/nittaku.md
+        gear/nittaku-kasumi-ishikawa-basic.md: gear/nittaku.md
+        gear/nittaku-runlox-5.md: gear/nittaku.md
+        gear/sanwei-75-par.md: gear/sanwei.md
+        gear/sanwei-75g.md: gear/sanwei.md
+        gear/sanwei-75r.md: gear/sanwei.md
+        gear/sanwei-blades.md: gear/sanwei.md
+        gear/stiga-blades.md: gear/stiga.md
+        gear/stiga-cybershape-wood.md: gear/stiga.md
+        gear/tibhar-blades.md: gear/tibhar.md
+        gear/tibhar-elowa-violin-cs.md: gear/tibhar.md
+        gear/tibhar-kenta-matsudaira-mk-carbon.md: gear/tibhar.md
+        gear/tibhar-samsonov-alpha-elowa-violin.md: gear/tibhar.md
+        gear/tibhar-samsonov-alpha.md: gear/tibhar.md
+        gear/tibhar-szocs-bs-1.md: gear/tibhar.md
+        gear/victas-blades.md: gear/victas.md
+        gear/victas-koki-niwa-10th-anniversary.md: gear/victas.md
+        gear/victas-vj-07-stiff.md: gear/victas.md
+        gear/xiom-blades.md: gear/xiom.md
+        gear/xiom-ice-cream-azxi.md: gear/xiom.md
+        gear/yinhe-blades.md: gear/yinhe.md
+        gear/yinhe-v14-pro.md: gear/yinhe.md
         shop/faq.md: shop/faq-and-updates.md
         shop/price-list.md: shop/pricing-and-sourcing.md
         shop/packaging-and-tracking.md: shop/shipping-and-delivery.md
@@ -108,55 +159,18 @@ nav:
       - Hurricane Blue vs Orange Sponge: guide/hurricane-blue-vs-orange-sponge.md
       - Rubber Thickness vs Hardness: guide/choosing-thickness-vs-hardness.md
       - Boosting Truth: guide/boosting-truth.md
-      - Booster & Primer Oil Comparison: guide/booster-oil-comparison.md
   - Gear:
-      - "729":
-          - 50th Anniversary Limited: gear/729-50th-anniversary-limited.md
-      - Avalox:
-          - P500: gear/avalox-p500.md
-      - Banda:
-          - Offensive: gear/banda-offensive.md
-      - Butterfly:
-          - Chuang Chih-Yuan Gold: gear/butterfly-chuang-chih-yuan-gold.md
-          - Fan Zhendong ALC: gear/butterfly-fan-zhendong-alc.md
-          - Guo Yue: gear/butterfly-guo-yue.md
-          - Hadraw SK: gear/butterfly-hadraw-sk.md
-          - Innerforce Layer ALC: gear/butterfly-innerforce-layer-alc.md
-          - Kong Linghui Arylate-Carbon: gear/butterfly-kong-linghui-arylate-carbon.md
-          - Minions CAF: gear/butterfly-minions-caf.md
-          - Primorac Fiber Glass: gear/butterfly-primorac-fiber-glass.md
-          - Schlager Light Carbon: gear/butterfly-schlager-light-carbon.md
-          - Viscaria: gear/butterfly-viscaria.md
-      - DHS:
-          - Bo Arylate-Carbon (Early): gear/dhs-bo-arylate-carbon.md
-          - Hurricane Guo Yan: gear/dhs-hurricane-guo-yan.md
-          - Hurricane Long 5X: gear/dhs-hurricane-long-5x.md
-          - Hurricane Sa: gear/dhs-hurricane-sa.md
-      - Donic:
-          - Linde Carbon: gear/donic-linde-carbon.md
-          - Ovtcharov Seven: gear/donic-ocharov-seven.md
-          - Zhang Jike Original Carbon: gear/donic-zhang-jike-original-carbon.md
-      - Double Fish:
-          - Zhou Qihao Project Z: gear/double-fish-zhou-qihao-project-z.md
-      - Nittaku:
-          - Kasumi Ishikawa Basic: gear/nittaku-kasumi-ishikawa-basic.md
-          - Runlox-5: gear/nittaku-runlox-5.md
-      - Sanwei:
-          - 75 PAR: gear/sanwei-75-par.md
-          - 75G: gear/sanwei-75g.md
-          - 75R: gear/sanwei-75r.md
-      - Stiga:
-          - Cybershape Wood: gear/stiga-cybershape-wood.md
-      - Tibhar:
-          - Elowa Violin (CS): gear/tibhar-elowa-violin-cs.md
-          - Kenta Matsudaira MK Carbon: gear/tibhar-kenta-matsudaira-mk-carbon.md
-          - Samsonov Alpha: gear/tibhar-samsonov-alpha.md
-          - Samsonov Alpha & Elowa Violin: gear/tibhar-samsonov-alpha-elowa-violin.md
-          - Szocs BS 1: gear/tibhar-szocs-bs-1.md
-      - Victas:
-          - Koki Niwa 10th Anniversary: gear/victas-koki-niwa-10th-anniversary.md
-          - VJ > 07 Stiff: gear/victas-vj-07-stiff.md
-      - Xiom:
-          - Ice Cream AZXi: gear/xiom-ice-cream-azxi.md
-      - Yinhe:
-          - V14 Pro: gear/yinhe-v14-pro.md
+      - 729: gear/729.md
+      - Avalox: gear/avalox.md
+      - Banda: gear/banda.md
+      - Butterfly: gear/butterfly.md
+      - DHS: gear/dhs.md
+      - Donic: gear/donic.md
+      - Double Fish: gear/double-fish.md
+      - Nittaku: gear/nittaku.md
+      - Sanwei: gear/sanwei.md
+      - Stiga: gear/stiga.md
+      - Tibhar: gear/tibhar.md
+      - Victas: gear/victas.md
+      - Xiom: gear/xiom.md
+      - Yinhe: gear/yinhe.md
