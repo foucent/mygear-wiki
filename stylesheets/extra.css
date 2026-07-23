@@ -326,7 +326,29 @@
   cursor: zoom-in;
 }
 
+/* Gear album: first image = hero, rest = thumbs (lightbox on all) */
+.mg-gallery--gear-album {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.5rem;
+  margin: 0.85rem 0 1.5rem;
+}
+
+.mg-gallery--gear-album > a:first-child {
+  grid-column: 1 / -1;
+  aspect-ratio: 4 / 3;
+  cursor: zoom-in;
+}
+
+.mg-gallery--gear-album > a:not(:first-child) {
+  aspect-ratio: 1;
+  cursor: zoom-in;
+}
+
 @media (max-width: 600px) {
+  .mg-gallery--gear-album {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .mg-gallery--pack,
   .mg-gallery--timelines {
     grid-template-columns: repeat(2, minmax(0, 1fr));
