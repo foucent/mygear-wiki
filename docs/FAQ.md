@@ -30,6 +30,7 @@ A boxed racket is about **600 g**, and one rubber is about **100 g**, but shippi
 
 | Date | Update |
 | --- | --- |
+| **2026-07-24** | New site is live and in testing—welcome feedback, feature requests, and bug reports. |
 | **2026-07-12** | **Added:** Korea shipping route available. Delivery about **7–15 days**. |
 | **2026-06-22** | Rubber prices adjusted slightly: DHS National series up a little; Provincial series down a little. |
 | **2026-06-15** | **Added:** Russia shipping available. Delivery about **20–30 days**. |
