@@ -21,7 +21,7 @@
       '  <img class="mg-lightbox__img" alt="">' +
       '  <div class="mg-lightbox__meta">' +
       '    <div class="mg-lightbox__counter" aria-live="polite"></div>' +
-      '    <div class="mg-lightbox__hint">More photos — tap image or use arrows</div>' +
+      '    <div class="mg-lightbox__hint">More photos — swipe or use arrows</div>' +
       "  </div>" +
       '  <div class="mg-lightbox__dots" aria-hidden="true"></div>' +
       "</div>";
@@ -107,8 +107,16 @@
       e.stopPropagation();
       show(parseInt(dot.getAttribute("data-index"), 10) || 0);
     });
+    var touchX = 0;
+    var touchY = 0;
+    var swiped = false;
+
     img.addEventListener("click", function (e) {
       e.stopPropagation();
+      if (swiped) {
+        swiped = false;
+        return;
+      }
       if (items.length > 1) show(index + 1);
     });
     document.addEventListener("keydown", function (e) {
@@ -117,6 +125,45 @@
       else if (e.key === "ArrowLeft") show(index - 1);
       else if (e.key === "ArrowRight") show(index + 1);
     });
+
+    root.addEventListener(
+      "touchstart",
+      function (e) {
+        if (e.touches.length !== 1) return;
+        touchX = e.touches[0].clientX;
+        touchY = e.touches[0].clientY;
+        swiped = false;
+      },
+      { passive: true }
+    );
+    root.addEventListener(
+      "touchmove",
+      function (e) {
+        if (e.touches.length !== 1 || items.length <= 1) return;
+        var dx = e.touches[0].clientX - touchX;
+        var dy = e.touches[0].clientY - touchY;
+        if (Math.abs(dx) > 12 && Math.abs(dx) > Math.abs(dy)) {
+          swiped = true;
+        }
+      },
+      { passive: true }
+    );
+    root.addEventListener(
+      "touchend",
+      function (e) {
+        if (items.length <= 1 || e.changedTouches.length !== 1) return;
+        var t = e.changedTouches[0];
+        var dx = t.clientX - touchX;
+        var dy = t.clientY - touchY;
+        var absX = Math.abs(dx);
+        var absY = Math.abs(dy);
+        if (absX < 48 || absX < absY * 1.15) return;
+        swiped = true;
+        if (dx < 0) show(index + 1);
+        else show(index - 1);
+      },
+      { passive: true }
+    );
 
     root._open = open;
     return root;

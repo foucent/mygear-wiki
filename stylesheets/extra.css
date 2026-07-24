@@ -759,6 +759,7 @@ body.mg-lightbox-open {
   padding: 0.5rem 0.55rem;
   vertical-align: top;
   position: relative;
+  overflow: hidden;
 }
 
 .md-typeset .mg-price-table--preowned table td:nth-child(2) {
@@ -1003,36 +1004,39 @@ body.mg-lightbox-open {
 
 .mg-price-badge {
   position: absolute;
-  left: 0.42rem;
-  bottom: 0.42rem;
+  right: -0.45rem;
+  bottom: 0.85rem;
   z-index: 3;
   display: inline-block;
   margin: 0;
-  padding: 0.14rem 0.4rem;
-  border-radius: 0.22rem;
-  background: rgba(15, 23, 42, 0.88);
-  color: #fff;
-  font-size: 0.68rem;
+  padding: 0.1rem 0.65rem;
+  border-radius: 0;
+  background: #facc15;
+  color: #1e293b;
+  font-size: 0.58rem;
   font-weight: 800;
-  letter-spacing: 0.01em;
-  line-height: 1.2;
+  letter-spacing: 0.02em;
+  line-height: 1.15;
   pointer-events: none;
-  box-shadow: 0 1px 4px rgba(15, 23, 42, 0.35);
+  transform: rotate(-35deg);
+  transform-origin: center center;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.28);
 }
 
 .md-typeset .mg-price-table--preowned .mg-price-badge {
-  left: 0.58rem;
-  bottom: 0.58rem;
-  padding: 0.16rem 0.45rem;
-  font-size: 0.72rem;
+  right: -0.5rem;
+  bottom: 1rem;
+  padding: 0.12rem 0.72rem;
+  font-size: 0.62rem;
 }
 
 .mg-price-badge--sold {
-  background: rgba(71, 85, 105, 0.92);
+  background: #cbd5e1;
+  color: #475569;
 }
 
 .mg-price-badge del {
-  color: #e2e8f0;
+  color: inherit;
   text-decoration-thickness: 1.5px;
 }
 
@@ -1451,3 +1455,228 @@ body.mg-cart-open {
     padding: 0 0.4rem;
   }
 }
+
+/* —— Home (shop-forward) —— */
+.mg-home {
+  margin: -0.35rem 0 0.5rem;
+}
+
+.mg-home-hero {
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 1.35rem;
+  border-radius: 0.75rem;
+  min-height: 16.5rem;
+  background:
+    linear-gradient(105deg, rgba(15, 61, 58, 0.92) 0%, rgba(15, 118, 110, 0.78) 48%, rgba(15, 23, 42, 0.55) 100%),
+    var(--mg-home-hero-image) center / cover no-repeat;
+  box-shadow: 0 8px 28px rgba(15, 118, 110, 0.18);
+}
+
+.mg-home-hero__inner {
+  position: relative;
+  z-index: 1;
+  padding: 1.65rem 1.4rem 1.55rem;
+  max-width: 34rem;
+}
+
+.mg-home-hero__brand {
+  margin: 0 0 0.55rem !important;
+  color: #5eead4 !important;
+  font-size: 0.78rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  line-height: 1.2 !important;
+}
+
+.mg-home-hero__title {
+  margin: 0 0 0.55rem !important;
+  padding: 0 !important;
+  border: 0 !important;
+  color: #fff !important;
+  font-size: 1.55rem !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.03em;
+  line-height: 1.18 !important;
+}
+
+.mg-home-hero__lead {
+  margin: 0 0 1.1rem !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-size: 0.84rem !important;
+  font-weight: 500 !important;
+  line-height: 1.45 !important;
+}
+
+.mg-home-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.mg-home-hero__btn {
+  display: inline-block !important;
+  padding: 0.48rem 1.05rem !important;
+  border-radius: 999px !important;
+  font-size: 0.78rem !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  line-height: 1.2 !important;
+}
+
+.mg-home-hero__btn--primary {
+  background: #25d366 !important;
+  color: #fff !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18);
+}
+
+.mg-home-hero__btn--primary:hover {
+  background: #1ebe57 !important;
+  color: #fff !important;
+}
+
+.mg-home-hero__btn--ghost {
+  background: rgba(255, 255, 255, 0.14) !important;
+  color: #fff !important;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+.mg-home-hero__btn--ghost:hover {
+  background: rgba(255, 255, 255, 0.24) !important;
+  color: #fff !important;
+}
+
+.mg-home-section-title {
+  margin: 0 0 0.75rem !important;
+  padding: 0 !important;
+  border: 0 !important;
+  color: var(--mg-ink) !important;
+  font-size: 0.72rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.mg-home-cats {
+  margin: 0 0 1.25rem;
+}
+
+.mg-home-cats__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.mg-home-cat {
+  display: flex !important;
+  align-items: stretch;
+  gap: 0.75rem;
+  min-height: 5.5rem;
+  padding: 0.55rem;
+  border-radius: 0.65rem;
+  background: #f8fafc;
+  border: 1px solid rgba(15, 118, 110, 0.14);
+  text-decoration: none !important;
+  color: inherit !important;
+  font-weight: 500 !important;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.mg-home-cat:hover {
+  border-color: rgba(15, 118, 110, 0.4);
+  box-shadow: 0 6px 18px rgba(15, 118, 110, 0.12);
+  transform: translateY(-1px);
+  color: inherit !important;
+}
+
+.mg-home-cat__img {
+  width: 4.75rem;
+  height: 4.75rem;
+  object-fit: cover;
+  border-radius: 0.45rem;
+  margin: 0 !important;
+  flex-shrink: 0;
+  background: #e2e8f0;
+}
+
+.mg-home-cat__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.2rem;
+  min-width: 0;
+}
+
+.mg-home-cat__name {
+  color: var(--mg-ink);
+  font-size: 0.98rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.mg-home-cat__desc {
+  color: var(--mg-ink-muted);
+  font-size: 0.72rem;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+.mg-home-help {
+  margin: 0 0 0.35rem;
+  padding: 0.85rem 1rem;
+  border-radius: 0.55rem;
+  background: rgba(13, 148, 136, 0.08);
+  border: 1px solid rgba(15, 118, 110, 0.14);
+}
+
+.mg-home-help__text {
+  margin: 0 0 0.55rem !important;
+  color: #134e4a !important;
+  font-size: 0.78rem !important;
+  font-weight: 500 !important;
+  line-height: 1.4 !important;
+}
+
+.mg-home-help__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.85rem;
+  margin: 0 !important;
+}
+
+.mg-home-help__links a {
+  color: #0f766e !important;
+  font-size: 0.78rem !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+}
+
+.mg-home-help__links a:hover {
+  text-decoration: underline !important;
+}
+
+@media (max-width: 700px) {
+  .mg-home-hero {
+    min-height: 15rem;
+  }
+
+  .mg-home-hero__inner {
+    padding: 1.35rem 1.05rem 1.25rem;
+  }
+
+  .mg-home-hero__title {
+    font-size: 1.28rem !important;
+  }
+
+  .mg-home-cats__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .mg-home-cat__img {
+    width: 4.25rem;
+    height: 4.25rem;
+  }
+}
+
