@@ -171,17 +171,41 @@
           // Amber = proxy-buy (blades + rubbers).
           tr.classList.add("mg-price-row--blade");
         }
+
+        if (preowned) {
+          var thumbCell = cells[0];
+          thumbCell.classList.add("mg-price-thumb-wrap");
+          if (!thumbCell.querySelector(".mg-price-badge")) {
+            var priceBadge = document.createElement("span");
+            priceBadge.className =
+              "mg-price-badge" + (sold ? " mg-price-badge--sold" : "");
+            if (sold) {
+              var del = document.createElement("del");
+              del.textContent = money(price);
+              priceBadge.appendChild(del);
+            } else {
+              priceBadge.textContent = money(price);
+            }
+            thumbCell.appendChild(priceBadge);
+          }
+          priceCell.classList.add("mg-price-col--overlay");
+          if (headRow) {
+            var priceTh = headRow.children[2];
+            if (priceTh) priceTh.classList.add("mg-price-col--overlay");
+          }
+        }
+
         if (sold) {
           tr.classList.add("mg-price-row--sold");
           var titleTag = cells[1].querySelector(".mg-price-sold-tag");
           if (titleTag) titleTag.remove();
-          var thumbCell = cells[0];
-          if (thumbCell && !thumbCell.querySelector(".mg-price-sold-tag")) {
-            thumbCell.classList.add("mg-price-thumb-wrap");
+          var soldThumb = cells[0];
+          if (soldThumb && !soldThumb.querySelector(".mg-price-sold-tag")) {
+            soldThumb.classList.add("mg-price-thumb-wrap");
             var tag = document.createElement("span");
             tag.className = "mg-price-sold-tag";
             tag.textContent = "Sold";
-            thumbCell.appendChild(tag);
+            soldThumb.appendChild(tag);
           }
           var empty = document.createElement("td");
           empty.className = "mg-cart-col";
