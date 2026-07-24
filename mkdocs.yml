@@ -11,6 +11,7 @@ theme:
     primary: teal
     accent: teal
   icon:
+    logo: material/table-tennis
     repo: material/cart
   features:
     - search.suggest
