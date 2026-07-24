@@ -758,6 +758,7 @@ body.mg-lightbox-open {
   width: 7.5rem;
   padding: 0.5rem 0.55rem;
   vertical-align: top;
+  position: relative;
 }
 
 .md-typeset .mg-price-table--preowned table td:nth-child(2) {
@@ -998,6 +999,45 @@ body.mg-lightbox-open {
   right: 0.5rem;
   padding: 0.16rem 0.42rem;
   font-size: 0.62rem;
+}
+
+.mg-price-badge {
+  position: absolute;
+  left: 0.42rem;
+  bottom: 0.42rem;
+  z-index: 3;
+  display: inline-block;
+  margin: 0;
+  padding: 0.14rem 0.4rem;
+  border-radius: 0.22rem;
+  background: rgba(15, 23, 42, 0.88);
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+  pointer-events: none;
+  box-shadow: 0 1px 4px rgba(15, 23, 42, 0.35);
+}
+
+.md-typeset .mg-price-table--preowned .mg-price-badge {
+  left: 0.58rem;
+  bottom: 0.58rem;
+  padding: 0.16rem 0.45rem;
+  font-size: 0.72rem;
+}
+
+.mg-price-badge--sold {
+  background: rgba(71, 85, 105, 0.92);
+}
+
+.mg-price-badge del {
+  color: #e2e8f0;
+  text-decoration-thickness: 1.5px;
+}
+
+.md-typeset .mg-price-table--preowned .mg-price-col--overlay {
+  display: none !important;
 }
 
 /* —— Tip at the bottom of every article (subtle Material admonition) —— */
