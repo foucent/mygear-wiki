@@ -759,6 +759,7 @@ body.mg-lightbox-open {
   padding: 0.5rem 0.55rem;
   vertical-align: top;
   position: relative;
+  overflow: hidden;
 }
 
 .md-typeset .mg-price-table--preowned table td:nth-child(2) {
@@ -1003,36 +1004,39 @@ body.mg-lightbox-open {
 
 .mg-price-badge {
   position: absolute;
-  left: 0.42rem;
-  bottom: 0.42rem;
+  right: -0.45rem;
+  bottom: 0.85rem;
   z-index: 3;
   display: inline-block;
   margin: 0;
-  padding: 0.14rem 0.4rem;
-  border-radius: 0.22rem;
-  background: rgba(15, 23, 42, 0.88);
-  color: #fff;
-  font-size: 0.68rem;
+  padding: 0.1rem 0.65rem;
+  border-radius: 0;
+  background: #facc15;
+  color: #1e293b;
+  font-size: 0.58rem;
   font-weight: 800;
-  letter-spacing: 0.01em;
-  line-height: 1.2;
+  letter-spacing: 0.02em;
+  line-height: 1.15;
   pointer-events: none;
-  box-shadow: 0 1px 4px rgba(15, 23, 42, 0.35);
+  transform: rotate(-35deg);
+  transform-origin: center center;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.28);
 }
 
 .md-typeset .mg-price-table--preowned .mg-price-badge {
-  left: 0.58rem;
-  bottom: 0.58rem;
-  padding: 0.16rem 0.45rem;
-  font-size: 0.72rem;
+  right: -0.5rem;
+  bottom: 1rem;
+  padding: 0.12rem 0.72rem;
+  font-size: 0.62rem;
 }
 
 .mg-price-badge--sold {
-  background: rgba(71, 85, 105, 0.92);
+  background: #cbd5e1;
+  color: #475569;
 }
 
 .mg-price-badge del {
-  color: #e2e8f0;
+  color: inherit;
   text-decoration-thickness: 1.5px;
 }
 
