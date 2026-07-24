@@ -16,7 +16,6 @@
     if (weight) lines.push("Weight: " + weight);
     if (serial) lines.push("Serial: " + serial);
     if (condition) lines.push("Condition: " + condition);
-    lines.push("Page: " + window.location.href.split("#")[0]);
     lines.push("");
     lines.push("Please confirm price + shipping. Thanks!");
     return lines.join("\n");
