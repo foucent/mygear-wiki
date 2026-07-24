@@ -1,3 +1,7 @@
+---
+icon: material/chart-bar
+---
+
 # Blade Performance Metrics
 
 When you shop for a blade, brand and looks matter less than the playing qualities underneath. Beyond [elasticity, hardness, and core wood](blade-feel-fundamentals.md), these six metrics usually decide whether a blade fits your level and style.

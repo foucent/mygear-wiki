@@ -1,13 +1,20 @@
-# MyGear Guide
+---
+icon: material/home
+---
+
+# MyGear.Top
 
 ## Shop
 
 Ordering help from the store—quotes, prices, packing, and what’s changing.
 
-- [How to Order](shop/how-to-order.md) — WhatsApp checkout: quote, pay, ship, track  
-- [Pricing & Sourcing](shop/pricing-and-sourcing.md) — hot-selling blade & rubber USD reference prices  
-- [FAQ & Updates](shop/faq-and-updates.md) — quote, payment, shipping, authenticity, and store updates  
-- [Shipping & Delivery](shop/shipping-and-delivery.md) — how orders are packed, trackers, timeline examples  
+- [How to Order](order.md) — WhatsApp checkout: quote, pay, ship, track  
+- [Blades](blades.md) — in-stock and proxy-buy blade USD prices  
+- [Rubbers](rubbers.md) — in-stock and proxy-buy rubber USD prices  
+- [Add-ons](add-ons.md) — glue, booster, cleaner, balls, and accessories  
+- [Pre-owned](pre-owned.md) — second-hand blades currently listed  
+- [FAQ & Updates](FAQ.md) — quote, payment, shipping, authenticity, and store updates  
+- [Shipping & Delivery](shipping.md) — how orders are packed, trackers, timeline examples  
 
 ---
 

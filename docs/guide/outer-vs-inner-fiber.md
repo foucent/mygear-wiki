@@ -1,4 +1,5 @@
 ---
+icon: material/layers
 source_url: https://mp.weixin.qq.com/s/xMwxUcglOtcADd555oWMUw
 source_title: "外置和内置如何选择，简单告诉你"
 imported: 2026-07-20

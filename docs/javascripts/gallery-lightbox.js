@@ -19,7 +19,11 @@
       '<button type="button" class="mg-lightbox__nav mg-lightbox__next" aria-label="Next">›</button>' +
       '<div class="mg-lightbox__stage">' +
       '  <img class="mg-lightbox__img" alt="">' +
-      '  <div class="mg-lightbox__counter" aria-live="polite"></div>' +
+      '  <div class="mg-lightbox__meta">' +
+      '    <div class="mg-lightbox__counter" aria-live="polite"></div>' +
+      '    <div class="mg-lightbox__hint">More photos — tap image or use arrows</div>' +
+      "  </div>" +
+      '  <div class="mg-lightbox__dots" aria-hidden="true"></div>' +
       "</div>";
     document.body.appendChild(root);
 
@@ -28,6 +32,30 @@
     var nextBtn = root.querySelector(".mg-lightbox__next");
     var img = root.querySelector(".mg-lightbox__img");
     var counter = root.querySelector(".mg-lightbox__counter");
+    var hint = root.querySelector(".mg-lightbox__hint");
+    var dots = root.querySelector(".mg-lightbox__dots");
+
+    function renderDots() {
+      if (items.length <= 1) {
+        dots.hidden = true;
+        dots.innerHTML = "";
+        return;
+      }
+      dots.hidden = false;
+      dots.innerHTML = items
+        .map(function (_, i) {
+          return (
+            '<button type="button" class="mg-lightbox__dot' +
+            (i === index ? " is-active" : "") +
+            '" data-index="' +
+            i +
+            '" aria-label="Photo ' +
+            (i + 1) +
+            '"></button>'
+          );
+        })
+        .join("");
+    }
 
     function show(i) {
       if (!items.length) return;
@@ -40,6 +68,8 @@
       prevBtn.hidden = !multi;
       nextBtn.hidden = !multi;
       counter.hidden = !multi;
+      hint.hidden = !multi;
+      renderDots();
     }
 
     function close() {
@@ -70,6 +100,12 @@
     nextBtn.addEventListener("click", function (e) {
       e.stopPropagation();
       show(index + 1);
+    });
+    dots.addEventListener("click", function (e) {
+      var dot = e.target.closest(".mg-lightbox__dot");
+      if (!dot) return;
+      e.stopPropagation();
+      show(parseInt(dot.getAttribute("data-index"), 10) || 0);
     });
     img.addEventListener("click", function (e) {
       e.stopPropagation();
@@ -124,15 +160,101 @@
 
     document.querySelectorAll(".mg-price-table").forEach(function (tableWrap) {
       var imgs = tableWrap.querySelectorAll("img");
-      var items = imageItems(tableWrap);
+      var fallbackItems = imageItems(tableWrap);
+      var isPreowned = tableWrap.classList.contains("mg-price-table--preowned");
+
       imgs.forEach(function (img, i) {
         if (img.dataset.mgLightboxBound === "1") return;
+        if (img.closest(".mg-price-more")) return;
         img.dataset.mgLightboxBound = "1";
         img.classList.add("mg-price-thumb");
+
+        var gallery = (img.getAttribute("data-gallery") || "")
+          .split(",")
+          .map(function (s) {
+            return s.trim();
+          })
+          .filter(Boolean);
+        var count = gallery.length || 1;
+        var galleryItemsList = gallery.length
+          ? gallery.map(function (href) {
+              return { href: href, alt: img.alt || "" };
+            })
+          : null;
+
+        if (isPreowned && gallery.length > 1) {
+          var tr = img.closest("tr");
+          var nameCell = tr && tr.cells[1];
+          if (nameCell && !nameCell.querySelector(".mg-price-more")) {
+            var strip = document.createElement("div");
+            strip.className = "mg-price-more";
+            var extras = gallery.slice(1);
+            var showMore = gallery.length > 6;
+            var normalExtras = showMore ? extras.slice(0, 5) : extras;
+            var openAt = function (startIndex) {
+              return function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                root._open(galleryItemsList, startIndex);
+              };
+            };
+
+            normalExtras.forEach(function (href, j) {
+              var thumb = document.createElement("img");
+              thumb.src = href;
+              thumb.alt = (img.alt || "") + " (" + (j + 2) + ")";
+              thumb.loading = "lazy";
+              thumb.className = "mg-price-more__thumb";
+              thumb.dataset.mgLightboxBound = "1";
+              thumb.addEventListener("click", openAt(j + 1));
+              strip.appendChild(thumb);
+            });
+
+            if (showMore) {
+              var moreBtn = document.createElement("button");
+              moreBtn.type = "button";
+              moreBtn.className = "mg-price-more__more";
+              moreBtn.setAttribute(
+                "aria-label",
+                "View all " + gallery.length + " photos"
+              );
+              moreBtn.dataset.mgLightboxBound = "1";
+              var moreImg = document.createElement("img");
+              moreImg.src = extras[5];
+              moreImg.alt = "";
+              moreImg.loading = "lazy";
+              moreImg.dataset.mgLightboxBound = "1";
+              var moreLabel = document.createElement("span");
+              moreLabel.className = "mg-price-more__more-label";
+              moreLabel.textContent = "+" + (gallery.length - 6);
+              moreBtn.appendChild(moreImg);
+              moreBtn.appendChild(moreLabel);
+              moreBtn.addEventListener("click", openAt(6));
+              strip.appendChild(moreBtn);
+            }
+
+            nameCell.appendChild(strip);
+          }
+        } else if (count > 1) {
+          var wrap = img.parentElement;
+          if (wrap && !wrap.classList.contains("mg-price-thumb-wrap")) {
+            wrap.classList.add("mg-price-thumb-wrap");
+          }
+          if (wrap && !wrap.querySelector(".mg-price-thumb-count")) {
+            var badge = document.createElement("span");
+            badge.className = "mg-price-thumb-count";
+            badge.textContent = String(count);
+            badge.title = count + " photos";
+            wrap.appendChild(badge);
+          }
+        }
+
         img.addEventListener("click", function (e) {
           e.preventDefault();
           e.stopPropagation();
-          root._open(items, i);
+          var items = galleryItemsList || fallbackItems;
+          var start = galleryItemsList ? 0 : i;
+          root._open(items, start);
         });
       });
     });

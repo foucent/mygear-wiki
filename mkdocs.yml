@@ -1,7 +1,7 @@
-site_name: MyGear Guide
+site_name: MyGear.Top
 site_url: https://guide.mygear.top/
 repo_url: https://mygear.top/
-repo_name: Shop now
+repo_name: Classic shop
 theme:
   name: material
   custom_dir: overrides
@@ -93,14 +93,22 @@ plugins:
         gear/xiom-ice-cream-azxi.md: gear/xiom.md
         gear/yinhe-blades.md: gear/yinhe.md
         gear/yinhe-v14-pro.md: gear/yinhe.md
-        shop/faq.md: shop/faq-and-updates.md
-        shop/price-list.md: shop/pricing-and-sourcing.md
-        shop/packaging-and-tracking.md: shop/shipping-and-delivery.md
-        shop/log.md: shop/faq-and-updates.md
-        shop/products/index.md: shop/pricing-and-sourcing.md
-        shop/products/butterfly-marcos-freitas-alc.md: shop/pricing-and-sourcing.md
-        shop/products/butterfly-harimoto-innerforce-alc.md: shop/pricing-and-sourcing.md
-        shop/products/butterfly-harimoto-innerforce-super-zlc.md: shop/pricing-and-sourcing.md
+        shop/faq.md: FAQ.md
+        shop/faq-and-updates.md: FAQ.md
+        shop/how-to-order.md: order.md
+        shop/blades.md: blades.md
+        shop/rubbers.md: rubbers.md
+        shop/add-ons.md: add-ons.md
+        shop/pre-owned.md: pre-owned.md
+        shop/shipping-and-delivery.md: shipping.md
+        shop/packaging-and-tracking.md: shipping.md
+        shop/price-list.md: rubbers.md
+        shop/pricing-and-sourcing.md: rubbers.md
+        shop/log.md: FAQ.md
+        shop/products/index.md: blades.md
+        shop/products/butterfly-marcos-freitas-alc.md: blades.md
+        shop/products/butterfly-harimoto-innerforce-alc.md: blades.md
+        shop/products/butterfly-harimoto-innerforce-super-zlc.md: blades.md
 
 markdown_extensions:
   - toc
@@ -110,6 +118,12 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
 
 extra_css:
   - stylesheets/extra.css
@@ -117,11 +131,14 @@ extra_css:
 extra_javascript:
   - javascripts/gallery-lightbox.js
   - javascripts/unit-copy.js
+  - javascripts/price-cart.js
+  - javascripts/price-pager.js
 
 # Local `mkdocs serve` includes these; production `mkdocs build` / GitHub Pages omit them.
 draft_docs: |
   guide/rubber-lifespan.md
   images/rubber-lifespan/**
+  shop/pricing-and-sourcing.backup.md
 
 # Hot-reload overrides/ (template notes, header tweaks). docs/ is watched by default.
 watch:
@@ -143,10 +160,13 @@ extra:
 nav:
   - Home: index.md
   - Shop:
-      - How to Order: shop/how-to-order.md
-      - Pricing & Sourcing: shop/pricing-and-sourcing.md
-      - FAQ & Updates: shop/faq-and-updates.md
-      - Shipping & Delivery: shop/shipping-and-delivery.md
+      - How to Order: order.md
+      - Blades: blades.md
+      - Rubbers: rubbers.md
+      - Add-ons: add-ons.md
+      - Pre-owned: pre-owned.md
+      - FAQ & Updates: FAQ.md
+      - Shipping & Delivery: shipping.md
   - Guide:
       - Essential Questions Before Buying: guide/essential-questions-before-buying.md
       - Blade Performance Metrics: guide/blade-performance-metrics.md

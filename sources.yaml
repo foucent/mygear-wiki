@@ -111,22 +111,37 @@ docs/guide/accelerating-with-gear.md:
   source_title: "谈谈器材“加速”的问题"
   imported: 2026-07-14
 
-docs/shop/how-to-order.md:
+docs/order.md:
   source_url: https://mygear.top/faq/
   source_title: "How to Order (WhatsApp purchase guide)"
   imported: 2026-07-19
 
-docs/shop/faq-and-updates.md:
+docs/FAQ.md:
   source_url: https://mygear.top/faq/
   source_title: "FAQ"
   imported: 2026-07-14
 
-docs/shop/pricing-and-sourcing.md:
-  source_url: https://mygear.top/sourcing-price-list/
-  source_title: "Hot-Selling Equipment Sourcing Price List"
-  imported: 2026-07-14
+docs/blades.md:
+  source_url: https://mygear.top/product-category/blade/
+  source_title: "Blades"
+  imported: 2026-07-24
 
-docs/shop/shipping-and-delivery.md:
+docs/rubbers.md:
+  source_url: https://mygear.top/product-category/rubber/
+  source_title: "Rubbers"
+  imported: 2026-07-24
+
+docs/add-ons.md:
+  source_url: https://mygear.top/product-category/add-ons/
+  source_title: "Add-ons"
+  imported: 2026-07-24
+
+docs/pre-owned.md:
+  source_url: https://mygear.top/product-category/pre-owned/
+  source_title: "Pre-owned"
+  imported: 2026-07-24
+
+docs/shipping.md:
   source_url: https://mygear.top/cases/
   source_title: "Order Packaging | Tracking & Timelines"
   imported: 2026-07-14

@@ -1,3 +1,7 @@
+---
+icon: material/hand-back-left-outline
+---
+
 # Amateur Blade Buying Guide: Elasticity, Hardness, and Core
 
 This is a practical buying guide for recreational players. When you choose a blade, start with three feel fundamentals: **elasticity**, **hardness**, and **core wood**. Get those right, and brand, weight, and rubber pairing become much easier to decide.

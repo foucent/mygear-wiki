@@ -1,4 +1,5 @@
 ---
+icon: material/palette-outline
 source_url: https://mygear.top/blue-sponge-vs-orange-sponge-choosing-the-right-hurricane-3/
 source_title: "Blue Sponge vs. Orange Sponge: Choosing the Right Hurricane 3"
 imported: 2026-07-14
