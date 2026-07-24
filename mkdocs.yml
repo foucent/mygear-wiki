@@ -159,11 +159,11 @@ extra:
 # 导航配置在这里
 nav:
   - Home: index.md
-  - How to Order: order.md
   - Blades: blades.md
   - Rubbers: rubbers.md
   - Add-ons: add-ons.md
   - Pre-owned: pre-owned.md
+  - How to Order: order.md
   - FAQ & Updates: FAQ.md
   - Shipping & Delivery: shipping.md
   - Guide:

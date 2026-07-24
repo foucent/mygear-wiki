@@ -1,57 +1,75 @@
 ---
 icon: material/home
+hide:
+  - toc
 ---
 
-# MyGear.Top
+<div class="mg-home" markdown="0">
 
-## Shop
+  <section class="mg-home-hero" style="--mg-home-hero-image: url('/images/stock-blades/brand-new-selected-viscaria.jpg')">
+    <div class="mg-home-hero__inner">
+      <p class="mg-home-hero__brand">MyGear.Top</p>
+      <h1 class="mg-home-hero__title">Table tennis gear, ready to quote</h1>
+      <p class="mg-home-hero__lead">In-stock blades &amp; rubbers, proxy buys, and pre-owned picks.</p>
+      <div class="mg-home-hero__actions">
+        <a class="mg-home-hero__btn mg-home-hero__btn--primary" href="https://wa.me/8618627156285?text=Hello%2C%20I%27d%20like%20a%20quote%20for%20table%20tennis%20gear.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A">WhatsApp quote</a>
+        <a class="mg-home-hero__btn mg-home-hero__btn--ghost" href="/order/">How to Order</a>
+      </div>
+    </div>
+  </section>
 
-Ordering help from the store—quotes, prices, packing, and what’s changing.
+  <section class="mg-home-cats" aria-label="Shop categories">
+    <h2 class="mg-home-section-title">Shop</h2>
+    <div class="mg-home-cats__grid">
+      <a class="mg-home-cat" href="/blades/">
+        <img class="mg-home-cat__img" src="/images/stock-blades/brand-new-selected-viscaria.jpg" alt="" loading="lazy">
+        <span class="mg-home-cat__body">
+          <span class="mg-home-cat__name">Blades</span>
+          <span class="mg-home-cat__desc">In stock + proxy buy</span>
+        </span>
+      </a>
+      <a class="mg-home-cat" href="/rubbers/">
+        <img class="mg-home-cat__img" src="/images/stock-rubbers/butterfly-tenergy-05.jpg" alt="" loading="lazy">
+        <span class="mg-home-cat__body">
+          <span class="mg-home-cat__name">Rubbers</span>
+          <span class="mg-home-cat__desc">National, Tenergy, Dignics &amp; more</span>
+        </span>
+      </a>
+      <a class="mg-home-cat" href="/pre-owned/">
+        <img class="mg-home-cat__img" src="/images/dhs-hurricane-sun-92g/01.jpg" alt="" loading="lazy">
+        <span class="mg-home-cat__body">
+          <span class="mg-home-cat__name">Pre-owned</span>
+          <span class="mg-home-cat__desc">Photo-checked used blades</span>
+        </span>
+      </a>
+      <a class="mg-home-cat" href="/add-ons/">
+        <img class="mg-home-cat__img" src="/images/add-ons/dhs-no-15-voc-free-glue.jpg" alt="" loading="lazy">
+        <span class="mg-home-cat__body">
+          <span class="mg-home-cat__name">Add-ons</span>
+          <span class="mg-home-cat__desc">Glue, booster, cleaner, balls</span>
+        </span>
+      </a>
+    </div>
+  </section>
 
-- [How to Order](order.md) — WhatsApp checkout: quote, pay, ship, track  
-- [Blades](blades.md) — in-stock and proxy-buy blade USD prices  
-- [Rubbers](rubbers.md) — in-stock and proxy-buy rubber USD prices  
-- [Add-ons](add-ons.md) — glue, booster, cleaner, balls, and accessories  
-- [Pre-owned](pre-owned.md) — second-hand blades currently listed  
-- [FAQ & Updates](FAQ.md) — quote, payment, shipping, authenticity, and store updates  
-- [Shipping & Delivery](shipping.md) — how orders are packed, trackers, timeline examples  
+  <section class="mg-home-help">
+    <p class="mg-home-help__text">Tap <strong>+</strong> on any list to build a cart, then checkout on WhatsApp for a final total.</p>
+    <p class="mg-home-help__links">
+      <a href="/shipping/">Shipping</a>
+      <a href="/FAQ/">FAQ &amp; Updates</a>
+    </p>
+  </section>
 
----
+</div>
 
-## Guide
+## Guides worth reading
 
-Buying basics, blade/rubber theory, and setup paths.
+- [Essential Questions Before Buying](guide/essential-questions-before-buying.md)
+- [Blade Performance Metrics](guide/blade-performance-metrics.md)
+- [Outer vs Inner Fiber](guide/outer-vs-inner-fiber.md)
+- [Hurricane 3 Multi-Stage Boosting](guide/hurricane-3-multi-stage-boosting.md)
+- [Boosting Truth](guide/boosting-truth.md)
 
-| Guide | What you’ll get |
-| --- | --- |
-| [Essential Questions Before Buying](guide/essential-questions-before-buying.md) | Weight, balance, face size, thickness, outer ply, construction |
-| [Blade Performance Metrics](guide/blade-performance-metrics.md) | Speed, spin, control, feel, power, reserve power |
-| [Blade Feel Fundamentals](guide/blade-feel-fundamentals.md) | Elasticity, hardness, and core wood as a buying map |
-| [Accelerating With Gear](guide/accelerating-with-gear.md) | Shoes, racket spring, and kit weight as real “speed” levers |
-| [Hurricane 3 Multi-Stage Boosting](guide/hurricane-3-multi-stage-boosting.md) | Five thin coats to open and lock H3 |
-| [Harimoto SZLC vs SALC](guide/harimoto-szlc-vs-salc.md) | Same skeleton, different fiber and thickness |
-| [Outer vs Inner Fiber](guide/outer-vs-inner-fiber.md) | Where fiber sits, and how face wood / thickness change the feel |
-| [Why Tenergy Before Dignics](guide/why-tenergy-before-dignics.md) | Why most players earn D through T first |
-| [Hurricane Blue vs Orange Sponge](guide/hurricane-blue-vs-orange-sponge.md) | No. 20 crisp vs No. 22 dense support |
-| [Rubber Thickness vs Hardness](guide/choosing-thickness-vs-hardness.md) | Hurricane 3 examples: 40°/2.1 vs 39°/2.15 and the 4.0 mm rule |
-| [Boosting Truth](guide/boosting-truth.md) | Boost, factory energy, and china vs mild-tack paths |
+## Gear brands
 
----
-
-## Gear
-
-- [729](gear/729.md) — 50th Anniversary Limited  
-- [Avalox](gear/avalox.md) — P500  
-- [Banda](gear/banda.md) — Offensive  
-- [Butterfly](gear/butterfly.md) — Viscaria, FZD ALC, Innerforce, Schlager, and more  
-- [DHS](gear/dhs.md) — Long 5X, Hurricane Sa, Bo AC, Guo Yan  
-- [Donic](gear/donic.md) — Zhang Jike Original Carbon, Lind Hexa Carbon, Ovtcharov Seven  
-- [Double Fish](gear/double-fish.md) — Zhou Qihao Project Z  
-- [Nittaku](gear/nittaku.md) — Kasumi Ishikawa Basic, Runlox-5  
-- [Sanwei](gear/sanwei.md) — 75R / 75G / 75 PAR  
-- [Stiga](gear/stiga.md) — Cybershape Wood  
-- [Tibhar](gear/tibhar.md) — Samsonov Alpha, Elowa Violin, MK Carbon, Szocs  
-- [Victas](gear/victas.md) — Koki Niwa 10th Anniversary + VJ > 07 Stiff  
-- [Xiom](gear/xiom.md) — Ice Cream AZXi  
-- [Yinhe](gear/yinhe.md) — V14 Pro  
-
+[729](gear/729.md) · [Avalox](gear/avalox.md) · [Banda](gear/banda.md) · [Butterfly](gear/butterfly.md) · [DHS](gear/dhs.md) · [Donic](gear/donic.md) · [Double Fish](gear/double-fish.md) · [Nittaku](gear/nittaku.md) · [Sanwei](gear/sanwei.md) · [Stiga](gear/stiga.md) · [Tibhar](gear/tibhar.md) · [Victas](gear/victas.md) · [Xiom](gear/xiom.md) · [Yinhe](gear/yinhe.md)
