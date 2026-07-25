@@ -3,6 +3,7 @@ icon: material/swap-horizontal
 source_url: https://mp.weixin.qq.com/s/T0yAzaWtrasS8_tSLJ1ROQ
 source_title: "每周乒器观察 217：张本SZLC和SALC的区别"
 imported: 2026-07-14
+description: "Two Butterfly “Super Harimoto” inner blades look almost identical on paper: inner fiber + kiri core. The real differences are fiber type and thickness—a..."
 ---
 
 # Harimoto SZLC vs SALC

@@ -2,6 +2,7 @@
 icon: material/home
 hide:
   - toc
+description: "Buy table tennis blades and rubbers in USD — in-stock, proxy, and pre-owned. Guides and brand photo galleries on MyGear.Top."
 ---
 
 <div class="mg-home" markdown="0">
@@ -22,28 +23,28 @@ hide:
     <h2 class="mg-home-section-title">Shop</h2>
     <div class="mg-home-cats__grid">
       <a class="mg-home-cat" href="/blades/">
-        <img class="mg-home-cat__img" src="/images/stock-blades/brand-new-selected-viscaria.jpg" alt="" loading="lazy">
+        <img class="mg-home-cat__img" src="/images/stock-blades/brand-new-selected-viscaria.jpg" alt="Table tennis blades in stock" loading="lazy">
         <span class="mg-home-cat__body">
           <span class="mg-home-cat__name">Blades</span>
           <span class="mg-home-cat__desc">In stock + proxy buy</span>
         </span>
       </a>
       <a class="mg-home-cat" href="/rubbers/">
-        <img class="mg-home-cat__img" src="/images/stock-rubbers/butterfly-tenergy-05.jpg" alt="" loading="lazy">
+        <img class="mg-home-cat__img" src="/images/stock-rubbers/butterfly-tenergy-05.jpg" alt="Table tennis rubbers including Tenergy" loading="lazy">
         <span class="mg-home-cat__body">
           <span class="mg-home-cat__name">Rubbers</span>
           <span class="mg-home-cat__desc">National, Tenergy, Dignics &amp; more</span>
         </span>
       </a>
       <a class="mg-home-cat" href="/pre-owned/">
-        <img class="mg-home-cat__img" src="/images/dhs-hurricane-sun-92g/01.jpg" alt="" loading="lazy">
+        <img class="mg-home-cat__img" src="/images/dhs-hurricane-sun-92g/01.jpg" alt="Pre-owned table tennis blade photos" loading="lazy">
         <span class="mg-home-cat__body">
           <span class="mg-home-cat__name">Pre-owned</span>
           <span class="mg-home-cat__desc">Photo-checked used blades</span>
         </span>
       </a>
       <a class="mg-home-cat" href="/add-ons/">
-        <img class="mg-home-cat__img" src="/images/add-ons/dhs-no-15-voc-free-glue.jpg" alt="" loading="lazy">
+        <img class="mg-home-cat__img" src="/images/add-ons/dhs-no-15-voc-free-glue.jpg" alt="Table tennis glue and add-ons" loading="lazy">
         <span class="mg-home-cat__body">
           <span class="mg-home-cat__name">Add-ons</span>
           <span class="mg-home-cat__desc">Glue, booster, cleaner, balls</span>
@@ -70,6 +71,8 @@ hide:
 - [Hurricane 3 Multi-Stage Boosting](guide/hurricane-3-multi-stage-boosting.md)
 - [Boosting Truth](guide/boosting-truth.md)
 
-## Gear brands
+## Gallery
+
+Photo galleries by brand — real blade shots for Butterfly, DHS, Viscaria-family models, and more.
 
 [729](gear/729.md) · [Avalox](gear/avalox.md) · [Banda](gear/banda.md) · [Butterfly](gear/butterfly.md) · [DHS](gear/dhs.md) · [Donic](gear/donic.md) · [Double Fish](gear/double-fish.md) · [Nittaku](gear/nittaku.md) · [Sanwei](gear/sanwei.md) · [Stiga](gear/stiga.md) · [Tibhar](gear/tibhar.md) · [Victas](gear/victas.md) · [Xiom](gear/xiom.md) · [Yinhe](gear/yinhe.md)

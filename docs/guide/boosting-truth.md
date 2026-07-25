@@ -3,6 +3,7 @@ icon: material/lightbulb-on-outline
 source_url: https://mp.weixin.qq.com/s/Av0frugbsDVge74reKV3Ig
 source_title: "灌与不灌的真相"
 imported: 2026-07-14
+description: "Boosting is not a moral absolute. It is a tool for opening the sponge and adding spring. Whether you need it depends on the rubber family, blade support..."
 ---
 
 # The Truth About Boosting (and Not Boosting)

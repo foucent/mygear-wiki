@@ -3,22 +3,45 @@ icon: tt/blade
 source_url: https://mygear.top/product-category/blade/
 source_title: "Blades"
 imported: 2026-07-24
+description: "Table tennis blades for sale — in-stock and proxy-buy models with USD prices. WhatsApp quote on MyGear.Top."
+hide:
+  - toc
 ---
 
-# Blades
+<div class="mg-shop" markdown="0">
 
-In-stock blades from the shop, plus popular models we can proxy-buy — prices in USD. **Last updated: 24 Jul 2026.**
+  <section class="mg-home-hero mg-home-hero--shop mg-hero-slides" aria-label="Table tennis blade photos">
+    <div class="mg-hero-slides__track" aria-hidden="true">
+      <img class="mg-hero-slides__img is-active" src="/images/butterfly-viscaria/01.jpg" alt="" width="1200" height="900" decoding="async" fetchpriority="high">
+      <img class="mg-hero-slides__img" src="/images/butterfly-fan-zhendong-alc/02.jpg" alt="" width="1200" height="900" decoding="async" loading="lazy">
+      <img class="mg-hero-slides__img" src="/images/dhs-hurricane-long-5x/01.jpg" alt="" width="1200" height="900" decoding="async" loading="lazy">
+      <img class="mg-hero-slides__img" src="/images/stiga-cybershape-wood/01.jpg" alt="" width="1200" height="900" decoding="async" loading="lazy">
+      <img class="mg-hero-slides__img" src="/images/tibhar-samsonov-alpha/01.jpg" alt="" width="1200" height="900" decoding="async" loading="lazy">
+      <img class="mg-hero-slides__img" src="/images/butterfly-chuang-chih-yuan-gold/01.jpg" alt="" width="1200" height="900" decoding="async" loading="lazy">
+    </div>
+    <div class="mg-home-hero__inner">
+      <p class="mg-home-hero__brand">MyGear.Top</p>
+      <h1 class="mg-home-hero__title">Table Tennis Blades</h1>
+      <p class="mg-home-hero__lead">Tap <strong>+</strong> to build a cart, then WhatsApp checkout for a final total (items + shipping).</p>
+      <div class="mg-home-hero__actions">
+        <a class="mg-home-hero__btn mg-home-hero__btn--primary" href="https://wa.me/8618627156285?text=Hello%2C%20I%27d%20like%20a%20quote%20for%20table%20tennis%20blades.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A">WhatsApp quote</a>
+        <a class="mg-home-hero__btn mg-home-hero__btn--ghost" href="/order/">How to Order</a>
+      </div>
+    </div>
+  </section>
 
-Prices move with supply and FX. Tap **+** to build a cart, then checkout on WhatsApp for a final total (items + shipping)—see [FAQ & Updates](FAQ.md).
+  <section class="mg-home-help">
+    <p class="mg-home-help__links">
+      <a href="/rubbers/">Rubbers</a>
+      <a href="/pre-owned/">Pre-owned</a>
+      <a href="/FAQ/">FAQ &amp; Updates</a>
+      <a href="/shipping/">Shipping</a>
+    </p>
+  </section>
 
-<div class="mg-cta mg-cta--compact" markdown="0">
-  <p class="mg-cta__text">Add items with +, then WhatsApp checkout from the cart.</p>
-  <a class="mg-cta__btn" href="https://wa.me/8618627156285?text=Hello%2C%20I%20want%20a%20customized%20racket%20quote.%0D%0A%0D%0APlease%20help%20me%20with%20blades%20%2B%20shipping.%0D%0A%0D%0A">WhatsApp quote</a>
 </div>
 
----
-
-## Blade list
+## Blade list <span class="mg-list-meta">USD prices · Updated 24 Jul 2026</span>
 
 <p class="mg-price-legend" markdown="0"><span class="mg-price-legend__stock">In stock</span><span class="mg-price-legend__blade">Proxy buy</span></p>
 

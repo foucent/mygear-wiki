@@ -1,13 +1,14 @@
-﻿---
+---
 source_url: https://mp.weixin.qq.com/s/MOAtwehL5rNUkLh99fO2MQ
 source_title: "多尼克 张继科原创碳素底板 横板FL手柄"
 imported: 2026-07-23
+description: "Photo gallery of Donic table tennis blades — real product shots, models, and details from MyGear.Top."
 ---
-# Donic
+# Donic Table Tennis Blades
 
 
 
-Brand gear spotlights. Each model opens with a hero shot; tap any photo to enlarge.
+Real-photo gallery of **Donic** table tennis blades. Browse models below; tap any image to enlarge.
 
 
 
@@ -25,13 +26,13 @@ Chinese players often call this **红张** (“Red Zhang”). Classic **outer 5+
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/donic-zhang-jike-original-carbon/03.jpg"><img src="/images/donic-zhang-jike-original-carbon/03.jpg" alt="Zhang Jike Original Carbon — 03.jpg" loading="lazy"></a>
+  <a href="/images/donic-zhang-jike-original-carbon/03.jpg"><img src="/images/donic-zhang-jike-original-carbon/03.jpg" alt="Donic Zhang Jike Original Carbon table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/donic-zhang-jike-original-carbon/01.jpg"><img src="/images/donic-zhang-jike-original-carbon/01.jpg" alt="Zhang Jike Original Carbon — 01.jpg" loading="lazy"></a>
+  <a href="/images/donic-zhang-jike-original-carbon/01.jpg"><img src="/images/donic-zhang-jike-original-carbon/01.jpg" alt="Donic Zhang Jike Original Carbon table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/donic-zhang-jike-original-carbon/08.jpg"><img src="/images/donic-zhang-jike-original-carbon/08.jpg" alt="Zhang Jike Original Carbon — 08.jpg" loading="lazy"></a>
+  <a href="/images/donic-zhang-jike-original-carbon/08.jpg"><img src="/images/donic-zhang-jike-original-carbon/08.jpg" alt="Donic Zhang Jike Original Carbon table tennis blade photo 8" loading="lazy"></a>
 
-  <a href="/images/donic-zhang-jike-original-carbon/12.jpg"><img src="/images/donic-zhang-jike-original-carbon/12.jpg" alt="Zhang Jike Original Carbon — 12.jpg" loading="lazy"></a>
+  <a href="/images/donic-zhang-jike-original-carbon/12.jpg"><img src="/images/donic-zhang-jike-original-carbon/12.jpg" alt="Donic Zhang Jike Original Carbon table tennis blade photo 12" loading="lazy"></a>
 
 </div>
 
@@ -47,13 +48,13 @@ Chinese players often call this **红张** (“Red Zhang”). Classic **outer 5+
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/donic-linde-carbon/01.jpg"><img src="/images/donic-linde-carbon/01.jpg" alt="Anders Lind Hexa Carbon — 01.jpg" loading="lazy"></a>
+  <a href="/images/donic-linde-carbon/01.jpg"><img src="/images/donic-linde-carbon/01.jpg" alt="Donic Anders Lind Hexa Carbon table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/donic-linde-carbon/02.jpg"><img src="/images/donic-linde-carbon/02.jpg" alt="Anders Lind Hexa Carbon — 02.jpg" loading="lazy"></a>
+  <a href="/images/donic-linde-carbon/02.jpg"><img src="/images/donic-linde-carbon/02.jpg" alt="Donic Anders Lind Hexa Carbon table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/donic-linde-carbon/03.jpg"><img src="/images/donic-linde-carbon/03.jpg" alt="Anders Lind Hexa Carbon — 03.jpg" loading="lazy"></a>
+  <a href="/images/donic-linde-carbon/03.jpg"><img src="/images/donic-linde-carbon/03.jpg" alt="Donic Anders Lind Hexa Carbon table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/donic-linde-carbon/04.jpg"><img src="/images/donic-linde-carbon/04.jpg" alt="Anders Lind Hexa Carbon — 04.jpg" loading="lazy"></a>
+  <a href="/images/donic-linde-carbon/04.jpg"><img src="/images/donic-linde-carbon/04.jpg" alt="Donic Anders Lind Hexa Carbon table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 
@@ -69,13 +70,13 @@ Chinese players often call this **红张** (“Red Zhang”). Classic **outer 5+
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/donic-ocharov-seven/01.jpg"><img src="/images/donic-ocharov-seven/01.jpg" alt="Ovtcharov Seven — 01.jpg" loading="lazy"></a>
+  <a href="/images/donic-ocharov-seven/01.jpg"><img src="/images/donic-ocharov-seven/01.jpg" alt="Donic Ovtcharov Seven table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/donic-ocharov-seven/02.jpg"><img src="/images/donic-ocharov-seven/02.jpg" alt="Ovtcharov Seven — 02.jpg" loading="lazy"></a>
+  <a href="/images/donic-ocharov-seven/02.jpg"><img src="/images/donic-ocharov-seven/02.jpg" alt="Donic Ovtcharov Seven table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/donic-ocharov-seven/03.jpg"><img src="/images/donic-ocharov-seven/03.jpg" alt="Ovtcharov Seven — 03.jpg" loading="lazy"></a>
+  <a href="/images/donic-ocharov-seven/03.jpg"><img src="/images/donic-ocharov-seven/03.jpg" alt="Donic Ovtcharov Seven table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/donic-ocharov-seven/04.jpg"><img src="/images/donic-ocharov-seven/04.jpg" alt="Ovtcharov Seven — 04.jpg" loading="lazy"></a>
+  <a href="/images/donic-ocharov-seven/04.jpg"><img src="/images/donic-ocharov-seven/04.jpg" alt="Donic Ovtcharov Seven table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 

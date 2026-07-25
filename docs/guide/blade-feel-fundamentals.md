@@ -1,5 +1,6 @@
 ---
 icon: material/hand-back-left-outline
+description: "This is a practical buying guide for recreational players. When you choose a blade, start with three feel fundamentals: elasticity, hardness, and core w..."
 ---
 
 # Amateur Blade Buying Guide: Elasticity, Hardness, and Core

@@ -3,6 +3,7 @@ icon: material/help-circle-outline
 source_url: https://mygear.top/faq/
 source_title: "FAQ"
 imported: 2026-07-14
+description: "FAQ and updates for MyGear.Top table tennis shop — pricing, WhatsApp orders, and shipping."
 ---
 # FAQ & Updates
 

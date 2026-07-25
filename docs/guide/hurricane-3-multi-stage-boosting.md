@@ -3,6 +3,7 @@ icon: material/flask-outline
 source_url: https://mygear.top/hurricane-3-boosting-guide-advanced-multi-stage-method/
 source_title: "Hurricane 3 Boosting Guide: Advanced Multi-Stage Method"
 imported: 2026-07-14
+description: "For players chasing a transparent, lively H3 sponge—not just bulk expansion. Five thin stages: open the sponge, soften deep, lock with glue, final charg..."
 ---
 
 # Hurricane 3 Multi-Stage Boosting

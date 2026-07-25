@@ -1,5 +1,6 @@
 site_name: MyGear.Top
 site_url: https://guide.mygear.top/
+site_description: Table tennis blades, rubbers, pre-owned gear, buying guides, and brand photo galleries — USD prices with WhatsApp checkout.
 repo_url: https://mygear.top/
 repo_name: Classic shop
 theme:
@@ -131,6 +132,7 @@ extra_css:
 
 extra_javascript:
   - javascripts/gallery-lightbox.js
+  - javascripts/hero-slides.js
   - javascripts/unit-copy.js
   - javascripts/price-cart.js
   - javascripts/price-pager.js
@@ -179,7 +181,7 @@ nav:
       - Hurricane Blue vs Orange Sponge: guide/hurricane-blue-vs-orange-sponge.md
       - Rubber Thickness vs Hardness: guide/choosing-thickness-vs-hardness.md
       - Boosting Truth: guide/boosting-truth.md
-  - Gear:
+  - Gallery:
       - 729: gear/729.md
       - Avalox: gear/avalox.md
       - Banda: gear/banda.md

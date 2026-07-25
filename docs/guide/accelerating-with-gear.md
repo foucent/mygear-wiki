@@ -3,6 +3,7 @@ icon: material/rocket-launch-outline
 source_url: https://mp.weixin.qq.com/s/5bO144tg63pQ-ERPqc4qAQ
 source_title: "谈谈器材“加速”的问题"
 imported: 2026-07-14
+description: "“Acceleration” is first a technique story—better footwork, earlier reads, looser hands. Gear can still help. Three practical levers: shoes, racket elast..."
 ---
 
 # Accelerating With Gear

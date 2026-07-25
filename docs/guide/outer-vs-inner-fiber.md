@@ -3,6 +3,7 @@ icon: material/layers
 source_url: https://mp.weixin.qq.com/s/xMwxUcglOtcADd555oWMUw
 source_title: "外置和内置如何选择，简单告诉你"
 imported: 2026-07-20
+description: "Under ITTF rules, a blade must be at least 85% wood. The remaining materials are usually specialty fibers. The popular layout is 5+2: five wood plies pl..."
 ---
 
 # Outer vs Inner Fiber

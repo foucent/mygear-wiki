@@ -3,6 +3,7 @@ icon: fontawesome/brands/whatsapp
 source_url: https://mygear.top/faq/
 source_title: "How to Order (WhatsApp purchase guide)"
 imported: 2026-07-19
+description: "How to order table tennis gear from MyGear.Top — cart, WhatsApp quote, and shipping basics."
 ---
 # How to Order
 

@@ -3,6 +3,7 @@ icon: material/airplane
 source_url: https://mygear.top/cases/
 source_title: "Order Packaging | Tracking & Timelines"
 imported: 2026-07-14
+description: "Shipping and delivery for MyGear.Top table tennis orders — times, regions, and how quotes work."
 ---
 # Shipping & Delivery
 

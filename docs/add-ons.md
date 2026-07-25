@@ -3,22 +3,45 @@ icon: material/circle
 source_url: https://mygear.top/product-category/add-ons/
 source_title: "Add-ons"
 imported: 2026-07-24
+description: "Table tennis accessories and add-ons — USD prices with WhatsApp checkout on MyGear.Top."
+hide:
+  - toc
 ---
 
-# Add-ons
+<div class="mg-shop" markdown="0">
 
-Glue, booster, cleaner, balls, cases, and other accessories — live shop prices in USD. **Last updated: 24 Jul 2026.**
+  <section class="mg-home-hero mg-home-hero--shop mg-hero-slides" aria-label="Table tennis add-on photos">
+    <div class="mg-hero-slides__track" aria-hidden="true">
+      <img class="mg-hero-slides__img is-active" src="/images/add-ons/dhs-no-15-voc-free-glue.jpg" alt="" width="1200" height="900" decoding="async" fetchpriority="high">
+      <img class="mg-hero-slides__img" src="/images/add-ons/haifu-sea-moon-booster.jpg" alt="" width="1200" height="900" decoding="async" loading="lazy">
+      <img class="mg-hero-slides__img" src="/images/add-ons/dhs-3-star-balls.jpg" alt="" width="1200" height="900" decoding="async" loading="lazy">
+      <img class="mg-hero-slides__img" src="/images/add-ons/hard-case-for-racket.jpg" alt="" width="1200" height="900" decoding="async" loading="lazy">
+      <img class="mg-hero-slides__img" src="/images/add-ons/haifu-national-black-oil.jpg" alt="" width="1200" height="900" decoding="async" loading="lazy">
+      <img class="mg-hero-slides__img" src="/images/add-ons/dhs-blade-professional-lacquer.jpg" alt="" width="1200" height="900" decoding="async" loading="lazy">
+    </div>
+    <div class="mg-home-hero__inner">
+      <p class="mg-home-hero__brand">MyGear.Top</p>
+      <h1 class="mg-home-hero__title">Add-ons</h1>
+      <p class="mg-home-hero__lead">Tap <strong>+</strong> to build a cart, then WhatsApp checkout for a final total (items + shipping).</p>
+      <div class="mg-home-hero__actions">
+        <a class="mg-home-hero__btn mg-home-hero__btn--primary" href="https://wa.me/8618627156285?text=Hello%2C%20I%27d%20like%20a%20quote%20for%20table%20tennis%20add-ons.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A">WhatsApp quote</a>
+        <a class="mg-home-hero__btn mg-home-hero__btn--ghost" href="/order/">How to Order</a>
+      </div>
+    </div>
+  </section>
 
-Prices move with supply and FX. Tap **+** to build a cart, then checkout on WhatsApp for a final total (items + shipping)—see [FAQ & Updates](FAQ.md).
+  <section class="mg-home-help">
+    <p class="mg-home-help__links">
+      <a href="/blades/">Blades</a>
+      <a href="/rubbers/">Rubbers</a>
+      <a href="/FAQ/">FAQ &amp; Updates</a>
+      <a href="/shipping/">Shipping</a>
+    </p>
+  </section>
 
-<div class="mg-cta mg-cta--compact" markdown="0">
-  <p class="mg-cta__text">Add items with +, then WhatsApp checkout from the cart.</p>
-  <a class="mg-cta__btn" href="https://wa.me/8618627156285?text=Hello%2C%20I%20want%20to%20order%20add-ons.%0D%0A%0D%0APlease%20help%20me%20with%20items%20%2B%20shipping.%0D%0A%0D%0A">WhatsApp quote</a>
 </div>
 
----
-
-## Shop add-ons
+## Shop add-ons <span class="mg-list-meta">USD prices · Updated 24 Jul 2026</span>
 
 <div class="mg-price-table" markdown="1">
 

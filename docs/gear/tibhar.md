@@ -1,13 +1,14 @@
-﻿---
+---
 source_url: https://mp.weixin.qq.com/s/kMHZ1YzNu_0kUUzwD8H4TA
 source_title: "挺拔 埃洛瓦小提琴 直板"
 imported: 2026-07-23
+description: "Photo gallery of Tibhar table tennis blades — real product shots, models, and details from MyGear.Top."
 ---
-# Tibhar
+# Tibhar Table Tennis Blades
 
 
 
-Brand gear spotlights. Each model opens with a hero shot; tap any photo to enlarge.
+Real-photo gallery of **Tibhar** table tennis blades. Browse models below; tap any image to enlarge.
 
 
 
@@ -25,13 +26,13 @@ Brand gear spotlights. Each model opens with a hero shot; tap any photo to enlar
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/tibhar-elowa-violin-cs/01.jpg"><img src="/images/tibhar-elowa-violin-cs/01.jpg" alt="Elowa Violin (CS) — 01.jpg" loading="lazy"></a>
+  <a href="/images/tibhar-elowa-violin-cs/01.jpg"><img src="/images/tibhar-elowa-violin-cs/01.jpg" alt="Tibhar Elowa Violin (CS) table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/tibhar-elowa-violin-cs/02.jpg"><img src="/images/tibhar-elowa-violin-cs/02.jpg" alt="Elowa Violin (CS) — 02.jpg" loading="lazy"></a>
+  <a href="/images/tibhar-elowa-violin-cs/02.jpg"><img src="/images/tibhar-elowa-violin-cs/02.jpg" alt="Tibhar Elowa Violin (CS) table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/tibhar-elowa-violin-cs/03.jpg"><img src="/images/tibhar-elowa-violin-cs/03.jpg" alt="Elowa Violin (CS) — 03.jpg" loading="lazy"></a>
+  <a href="/images/tibhar-elowa-violin-cs/03.jpg"><img src="/images/tibhar-elowa-violin-cs/03.jpg" alt="Tibhar Elowa Violin (CS) table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/tibhar-elowa-violin-cs/04.jpg"><img src="/images/tibhar-elowa-violin-cs/04.jpg" alt="Elowa Violin (CS) — 04.jpg" loading="lazy"></a>
+  <a href="/images/tibhar-elowa-violin-cs/04.jpg"><img src="/images/tibhar-elowa-violin-cs/04.jpg" alt="Tibhar Elowa Violin (CS) table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 
@@ -47,13 +48,13 @@ Brand gear spotlights. Each model opens with a hero shot; tap any photo to enlar
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/tibhar-kenta-matsudaira-mk-carbon/01.jpg"><img src="/images/tibhar-kenta-matsudaira-mk-carbon/01.jpg" alt="Kenta Matsudaira MK Carbon — 01.jpg" loading="lazy"></a>
+  <a href="/images/tibhar-kenta-matsudaira-mk-carbon/01.jpg"><img src="/images/tibhar-kenta-matsudaira-mk-carbon/01.jpg" alt="Tibhar Kenta Matsudaira MK Carbon table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/tibhar-kenta-matsudaira-mk-carbon/02.jpg"><img src="/images/tibhar-kenta-matsudaira-mk-carbon/02.jpg" alt="Kenta Matsudaira MK Carbon — 02.jpg" loading="lazy"></a>
+  <a href="/images/tibhar-kenta-matsudaira-mk-carbon/02.jpg"><img src="/images/tibhar-kenta-matsudaira-mk-carbon/02.jpg" alt="Tibhar Kenta Matsudaira MK Carbon table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/tibhar-kenta-matsudaira-mk-carbon/03.jpg"><img src="/images/tibhar-kenta-matsudaira-mk-carbon/03.jpg" alt="Kenta Matsudaira MK Carbon — 03.jpg" loading="lazy"></a>
+  <a href="/images/tibhar-kenta-matsudaira-mk-carbon/03.jpg"><img src="/images/tibhar-kenta-matsudaira-mk-carbon/03.jpg" alt="Tibhar Kenta Matsudaira MK Carbon table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/tibhar-kenta-matsudaira-mk-carbon/04.jpg"><img src="/images/tibhar-kenta-matsudaira-mk-carbon/04.jpg" alt="Kenta Matsudaira MK Carbon — 04.jpg" loading="lazy"></a>
+  <a href="/images/tibhar-kenta-matsudaira-mk-carbon/04.jpg"><img src="/images/tibhar-kenta-matsudaira-mk-carbon/04.jpg" alt="Tibhar Kenta Matsudaira MK Carbon table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 
@@ -69,13 +70,13 @@ Classic **Samsonov Alpha**—smaller-than-usual shakehand face; control-first or
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/tibhar-samsonov-alpha/01.jpg"><img src="/images/tibhar-samsonov-alpha/01.jpg" alt="Samsonov Alpha — 01.jpg" loading="lazy"></a>
+  <a href="/images/tibhar-samsonov-alpha/01.jpg"><img src="/images/tibhar-samsonov-alpha/01.jpg" alt="Tibhar Samsonov Alpha table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/tibhar-samsonov-alpha/02.jpg"><img src="/images/tibhar-samsonov-alpha/02.jpg" alt="Samsonov Alpha — 02.jpg" loading="lazy"></a>
+  <a href="/images/tibhar-samsonov-alpha/02.jpg"><img src="/images/tibhar-samsonov-alpha/02.jpg" alt="Tibhar Samsonov Alpha table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/tibhar-samsonov-alpha/03.jpg"><img src="/images/tibhar-samsonov-alpha/03.jpg" alt="Samsonov Alpha — 03.jpg" loading="lazy"></a>
+  <a href="/images/tibhar-samsonov-alpha/03.jpg"><img src="/images/tibhar-samsonov-alpha/03.jpg" alt="Tibhar Samsonov Alpha table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/tibhar-samsonov-alpha/04.jpg"><img src="/images/tibhar-samsonov-alpha/04.jpg" alt="Samsonov Alpha — 04.jpg" loading="lazy"></a>
+  <a href="/images/tibhar-samsonov-alpha/04.jpg"><img src="/images/tibhar-samsonov-alpha/04.jpg" alt="Tibhar Samsonov Alpha table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 
@@ -91,13 +92,13 @@ Two older Tibhar blanks in one album: **Samsonov Alpha** and **Elowa Violin** (s
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/tibhar-samsonov-alpha-elowa-violin/01.jpg"><img src="/images/tibhar-samsonov-alpha-elowa-violin/01.jpg" alt="Samsonov Alpha & Elowa Violin — 01.jpg" loading="lazy"></a>
+  <a href="/images/tibhar-samsonov-alpha-elowa-violin/01.jpg"><img src="/images/tibhar-samsonov-alpha-elowa-violin/01.jpg" alt="Tibhar Samsonov Alpha & Elowa Violin table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/tibhar-samsonov-alpha-elowa-violin/02.jpg"><img src="/images/tibhar-samsonov-alpha-elowa-violin/02.jpg" alt="Samsonov Alpha & Elowa Violin — 02.jpg" loading="lazy"></a>
+  <a href="/images/tibhar-samsonov-alpha-elowa-violin/02.jpg"><img src="/images/tibhar-samsonov-alpha-elowa-violin/02.jpg" alt="Tibhar Samsonov Alpha & Elowa Violin table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/tibhar-samsonov-alpha-elowa-violin/03.jpg"><img src="/images/tibhar-samsonov-alpha-elowa-violin/03.jpg" alt="Samsonov Alpha & Elowa Violin — 03.jpg" loading="lazy"></a>
+  <a href="/images/tibhar-samsonov-alpha-elowa-violin/03.jpg"><img src="/images/tibhar-samsonov-alpha-elowa-violin/03.jpg" alt="Tibhar Samsonov Alpha & Elowa Violin table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/tibhar-samsonov-alpha-elowa-violin/04.jpg"><img src="/images/tibhar-samsonov-alpha-elowa-violin/04.jpg" alt="Samsonov Alpha & Elowa Violin — 04.jpg" loading="lazy"></a>
+  <a href="/images/tibhar-samsonov-alpha-elowa-violin/04.jpg"><img src="/images/tibhar-samsonov-alpha-elowa-violin/04.jpg" alt="Tibhar Samsonov Alpha & Elowa Violin table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 
@@ -113,13 +114,13 @@ Two older Tibhar blanks in one album: **Samsonov Alpha** and **Elowa Violin** (s
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/tibhar-szocs-bs-1/01.jpg"><img src="/images/tibhar-szocs-bs-1/01.jpg" alt="Szocs BS 1 — 01.jpg" loading="lazy"></a>
+  <a href="/images/tibhar-szocs-bs-1/01.jpg"><img src="/images/tibhar-szocs-bs-1/01.jpg" alt="Tibhar Szocs BS 1 table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/tibhar-szocs-bs-1/02.jpg"><img src="/images/tibhar-szocs-bs-1/02.jpg" alt="Szocs BS 1 — 02.jpg" loading="lazy"></a>
+  <a href="/images/tibhar-szocs-bs-1/02.jpg"><img src="/images/tibhar-szocs-bs-1/02.jpg" alt="Tibhar Szocs BS 1 table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/tibhar-szocs-bs-1/03.jpg"><img src="/images/tibhar-szocs-bs-1/03.jpg" alt="Szocs BS 1 — 03.jpg" loading="lazy"></a>
+  <a href="/images/tibhar-szocs-bs-1/03.jpg"><img src="/images/tibhar-szocs-bs-1/03.jpg" alt="Tibhar Szocs BS 1 table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/tibhar-szocs-bs-1/04.jpg"><img src="/images/tibhar-szocs-bs-1/04.jpg" alt="Szocs BS 1 — 04.jpg" loading="lazy"></a>
+  <a href="/images/tibhar-szocs-bs-1/04.jpg"><img src="/images/tibhar-szocs-bs-1/04.jpg" alt="Tibhar Szocs BS 1 table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 

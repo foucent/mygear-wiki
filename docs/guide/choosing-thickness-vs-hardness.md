@@ -3,6 +3,7 @@ icon: material/ruler
 source_url: https://mygear.top/how-to-choose-rubber-thickness-and-hardness/
 source_title: "How to Choose Rubber Thickness and Hardness"
 imported: 2026-07-14
+description: "This guide uses the Hurricane 3 series as examples. Classic provincial Hurricane setup question: you’re on 39° / 2.1 mm and want more power—do you go 40..."
 ---
 
 # Rubber Thickness vs Hardness

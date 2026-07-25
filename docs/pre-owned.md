@@ -3,11 +3,45 @@ icon: material/recycle-variant
 source_url: https://mygear.top/product-category/pre-owned/
 source_title: "Pre-owned"
 imported: 2026-07-24
+description: "Pre-owned table tennis blades with multi-angle photos, weights, and USD prices. Available stock on MyGear.Top."
+hide:
+  - toc
 ---
 
-# Pre-owned
+<div class="mg-shop" markdown="0">
 
-<p markdown="0">Pre-owned blades currently listed. Tap a photo to enlarge when a gallery is available; tap <strong>+</strong> to add to cart (one of each). Confirm stock and weight on WhatsApp before buying—listings change.</p>
+  <section class="mg-home-hero mg-home-hero--shop mg-hero-slides" aria-label="Pre-owned table tennis blade photos">
+    <div class="mg-hero-slides__track" aria-hidden="true">
+      <img class="mg-hero-slides__img is-active" src="/images/fan-zd-alc-k-code-cn-90g/01.jpg" alt="" width="1200" height="900" decoding="async" fetchpriority="high">
+      <img class="mg-hero-slides__img" src="/images/dhs-hurricane-sun-92g/01.jpg" alt="" width="1200" height="900" decoding="async" loading="lazy">
+      <img class="mg-hero-slides__img" src="/images/w968-golden-slam-no-35-88g/01.jpg" alt="" width="1200" height="900" decoding="async" loading="lazy">
+      <img class="mg-hero-slides__img" src="/images/xiom-ice-azxi-91g/01.jpg" alt="" width="1200" height="900" decoding="async" loading="lazy">
+      <img class="mg-hero-slides__img" src="/images/yasaka-alnade-cs-84g/01.jpg" alt="" width="1200" height="900" decoding="async" loading="lazy">
+      <img class="mg-hero-slides__img" src="/images/yinhe-cttaa-special-89g/01.jpg" alt="" width="1200" height="900" decoding="async" loading="lazy">
+    </div>
+    <div class="mg-home-hero__inner">
+      <p class="mg-home-hero__brand">MyGear.Top</p>
+      <h1 class="mg-home-hero__title">Pre-owned</h1>
+      <p class="mg-home-hero__lead">Please WhatsApp us to confirm stock, or to pre-order by condition and weight.</p>
+      <div class="mg-home-hero__actions">
+        <a class="mg-home-hero__btn mg-home-hero__btn--primary" href="https://wa.me/8618627156285?text=Hello%2C%20I%27d%20like%20a%20quote%20for%20pre-owned%20table%20tennis%20blades.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A">WhatsApp quote</a>
+        <a class="mg-home-hero__btn mg-home-hero__btn--ghost" href="/order/">How to Order</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="mg-home-help">
+    <p class="mg-home-help__links">
+      <a href="/blades/">Blades</a>
+      <a href="/rubbers/">Rubbers</a>
+      <a href="/FAQ/">FAQ &amp; Updates</a>
+      <a href="/shipping/">Shipping</a>
+    </p>
+  </section>
+
+</div>
+
+## Pre-owned list <span class="mg-list-meta">USD prices · Updated 24 Jul 2026</span>
 
 <p class="mg-price-legend" markdown="0"><span class="mg-price-legend__stock">Available (<span class="mg-preowned-count">—</span> items)</span><span class="mg-price-legend__sold">Sold / Out of stock</span></p>
 

@@ -1,13 +1,14 @@
-﻿---
+---
 source_url: https://mp.weixin.qq.com/s/Ckyr44bD4TtVsDZmtFcx5g
 source_title: "Victas 丹羽孝希10周年纯木底板 横板FL手柄"
 imported: 2026-07-23
+description: "Photo gallery of Victas table tennis blades — real product shots, models, and details from MyGear.Top."
 ---
-# Victas
+# Victas Table Tennis Blades
 
 
 
-Brand gear spotlights. Each model opens with a hero shot; tap any photo to enlarge.
+Real-photo gallery of **Victas** table tennis blades. Browse models below; tap any image to enlarge.
 
 
 
@@ -25,13 +26,13 @@ Brand gear spotlights. Each model opens with a hero shot; tap any photo to enlar
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/victas-koki-niwa-10th-anniversary/01.jpg"><img src="/images/victas-koki-niwa-10th-anniversary/01.jpg" alt="Koki Niwa 10th Anniversary — 01.jpg" loading="lazy"></a>
+  <a href="/images/victas-koki-niwa-10th-anniversary/01.jpg"><img src="/images/victas-koki-niwa-10th-anniversary/01.jpg" alt="Victas Koki Niwa 10th Anniversary table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/victas-koki-niwa-10th-anniversary/02.jpg"><img src="/images/victas-koki-niwa-10th-anniversary/02.jpg" alt="Koki Niwa 10th Anniversary — 02.jpg" loading="lazy"></a>
+  <a href="/images/victas-koki-niwa-10th-anniversary/02.jpg"><img src="/images/victas-koki-niwa-10th-anniversary/02.jpg" alt="Victas Koki Niwa 10th Anniversary table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/victas-koki-niwa-10th-anniversary/03.jpg"><img src="/images/victas-koki-niwa-10th-anniversary/03.jpg" alt="Koki Niwa 10th Anniversary — 03.jpg" loading="lazy"></a>
+  <a href="/images/victas-koki-niwa-10th-anniversary/03.jpg"><img src="/images/victas-koki-niwa-10th-anniversary/03.jpg" alt="Victas Koki Niwa 10th Anniversary table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/victas-koki-niwa-10th-anniversary/04.jpg"><img src="/images/victas-koki-niwa-10th-anniversary/04.jpg" alt="Koki Niwa 10th Anniversary — 04.jpg" loading="lazy"></a>
+  <a href="/images/victas-koki-niwa-10th-anniversary/04.jpg"><img src="/images/victas-koki-niwa-10th-anniversary/04.jpg" alt="Victas Koki Niwa 10th Anniversary table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 
@@ -51,13 +52,13 @@ Brand gear spotlights. Each model opens with a hero shot; tap any photo to enlar
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/victas-vj-07-stiff/01.jpg"><img src="/images/victas-vj-07-stiff/01.jpg" alt="VJ > 07 Stiff — 01.jpg" loading="lazy"></a>
+  <a href="/images/victas-vj-07-stiff/01.jpg"><img src="/images/victas-vj-07-stiff/01.jpg" alt="Victas VJ > 07 Stiff table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/victas-vj-07-stiff/02.jpg"><img src="/images/victas-vj-07-stiff/02.jpg" alt="VJ > 07 Stiff — 02.jpg" loading="lazy"></a>
+  <a href="/images/victas-vj-07-stiff/02.jpg"><img src="/images/victas-vj-07-stiff/02.jpg" alt="Victas VJ > 07 Stiff table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/victas-vj-07-stiff/03.jpg"><img src="/images/victas-vj-07-stiff/03.jpg" alt="VJ > 07 Stiff — 03.jpg" loading="lazy"></a>
+  <a href="/images/victas-vj-07-stiff/03.jpg"><img src="/images/victas-vj-07-stiff/03.jpg" alt="Victas VJ > 07 Stiff table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/victas-vj-07-stiff/04.jpg"><img src="/images/victas-vj-07-stiff/04.jpg" alt="VJ > 07 Stiff — 04.jpg" loading="lazy"></a>
+  <a href="/images/victas-vj-07-stiff/04.jpg"><img src="/images/victas-vj-07-stiff/04.jpg" alt="Victas VJ > 07 Stiff table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 

@@ -2,6 +2,7 @@
 source_url: https://mp.weixin.qq.com/s/JLzhdeX2-H3Z8q6kNxWcPw
 source_title: "胶面起鳞、海绵内能消退，还能不能用，怎么用？"
 imported: 2026-07-14
+description: "Topsheet pilling and dying sponge spring are normal wear. Whether you should keep playing that sheet depends on your level, match schedule, blade pairin..."
 ---
 
 # When Rubber Pills and Sponge Energy Fades
