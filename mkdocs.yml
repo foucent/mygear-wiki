@@ -131,6 +131,7 @@ extra_css:
   - stylesheets/extra.css
 
 extra_javascript:
+  - javascripts/preowned-grid.js
   - javascripts/gallery-lightbox.js
   - javascripts/hero-slides.js
   - javascripts/unit-copy.js

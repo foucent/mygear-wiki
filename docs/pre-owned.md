@@ -41,8 +41,9 @@ hide:
 
 </div>
 
-## Pre-owned list <span class="mg-list-meta">USD prices · Updated 24 Jul 2026</span>
+## Pre-owned list <span class="mg-list-meta">USD prices · Updated 26 Jul 2026</span>
 
+<p class="mg-preowned-showing" markdown="0">Loading results…</p>
 <p class="mg-price-legend" markdown="0"><span class="mg-price-legend__stock">Available (<span class="mg-preowned-count">—</span> items)</span><span class="mg-price-legend__sold">Sold / Out of stock</span></p>
 
 <div class="mg-price-table mg-price-table--preowned" markdown="0">
