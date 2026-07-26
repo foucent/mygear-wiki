@@ -173,20 +173,24 @@
         }
 
         if (preowned) {
-          var thumbCell = cells[0];
-          thumbCell.classList.add("mg-price-thumb-wrap");
-          if (!thumbCell.querySelector(".mg-price-badge")) {
-            var priceBadge = document.createElement("span");
-            priceBadge.className =
-              "mg-price-badge" + (sold ? " mg-price-badge--sold" : "");
+          var titleCell = cells[1];
+          if (!titleCell.querySelector(".mg-price-inline")) {
+            var priceInline = document.createElement("span");
+            priceInline.className =
+              "mg-price-inline" + (sold ? " mg-price-inline--sold" : "");
             if (sold) {
-              var del = document.createElement("del");
-              del.textContent = money(price);
-              priceBadge.appendChild(del);
+              var delPrice = document.createElement("del");
+              delPrice.textContent = money(price);
+              priceInline.appendChild(delPrice);
             } else {
-              priceBadge.textContent = money(price);
+              priceInline.textContent = money(price);
             }
-            thumbCell.appendChild(priceBadge);
+            var priceSep = document.createElement("span");
+            priceSep.className = "mg-price-sep";
+            priceSep.setAttribute("aria-hidden", "true");
+            priceSep.textContent = "|";
+            titleCell.insertBefore(priceSep, titleCell.firstChild);
+            titleCell.insertBefore(priceInline, priceSep);
           }
           priceCell.classList.add("mg-price-col--overlay");
           if (headRow) {

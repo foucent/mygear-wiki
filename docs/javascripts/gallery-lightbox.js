@@ -232,19 +232,59 @@
         if (isPreowned && gallery.length > 1) {
           var tr = img.closest("tr");
           var nameCell = tr && tr.cells[1];
+          var thumbCell = tr && tr.cells[0];
+          var openAt = function (startIndex) {
+            return function (e) {
+              e.preventDefault();
+              e.stopPropagation();
+              root._open(galleryItemsList, startIndex);
+            };
+          };
+
+          // Main-image slideshow for available items only (skip sold).
+          var priceCell = tr && tr.cells[2];
+          var isSold =
+            (priceCell && priceCell.querySelector("del")) ||
+            (tr && tr.classList.contains("mg-price-row--sold"));
+          if (thumbCell && !isSold && !img.closest(".mg-price-slides")) {
+            var slides = document.createElement("div");
+            slides.className = "mg-price-slides";
+            slides.setAttribute("role", "img");
+            slides.setAttribute(
+              "aria-label",
+              (img.alt || "Product photos") + ", slideshow"
+            );
+            img.classList.add("mg-price-slides__img", "is-active");
+            thumbCell.insertBefore(slides, img);
+            slides.appendChild(img);
+            gallery.slice(1).forEach(function (href, j) {
+              var slide = document.createElement("img");
+              slide.src = href;
+              slide.alt = (img.alt || "") + " (" + (j + 2) + ")";
+              slide.loading = "lazy";
+              slide.className = "mg-price-slides__img";
+              slide.dataset.mgLightboxBound = "1";
+              slides.appendChild(slide);
+            });
+            initPriceSlides(slides);
+            slides.addEventListener("click", function (e) {
+              e.preventDefault();
+              e.stopPropagation();
+              var active = slides.querySelector(
+                ".mg-price-slides__img.is-active"
+              );
+              var all = slides.querySelectorAll(".mg-price-slides__img");
+              var start = Array.prototype.indexOf.call(all, active);
+              root._open(galleryItemsList, start >= 0 ? start : 0);
+            });
+          }
+
           if (nameCell && !nameCell.querySelector(".mg-price-more")) {
             var strip = document.createElement("div");
             strip.className = "mg-price-more";
             var extras = gallery.slice(1);
             var showMore = gallery.length > 6;
             var normalExtras = showMore ? extras.slice(0, 5) : extras;
-            var openAt = function (startIndex) {
-              return function (e) {
-                e.preventDefault();
-                e.stopPropagation();
-                root._open(galleryItemsList, startIndex);
-              };
-            };
 
             normalExtras.forEach(function (href, j) {
               var thumb = document.createElement("img");
@@ -296,6 +336,9 @@
           }
         }
 
+        // Slideshow container already handles open; skip duplicate click.
+        if (img.closest(".mg-price-slides")) return;
+
         img.addEventListener("click", function (e) {
           e.preventDefault();
           e.stopPropagation();
@@ -305,6 +348,82 @@
         });
       });
     });
+  }
+
+  function initPriceSlides(slides) {
+    var imgs = Array.prototype.slice.call(
+      slides.querySelectorAll(".mg-price-slides__img")
+    );
+    if (imgs.length < 2) return;
+
+    var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+    var index = imgs.findIndex(function (el) {
+      return el.classList.contains("is-active");
+    });
+    if (index < 0) {
+      index = 0;
+      imgs[0].classList.add("is-active");
+    }
+
+    var timer = null;
+    var interval = 3600 + Math.floor(Math.random() * 900);
+    var visible = false;
+
+    var show = function (next) {
+      imgs[index].classList.remove("is-active");
+      index = next;
+      imgs[index].classList.add("is-active");
+    };
+
+    var stop = function () {
+      if (timer) {
+        clearInterval(timer);
+        timer = null;
+      }
+    };
+
+    var start = function () {
+      stop();
+      if (reduceMotion.matches || !visible) return;
+      timer = window.setInterval(function () {
+        show((index + 1) % imgs.length);
+      }, interval);
+    };
+
+    if ("IntersectionObserver" in window) {
+      var io = new IntersectionObserver(
+        function (entries) {
+          visible = entries.some(function (e) {
+            return e.isIntersecting;
+          });
+          if (visible) start();
+          else stop();
+        },
+        { rootMargin: "80px 0px", threshold: 0.2 }
+      );
+      io.observe(slides);
+    } else {
+      visible = true;
+      start();
+    }
+
+    reduceMotion.addEventListener("change", start);
+    slides.addEventListener(
+      "mouseenter",
+      function () {
+        if (!window.matchMedia("(hover: hover)").matches) return;
+        stop();
+      },
+      { passive: true }
+    );
+    slides.addEventListener(
+      "mouseleave",
+      function () {
+        if (!window.matchMedia("(hover: hover)").matches) return;
+        start();
+      },
+      { passive: true }
+    );
   }
 
   if (document.readyState === "loading") {
