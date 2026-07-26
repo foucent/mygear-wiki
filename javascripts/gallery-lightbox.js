@@ -230,23 +230,19 @@
           : null;
 
         if (isPreowned && gallery.length > 1) {
+          var card = img.closest(".mg-preowned-card");
           var tr = img.closest("tr");
-          var nameCell = tr && tr.cells[1];
-          var thumbCell = tr && tr.cells[0];
-          var openAt = function (startIndex) {
-            return function (e) {
-              e.preventDefault();
-              e.stopPropagation();
-              root._open(galleryItemsList, startIndex);
-            };
-          };
+          var media =
+            (card && card.querySelector(".mg-preowned-card__media")) ||
+            (tr && tr.cells[0]);
+          var isSold =
+            (card && card.classList.contains("mg-preowned-card--sold")) ||
+            (tr &&
+              ((tr.cells[2] && tr.cells[2].querySelector("del")) ||
+                tr.classList.contains("mg-price-row--sold")));
 
           // Main-image slideshow for available items only (skip sold).
-          var priceCell = tr && tr.cells[2];
-          var isSold =
-            (priceCell && priceCell.querySelector("del")) ||
-            (tr && tr.classList.contains("mg-price-row--sold"));
-          if (thumbCell && !isSold && !img.closest(".mg-price-slides")) {
+          if (media && !isSold && !img.closest(".mg-price-slides")) {
             var slides = document.createElement("div");
             slides.className = "mg-price-slides";
             slides.setAttribute("role", "img");
@@ -255,7 +251,7 @@
               (img.alt || "Product photos") + ", slideshow"
             );
             img.classList.add("mg-price-slides__img", "is-active");
-            thumbCell.insertBefore(slides, img);
+            media.insertBefore(slides, img);
             slides.appendChild(img);
             gallery.slice(1).forEach(function (href, j) {
               var slide = document.createElement("img");
@@ -277,50 +273,6 @@
               var start = Array.prototype.indexOf.call(all, active);
               root._open(galleryItemsList, start >= 0 ? start : 0);
             });
-          }
-
-          if (nameCell && !nameCell.querySelector(".mg-price-more")) {
-            var strip = document.createElement("div");
-            strip.className = "mg-price-more";
-            var extras = gallery.slice(1);
-            var showMore = gallery.length > 6;
-            var normalExtras = showMore ? extras.slice(0, 5) : extras;
-
-            normalExtras.forEach(function (href, j) {
-              var thumb = document.createElement("img");
-              thumb.src = href;
-              thumb.alt = (img.alt || "") + " (" + (j + 2) + ")";
-              thumb.loading = "lazy";
-              thumb.className = "mg-price-more__thumb";
-              thumb.dataset.mgLightboxBound = "1";
-              thumb.addEventListener("click", openAt(j + 1));
-              strip.appendChild(thumb);
-            });
-
-            if (showMore) {
-              var moreBtn = document.createElement("button");
-              moreBtn.type = "button";
-              moreBtn.className = "mg-price-more__more";
-              moreBtn.setAttribute(
-                "aria-label",
-                "View all " + gallery.length + " photos"
-              );
-              moreBtn.dataset.mgLightboxBound = "1";
-              var moreImg = document.createElement("img");
-              moreImg.src = extras[5];
-              moreImg.alt = "";
-              moreImg.loading = "lazy";
-              moreImg.dataset.mgLightboxBound = "1";
-              var moreLabel = document.createElement("span");
-              moreLabel.className = "mg-price-more__more-label";
-              moreLabel.textContent = "+" + (gallery.length - 6);
-              moreBtn.appendChild(moreImg);
-              moreBtn.appendChild(moreLabel);
-              moreBtn.addEventListener("click", openAt(6));
-              strip.appendChild(moreBtn);
-            }
-
-            nameCell.appendChild(strip);
           }
         } else if (count > 1) {
           var wrap = img.parentElement;

@@ -1421,6 +1421,226 @@ body.mg-cart-open {
   display: none !important;
 }
 
+/* —— Pre-owned product card grid (mobile 2 / PC 5) —— */
+.mg-preowned-showing {
+  margin: 0.15rem 0 0.65rem !important;
+  color: #64748b;
+  font-size: 0.78rem;
+  font-weight: 500;
+}
+
+.md-typeset .mg-price-table--preowned:has(.mg-preowned-grid) > table,
+.md-typeset .mg-price-table--preowned:has(.mg-preowned-grid) > .md-typeset__table {
+  display: none !important;
+}
+
+.md-typeset .mg-price-table--preowned:has(.mg-preowned-grid) {
+  overflow: visible;
+}
+
+/* Hide empty table chrome if grid script is delayed */
+.md-typeset .mg-price-table--preowned thead {
+  display: none !important;
+}
+
+.mg-preowned-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem 0.75rem;
+  margin: 0.25rem 0 0.5rem;
+}
+
+@media (min-width: 760px) {
+  .mg-preowned-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.15rem 1rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .mg-preowned-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 1.25rem 1.1rem;
+  }
+
+  /* Give the Pre-owned grid room for 5 columns */
+  .md-main__inner:has(.mg-preowned-grid) {
+    max-width: 78rem;
+  }
+
+  .md-content:has(.mg-preowned-grid) {
+    max-width: none;
+  }
+}
+
+.mg-preowned-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  margin: 0;
+  background: #fff;
+}
+
+.mg-preowned-card[hidden] {
+  display: none !important;
+}
+
+.mg-preowned-card__media {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background: #e2e8f0;
+  cursor: zoom-in;
+}
+
+.md-typeset .mg-preowned-card__media > img {
+  position: absolute;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+  object-fit: cover;
+  display: block;
+}
+
+.md-typeset .mg-preowned-card .mg-price-slides {
+  position: absolute;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+  cursor: zoom-in;
+  background: #e2e8f0;
+}
+
+.md-typeset .mg-preowned-card .mg-price-slides__img {
+  position: absolute;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.75s ease;
+  pointer-events: none;
+}
+
+.md-typeset .mg-preowned-card .mg-price-slides__img.is-active {
+  opacity: 1;
+}
+
+.mg-preowned-card--sold .mg-preowned-card__media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.28);
+  pointer-events: none;
+}
+
+.mg-preowned-card__oos {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  padding: 0.45rem 0.7rem;
+  background: rgba(255, 255, 255, 0.92);
+  color: #2563eb;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  line-height: 1.15;
+  text-align: center;
+  text-transform: uppercase;
+  pointer-events: none;
+  box-shadow: 0 1px 6px rgba(15, 23, 42, 0.12);
+}
+
+.md-typeset .mg-preowned-card__title {
+  margin: 0.55rem 0 0.2rem !important;
+  color: #0f172a;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+}
+
+.md-typeset .mg-preowned-card__price {
+  margin: 0 0 0.55rem !important;
+  color: #dc2626;
+  font-size: 0.95rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.2;
+}
+
+.md-typeset .mg-preowned-card--sold .mg-preowned-card__title {
+  color: #475569;
+}
+
+.md-typeset .mg-preowned-card--sold .mg-preowned-card__price,
+.md-typeset .mg-preowned-card--sold .mg-preowned-card__price del {
+  color: #94a3b8;
+}
+
+.md-typeset .mg-preowned-card__wa {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  width: 100%;
+  margin-top: auto;
+  padding: 0.55rem 0.45rem;
+  border-radius: 0.35rem;
+  background: #25d366;
+  color: #fff !important;
+  font-size: 0.68rem;
+  font-weight: 700;
+  line-height: 1.15;
+  text-align: center;
+  text-decoration: none !important;
+  box-sizing: border-box;
+}
+
+.md-typeset .mg-preowned-card__wa:hover {
+  background: #1ebe57;
+  color: #fff !important;
+}
+
+.md-typeset .mg-preowned-card__wa--preorder {
+  background: #2563eb;
+}
+
+.md-typeset .mg-preowned-card__wa--preorder:hover {
+  background: #1d4ed8;
+}
+
+.mg-preowned-card__wa-icon {
+  width: 0.95rem;
+  height: 0.95rem;
+  flex: 0 0 auto;
+}
+
+@media (max-width: 600px) {
+  .md-typeset .mg-preowned-card__title {
+    font-size: 0.72rem;
+  }
+
+  .md-typeset .mg-preowned-card__price {
+    font-size: 0.88rem;
+  }
+
+  .md-typeset .mg-preowned-card__wa {
+    font-size: 0.62rem;
+    padding: 0.5rem 0.3rem;
+  }
+}
+
 /* —— Pre-owned table pagination —— */
 .mg-pager__meta {
   margin: 0.85rem 0 0.45rem !important;
@@ -1428,6 +1648,10 @@ body.mg-cart-open {
   font-size: 0.72rem;
   font-weight: 600;
   text-align: center;
+}
+
+.mg-price-table--preowned .mg-pager__meta {
+  display: none;
 }
 
 .mg-pager {

@@ -1,5 +1,5 @@
 (function () {
-  var PER_PAGE = 12;
+  var PER_PAGE = 25;
 
   function pageFromHash(pageCount) {
     var m = (location.hash || "").match(/^#page-(\d+)$/i);
@@ -11,7 +11,10 @@
   }
 
   function setHash(page) {
-    var next = page <= 1 ? location.pathname + location.search : location.pathname + location.search + "#page-" + page;
+    var next =
+      page <= 1
+        ? location.pathname + location.search
+        : location.pathname + location.search + "#page-" + page;
     var cur = location.pathname + location.search + (location.hash || "");
     if (cur === next) return;
     history.replaceState(null, "", next);
@@ -33,12 +36,23 @@
     return pages;
   }
 
+  function collectItems(wrap) {
+    var cards = Array.prototype.slice.call(
+      wrap.querySelectorAll(".mg-preowned-grid .mg-preowned-card")
+    );
+    if (cards.length) return cards;
+    var table = wrap.querySelector("table");
+    if (!table) return [];
+    return Array.prototype.slice.call(table.querySelectorAll("tbody tr"));
+  }
+
   function initPager(wrap) {
     if (wrap.dataset.mgPager === "1") return;
-    var table = wrap.querySelector("table");
-    if (!table) return;
-    var rows = Array.prototype.slice.call(table.querySelectorAll("tbody tr"));
-    if (rows.length <= PER_PAGE) return;
+    var rows = collectItems(wrap);
+    if (rows.length <= PER_PAGE) {
+      updateShowing(wrap, 1, rows.length, rows.length);
+      return;
+    }
     wrap.dataset.mgPager = "1";
 
     var pageCount = Math.ceil(rows.length / PER_PAGE);
@@ -104,11 +118,12 @@
       current = Math.max(1, Math.min(pageCount, page));
       var start = (current - 1) * PER_PAGE;
       var end = Math.min(start + PER_PAGE, rows.length);
-      rows.forEach(function (tr, i) {
-        tr.hidden = i < start || i >= end;
+      rows.forEach(function (el, i) {
+        el.hidden = i < start || i >= end;
       });
       meta.textContent =
         "Showing " + (start + 1) + "–" + end + " of " + rows.length;
+      updateShowing(wrap, start + 1, end, rows.length);
       renderNav();
       setHash(current);
       if (!skipScroll) {
@@ -131,9 +146,21 @@
     });
   }
 
+  function updateShowing(wrap, from, to, total) {
+    var meta = wrap.ownerDocument.querySelector(".mg-preowned-showing");
+    if (meta) {
+      meta.textContent = "Showing " + from + "–" + to + " of " + total + " results";
+    }
+  }
+
   function updateAvailableCount(wrap) {
     var el = document.querySelector(".mg-preowned-count");
     if (!el) return;
+    var cards = wrap.querySelectorAll(".mg-preowned-card:not(.mg-preowned-card--sold)");
+    if (cards.length) {
+      el.textContent = String(cards.length);
+      return;
+    }
     var table = wrap.querySelector("table");
     if (!table) return;
     var available = 0;

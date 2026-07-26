@@ -136,7 +136,12 @@
         var price = parsePrice(priceCell.textContent);
         if (!name || !(price >= 0)) return;
 
-        var preowned = !!table.closest(".mg-price-table--preowned");
+        var preownedWrap = table.closest(".mg-price-table--preowned");
+        var preowned = !!preownedWrap;
+        // Card grid handles Pre-owned CTAs; leave the source table alone.
+        if (preowned && preownedWrap.querySelector(".mg-preowned-grid")) {
+          return;
+        }
         var sold = !!priceCell.querySelector("del");
         var img = cells[0].querySelector("img");
         var src = ((img && (img.getAttribute("src") || img.getAttribute("data-src"))) || "").toLowerCase();
@@ -170,33 +175,6 @@
         } else if (isBlade || isProxyRubber) {
           // Amber = proxy-buy (blades + rubbers).
           tr.classList.add("mg-price-row--blade");
-        }
-
-        if (preowned) {
-          var titleCell = cells[1];
-          if (!titleCell.querySelector(".mg-price-inline")) {
-            var priceInline = document.createElement("span");
-            priceInline.className =
-              "mg-price-inline" + (sold ? " mg-price-inline--sold" : "");
-            if (sold) {
-              var delPrice = document.createElement("del");
-              delPrice.textContent = money(price);
-              priceInline.appendChild(delPrice);
-            } else {
-              priceInline.textContent = money(price);
-            }
-            var priceSep = document.createElement("span");
-            priceSep.className = "mg-price-sep";
-            priceSep.setAttribute("aria-hidden", "true");
-            priceSep.textContent = "|";
-            titleCell.insertBefore(priceSep, titleCell.firstChild);
-            titleCell.insertBefore(priceInline, priceSep);
-          }
-          priceCell.classList.add("mg-price-col--overlay");
-          if (headRow) {
-            var priceTh = headRow.children[2];
-            if (priceTh) priceTh.classList.add("mg-price-col--overlay");
-          }
         }
 
         if (sold) {
