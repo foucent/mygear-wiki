@@ -43,7 +43,9 @@ hide:
 
 ## Shop add-ons <span class="mg-list-meta">USD prices · Updated 24 Jul 2026</span>
 
-<div class="mg-price-table" markdown="1">
+<p class="mg-addons-showing" markdown="0">Loading results…</p>
+
+<div class="mg-price-table mg-price-table--addons" markdown="1">
 
 | | Product | Price (USD) |
 | :---: | --- | ---: |

@@ -181,4 +181,142 @@
   } else {
     buildGrid();
   }
+
+  function srcPath(src) {
+    return String(src || "").toLowerCase();
+  }
+
+  function buildShopGrid(opts) {
+    var wrap = $(opts.wrap);
+    if (!wrap || wrap.dataset.mgGridReady === "1") return;
+    var table = wrap.querySelector("table");
+    if (!table) return;
+    wrap.dataset.mgGridReady = "1";
+
+    var grid = document.createElement("div");
+    grid.className = "mg-preowned-grid mg-preowned-grid--shop";
+    grid.setAttribute("role", "list");
+
+    var stock = 0;
+    var total = 0;
+    var showBadge = opts.showBadge !== false;
+
+    $all("tbody tr", table).forEach(function (tr) {
+      var cells = tr.querySelectorAll("td");
+      if (cells.length < 3) return;
+      var img = cells[0].querySelector("img");
+      var name = (cells[1].textContent || "").trim();
+      var priceCell = cells[2];
+      var price = parsePrice(priceCell.textContent);
+      if (!name || !(price >= 0)) return;
+
+      total += 1;
+      var src =
+        (img && (img.getAttribute("src") || img.getAttribute("data-src"))) || "";
+      var inStock = opts.isStock(srcPath(src));
+      if (inStock) stock += 1;
+
+      var card = document.createElement("article");
+      card.className =
+        "mg-preowned-card" +
+        (inStock ? " mg-preowned-card--stock" : " mg-preowned-card--proxy");
+      card.setAttribute("role", "listitem");
+      card.dataset.name = name;
+      card.dataset.price = String(price);
+
+      var media = document.createElement("div");
+      media.className = "mg-preowned-card__media";
+      if (img) {
+        img.alt = name;
+        media.appendChild(img);
+      }
+      if (showBadge) {
+        var badge = document.createElement("span");
+        badge.className =
+          "mg-preowned-card__badge" +
+          (inStock
+            ? " mg-preowned-card__badge--stock"
+            : " mg-preowned-card__badge--proxy");
+        badge.textContent = inStock ? "In stock" : "Proxy";
+        media.appendChild(badge);
+      }
+
+      var title = document.createElement("h3");
+      title.className = "mg-preowned-card__title";
+      title.textContent = name;
+
+      var priceEl = document.createElement("p");
+      priceEl.className = "mg-preowned-card__price";
+      priceEl.textContent = money(price);
+
+      var btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "mg-cart-add mg-preowned-card__cart";
+      btn.setAttribute("aria-label", "Add " + name + " to cart");
+      btn.setAttribute("data-name", name);
+      btn.setAttribute("data-price", String(price));
+      btn.innerHTML =
+        "<span aria-hidden='true'>+</span><span>Add to cart</span>";
+
+      card.appendChild(media);
+      card.appendChild(title);
+      card.appendChild(priceEl);
+      card.appendChild(btn);
+      grid.appendChild(card);
+    });
+
+    wrap.appendChild(grid);
+
+    var tableShell = table.closest(".md-typeset__table") || table.parentElement;
+    if (tableShell && tableShell !== wrap && tableShell.contains(table)) {
+      tableShell.remove();
+    } else {
+      table.remove();
+    }
+
+    var meta = opts.meta ? $(opts.meta) : null;
+    if (meta) {
+      if (showBadge) {
+        meta.textContent =
+          "Showing " + total + " results · " + stock + " in stock";
+      } else {
+        meta.textContent = "Showing " + total + " results";
+      }
+    }
+  }
+
+  function pathHas(src, fragment) {
+    return src.indexOf(fragment) !== -1;
+  }
+
+  function initShopGrids() {
+    buildShopGrid({
+      wrap: ".mg-price-table--rubbers",
+      meta: ".mg-rubbers-showing",
+      isStock: function (src) {
+        return pathHas(src, "/stock-rubbers/") || pathHas(src, "\\stock-rubbers\\");
+      },
+    });
+    buildShopGrid({
+      wrap: ".mg-price-table--blades",
+      meta: ".mg-blades-showing",
+      isStock: function (src) {
+        return pathHas(src, "/stock-blades/") || pathHas(src, "\\stock-blades\\");
+      },
+    });
+    buildShopGrid({
+      wrap: ".mg-price-table--addons",
+      meta: ".mg-addons-showing",
+      showBadge: false,
+      isStock: function () {
+        return true;
+      },
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initShopGrids);
+  } else {
+    initShopGrids();
+  }
 })();

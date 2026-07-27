@@ -1449,17 +1449,44 @@ body.mg-cart-open {
   font-weight: 500;
 }
 
+.mg-rubbers-showing {
+  margin: 0.15rem 0 0.65rem !important;
+  color: #64748b;
+  font-size: 0.78rem;
+  font-weight: 500;
+}
+
+.mg-blades-showing,
+.mg-addons-showing {
+  margin: 0.15rem 0 0.65rem !important;
+  color: #64748b;
+  font-size: 0.78rem;
+  font-weight: 500;
+}
+
 .md-typeset .mg-price-table--preowned:has(.mg-preowned-grid) > table,
-.md-typeset .mg-price-table--preowned:has(.mg-preowned-grid) > .md-typeset__table {
+.md-typeset .mg-price-table--preowned:has(.mg-preowned-grid) > .md-typeset__table,
+.md-typeset .mg-price-table--rubbers:has(.mg-preowned-grid) > table,
+.md-typeset .mg-price-table--rubbers:has(.mg-preowned-grid) > .md-typeset__table,
+.md-typeset .mg-price-table--blades:has(.mg-preowned-grid) > table,
+.md-typeset .mg-price-table--blades:has(.mg-preowned-grid) > .md-typeset__table,
+.md-typeset .mg-price-table--addons:has(.mg-preowned-grid) > table,
+.md-typeset .mg-price-table--addons:has(.mg-preowned-grid) > .md-typeset__table {
   display: none !important;
 }
 
-.md-typeset .mg-price-table--preowned:has(.mg-preowned-grid) {
+.md-typeset .mg-price-table--preowned:has(.mg-preowned-grid),
+.md-typeset .mg-price-table--rubbers:has(.mg-preowned-grid),
+.md-typeset .mg-price-table--blades:has(.mg-preowned-grid),
+.md-typeset .mg-price-table--addons:has(.mg-preowned-grid) {
   overflow: visible;
 }
 
 /* Hide empty table chrome if grid script is delayed */
-.md-typeset .mg-price-table--preowned thead {
+.md-typeset .mg-price-table--preowned thead,
+.md-typeset .mg-price-table--rubbers thead,
+.md-typeset .mg-price-table--blades thead,
+.md-typeset .mg-price-table--addons thead {
   display: none !important;
 }
 
@@ -1719,6 +1746,57 @@ body.mg-cart-open {
   flex: 0 0 auto;
 }
 
+.mg-preowned-card__badge {
+  position: absolute;
+  top: 0.4rem;
+  left: 0.4rem;
+  z-index: 2;
+  padding: 0.18rem 0.4rem;
+  border-radius: 0.2rem;
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  color: #fff;
+  pointer-events: none;
+}
+
+.mg-preowned-card__badge--stock {
+  background: #0f766e;
+}
+
+.mg-preowned-card__badge--proxy {
+  background: #d97706;
+}
+
+.md-typeset .mg-preowned-card__cart {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  width: 100%;
+  margin-top: auto;
+  padding: 0.55rem 0.45rem;
+  border: 0;
+  border-radius: 0.35rem;
+  background: #0f766e;
+  color: #fff !important;
+  font-size: 0.68rem;
+  font-weight: 700;
+  line-height: 1.15;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.md-typeset .mg-preowned-card__cart:hover {
+  background: #0d9488;
+}
+
+.md-typeset .mg-preowned-card__cart.mg-cart-add--done {
+  background: #115e59;
+}
+
 @media (max-width: 600px) {
   .md-typeset .mg-preowned-card__title {
     font-size: 0.72rem;
@@ -1728,7 +1806,8 @@ body.mg-cart-open {
     font-size: 0.88rem;
   }
 
-  .md-typeset .mg-preowned-card__wa {
+  .md-typeset .mg-preowned-card__wa,
+  .md-typeset .mg-preowned-card__cart {
     font-size: 0.62rem;
     padding: 0.5rem 0.3rem;
   }

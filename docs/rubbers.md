@@ -43,9 +43,10 @@ hide:
 
 ## Rubber list <span class="mg-list-meta">USD prices · Updated 24 Jul 2026</span>
 
+<p class="mg-rubbers-showing" markdown="0">Loading results…</p>
 <p class="mg-price-legend" markdown="0"><span class="mg-price-legend__stock">In stock</span><span class="mg-price-legend__blade">Proxy buy</span></p>
 
-<div class="mg-price-table" markdown="1">
+<div class="mg-price-table mg-price-table--rubbers" markdown="1">
 
 | | Product | Price (USD) |
 | :---: | --- | ---: |

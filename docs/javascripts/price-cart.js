@@ -187,9 +187,16 @@
         if (!name || !(price >= 0)) return;
 
         var preownedWrap = table.closest(".mg-price-table--preowned");
+        var shopWrap =
+          table.closest(".mg-price-table--rubbers") ||
+          table.closest(".mg-price-table--blades") ||
+          table.closest(".mg-price-table--addons");
         var preowned = !!preownedWrap;
-        // Card grid handles Pre-owned CTAs; leave the source table alone.
-        if (preowned && preownedWrap.querySelector(".mg-preowned-grid")) {
+        // Card grids handle CTAs; leave the source table alone.
+        if (
+          (preowned && preownedWrap.querySelector(".mg-preowned-grid")) ||
+          (shopWrap && shopWrap.querySelector(".mg-preowned-grid"))
+        ) {
           return;
         }
         var sold = !!priceCell.querySelector("del");
