@@ -1,8 +1,6 @@
 site_name: MyGear.Top
-site_url: https://guide.mygear.top/
+site_url: https://mygear.top/
 site_description: Table tennis blades, rubbers, pre-owned gear, buying guides, and brand photo galleries — USD prices with WhatsApp checkout.
-repo_url: https://mygear.top/
-repo_name: Classic shop
 theme:
   name: material
   custom_dir: overrides
@@ -13,7 +11,6 @@ theme:
     accent: teal
   icon:
     logo: material/table-tennis
-    repo: material/cart
   features:
     - search.suggest
     - search.highlight
@@ -156,9 +153,6 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@Mygear-top
       name: YouTube
-    - icon: material/cart
-      link: https://mygear.top/
-      name: Shop at mygear.top
 
 # 导航配置在这里
 nav:

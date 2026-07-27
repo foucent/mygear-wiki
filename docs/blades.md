@@ -41,7 +41,7 @@ hide:
 
 </div>
 
-## Blade list <span class="mg-list-meta">USD prices · Updated 24 Jul 2026</span>
+## Blade list <span class="mg-list-meta">USD prices · Updated 28 Jul 2026</span>
 
 <p class="mg-blades-showing" markdown="0">Loading results…</p>
 <p class="mg-price-legend" markdown="0"><span class="mg-price-legend__stock">In stock</span><span class="mg-price-legend__blade">Proxy buy</span></p>
@@ -50,34 +50,34 @@ hide:
 
 | | Product | Price (USD) |
 | :---: | --- | ---: |
-| ![ ](../images/stock-blades/brand-new-selected-viscaria.jpg) | Viscaria \| CN \| K-Code \| 90-93g \| Brand New Selected | $175 |
-| ![ ](../images/stock-blades/brand-new-selected-fan-zhendong-salc.jpg) | Fan ZD SALC \| CN \| K-Code \| 87-90g \| Brand New Selected | $225 |
-| ![ ](../images/stock-blades/brand-new-selected-harimoto-alc-cn-fl-k-code.jpg) | Harimoto ALC \| CN \| K-Code \| Brand New Selected | $167 |
-| ![ ](../images/stock-blades/zhang-jk-alc-cn-cs-k-code-83-90g-brand-new-selected.jpg) | Zhang JK ALC \| CN \| CS \| K-Code \| 86-90g \| Brand New Selected | $265 |
-| ![ ](../images/stock-blades/selected-zhang-jike-alc-cn-fl-k-code.jpg) | Zhang JK ALC \| CN \| K-Code \| Brand New Selected | $265 |
-| ![ ](../images/stock-blades/dhs-official-w968no-10-40.jpg) | DHS W968 \| Official (No.10-40) \| Brand New | $358 |
-| ![ ](../images/stock-blades/dhs-national-player-version-w968.jpg) | DHS W968 National player \| Brand New \| Pre-order | $710 |
-| ![ ](../images/stock-blades/dhs-hurricane-long-5-series.jpg) | DHS Hurricane Long 5x \| Brand New | $118 |
-| ![ ](../images/stock-blades/dhs-hurricane-sun.jpg) | DHS Hurricane Sun \| Brand New | $118 |
-| ![ ](../images/stock-blades/dhs-hurricane-king-wang-chuqin.jpg) | DHS Hurricane King (Wang Chuqin) \| Brand New | $118 |
-| ![ ](../images/price-list/blades/maze-advance.jpg) | Maze Advance | $75 |
-| ![ ](../images/price-list/blades/yasaka-ma-lin-carbon.jpg) | Yasaka Ma Lin Carbon | $58 |
-| ![ ](../images/price-list/blades/nittaku-acoustic-carbon-g-revision.jpg) | Nittaku Acoustic Carbon G-Revision | $108 |
-| ![ ](../images/price-list/blades/dhs-hurricane-long-5.jpg) | DHS Hurricane Long 5 | $118 |
-| ![ ](../images/price-list/blades/donic-zhang-jike-original-carbon.jpg) | Donic Zhang Jike Original Carbon | $135 |
-| ![ ](../images/price-list/blades/harimoto-innerforce-alc.jpg) | Harimoto Innerforce ALC | $136 |
-| ![ ](../images/price-list/blades/timo-boll-alc.jpg) | Timo Boll ALC | $139 |
-| ![ ](../images/price-list/blades/viscaria.jpg) | Viscaria | $139 |
-| ![ ](../images/price-list/blades/taksim-butterfly-king.jpg) | Taksim (Butterfly King) | $140 |
-| ![ ](../images/price-list/blades/nittaku-goriki.jpg) | Nittaku Goriki | $150 |
-| ![ ](../images/price-list/blades/ovtcharov-innerforce-alc.jpg) | Ovtcharov Innerforce ALC | $155 |
-| ![ ](../images/price-list/blades/xiom-chrome-xaxi.jpg) | Xiom Chrome XAXi | $158 |
-| ![ ](../images/price-list/blades/fan-zhendong-alc.jpg) | Fan Zhendong ALC | $165 |
-| ![ ](../images/price-list/blades/zhang-jike-alc.jpg) | Zhang Jike ALC | $175 |
-| ![ ](../images/price-list/blades/stiga-cybershape-carbon-cwt-truls.jpg) | Stiga Cybershape Carbon CWT Truls Edition | $238 |
-| ![ ](../images/price-list/blades/victas-koki-niwa.jpg) | Victas Koki Niwa | $151 |
-| ![ ](../images/price-list/blades/victas-koji-matsushita-offensive.jpg) | Victas Koji Matsushita Offensive | $98 |
-| ![ ](../images/price-list/blades/dhs-power-g7.jpg) | DHS Power G7 | $26 |
+| ![ ](../images/stock-blades/brand-new-selected-viscaria.jpg) | Viscaria \| CN \| K-Code \| 90-93g \| Brand New Selected | $169 |
+| ![ ](../images/stock-blades/brand-new-selected-fan-zhendong-salc.jpg) | Fan ZD SALC \| CN \| K-Code \| 87-90g \| Brand New Selected | $219 |
+| ![ ](../images/stock-blades/brand-new-selected-harimoto-alc-cn-fl-k-code.jpg) | Harimoto ALC \| CN \| K-Code \| Brand New Selected | $161 |
+| ![ ](../images/stock-blades/zhang-jk-alc-cn-cs-k-code-83-90g-brand-new-selected.jpg) | Zhang JK ALC \| CN \| CS \| K-Code \| 86-90g \| Brand New Selected | $259 |
+| ![ ](../images/stock-blades/selected-zhang-jike-alc-cn-fl-k-code.jpg) | Zhang JK ALC \| CN \| K-Code \| Brand New Selected | $259 |
+| ![ ](../images/stock-blades/dhs-official-w968no-10-40.jpg) | DHS W968 \| Official (No.10-40) \| Brand New | $352 |
+| ![ ](../images/stock-blades/dhs-national-player-version-w968.jpg) | DHS W968 National player \| Brand New \| Pre-order | $704 |
+| ![ ](../images/stock-blades/dhs-hurricane-long-5-series.jpg) | DHS Hurricane Long 5x \| Brand New | $112 |
+| ![ ](../images/stock-blades/dhs-hurricane-sun.jpg) | DHS Hurricane Sun \| Brand New | $112 |
+| ![ ](../images/stock-blades/dhs-hurricane-king-wang-chuqin.jpg) | DHS Hurricane King (Wang Chuqin) \| Brand New | $112 |
+| ![ ](../images/price-list/blades/maze-advance.jpg) | Maze Advance | $69 |
+| ![ ](../images/price-list/blades/yasaka-ma-lin-carbon.jpg) | Yasaka Ma Lin Carbon | $52 |
+| ![ ](../images/price-list/blades/nittaku-acoustic-carbon-g-revision.jpg) | Nittaku Acoustic Carbon G-Revision | $102 |
+| ![ ](../images/price-list/blades/dhs-hurricane-long-5.jpg) | DHS Hurricane Long 5 | $112 |
+| ![ ](../images/price-list/blades/donic-zhang-jike-original-carbon.jpg) | Donic Zhang Jike Original Carbon | $129 |
+| ![ ](../images/price-list/blades/harimoto-innerforce-alc.jpg) | Harimoto Innerforce ALC | $130 |
+| ![ ](../images/price-list/blades/timo-boll-alc.jpg) | Timo Boll ALC | $133 |
+| ![ ](../images/price-list/blades/viscaria.jpg) | Viscaria | $133 |
+| ![ ](../images/price-list/blades/taksim-butterfly-king.jpg) | Taksim (Butterfly King) | $134 |
+| ![ ](../images/price-list/blades/nittaku-goriki.jpg) | Nittaku Goriki | $144 |
+| ![ ](../images/price-list/blades/ovtcharov-innerforce-alc.jpg) | Ovtcharov Innerforce ALC | $149 |
+| ![ ](../images/price-list/blades/xiom-chrome-xaxi.jpg) | Xiom Chrome XAXi | $152 |
+| ![ ](../images/price-list/blades/fan-zhendong-alc.jpg) | Fan Zhendong ALC | $159 |
+| ![ ](../images/price-list/blades/zhang-jike-alc.jpg) | Zhang Jike ALC | $169 |
+| ![ ](../images/price-list/blades/stiga-cybershape-carbon-cwt-truls.jpg) | Stiga Cybershape Carbon CWT Truls Edition | $232 |
+| ![ ](../images/price-list/blades/victas-koki-niwa.jpg) | Victas Koki Niwa | $145 |
+| ![ ](../images/price-list/blades/victas-koji-matsushita-offensive.jpg) | Victas Koji Matsushita Offensive | $92 |
+| ![ ](../images/price-list/blades/dhs-power-g7.jpg) | DHS Power G7 | $20 |
 
 </div>
 

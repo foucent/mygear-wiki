@@ -13,4 +13,4 @@ When the user pastes an `mp.weixin.qq.com` link (alone or with「处理这篇到
 4. Do not commit or push unless explicitly asked
 
 Local preview base: `http://127.0.0.1:8000/`
-Production: `https://guide.mygear.top/`
+Production: `https://mygear.top/`
