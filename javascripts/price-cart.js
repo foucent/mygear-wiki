@@ -114,6 +114,56 @@
     );
   }
 
+  function itemId(name) {
+    return String(name || "")
+      .toLowerCase()
+      .replace(/^pre-owned · /, "")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-|-$/g, "")
+      .slice(0, 100);
+  }
+
+  function toGaItem(item, qty) {
+    var name = item.name || "";
+    var preowned = /^pre-owned · /i.test(name);
+    return {
+      item_id: itemId(name),
+      item_name: name.replace(/^Pre-owned · /, ""),
+      item_category: preowned ? "Pre-owned" : "Shop",
+      price: item.price || 0,
+      quantity: qty != null ? qty : item.qty || 1,
+    };
+  }
+
+  function trackGa(eventName, params) {
+    try {
+      if (typeof window.gtag === "function") {
+        window.gtag("event", eventName, params || {});
+      }
+    } catch (e) {}
+  }
+
+  function trackAddToCart(name, price, qty) {
+    var q = qty || 1;
+    var item = toGaItem({ name: name, price: price, qty: q }, q);
+    trackGa("add_to_cart", {
+      currency: "USD",
+      value: (price || 0) * q,
+      items: [item],
+    });
+  }
+
+  function trackBeginCheckout(cart) {
+    if (!cart || !cart.length) return;
+    trackGa("begin_checkout", {
+      currency: "USD",
+      value: cartTotal(cart),
+      items: cart.map(function (item) {
+        return toGaItem(item);
+      }),
+    });
+  }
+
   function enhanceTables() {
     $all(".mg-price-table table").forEach(function (table) {
       if (table.dataset.mgCartReady === "1") return;
@@ -401,11 +451,18 @@
         if (result.status === "exists") {
           showToast("Already in cart — only 1 available");
         } else if (result.status === "updated") {
+          trackAddToCart(name, price, 1);
           showToast("Updated: " + shortName);
         } else {
+          trackAddToCart(name, price, 1);
           showToast("Added to cart: " + shortName);
         }
         return;
+      }
+
+      var waCheckout = e.target.closest("#mg-cart-wa");
+      if (waCheckout && cart.length) {
+        trackBeginCheckout(cart);
       }
 
       if (e.target.closest("#mg-cart-fab")) {
