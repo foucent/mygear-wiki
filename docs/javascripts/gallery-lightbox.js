@@ -231,48 +231,88 @@
 
         if (isPreowned && gallery.length > 1) {
           var card = img.closest(".mg-preowned-card");
-          var tr = img.closest("tr");
           var media =
             (card && card.querySelector(".mg-preowned-card__media")) ||
-            (tr && tr.cells[0]);
-          var isSold =
-            (card && card.classList.contains("mg-preowned-card--sold")) ||
-            (tr &&
-              ((tr.cells[2] && tr.cells[2].querySelector("del")) ||
-                tr.classList.contains("mg-price-row--sold")));
+            img.parentElement;
+          if (
+            card &&
+            media &&
+            !card.querySelector(".mg-preowned-card__thumbs")
+          ) {
+            var extras = gallery.slice(1);
+            var maxThumbs = 8; // 2 rows × 4 cols
+            var showMore = extras.length > maxThumbs;
+            var visible = showMore ? extras.slice(0, maxThumbs - 1) : extras;
+            var strip = document.createElement("div");
+            strip.className = "mg-preowned-card__thumbs";
+            strip.setAttribute("role", "list");
 
-          // Main-image slideshow for available items only (skip sold).
-          if (media && !isSold && !img.closest(".mg-price-slides")) {
-            var slides = document.createElement("div");
-            slides.className = "mg-price-slides";
-            slides.setAttribute("role", "img");
-            slides.setAttribute(
-              "aria-label",
-              (img.alt || "Product photos") + ", slideshow"
-            );
-            img.classList.add("mg-price-slides__img", "is-active");
-            media.insertBefore(slides, img);
-            slides.appendChild(img);
-            gallery.slice(1).forEach(function (href, j) {
-              var slide = document.createElement("img");
-              slide.src = href;
-              slide.alt = (img.alt || "") + " (" + (j + 2) + ")";
-              slide.loading = "lazy";
-              slide.className = "mg-price-slides__img";
-              slide.dataset.mgLightboxBound = "1";
-              slides.appendChild(slide);
-            });
-            initPriceSlides(slides);
-            slides.addEventListener("click", function (e) {
-              e.preventDefault();
-              e.stopPropagation();
-              var active = slides.querySelector(
-                ".mg-price-slides__img.is-active"
+            visible.forEach(function (href, j) {
+              var galleryIndex = j + 1; // skip main (0)
+              var thumb = document.createElement("button");
+              thumb.type = "button";
+              thumb.className = "mg-preowned-card__thumb";
+              thumb.setAttribute("role", "listitem");
+              thumb.setAttribute(
+                "aria-label",
+                (img.alt || "Photo") + " " + (galleryIndex + 1)
               );
-              var all = slides.querySelectorAll(".mg-price-slides__img");
-              var start = Array.prototype.indexOf.call(all, active);
-              root._open(galleryItemsList, start >= 0 ? start : 0);
+              thumb.dataset.mgLightboxBound = "1";
+
+              var thumbImg = document.createElement("img");
+              thumbImg.src = href;
+              thumbImg.alt = "";
+              thumbImg.loading = "lazy";
+              thumbImg.dataset.mgLightboxBound = "1";
+              thumb.appendChild(thumbImg);
+
+              thumb.addEventListener("click", function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                img.src = href;
+                img.dataset.galleryIndex = String(galleryIndex);
+                strip
+                  .querySelectorAll(".mg-preowned-card__thumb")
+                  .forEach(function (el) {
+                    el.classList.toggle("is-active", el === thumb);
+                  });
+              });
+
+              strip.appendChild(thumb);
             });
+
+            if (showMore) {
+              var moreIdx = maxThumbs - 1 + 1; // first hidden extra's gallery index
+              var moreHref = extras[maxThumbs - 1];
+              var moreBtn = document.createElement("button");
+              moreBtn.type = "button";
+              moreBtn.className =
+                "mg-preowned-card__thumb mg-preowned-card__thumb--more";
+              moreBtn.setAttribute("role", "listitem");
+              moreBtn.setAttribute(
+                "aria-label",
+                "View all " + gallery.length + " photos"
+              );
+              moreBtn.dataset.mgLightboxBound = "1";
+              var moreImg = document.createElement("img");
+              moreImg.src = moreHref;
+              moreImg.alt = "";
+              moreImg.loading = "lazy";
+              moreImg.dataset.mgLightboxBound = "1";
+              var moreLabel = document.createElement("span");
+              moreLabel.className = "mg-preowned-card__thumb-more-label";
+              moreLabel.textContent = "+" + (extras.length - (maxThumbs - 1));
+              moreBtn.appendChild(moreImg);
+              moreBtn.appendChild(moreLabel);
+              moreBtn.addEventListener("click", function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                root._open(galleryItemsList, moreIdx);
+              });
+              strip.appendChild(moreBtn);
+            }
+
+            media.insertAdjacentElement("afterend", strip);
           }
         } else if (count > 1) {
           var wrap = img.parentElement;
@@ -280,22 +320,21 @@
             wrap.classList.add("mg-price-thumb-wrap");
           }
           if (wrap && !wrap.querySelector(".mg-price-thumb-count")) {
-            var badge = document.createElement("span");
-            badge.className = "mg-price-thumb-count";
-            badge.textContent = String(count);
-            badge.title = count + " photos";
-            wrap.appendChild(badge);
+            var badge2 = document.createElement("span");
+            badge2.className = "mg-price-thumb-count";
+            badge2.textContent = String(count);
+            badge2.title = count + " photos";
+            wrap.appendChild(badge2);
           }
         }
-
-        // Slideshow container already handles open; skip duplicate click.
-        if (img.closest(".mg-price-slides")) return;
 
         img.addEventListener("click", function (e) {
           e.preventDefault();
           e.stopPropagation();
           var items = galleryItemsList || fallbackItems;
-          var start = galleryItemsList ? 0 : i;
+          var start = galleryItemsList
+            ? parseInt(img.dataset.galleryIndex || "0", 10) || 0
+            : i;
           root._open(items, start);
         });
       });
@@ -303,6 +342,7 @@
   }
 
   function initPriceSlides(slides) {
+    // Kept for compatibility; Pre-owned no longer builds slideshows.
     var imgs = Array.prototype.slice.call(
       slides.querySelectorAll(".mg-price-slides__img")
     );
