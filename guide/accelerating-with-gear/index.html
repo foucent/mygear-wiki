@@ -1587,6 +1587,54 @@
 
 
 
+  <h2 id="__comments">Comments</h2>
+  <div id="cusdis_thread"
+    data-host="https://cusdis.com"
+    data-app-id="bbd996e9-3941-467f-91fd-c7324b94c523"
+    data-page-id="guide/accelerating-with-gear.md"
+    data-page-url="https://guide.mygear.top/guide/accelerating-with-gear/"
+    data-page-title="Accelerating With Gear">
+  </div>
+  <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+  <script>
+    /* Cusdis hosted embed often leaves iframe at ~150px; enforce usable height */
+    (function () {
+      var MIN = 448;
+      function apply() {
+        var iframe = document.querySelector("#cusdis_thread iframe");
+        if (!iframe) return;
+        var h = parseInt(iframe.style.height, 10);
+        if (!h || h < MIN) iframe.style.height = MIN + "px";
+      }
+      window.addEventListener("message", function (e) {
+        try {
+          var data = e.data;
+          if (typeof data === "string") {
+            try { data = JSON.parse(data); } catch (_) {}
+          }
+          var iframe = document.querySelector("#cusdis_thread iframe");
+          if (!iframe) return;
+          var next = null;
+          if (typeof data === "number") next = data;
+          else if (typeof data === "string" && /^\d+$/.test(data)) next = parseInt(data, 10);
+          else if (data && data.from === "cusdis" && data.data != null)
+            next = parseInt(data.data, 10);
+          if (next && next > MIN) iframe.style.height = next + "px";
+          else apply();
+        } catch (_) {
+          apply();
+        }
+      });
+      var root = document.getElementById("cusdis_thread");
+      if (root && window.MutationObserver) {
+        new MutationObserver(apply).observe(root, { childList: true, subtree: true });
+      }
+      [500, 1500, 3000, 6000].forEach(function (ms) {
+        setTimeout(apply, ms);
+      });
+    })();
+  </script>
+
                 
               </article>
             </div>
