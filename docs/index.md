@@ -2,7 +2,7 @@
 icon: material/home
 hide:
   - toc
-description: "Buy table tennis blades and rubbers in USD — in-stock, proxy, and pre-owned. Guides and brand photo galleries on MyGear.Top."
+description: "Buy table tennis blades and rubbers in USD — brand-new blades, popular rubbers, and selected used blades. Guides and brand photo galleries on MyGear.Top."
 ---
 
 <div class="mg-home" markdown="0">
@@ -11,7 +11,7 @@ description: "Buy table tennis blades and rubbers in USD — in-stock, proxy, an
     <div class="mg-home-hero__inner">
       <p class="mg-home-hero__brand">MyGear.Top</p>
       <h1 class="mg-home-hero__title">Table tennis gear, ready to quote</h1>
-      <p class="mg-home-hero__lead">In-stock blades &amp; rubbers, proxy buys, and pre-owned picks.</p>
+      <p class="mg-home-hero__lead">Brand-new blades, popular rubbers, and selected used blades.</p>
       <div class="mg-home-hero__actions">
         <a class="mg-home-hero__btn mg-home-hero__btn--primary" href="https://wa.me/8618627156285?text=Hello%2C%20I%27d%20like%20a%20quote%20for%20table%20tennis%20gear.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A">WhatsApp quote</a>
         <a class="mg-home-hero__btn mg-home-hero__btn--ghost" href="/order/">How to Order</a>
@@ -26,21 +26,21 @@ description: "Buy table tennis blades and rubbers in USD — in-stock, proxy, an
         <img class="mg-home-cat__img" src="/images/stock-blades/brand-new-selected-viscaria.jpg" alt="Table tennis blades in stock" loading="lazy">
         <span class="mg-home-cat__body">
           <span class="mg-home-cat__name">Blades</span>
-          <span class="mg-home-cat__desc">In stock + proxy buy</span>
+          <span class="mg-home-cat__desc">Brand-new blades</span>
         </span>
       </a>
       <a class="mg-home-cat" href="/rubbers/">
         <img class="mg-home-cat__img" src="/images/stock-rubbers/butterfly-tenergy-05.jpg" alt="Table tennis rubbers including Tenergy" loading="lazy">
         <span class="mg-home-cat__body">
           <span class="mg-home-cat__name">Rubbers</span>
-          <span class="mg-home-cat__desc">National, Tenergy, Dignics &amp; more</span>
+          <span class="mg-home-cat__desc">Popular rubbers</span>
         </span>
       </a>
       <a class="mg-home-cat" href="/pre-owned/">
         <img class="mg-home-cat__img" src="/images/dhs-hurricane-sun-92g/01.jpg" alt="Pre-owned table tennis blade photos" loading="lazy">
         <span class="mg-home-cat__body">
           <span class="mg-home-cat__name">Pre-owned</span>
-          <span class="mg-home-cat__desc">Photo-checked used blades</span>
+          <span class="mg-home-cat__desc">Selected used blades</span>
         </span>
       </a>
       <a class="mg-home-cat" href="/add-ons/">

@@ -1117,6 +1117,26 @@ body.mg-lightbox-open {
   color: #64748b;
 }
 
+/* —— Cusdis comments (guide pages) —— */
+.md-typeset #__comments {
+  margin-top: 2.5rem;
+  padding-top: 0.5rem;
+}
+
+.md-typeset #cusdis_thread {
+  margin-top: 0.75rem;
+  margin-bottom: 1.5rem;
+  /* Cusdis iframe often fails to auto-resize; give the form room */
+  min-height: 28rem;
+}
+
+.md-typeset #cusdis_thread iframe {
+  display: block;
+  width: 100% !important;
+  min-height: 28rem !important;
+  border: 0;
+}
+
 /* —— Price list cart —— */
 .md-typeset .mg-price-table table th.mg-cart-col,
 .md-typeset .mg-price-table table td.mg-cart-col {
