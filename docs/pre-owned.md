@@ -237,9 +237,19 @@ hide:
       <td style="text-align:right">$263</td>
     </tr>
 <tr>
+      <td><img src="/images/viscaria-k-code-cn-87g/01.jpg" alt="Viscaria | K-Code | CN | 87g" loading="lazy" data-gallery="/images/viscaria-k-code-cn-87g/01.jpg,/images/viscaria-k-code-cn-87g/02.jpg,/images/viscaria-k-code-cn-87g/03.jpg,/images/viscaria-k-code-cn-87g/04.jpg,/images/viscaria-k-code-cn-87g/05.jpg,/images/viscaria-k-code-cn-87g/06.jpg"></td>
+      <td>Viscaria | K-Code | CN | 87g</td>
+      <td style="text-align:right">$123</td>
+    </tr>
+<tr>
       <td><img src="/images/viscaria-light-jp-85g/01.jpg" alt="Viscaria LIGHT | JP | 85g" loading="lazy" data-gallery="/images/viscaria-light-jp-85g/01.jpg,/images/viscaria-light-jp-85g/02.jpg,/images/viscaria-light-jp-85g/03.jpg,/images/viscaria-light-jp-85g/04.jpg,/images/viscaria-light-jp-85g/05.jpg,/images/viscaria-light-jp-85g/06.jpg,/images/viscaria-light-jp-85g/07.jpg"></td>
       <td>Viscaria LIGHT | JP | 85g</td>
       <td style="text-align:right">$120</td>
+    </tr>
+<tr>
+      <td><img src="/images/viscaria-k-code-jp-89g/01.jpg" alt="Viscaria | K-Code | JP | 89g" loading="lazy" data-gallery="/images/viscaria-k-code-jp-89g/01.jpg,/images/viscaria-k-code-jp-89g/02.jpg,/images/viscaria-k-code-jp-89g/03.jpg,/images/viscaria-k-code-jp-89g/04.jpg,/images/viscaria-k-code-jp-89g/05.jpg,/images/viscaria-k-code-jp-89g/06.jpg,/images/viscaria-k-code-jp-89g/07.jpg"></td>
+      <td>Viscaria | K-Code | JP | 89g</td>
+      <td style="text-align:right">$105</td>
     </tr>
 <tr>
       <td><img src="/images/viscaria-y-code-cn-86g/01.jpg" alt="Viscaria | Y-Code | CN | 86g" loading="lazy" data-gallery="/images/viscaria-y-code-cn-86g/01.jpg,/images/viscaria-y-code-cn-86g/02.jpg,/images/viscaria-y-code-cn-86g/03.jpg,/images/viscaria-y-code-cn-86g/04.jpg,/images/viscaria-y-code-cn-86g/05.jpg,/images/viscaria-y-code-cn-86g/06.jpg,/images/viscaria-y-code-cn-86g/07.jpg,/images/viscaria-y-code-cn-86g/08.jpg"></td>
