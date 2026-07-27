@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://guide.mygear.top/sitemap.xml
+Sitemap: https://mygear.top/sitemap.xml
