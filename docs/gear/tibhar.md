@@ -16,6 +16,28 @@ Real-photo gallery of **Tibhar** table tennis blades. Browse models below; tap a
 
 
 
+### Samsonov Limited Edition 25 (FL)
+
+
+
+**Samsonov Limited Edition 25**—Vladimir Samsonov anniversary blank (**FL**); victory silhouette graphic, numbered **VS** serial, “Limited Edition 25” handle lens.
+
+
+
+<div class="mg-gallery mg-gallery--gear-album" markdown="0">
+
+  <a href="/images/tibhar-samsonov-25th-anniversary/01.jpg"><img src="/images/tibhar-samsonov-25th-anniversary/01.jpg" alt="Tibhar Samsonov Limited Edition 25 table tennis blade photo 1" loading="lazy"></a>
+
+  <a href="/images/tibhar-samsonov-25th-anniversary/02.jpg"><img src="/images/tibhar-samsonov-25th-anniversary/02.jpg" alt="Tibhar Samsonov Limited Edition 25 table tennis blade photo 2" loading="lazy"></a>
+
+  <a href="/images/tibhar-samsonov-25th-anniversary/03.jpg"><img src="/images/tibhar-samsonov-25th-anniversary/03.jpg" alt="Tibhar Samsonov Limited Edition 25 table tennis blade photo 3" loading="lazy"></a>
+
+  <a href="/images/tibhar-samsonov-25th-anniversary/04.jpg"><img src="/images/tibhar-samsonov-25th-anniversary/04.jpg" alt="Tibhar Samsonov Limited Edition 25 table tennis blade photo 4" loading="lazy"></a>
+
+</div>
+
+
+
 ### Elowa Violin (CS)
 
 

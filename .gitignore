@@ -4,3 +4,4 @@ __pycache__/
 _wx_*
 .hugo_build.lock
 pics/
+sources.yaml
