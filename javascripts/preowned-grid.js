@@ -260,6 +260,45 @@
 
       card.appendChild(media);
       card.appendChild(title);
+
+      var optsRaw =
+        (img && img.getAttribute("data-options")) ||
+        tr.getAttribute("data-options") ||
+        "";
+      var options = optsRaw
+        .split(",")
+        .map(function (s) {
+          return s.trim();
+        })
+        .filter(Boolean);
+      if (options.length) {
+        var optWrap = document.createElement("div");
+        optWrap.className = "mg-preowned-card__opts";
+        var label = document.createElement("label");
+        label.className = "mg-preowned-card__opts-label";
+        label.textContent = "Option";
+        var sel = document.createElement("select");
+        sel.className = "mg-preowned-card__opts-select";
+        sel.setAttribute("aria-label", name + " option");
+        options.forEach(function (opt, i) {
+          var o = document.createElement("option");
+          o.value = opt;
+          o.textContent = opt;
+          if (i === 0) o.selected = true;
+          sel.appendChild(o);
+        });
+        function syncCartName() {
+          var full = name + " · " + sel.value;
+          btn.setAttribute("data-name", full);
+          btn.setAttribute("aria-label", "Add " + full + " to cart");
+        }
+        sel.addEventListener("change", syncCartName);
+        syncCartName();
+        optWrap.appendChild(label);
+        optWrap.appendChild(sel);
+        card.appendChild(optWrap);
+      }
+
       card.appendChild(priceEl);
       card.appendChild(btn);
       grid.appendChild(card);

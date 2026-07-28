@@ -1769,6 +1769,43 @@ body.mg-cart-open {
   background: #d97706;
 }
 
+.mg-preowned-card__opts {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin: 0.35rem 0 0.7rem;
+  width: 100%;
+}
+
+.md-typeset .mg-preowned-card__opts-label {
+  margin: 0;
+  font-size: 0.62rem;
+  font-weight: 600;
+  color: #64748b;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.md-typeset .mg-preowned-card__opts-select {
+  width: 100%;
+  margin: 0;
+  padding: 0.35rem 0.45rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.3rem;
+  background: #fff;
+  color: #0f172a;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.25;
+  cursor: pointer;
+}
+
+.md-typeset .mg-preowned-card__opts-select:focus {
+  outline: 2px solid rgba(15, 118, 110, 0.35);
+  outline-offset: 1px;
+  border-color: #0f766e;
+}
+
 .md-typeset .mg-preowned-card__cart {
   display: inline-flex;
   align-items: center;
