@@ -57,7 +57,14 @@
   }
 
   const boot = () => {
-    document.querySelectorAll(".mg-hero-slides").forEach(initHero);
+    document.querySelectorAll(".mg-hero-slides").forEach((hero) => {
+      if (window.mgImgThumbs) {
+        hero
+          .querySelectorAll(".mg-hero-slides__img")
+          .forEach((img) => window.mgImgThumbs.applyListThumb(img));
+      }
+      initHero(hero);
+    });
   };
 
   if (document.readyState === "loading") {

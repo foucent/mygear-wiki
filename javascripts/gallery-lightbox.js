@@ -181,13 +181,32 @@
       });
   }
 
+  function fullHref(img) {
+    return (
+      (img &&
+        (img.getAttribute("data-full-src") ||
+          img.currentSrc ||
+          img.src)) ||
+      ""
+    );
+  }
+
+  function thumbHref(href) {
+    return window.mgImgThumbs ? window.mgImgThumbs.thumbSrc(href) : href;
+  }
+
   function imageItems(container) {
-    return Array.prototype.slice.call(container.querySelectorAll("img")).map(function (img) {
-      return {
-        href: img.currentSrc || img.src,
-        alt: img.alt || "",
-      };
-    });
+    return Array.prototype.slice
+      .call(container.querySelectorAll("img"))
+      .filter(function (img) {
+        return !img.closest(".mg-preowned-card__thumbs");
+      })
+      .map(function (img) {
+        return {
+          href: fullHref(img),
+          alt: img.alt || "",
+        };
+      });
   }
 
   function bindGalleries() {
@@ -260,7 +279,7 @@
               thumb.dataset.mgLightboxBound = "1";
 
               var thumbImg = document.createElement("img");
-              thumbImg.src = href;
+              thumbImg.src = thumbHref(href);
               thumbImg.alt = "";
               thumbImg.loading = "lazy";
               thumbImg.dataset.mgLightboxBound = "1";
@@ -269,7 +288,8 @@
               thumb.addEventListener("click", function (e) {
                 e.preventDefault();
                 e.stopPropagation();
-                img.src = href;
+                img.setAttribute("data-full-src", href);
+                img.src = thumbHref(href);
                 img.dataset.galleryIndex = String(galleryIndex);
                 strip
                   .querySelectorAll(".mg-preowned-card__thumb")
@@ -295,7 +315,7 @@
               );
               moreBtn.dataset.mgLightboxBound = "1";
               var moreImg = document.createElement("img");
-              moreImg.src = moreHref;
+              moreImg.src = thumbHref(moreHref);
               moreImg.alt = "";
               moreImg.loading = "lazy";
               moreImg.dataset.mgLightboxBound = "1";
