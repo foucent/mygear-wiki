@@ -109,6 +109,7 @@
       var media = document.createElement("div");
       media.className = "mg-preowned-card__media";
       if (img) {
+        if (window.mgImgThumbs) window.mgImgThumbs.applyListThumb(img);
         media.appendChild(img);
       }
       if (sold) {
@@ -228,6 +229,7 @@
       media.className = "mg-preowned-card__media";
       if (img) {
         img.alt = name;
+        if (window.mgImgThumbs) window.mgImgThumbs.applyListThumb(img);
         media.appendChild(img);
       }
       if (showBadge) {
