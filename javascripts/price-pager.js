@@ -1,5 +1,5 @@
 (function () {
-  var PER_PAGE = 25;
+  var PER_PAGE = 15;
 
   function pageFromHash(pageCount) {
     var m = (location.hash || "").match(/^#page-(\d+)$/i);
@@ -46,11 +46,11 @@
     return Array.prototype.slice.call(table.querySelectorAll("tbody tr"));
   }
 
-  function initPager(wrap) {
+  function initPager(wrap, metaSel) {
     if (wrap.dataset.mgPager === "1") return;
     var rows = collectItems(wrap);
     if (rows.length <= PER_PAGE) {
-      updateShowing(wrap, 1, rows.length, rows.length);
+      updateShowing(metaSel, 1, rows.length, rows.length);
       return;
     }
     wrap.dataset.mgPager = "1";
@@ -123,7 +123,7 @@
       });
       meta.textContent =
         "Showing " + (start + 1) + "–" + end + " of " + rows.length;
-      updateShowing(wrap, start + 1, end, rows.length);
+      updateShowing(metaSel, start + 1, end, rows.length);
       renderNav();
       setHash(current);
       if (!skipScroll) {
@@ -146,8 +146,9 @@
     });
   }
 
-  function updateShowing(wrap, from, to, total) {
-    var meta = wrap.ownerDocument.querySelector(".mg-preowned-showing");
+  function updateShowing(metaSel, from, to, total) {
+    if (!metaSel) return;
+    var meta = document.querySelector(metaSel);
     if (meta) {
       meta.textContent = "Showing " + from + "–" + to + " of " + total + " results";
     }
@@ -171,10 +172,19 @@
     el.textContent = String(available);
   }
 
+  var PAGER_TARGETS = [
+    { wrap: ".mg-price-table--preowned", meta: ".mg-preowned-showing" },
+    { wrap: ".mg-price-table--rubbers", meta: ".mg-rubbers-showing" },
+    { wrap: ".mg-price-table--blades", meta: ".mg-blades-showing" },
+    { wrap: ".mg-price-table--addons", meta: ".mg-addons-showing" },
+  ];
+
   function boot() {
-    document.querySelectorAll(".mg-price-table--preowned").forEach(function (wrap) {
-      updateAvailableCount(wrap);
-      initPager(wrap);
+    PAGER_TARGETS.forEach(function (target) {
+      document.querySelectorAll(target.wrap).forEach(function (wrap) {
+        updateAvailableCount(wrap);
+        initPager(wrap, target.meta);
+      });
     });
   }
 

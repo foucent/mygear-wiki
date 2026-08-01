@@ -2357,3 +2357,101 @@ body.mg-cart-open {
   }
 }
 
+
+/* —— How to Order: at-a-glance cards & numbered step cards —— */
+.mg-glance {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  gap: 0.8rem;
+  margin: 1.1rem 0 1.35rem;
+}
+
+.mg-glance__item {
+  padding: 0.95rem 1.05rem 0.9rem;
+  border: 1px solid rgba(15, 118, 110, 0.16);
+  border-radius: 0.6rem;
+  background: linear-gradient(180deg, #f4faf9, #eef6f5);
+  box-shadow: 0 1px 3px rgba(15, 118, 110, 0.08);
+}
+
+.mg-glance__label {
+  margin-bottom: 0.45rem;
+  color: #0f766e;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.mg-glance__value {
+  color: #475569;
+  font-size: 0.82rem;
+  line-height: 1.55;
+}
+
+.mg-glance__value strong {
+  color: #0f172a;
+}
+
+.mg-steps {
+  counter-reset: mg-step;
+  display: grid;
+  gap: 1rem;
+  margin: 1.15rem 0 1.35rem;
+}
+
+.mg-step {
+  counter-increment: mg-step;
+  padding: 1.2rem 1.3rem 1rem;
+  border: 1px solid rgba(15, 118, 110, 0.18);
+  border-left: 3px solid #0d9488;
+  border-radius: 0.6rem;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(15, 118, 110, 0.07);
+}
+
+.md-typeset .mg-step h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-top: 0;
+  margin-bottom: 0.7rem;
+}
+
+.md-typeset .mg-step h3::before {
+  content: counter(mg-step);
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.85rem;
+  height: 1.85rem;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0f766e, #0d9488);
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.md-typeset .mg-step h3 a {
+  color: inherit;
+}
+
+.md-typeset .mg-step p {
+  margin: 0.55rem 0;
+  line-height: 1.6;
+}
+
+.md-typeset .mg-step ul {
+  margin: 0.55rem 0;
+}
+
+.md-typeset .mg-step .highlight {
+  margin: 0.75rem 0 0.85rem;
+  border-radius: 0.45rem;
+}
+
+.md-typeset .mg-step .admonition {
+  margin: 0.85rem 0 0.35rem;
+}
+
