@@ -85,7 +85,7 @@ hide:
 | <img src="../images/price-list/rubbers/tenergy-19.jpg" alt="" data-options="2.1 black, 2.1 red"> | Tenergy 19 | $63 |
 | <img src="../images/featured-rubbers/tibhar-evolution-mx-p.jpg" alt="" data-options="Max black, Max red, 1.9-2.0 black, 1.9-2.0 red"> | Tibhar Evolution MX-P | $39 |
 | <img src="../images/featured-rubbers/tibhar-k3.jpg" alt="" data-options="Max black, Max red"> | Tibhar Hybrid K3 | $49 |
-| <img src="../images/featured-rubbers/xiom-vega-asia.jpg" alt="" data-options="Max black, Max red"> | Xiom Vega Asia | $29 |
+| <img src="../images/featured-rubbers/xiom-vega-asia.jpg" alt="" data-options="2.0 red, 2.0 black, Max black, Max red"> | Xiom Vega Asia | $29 |
 | <img src="../images/featured-rubbers/xiom-vega-china.jpg" alt="" data-options="2.0 red, 2.0 black, Max black, Max red"> | XIOM Vega China | $30 |
 | <img src="../images/featured-rubbers/yasaka-rakza-7-soft.jpg" alt="" data-options="Max black, Max red"> | Yasaka Rakza 7 Soft | $39 |
 | <img src="../images/featured-rubbers/victas-v-15-extra.jpg" alt="" data-options="Max black, Max red, Max blue"> | Victas V > 15 Extra | $36 |
