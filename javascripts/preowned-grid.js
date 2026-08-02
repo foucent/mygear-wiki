@@ -39,30 +39,6 @@
     );
   }
 
-  function trackBeginCheckout(name, price) {
-    try {
-      if (typeof window.gtag !== "function") return;
-      var id = String(name || "")
-        .toLowerCase()
-        .replace(/[^a-z0-9]+/g, "-")
-        .replace(/^-|-$/g, "")
-        .slice(0, 100);
-      window.gtag("event", "begin_checkout", {
-        currency: "USD",
-        value: price || 0,
-        items: [
-          {
-            item_id: id,
-            item_name: name,
-            item_category: "Pre-owned",
-            price: price || 0,
-            quantity: 1,
-          },
-        ],
-      });
-    } catch (e) {}
-  }
-
   function waIcon() {
     return (
       '<svg class="mg-preowned-card__wa-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">' +
@@ -140,14 +116,13 @@
         cta.className =
           "mg-preowned-card__wa mg-preowned-card__wa--preorder";
         cta.addEventListener("click", function () {
-          trackBeginCheckout(name, price);
           if (window.mgOpenCrisp) {
             window.mgOpenCrisp(
-              "Hi, I'd like to pre-order this blade: " + name + " (" + money(price) + ")."
+              "This blade is out of stock. Could you recommend a similar one? " + name + " (" + money(price) + ")."
             );
           }
         });
-        cta.textContent = "Pre-order Now";
+        cta.textContent = "Find Similar";
       } else {
         cta = document.createElement("button");
         cta.type = "button";
