@@ -64,6 +64,7 @@ hide:
 | ![ ](../images/price-list/blades/yasaka-ma-lin-carbon.jpg) | Yasaka Ma Lin Carbon | $52 |
 | ![ ](../images/price-list/blades/nittaku-acoustic-carbon-g-revision.jpg) | Nittaku Acoustic Carbon G-Revision | $102 |
 | ![ ](../images/price-list/blades/dhs-hurricane-long-5.jpg) | DHS Hurricane Long 5 | $112 |
+| ![ ](../images/price-list/blades/butterfly-innerforce-layer-alc.jpg) | Butterfly Innerforce Layer ALC | $112 |
 | ![ ](../images/price-list/blades/donic-zhang-jike-original-carbon.jpg) | Donic Zhang Jike Original Carbon | $129 |
 | ![ ](../images/price-list/blades/harimoto-innerforce-alc.jpg) | Harimoto Innerforce ALC | $130 |
 | ![ ](../images/price-list/blades/timo-boll-alc.jpg) | Timo Boll ALC | $133 |
