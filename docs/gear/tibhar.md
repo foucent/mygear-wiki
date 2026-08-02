@@ -38,23 +38,23 @@ Real-photo gallery of **Tibhar** table tennis blades. Browse models below; tap a
 
 
 
-### Elowa Violin (CS)
+### Violin (CS)
 
 
 
-**Elowa Violin** in Chinese penhold (**CS**)—unusual thin–thick–thin–thick–thin five-ply stack.
+**Violin** in Chinese penhold (**CS**)—unusual thin–thick–thin–thick–thin five-ply stack.
 
 
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/tibhar-elowa-violin-cs/01.jpg"><img src="/images/tibhar-elowa-violin-cs/01.jpg" alt="Tibhar Elowa Violin (CS) table tennis blade photo 1" loading="lazy"></a>
+  <a href="/images/tibhar-elowa-violin-cs/01.jpg"><img src="/images/tibhar-elowa-violin-cs/01.jpg" alt="Tibhar Violin (CS) table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/tibhar-elowa-violin-cs/02.jpg"><img src="/images/tibhar-elowa-violin-cs/02.jpg" alt="Tibhar Elowa Violin (CS) table tennis blade photo 2" loading="lazy"></a>
+  <a href="/images/tibhar-elowa-violin-cs/02.jpg"><img src="/images/tibhar-elowa-violin-cs/02.jpg" alt="Tibhar Violin (CS) table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/tibhar-elowa-violin-cs/03.jpg"><img src="/images/tibhar-elowa-violin-cs/03.jpg" alt="Tibhar Elowa Violin (CS) table tennis blade photo 3" loading="lazy"></a>
+  <a href="/images/tibhar-elowa-violin-cs/03.jpg"><img src="/images/tibhar-elowa-violin-cs/03.jpg" alt="Tibhar Violin (CS) table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/tibhar-elowa-violin-cs/04.jpg"><img src="/images/tibhar-elowa-violin-cs/04.jpg" alt="Tibhar Elowa Violin (CS) table tennis blade photo 4" loading="lazy"></a>
+  <a href="/images/tibhar-elowa-violin-cs/04.jpg"><img src="/images/tibhar-elowa-violin-cs/04.jpg" alt="Tibhar Violin (CS) table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 
@@ -104,23 +104,23 @@ Classic **Samsonov Alpha**—smaller-than-usual shakehand face; control-first or
 
 
 
-### Samsonov Alpha & Elowa Violin
+### Samsonov Alpha & Violin
 
 
 
-Two older Tibhar blanks in one album: **Samsonov Alpha** and **Elowa Violin** (shakehand set).
+Two older Tibhar blanks in one album: **Samsonov Alpha** and **Violin** (shakehand set).
 
 
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/tibhar-samsonov-alpha-elowa-violin/01.jpg"><img src="/images/tibhar-samsonov-alpha-elowa-violin/01.jpg" alt="Tibhar Samsonov Alpha & Elowa Violin table tennis blade photo 1" loading="lazy"></a>
+  <a href="/images/tibhar-samsonov-alpha-elowa-violin/01.jpg"><img src="/images/tibhar-samsonov-alpha-elowa-violin/01.jpg" alt="Tibhar Samsonov Alpha & Violin table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/tibhar-samsonov-alpha-elowa-violin/02.jpg"><img src="/images/tibhar-samsonov-alpha-elowa-violin/02.jpg" alt="Tibhar Samsonov Alpha & Elowa Violin table tennis blade photo 2" loading="lazy"></a>
+  <a href="/images/tibhar-samsonov-alpha-elowa-violin/02.jpg"><img src="/images/tibhar-samsonov-alpha-elowa-violin/02.jpg" alt="Tibhar Samsonov Alpha & Violin table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/tibhar-samsonov-alpha-elowa-violin/03.jpg"><img src="/images/tibhar-samsonov-alpha-elowa-violin/03.jpg" alt="Tibhar Samsonov Alpha & Elowa Violin table tennis blade photo 3" loading="lazy"></a>
+  <a href="/images/tibhar-samsonov-alpha-elowa-violin/03.jpg"><img src="/images/tibhar-samsonov-alpha-elowa-violin/03.jpg" alt="Tibhar Samsonov Alpha & Violin table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/tibhar-samsonov-alpha-elowa-violin/04.jpg"><img src="/images/tibhar-samsonov-alpha-elowa-violin/04.jpg" alt="Tibhar Samsonov Alpha & Elowa Violin table tennis blade photo 4" loading="lazy"></a>
+  <a href="/images/tibhar-samsonov-alpha-elowa-violin/04.jpg"><img src="/images/tibhar-samsonov-alpha-elowa-violin/04.jpg" alt="Tibhar Samsonov Alpha & Violin table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 
