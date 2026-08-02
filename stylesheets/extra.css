@@ -1176,7 +1176,7 @@ body.mg-lightbox-open {
 .mg-float-stack {
   position: fixed;
   right: 1rem;
-  bottom: 1rem;
+  bottom: 5.2rem;
   z-index: 80;
   display: flex;
   flex-direction: column;
@@ -1202,30 +1202,6 @@ body.mg-lightbox-open {
 .mg-cart-fab svg {
   width: 1.45rem;
   height: 1.45rem;
-  fill: currentColor;
-}
-
-.mg-wa-fab {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 3.15rem;
-  height: 3.15rem;
-  border-radius: 999px;
-  background: #25d366;
-  color: #fff;
-  box-shadow: 0 8px 22px rgba(37, 211, 102, 0.38);
-  text-decoration: none;
-}
-
-.mg-wa-fab:hover {
-  filter: brightness(1.05);
-  color: #fff;
-}
-
-.mg-wa-fab svg {
-  width: 1.55rem;
-  height: 1.55rem;
   fill: currentColor;
 }
 
@@ -1914,7 +1890,7 @@ body.mg-cart-open {
 @media (max-width: 600px) {
   .mg-float-stack {
     right: 0.75rem;
-    bottom: 0.75rem;
+    bottom: 4.8rem;
   }
 
   .md-typeset .mg-price-table table th.mg-cart-col,
@@ -2453,5 +2429,125 @@ body.mg-cart-open {
 
 .md-typeset .mg-step .admonition {
   margin: 0.85rem 0 0.35rem;
+}
+
+/* Bio read-more toggle (collapsible biography) */
+.md-typeset .mg-bio {
+  margin: 0.25rem 0 1.75rem;
+}
+
+.md-typeset .mg-bio__body {
+  position: relative;
+  max-height: calc(1.6em * 2);
+  overflow: hidden;
+  transition: max-height 0.45s ease;
+}
+
+.md-typeset .mg-bio__body::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1.4em;
+  background: linear-gradient(to bottom, transparent, var(--md-default-bg-color));
+  opacity: 1;
+  transition: opacity 0.35s ease;
+  pointer-events: none;
+}
+
+.md-typeset .mg-bio.is-open .mg-bio__body {
+  max-height: 3000px;
+}
+
+.md-typeset .mg-bio.is-open .mg-bio__body::after {
+  opacity: 0;
+}
+
+.md-typeset .mg-bio__body p {
+  margin: 0;
+}
+
+.md-typeset .mg-bio__toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.5rem;
+  padding: 0.28rem 0.95rem 0.32rem;
+  border: 1px solid var(--md-primary-fg-color);
+  border-radius: 2rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-primary-fg-color);
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.35;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.md-typeset .mg-bio__toggle:hover {
+  background: var(--md-primary-fg-color);
+  color: var(--md-default-bg-color);
+  text-decoration: none;
+}
+
+.md-typeset .mg-bio__toggle:focus-visible {
+  outline: 2px solid var(--md-primary-fg-color);
+  outline-offset: 2px;
+}
+
+.md-typeset .mg-bio__chevron {
+  display: inline-block;
+  line-height: 1;
+  transition: transform 0.25s ease;
+}
+
+.md-typeset .mg-bio.is-open .mg-bio__chevron {
+  transform: rotate(180deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .md-typeset .mg-bio__body,
+  .md-typeset .mg-bio__chevron {
+    transition: none;
+  }
+}
+
+/* No-JS fallback: keep the full biography visible */
+html.md-no-js .md-typeset .mg-bio__body {
+  max-height: none;
+}
+
+html.md-no-js .md-typeset .mg-bio__body::after {
+  display: none;
+}
+
+html.md-no-js .md-typeset .mg-bio__toggle {
+  display: none;
+}
+
+/* Crisp live chat close button (top-right, over the chat window) */
+.mg-crisp-close {
+  position: fixed;
+  top: 14px;
+  right: 14px;
+  z-index: 10000050;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: #232327;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+}
+
+.mg-crisp-close.is-visible {
+  display: flex;
 }
 
