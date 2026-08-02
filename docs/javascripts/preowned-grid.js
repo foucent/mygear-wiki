@@ -133,20 +133,30 @@
         priceEl.textContent = money(price);
       }
 
-      var cta = document.createElement("a");
-      cta.className =
-        "mg-preowned-card__wa" +
-        (sold ? " mg-preowned-card__wa--preorder" : "");
-      cta.href = waUrl(name, price, sold);
-      cta.target = "_blank";
-      cta.rel = "noopener";
-      cta.addEventListener("click", function () {
-        trackBeginCheckout(name, price);
-      });
+      var cta;
       if (sold) {
+        cta = document.createElement("button");
+        cta.type = "button";
+        cta.className =
+          "mg-preowned-card__wa mg-preowned-card__wa--preorder";
+        cta.addEventListener("click", function () {
+          trackBeginCheckout(name, price);
+          if (window.mgOpenCrisp) {
+            window.mgOpenCrisp(
+              "Hi, I'd like to pre-order this blade: " + name + " (" + money(price) + ")."
+            );
+          }
+        });
         cta.textContent = "Pre-order Now";
       } else {
-        cta.innerHTML = waIcon() + "<span>Buy via WhatsApp</span>";
+        cta = document.createElement("button");
+        cta.type = "button";
+        cta.className = "mg-cart-add mg-preowned-card__cart";
+        cta.setAttribute("aria-label", "Add " + name + " to cart");
+        cta.setAttribute("data-name", "Pre-owned · " + name);
+        cta.setAttribute("data-price", String(price));
+        cta.setAttribute("data-unique", "1");
+        cta.innerHTML = "<span aria-hidden='true'>+</span><span>Add to cart</span>";
       }
 
       card.appendChild(media);

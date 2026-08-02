@@ -1401,6 +1401,26 @@ body.mg-cart-open {
   opacity: 0.45;
 }
 
+.mg-cart-drawer__crisp {
+  display: block;
+  width: 100%;
+  margin-top: 0.45rem;
+  box-sizing: border-box;
+  padding: 0.55rem 0.85rem !important;
+  border: 0;
+  border-radius: 999px !important;
+  background: #0f766e !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+  font-size: 0.8rem !important;
+  text-align: center;
+  cursor: pointer;
+}
+
+.mg-cart-drawer__crisp:hover {
+  background: #0d9488 !important;
+}
+
 .mg-cart-drawer__clear {
   display: block;
   width: 100%;
@@ -1692,6 +1712,7 @@ body.mg-cart-open {
   width: 100%;
   margin-top: auto;
   padding: 0.55rem 0.45rem;
+  border: 0;
   border-radius: 0.35rem;
   background: #25d366;
   color: #fff !important;
@@ -1700,6 +1721,7 @@ body.mg-cart-open {
   line-height: 1.15;
   text-align: center;
   text-decoration: none !important;
+  cursor: pointer;
   box-sizing: border-box;
 }
 
