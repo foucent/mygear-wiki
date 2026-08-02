@@ -129,10 +129,12 @@ extra_css:
 
 extra_javascript:
   - javascripts/img-thumbs.js
+  - javascripts/crisp.js
   - javascripts/preowned-grid.js
   - javascripts/gallery-lightbox.js
   - javascripts/hero-slides.js
   - javascripts/unit-copy.js
+  - javascripts/bio-toggle.js
   - javascripts/price-cart.js
   - javascripts/price-pager.js
 
