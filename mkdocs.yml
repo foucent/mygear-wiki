@@ -46,8 +46,6 @@ plugins:
         gear/729-blades.md: gear/729.md
         gear/avalox-blades.md: gear/avalox.md
         gear/avalox-p500.md: gear/avalox.md
-        gear/banda-blades.md: gear/banda.md
-        gear/banda-offensive.md: gear/banda.md
         gear/butterfly-blades.md: gear/butterfly.md
         gear/butterfly-chuang-chih-yuan-gold.md: gear/butterfly.md
         gear/butterfly-fan-zhendong-alc.md: gear/butterfly.md
@@ -182,7 +180,6 @@ nav:
   - Gallery:
       - 729: gear/729.md
       - Avalox: gear/avalox.md
-      - Banda: gear/banda.md
       - Butterfly: gear/butterfly.md
       - DHS: gear/dhs.md
       - Donic: gear/donic.md

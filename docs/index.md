@@ -75,4 +75,4 @@ description: "Buy table tennis blades and rubbers in USD — brand-new blades, p
 
 Photo galleries by brand — real blade shots for Butterfly, DHS, Viscaria-family models, and more.
 
-[729](gear/729.md) · [Avalox](gear/avalox.md) · [Banda](gear/banda.md) · [Butterfly](gear/butterfly.md) · [DHS](gear/dhs.md) · [Donic](gear/donic.md) · [Double Fish](gear/double-fish.md) · [Nittaku](gear/nittaku.md) · [Sanwei](gear/sanwei.md) · [Stiga](gear/stiga.md) · [Tibhar](gear/tibhar.md) · [Victas](gear/victas.md) · [Xiom](gear/xiom.md) · [Yinhe](gear/yinhe.md)
+[729](gear/729.md) · [Avalox](gear/avalox.md) · [Butterfly](gear/butterfly.md) · [DHS](gear/dhs.md) · [Donic](gear/donic.md) · [Double Fish](gear/double-fish.md) · [Nittaku](gear/nittaku.md) · [Sanwei](gear/sanwei.md) · [Stiga](gear/stiga.md) · [Tibhar](gear/tibhar.md) · [Victas](gear/victas.md) · [Xiom](gear/xiom.md) · [Yinhe](gear/yinhe.md)
