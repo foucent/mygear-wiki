@@ -114,6 +114,23 @@
     );
   }
 
+  function buildCrispMsg(cart) {
+    var lines = [
+      "Hello, I'd like a quote for:",
+      "",
+    ];
+    cart.forEach(function (item, i) {
+      lines.push(
+        i + 1 + ". " + item.name + " × " + item.qty + " — " + money(item.price) + " each"
+      );
+    });
+    lines.push("");
+    lines.push("Ship to (city / postal code):");
+    lines.push("");
+    lines.push("Please confirm final total + shipping. Thanks!");
+    return lines.join("\n");
+  }
+
   function itemId(name) {
     return String(name || "")
       .toLowerCase()
@@ -329,6 +346,7 @@
       '    <div class="mg-cart-drawer__foot">' +
       '      <div class="mg-cart-drawer__total">Subtotal <span id="mg-cart-total">$0</span></div>' +
       '      <a class="mg-cart-drawer__wa" id="mg-cart-wa" href="#">Checkout on WhatsApp</a>' +
+      '      <button type="button" class="mg-cart-drawer__crisp" id="mg-cart-crisp">Checkout on Live Chat</button>' +
       '      <button type="button" class="mg-cart-drawer__clear" id="mg-cart-clear">Clear cart</button>' +
       "    </div>" +
       "  </div>" +
@@ -463,6 +481,16 @@
       var waCheckout = e.target.closest("#mg-cart-wa");
       if (waCheckout && cart.length) {
         trackBeginCheckout(cart);
+      }
+
+      var crispCheckout = e.target.closest("#mg-cart-crisp");
+      if (crispCheckout && cart.length) {
+        trackBeginCheckout(cart);
+        if (window.mgOpenCrisp) {
+          window.mgOpenCrisp(buildCrispMsg(cart));
+          openDrawer(false);
+        }
+        return;
       }
 
       if (e.target.closest("#mg-cart-fab")) {
