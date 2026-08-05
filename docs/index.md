@@ -71,8 +71,75 @@ description: "Buy table tennis blades and rubbers in USD — brand-new blades, p
 - [Hurricane 3 Multi-Stage Boosting](guide/hurricane-3-multi-stage-boosting.md)
 - [Boosting Truth](guide/boosting-truth.md)
 
-## Gallery
+## Equipment Gallery
 
 Photo galleries by brand — real blade shots for Butterfly, DHS, Viscaria-family models, and more.
 
-[729](gear/729.md) · [Avalox](gear/avalox.md) · [Butterfly](gear/butterfly.md) · [DHS](gear/dhs.md) · [Donic](gear/donic.md) · [Double Fish](gear/double-fish.md) · [Nittaku](gear/nittaku.md) · [Sanwei](gear/sanwei.md) · [Stiga](gear/stiga.md) · [Tibhar](gear/tibhar.md) · [Victas](gear/victas.md) · [Xiom](gear/xiom.md) · [Yinhe](gear/yinhe.md)
+<div class="mg-brand-grid" markdown="0">
+
+  <a class="mg-brand-item" href="/gear/729/">
+    <img class="mg-brand-image" src="/images/brand-logos/729.png" alt="729" loading="lazy">
+    <span class="mg-brand-name">729</span>
+  </a>
+
+  <a class="mg-brand-item" href="/gear/avalox/">
+    <img class="mg-brand-image" src="/images/brand-logos/avalox.png" alt="Avalox" loading="lazy">
+    <span class="mg-brand-name">Avalox</span>
+  </a>
+
+  <a class="mg-brand-item" href="/gear/butterfly/">
+    <img class="mg-brand-image" src="/images/brand-logos/butterfly.png" alt="Butterfly" loading="lazy">
+    <span class="mg-brand-name">Butterfly</span>
+  </a>
+
+  <a class="mg-brand-item" href="/gear/dhs/">
+    <img class="mg-brand-image" src="/images/brand-logos/dhs.png" alt="DHS" loading="lazy">
+    <span class="mg-brand-name">DHS</span>
+  </a>
+
+  <a class="mg-brand-item" href="/gear/donic/">
+    <img class="mg-brand-image" src="/images/brand-logos/donic.png" alt="Donic" loading="lazy">
+    <span class="mg-brand-name">Donic</span>
+  </a>
+
+  <a class="mg-brand-item" href="/gear/double-fish/">
+    <img class="mg-brand-image" src="/images/brand-logos/double-fish.png" alt="Double Fish" loading="lazy">
+    <span class="mg-brand-name">Double Fish</span>
+  </a>
+
+  <a class="mg-brand-item" href="/gear/nittaku/">
+    <img class="mg-brand-image" src="/images/brand-logos/nittaku.png" alt="Nittaku" loading="lazy">
+    <span class="mg-brand-name">Nittaku</span>
+  </a>
+
+  <a class="mg-brand-item" href="/gear/sanwei/">
+    <img class="mg-brand-image" src="/images/brand-logos/sanwei.png" alt="Sanwei" loading="lazy">
+    <span class="mg-brand-name">Sanwei</span>
+  </a>
+
+  <a class="mg-brand-item" href="/gear/stiga/">
+    <img class="mg-brand-image" src="/images/brand-logos/stiga.png" alt="Stiga" loading="lazy">
+    <span class="mg-brand-name">Stiga</span>
+  </a>
+
+  <a class="mg-brand-item" href="/gear/tibhar/">
+    <img class="mg-brand-image" src="/images/brand-logos/tibhar.png" alt="Tibhar" loading="lazy">
+    <span class="mg-brand-name">Tibhar</span>
+  </a>
+
+  <a class="mg-brand-item" href="/gear/victas/">
+    <img class="mg-brand-image" src="/images/brand-logos/victas.png" alt="Victas" loading="lazy">
+    <span class="mg-brand-name">Victas</span>
+  </a>
+
+  <a class="mg-brand-item" href="/gear/xiom/">
+    <img class="mg-brand-image" src="/images/brand-logos/xiom.png" alt="Xiom" loading="lazy">
+    <span class="mg-brand-name">Xiom</span>
+  </a>
+
+  <a class="mg-brand-item" href="/gear/yinhe/">
+    <img class="mg-brand-image" src="/images/brand-logos/yinhe.png" alt="Yinhe" loading="lazy">
+    <span class="mg-brand-name">Yinhe</span>
+  </a>
+
+</div>

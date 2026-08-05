@@ -2573,3 +2573,63 @@ html.md-no-js .md-typeset .mg-bio__toggle {
   display: flex;
 }
 
+/* Equipment Gallery — brand card grid (tt11-style) */
+.md-typeset .mg-brand-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.md-typeset .mg-brand-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  min-height: 6rem;
+  padding: 0.75rem 0.5rem;
+  border: 1px solid rgba(15, 118, 110, 0.18);
+  border-radius: 0.5rem;
+  background: #ffffff;
+  text-decoration: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.md-typeset .mg-brand-item:hover {
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 4px 14px rgba(15, 118, 110, 0.14);
+  text-decoration: none;
+}
+
+.md-typeset .mg-brand-image {
+  display: block;
+  max-width: 90%;
+  max-height: 2.6rem;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  margin: 0;
+}
+
+.md-typeset .mg-brand-name {
+  display: block;
+  color: #0f172a;
+  font-size: 0.8rem;
+  font-weight: 650;
+  line-height: 1.2;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .md-typeset .mg-brand-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.5rem;
+  }
+
+  .md-typeset .mg-brand-item {
+    min-height: 5rem;
+    padding: 0.5rem 0.3rem;
+  }
+}
+
