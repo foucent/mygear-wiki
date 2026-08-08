@@ -63,15 +63,7 @@ description: "Buy table tennis blades and rubbers in USD — brand-new blades, p
 
 </div>
 
-## Guides worth reading
-
-- [Essential Questions Before Buying](guide/essential-questions-before-buying.md)
-- [Blade Performance Metrics](guide/blade-performance-metrics.md)
-- [Outer vs Inner Fiber](guide/outer-vs-inner-fiber.md)
-- [Hurricane 3 Multi-Stage Boosting](guide/hurricane-3-multi-stage-boosting.md)
-- [Boosting Truth](guide/boosting-truth.md)
-
-## Equipment Gallery
+## Brands
 
 Photo galleries by brand — real blade shots for Butterfly, DHS, Viscaria-family models, and more.
 
@@ -143,3 +135,13 @@ Photo galleries by brand — real blade shots for Butterfly, DHS, Viscaria-famil
   </a>
 
 </div>
+
+## Guides worth reading
+
+- [Essential Questions Before Buying](guide/essential-questions-before-buying.md)
+- [Blade Performance Metrics](guide/blade-performance-metrics.md)
+- [Outer vs Inner Fiber](guide/outer-vs-inner-fiber.md)
+- [Hurricane 3 Multi-Stage Boosting](guide/hurricane-3-multi-stage-boosting.md)
+- [Boosting Truth](guide/boosting-truth.md)
+
+

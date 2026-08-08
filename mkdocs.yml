@@ -124,12 +124,14 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/photo-wall.css
 
 extra_javascript:
   - javascripts/img-thumbs.js
   - javascripts/crisp.js
   - javascripts/preowned-grid.js
   - javascripts/gallery-lightbox.js
+  - javascripts/photo-wall.js
   - javascripts/hero-slides.js
   - javascripts/unit-copy.js
   - javascripts/bio-toggle.js
@@ -165,6 +167,21 @@ nav:
   - How to Order: order.md
   - FAQ & Updates: FAQ.md
   - Shipping & Delivery: shipping.md
+  - Gallery: gallery.md
+  - Brands:
+      - 729: gear/729.md
+      - Avalox: gear/avalox.md
+      - Butterfly: gear/butterfly.md
+      - DHS: gear/dhs.md
+      - Donic: gear/donic.md
+      - Double Fish: gear/double-fish.md
+      - Nittaku: gear/nittaku.md
+      - Sanwei: gear/sanwei.md
+      - Stiga: gear/stiga.md
+      - Tibhar: gear/tibhar.md
+      - Victas: gear/victas.md
+      - Xiom: gear/xiom.md
+      - Yinhe: gear/yinhe.md
   - Guide:
       - Essential Questions Before Buying: guide/essential-questions-before-buying.md
       - Blade Performance Metrics: guide/blade-performance-metrics.md
@@ -179,17 +196,3 @@ nav:
       - Boosting Truth: guide/boosting-truth.md
       - Table Tennis Kingdom Top 10 Shakehand Blades 2025: guide/tt-kingdom-top-10-blades-2025.md
       - Joola Hugo ARY-C Review: guide/joola-hugo-ary-c.md
-  - Equipment Gallery:
-      - 729: gear/729.md
-      - Avalox: gear/avalox.md
-      - Butterfly: gear/butterfly.md
-      - DHS: gear/dhs.md
-      - Donic: gear/donic.md
-      - Double Fish: gear/double-fish.md
-      - Nittaku: gear/nittaku.md
-      - Sanwei: gear/sanwei.md
-      - Stiga: gear/stiga.md
-      - Tibhar: gear/tibhar.md
-      - Victas: gear/victas.md
-      - Xiom: gear/xiom.md
-      - Yinhe: gear/yinhe.md

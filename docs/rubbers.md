@@ -31,12 +31,7 @@ hide:
   </section>
 
   <section class="mg-home-help">
-    <p class="mg-home-help__links">
-      <a href="/blades/">Blades</a>
-      <a href="/pre-owned/">Pre-owned</a>
-      <a href="/FAQ/">FAQ &amp; Updates</a>
-      <a href="/shipping/">Shipping</a>
-    </p>
+    <p class="mg-home-help__text"><strong>In stock</strong> rows ship from our own inventory. <strong>Proxy buy</strong> rows are models we can purchase for you from suppliers—please allow an extra <strong>2–3 days</strong> for inbound shipping before we send your order.</p>
   </section>
 
 </div>
@@ -95,11 +90,6 @@ hide:
 | <img src="../images/featured-rubbers/tibhar-evolution-el-p.jpg" alt="" data-options="Max black, Max red, 1.9-2.0 black, 1.9-2.0 red"> | Tibhar Evolution EL-P | $36 |
 | <img src="../images/featured-rubbers/yasaka-psych-dragon-pro.jpg" alt="" data-options="Max medium-soft red, Max medium-soft black, Max medium-hard red, Max medium-hard black"> | Yasaka Psych Dragon Pro | $33 |
 
-</div>
-
-<div class="admonition note mg-page-note">
-  <p class="admonition-title">Stock notice</p>
-  <p><strong>In stock</strong> rows ship from our own inventory. <strong>Proxy buy</strong> rows are models we can purchase for you from suppliers—please allow an extra <strong>2–3 days</strong> for inbound shipping before we send your order.</p>
 </div>
 
 <div class="admonition note mg-page-note">

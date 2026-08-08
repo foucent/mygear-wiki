@@ -31,12 +31,7 @@ hide:
   </section>
 
   <section class="mg-home-help">
-    <p class="mg-home-help__links">
-      <a href="/rubbers/">Rubbers</a>
-      <a href="/pre-owned/">Pre-owned</a>
-      <a href="/FAQ/">FAQ &amp; Updates</a>
-      <a href="/shipping/">Shipping</a>
-    </p>
+    <p class="mg-home-help__text"><strong>In stock</strong> rows ship from our own inventory. <strong>Proxy buy</strong> rows are models we can purchase for you from suppliers—please allow an extra <strong>2–3 days</strong> for inbound shipping before we send your order.</p>
   </section>
 
 </div>
@@ -80,11 +75,6 @@ hide:
 | ![ ](../images/price-list/blades/victas-koji-matsushita-offensive.jpg) | Victas Koji Matsushita Offensive | $92 |
 | ![ ](../images/price-list/blades/dhs-power-g7.jpg) | DHS Power G7 | $20 |
 
-</div>
-
-<div class="admonition note mg-page-note">
-  <p class="admonition-title">Stock notice</p>
-  <p><strong>In stock</strong> rows ship from our own inventory. <strong>Proxy buy</strong> rows are models we can purchase for you from suppliers—please allow an extra <strong>2–3 days</strong> for inbound shipping before we send your order.</p>
 </div>
 
 <div class="admonition note mg-page-note">
