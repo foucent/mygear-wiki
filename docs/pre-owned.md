@@ -41,7 +41,7 @@ hide:
 
 </div>
 
-## Pre-owned list <span class="mg-list-meta">USD prices · Updated 28 Jul 2026</span>
+## Pre-owned list <span class="mg-list-meta">USD prices · Updated 11 Aug 2026</span>
 
 <p class="mg-preowned-showing" markdown="0">Loading results…</p>
 <p class="mg-price-legend" markdown="0"><span class="mg-price-legend__stock">Available (<span class="mg-preowned-count">—</span> items)</span><span class="mg-price-legend__sold">Sold / Out of stock</span></p>
@@ -157,6 +157,11 @@ hide:
       <td style="text-align:right">$115</td>
     </tr>
 <tr>
+      <td><img src="/images/super-harimoto-salc-k-code-jp-86g/01.jpg" alt="Harimoto SALC | K-Code | JP | 86g" loading="lazy" data-gallery="/images/super-harimoto-salc-k-code-jp-86g/01.jpg,/images/super-harimoto-salc-k-code-jp-86g/02.jpg,/images/super-harimoto-salc-k-code-jp-86g/03.jpg,/images/super-harimoto-salc-k-code-jp-86g/04.jpg,/images/super-harimoto-salc-k-code-jp-86g/05.jpg,/images/super-harimoto-salc-k-code-jp-86g/06.jpg"></td>
+      <td>Harimoto SALC | K-Code | JP | 86g</td>
+      <td style="text-align:right">$110</td>
+    </tr>
+<tr>
       <td><img src="/images/harimoto-alc-st-t-code-jp-89g/01.jpg" alt="Harimoto ALC ST | T-Code | JP | 89g" loading="lazy" data-gallery="/images/harimoto-alc-st-t-code-jp-89g/01.jpg,/images/harimoto-alc-st-t-code-jp-89g/02.jpg,/images/harimoto-alc-st-t-code-jp-89g/03.jpg,/images/harimoto-alc-st-t-code-jp-89g/04.jpg,/images/harimoto-alc-st-t-code-jp-89g/05.jpg,/images/harimoto-alc-st-t-code-jp-89g/06.jpg,/images/harimoto-alc-st-t-code-jp-89g/07.jpg"></td>
       <td>Harimoto ALC ST | T-Code | JP | 89g</td>
       <td style="text-align:right">$102</td>
@@ -250,6 +255,11 @@ hide:
       <td><img src="/images/viscaria-light-jp-85g/01.jpg" alt="Viscaria LIGHT | JP | 85g" loading="lazy" data-gallery="/images/viscaria-light-jp-85g/01.jpg,/images/viscaria-light-jp-85g/02.jpg,/images/viscaria-light-jp-85g/03.jpg,/images/viscaria-light-jp-85g/04.jpg,/images/viscaria-light-jp-85g/05.jpg,/images/viscaria-light-jp-85g/06.jpg,/images/viscaria-light-jp-85g/07.jpg"></td>
       <td>Viscaria LIGHT | JP | 85g</td>
       <td style="text-align:right">$120</td>
+    </tr>
+<tr>
+      <td><img src="/images/viscaria-y-code-cn-85g/01.jpg" alt="Viscaria | Y-Code | CN | 85g" loading="lazy" data-gallery="/images/viscaria-y-code-cn-85g/01.jpg,/images/viscaria-y-code-cn-85g/02.jpg,/images/viscaria-y-code-cn-85g/03.jpg,/images/viscaria-y-code-cn-85g/04.jpg,/images/viscaria-y-code-cn-85g/05.jpg,/images/viscaria-y-code-cn-85g/06.jpg,/images/viscaria-y-code-cn-85g/07.jpg,/images/viscaria-y-code-cn-85g/08.jpg"></td>
+      <td>Viscaria | Y-Code | CN | 85g</td>
+      <td style="text-align:right">$115</td>
     </tr>
 <tr>
       <td><img src="/images/viscaria-k-code-jp-89g/01.jpg" alt="Viscaria | K-Code | JP | 89g" loading="lazy" data-gallery="/images/viscaria-k-code-jp-89g/01.jpg,/images/viscaria-k-code-jp-89g/02.jpg,/images/viscaria-k-code-jp-89g/03.jpg,/images/viscaria-k-code-jp-89g/04.jpg,/images/viscaria-k-code-jp-89g/05.jpg,/images/viscaria-k-code-jp-89g/06.jpg,/images/viscaria-k-code-jp-89g/07.jpg"></td>

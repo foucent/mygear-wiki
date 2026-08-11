@@ -27,6 +27,45 @@ A boxed racket is about **600 g**, and one rubber is about **100 g**, but shippi
 
 ---
 
+## Satisfaction Guarantee & Returns
+
+!!! note "30-Day Satisfaction Guarantee"
+
+    Your order comes with a **30-day satisfaction guarantee** — if for any reason you are not satisfied with your purchase, you are entitled to a **full refund within 30 days** of receiving your order, as long as the product is in its **original, unused condition**.
+
+    This policy does **not** apply to **custom or specialty items** (e.g., assembled blades) and to items bought from the **Clearance** category.
+
+### Return Requirements
+
+In order to qualify for our return policy, the following requirements need to be fulfilled:
+
+**Blades** — must be returned in their original packaging and cannot have any scrapes or glue on their surface. If a blade has gone through our free lacquering service or has been lacquered at home, it cannot be returned.
+
+**Rubbers** — must be sealed in their original packaging.
+
+**Shoes** — must be in their original condition. You may use the same box your shoes were shipped in to return them. However, please do not place any shipping labels or tape on the manufacturer’s shoe box.
+
+**Clothing items** — must be returned unworn and unwashed with the original tags attached.
+
+**Bags & Accessories** — must be returned unused with their original packaging and labels.
+
+### Refused Packages
+
+If you refuse your package and ask for a refund, the value of the **real shipping fees** we have paid will be deducted from the refund.
+
+### Exchanges
+
+We do **not** exchange articles that are:
+
+- out of their original wrapping
+- damaged by the client
+- customized (assembled rackets, printed shirts)
+- gifts and clearance sales
+
+When you decide to exchange an article, you must pay for the shipping costs to return the parcel to us **and** to send your parcel back to you.
+
+---
+
 ## Updates
 
 | Date | Update |

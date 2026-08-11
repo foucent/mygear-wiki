@@ -2,6 +2,9 @@ site/
 __pycache__/
 *.pyc
 _wx_*
+.reasonix/
+reasonix.toml
 .hugo_build.lock
 pics/
 sources.yaml
+tools/_*
