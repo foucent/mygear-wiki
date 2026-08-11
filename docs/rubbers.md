@@ -36,7 +36,7 @@ hide:
 
 </div>
 
-## Rubber list <span class="mg-list-meta">USD prices · Updated 28 Jul 2026</span>
+## Rubber list <span class="mg-list-meta">USD prices · Updated 12 Aug 2026</span>
 
 <p class="mg-rubbers-showing" markdown="0">Loading results…</p>
 <p class="mg-price-legend" markdown="0"><span class="mg-price-legend__stock">In stock</span><span class="mg-price-legend__blade">Proxy buy</span></p>
@@ -53,7 +53,7 @@ hide:
 | <img src="../images/stock-rubbers/neo-h3-national-blue.jpg" alt="" data-options="2.1 40° black · hot, 2.1 39° black, 2.1 41° black, 2.1 42° black"> | Neo H3 National Blue | $50 |
 | <img src="../images/stock-rubbers/neo-hurricane-3-provincial-blue.jpg" alt="" data-options="2.1 39° black, 2.1 40° black, 2.1 41° black, 2.15 39° black, 2.15 40° black"> | NEO Hurricane 3 Provincial Blue | $38 |
 | <img src="../images/stock-rubbers/stiga-mantra-m.jpg" alt="" data-options="2.1 red · hot, 2.1 black"> | Stiga Mantra M | $30 |
-| <img src="../images/stock-rubbers/neo-hurricane-3.jpg" alt="" data-options="39° black · hot, 40° black, 40° red, 39° red"> | Neo Hurricane 3 (Orange Sponge) | $23 |
+| <img src="../images/stock-rubbers/neo-hurricane-3.jpg" alt="" data-options="39° black · hot, 40° black, 40° red, 39° red"> | Neo Hurricane 3 | $23 |
 | <img src="../images/stock-rubbers/dhs-hurricane8-80.jpg" alt="" data-options="2.1 37° red, 2.1 38° red"> | DHS Hurricane8-80 | $25 |
 | <img src="../images/featured-rubbers/dhs-hurricane-3-neo-provincial-40orange-sponge.jpg" alt="" data-options="2.1 38° black, 2.1 39° black, 2.1 40° black, 2.1 41° black, 2.1 38° red, 2.1 39° red, 2.1 40° red, 2.15 39° black, 2.15 39° red, 2.15 40° black, 2.15 40° red, 2.1 37° soft red, 2.2 40° black, 2.2 39° red, 2.2 40° red"> | Neo Hurricane 3 Provincial Orange | $31 |
 | <img src="../images/featured-rubbers/hurricane-3-commercial.jpg" alt="" data-options="2.2 41° red, 2.2 40° red, 2.2 39° red, 2.2 41° black, 2.2 40° black, 2.2 39° black"> | Hurricane 3 (Commercial) | $18 |
@@ -79,7 +79,7 @@ hide:
 | <img src="../images/price-list/rubbers/glayzer-09c.jpg" alt="" data-options="2.1 red, 2.1 black"> | GLAYZER 09C | $47 |
 | <img src="../images/price-list/rubbers/tenergy-19.jpg" alt="" data-options="2.1 black, 2.1 red"> | Tenergy 19 | $63 |
 | <img src="../images/featured-rubbers/tibhar-evolution-mx-p.jpg" alt="" data-options="Max black, Max red, 1.9-2.0 black, 1.9-2.0 red"> | Tibhar Evolution MX-P | $39 |
-| <img src="../images/featured-rubbers/tibhar-k3.jpg" alt="" data-options="Max black, Max red"> | Tibhar Hybrid K3 | $49 |
+| <img src="../images/featured-rubbers/tibhar-k3.jpg" alt="" data-options="2.0 red, 2.0 black, Max black, Max red"> | Tibhar Hybrid K3 | $49 |
 | <img src="../images/featured-rubbers/xiom-vega-asia.jpg" alt="" data-options="2.0 red, 2.0 black, Max black, Max red"> | Xiom Vega Asia | $29 |
 | <img src="../images/featured-rubbers/xiom-vega-china.jpg" alt="" data-options="2.0 red, 2.0 black, Max black, Max red"> | XIOM Vega China | $30 |
 | <img src="../images/featured-rubbers/yasaka-rakza-7-soft.jpg" alt="" data-options="Max black, Max red"> | Yasaka Rakza 7 Soft | $39 |
@@ -89,6 +89,10 @@ hide:
 | <img src="../images/featured-rubbers/nittaku-fastarc-g-1.jpg" alt="" data-options="2.0 black, 2.0 red, Max black, Max red"> | Nittaku Fastarc G-1 | $33 |
 | <img src="../images/featured-rubbers/tibhar-evolution-el-p.jpg" alt="" data-options="Max black, Max red, 1.9-2.0 black, 1.9-2.0 red"> | Tibhar Evolution EL-P | $36 |
 | <img src="../images/featured-rubbers/yasaka-psych-dragon-pro.jpg" alt="" data-options="Max medium-soft red, Max medium-soft black, Max medium-hard red, Max medium-hard black"> | Yasaka Psych Dragon Pro | $33 |
+| <img src="../images/featured-rubbers/donic-bluestar-a1.jpg" alt="" data-options="2.0 red, 2.0 black, Max black, Max red"> | Donic BlueStar A1 | $57 |
+| <img src="../images/featured-rubbers/joola-trinity-hc-charged.jpg" alt="" data-options="2.0 red, 2.0 black, Max black, Max red"> | Joola Trinity Hugo Calderano Charged | $62 |
+| <img src="../images/featured-rubbers/xiom-vega-intro.jpg" alt="" data-options="1.5 red, 1.5 black, 1.8 red, 1.8 black, 2.0 red, 2.0 black, Max black, Max red"> | Xiom Vega Intro | $29 |
+| <img src="../images/featured-rubbers/joola-trinity-hc-dynamic.jpg" alt="" data-options="2.0 red, 2.0 black, Max black, Max red"> | Joola Trinity Hugo Calderano Dynamic | $62 |
 
 </div>
 

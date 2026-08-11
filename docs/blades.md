@@ -36,7 +36,7 @@ hide:
 
 </div>
 
-## Blade list <span class="mg-list-meta">USD prices · Updated 28 Jul 2026</span>
+## Blade list <span class="mg-list-meta">USD prices · Updated 12 Aug 2026</span>
 
 <p class="mg-blades-showing" markdown="0">Loading results…</p>
 <p class="mg-price-legend" markdown="0"><span class="mg-price-legend__stock">In stock</span><span class="mg-price-legend__blade">Proxy buy</span></p>
@@ -71,6 +71,8 @@ hide:
 | ![ ](../images/price-list/blades/fan-zhendong-alc.jpg) | Fan Zhendong ALC | $159 |
 | ![ ](../images/price-list/blades/zhang-jike-alc.jpg) | Zhang Jike ALC | $169 |
 | ![ ](../images/price-list/blades/stiga-cybershape-carbon-cwt-truls.jpg) | Stiga Cybershape Carbon CWT Truls Edition | $232 |
+| ![ ](../images/price-list/blades/joola-hugo-calderano-ary-x.jpg) | Joola Hugo Calderano ARY-X | $188 |
+| ![ ](../images/price-list/blades/joola-hugo-calderano-ary-c.jpg) | Joola Hugo Calderano ARY-C | $188 |
 | ![ ](../images/price-list/blades/victas-koki-niwa.jpg) | Victas Koki Niwa | $145 |
 | ![ ](../images/price-list/blades/victas-koji-matsushita-offensive.jpg) | Victas Koji Matsushita Offensive | $92 |
 | ![ ](../images/price-list/blades/dhs-power-g7.jpg) | DHS Power G7 | $20 |
