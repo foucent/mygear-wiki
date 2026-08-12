@@ -2,7 +2,7 @@
 icon: material/home
 hide:
   - toc
-description: "Buy table tennis blades and rubbers in USD — brand-new blades, popular rubbers, and selected used blades. Guides and brand photo galleries on MyGear.Top."
+description: "Get brand-new table tennis blades, popular rubbers, and sports gear at discount prices straight from China, with global shipping. Browse expert equipment guides & photo galleries at MyGear.Top."
 ---
 
 <div class="mg-home" markdown="0">
