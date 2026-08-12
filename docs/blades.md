@@ -45,6 +45,7 @@ hide:
 
 | | Product | Price (USD) |
 | :---: | --- | ---: |
+| ![ ](../images/stock-blades/brand-new-selected-fan-zhendong-golden.jpg) | Fan ZD Golden \| CN \| K-Code \| 88.7g \| Brand New | $2100 |
 | ![ ](../images/stock-blades/brand-new-selected-viscaria.jpg) | Viscaria \| CN \| K-Code \| 90-93g \| Brand New Selected | $169 |
 | ![ ](../images/stock-blades/brand-new-selected-fan-zhendong-salc.jpg) | Fan ZD SALC \| CN \| K-Code \| 87-90g \| Brand New Selected | $219 |
 | ![ ](../images/stock-blades/brand-new-selected-harimoto-alc-cn-fl-k-code.jpg) | Harimoto ALC \| CN \| K-Code \| Brand New Selected | $161 |
