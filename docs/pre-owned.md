@@ -40,7 +40,7 @@ hide:
 
 </div>
 
-## Pre-owned list <span class="mg-list-meta">USD prices · Updated 13 Aug 2026</span>
+## Pre-owned list <span class="mg-list-meta">USD prices · Updated 14 Aug 2026</span>
 
 <p class="mg-preowned-showing" markdown="0">Loading results…</p>
 <p class="mg-price-legend" markdown="0"><span class="mg-price-legend__stock">Available (<span class="mg-preowned-count">—</span> items)</span><span class="mg-price-legend__sold">Sold / Out of stock</span></p>
@@ -269,6 +269,11 @@ hide:
       <td><img src="/images/viscaria-y-code-cn-85g/01.jpg" alt="Viscaria | Y-Code | CN | 85g" loading="lazy" data-gallery="/images/viscaria-y-code-cn-85g/01.jpg,/images/viscaria-y-code-cn-85g/02.jpg,/images/viscaria-y-code-cn-85g/03.jpg,/images/viscaria-y-code-cn-85g/04.jpg,/images/viscaria-y-code-cn-85g/05.jpg,/images/viscaria-y-code-cn-85g/06.jpg,/images/viscaria-y-code-cn-85g/07.jpg,/images/viscaria-y-code-cn-85g/08.jpg"></td>
       <td>Viscaria | Y-Code | CN | 85g</td>
       <td style="text-align:right">$115</td>
+    </tr>
+<tr>
+      <td><img src="/images/viscaria-x-code-cn-hanzi-84g/01.jpg" alt="Taksim | X-Code | CN | 84g" loading="lazy" data-gallery="/images/viscaria-x-code-cn-hanzi-84g/01.jpg,/images/viscaria-x-code-cn-hanzi-84g/02.jpg,/images/viscaria-x-code-cn-hanzi-84g/03.jpg,/images/viscaria-x-code-cn-hanzi-84g/04.jpg,/images/viscaria-x-code-cn-hanzi-84g/05.jpg,/images/viscaria-x-code-cn-hanzi-84g/06.jpg,/images/viscaria-x-code-cn-hanzi-84g/07.jpg"></td>
+      <td>Taksim | X-Code | CN | 84g</td>
+      <td style="text-align:right">$110</td>
     </tr>
 <tr>
       <td><img src="/images/viscaria-k-code-jp-89g/01.jpg" alt="Viscaria | K-Code | JP | 89g" loading="lazy" data-gallery="/images/viscaria-k-code-jp-89g/01.jpg,/images/viscaria-k-code-jp-89g/02.jpg,/images/viscaria-k-code-jp-89g/03.jpg,/images/viscaria-k-code-jp-89g/04.jpg,/images/viscaria-k-code-jp-89g/05.jpg,/images/viscaria-k-code-jp-89g/06.jpg,/images/viscaria-k-code-jp-89g/07.jpg"></td>
@@ -514,6 +519,11 @@ hide:
       <td><img src="/images/zhang-jk-szlc-y-code-cn-93g/01.jpg" alt="Zhang JK SZLC | Y-Code | 93g" loading="lazy" data-gallery="/images/zhang-jk-szlc-y-code-cn-93g/01.jpg,/images/zhang-jk-szlc-y-code-cn-93g/02.jpg,/images/zhang-jk-szlc-y-code-cn-93g/03.jpg,/images/zhang-jk-szlc-y-code-cn-93g/04.jpg,/images/zhang-jk-szlc-y-code-cn-93g/05.jpg,/images/zhang-jk-szlc-y-code-cn-93g/06.jpg,/images/zhang-jk-szlc-y-code-cn-93g/07.jpg"></td>
       <td>Zhang JK SZLC | Y-Code | 93g</td>
       <td style="text-align:right">$221</td>
+    </tr>
+<tr>
+      <td><img src="/images/zhang-jk-zlc-x-code-cn-86g/01.jpg" alt="Zhang JK ZLC | X-Code | CN | 86g" loading="lazy" data-gallery="/images/zhang-jk-zlc-x-code-cn-86g/01.jpg,/images/zhang-jk-zlc-x-code-cn-86g/02.jpg,/images/zhang-jk-zlc-x-code-cn-86g/03.jpg,/images/zhang-jk-zlc-x-code-cn-86g/04.jpg,/images/zhang-jk-zlc-x-code-cn-86g/05.jpg,/images/zhang-jk-zlc-x-code-cn-86g/06.jpg,/images/zhang-jk-zlc-x-code-cn-86g/07.jpg,/images/zhang-jk-zlc-x-code-cn-86g/08.jpg"></td>
+      <td>Zhang JK ZLC | X-Code | CN | 86g</td>
+      <td style="text-align:right">$131</td>
     </tr>
 <tr>
       <td><img src="/images/amultart-zlc-s-code/01.jpg" alt="Amultart ZLC | S-Code | CN | 88g" loading="lazy" data-gallery="/images/amultart-zlc-s-code/01.jpg,/images/amultart-zlc-s-code/02.jpg,/images/amultart-zlc-s-code/03.jpg,/images/amultart-zlc-s-code/04.jpg,/images/amultart-zlc-s-code/05.jpg,/images/amultart-zlc-s-code/06.jpg,/images/amultart-zlc-s-code/07.jpg,/images/amultart-zlc-s-code/08.jpg"></td>

@@ -40,7 +40,7 @@ hide:
 
 </div>
 
-## Shop add-ons <span class="mg-list-meta">USD prices · Updated 24 Jul 2026</span>
+## Shop add-ons <span class="mg-list-meta">USD prices · Updated 15 Aug 2026</span>
 
 <p class="mg-addons-showing" markdown="0">Loading results…</p>
 
@@ -59,6 +59,10 @@ hide:
 | ![ ](../images/add-ons/nittaku-cleaning-sponge.jpg) | Nittaku Cleaning Sponge | $1 |
 | ![ ](../images/add-ons/rubber-protective-sleeve.jpg) | Rubber Protective Sleeve | $1 |
 | ![ ](../images/add-ons/sdi-3006c-rubber-cutter.jpg) | SDI 3006C Rubber Cutter | $5 |
+| <img src="../images/add-ons/butterfly-racket-case/01.jpg" alt="" data-gallery="/images/add-ons/butterfly-racket-case/01.jpg,/images/add-ons/butterfly-racket-case/02.jpg,/images/add-ons/butterfly-racket-case/03.jpg,/images/add-ons/butterfly-racket-case/04.jpg,/images/add-ons/butterfly-racket-case/05.jpg,/images/add-ons/butterfly-racket-case/06.jpg,/images/add-ons/butterfly-racket-case/07.jpg"> | Butterfly 2025 Racket Case | $30 |
+| <img src="../images/add-ons/butterfly-wristband/01.jpg" alt="" data-gallery="/images/add-ons/butterfly-wristband/01.jpg,/images/add-ons/butterfly-wristband/02.jpg,/images/add-ons/butterfly-wristband/03.jpg,/images/add-ons/butterfly-wristband/04.jpg,/images/add-ons/butterfly-wristband/05.jpg"> | Butterfly Wristband | $10 |
+| <img src="../images/add-ons/butterfly-2026-racket-bag/01.jpg" alt="" data-gallery="/images/add-ons/butterfly-2026-racket-bag/01.jpg,/images/add-ons/butterfly-2026-racket-bag/02.jpg,/images/add-ons/butterfly-2026-racket-bag/03.jpg,/images/add-ons/butterfly-2026-racket-bag/04.jpg,/images/add-ons/butterfly-2026-racket-bag/05.jpg,/images/add-ons/butterfly-2026-racket-bag/06.jpg,/images/add-ons/butterfly-2026-racket-bag/07.jpg,/images/add-ons/butterfly-2026-racket-bag/08.jpg"> | Butterfly 2026 Racket Bag | $31 |
+| <img src="../images/add-ons/butterfly-2026-sports-towel/01.jpg" alt="" data-gallery="/images/add-ons/butterfly-2026-sports-towel/01.jpg,/images/add-ons/butterfly-2026-sports-towel/02.jpg,/images/add-ons/butterfly-2026-sports-towel/03.jpg,/images/add-ons/butterfly-2026-sports-towel/04.jpg"> | Butterfly 2026 Sports Towel | $6 |
 
 </div>
 
