@@ -6,12 +6,6 @@
 {% if page.file.src_uri == "shop/faq-and-updates.md" %}<div class="mg-faq">{% endif %}
 {{ page.content }}
 {% if page.file.src_uri == "shop/faq-and-updates.md" %}</div>{% endif %}
-{% if not page.file.src_uri.startswith("shop/") %}
-<div class="admonition note mg-page-note">
-  <p class="admonition-title">Note</p>
-  <p>Translated from Chinese—please suggest fixes if wording looks off.</p>
-</div>
-{% endif %}
 {% include "partials/source-file.html" %}
 {% include "partials/feedback.html" %}
 {% include "partials/comments.html" %}

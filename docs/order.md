@@ -23,15 +23,19 @@ See also [FAQ & Updates](FAQ.md), [Blades](blades.md) · [Rubbers](rubbers.md), 
 <div class="mg-glance" markdown="0">
   <div class="mg-glance__item">
     <div class="mg-glance__label">Payment</div>
-    <div class="mg-glance__value">Recommended: <a href="https://wise.com/invite/ahpc/pingl621">Wise</a> / Alipay (Southeast Asia) — usually instant. Bank transfer (<strong>1–3</strong> business days); fees may be high in some countries (e.g. Canada).</div>
+    <div class="mg-glance__value">Wise / Alipay (SEA) — instant. Bank transfer (<strong>1–3</strong> days).</div>
   </div>
   <div class="mg-glance__item">
     <div class="mg-glance__label">Delivery time</div>
-    <div class="mg-glance__value">About <strong>12–20 days</strong> — often around 15 including processing.</div>
+    <div class="mg-glance__value">About <strong>12–20 days</strong> — ~15 typical.</div>
   </div>
   <div class="mg-glance__item">
     <div class="mg-glance__label">Duties</div>
-    <div class="mg-glance__value">Parcel shipping already includes customs duties — <strong>no extra fees</strong> to pay.</div>
+    <div class="mg-glance__value">Customs duties included — <strong>no extra fees</strong>.</div>
+  </div>
+  <div class="mg-glance__item mg-glance__item--warn">
+    <div class="mg-glance__label">Restricted regions</div>
+    <div class="mg-glance__value"><strong>India · Iran · Nepal · Pakistan</strong></div>
   </div>
 </div>
 
@@ -76,7 +80,7 @@ After I confirm your requirements, send me your shipping address on WhatsApp. Ex
 I then prepare a formal **order form / spreadsheet** for a second confirmation. Once you confirm it, pay by:
 
 - **Recommended:** [Wise](https://wise.com/invite/ahpc/pingl621) / Alipay (Southeast Asia customers) — usually instant
-- **Bank transfer** (1–3 business days) — fees may be high in some countries (e.g. Canada)
+- **Bank transfer** (1–3 business days)
 - **PayPal** (not recommended) — **5%** extra fee
 
 After you pay, send a quick "Paid" note — I confirm when the payment is received.
