@@ -34,8 +34,7 @@ hide:
     <p class="mg-home-help__links">
       <a href="/blades/">Blades</a>
       <a href="/rubbers/">Rubbers</a>
-      <a href="/FAQ/">FAQ &amp; Updates</a>
-      <a href="/shipping/">Shipping</a>
+      <a href="/FAQ/">FAQ &amp; Shipping</a>
     </p>
   </section>
 
@@ -711,4 +710,4 @@ hide:
 </div>
 
 !!! tip "Related"
-    Checkout: [How to Order](order.md). New-gear USD references: [Blades](blades.md) · [Rubbers](rubbers.md). Policies: [FAQ & Updates](FAQ.md).
+    Checkout: [How to Order](order.md). New-gear USD references: [Blades](blades.md) · [Rubbers](rubbers.md). Policies: [FAQ & Shipping](FAQ.md).

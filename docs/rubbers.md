@@ -98,5 +98,5 @@ hide:
 
 <div class="admonition note mg-page-note">
   <p class="admonition-title">Related</p>
-  <p><a href="/blades/">Blades</a> · <a href="/add-ons/">Add-ons</a> · <a href="/order/">How to Order</a> · <a href="/FAQ/">FAQ & Updates</a> · <a href="/shipping/">Shipping & Delivery</a></p>
+  <p><a href="/blades/">Blades</a> · <a href="/add-ons/">Add-ons</a> · <a href="/order/">How to Order</a> · <a href="/FAQ/">FAQ & Shipping</a> · <a href="/updates-reviews/">Updates & Reviews</a></p>
 </div>

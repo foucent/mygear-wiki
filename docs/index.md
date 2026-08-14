@@ -56,8 +56,7 @@ description: "Get brand-new table tennis blades, popular rubbers, and sports gea
   <section class="mg-home-help">
     <p class="mg-home-help__text">Tap <strong>+</strong> on any list to build a cart, then checkout on WhatsApp for a final total.</p>
     <p class="mg-home-help__links">
-      <a href="/shipping/">Shipping</a>
-      <a href="/FAQ/">FAQ &amp; Updates</a>
+      <a href="/FAQ/">FAQ &amp; Shipping</a>
     </p>
   </section>
 

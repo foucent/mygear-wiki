@@ -3,11 +3,11 @@ icon: material/help-circle-outline
 source_url: https://mygear.top/faq/
 source_title: "FAQ"
 imported: 2026-07-14
-description: "FAQ and updates for MyGear.Top table tennis shop — pricing, WhatsApp orders, and shipping."
+description: "FAQ and shipping for MyGear.Top table tennis shop — ordering, payments, shipping, and restricted regions."
 ---
-# FAQ & Updates
+# FAQ & Shipping
 
-Quick answers for ordering, payment, shipping, and authenticity—plus store updates. Step-by-step checkout: [How to Order](order.md). See also [Shipping & Delivery](shipping.md) and [Blades](blades.md) · [Rubbers](rubbers.md).
+Quick answers for ordering, payment, shipping, and authenticity. Step-by-step checkout: [How to Order](order.md). See also [Blades](blades.md) · [Rubbers](rubbers.md) · [Updates & Reviews](updates-reviews.md).
 
 ---
 
@@ -17,7 +17,7 @@ Quick answers for ordering, payment, shipping, and authenticity—plus store upd
 Send your location or postal code via WhatsApp. You’ll get a total that includes **product + shipping**. Full steps: [How to Order](order.md).
 
 **Are there restricted regions?**  
-Shipping to **India, Brazil, Ukraine, and Iran** is not recommended (high duties / difficult logistics).
+Shipping to **India, Iran, Nepal, and Pakistan** is not recommended (high duties / difficult logistics).
 
 **Can I save on shipping?**  
 A boxed racket is about **600 g**, and one rubber is about **100 g**, but shipping is charged per **1 kg**. You can usually add rubbers or balls up to about **400 g** without raising the shipping tier. Liquid shipping is available when needed.
@@ -27,51 +27,51 @@ A boxed racket is about **600 g**, and one rubber is about **100 g**, but shippi
 
 ---
 
----
+## Shipping & Delivery
 
-## Updates
+How orders are packed, how to track them, and example shipping timelines (FR / DE / IT / USA and similar routes). For the full WhatsApp checkout flow, see [How to Order](order.md).
 
-| Date | Update |
+### How orders are packed
+
+| Situation | What we do |
 | --- | --- |
-| **2026-08-02** | **Added:** online live chat is live. No WhatsApp — chat with me on the site and order directly in the chat. |
-| **2026-07-28** | New site is officially live—please report any bugs. Proxy-buy prices updated; overall prices slightly lower. |
-| **2026-07-27** | **Added:** Vietnam shipping route available. Delivery about **7–15 days**. |
-| **2026-07-24** | New site is live—welcome feedback, feature requests, and bug reports. |
-| **2026-07-12** | **Added:** Korea shipping route available. Delivery about **7–15 days**. |
-| **2026-06-22** | Rubber prices adjusted slightly: DHS National series up a little; Provincial series down a little. |
-| **2026-06-15** | **Added:** Russia shipping available. Delivery about **20–30 days**. |
-| **2026-05-19** | Optimized product detail pages; accessories listed in a separate category. |
-| **2026-05-11** | Cart disabled (inventory sync issues)—confirm orders on WhatsApp. New + used blade categories merged; pre-orders supported. |
-| **2026-05-06** | Blade and rubber purchase prices consolidated in the main menu for easier comparison. |
-| **2026-04-24** | Pre-owned product details updated with recent transactions, average market pricing, common weight ranges; personalized procurement supported. |
-| **2026-04-16** | First “Table Tennis Equipment Buying Guide”; product display improved. |
-| **2026-04-14** | Butterfly rubbers up ~**$5** (supply chain). |
-| **2026-04-13** | Shopping cart added (later disabled—see 2026-05-11). Multi-item WhatsApp confirmation. |
-| **2026-04-11** | **Added:** multiple new rubbers and blades. |
-| **2026-04-09** | New logistics cases (USA / DE / FR / IT). Pre-owned standard packaging reference page. |
-| **2026-04-08** | Logistics channels optimized; overall shipping cost down. |
-| **2026-04-07** | **Alert:** processing and delivery times longer—delivery may take up to **20 days**. |
-| **2026-04-02** | **Added:** brand-new selected blades. |
-| **2026-03-31** | Brand-new Butterfly series avg **−$5**; Ovtcharov ALC added. |
-| **2026-03-30** | **Added:** DHS 8-80 / 3-50 / 3-60 series rubbers. |
-| **2026-03-28** | **Added:** XIOM, Tibhar, and Stiga series rubbers. |
-| **2026-03-26** | Streamlined new-product display; multi-stage Hurricane 3 boosting guide published. |
-| **2026-03-25** | **Added:** Neo Hurricane 3 (Comm.); several Hurricane prices adjusted. |
-| **2026-03-23** | **Added:** 729 Battle II Provincial (No. 1) and Sky-Wing. |
-| **2026-03-18** | Note: XIOM Vega H review planned; more gear reviews later. |
-| **2026-03-17** | **Added:** several brand-new blade + rubber combo sets. |
-| **2026-03-16** | New-blade price list optimized and adjusted. |
-| **2026-03-15** | Pre-owned blade category streamlined toward high-performance value picks. |
-| **2026-03-14** | **Added:** glue & cleaning; air freight available; partial new-blade price update. |
-| **2026-03-13** | **Added:** Feedback & Reviews entry on the homepage. |
-| **2026-03-12** | Rubber product display format improved. |
-| **2026-03-11** | Specs for Butterfly / NEO H3 National. Dignics up; Tenergy down. |
-| **2026-03-07** | **Added:** brand-new Butterfly Timo Boll ALC / Spirit. |
-| **2026-03-06** | Rubber prices up avg **$1** (FX). |
-| **2026-03-01** | Rubber prices up avg **$1** (FX). |
-| **2026-03-01** | Updates started. |
+| **No original box** | Thick bubble wrap so the blade is protected from bumps |
+| **Original box included** | Assembled racket goes back into its **original box** |
+| **Two rackets or extra gear** | Upgrade to a **hard-shell racket case** |
+
+Click a photo to enlarge:
+
+<div class="mg-gallery mg-gallery--pack" markdown="0">
+  <a href="/images/shop-cases/01.jpg"><img src="/images/shop-cases/01.jpg" alt="Packed order example" loading="lazy"></a>
+  <a href="/images/shop-cases/02.jpg"><img src="/images/shop-cases/02.jpg" alt="Packaging detail" loading="lazy"></a>
+</div>
+
+### How to track
+
+Every order gets a tracking number. Tracking details are sent on **WhatsApp** after the package ships.
+
+| Region | Tracker |
+| --- | --- |
+| **European Union (EU)** | [Track here](http://203.195.161.123:8180/track) |
+| **USA & Canada** | [Diditrack](https://www.diditrack.com/) |
+| **Other regions** | [17TRACK](https://www.17track.net/) |
+
+### When will it arrive?
+
+Examples below show packing and transit for customers in **France, Germany, Italy, and the USA**. Plan roughly for **~10 days transit, ~15 days with processing buffer**.
+
+Click a screenshot to enlarge:
+
+<div class="mg-gallery mg-gallery--timelines" markdown="0">
+  <a href="/images/shop-cases/03.png"><img src="/images/shop-cases/03.png" alt="Shipping timeline example — France" loading="lazy"></a>
+  <a href="/images/shop-cases/04.png"><img src="/images/shop-cases/04.png" alt="Shipping timeline example — Germany" loading="lazy"></a>
+  <a href="/images/shop-cases/05.png"><img src="/images/shop-cases/05.png" alt="Shipping timeline example — Italy" loading="lazy"></a>
+  <a href="/images/shop-cases/06.png"><img src="/images/shop-cases/06.png" alt="Shipping timeline example — USA" loading="lazy"></a>
+</div>
+
+---
 
 <div class="admonition note mg-page-note">
   <p class="admonition-title">Related</p>
-  <p><a href="/order/">How to Order</a> · <a href="/blades/">Blades</a> · <a href="/rubbers/">Rubbers</a> · <a href="/shipping/">Shipping & Delivery</a></p>
+  <p><a href="/order/">How to Order</a> · <a href="/blades/">Blades</a> · <a href="/rubbers/">Rubbers</a> · <a href="/updates-reviews/">Updates & Reviews</a></p>
 </div>

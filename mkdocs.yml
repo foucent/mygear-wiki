@@ -97,8 +97,9 @@ plugins:
         shop/rubbers.md: rubbers.md
         shop/add-ons.md: add-ons.md
         shop/pre-owned.md: pre-owned.md
-        shop/shipping-and-delivery.md: shipping.md
-        shop/packaging-and-tracking.md: shipping.md
+        shop/shipping-and-delivery.md: FAQ.md
+        shop/packaging-and-tracking.md: FAQ.md
+        shipping.md: FAQ.md
         shop/price-list.md: rubbers.md
         shop/pricing-and-sourcing.md: rubbers.md
         shop/log.md: FAQ.md
@@ -165,8 +166,8 @@ nav:
   - Add-ons: add-ons.md
   - Pre-owned: pre-owned.md
   - How to Order: order.md
-  - FAQ & Updates: FAQ.md
-  - Shipping & Delivery: shipping.md
+  - FAQ & Shipping: FAQ.md
+  - Updates & Reviews: updates-reviews.md
   - Gallery: gallery.md
   - Brands:
       - 729: gear/729.md

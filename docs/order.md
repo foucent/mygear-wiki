@@ -9,7 +9,7 @@ description: "How to order table tennis gear from MyGear.Top — cart, WhatsApp 
 
 To provide solid pre-sales advice—and because of payment fees and technical costs—I currently only support ordering via **WhatsApp**. Send your item list and shipping address, confirm the quote, pay by Wise (or bank transfer).
 
-See also [FAQ & Updates](FAQ.md), [Blades](blades.md) · [Rubbers](rubbers.md), and [Shipping & Delivery](shipping.md).
+See also [FAQ & Shipping](FAQ.md), [Blades](blades.md) · [Rubbers](rubbers.md).
 
 <div class="mg-cta mg-cta--compact" markdown="0">
   <p class="mg-cta__text">Send your item list + postal code for a final total.</p>
@@ -108,7 +108,7 @@ After you pay, send a quick "Paid" note — I confirm when the payment is receiv
 
 </div>
 
-Packing photos and trackers: [Shipping & Delivery](shipping.md).
+Packing photos and trackers: [FAQ & Shipping](FAQ.md).
 
 ---
 
@@ -120,5 +120,5 @@ You can still adjust contents before packing is finalized — message me as earl
 
 <div class="admonition note mg-page-note">
   <p class="admonition-title">Related</p>
-  <p><a href="/blades/">Blades</a> · <a href="/rubbers/">Rubbers</a> · <a href="/FAQ/">FAQ & Updates</a> · <a href="/shipping/">Shipping & Delivery</a></p>
+  <p><a href="/blades/">Blades</a> · <a href="/rubbers/">Rubbers</a> · <a href="/FAQ/">FAQ & Shipping</a> · <a href="/updates-reviews/">Updates & Reviews</a></p>
 </div>

@@ -34,8 +34,7 @@ hide:
     <p class="mg-home-help__links">
       <a href="/blades/">Blades</a>
       <a href="/rubbers/">Rubbers</a>
-      <a href="/FAQ/">FAQ &amp; Updates</a>
-      <a href="/shipping/">Shipping</a>
+      <a href="/FAQ/">FAQ &amp; Shipping</a>
     </p>
   </section>
 
@@ -65,5 +64,5 @@ hide:
 
 <div class="admonition note mg-page-note">
   <p class="admonition-title">Related</p>
-  <p><a href="/blades/">Blades</a> · <a href="/rubbers/">Rubbers</a> · <a href="/order/">How to Order</a> · <a href="/FAQ/">FAQ & Updates</a></p>
+  <p><a href="/blades/">Blades</a> · <a href="/rubbers/">Rubbers</a> · <a href="/order/">How to Order</a> · <a href="/FAQ/">FAQ & Shipping</a> · <a href="/updates-reviews/">Updates & Reviews</a></p>
 </div>
