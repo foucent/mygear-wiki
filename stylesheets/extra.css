@@ -2359,9 +2359,15 @@ body.mg-cart-open {
 /* —— How to Order: at-a-glance cards & numbered step cards —— */
 .mg-glance {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 0.8rem;
   margin: 1.1rem 0 1.35rem;
+}
+
+@media (max-width: 600px) {
+  .mg-glance {
+    grid-template-columns: 1fr;
+  }
 }
 
 .mg-glance__item {
@@ -2388,6 +2394,12 @@ body.mg-cart-open {
 
 .mg-glance__value strong {
   color: #0f172a;
+}
+
+/* warning variant for a restricted-region card in the glance grid */
+.mg-glance__item--warn {
+  border: 1px solid rgba(217, 119, 6, 0.55);
+  box-shadow: 0 1px 3px rgba(217, 119, 6, 0.14);
 }
 
 .mg-steps {
