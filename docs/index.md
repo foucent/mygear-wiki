@@ -68,11 +68,6 @@ Photo galleries by brand — real blade shots for Butterfly, DHS, Viscaria-famil
 
 <div class="mg-brand-grid" markdown="0">
 
-  <a class="mg-brand-item" href="/gear/729/">
-    <img class="mg-brand-image" src="/images/brand-logos/729.png" alt="729" loading="lazy">
-    <span class="mg-brand-name">729</span>
-  </a>
-
   <a class="mg-brand-item" href="/gear/avalox/">
     <img class="mg-brand-image" src="/images/brand-logos/avalox.png" alt="Avalox" loading="lazy">
     <span class="mg-brand-name">Avalox</span>

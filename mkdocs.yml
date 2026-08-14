@@ -42,8 +42,6 @@ plugins:
         guide/booster-oil-comparison.md: guide/boosting-truth.md
         advanced/donic-zhang-jike-original-carbon.md: gear/donic.md
         equipment/donic-zhang-jike-original-carbon.md: gear/donic.md
-        gear/729-50th-anniversary-limited.md: gear/729.md
-        gear/729-blades.md: gear/729.md
         gear/avalox-blades.md: gear/avalox.md
         gear/avalox-p500.md: gear/avalox.md
         gear/butterfly-blades.md: gear/butterfly.md
@@ -168,9 +166,7 @@ nav:
   - How to Order: order.md
   - FAQ & Shipping: FAQ.md
   - Updates & Reviews: updates-reviews.md
-  - Gallery: gallery.md
   - Brands:
-      - 729: gear/729.md
       - Avalox: gear/avalox.md
       - Butterfly: gear/butterfly.md
       - DHS: gear/dhs.md
