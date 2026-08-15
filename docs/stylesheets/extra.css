@@ -2159,6 +2159,16 @@ body.mg-cart-open {
   border: 1px solid rgba(15, 118, 110, 0.14);
 }
 
+/* warning variant for homepage notice */
+.mg-home-help--warn {
+  background: linear-gradient(180deg, #fff8e1, #ffefc2);
+  border: 1px solid rgba(217, 119, 6, 0.45);
+}
+
+.mg-home-help--warn .mg-home-help__text {
+  color: #78350f !important;
+}
+
 .mg-home-help__text {
   margin: 0 0 0.55rem !important;
   color: #134e4a !important;
