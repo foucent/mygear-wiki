@@ -2655,3 +2655,120 @@ html.md-no-js .md-typeset .mg-bio__toggle {
   }
 }
 
+
+/* --- Vertical comparison cards (guide comparison pages) --- */
+.md-typeset .mg-compare__legend {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 0 10px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #37474f;
+}
+.md-typeset .mg-compare__dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  margin: 0 5px 0 0;
+  vertical-align: -0.05em;
+}
+.md-typeset .mg-compare__legend span + span {
+  margin-left: 16px;
+}
+.md-typeset .mg-compare__dot--a { background: #0b3d66; }
+.md-typeset .mg-compare__dot--b { background: #a32638; }
+
+.md-typeset .mg-compare__row {
+  display: flex;
+  align-items: stretch;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.md-typeset .mg-compare__label {
+  flex: 0 0 118px;
+  background: #f7f8fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  text-align: center;
+  padding: 8px;
+  border-right: 1px solid #e0e0e0;
+}
+.md-typeset .mg-compare__vals { flex: 1; display: flex; }
+.md-typeset .mg-compare__val {
+  flex: 1;
+  padding: 10px 12px;
+  font-size: 13.5px;
+  line-height: 1.45;
+  display: flex;
+  align-items: center;
+}
+.md-typeset .mg-compare__val--a {
+  background: #e8f0f8;
+  border-right: 1px solid #e0e0e0;
+}
+.md-typeset .mg-compare__val--b { background: #fbeef0; }
+
+@media (max-width: 640px) {
+  .md-typeset .mg-compare__row { flex-direction: column; }
+  .md-typeset .mg-compare__label {
+    flex: none;
+    border-right: none;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 7px;
+  }
+  .md-typeset .mg-compare__val--a {
+    border-right: none;
+    border-bottom: 1px solid #e0e0e0;
+  }
+}
+
+/* --- Comparison page: teal-dark headings, checked list, amber source --- */
+.md-typeset .mg-compare-h {
+  color: #004d40;
+  font-weight: 800;
+  font-size: 19px;
+  letter-spacing: 0;
+  border: none;
+  padding: 0;
+  margin: 24px 0 12px;
+}
+.md-typeset ul.mg-check-list {
+  list-style: none;
+  margin-left: 0;
+}
+.md-typeset ul.mg-check-list li {
+  padding: 11px 0 11px 30px;
+  position: relative;
+  font-size: 14.5px;
+  line-height: 1.55;
+  border-bottom: 1px dashed #e0e0e0;
+}
+.md-typeset ul.mg-check-list li:last-child { border-bottom: none; }
+.md-typeset ul.mg-check-list li::before {
+  content: "\2714";
+  position: absolute;
+  left: 2px;
+  top: 12px;
+  color: #00695c;
+  font-size: 15px;
+}
+.md-typeset ul.mg-check-list strong { color: #004d40; }
+
+.md-typeset .mg-compare-src {
+  display: inline-block;
+  background: #fff8e1;
+  border: 1px solid #f4d58c;
+  color: #b45309;
+  padding: 9px 16px;
+  border-radius: 10px;
+  font-size: 13px;
+  line-height: 1.5;
+}
