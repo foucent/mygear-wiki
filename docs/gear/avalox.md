@@ -26,7 +26,7 @@ description: "Avalox table tennis blades — classic P500, YouTube review, and w
 
 </div>
 
-## Watch on YouTube
+## Related videos on YouTube
 
 <div style="position:relative;padding-top:56.25%"><iframe src="https://www.youtube.com/embed/YNaKFjwz70I" style="position:absolute;top:0;left:0;width:100%;height:100%" frameborder="0" allowfullscreen></iframe></div>
 
