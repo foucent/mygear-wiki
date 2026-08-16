@@ -116,8 +116,8 @@
         cta.className =
           "mg-preowned-card__wa mg-preowned-card__wa--preorder";
         cta.addEventListener("click", function () {
-          if (window.mgOpenCrisp) {
-            window.mgOpenCrisp(
+          if (window.mgOpenWhatsApp) {
+            window.mgOpenWhatsApp(
               "This blade is out of stock. Could you recommend a similar one? " + name + " (" + money(price) + ")."
             );
           }
