@@ -1401,26 +1401,6 @@ body.mg-cart-open {
   opacity: 0.45;
 }
 
-.mg-cart-drawer__crisp {
-  display: block;
-  width: 100%;
-  margin-top: 0.45rem;
-  box-sizing: border-box;
-  padding: 0.55rem 0.85rem !important;
-  border: 0;
-  border-radius: 999px !important;
-  background: #0f766e !important;
-  color: #fff !important;
-  font-weight: 700 !important;
-  font-size: 0.8rem !important;
-  text-align: center;
-  cursor: pointer;
-}
-
-.mg-cart-drawer__crisp:hover {
-  background: #0d9488 !important;
-}
-
 .mg-cart-drawer__clear {
   display: block;
   width: 100%;
@@ -2570,29 +2550,47 @@ html.md-no-js .md-typeset .mg-bio__toggle {
   display: none;
 }
 
-/* Crisp live chat close button (top-right, over the chat window) */
-.mg-crisp-close {
+/* WhatsApp floating button (bottom-right) */
+.mg-wa-float {
   position: fixed;
-  top: 14px;
-  right: 14px;
-  z-index: 10000050;
-  display: none;
+  right: 1rem;
+  bottom: 1.2rem;
+  z-index: 90;
+  display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
-  margin: 0;
-  padding: 0;
-  border: 0;
+  width: 3.4rem;
+  height: 3.4rem;
   border-radius: 999px;
-  background: #232327;
+  background: transparent;
   color: #fff;
-  cursor: pointer;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+  text-decoration: none !important;
+  transition: transform 0.15s ease;
 }
 
-.mg-crisp-close.is-visible {
-  display: flex;
+.mg-wa-float:hover {
+  transform: translateY(-2px);
+}
+
+.mg-wa-float__icon {
+  display: block;
+  width: 3.4rem;
+  height: 3.4rem;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+@media (max-width: 640px) {
+  .mg-wa-float {
+    right: 0.75rem;
+    bottom: 1rem;
+    width: 3.1rem;
+    height: 3.1rem;
+  }
+  .mg-wa-float__icon {
+    width: 3.1rem;
+    height: 3.1rem;
+  }
 }
 
 /* Equipment Gallery — brand card grid (tt11-style) */

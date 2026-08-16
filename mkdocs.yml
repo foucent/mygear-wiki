@@ -127,7 +127,7 @@ extra_css:
 
 extra_javascript:
   - javascripts/img-thumbs.js
-  - javascripts/crisp.js
+  - javascripts/whatsapp-float.js
   - javascripts/preowned-grid.js
   - javascripts/gallery-lightbox.js
   - javascripts/photo-wall.js
