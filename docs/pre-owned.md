@@ -40,7 +40,7 @@ hide:
 
 </div>
 
-## Pre-owned list <span class="mg-list-meta">USD prices · Updated 14 Aug 2026</span>
+## Pre-owned list <span class="mg-list-meta">USD prices · Updated 18 Aug 2026</span>
 
 <p class="mg-preowned-showing" markdown="0">Loading results…</p>
 <p class="mg-price-legend" markdown="0"><span class="mg-price-legend__stock">Available (<span class="mg-preowned-count">—</span> items)</span><span class="mg-price-legend__sold">Sold / Out of stock</span></p>
@@ -134,6 +134,11 @@ hide:
       <td><img src="/images/lin-yun-ju-szlc-cn-w-code-85g/01.jpg" alt="Lin Yun-Ju SZLC | CN | W-code | 85g" loading="lazy" data-gallery="/images/lin-yun-ju-szlc-cn-w-code-85g/01.jpg,/images/lin-yun-ju-szlc-cn-w-code-85g/02.jpg,/images/lin-yun-ju-szlc-cn-w-code-85g/03.jpg,/images/lin-yun-ju-szlc-cn-w-code-85g/04.jpg,/images/lin-yun-ju-szlc-cn-w-code-85g/05.jpg,/images/lin-yun-ju-szlc-cn-w-code-85g/06.jpg,/images/lin-yun-ju-szlc-cn-w-code-85g/07.jpg,/images/lin-yun-ju-szlc-cn-w-code-85g/08.jpg,/images/lin-yun-ju-szlc-cn-w-code-85g/09.jpg"></td>
       <td>Lin Yun-Ju SZLC | CN | W-code | 85g</td>
       <td style="text-align:right"><del>$210</del></td>
+    </tr>
+<tr>
+      <td><img src="/images/lin-yun-ju-szlc-k-code-fl/01.jpg" alt="Lin Yun-Ju SZLC | K-Code | FL" loading="lazy" data-gallery="/images/lin-yun-ju-szlc-k-code-fl/01.jpg,/images/lin-yun-ju-szlc-k-code-fl/02.jpg,/images/lin-yun-ju-szlc-k-code-fl/03.jpg,/images/lin-yun-ju-szlc-k-code-fl/04.jpg,/images/lin-yun-ju-szlc-k-code-fl/05.jpg,/images/lin-yun-ju-szlc-k-code-fl/06.jpg,/images/lin-yun-ju-szlc-k-code-fl/07.jpg"></td>
+      <td>Lin Yun-Ju SZLC | K-Code | FL</td>
+      <td style="text-align:right">$207</td>
     </tr>
 <tr>
       <td><img src="/images/lin-yun-ju-szlc-cn-v-code-84g/01.jpg" alt="Lin Yun-Ju SZLC | CN | V-code | 84g" loading="lazy" data-gallery="/images/lin-yun-ju-szlc-cn-v-code-84g/01.jpg,/images/lin-yun-ju-szlc-cn-v-code-84g/02.jpg,/images/lin-yun-ju-szlc-cn-v-code-84g/03.jpg,/images/lin-yun-ju-szlc-cn-v-code-84g/04.jpg,/images/lin-yun-ju-szlc-cn-v-code-84g/05.jpg,/images/lin-yun-ju-szlc-cn-v-code-84g/06.jpg,/images/lin-yun-ju-szlc-cn-v-code-84g/07.jpg"></td>
@@ -234,6 +239,11 @@ hide:
       <td><img src="/images/viscaria-salc-051/01.jpg" alt="Viscaria SALC | X-Code | JP | 92g" loading="lazy" data-gallery="/images/viscaria-salc-051/01.jpg,/images/viscaria-salc-051/02.jpg,/images/viscaria-salc-051/03.jpg,/images/viscaria-salc-051/04.jpg,/images/viscaria-salc-051/06.jpg,/images/viscaria-salc-051/07.jpg,/images/viscaria-salc-051/08.jpg"></td>
       <td>Viscaria SALC | X-Code | JP | 92g</td>
       <td style="text-align:right">$139</td>
+    </tr>
+<tr>
+      <td><img src="/images/viscaria-golden-cn-old-t-code/01.jpg" alt="Viscaria Golden | CN | Old T-Code" loading="lazy" data-gallery="/images/viscaria-golden-cn-old-t-code/01.jpg,/images/viscaria-golden-cn-old-t-code/02.jpg,/images/viscaria-golden-cn-old-t-code/03.jpg,/images/viscaria-golden-cn-old-t-code/04.jpg,/images/viscaria-golden-cn-old-t-code/05.jpg,/images/viscaria-golden-cn-old-t-code/06.jpg,/images/viscaria-golden-cn-old-t-code/07.jpg"></td>
+      <td>Viscaria Golden | CN | Old T-Code</td>
+      <td style="text-align:right">$532</td>
     </tr>
 <tr>
       <td><img src="/images/viscaria-golden003/01.jpg" alt="Viscaria Golden | CN | T-Code | 95.2g" loading="lazy" data-gallery="/images/viscaria-golden003/01.jpg,/images/viscaria-golden003/02.jpg,/images/viscaria-golden003/03.jpg,/images/viscaria-golden003/04.jpg,/images/viscaria-golden003/05.jpg,/images/viscaria-golden003/06.jpg"></td>
