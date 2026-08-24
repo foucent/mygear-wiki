@@ -54,7 +54,7 @@ description: "Get brand-new table tennis blades, popular rubbers, and sports gea
   </section>
 
   <section class="mg-home-help mg-home-help--warn">
-    <p class="mg-home-help__text">I'm dedicated to providing table tennis players and enthusiasts around the world with quality, affordable equipment sourced from the China market. Due to transaction costs and compliance reasons, we currently don't support online payment or PayPal. If that's a concern for you, or you have any doubts about transaction safety, please feel free to buy on mainstream e-commerce platforms instead — we'd rather not waste your time. Thank you for your understanding and support!</p>
+    <p class="mg-home-help__text">I'm dedicated to providing table tennis players and enthusiasts around the world with quality, affordable equipment sourced from the China market. Due to transaction costs and compliance reasons, we currently don't support online payment or PayPal. Thank you for your understanding and support!</p>
   </section>
 
 </div>

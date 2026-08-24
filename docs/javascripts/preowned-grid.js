@@ -60,6 +60,8 @@
 
     var available = 0;
     var total = 0;
+    var stockCards = [];
+    var soldCards = [];
 
     $all("tbody tr", table).forEach(function (tr) {
       var cells = tr.querySelectorAll("td");
@@ -138,6 +140,14 @@
       card.appendChild(title);
       card.appendChild(priceEl);
       card.appendChild(cta);
+      if (sold) soldCards.push(card);
+      else stockCards.push(card);
+    });
+
+    stockCards.forEach(function (card) {
+      grid.appendChild(card);
+    });
+    soldCards.forEach(function (card) {
       grid.appendChild(card);
     });
 
