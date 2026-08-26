@@ -1,5 +1,6 @@
 (function () {
   var PER_PAGE = 15;
+  var CAT_ORDER = { Blade: 0, Rubber: 1, "Add-on": 2 };
 
   function pageFromHash(pageCount) {
     var m = (location.hash || "").match(/^#page-(\d+)$/i);
@@ -46,11 +47,136 @@
     return Array.prototype.slice.call(table.querySelectorAll("tbody tr"));
   }
 
+  function colIndex(ths, text) {
+    for (var i = 0; i < ths.length; i++) {
+      if ((ths[i].textContent || "").trim() === text) return i;
+    }
+    return -1;
+  }
+
+  // Product-name cell minus any option <select> appended by the cart script.
+  function cellName(cell) {
+    if (!cell) return "";
+    if (!cell.querySelector(".mg-cart-row-options")) {
+      return (cell.textContent || "").trim();
+    }
+    var clone = cell.cloneNode(true);
+    var opts = clone.querySelector(".mg-cart-row-options");
+    if (opts && opts.parentNode) opts.parentNode.removeChild(opts);
+    return (clone.textContent || "").trim();
+  }
+
+  // —— Sortable columns on .mg-price-table--all tables (Price List / blades bottom table) ——
+  function initSorting(wrap, table, rows, refresh) {
+    if (!table || !wrap.classList.contains("mg-price-table--all")) return;
+    var ths = table.querySelectorAll("thead th");
+    var iName = colIndex(ths, "Product");
+    var iPrice = colIndex(ths, "Price (USD)");
+    var iCat = colIndex(ths, "Category");
+    if (iName < 0 || iPrice < 0) return;
+
+    var sortData = rows.map(function (tr) {
+      var cells = tr.querySelectorAll("td");
+      var name = cellName(cells[iName]);
+      var priceM = String(
+        cells[iPrice] && cells[iPrice].textContent || ""
+      )
+        .replace(/,/g, "")
+        .match(/([0-9]+(?:\.[0-9]+)?)/);
+      var cat =
+        iCat >= 0 && cells[iCat] ? (cells[iCat].textContent || "").trim() : "";
+      return {
+        tr: tr,
+        nameKey: name.toLowerCase(),
+        price: priceM ? parseFloat(priceM[1]) : NaN,
+        cat: cat,
+      };
+    });
+    var sortState = { key: null, dir: 1 };
+
+    function sortCompare(a, b, key) {
+      if (key === "price") return a.price - b.price;
+      if (key === "cat") {
+        var x = CAT_ORDER[a.cat] != null ? CAT_ORDER[a.cat] : 99;
+        var y = CAT_ORDER[b.cat] != null ? CAT_ORDER[b.cat] : 99;
+        return x - y;
+      }
+      return a.nameKey.localeCompare(b.nameKey);
+    }
+
+    function applySort() {
+      var ordered = sortData.slice();
+      if (sortState.key) {
+        ordered.sort(function (a, b) {
+          var r = sortCompare(a, b, sortState.key);
+          return sortState.dir === 1 ? r : -r;
+        });
+      }
+      var tbody = table.querySelector("tbody");
+      ordered.forEach(function (row) {
+        tbody.appendChild(row.tr);
+      });
+      rows.length = 0;
+      ordered.forEach(function (row) {
+        rows.push(row.tr);
+      });
+      Array.prototype.forEach.call(
+        table.querySelectorAll("th.mg-sortable .mg-sort-ind"),
+        function (ind) {
+          var key = ind.parentNode.getAttribute("data-sort");
+          ind.textContent =
+            sortState.key === key
+              ? sortState.dir === 1
+                ? "↑"
+                : "↓"
+              : "↕";
+        }
+      );
+      if (refresh) refresh();
+    }
+
+    var sortCols = [];
+    if (iName >= 0) sortCols.push({ key: "name", th: ths[iName] });
+    if (iPrice >= 0) sortCols.push({ key: "price", th: ths[iPrice] });
+    if (iCat >= 0) sortCols.push({ key: "cat", th: ths[iCat] });
+
+    sortCols.forEach(function (col) {
+      col.th.classList.add("mg-sortable");
+      col.th.setAttribute("data-sort", col.key);
+      col.th.innerHTML =
+        (col.th.textContent || "").trim() +
+        '<span class="mg-sort-ind">↕</span>';
+      col.th.addEventListener("click", function () {
+        if (sortState.key === col.key && sortState.dir === 1) {
+          sortState.dir = -1;
+        } else if (sortState.key === col.key && sortState.dir === -1) {
+          sortState.key = null;
+          sortState.dir = 1;
+        } else {
+          sortState.key = col.key;
+          sortState.dir = 1;
+        }
+        applySort();
+      });
+    });
+  }
+
   function initPager(wrap, metaSel) {
     if (wrap.dataset.mgPager === "1") return;
     var rows = collectItems(wrap);
+    var table = wrap.querySelector("table");
+    var noPager = wrap.classList.contains("mg-price-table--nopager");
+
+    // Full-list tables show every row — sorting only, no pagination.
+    if (noPager) {
+      wrap.dataset.mgPager = "1";
+      initSorting(wrap, table, rows, null);
+      return;
+    }
+
     if (rows.length <= PER_PAGE) {
       updateShowing(metaSel, 1, rows.length, rows.length);
+      initSorting(wrap, table, rows, null);
       return;
     }
     wrap.dataset.mgPager = "1";
@@ -140,6 +266,10 @@
     show(pageFromHash(pageCount));
     skipScroll = false;
 
+    initSorting(wrap, table, rows, function () {
+      show(current);
+    });
+
     window.addEventListener("hashchange", function () {
       var next = pageFromHash(pageCount);
       if (next !== current) show(next);
@@ -177,6 +307,7 @@
     { wrap: ".mg-price-table--rubbers", meta: ".mg-rubbers-showing" },
     { wrap: ".mg-price-table--blades", meta: ".mg-blades-showing" },
     { wrap: ".mg-price-table--addons", meta: ".mg-addons-showing" },
+    { wrap: ".mg-price-table--all", meta: ".mg-all-showing" },
   ];
 
   function boot() {
