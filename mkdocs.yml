@@ -22,6 +22,7 @@ plugins:
   - search
   - redirects:
       redirect_maps:
+        price-list.md: blades.md
         getting-started/basic-questions.md: guide/essential-questions-before-buying.md
         getting-started/essential-questions-before-buying.md: guide/essential-questions-before-buying.md
         getting-started/blade-performance-metrics.md: guide/blade-performance-metrics.md

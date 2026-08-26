@@ -15,6 +15,8 @@ Latest store updates, gear reviews, and customer feedback. For ordering and ship
 
 | Date | Update |
 | --- | --- |
+| **2026-08-26** | Optimized blades & rubbers product display — in-stock grids, proxy-buy tables, compact cards, and mobile layout fixes. |
+| **2026-08-15** | **Removed:** online live chat — checkout on WhatsApp again. |
 | **2026-08-02** | **Added:** online live chat is live. No WhatsApp — chat with me on the site and order directly in the chat. |
 | **2026-07-28** | New site is officially live—please report any bugs. Proxy-buy prices updated; overall prices slightly lower. |
 | **2026-07-27** | **Added:** Vietnam shipping route available. Delivery about **7–15 days**. |

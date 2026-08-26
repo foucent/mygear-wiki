@@ -22,7 +22,7 @@ hide:
     <div class="mg-home-hero__inner">
       <p class="mg-home-hero__brand">MyGear.Top</p>
       <h1 class="mg-home-hero__title">Pre-owned</h1>
-      <p class="mg-home-hero__lead">This page currently lists only second-hand blades. Please carefully inspect the photos for any flaws before buying. For rackets with rubbers attached, please send a YouTube video link or photos for me to confirm first. Stock updates may be delayed — please contact me to confirm availability before purchasing.</p>
+      <p class="mg-home-hero__lead">This page mainly features premium or collectible pre-owned blades. For second-hand complete setups (with rubbers) or if you need me to source cost-effective used blades, please send a YouTube video link or photos for me to confirm first. Stock updates may be delayed — please contact me to confirm availability before purchasing.</p>
       <div class="mg-home-hero__actions">
         <a class="mg-home-hero__btn mg-home-hero__btn--primary" href="https://wa.me/8618627156285?text=Hello%2C%20I%27d%20like%20a%20quote%20for%20pre-owned%20table%20tennis%20blades.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A">WhatsApp quote</a>
         <a class="mg-home-hero__btn mg-home-hero__btn--ghost" href="/order/">How to Order</a>

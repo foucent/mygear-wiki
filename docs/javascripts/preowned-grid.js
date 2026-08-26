@@ -47,6 +47,63 @@
     );
   }
 
+  function appendShopPriceBlock(card, priceEl, img, tr) {
+    var aeUrl =
+      (img && img.getAttribute("data-aliexpress-url")) ||
+      tr.getAttribute("data-aliexpress-url") ||
+      "";
+    var aePriceRaw =
+      (img && img.getAttribute("data-aliexpress-price")) ||
+      tr.getAttribute("data-aliexpress-price") ||
+      "";
+    var aePrice = parsePrice(aePriceRaw);
+    var hasAe = aeUrl || aePrice >= 0;
+
+    if (!hasAe) {
+      card.appendChild(priceEl);
+      return;
+    }
+
+    var wrap = document.createElement("div");
+    wrap.className = "mg-preowned-card__prices";
+
+    var rowShop = document.createElement("div");
+    rowShop.className = "mg-preowned-card__price-row";
+    var shopLabel = document.createElement("span");
+    shopLabel.className = "mg-preowned-card__price-label";
+    shopLabel.textContent = "MyGear";
+    priceEl.classList.add("mg-preowned-card__price-value");
+    rowShop.appendChild(shopLabel);
+    rowShop.appendChild(priceEl);
+    wrap.appendChild(rowShop);
+
+    var rowAe = document.createElement("div");
+    rowAe.className =
+      "mg-preowned-card__price-row mg-preowned-card__price-row--ae";
+    var aeLabel = document.createElement("span");
+    aeLabel.className = "mg-preowned-card__price-label";
+    aeLabel.textContent = "AliExpress";
+    rowAe.appendChild(aeLabel);
+    if (aePrice >= 0) {
+      var aeVal = document.createElement("span");
+      aeVal.className =
+        "mg-preowned-card__price-value mg-preowned-card__ae-price";
+      aeVal.textContent = money(aePrice);
+      rowAe.appendChild(aeVal);
+    }
+    if (aeUrl) {
+      var aeLink = document.createElement("a");
+      aeLink.className = "mg-preowned-card__ae-link";
+      aeLink.href = aeUrl;
+      aeLink.target = "_blank";
+      aeLink.rel = "noopener noreferrer";
+      aeLink.textContent = "Buy";
+      rowAe.appendChild(aeLink);
+    }
+    wrap.appendChild(rowAe);
+    card.appendChild(wrap);
+  }
+
   function buildGrid() {
     var wrap = $(".mg-price-table--preowned");
     if (!wrap || wrap.dataset.mgGridReady === "1") return;
@@ -190,7 +247,9 @@
     wrap.dataset.mgGridReady = "1";
 
     var grid = document.createElement("div");
-    grid.className = "mg-preowned-grid mg-preowned-grid--shop";
+    grid.className =
+      "mg-preowned-grid mg-preowned-grid--shop" +
+      (opts.gridClass ? " " + opts.gridClass : "");
     grid.setAttribute("role", "list");
 
     var stock = 0;
@@ -296,7 +355,7 @@
         card.appendChild(optWrap);
       }
 
-      card.appendChild(priceEl);
+      appendShopPriceBlock(card, priceEl, img, tr);
       card.appendChild(btn);
       grid.appendChild(card);
     });
@@ -328,14 +387,16 @@
   function initShopGrids() {
     buildShopGrid({
       wrap: ".mg-price-table--rubbers",
-      meta: ".mg-rubbers-showing",
-      isStock: function (src) {
-        return pathHas(src, "/stock-rubbers/") || pathHas(src, "\\stock-rubbers\\");
+      gridClass: "mg-preowned-grid--rubbers",
+      // The in-stock table only holds own-inventory rubbers, so every card is stock.
+      isStock: function () {
+        return true;
       },
     });
     buildShopGrid({
       wrap: ".mg-price-table--blades",
       meta: ".mg-blades-showing",
+      gridClass: "mg-preowned-grid--blades",
       isStock: function (src) {
         return pathHas(src, "/stock-blades/") || pathHas(src, "\\stock-blades\\");
       },

@@ -22,7 +22,7 @@ hide:
     <div class="mg-home-hero__inner">
       <p class="mg-home-hero__brand">MyGear.Top</p>
       <h1 class="mg-home-hero__title">Table Tennis Rubbers</h1>
-      <p class="mg-home-hero__lead">Tap <strong>+</strong> to build a cart, then WhatsApp checkout for a final total (items + shipping).</p>
+      <p class="mg-home-hero__lead">Prices are in <strong>USD</strong> — tap <strong>+</strong> to build a cart, then WhatsApp checkout for your final total (items + shipping).</p>
       <div class="mg-home-hero__actions">
         <a class="mg-home-hero__btn mg-home-hero__btn--primary" href="https://wa.me/8618627156285?text=Hello%2C%20I%27d%20like%20a%20quote%20for%20table%20tennis%20rubbers.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A">WhatsApp quote</a>
         <a class="mg-home-hero__btn mg-home-hero__btn--ghost" href="/order/">How to Order</a>
@@ -30,18 +30,16 @@ hide:
     </div>
   </section>
 
-  <section class="mg-home-help">
-    <p class="mg-home-help__text"><strong>In stock</strong> rows ship from our own inventory. <strong>Proxy buy</strong> rows are models we can purchase for you from suppliers—please allow an extra <strong>2–3 days</strong> for inbound shipping before we send your order.</p>
-  </section>
-
 </div>
 
-## Rubber list <span class="mg-list-meta">USD prices · Updated 12 Aug 2026</span>
+## Popular Rubbers <span class="mg-list-badge mg-list-badge--stock">In stock</span>
 
-<p class="mg-rubbers-showing" markdown="0">Loading results…</p>
-<p class="mg-price-legend" markdown="0"><span class="mg-price-legend__stock">In stock</span><span class="mg-price-legend__blade">Proxy buy</span></p>
+<div class="admonition note mg-page-note mg-list-note">
+  <p class="admonition-title">In stock</p>
+  <p>These rubbers are in <strong>our own inventory</strong> and ship right away. Quantities are limited.</p>
+</div>
 
-<div class="mg-price-table mg-price-table--rubbers" markdown="1">
+<div class="mg-price-table mg-price-table--rubbers mg-price-table--nopager" markdown="1">
 
 | | Product | Price (USD) |
 | :---: | --- | ---: |
@@ -50,6 +48,7 @@ hide:
 | <img src="../images/stock-rubbers/butterfly-tenergy-05.jpg" alt="" data-options="2.1 red, 2.1 black"> | Butterfly Tenergy 05 | $68 |
 | <img src="../images/stock-rubbers/butterfly-rozena.jpg" alt="" data-options="2.1 red, 2.1 black"> | Butterfly ROZENA | $35 |
 | <img src="../images/stock-rubbers/butterfly-dignics-05.jpg" alt="" data-options="2.1 red, 2.1 black"> | Butterfly Dignics 05 | $68 |
+| <img src="../images/price-list/rubbers/glayzer-09c.jpg" alt="" data-options="2.1 red, 2.1 black"> | GLAYZER 09C | $47 |
 | <img src="../images/stock-rubbers/neo-h3-national-blue.jpg" alt="" data-options="2.1 40° black · hot, 2.1 39° black, 2.1 41° black, 2.1 42° black"> | Neo H3 National Blue | $50 |
 | <img src="../images/stock-rubbers/neo-hurricane-3-provincial-blue.jpg" alt="" data-options="2.1 39° black, 2.1 40° black, 2.1 41° black, 2.15 39° black, 2.15 40° black"> | NEO Hurricane 3 Provincial Blue | $38 |
 | <img src="../images/stock-rubbers/stiga-mantra-m.jpg" alt="" data-options="2.1 red · hot, 2.1 black"> | Stiga Mantra M | $30 |
@@ -57,8 +56,20 @@ hide:
 | <img src="../images/stock-rubbers/dhs-hurricane8-80.jpg" alt="" data-options="2.1 37° red, 2.1 38° red"> | DHS Hurricane8-80 | $25 |
 | <img src="../images/featured-rubbers/dhs-hurricane-3-neo-provincial-40orange-sponge.jpg" alt="" data-options="2.1 38° black, 2.1 39° black, 2.1 40° black, 2.1 41° black, 2.1 38° red, 2.1 39° red, 2.1 40° red, 2.15 39° black, 2.15 39° red, 2.15 40° black, 2.15 40° red, 2.1 37° soft red, 2.2 40° black, 2.2 39° red, 2.2 40° red"> | Neo Hurricane 3 Provincial Orange | $31 |
 | <img src="../images/featured-rubbers/hurricane-3-commercial.jpg" alt="" data-options="2.2 41° red, 2.2 40° red, 2.2 39° red, 2.2 41° black, 2.2 40° black, 2.2 39° black"> | Hurricane 3 (Commercial) | $18 |
-| <img src="../images/featured-rubbers/star-h3-national-malong.jpg" alt="" data-options="Ma Long FH 2.1 42, Ma Long BH 2.1 37, Wang YiDi FH 40, Wang YiDi BH 2.1 37, Chen Meng FH 2.1 40, Chen Meng BH H8 2.1 37, SUN YingSha FH 41, SUN YingSha BH 37.5, Wang ChuQin FH 41.5, Wang ChuQin BH 38, Liang JingKun FH 42, Liang JingKun BH 38"> | Hurricane 3 Star National | $71 |
-| <img src="../images/featured-rubbers/hurricane-3-national-blue-orange.jpg" alt="" data-options="2.2 39° black, 2.2 40° black, 2.2 41° black"> | Hurricane 3 National Blue Sponge | $45 |
+
+</div>
+
+## Rubber price table <span class="mg-list-badge mg-list-badge--proxy">Proxy buy</span> <span class="mg-list-meta">Updated 12 Aug 2026</span>
+
+<div class="admonition note mg-page-note mg-list-note mg-list-note--proxy">
+  <p class="admonition-title">Proxy buy</p>
+  <p>These models are mostly <strong>ordered from suppliers</strong> after you confirm, so please allow an extra <strong>2–3 days</strong> before we ship. Click a column header to sort.</p>
+</div>
+
+<div class="mg-price-table mg-price-table--all mg-price-table--nopager" markdown="1">
+
+| | Product | Price (USD) |
+| :---: | --- | ---: |
 | <img src="../images/price-list/rubbers/loki-rxton-ix-national.jpg" alt="" data-options="40.5° black · hot, 39° black"> | Loki RXTON IX National (Blue Sponge) | $18 |
 | <img src="../images/price-list/rubbers/friendship-729-battle-ii-national.jpg" alt="" data-options="38° red, 39° red, 40° red, 38° black, 39° black, 40° black"> | Friendship 729 Battle II National | $25 |
 | <img src="../images/price-list/rubbers/galaxy-moon-speed.jpg" alt="" data-options="Soft red, Soft black, Medium red, Medium black"> | Yinhe Moon Speed | $11 |
@@ -76,16 +87,17 @@ hide:
 | <img src="../images/price-list/rubbers/victas-spectol-s3.jpg" alt="" data-options="Max black, Max red"> | Victas Spectol S3 | $34 |
 | <img src="../images/price-list/rubbers/victas-v15-stiff.jpg" alt="" data-options="Max black, Max red"> | Victas V>15 Stiff | $38 |
 | <img src="../images/price-list/rubbers/flextra.jpg" alt="" data-options="1.9 red, 1.7 red, 1.7 black, 1.9 black"> | FLEXTRA | $25 |
-| <img src="../images/price-list/rubbers/glayzer-09c.jpg" alt="" data-options="2.1 red, 2.1 black"> | GLAYZER 09C | $47 |
 | <img src="../images/price-list/rubbers/tenergy-19.jpg" alt="" data-options="2.1 black, 2.1 red"> | Tenergy 19 | $63 |
+| <img src="../images/featured-rubbers/star-h3-national-malong.jpg" alt="" data-options="Ma Long FH 2.1 42, Ma Long BH 2.1 37, Wang YiDi FH 40, Wang YiDi BH 2.1 37, Chen Meng FH 2.1 40, Chen Meng BH H8 2.1 37, SUN YingSha FH 41, SUN YingSha BH 37.5, Wang ChuQin FH 41.5, Wang ChuQin BH 38, Liang JingKun FH 42, Liang JingKun BH 38"> | Hurricane 3 Star National | $71 |
+| <img src="../images/featured-rubbers/hurricane-3-national-blue-orange.jpg" alt="" data-options="2.2 39° black, 2.2 40° black, 2.2 41° black"> | Hurricane 3 National Blue Sponge | $45 |
 | <img src="../images/featured-rubbers/tibhar-evolution-mx-p.jpg" alt="" data-options="Max black, Max red, 1.9-2.0 black, 1.9-2.0 red"> | Tibhar Evolution MX-P | $39 |
 | <img src="../images/featured-rubbers/tibhar-k3.jpg" alt="" data-options="2.0 red, 2.0 black, Max black, Max red"> | Tibhar Hybrid K3 | $49 |
 | <img src="../images/featured-rubbers/xiom-vega-asia.jpg" alt="" data-options="2.0 red, 2.0 black, Max black, Max red"> | Xiom Vega Asia | $29 |
 | <img src="../images/featured-rubbers/xiom-vega-china.jpg" alt="" data-options="2.0 red, 2.0 black, Max black, Max red"> | XIOM Vega China | $30 |
 | <img src="../images/featured-rubbers/yasaka-rakza-7-soft.jpg" alt="" data-options="Max black, Max red"> | Yasaka Rakza 7 Soft | $39 |
 | <img src="../images/featured-rubbers/victas-v-15-extra.jpg" alt="" data-options="Max black, Max red, Max blue"> | Victas V > 15 Extra | $36 |
-| <img src="../images/featured-rubbers/donic-bluegrip-j1.jpg" alt="" data-options="Max black, Max red"> | Donic BlueGrip J1 | $33 |
-| <img src="../images/featured-rubbers/donic-bluegrip-j2.jpg" alt="" data-options="Max black, Max red"> | Donic BlueGrip J2 | $33 |
+| <img src="../images/featured-rubbers/donic-bluegrip-j1.jpg" alt="" data-options="Max black, Max red"> | Donic BlueGrip J1 | <del>$33</del> |
+| <img src="../images/featured-rubbers/donic-bluegrip-j2.jpg" alt="" data-options="Max black, Max red"> | Donic BlueGrip J2 | <del>$33</del> |
 | <img src="../images/featured-rubbers/nittaku-fastarc-g-1.jpg" alt="" data-options="2.0 black, 2.0 red, Max black, Max red"> | Nittaku Fastarc G-1 | $33 |
 | <img src="../images/featured-rubbers/tibhar-evolution-el-p.jpg" alt="" data-options="Max black, Max red, 1.9-2.0 black, 1.9-2.0 red"> | Tibhar Evolution EL-P | $36 |
 | <img src="../images/featured-rubbers/yasaka-psych-dragon-pro.jpg" alt="" data-options="Max medium-soft red, Max medium-soft black, Max medium-hard red, Max medium-hard black"> | Yasaka Psych Dragon Pro | $33 |

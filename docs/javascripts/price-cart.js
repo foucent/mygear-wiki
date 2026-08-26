@@ -243,7 +243,7 @@
             soldThumb.classList.add("mg-price-thumb-wrap");
             var tag = document.createElement("span");
             tag.className = "mg-price-sold-tag";
-            tag.textContent = "Sold";
+            tag.textContent = preowned ? "Sold" : "Sold out";
             soldThumb.appendChild(tag);
           }
           var empty = document.createElement("td");
@@ -265,6 +265,38 @@
         btn.innerHTML = "<span aria-hidden='true'>+</span>";
         td.appendChild(btn);
         tr.appendChild(td);
+
+        // Rubber specs (thickness / colour / hardness) — same option list as the shop grid.
+        var optsRaw =
+          (img && img.getAttribute("data-options")) ||
+          tr.getAttribute("data-options") ||
+          "";
+        var options = optsRaw
+          .split(",")
+          .map(function (s) {
+            return s.trim();
+          })
+          .filter(Boolean);
+        if (options.length) {
+          var sel = document.createElement("select");
+          sel.className = "mg-cart-row-options";
+          sel.setAttribute("aria-label", name + " option");
+          options.forEach(function (opt, i) {
+            var o = document.createElement("option");
+            o.value = opt;
+            o.textContent = opt;
+            if (i === 0) o.selected = true;
+            sel.appendChild(o);
+          });
+          function syncRowName() {
+            var full = cartName + " · " + sel.value;
+            btn.setAttribute("data-name", full);
+            btn.setAttribute("aria-label", "Add " + full + " to cart");
+          }
+          sel.addEventListener("change", syncRowName);
+          syncRowName();
+          cells[1].appendChild(sel);
+        }
       });
     });
   }
