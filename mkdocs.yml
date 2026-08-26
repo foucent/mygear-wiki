@@ -30,7 +30,6 @@ plugins:
         getting-started/accelerating-with-gear.md: guide/accelerating-with-gear.md
         getting-started/hurricane-3-boosting-method.md: guide/hurricane-3-multi-stage-boosting.md
         getting-started/hurricane-3-multi-stage-boosting.md: guide/hurricane-3-multi-stage-boosting.md
-        getting-started/rubber-lifespan.md: guide/rubber-lifespan.md
         advanced/rubber-thickness-and-hardness.md: guide/choosing-thickness-vs-hardness.md
         advanced/choosing-thickness-vs-hardness.md: guide/choosing-thickness-vs-hardness.md
         advanced/harimoto-szlc-vs-salc.md: guide/harimoto-szlc-vs-salc.md
@@ -141,8 +140,6 @@ extra_javascript:
 
 # Local `mkdocs serve` includes these; production `mkdocs build` / GitHub Pages omit them.
 draft_docs: |
-  guide/rubber-lifespan.md
-  images/rubber-lifespan/**
   shop/pricing-and-sourcing.backup.md
 
 # Hot-reload overrides/ (template notes, header tweaks). docs/ is watched by default.
@@ -192,7 +189,6 @@ nav:
       - Why Tenergy Before Dignics: guide/why-tenergy-before-dignics.md
       - Hurricane Blue vs Orange Sponge: guide/hurricane-blue-vs-orange-sponge.md
       - Rubber Thickness vs Hardness: guide/choosing-thickness-vs-hardness.md
-      - Rubber Lifespan: guide/rubber-lifespan.md
       - Boosting Truth: guide/boosting-truth.md
       - Table Tennis Kingdom Top 10 Shakehand Blades 2025: guide/tt-kingdom-top-10-blades-2025.md
       - Joola Hugo ARY-C Review: guide/joola-hugo-ary-c.md

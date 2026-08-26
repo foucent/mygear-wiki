@@ -132,15 +132,6 @@
       excerpt:
         "Two penhold blades compared — construction, player evaluation, and which one fits your game.",
     },
-    {
-      title: "Rubber Lifespan",
-      href: "/guide/rubber-lifespan/",
-      img: "/images/rubber-lifespan/01.jpg",
-      alt: "Rubber topsheet wear close-up",
-      cat: "Rubbers",
-      excerpt:
-        "Topsheet pilling and dying sponge spring are normal wear — here is when to keep a rubber and when to retire it.",
-    },
   ];
 
   var BATCH = 6;
