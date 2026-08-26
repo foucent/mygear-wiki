@@ -138,6 +138,7 @@ description: "Get brand-new table tennis blades, popular rubbers, and sports gea
 
   <noscript>
     <ul>
+      <li><a href="/guide/choosing-blade-structure/">How to Choose a Blade: All-Wood, Outer &amp; Inner Fiber</a></li>
       <li><a href="/guide/essential-questions-before-buying/">Essential Questions Before Buying</a></li>
       <li><a href="/guide/blade-performance-metrics/">Blade Performance Metrics</a></li>
       <li><a href="/guide/blade-feel-fundamentals/">Blade Feel Fundamentals</a></li>
