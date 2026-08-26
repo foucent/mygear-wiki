@@ -2410,24 +2410,6 @@ body.mg-cart-open {
   border: 1px solid rgba(15, 118, 110, 0.14);
 }
 
-/* warning variant for homepage notice */
-.mg-home-help--warn {
-  background: linear-gradient(180deg, #fff8e1, #ffefc2);
-  border: 1px solid rgba(217, 119, 6, 0.45);
-}
-
-.mg-home-help--warn .mg-home-help__text {
-  color: #78350f !important;
-}
-
-.mg-home-help__text {
-  margin: 0 0 0.55rem !important;
-  color: #134e4a !important;
-  font-size: 0.78rem !important;
-  font-weight: 500 !important;
-  line-height: 1.4 !important;
-}
-
 .mg-home-help__links {
   display: flex;
   flex-wrap: wrap;
@@ -2591,10 +2573,6 @@ body.mg-cart-open {
     margin-top: 0.15rem;
     margin-bottom: 0.25rem;
     padding: 0.9rem 0.95rem;
-  }
-
-  .mg-home-help__text {
-    font-size: 0.76rem !important;
   }
 
   .mg-home-help__links {
@@ -2867,8 +2845,8 @@ html.md-no-js .md-typeset .mg-bio__toggle {
 /* Equipment Gallery — brand card grid (tt11-style) */
 .md-typeset .mg-brand-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 0.75rem;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 0.4rem;
   margin: 1rem 0 1.5rem;
 }
 
@@ -2877,11 +2855,11 @@ html.md-no-js .md-typeset .mg-bio__toggle {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.4rem;
-  min-height: 6rem;
-  padding: 0.75rem 0.5rem;
+  gap: 0.2rem;
+  min-height: 2.3rem;
+  padding: 0.3rem 0.25rem;
   border: 1px solid rgba(15, 118, 110, 0.18);
-  border-radius: 0.5rem;
+  border-radius: 0.4rem;
   background: #ffffff;
   text-decoration: none;
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
@@ -2896,7 +2874,7 @@ html.md-no-js .md-typeset .mg-bio__toggle {
 .md-typeset .mg-brand-image {
   display: block;
   max-width: 90%;
-  max-height: 2.6rem;
+  max-height: 1.05rem;
   width: auto;
   height: auto;
   object-fit: contain;
@@ -2906,21 +2884,21 @@ html.md-no-js .md-typeset .mg-bio__toggle {
 .md-typeset .mg-brand-name {
   display: block;
   color: #0f172a;
-  font-size: 0.8rem;
-  font-weight: 650;
-  line-height: 1.2;
+  font-size: 0.56rem;
+  font-weight: 600;
+  line-height: 1.15;
   text-align: center;
 }
 
 @media (max-width: 600px) {
   .md-typeset .mg-brand-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 0.5rem;
+    gap: 0.35rem;
   }
 
   .md-typeset .mg-brand-item {
-    min-height: 5rem;
-    padding: 0.5rem 0.3rem;
+    min-height: 2rem;
+    padding: 0.25rem 0.2rem;
   }
 }
 
@@ -3060,4 +3038,116 @@ html.md-no-js .md-typeset .mg-bio__toggle {
 }
 .md-typeset .mg-price-table th.mg-sortable .mg-sort-ind:last-child:not(:first-child) {
   margin-right: 0.1rem;
+}
+
+/* ---------------------------------------------------------------------------
+   Uncrate-style guide cards (homepage "Guides worth reading")
+   Layout mimics uncrate.com: thumbnail image, small uppercase category with a
+   gold rule, big uppercase title, serif excerpt, "Read More" link — 2-col grid.
+--------------------------------------------------------------------------- */
+.md-typeset .mg-guides {
+  margin: 0.2rem 0 0.5rem;
+}
+.md-typeset .mg-guides__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2.2rem 1.6rem;
+  align-items: start;
+  margin: 0;
+}
+.md-typeset .mg-guide-card {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.md-typeset .mg-guide-card__media {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  background: #eef0f2;
+}
+.md-typeset .mg-guide-card__media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease, opacity 0.3s ease;
+}
+.md-typeset .mg-guide-card:hover .mg-guide-card__media img,
+.md-typeset .mg-guide-card:focus .mg-guide-card__media img {
+  transform: scale(1.03);
+  opacity: 0.92;
+}
+.md-typeset .mg-guide-card__body {
+  padding-top: 0.85rem;
+}
+.md-typeset .mg-guide-card__cat {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ae9e85;
+  border-bottom: 1px solid #ae9e85;
+  padding-bottom: 0.22rem;
+  margin-bottom: 0.7rem;
+}
+.md-typeset .mg-guide-card__title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.35rem;
+  font-weight: 400;
+  line-height: 1.08;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #111;
+}
+.md-typeset .mg-guide-card:hover .mg-guide-card__title,
+.md-typeset .mg-guide-card:focus .mg-guide-card__title {
+  color: #000;
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+  text-decoration-thickness: 1px;
+}
+.md-typeset .mg-guide-card__excerpt {
+  margin-top: 0.55rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.78rem;
+  line-height: 1.55;
+  color: #5f6368;
+}
+.md-typeset .mg-guide-card__link {
+  display: inline-block;
+  margin-top: 0.65rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ae9e85;
+  border-bottom: 1px solid transparent;
+}
+.md-typeset .mg-guide-card:hover .mg-guide-card__link,
+.md-typeset .mg-guide-card:focus .mg-guide-card__link {
+  border-bottom-color: #ae9e85;
+}
+@media (max-width: 759.98px) {
+  .md-typeset .mg-guides__grid {
+    grid-template-columns: 1fr;
+    gap: 1.6rem;
+  }
+}
+
+.md-typeset .mg-guides__sentinel {
+  height: 1px;
+  pointer-events: none;
+}
+.md-typeset .mg-guides__status {
+  margin: 1.1rem 0 0.2rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #94a3b8;
+  text-align: center;
 }

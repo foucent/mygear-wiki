@@ -137,6 +137,7 @@ extra_javascript:
   - javascripts/bio-toggle.js
   - javascripts/price-cart.js
   - javascripts/price-pager.js
+  - javascripts/guide-grid.js
 
 # Local `mkdocs serve` includes these; production `mkdocs build` / GitHub Pages omit them.
 draft_docs: |
@@ -191,6 +192,7 @@ nav:
       - Why Tenergy Before Dignics: guide/why-tenergy-before-dignics.md
       - Hurricane Blue vs Orange Sponge: guide/hurricane-blue-vs-orange-sponge.md
       - Rubber Thickness vs Hardness: guide/choosing-thickness-vs-hardness.md
+      - Rubber Lifespan: guide/rubber-lifespan.md
       - Boosting Truth: guide/boosting-truth.md
       - Table Tennis Kingdom Top 10 Shakehand Blades 2025: guide/tt-kingdom-top-10-blades-2025.md
       - Joola Hugo ARY-C Review: guide/joola-hugo-ary-c.md

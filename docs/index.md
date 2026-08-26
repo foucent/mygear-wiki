@@ -53,15 +53,14 @@ description: "Get brand-new table tennis blades, popular rubbers, and sports gea
     </div>
   </section>
 
-  <section class="mg-home-help mg-home-help--warn">
-    <p class="mg-home-help__text">I'm dedicated to providing table tennis players and enthusiasts around the world with quality, affordable equipment sourced from the China market. Due to transaction costs and compliance reasons, we currently don't support online payment or PayPal. Thank you for your understanding and support!</p>
-  </section>
+  <div class="admonition note mg-page-note mg-list-note mg-list-note--proxy">
+    <p class="admonition-title">No online payment</p>
+    <p>I'm dedicated to providing table tennis players and enthusiasts around the world with quality, affordable equipment sourced from the China market. Due to transaction costs and compliance reasons, we currently don't support online payment or PayPal. Thank you for your understanding and support!</p>
+  </div>
 
 </div>
 
 ## Brands
-
-Photo galleries by brand — real blade shots for Butterfly, DHS, Viscaria-family models, and more.
 
 <div class="mg-brand-grid" markdown="0">
 
@@ -129,10 +128,34 @@ Photo galleries by brand — real blade shots for Butterfly, DHS, Viscaria-famil
 
 ## Guides worth reading
 
-- [Essential Questions Before Buying](guide/essential-questions-before-buying.md)
-- [Blade Performance Metrics](guide/blade-performance-metrics.md)
-- [Outer vs Inner Fiber](guide/outer-vs-inner-fiber.md)
-- [Hurricane 3 Multi-Stage Boosting](guide/hurricane-3-multi-stage-boosting.md)
-- [Boosting Truth](guide/boosting-truth.md)
+<div class="mg-guides" markdown="0">
+
+  <div class="mg-guides__grid" id="mg-guides-grid"></div>
+
+  <div class="mg-guides__sentinel" aria-hidden="true"></div>
+
+  <p class="mg-guides__status" role="status" aria-live="polite">Loading guides…</p>
+
+  <noscript>
+    <ul>
+      <li><a href="/guide/essential-questions-before-buying/">Essential Questions Before Buying</a></li>
+      <li><a href="/guide/blade-performance-metrics/">Blade Performance Metrics</a></li>
+      <li><a href="/guide/blade-feel-fundamentals/">Blade Feel Fundamentals</a></li>
+      <li><a href="/guide/accelerating-with-gear/">Accelerating With Gear</a></li>
+      <li><a href="/guide/hurricane-3-multi-stage-boosting/">Hurricane 3 Multi-Stage Boosting</a></li>
+      <li><a href="/guide/harimoto-szlc-vs-salc/">Harimoto SZLC vs SALC</a></li>
+      <li><a href="/guide/outer-vs-inner-fiber/">Outer vs Inner Fiber</a></li>
+      <li><a href="/guide/why-tenergy-before-dignics/">Why Tenergy Before Dignics</a></li>
+      <li><a href="/guide/hurricane-blue-vs-orange-sponge/">Hurricane Blue vs Orange Sponge</a></li>
+      <li><a href="/guide/choosing-thickness-vs-hardness/">Rubber Thickness vs Hardness</a></li>
+      <li><a href="/guide/boosting-truth/">Boosting Truth</a></li>
+      <li><a href="/guide/tt-kingdom-top-10-blades-2025/">Table Tennis Kingdom Top 10 Shakehand Blades 2025</a></li>
+      <li><a href="/guide/joola-hugo-ary-c/">Joola Hugo ARY-C Review</a></li>
+      <li><a href="/guide/xu-xin-blue-label-vs-tibhar-felix/">Xu Xin Blue Label vs Tibhar Felix</a></li>
+      <li><a href="/guide/rubber-lifespan/">Rubber Lifespan</a></li>
+    </ul>
+  </noscript>
+
+</div>
 
 
