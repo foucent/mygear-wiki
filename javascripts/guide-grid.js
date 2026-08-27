@@ -7,6 +7,15 @@
 (function () {
   var MG_GUIDES = [
     {
+      title: "How to Choose a Blade: All-Wood, Outer & Inner Fiber",
+      href: "/guide/choosing-blade-structure/",
+      img: "/images/choosing-blade-structure/01.png",
+      alt: "All-wood, outer fiber and inner fiber blade structures",
+      cat: "Construction",
+      excerpt:
+        "Where the fiber sits — above or below the strength ply, or nowhere at all — decides feel, speed, dwell, and who each structure suits.",
+    },
+    {
       title: "Essential Questions Before Buying",
       href: "/guide/essential-questions-before-buying/",
       img: "/images/blade-basics/01.jpg",
