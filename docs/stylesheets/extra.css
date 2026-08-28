@@ -2018,6 +2018,23 @@ body.mg-cart-open {
   background: #d97706;
 }
 
+.mg-preowned-card__new {
+  position: absolute;
+  top: 0.4rem;
+  left: 0.4rem;
+  z-index: 2;
+  padding: 0.22rem 0.5rem;
+  border-radius: 0.25rem;
+  background: #e11d48;
+  color: #fff;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  line-height: 1.2;
+  pointer-events: none;
+  box-shadow: 0 1px 6px rgba(225, 29, 72, 0.35);
+}
+
 .mg-preowned-card__opts {
   display: flex;
   flex-direction: column;
