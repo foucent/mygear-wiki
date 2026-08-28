@@ -104,6 +104,26 @@
     card.appendChild(wrap);
   }
 
+  function daysSinceAdded(addedStr) {
+    if (!addedStr) return null;
+    var parts = String(addedStr).split("-");
+    if (parts.length !== 3) return null;
+    var added = new Date(
+      parseInt(parts[0], 10),
+      parseInt(parts[1], 10) - 1,
+      parseInt(parts[2], 10)
+    );
+    if (isNaN(added.getTime())) return null;
+    return Math.floor((Date.now() - added.getTime()) / 86400000);
+  }
+
+  function nameCompare(a, b) {
+    return String(a).localeCompare(String(b), undefined, {
+      numeric: true,
+      sensitivity: "base",
+    });
+  }
+
   function buildGrid() {
     var wrap = $(".mg-price-table--preowned");
     if (!wrap || wrap.dataset.mgGridReady === "1") return;
@@ -117,7 +137,8 @@
 
     var available = 0;
     var total = 0;
-    var stockCards = [];
+    var newItems = [];
+    var oldItems = [];
     var soldCards = [];
 
     $all("tbody tr", table).forEach(function (tr) {
@@ -129,6 +150,8 @@
       var sold = !!priceCell.querySelector("del");
       var price = parsePrice(priceCell.textContent);
       if (!name || !(price >= 0)) return;
+      var daysAdded = daysSinceAdded(tr.getAttribute("data-added"));
+      var isNew = daysAdded !== null && daysAdded < 3;
 
       total += 1;
       if (!sold) available += 1;
@@ -152,6 +175,12 @@
         oos.className = "mg-preowned-card__oos";
         oos.textContent = "OUT OF STOCK";
         media.appendChild(oos);
+      }
+      if (isNew) {
+        var newBadge = document.createElement("span");
+        newBadge.className = "mg-preowned-card__new";
+        newBadge.textContent = "NEW";
+        media.appendChild(newBadge);
       }
 
       var title = document.createElement("h3");
@@ -198,14 +227,28 @@
       card.appendChild(priceEl);
       card.appendChild(cta);
       if (sold) soldCards.push(card);
-      else stockCards.push(card);
+      else if (isNew)
+        newItems.push({ card: card, name: name, days: daysAdded });
+      else oldItems.push({ card: card, name: name });
     });
 
-    stockCards.forEach(function (card) {
-      grid.appendChild(card);
+    newItems.sort(function (a, b) {
+      if (a.days !== b.days) return a.days - b.days;
+      return nameCompare(a.name, b.name);
+    });
+    oldItems.sort(function (a, b) {
+      return nameCompare(a.name, b.name);
+    });
+
+    var allCards = [];
+    newItems.forEach(function (item) {
+      allCards.push(item.card);
+    });
+    oldItems.forEach(function (item) {
+      allCards.push(item.card);
     });
     soldCards.forEach(function (card) {
-      grid.appendChild(card);
+      allCards.push(card);
     });
 
     wrap.appendChild(grid);
@@ -217,6 +260,45 @@
       tableShell.remove();
     } else {
       table.remove();
+    }
+
+    // Lazy-load: cards stay in the DOM (so the lightbox can bind to every
+    // image), hidden beyond the first batch, then revealed as the user
+    // scrolls toward a sentinel — until all items have been shown.
+    var BATCH = 24;
+    var visible = 0;
+    var observer = null;
+    var sentinel = document.createElement("div");
+    sentinel.className = "mg-preowned-sentinel";
+
+    function revealUpTo(n) {
+      n = Math.min(n, allCards.length);
+      for (var i = visible; i < n; i++) allCards[i].hidden = false;
+      visible = n;
+      if (visible >= allCards.length) {
+        sentinel.hidden = true;
+        if (observer) observer.disconnect();
+      }
+    }
+
+    allCards.forEach(function (card) {
+      card.hidden = true;
+      grid.appendChild(card);
+    });
+    grid.appendChild(sentinel);
+
+    if (allCards.length <= BATCH) {
+      revealUpTo(allCards.length);
+    } else {
+      revealUpTo(BATCH);
+      observer = new IntersectionObserver(
+        function (entries) {
+          if (!entries.some(function (e) { return e.isIntersecting; })) return;
+          revealUpTo(visible + BATCH);
+        },
+        { rootMargin: "400px 0px" }
+      );
+      observer.observe(sentinel);
     }
 
     var countEl = $(".mg-preowned-count");
