@@ -56,6 +56,7 @@ hide:
 | <img src="../images/stock-rubbers/dhs-hurricane8-80.jpg" alt="" data-options="2.1 37° red, 2.1 38° red"> | DHS Hurricane8-80 | $25 |
 | <img src="../images/featured-rubbers/dhs-hurricane-3-neo-provincial-40orange-sponge.jpg" alt="" data-options="2.1 38° black, 2.1 39° black, 2.1 40° black, 2.1 41° black, 2.1 38° red, 2.1 39° red, 2.1 40° red, 2.15 39° black, 2.15 39° red, 2.15 40° black, 2.15 40° red, 2.1 37° soft red, 2.2 40° black, 2.2 39° red, 2.2 40° red"> | Neo Hurricane 3 Provincial Orange | $31 |
 | <img src="../images/featured-rubbers/hurricane-3-commercial.jpg" alt="" data-options="2.2 41° red, 2.2 40° red, 2.2 39° red, 2.2 41° black, 2.2 40° black, 2.2 39° black"> | Hurricane 3 (Commercial) | $18 |
+| <img src="../images/featured-rubbers/donic-desto-f1/01.jpg" alt="" data-options="2.0 red, Max red, Max blue, 2.0 black, Max black, 2.0 blue" data-gallery="/images/featured-rubbers/donic-desto-f1/01.jpg,/images/featured-rubbers/donic-desto-f1/02.jpg"> | DONIC Desto F1 | $27 |
 
 </div>
 
