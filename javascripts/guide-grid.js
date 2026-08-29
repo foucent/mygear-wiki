@@ -7,6 +7,15 @@
 (function () {
   var MG_GUIDES = [
     {
+      title: "Tibhar Darko Jorgic Infinity Carbon Review",
+      href: "/guide/tibhar-darko-jorgic-infinity-carbon/",
+      img: "/images/tibhar-darko-jorgic-infinity-carbon/blade_overall_1.jpg",
+      alt: "Tibhar Darko Jorgic Infinity Carbon blade",
+      cat: "Review",
+      excerpt:
+        "An inner/outer aramid-carbon hybrid — the forehand feels like one blade, the backhand like another. Jorgic's and Li Hechen's blade, under review.",
+    },
+    {
       title: "How to Choose a Blade: All-Wood, Outer & Inner Fiber",
       href: "/guide/choosing-blade-structure/",
       img: "/images/choosing-blade-structure/01.png",
