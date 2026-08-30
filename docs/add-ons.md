@@ -24,7 +24,7 @@ hide:
       <h1 class="mg-home-hero__title">Add-ons</h1>
       <p class="mg-home-hero__lead">Tap <strong>+</strong> to build a cart, then WhatsApp checkout for a final total (items + shipping).</p>
       <div class="mg-home-hero__actions">
-        <a class="mg-home-hero__btn mg-home-hero__btn--primary" href="https://wa.me/8618627156285?text=Hello%2C%20I%27d%20like%20a%20quote%20for%20table%20tennis%20add-ons.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A">WhatsApp quote</a>
+        <a class="mg-home-hero__btn mg-home-hero__btn--primary" href="https://wa.me/8618627156285?text=Hello%2C%20I%27d%20like%20a%20quote%20for%20table%20tennis%20add-ons.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A">Help me proxy-buy gear</a>
         <a class="mg-home-hero__btn mg-home-hero__btn--ghost" href="/order/">How to Order</a>
       </div>
     </div>
