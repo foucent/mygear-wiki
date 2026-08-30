@@ -50,11 +50,11 @@ hide:
 | <img src="../images/stock-rubbers/butterfly-dignics-05.jpg" alt="" data-options="2.1 red, 2.1 black"> | Butterfly Dignics 05 | $68 |
 | <img src="../images/price-list/rubbers/glayzer-09c.jpg" alt="" data-options="2.1 red, 2.1 black"> | GLAYZER 09C | $47 |
 | <img src="../images/stock-rubbers/neo-h3-national-blue.jpg" alt="" data-options="2.1 40° black · hot, 2.1 39° black, 2.1 41° black, 2.1 42° black"> | Neo H3 National Blue | $50 |
-| <img src="../images/stock-rubbers/neo-hurricane-3-provincial-blue.jpg" alt="" data-options="2.1 39° black, 2.1 40° black, 2.1 41° black, 2.15 39° black, 2.15 40° black"> | NEO Hurricane 3 Provincial Blue | $38 |
+| <img src="../images/stock-rubbers/neo-hurricane-3-provincial-blue.jpg" alt="" data-options="2.1 39° black, 2.1 40° black, 2.1 41° black, 2.15 39° black, 2.15 40° black"> | NEO Hurricane 3 Provincial Blue | $36 |
 | <img src="../images/stock-rubbers/stiga-mantra-m.jpg" alt="" data-options="2.1 red · hot, 2.1 black"> | Stiga Mantra M | $30 |
 | <img src="../images/stock-rubbers/neo-hurricane-3.jpg" alt="" data-options="39° black · hot, 40° black, 40° red, 39° red"> | Neo Hurricane 3 | $23 |
 | <img src="../images/stock-rubbers/dhs-hurricane8-80.jpg" alt="" data-options="2.1 37° red, 2.1 38° red"> | DHS Hurricane8-80 | $25 |
-| <img src="../images/featured-rubbers/dhs-hurricane-3-neo-provincial-40orange-sponge.jpg" alt="" data-options="2.1 38° black, 2.1 39° black, 2.1 40° black, 2.1 41° black, 2.1 38° red, 2.1 39° red, 2.1 40° red, 2.15 39° black, 2.15 39° red, 2.15 40° black, 2.15 40° red, 2.1 37° soft red, 2.2 40° black, 2.2 39° red, 2.2 40° red"> | Neo Hurricane 3 Provincial Orange | $31 |
+| <img src="../images/featured-rubbers/dhs-hurricane-3-neo-provincial-40orange-sponge.jpg" alt="" data-options="2.1 38° black, 2.1 39° black, 2.1 40° black, 2.1 41° black, 2.1 38° red, 2.1 39° red, 2.1 40° red, 2.15 39° black, 2.15 39° red, 2.15 40° black, 2.15 40° red, 2.1 37° soft red, 2.2 40° black, 2.2 39° red, 2.2 40° red"> | Neo Hurricane 3 Provincial Orange | $30 |
 | <img src="../images/featured-rubbers/hurricane-3-commercial.jpg" alt="" data-options="2.2 41° red, 2.2 40° red, 2.2 39° red, 2.2 41° black, 2.2 40° black, 2.2 39° black"> | Hurricane 3 (Commercial) | $18 |
 | <img src="../images/featured-rubbers/donic-desto-f1/01.jpg" alt="" data-options="2.0 red, Max red, Max blue, 2.0 black, Max black, 2.0 blue" data-gallery="/images/featured-rubbers/donic-desto-f1/01.jpg,/images/featured-rubbers/donic-desto-f1/02.jpg"> | DONIC Desto F1 | $27 |
 

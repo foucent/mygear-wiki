@@ -71,8 +71,8 @@ Prices move with supply and FX. Tap **+** to build a cart, then checkout on What
 | ![ ](../images/featured-rubbers/neo-h3-national-blue.jpg) | Neo H3 National Blue | $52 |
 | ![ ](../images/featured-rubbers/star-h3-national-malong.jpg) | Star H3 National \| Malong | $73 |
 | ![ ](../images/featured-rubbers/neo-h3-national-orange.jpg) | Neo H3 National Orange | $50 |
-| ![ ](../images/featured-rubbers/neo-hurricane-3-provincial-blue.jpg) | NEO Hurricane 3 Provincial Blue | $38 |
-| ![ ](../images/featured-rubbers/dhs-hurricane-3-neo-provincial-40orange-sponge.jpg) | Neo Hurricane 3 Provincial Orange | $31 |
+| ![ ](../images/featured-rubbers/neo-hurricane-3-provincial-blue.jpg) | NEO Hurricane 3 Provincial Blue | $36 |
+| ![ ](../images/featured-rubbers/dhs-hurricane-3-neo-provincial-40orange-sponge.jpg) | Neo Hurricane 3 Provincial Orange | $30 |
 | ![ ](../images/featured-rubbers/dhs-hurricane8-80.jpg) | DHS Hurricane8-80 | $25 |
 | ![ ](../images/featured-rubbers/hurricane-3-commercial.jpg) | Hurricane 3 (Commercial) | $18 |
 | ![ ](../images/featured-rubbers/hurricane-3-national-blue-orange.jpg) | Hurricane 3 National Blue Sponge | $45 |
