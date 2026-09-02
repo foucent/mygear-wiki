@@ -60,6 +60,53 @@ description: "Get brand-new table tennis blades, popular rubbers, and sports gea
 
 </div>
 
+<section class="mg-home-hot" aria-label="Hot gear" markdown="0">
+  <h2 class="mg-home-hot__title">Hot Gear</h2>
+  <div class="mg-hot-grid" markdown="0">
+
+    <a class="mg-hot-card" href="/gear/fan-zhendong-alc/">
+      <img class="mg-hot-card__img" src="/images/price-list/blades/fan-zhendong-alc.thumb.webp" alt="Butterfly Fan Zhendong ALC" width="600" height="600" loading="lazy" decoding="async">
+      <span class="mg-hot-card__name">Fan Zhendong ALC</span>
+    </a>
+
+    <a class="mg-hot-card" href="/gear/zhang-jike-alc/">
+      <img class="mg-hot-card__img" src="/images/price-list/blades/zhang-jike-alc.thumb.webp" alt="Butterfly Zhang Jike ALC" width="600" height="600" loading="lazy" decoding="async">
+      <span class="mg-hot-card__name">Zhang Jike ALC</span>
+    </a>
+
+    <a class="mg-hot-card" href="/gear/ovtcharov-innerforce-alc/">
+      <img class="mg-hot-card__img" src="/images/price-list/blades/ovtcharov-innerforce-alc.thumb.webp" alt="Butterfly Ovtcharov Innerforce ALC" width="600" height="600" loading="lazy" decoding="async">
+      <span class="mg-hot-card__name">Ovtcharov Innerforce ALC</span>
+    </a>
+
+    <a class="mg-hot-card" href="/gear/viscaria/">
+      <img class="mg-hot-card__img" src="/images/price-list/blades/viscaria.thumb.webp" alt="Butterfly Viscaria" width="600" height="600" loading="lazy" decoding="async">
+      <span class="mg-hot-card__name">Viscaria</span>
+    </a>
+
+    <a class="mg-hot-card" href="/gear/timo-boll-alc/">
+      <img class="mg-hot-card__img" src="/images/price-list/blades/timo-boll-alc.thumb.webp" alt="Butterfly Timo Boll ALC" width="600" height="600" loading="lazy" decoding="async">
+      <span class="mg-hot-card__name">Timo Boll ALC</span>
+    </a>
+
+    <a class="mg-hot-card" href="/gear/harimoto-innerforce-alc/">
+      <img class="mg-hot-card__img" src="/images/price-list/blades/harimoto-innerforce-alc.thumb.webp" alt="Butterfly Harimoto Innerforce ALC" width="600" height="600" loading="lazy" decoding="async">
+      <span class="mg-hot-card__name">Harimoto Innerforce ALC</span>
+    </a>
+
+    <a class="mg-hot-card" href="/gear/dhs-hurricane-long-5/">
+      <img class="mg-hot-card__img" src="/images/price-list/blades/dhs-hurricane-long-5.thumb.webp" alt="DHS Hurricane Long 5" width="720" height="514" loading="lazy" decoding="async">
+      <span class="mg-hot-card__name">Hurricane Long 5</span>
+    </a>
+
+    <a class="mg-hot-card" href="/gear/victas-koki-niwa/">
+      <img class="mg-hot-card__img" src="/images/price-list/blades/victas-koki-niwa.thumb.webp" alt="Victas Koki Niwa" width="700" height="700" loading="lazy" decoding="async">
+      <span class="mg-hot-card__name">Victas Koki Niwa</span>
+    </a>
+
+  </div>
+</section>
+
 ## Brands
 
 <div class="mg-brand-grid" markdown="0">

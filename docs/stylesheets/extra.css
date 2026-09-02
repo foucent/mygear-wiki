@@ -2859,6 +2859,265 @@ html.md-no-js .md-typeset .mg-bio__toggle {
   }
 }
 
+/* Home: Hot Gear — featured blade cards */
+.md-typeset .mg-home-hot {
+  margin: 0 0 1.6rem;
+}
+
+.md-typeset .mg-home-hot__title {
+  margin: 0 0 0.55rem !important;
+  padding: 0 0 0.4rem !important;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(15, 118, 110, 0.16) !important;
+  color: var(--mg-ink) !important;
+  font-size: 1.05rem !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.01em;
+  position: relative;
+}
+
+.md-typeset .mg-home-hot__title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 3rem;
+  height: 2px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, #0f766e 0%, #f97316 100%);
+}
+
+.md-typeset .mg-hot-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+.md-typeset .mg-hot-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.35rem 0.35rem 0.45rem;
+  border: 1px solid rgba(15, 118, 110, 0.14);
+  border-radius: 0.5rem;
+  background: #ffffff;
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.md-typeset .mg-hot-card:hover {
+  border-color: rgba(15, 118, 110, 0.4);
+  box-shadow: 0 6px 16px rgba(15, 118, 110, 0.12);
+  transform: translateY(-2px);
+  text-decoration: none !important;
+}
+
+.md-typeset .mg-hot-card__img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 0.35rem;
+  margin: 0 0 0.3rem !important;
+  background: #e2e8f0;
+}
+
+.md-typeset .mg-hot-card__name {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 2.5em;
+  color: var(--mg-ink) !important;
+  font-size: 0.7rem;
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+
+@media (max-width: 1099.98px) {
+  .md-typeset .mg-hot-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 759.98px) {
+  .md-typeset .mg-hot-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.45rem;
+  }
+
+  .md-typeset .mg-hot-card__name {
+    font-size: 0.62rem;
+    min-height: 2.6em;
+  }
+}
+
+/* Product detail pages — image gallery + facts column */
+.md-typeset .mg-prod {
+  display: grid;
+  grid-template-columns: minmax(0, 20rem) 1fr;
+  gap: 1.4rem 1.6rem;
+  align-items: start;
+  margin: 0.75rem 0 1.6rem;
+}
+
+.md-typeset .mg-gallery--prod {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.4rem;
+  margin: 0;
+}
+
+.md-typeset .mg-gallery--prod > a:first-child {
+  grid-column: 1 / -1;
+  aspect-ratio: auto;
+  cursor: zoom-in;
+}
+
+.md-typeset .mg-gallery--prod > a:first-child img {
+  height: auto;
+  object-fit: contain;
+  background: #f1f5f9;
+}
+
+.md-typeset .mg-prod-brand {
+  margin: 0 0 0.4rem !important;
+  color: #0f766e;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.md-typeset .mg-prod-price {
+  margin: 0 0 0.3rem !important;
+  color: var(--mg-ink);
+  font-size: 1.3rem;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.md-typeset .mg-prod-price .mg-list-badge {
+  vertical-align: 0.3em;
+  margin-left: 0.3rem;
+}
+
+.md-typeset .mg-prod-lead {
+  margin: 0 0 0.7rem !important;
+  color: var(--mg-ink);
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.md-typeset .mg-prod-specs {
+  margin: 0 0 0.9rem;
+  padding: 0.7rem 0.9rem;
+  background: rgba(15, 118, 110, 0.06);
+  border: 1px solid rgba(15, 118, 110, 0.12);
+  border-radius: 0.5rem;
+}
+
+.md-typeset .mg-prod-specs li {
+  margin: 0;
+  color: var(--mg-ink-muted);
+  font-size: 0.78rem;
+  line-height: 1.7;
+}
+
+.md-typeset .mg-prod-specs li strong {
+  color: var(--mg-ink);
+}
+
+.md-typeset .mg-prod-cta .mg-home-hero__btn {
+  margin: 0 0 0.5rem;
+}
+
+.md-typeset .mg-prod-back {
+  margin: 0 !important;
+  color: var(--mg-ink-muted);
+  font-size: 0.72rem;
+}
+
+/* Product user ratings — community radar (takkyu-navi style) */
+.md-typeset .mg-prod-radar {
+  margin: 0 0 0.9rem;
+  padding: 0.65rem 0.8rem 0.7rem;
+  background: #ffffff;
+  border: 1px solid rgba(15, 118, 110, 0.18);
+  border-radius: 0.5rem;
+}
+
+.md-typeset .mg-radar-title {
+  margin: 0 0 0.5rem !important;
+  color: #0f766e;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.md-typeset .mg-radar {
+  display: block;
+  width: 100%;
+  max-width: 15rem;
+  height: auto;
+  margin: 0 auto;
+}
+
+.md-typeset .mg-radar__ring {
+  fill: none;
+  stroke: #e2e8f0;
+  stroke-width: 1;
+}
+
+.md-typeset .mg-radar__ring--outer {
+  stroke: #cbd5e1;
+}
+
+.md-typeset .mg-radar__spoke {
+  stroke: #e2e8f0;
+  stroke-width: 1;
+}
+
+.md-typeset .mg-radar__area {
+  fill: rgba(20, 184, 166, 0.4);
+  stroke: #0f766e;
+  stroke-width: 2;
+}
+
+.md-typeset .mg-radar__axis {
+  fill: var(--mg-ink-muted);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.md-typeset .mg-radar__value {
+  fill: #0f766e;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.md-typeset .mg-src-note {
+  margin: 1rem 0 0 !important;
+  padding-top: 0.55rem;
+  border-top: 1px solid rgba(15, 118, 110, 0.14);
+  color: var(--mg-ink-muted);
+  font-size: 0.68rem;
+  line-height: 1.5;
+}
+
+.md-typeset .mg-src-note a {
+  color: #0f766e;
+}
+
+@media (max-width: 900px) {
+  .md-typeset .mg-prod {
+    grid-template-columns: 1fr;
+    gap: 0.9rem;
+  }
+}
+
 /* Equipment Gallery — brand card grid (tt11-style) */
 .md-typeset .mg-brand-grid {
   display: grid;
