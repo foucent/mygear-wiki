@@ -17,7 +17,7 @@ Quick answers for ordering, payment, shipping, and authenticity. Step-by-step ch
 Send your location or postal code via WhatsApp. You’ll get a total that includes **product + shipping**. Full steps: [How to Order](order.md).
 
 **Are there restricted regions?**  
-Shipping to **India, Iran, Nepal, and Pakistan** is not recommended (high duties / difficult logistics).
+Shipping to **Albania, Bosnia, India, Iran, Kosovo, Nepal, and Pakistan** is not recommended (high duties / difficult logistics).
 
 **Can I save on shipping?**  
 A boxed racket is about **600 g**, and one rubber is about **100 g**, but shipping is charged per **1 kg**. You can usually add rubbers or balls up to about **400 g** without raising the shipping tier. Liquid shipping is available when needed.

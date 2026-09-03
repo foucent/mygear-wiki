@@ -35,7 +35,7 @@ See also [FAQ & Shipping](FAQ.md), [Blades](blades.md) · [Rubbers](rubbers.md).
   </div>
   <div class="mg-glance__item mg-glance__item--warn">
     <div class="mg-glance__label">Restricted regions</div>
-    <div class="mg-glance__value"><strong>India · Iran · Nepal · Pakistan</strong></div>
+    <div class="mg-glance__value"><strong>Albania · Bosnia · India · Iran · Kosovo · Nepal · Pakistan</strong></div>
   </div>
 </div>
 
