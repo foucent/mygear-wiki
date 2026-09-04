@@ -104,6 +104,26 @@ description: "Get brand-new table tennis blades, popular rubbers, and sports gea
       <span class="mg-hot-card__name">Victas Koki Niwa</span>
     </a>
 
+    <a class="mg-hot-card" href="/gear/dignics-09c/">
+      <img class="mg-hot-card__img" src="/images/dignics-09c/01.thumb.webp" alt="Butterfly Dignics 09C" width="600" height="600" loading="lazy" decoding="async">
+      <span class="mg-hot-card__name">Dignics 09C</span>
+    </a>
+
+    <a class="mg-hot-card" href="/gear/zyre-03/">
+      <img class="mg-hot-card__img" src="/images/zyre-03/01.thumb.webp" alt="Butterfly ZYRE-03" width="600" height="600" loading="lazy" decoding="async">
+      <span class="mg-hot-card__name">ZYRE-03</span>
+    </a>
+
+    <a class="mg-hot-card" href="/gear/tenergy-05/">
+      <img class="mg-hot-card__img" src="/images/tenergy-05/01.thumb.webp" alt="Butterfly Tenergy 05" width="600" height="600" loading="lazy" decoding="async">
+      <span class="mg-hot-card__name">Tenergy 05</span>
+    </a>
+
+    <a class="mg-hot-card" href="/gear/dignics-05/">
+      <img class="mg-hot-card__img" src="/images/dignics-05/01.thumb.webp" alt="Butterfly Dignics 05" width="600" height="600" loading="lazy" decoding="async">
+      <span class="mg-hot-card__name">Dignics 05</span>
+    </a>
+
   </div>
 </section>
 
