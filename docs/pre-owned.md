@@ -663,7 +663,7 @@ hide:
 <tr>
       <td><img src="/images/freitas-alc/01.jpg" alt="Freitas ALC | CN | Q-Code | 90g" loading="lazy" data-gallery="/images/freitas-alc/01.jpg,/images/freitas-alc/02.jpg,/images/freitas-alc/03.jpg,/images/freitas-alc/04.jpg,/images/freitas-alc/05.jpg,/images/freitas-alc/06.jpg,/images/freitas-alc/07.jpg,/images/freitas-alc/08.jpg,/images/freitas-alc/09.jpg"></td>
       <td>Freitas ALC | CN | Q-Code | 90g</td>
-      <td style="text-align:right">$86</td>
+      <td style="text-align:right"><del>$86</del></td>
     </tr>
 <tr>
       <td><img src="/images/harimoto-zlc/01.jpg" alt="Harimoto ZLC | CN | Y-Code | 84g" loading="lazy" data-gallery="/images/harimoto-zlc/01.jpg,/images/harimoto-zlc/02.jpg,/images/harimoto-zlc/03.jpg,/images/harimoto-zlc/04.jpg,/images/harimoto-zlc/05.jpg,/images/harimoto-zlc/06.jpg,/images/harimoto-zlc/07.jpg,/images/harimoto-zlc/08.jpg"></td>
