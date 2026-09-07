@@ -64,6 +64,21 @@ def on_page_context(context, page, config, nav):
     page_url = f"{site}/{page.url}"
     image = f"{site}/{img}"
 
+    # Content freshness: "Updated on <date>" as a small line under the H1, and
+    # dateModified mirrored in the JSON-LD so the crawl date matches what the
+    # visitor sees. Bump `updated:` in the page frontmatter whenever the page
+    # content is revised.
+    updated = page.meta.get("updated")
+    updated_str = str(updated)[:10] if updated else None
+    if updated_str:
+        sub = ('<p class="mg-updated">Updated '
+               f'<time datetime="{updated_str}">{updated_str}</time></p>')
+        marker = "</h1>"
+        i = page.content.find(marker)
+        if i != -1:
+            j = i + len(marker)
+            page.content = page.content[:j] + "\n" + sub + page.content[j:]
+
     ld = {
         "@context": "https://schema.org/",
         "@type": "Product",
@@ -88,6 +103,8 @@ def on_page_context(context, page, config, nav):
         },
         "url": page_url,
     }
+    if updated_str:
+        ld["dateModified"] = updated_str
     if mpn:
         ld["mpn"] = mpn
 

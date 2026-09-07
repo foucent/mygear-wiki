@@ -1,6 +1,7 @@
 ---
 title: "Butterfly Fan Zhendong ALC Review, Price & Specs | MyGear.Top"
 description: "Looking for a Butterfly Fan Zhendong ALC? Explore our detailed overview, outer-ALC feel analysis, global pricing, and worldwide shipping info."
+updated: "2026-09-08"
 ---
 
 # Butterfly Fan Zhendong ALC
