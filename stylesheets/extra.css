@@ -2955,6 +2955,17 @@ html.md-no-js .md-typeset .mg-bio__toggle {
 }
 
 /* Product detail pages — image gallery + facts column */
+.md-typeset .mg-updated {
+  margin: 0.05rem 0 0.5rem;
+  color: var(--mg-ink-muted);
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+}
+
+.md-typeset .mg-updated time {
+  color: inherit;
+}
+
 .md-typeset .mg-prod {
   display: grid;
   grid-template-columns: minmax(0, 20rem) 1fr;
