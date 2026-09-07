@@ -63,4 +63,4 @@ For the latest price on this rubber, see the [Rubbers price list](../rubbers.md)
 !!! tip "Related"
     [Choosing Sponge Thickness vs Hardness](../guide/choosing-thickness-vs-hardness.md) · [Why Play Tenergy Before Dignics?](../guide/why-tenergy-before-dignics.md)
 
-<p class="mg-src-note">Data compiled from online sources and user reviews.</p>
+<p class="mg-src-note">The content above is my personal opinion. If you spot an error or have a better suggestion, feel free to <a href="https://wa.me/8618627156285">message me on WhatsApp</a> — let's share better content with everyone together.</p>

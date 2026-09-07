@@ -64,4 +64,4 @@ For the latest price on this blade, see the [Blades price list](../blades.md). W
 !!! tip "Related"
     [Outer vs Inner Fibre](../guide/outer-vs-inner-fiber.md) · [How to Choose a Blade: All-Wood, Outer & Inner Fibre](../guide/choosing-blade-structure.md) · [Butterfly blades gallery](butterfly.md)
 
-<p class="mg-src-note">Data compiled from online sources and user reviews.</p>
+<p class="mg-src-note">The content above is my personal opinion. If you spot an error or have a better suggestion, feel free to <a href="https://wa.me/8618627156285">message me on WhatsApp</a> — let's share better content with everyone together.</p>
