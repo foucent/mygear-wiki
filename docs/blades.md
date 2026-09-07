@@ -48,9 +48,7 @@ hide:
 | ![ ](../images/stock-blades/brand-new-selected-butterfly-cofferlait.jpg) | Butterfly Cofferlait \| Metal Tag (No Code) \| 84g \| Brand New | $1038 |
 | ![ ](../images/stock-blades/brand-new-selected-viscaria.jpg) | Viscaria \| CN \| K-Code \| 90-93g \| Brand New Selected | $169 |
 | ![ ](../images/stock-blades/brand-new-selected-fan-zhendong-salc.jpg) | Fan ZD SALC \| CN \| K-Code \| 87-90g \| Brand New Selected | $219 |
-| ![ ](../images/stock-blades/brand-new-selected-harimoto-alc-cn-fl-k-code.jpg) | Harimoto ALC \| CN \| K-Code \| Brand New Selected | $161 |
 | ![ ](../images/stock-blades/zhang-jk-alc-cn-cs-k-code-83-90g-brand-new-selected.jpg) | Zhang JK ALC \| CN \| CS \| K-Code \| 86-90g \| Brand New Selected | $259 |
-| ![ ](../images/stock-blades/selected-zhang-jike-alc-cn-fl-k-code.jpg) | Zhang JK ALC \| CN \| K-Code \| Brand New Selected | $259 |
 
 </div>
 
