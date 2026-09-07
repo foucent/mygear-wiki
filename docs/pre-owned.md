@@ -40,7 +40,7 @@ hide:
 
 </div>
 
-## Pre-owned list <span class="mg-list-meta">USD prices · Updated 03 Sep 2026</span>
+## Pre-owned list <span class="mg-list-meta">USD prices · Updated 07 Sep 2026</span>
 
 <p class="mg-preowned-showing" markdown="0">Loading results…</p>
 <p class="mg-price-legend" markdown="0"><span class="mg-price-legend__stock">Available (<span class="mg-preowned-count">—</span> items)</span><span class="mg-price-legend__sold">Sold / Out of stock</span></p>
@@ -295,6 +295,16 @@ hide:
       <td>Viscaria | Y-Code | CN | 86g</td>
       <td style="text-align:right">$101</td>
     </tr>
+<tr data-added="2026-09-07">
+      <td><img src="/images/viscaria-v-code-cn-86g/01.jpg" alt="Viscaria | V-Code | CN | 86g" loading="lazy" data-gallery="/images/viscaria-v-code-cn-86g/01.jpg,/images/viscaria-v-code-cn-86g/02.jpg,/images/viscaria-v-code-cn-86g/03.jpg,/images/viscaria-v-code-cn-86g/04.jpg,/images/viscaria-v-code-cn-86g/05.jpg,/images/viscaria-v-code-cn-86g/06.jpg,/images/viscaria-v-code-cn-86g/07.jpg,/images/viscaria-v-code-cn-86g/08.jpg"></td>
+      <td>Viscaria | V-Code | CN | 86g</td>
+      <td style="text-align:right">$105</td>
+    </tr>
+<tr data-added="2026-09-07">
+      <td><img src="/images/viscaria-v-code-cn-86g-2/01.jpg" alt="Viscaria | V-Code | CN | 86g" loading="lazy" data-gallery="/images/viscaria-v-code-cn-86g-2/01.jpg,/images/viscaria-v-code-cn-86g-2/02.jpg,/images/viscaria-v-code-cn-86g-2/03.jpg,/images/viscaria-v-code-cn-86g-2/04.jpg,/images/viscaria-v-code-cn-86g-2/05.jpg,/images/viscaria-v-code-cn-86g-2/06.jpg,/images/viscaria-v-code-cn-86g-2/07.jpg,/images/viscaria-v-code-cn-86g-2/08.jpg"></td>
+      <td>Viscaria | V-Code | CN | 86g</td>
+      <td style="text-align:right">$112</td>
+    </tr>
 <tr>
       <td><img src="/images/viscaria-w-code-cn-86g/01.jpg" alt="Viscaria | W-Code | CN | 86g" loading="lazy" data-gallery="/images/viscaria-w-code-cn-86g/01.jpg,/images/viscaria-w-code-cn-86g/02.jpg,/images/viscaria-w-code-cn-86g/03.jpg,/images/viscaria-w-code-cn-86g/05.jpg,/images/viscaria-w-code-cn-86g/06.jpg,/images/viscaria-w-code-cn-86g/07.jpg,/images/viscaria-w-code-cn-86g/08.jpg"></td>
       <td>Viscaria | W-Code | CN | 86g</td>
@@ -329,6 +339,11 @@ hide:
       <td><img src="/images/fan-zd-alc-k-code-jp-91g/01.jpg" alt="Fan ZD ALC | K-Code | JP | 91g" loading="lazy" data-gallery="/images/fan-zd-alc-k-code-jp-91g/01.jpg,/images/fan-zd-alc-k-code-jp-91g/02.jpg,/images/fan-zd-alc-k-code-jp-91g/03.jpg,/images/fan-zd-alc-k-code-jp-91g/04.jpg,/images/fan-zd-alc-k-code-jp-91g/05.jpg,/images/fan-zd-alc-k-code-jp-91g/06.jpg,/images/fan-zd-alc-k-code-jp-91g/07.jpg"></td>
       <td>Fan ZD ALC | K-Code | JP | 91g</td>
       <td style="text-align:right">$135</td>
+    </tr>
+<tr data-added="2026-09-07">
+      <td><img src="/images/fan-zd-alc-k-code-jp-83g/01.jpg" alt="Fan ZD ALC | K-Code | JP | 83g" loading="lazy" data-gallery="/images/fan-zd-alc-k-code-jp-83g/01.jpg,/images/fan-zd-alc-k-code-jp-83g/02.jpg,/images/fan-zd-alc-k-code-jp-83g/03.jpg,/images/fan-zd-alc-k-code-jp-83g/04.jpg,/images/fan-zd-alc-k-code-jp-83g/05.jpg,/images/fan-zd-alc-k-code-jp-83g/06.jpg,/images/fan-zd-alc-k-code-jp-83g/07.jpg"></td>
+      <td>Fan ZD ALC | K-Code | JP | 83g</td>
+      <td style="text-align:right">$102</td>
     </tr>
 <tr>
       <td><img src="/images/fan-zd-alc006/01.jpg" alt="Fan ZD ALC | K-Code | JP | CS | 82.5g" loading="lazy" data-gallery="/images/fan-zd-alc006/01.jpg,/images/fan-zd-alc006/02.jpg,/images/fan-zd-alc006/03.jpg,/images/fan-zd-alc006/04.jpg,/images/fan-zd-alc006/05.jpg,/images/fan-zd-alc006/06.jpg"></td>
