@@ -1,5 +1,7 @@
 ---
-description: "Victas Koki Niwa — Koki Niwa's signature blade, balanced feel and controlled spin. Brand-new blade, WhatsApp quote on MyGear.Top."
+title: "Victas Koki Niwa Review, Price & Specs | MyGear.Top"
+description: "Looking for a Victas Koki Niwa? Explore our detailed overview, touch-and-spin character analysis, global pricing, and worldwide shipping info."
+updated: "2026-09-08"
 ---
 
 # Victas Koki Niwa
@@ -57,6 +59,21 @@ Its character is balanced and flexible: the blade bends noticeably under heavy l
 ## Feel & character
 
 The signature quality here is *feel*. You can play soft, spin-heavy pushes and drop shots, then open up into full-blooded loops without the board changing character on you. Because Victas specifies this model in different builds over time, we always confirm the current plies, fibre and weight with the supplier before quoting your exact unit — if you have a preference, tell us and we will match it.
+
+<div class="mg-cta-card" markdown="0">
+  <div class="mg-cta-card__body">
+    <p class="mg-cta-card__title">Ready to get yours?</p>
+    <p class="mg-cta-card__text">Check the live price table or request a quote via WhatsApp.</p>
+  </div>
+  <div class="mg-cta-card__actions">
+    <a class="mg-home-hero__btn mg-home-hero__btn--primary" href="https://wa.me/8618627156285?text=Hello%2C%20I%27d%20like%20a%20quote%20for%20a%20brand-new%20Victas%20Koki%20Niwa%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A">Request a quote on WhatsApp</a>
+    <a class="mg-cta-card__outline" href="/blades/">Live price table</a>
+  </div>
+</div>
+
+## Koki Niwa vs an outer-fibre blade
+
+If you are comparing the Koki Niwa with a stiff outer composite such as the [Viscaria](viscaria.md), the difference is immediate. The Viscaria activates from the first millimetre of flex and gives a crisp, early response; the Koki Niwa instead bends noticeably under heavy contact, trading first-contact punch for dwell and feel. If your game is built on touch, variation and easy spin rather than overpowering the ball, the Koki Niwa points the other way — and its community radar reflects exactly that balanced, feel-first character. See [outer vs inner fibre](../guide/outer-vs-inner-fiber.md) for how fibre placement shapes these choices.
 
 ## Ordering
 

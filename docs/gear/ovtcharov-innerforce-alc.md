@@ -1,5 +1,7 @@
 ---
-description: "Butterfly Ovtcharov Innerforce ALC — inner ALC signature of Dimitrij Ovtcharov. Brand-new blade, WhatsApp quote on MyGear.Top."
+title: "Butterfly Ovtcharov Innerforce ALC Review, Price & Specs | MyGear.Top"
+description: "Looking for a Butterfly Ovtcharov Innerforce ALC? Explore our detailed overview, inner-ALC feel analysis, global pricing, and worldwide shipping info."
+updated: "2026-09-08"
 ---
 
 # Butterfly Ovtcharov Innerforce ALC
@@ -53,9 +55,47 @@ description: "Butterfly Ovtcharov Innerforce ALC — inner ALC signature of Dimi
 
 It is also the signature blade of Dimitrij Ovtcharov, a player who pairs explosive serve-and-attack play with reliable counter-play — a blend that this construction suits naturally.
 
+## Specifications
+
+| Spec | Ovtcharov Innerforce ALC |
+| --- | --- |
+| Construction | 5-ply wood + 2 Arylate-Carbon, inner ALC |
+| Blade size | 158 × 152 mm |
+| Thickness | 6.2 mm |
+| Reaction | 11.7 |
+| Vibration | 10.5 |
+
+*Butterfly's official catalogue figures for a typical piece. Reaction and Vibration are Butterfly's own index numbers rather than a 1–10 rating — higher Reaction means a livelier rebound, higher Vibration a crisper, more talkative feel.*
+
 ## Feel & character
 
 On pushes, blocks and light opening loops the blade feels surprisingly wood-like: controllable, easy to feel the ball, forgiving of slightly off-centre contact. Commit to a full swing and the inner ALC wakes up, adding firm support and carry on both wings. Compared with an outer ALC board of similar speed, it trades some instant crispness for a longer dwell and easier spin. The difference is covered in [outer vs inner fibre](../guide/outer-vs-inner-fiber.md).
+
+<div class="mg-cta-card" markdown="0">
+  <div class="mg-cta-card__body">
+    <p class="mg-cta-card__title">Ready to get yours?</p>
+    <p class="mg-cta-card__text">Check the live price table or request a quote via WhatsApp.</p>
+  </div>
+  <div class="mg-cta-card__actions">
+    <a class="mg-home-hero__btn mg-home-hero__btn--primary" href="https://wa.me/8618627156285?text=Hello%2C%20I%27d%20like%20a%20quote%20for%20a%20brand-new%20Butterfly%20Ovtcharov%20Innerforce%20ALC%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A">Request a quote on WhatsApp</a>
+    <a class="mg-cta-card__outline" href="/blades/">Live price table</a>
+  </div>
+</div>
+
+## Ovtcharov Innerforce ALC vs Harimoto Innerforce ALC & Viscaria
+
+If you are weighing the Ovtcharov Innerforce ALC against the [Harimoto Innerforce ALC](harimoto-innerforce-alc.md) and the outer-fibre [Viscaria](viscaria.md), the headline is that fibre placement decides the character: the two Innerforce blades keep a wood-like touch at low force and let the ALC join in as you swing harder, while the Viscaria reacts from the first contact.
+
+| | Ovtcharov Innerforce ALC | Harimoto Innerforce ALC | Viscaria |
+| --- | --- | --- | --- |
+| Construction | 5-ply wood + 2 inner ALC | 5-ply wood + 2 inner ALC | 5-ply wood + 2 outer ALC (Koto) |
+| Blade size | 158 × 152 mm | 158 × 152 mm | 157 × 150 mm |
+| Thickness | 6.2 mm | 6.0 mm | 5.7 mm |
+| Community character | punchiest Innerforce, higher output | dwell-rich, spin-easy, forgiving | the crisp outer reference |
+
+Look down the table and the Ovtcharov is the higher-output of the two inner blades: a touch thicker and a little firmer, which gives it more punch on full swings while keeping the Innerforce signature of dwell and wood-like control on lighter strokes. Against the Viscaria, both inner boards give up some first-contact crispness in exchange for an easier, safer arc on spin. In practice one individual blade varies more from another of the same model than the labels differ, so choose on feel and available stock rather than expecting a dramatic change of character. See [outer vs inner fibre](../guide/outer-vs-inner-fiber.md) for the full comparison.
+
+For rubbers, the Dignics and Tenergy lines are the natural partners — clean high-tension sheets such as [Dignics 05](dignics-05.md) or [Tenergy 05](tenergy-05.md) keep the blade direct, and a semi-tacky sheet like [Dignics 09C](dignics-09c.md) adds bite on serve and opening loops. The family logic is explained in [Why Play Tenergy Before Dignics?](../guide/why-tenergy-before-dignics.md).
 
 ## Ordering
 

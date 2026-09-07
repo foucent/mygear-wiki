@@ -1,5 +1,7 @@
 ---
-description: "Butterfly ZYRE-03 — the new Ricosheet high-tension generation: non-tacky topsheet, extra-thick Spring Sponge X. Brand-new rubber, WhatsApp quote on MyGear.Top."
+title: "Butterfly ZYRE-03 Review, Price & Specs | MyGear.Top"
+description: "Looking for a Butterfly ZYRE-03? Explore our detailed overview, Ricosheet analysis, global pricing, and worldwide shipping info."
+updated: "2026-09-08"
 ---
 
 # Butterfly ZYRE-03
@@ -50,11 +52,48 @@ description: "Butterfly ZYRE-03 — the new Ricosheet high-tension generation: n
 
 Underneath sits the same extra-thick Spring Sponge X as the Dignics line, tuned harder here, and Butterfly's own ratings put the spin potential at the top of what they offer. Out of the box ZYRE-03 carries the strongest spin marker Butterfly has listed for a rubber, alongside top-end speed and a high, catapulting arc.
 
+## Specifications
+
+| Spec | ZYRE-03 |
+| --- | --- |
+| Line | ZYRE — Butterfly's newest-generation high-tension flagship |
+| Topsheet | Non-tacky Ricosheet |
+| Sponge | Extra-thick Spring Sponge X |
+| Stocked thickness | 2.5 & 2.7 mm |
+| Colors | Red / Black |
+
+*Topsheet and sponge designations follow Butterfly's published line specifications.*
+
 ## Feel & character
 
 ZYRE-03 is a rubber that pays you back for a full, committed swing. Hit through the ball and the firm sponge under the Ricosheet turns your stroke into heavy, penetrating spin with real speed; play a soft, half-hearted stroke and the ball does noticeably less for you. That makes it demanding but honest — and a reason the touring players who adopted it early, including the Harimoto siblings, mostly use it on the backhand, where that firm sponge turns rallies into flat-out winners.
 
 The trade-offs sit in the short game. Compared with a tacky or semi-tacky sheet like Dignics 09C, ZYRE-03 floats cleaner over light contact, so passive blocks and delicate pushes need a confident hand, and the lively sponge can feel bouncy on very stiff carbon blades. We stock the 2.5 and 2.7 mm sheets in red or black — the thickness-versus-hardness trade-off is covered in our [rubber guide](../guide/choosing-thickness-vs-hardness.md).
+
+<div class="mg-cta-card" markdown="0">
+  <div class="mg-cta-card__body">
+    <p class="mg-cta-card__title">Ready to get yours?</p>
+    <p class="mg-cta-card__text">Check the live price table or request a quote via WhatsApp.</p>
+  </div>
+  <div class="mg-cta-card__actions">
+    <a class="mg-home-hero__btn mg-home-hero__btn--primary" href="https://wa.me/8618627156285?text=Hello%2C%20I%27d%20like%20a%20quote%20for%20a%20brand-new%20Butterfly%20ZYRE-03%20rubber.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A">Request a quote on WhatsApp</a>
+    <a class="mg-cta-card__outline" href="/rubbers/">Live price table</a>
+  </div>
+</div>
+
+## ZYRE-03 vs Dignics 09C & Dignics 05
+
+If you are weighing the ZYRE-03 against the semi-tacky [Dignics 09C](dignics-09c.md) and the clean high-tension [Dignics 05](dignics-05.md), the deciding difference is the generation: ZYRE-03 pairs Butterfly's brand-new Ricosheet with an extra-thick Spring Sponge X, tuned to lose less energy to the topsheet structure and push more of it into the ball.
+
+| | ZYRE-03 | Dignics 09C | Dignics 05 |
+| --- | --- | --- | --- |
+| Topsheet | Non-tacky Ricosheet | Mildly tacky (No. 09 C) | Non-tacky (No. 05) |
+| Sponge | Extra-thick Spring Sponge X | Spring Sponge X | Spring Sponge X |
+| Stocked thickness | 2.5 & 2.7 mm | 2.1 mm | 2.1 mm |
+| Community rating | 9.84 (31 reviews) | 9.54 (113 reviews) | 9.59 (135 reviews) |
+| Character | hardest-hitting flagship | extra bite, grip-then-catapult | clean full-contact spin |
+
+Look down the table and the ZYRE-03 is the newest and highest-rated of the three — but its early community sample is small, and it is the most demanding sheet here. Choose the ZYRE-03 when you already have the full, committed swing a firm catapulting rubber asks for (the touring players who adopted it early favour it on the backhand); choose the Dignics 09C when you want extra bite on serve, short pushes and balls taken slightly late; choose the Dignics 05 when you hit clean, full-contact spin. The family logic behind the ordering is explained in [Why Play Tenergy Before Dignics?](../guide/why-tenergy-before-dignics.md).
 
 ## Ordering
 

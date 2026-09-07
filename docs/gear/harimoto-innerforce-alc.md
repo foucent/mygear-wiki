@@ -1,5 +1,7 @@
 ---
-description: "Butterfly Harimoto Innerforce ALC — Tomokazu Harimoto's signature inner-ALC blade. Brand-new blade, WhatsApp quote on MyGear.Top."
+title: "Butterfly Harimoto Innerforce ALC Review, Price & Specs | MyGear.Top"
+description: "Looking for a Butterfly Harimoto Innerforce ALC? Explore our detailed overview, inner-ALC feel analysis, global pricing, and worldwide shipping info."
+updated: "2026-09-08"
 ---
 
 # Butterfly Harimoto Innerforce ALC
@@ -53,9 +55,47 @@ description: "Butterfly Harimoto Innerforce ALC — Tomokazu Harimoto's signatur
 
 For a player who mixes relentless two-wing attack with aggressive returning, the inner placement provides a safety net — you can stay in rallies with confidence and still finish hard when the opening comes.
 
+## Specifications
+
+| Spec | Harimoto Innerforce ALC |
+| --- | --- |
+| Construction | 5-ply wood + 2 Arylate-Carbon, inner ALC |
+| Blade size | 158 × 152 mm |
+| Thickness | 6.0 mm |
+| Reaction | 10.7 |
+| Vibration | 9.2 |
+
+*Butterfly's official catalogue figures for a typical piece. Reaction and Vibration are Butterfly's own index numbers rather than a 1–10 rating — higher Reaction means a livelier rebound, higher Vibration a crisper, more talkative feel.*
+
 ## Feel & character
 
 Light strokes — pushing, blocking, flicking softly — feel clean and controllable, closer to a quality all-wood board than to a stiff outer composite. Under a full loop the fibre engages and the blade holds the ball before releasing with solid pace, which makes spin easy to produce on both wings. If you have been overshooting with an outer-fibre board, or you simply want a firmer wood-like feel that still has modern power, this is a strong candidate. See [outer vs inner fibre](../guide/outer-vs-inner-fiber.md) for the comparison.
+
+<div class="mg-cta-card" markdown="0">
+  <div class="mg-cta-card__body">
+    <p class="mg-cta-card__title">Ready to get yours?</p>
+    <p class="mg-cta-card__text">Check the live price table or request a quote via WhatsApp.</p>
+  </div>
+  <div class="mg-cta-card__actions">
+    <a class="mg-home-hero__btn mg-home-hero__btn--primary" href="https://wa.me/8618627156285?text=Hello%2C%20I%27d%20like%20a%20quote%20for%20a%20brand-new%20Butterfly%20Harimoto%20Innerforce%20ALC%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A">Request a quote on WhatsApp</a>
+    <a class="mg-cta-card__outline" href="/blades/">Live price table</a>
+  </div>
+</div>
+
+## Harimoto Innerforce ALC vs Ovtcharov Innerforce ALC & Viscaria
+
+If you are weighing the Harimoto Innerforce ALC against the [Ovtcharov Innerforce ALC](ovtcharov-innerforce-alc.md) and the outer-fibre [Viscaria](viscaria.md), the headline is that fibre placement decides the character: the two Innerforce blades keep a wood-like touch at low force and let the ALC join in as you swing harder, while the Viscaria reacts from the first contact.
+
+| | Harimoto Innerforce ALC | Ovtcharov Innerforce ALC | Viscaria |
+| --- | --- | --- | --- |
+| Construction | 5-ply wood + 2 inner ALC | 5-ply wood + 2 inner ALC | 5-ply wood + 2 outer ALC (Koto) |
+| Blade size | 158 × 152 mm | 158 × 152 mm | 157 × 150 mm |
+| Thickness | 6.0 mm | 6.2 mm | 5.7 mm |
+| Community character | dwell-rich, spin-easy, forgiving | punchiest Innerforce, higher output | the crisp outer reference |
+
+Look down the table and the Harimoto is the softer-tuned of the two inner blades: a touch thinner and, per Butterfly's own indices, lower on both rebound and vibration than the Ovtcharov, which is why its community radar reads as spin-easy and forgiving rather than punchy. Against the Viscaria, both inner boards give up some first-contact crispness in exchange for an easier, safer arc on spin. In practice one individual blade varies more from another of the same model than the labels differ, so choose on feel and available stock rather than expecting a dramatic change of character. See [outer vs inner fibre](../guide/outer-vs-inner-fiber.md) for the full comparison.
+
+For rubbers, the Dignics and Tenergy lines are the natural partners — clean high-tension sheets such as [Dignics 05](dignics-05.md) or [Tenergy 05](tenergy-05.md) keep the blade direct, and a semi-tacky sheet like [Dignics 09C](dignics-09c.md) adds bite on serve and opening loops. The family logic is explained in [Why Play Tenergy Before Dignics?](../guide/why-tenergy-before-dignics.md).
 
 ## Ordering
 

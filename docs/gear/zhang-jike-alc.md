@@ -1,5 +1,7 @@
 ---
-description: "Butterfly Zhang Jike ALC — classic Viscaria/Zhang Jike ALC class, outer ALC. Brand-new blade, WhatsApp quote on MyGear.Top."
+title: "Butterfly Zhang Jike ALC Review, Price & Specs | MyGear.Top"
+description: "Looking for a Butterfly Zhang Jike ALC? Explore our detailed overview, outer-ALC feel analysis, global pricing, and worldwide shipping info."
+updated: "2026-09-08"
 ---
 
 # Butterfly Zhang Jike ALC
@@ -49,13 +51,51 @@ description: "Butterfly Zhang Jike ALC — classic Viscaria/Zhang Jike ALC class
 
 ## Overview
 
-**Zhang Jike ALC** is Zhang Jike's signature composite — an outer-Arylate-Carbon blade in the same classic class as the Viscaria, a pairing our buying guide itself groups together (*"classic Viscaria / Zhang Jike ALC class"*). It was built around the way Zhang Jike played: wait for the opening, then explode through the ball.
+**Butterfly Zhang Jike ALC** is Zhang Jike's signature composite — an outer-Arylate-Carbon blade in the same classic class as the Viscaria, the pairing our buying guide groups together as the *"classic Viscaria / Zhang Jike ALC class"*. It was built around the way Zhang Jike played: wait for the opening, then explode through the ball.
 
-The outer placement of the fibre means response begins at very low effort. Short pushes and opening loops come out quickly, and the blade's rigidity under the hand gives the fast counter-attacks and backhand-driven rallies that Zhang Jike's game is remembered for a clean, direct platform.
+Where the family steps forward is directness. The Arylate-Carbon sits on the outer side of the blade, so response begins at very low effort: short pushes and opening loops come out quickly, and the firm feel under the hand gives the fast counter-attacks and backhand-driven rallies of Zhang Jike's game a clean, immediate platform.
+
+## Specifications
+
+| Spec | Zhang Jike ALC |
+| --- | --- |
+| Construction | 5-ply wood + 2 Arylate-Carbon, outer ALC (Koto / ALC / Limba / Kiri core) |
+| Blade size | 157 × 150 mm |
+| Thickness | 5.8 mm |
+| Reaction | 11.8 |
+| Vibration | 10.3 |
+
+*Butterfly's official catalogue figures for a typical piece. Reaction and Vibration are Butterfly's own index numbers rather than a 1–10 rating — higher Reaction means a livelier rebound, higher Vibration a crisper, more talkative feel.*
 
 ## Feel & character
 
-Expect a firm, crisp first touch rather than a soft dwell. On heavy strokes the ALC releases with a sharp kick, which is why the blade rewards attackers who generate their own power and timing. It is a friendly next step for anyone used to a fast all-wood blade and ready for the higher output of a serious outer composite. See [outer vs inner fibre](../guide/outer-vs-inner-fiber.md) for the comparison.
+Because the fibre sits close to the surface, the blade plays a little stiffer than the feel under the hand suggests at first. Blocks, flicks and backhand drives come out lively with short strokes, and once you commit weight through the ball the ALC releases with a sharp, high-output kick rather than a long dwell — an outer-ALC temperament, direct and immediate. That makes it a friendly next step for anyone used to a fast all-wood blade and ready for the higher output of a serious outer composite. See [outer vs inner fibre](../guide/outer-vs-inner-fiber.md) for how that compares with inner blades.
+
+<div class="mg-cta-card" markdown="0">
+  <div class="mg-cta-card__body">
+    <p class="mg-cta-card__title">Ready to get yours?</p>
+    <p class="mg-cta-card__text">Check the live price table or request a quote via WhatsApp.</p>
+  </div>
+  <div class="mg-cta-card__actions">
+    <a class="mg-home-hero__btn mg-home-hero__btn--primary" href="https://wa.me/8618627156285?text=Hello%2C%20I%27d%20like%20a%20quote%20for%20a%20brand-new%20Butterfly%20Zhang%20Jike%20ALC%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A">Request a quote on WhatsApp</a>
+    <a class="mg-cta-card__outline" href="/blades/">Live price table</a>
+  </div>
+</div>
+
+## Zhang Jike ALC vs Viscaria & Fan Zhendong ALC
+
+If you are weighing the Zhang Jike ALC against its closest relatives — the [Viscaria](viscaria.md) and the [Fan Zhendong ALC](fan-zhendong-alc.md) — the honest headline is that they are close cousins: the same outer-ALC blueprint on the same wood core.
+
+| | Zhang Jike ALC | Viscaria | Fan Zhendong ALC |
+| --- | --- | --- | --- |
+| Construction | 5-ply wood + 2 outer ALC (Koto) | 5-ply wood + 2 outer ALC (Koto) | 5-ply wood + 2 outer ALC (Koto) |
+| Blade size | 157 × 150 mm | 157 × 150 mm | 157 × 150 mm |
+| Thickness | 5.8 mm | 5.7 mm | 5.8 mm |
+| Community character | softest, most spin-friendly arc | the crisp reference | slightly softer, extra spin & control |
+
+Look down the table and the Zhang Jike ALC is, on paper, a Viscaria: Butterfly lists the same construction and the same 157 × 150 mm head. The differences players actually report are small and subtle — the ZJK ALC tends to be the softest-feeling of the three under the hand, with a touch more dwell and an arc many players find the easiest to load with spin, while the Viscaria stays the crisper reference and the FZD ALC sits in between with a slightly more modernised character. In practice one individual blade varies more from another of the same model than the labels differ, so choose between them on feel and available stock rather than expecting a dramatic change of character. If you want the deeper, dwell-heavy side of the family instead, step to an inner-fibre blade — see [outer vs inner fibre](../guide/outer-vs-inner-fiber.md).
+
+For rubbers, the Dignics and Tenergy lines are the natural partners. A semi-tacky sheet like [Dignics 09C](dignics-09c.md) adds bite on serve and opening loops, while clean high-tension sheets such as [Dignics 05](dignics-05.md) or [Tenergy 05](tenergy-05.md) keep the blade's direct outer-ALC feel. The family logic is explained in [Why Play Tenergy Before Dignics?](../guide/why-tenergy-before-dignics.md).
 
 ## Ordering
 

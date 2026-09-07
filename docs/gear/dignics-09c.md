@@ -1,5 +1,7 @@
 ---
-description: "Butterfly Dignics 09C — semi-tacky hybrid in the Dignics family. Brand-new rubber, WhatsApp quote on MyGear.Top."
+title: "Butterfly Dignics 09C Review, Price & Specs | MyGear.Top"
+description: "Looking for a Butterfly Dignics 09C? Explore our detailed overview, semi-tacky topsheet analysis, global pricing, and worldwide shipping info."
+updated: "2026-09-08"
 ---
 
 # Butterfly Dignics 09C
@@ -50,9 +52,46 @@ description: "Butterfly Dignics 09C — semi-tacky hybrid in the Dignics family.
 
 That is the combination Butterfly built its current-generation flagship pairings around, and the one Fan Zhendong has made his own. Where a rubber like Dignics 05 excels on clean, full-contact spin, 09C is for the player who wants that extra bite on short strokes and on shots where the ball is taken slightly late — the ball is caught, then catapulted.
 
+## Specifications
+
+| Spec | Dignics 09C |
+| --- | --- |
+| Line | Dignics — Butterfly's modern high-tension flagship |
+| Topsheet | Mildly tacky, code No. 09 C |
+| Sponge | Spring Sponge X |
+| Stocked thickness | 2.1 mm |
+| Colors | Red / Black |
+
+*Topsheet and sponge designations follow Butterfly's published line specifications.*
+
 ## Feel & character
 
 The topsheet's grip makes the short game the rubber's quiet strength: short pushes, serve returns and flicks come out low and controlled because the ball is held rather than skated. Open up into a full loop and the firm Spring Sponge X underneath turns that grip into deep, penetrating spin with a springy finish. The trade is that it rewards committed strokes and clean timing — and the surface is delicate, so treat it gently and keep it covered with the protective film when it is not in play. We stock the 2.1 mm sheet in red or black; the family and sponge story is covered in our [Tenergy-before-Dignics guide](../guide/why-tenergy-before-dignics.md).
+
+<div class="mg-cta-card" markdown="0">
+  <div class="mg-cta-card__body">
+    <p class="mg-cta-card__title">Ready to get yours?</p>
+    <p class="mg-cta-card__text">Check the live price table or request a quote via WhatsApp.</p>
+  </div>
+  <div class="mg-cta-card__actions">
+    <a class="mg-home-hero__btn mg-home-hero__btn--primary" href="https://wa.me/8618627156285?text=Hello%2C%20I%27d%20like%20a%20quote%20for%20a%20brand-new%20Butterfly%20Dignics%2009C%20rubber.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A">Request a quote on WhatsApp</a>
+    <a class="mg-cta-card__outline" href="/rubbers/">Live price table</a>
+  </div>
+</div>
+
+## Dignics 09C vs Dignics 05 & Tenergy 05
+
+If you are weighing the Dignics 09C against the clean high-tension [Dignics 05](dignics-05.md) and the classic [Tenergy 05](tenergy-05.md), the deciding difference is the topsheet: 09C grips, the other two float.
+
+| | Dignics 09C | Dignics 05 | Tenergy 05 |
+| --- | --- | --- | --- |
+| Topsheet | Mildly tacky (No. 09 C) | Non-tacky (No. 05) | Non-tacky (No. 05) |
+| Sponge | Spring Sponge X | Spring Sponge X | Spring Sponge |
+| Stocked thickness | 2.1 mm | 2.1 mm | 2.1 mm |
+| Community rating | 9.54 (113 reviews) | 9.59 (135 reviews) | 9.34 (275 reviews) |
+| Character | extra bite, grip-then-catapult | clean full-contact spin | forgiving high-tension classic |
+
+Look down the table and the community numbers tell the real story: all three are rated almost identically overall, because they are not better or worse than each other — they ask for slightly different strokes. Choose the Dignics 09C when you want extra bite on serve, short pushes and balls taken slightly late; choose the Dignics 05 when you hit clean, full-contact spin; choose the Tenergy 05 when you want the most forgiving high-tension sheet to learn on. The family logic behind the ordering is explained in [Why Play Tenergy Before Dignics?](../guide/why-tenergy-before-dignics.md).
 
 ## Ordering
 

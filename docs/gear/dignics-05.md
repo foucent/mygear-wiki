@@ -1,5 +1,7 @@
 ---
-description: "Butterfly Dignics 05 — the non-tacky flagship of the Dignics line: Spring Sponge X power with elite spin. Brand-new rubber, WhatsApp quote on MyGear.Top."
+title: "Butterfly Dignics 05 Review, Price & Specs | MyGear.Top"
+description: "Looking for a Butterfly Dignics 05? Explore our detailed overview, high-tension spin analysis, global pricing, and worldwide shipping info."
+updated: "2026-09-08"
 ---
 
 # Butterfly Dignics 05
@@ -50,11 +52,48 @@ description: "Butterfly Dignics 05 — the non-tacky flagship of the Dignics lin
 
 That pairing takes everything Tenergy 05 does and turns it up. The sponge resists more before it lets go, so the payoff is a heavier, faster, more penetrating ball — spin and speed on the same full-blooded stroke rather than a choice between them.
 
+## Specifications
+
+| Spec | Dignics 05 |
+| --- | --- |
+| Line | Dignics — Butterfly's modern high-tension flagship |
+| Topsheet | Non-tacky, code No. 05 |
+| Sponge | Spring Sponge X |
+| Stocked thickness | 2.1 mm |
+| Colors | Red / Black |
+
+*Topsheet and sponge designations follow Butterfly's published line specifications.*
+
 ## Feel & character
 
 Dignics 05 is firmer and more demanding than Tenergy, and that is exactly the point. Play it with a committed stroke and it is one of the most dangerous rubbers Butterfly has made — deep loops, hard counters and serve-plus-attack sequences that bury opponents under rotation and pace. The topsheet holds the ball a touch longer than the numbers suggest, which is why trained players can spin so violently with it; uncommitted or lazy swings, by contrast, find a hard board that does little for them.
 
 The trade is difficulty, not fragility: the firmer sheet is genuinely more durable than Tenergy's, holding its spin longer. We stock the 2.1 mm sheet in red or black — how D05 sits in the family next to Tenergy and the tacky D09c is covered in our [Tenergy-before-Dignics guide](../guide/why-tenergy-before-dignics.md).
+
+<div class="mg-cta-card" markdown="0">
+  <div class="mg-cta-card__body">
+    <p class="mg-cta-card__title">Ready to get yours?</p>
+    <p class="mg-cta-card__text">Check the live price table or request a quote via WhatsApp.</p>
+  </div>
+  <div class="mg-cta-card__actions">
+    <a class="mg-home-hero__btn mg-home-hero__btn--primary" href="https://wa.me/8618627156285?text=Hello%2C%20I%27d%20like%20a%20quote%20for%20a%20brand-new%20Butterfly%20Dignics%2005%20rubber.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A">Request a quote on WhatsApp</a>
+    <a class="mg-cta-card__outline" href="/rubbers/">Live price table</a>
+  </div>
+</div>
+
+## Dignics 05 vs Dignics 09C & Tenergy 05
+
+If you are weighing the Dignics 05 against the semi-tacky [Dignics 09C](dignics-09c.md) and the classic [Tenergy 05](tenergy-05.md), the deciding difference is the topsheet: 09C grips, the 05 sheets float — and the Dignics 05 beats Tenergy by being firmer and more direct under the same clean, non-tacky surface.
+
+| | Dignics 05 | Dignics 09C | Tenergy 05 |
+| --- | --- | --- | --- |
+| Topsheet | Non-tacky (No. 05) | Mildly tacky (No. 09 C) | Non-tacky (No. 05) |
+| Sponge | Spring Sponge X | Spring Sponge X | Spring Sponge |
+| Stocked thickness | 2.1 mm | 2.1 mm | 2.1 mm |
+| Community rating | 9.59 (135 reviews) | 9.54 (113 reviews) | 9.34 (275 reviews) |
+| Character | clean full-contact spin | extra bite, grip-then-catapult | forgiving high-tension classic |
+
+Look down the table and the community numbers tell the real story: all three are rated almost identically overall, because they are not better or worse than each other — they ask for slightly different strokes. Choose the Dignics 05 when you hit clean, full-contact spin and want more firmness and penetration than Tenergy offers; choose the Dignics 09C when you want extra bite on serve, short pushes and balls taken slightly late; choose the Tenergy 05 when you want the most forgiving high-tension sheet to learn on. The family logic behind the ordering is explained in [Why Play Tenergy Before Dignics?](../guide/why-tenergy-before-dignics.md).
 
 ## Ordering
 

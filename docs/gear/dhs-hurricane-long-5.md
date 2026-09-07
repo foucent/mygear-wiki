@@ -1,5 +1,7 @@
 ---
-description: "DHS Hurricane Long 5 — Ma Long's blade family, DHS flagship fibre blade. Brand-new blade, WhatsApp quote on MyGear.Top."
+title: "DHS Hurricane Long 5 Review, Price & Specs | MyGear.Top"
+description: "Looking for a DHS Hurricane Long 5? Explore our detailed overview, inner-fibre construction analysis, global pricing, and worldwide shipping info."
+updated: "2026-09-08"
 ---
 
 # DHS Hurricane Long 5
@@ -53,9 +55,45 @@ description: "DHS Hurricane Long 5 — Ma Long's blade family, DHS flagship fibr
 
 It also explains why players who outgrow the retail Long 5 often look toward W968 as the next step up — the family character carries through, with more of everything underneath.
 
+## Specifications
+
+| Spec | Hurricane Long 5 |
+| --- | --- |
+| Construction | 5 wood + 2 Arylate-Carbon (5+2 AC), fibre set close to the core |
+| Blade size | 160 × 151 mm |
+| Thickness | 5.9 mm |
+
+*DHS's official catalogue figure for a typical piece; individual blades vary within the manufacturer's tolerance.*
+
 ## Feel & character
 
 Pushes, short serves and gentle loops behave with a reassuring, wood-like honesty. When you accelerate into a full forehand or backhand loop, the blade holds the ball and then releases with a strong, linear push — the kind of controlled power DHS blades are known for. It sits comfortably with Chinese-style rubbers but pairs well with a wide range of setups. For how its character relates to fibre placement, read [outer vs inner fibre](../guide/outer-vs-inner-fiber.md) and [How to Choose a Blade](../guide/choosing-blade-structure.md).
+
+<div class="mg-cta-card" markdown="0">
+  <div class="mg-cta-card__body">
+    <p class="mg-cta-card__title">Ready to get yours?</p>
+    <p class="mg-cta-card__text">Check the live price table or request a quote via WhatsApp.</p>
+  </div>
+  <div class="mg-cta-card__actions">
+    <a class="mg-home-hero__btn mg-home-hero__btn--primary" href="https://wa.me/8618627156285?text=Hello%2C%20I%27d%20like%20a%20quote%20for%20a%20brand-new%20DHS%20Hurricane%20Long%205%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A">Request a quote on WhatsApp</a>
+    <a class="mg-cta-card__outline" href="/blades/">Live price table</a>
+  </div>
+</div>
+
+## Hurricane Long 5 vs Harimoto Innerforce ALC & Viscaria
+
+If you are weighing the Hurricane Long 5 against other modern fibre blades — the inner-fibre [Harimoto Innerforce ALC](harimoto-innerforce-alc.md) and the outer-fibre [Viscaria](viscaria.md) — the shared logic is placement: like the Harimoto, the Long 5 sets its Arylate-Carbon close to the core, so the fibre stays out of the way until you really commit.
+
+| | Hurricane Long 5 | Harimoto Innerforce ALC | Viscaria |
+| --- | --- | --- | --- |
+| Construction | 5 wood + 2 AC, inner | 5-ply wood + 2 inner ALC | 5-ply wood + 2 outer ALC (Koto) |
+| Blade size | 160 × 151 mm | 158 × 152 mm | 157 × 150 mm |
+| Thickness | 5.9 mm | 6.0 mm | 5.7 mm |
+| Community character | linear controlled power | dwell-rich, spin-easy, forgiving | the crisp outer reference |
+
+Look down the table and the Long 5 is the largest of the three, with a head that suits the big, full-swing loops of modern attack play. Against the Harimoto it tends to read as more linear and powerful — less dwell-flashy, more "push through" — which is why it is a natural home for tacky Chinese-style rubbers that add their own bite. Against the Viscaria, both inner boards give up first-contact crispness in exchange for an easier, safer arc on spin. In practice one individual blade varies more from another of the same model than the labels differ, so choose on feel and available stock rather than expecting a dramatic change of character. See [outer vs inner fibre](../guide/outer-vs-inner-fiber.md) for the full comparison.
+
+For rubbers, the Hurricane family pairing is the classic one — a tacky sheet like the DHS Hurricane 3 lineage on the forehand matches the blade's linear push, while a high-tension sheet such as [Dignics 05](dignics-05.md) or [Tenergy 05](tenergy-05.md) adds easy pace on the backhand. The family logic is explained in [Why Play Tenergy Before Dignics?](../guide/why-tenergy-before-dignics.md).
 
 ## Ordering
 

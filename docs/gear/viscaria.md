@@ -1,5 +1,7 @@
 ---
-description: "Butterfly Viscaria — the reference outer-ALC blade. Brand-new blade, WhatsApp quote on MyGear.Top."
+title: "Butterfly Viscaria Review, Price & Specs | MyGear.Top"
+description: "Looking for a Butterfly Viscaria? Explore our detailed overview, outer-ALC feel analysis, global pricing, and worldwide shipping info."
+updated: "2026-09-08"
 ---
 
 # Butterfly Viscaria
@@ -57,9 +59,47 @@ description: "Butterfly Viscaria — the reference outer-ALC blade. Brand-new bl
 
 That is why Viscaria became the reference — not because it is extreme, but because it is *balanced*: firm enough to block and counter with ease, yet flexible enough to load spin on a committed loop. It has been a mainstream choice from club level to the world tour for years, and it remains the first composite most players compare everything else to.
 
+## Specifications
+
+| Spec | Viscaria |
+| --- | --- |
+| Construction | 5-ply wood + 2 Arylate-Carbon, outer ALC (Koto / ALC / Limba / Kiri core) |
+| Blade size | 157 × 150 mm |
+| Thickness | 5.7 mm |
+| Reaction | 11.8 |
+| Vibration | 10.3 |
+
+*Butterfly's official catalogue figures for a typical piece. Reaction and Vibration are Butterfly's own index numbers rather than a 1–10 rating — higher Reaction means a livelier rebound, higher Vibration a crisper, more talkative feel.*
+
 ## Feel & character
 
 The fibre gives a crisp, direct first touch. On lighter contact the blade is honest and quick rather than soft and dwell-heavy; when you swing through a loop or a fast drive it rewards clean timing with a lively, controlled kick. For the difference between outer and inner fibre placement, see our guide to [outer vs inner fibre](../guide/outer-vs-inner-fiber.md) — Viscaria is the classic outer example.
+
+<div class="mg-cta-card" markdown="0">
+  <div class="mg-cta-card__body">
+    <p class="mg-cta-card__title">Ready to get yours?</p>
+    <p class="mg-cta-card__text">Check the live price table or request a quote via WhatsApp.</p>
+  </div>
+  <div class="mg-cta-card__actions">
+    <a class="mg-home-hero__btn mg-home-hero__btn--primary" href="https://wa.me/8618627156285?text=Hello%2C%20I%27d%20like%20a%20quote%20for%20a%20brand-new%20Butterfly%20Viscaria%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A">Request a quote on WhatsApp</a>
+    <a class="mg-cta-card__outline" href="/blades/">Live price table</a>
+  </div>
+</div>
+
+## Viscaria vs Fan Zhendong ALC & Zhang Jike ALC
+
+If you are weighing the Viscaria against its two best-known reissues — the [Fan Zhendong ALC](fan-zhendong-alc.md) and the [Zhang Jike ALC](zhang-jike-alc.md) — the honest headline is that they are close cousins: the same outer-ALC blueprint on the same wood core.
+
+| | Viscaria | Fan Zhendong ALC | Zhang Jike ALC |
+| --- | --- | --- | --- |
+| Construction | 5-ply wood + 2 outer ALC (Koto) | 5-ply wood + 2 outer ALC (Koto) | 5-ply wood + 2 outer ALC (Koto) |
+| Blade size | 157 × 150 mm | 157 × 150 mm | 157 × 150 mm |
+| Thickness | 5.7 mm | 5.8 mm | 5.8 mm |
+| Community character | the crisp reference | slightly softer, extra spin & control | softest, most spin-friendly arc |
+
+Look down the table and the three are, on paper, almost the same blade: Butterfly lists the same construction and the same 157 × 150 mm head, and only the Viscaria is a hair thinner. The differences players report are small and subtle — the FZD ALC tends to feel a touch softer in the short game and a little more solid under the hand, and the ZJK ALC is the softest-spinning of the three, while the Viscaria stays the crisper reference against which both are judged. In practice one individual blade varies more from another of the same model than the labels differ, so choose between them on feel and available stock rather than expecting a dramatic change of character. If you want the deeper, dwell-heavy side of the family instead, step to an inner-fibre blade — see [outer vs inner fibre](../guide/outer-vs-inner-fiber.md).
+
+For rubbers, the Dignics and Tenergy lines are the natural partners — clean high-tension sheets such as [Dignics 05](dignics-05.md) or [Tenergy 05](tenergy-05.md) keep the blade's direct outer-ALC feel, and a semi-tacky sheet like [Dignics 09C](dignics-09c.md) adds extra bite on serve and opening loops. The family logic is explained in [Why Play Tenergy Before Dignics?](../guide/why-tenergy-before-dignics.md).
 
 ## Ordering
 
