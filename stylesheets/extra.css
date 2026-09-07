@@ -3427,3 +3427,52 @@ html.md-no-js .md-typeset .mg-bio__toggle {
   color: #94a3b8;
   text-align: center;
 }
+
+
+/* ---- Mid-article CTA card (product pages) ---- */
+.mg-cta-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.4rem 0;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid #a7f3d0;
+  border-radius: 0.9rem;
+  background: #f0fdfa;
+}
+.mg-cta-card__title {
+  margin: 0 0 0.2rem !important;
+  color: #0f766e !important;
+  font-size: 1.05rem;
+  font-weight: 800;
+  line-height: 1.3;
+}
+.mg-cta-card__text {
+  margin: 0 !important;
+  color: #475569 !important;
+  font-size: 0.85rem;
+  line-height: 1.45;
+}
+.mg-cta-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+.mg-cta-card__outline {
+  display: inline-block !important;
+  padding: 0.48rem 1.05rem !important;
+  border-radius: 999px !important;
+  font-size: 0.78rem !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  line-height: 1.2 !important;
+  border: 1px solid #0f766e;
+  color: #0f766e;
+}
+.mg-cta-card__outline:hover {
+  background: #0f766e !important;
+  color: #fff !important;
+}
