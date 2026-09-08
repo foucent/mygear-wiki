@@ -52,7 +52,7 @@ hide:
 
 </div>
 
-## Blade price table <span class="mg-list-badge mg-list-badge--proxy">Proxy buy</span> <span class="mg-list-meta">Updated 12 Aug 2026</span>
+## Blade price table <span class="mg-list-badge mg-list-badge--proxy">Proxy buy</span> <span class="mg-list-meta">Updated 08 Sep 2026</span>
 
 <div class="admonition note mg-page-note mg-list-note mg-list-note--proxy">
   <p class="admonition-title">Proxy buy</p>
@@ -89,7 +89,16 @@ hide:
 | <img src="../images/price-list/blades/victas-koki-niwa.jpg" alt=""> | Victas Koki Niwa | $145 |
 | <img src="../images/price-list/blades/victas-koji-matsushita-offensive.jpg" alt=""> | Victas Koji Matsushita Offensive | $92 |
 | <img src="../images/price-list/blades/dhs-power-g7.jpg" alt=""> | DHS Power G7 | $20 |
+| <img src="../images/price-list/blades/dhs-classic-08x.jpg" alt=""> | DHS Classic 08X | $50 |
+| <img src="../images/price-list/blades/dhs-fang-bo-carbon.jpg" alt=""> | DHS Fang Bo Carbon | $99 |
+| <img src="../images/price-list/blades/yinhe-pro-01.jpg" alt=""> | Yinhe Pro 01 | $50 |
+| <img src="../images/price-list/blades/yinhe-v-14-pro.jpg" alt=""> | Yinhe V-14 Pro | $52 |
 
+</div>
+
+<div class="admonition note mg-page-note mg-list-note mg-list-note--proxy">
+  <p class="admonition-title">Custom</p>
+  <p>If you have special needs, or would like to know the proxy-buy price for another product not listed here, please <a href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20product%20not%20listed%20on%20your%20site." target="_blank" rel="noopener noreferrer">confirm with me on WhatsApp</a>.</p>
 </div>
 
 <div class="admonition note mg-page-note">

@@ -764,5 +764,10 @@ hide:
 </table>
 </div>
 
+<div class="admonition note mg-page-note mg-list-note mg-list-note--proxy">
+  <p class="admonition-title">Custom</p>
+  <p>If you have special needs, or would like to know the proxy-buy price for another product not listed here, please <a href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20product%20not%20listed%20on%20your%20site." target="_blank" rel="noopener noreferrer">confirm with me on WhatsApp</a>.</p>
+</div>
+
 !!! tip "Related"
     Checkout: [How to Order](order.md). New-gear USD references: [Blades](blades.md) · [Rubbers](rubbers.md). Policies: [FAQ & Shipping](FAQ.md).

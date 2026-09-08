@@ -60,7 +60,7 @@ hide:
 
 </div>
 
-## Rubber price table <span class="mg-list-badge mg-list-badge--proxy">Proxy buy</span> <span class="mg-list-meta">Updated 12 Aug 2026</span>
+## Rubber price table <span class="mg-list-badge mg-list-badge--proxy">Proxy buy</span> <span class="mg-list-meta">Updated 08 Sep 2026</span>
 
 <div class="admonition note mg-page-note mg-list-note mg-list-note--proxy">
   <p class="admonition-title">Proxy buy</p>
@@ -97,8 +97,8 @@ hide:
 | <img src="../images/featured-rubbers/xiom-vega-china.jpg" alt="" data-options="2.0 red, 2.0 black, Max black, Max red"> | XIOM Vega China | $30 |
 | <img src="../images/featured-rubbers/yasaka-rakza-7-soft.jpg" alt="" data-options="Max black, Max red"> | Yasaka Rakza 7 Soft | $39 |
 | <img src="../images/featured-rubbers/victas-v-15-extra.jpg" alt="" data-options="Max black, Max red, Max blue"> | Victas V > 15 Extra | $36 |
-| <img src="../images/featured-rubbers/donic-bluegrip-j1.jpg" alt="" data-options="Max black, Max red"> | Donic BlueGrip J1 | <del>$33</del> |
-| <img src="../images/featured-rubbers/donic-bluegrip-j2.jpg" alt="" data-options="Max black, Max red"> | Donic BlueGrip J2 | <del>$33</del> |
+| <img src="../images/featured-rubbers/donic-bluegrip-j1.jpg" alt="" data-options="Max black, Max red"> | Donic BlueGrip J1 | $46 |
+| <img src="../images/featured-rubbers/donic-bluegrip-j2.jpg" alt="" data-options="Max black, Max red"> | Donic BlueGrip J2 | $46 |
 | <img src="../images/featured-rubbers/nittaku-fastarc-g-1.jpg" alt="" data-options="2.0 black, 2.0 red, Max black, Max red"> | Nittaku Fastarc G-1 | $33 |
 | <img src="../images/featured-rubbers/tibhar-evolution-el-p.jpg" alt="" data-options="Max black, Max red, 1.9-2.0 black, 1.9-2.0 red"> | Tibhar Evolution EL-P | $36 |
 | <img src="../images/featured-rubbers/yasaka-psych-dragon-pro.jpg" alt="" data-options="Max medium-soft red, Max medium-soft black, Max medium-hard red, Max medium-hard black"> | Yasaka Psych Dragon Pro | $33 |
@@ -107,6 +107,11 @@ hide:
 | <img src="../images/featured-rubbers/xiom-vega-intro.jpg" alt="" data-options="1.5 red, 1.5 black, 1.8 red, 1.8 black, 2.0 red, 2.0 black, Max black, Max red"> | Xiom Vega Intro | $29 |
 | <img src="../images/featured-rubbers/joola-trinity-hc-dynamic.jpg" alt="" data-options="2.0 red, 2.0 black, Max black, Max red"> | Joola Trinity Hugo Calderano Dynamic | $62 |
 
+</div>
+
+<div class="admonition note mg-page-note mg-list-note mg-list-note--proxy">
+  <p class="admonition-title">Custom</p>
+  <p>If you have special needs, or would like to know the proxy-buy price for another product not listed here, please <a href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20product%20not%20listed%20on%20your%20site." target="_blank" rel="noopener noreferrer">confirm with me on WhatsApp</a>.</p>
 </div>
 
 <div class="admonition note mg-page-note">
