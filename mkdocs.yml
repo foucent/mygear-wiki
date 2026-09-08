@@ -2,6 +2,13 @@ site_name: MyGear.Top
 site_url: https://mygear.top/
 site_description: Table tennis blades, rubbers, pre-owned gear, buying guides, and brand photo galleries — USD prices with WhatsApp checkout.
 copyright: "© 2026 Mygear.top. All rights reserved. Independently published since 2025."
+# Validation / log-level tuning. The /gear/ product & brand pages are
+# intentionally kept out of the nav (they are linked from the price tables and
+# homepage, and are listed in the sitemap), so only log their omission at INFO.
+# Broken doc links and anchors keep the default WARNING so real problems surface.
+validation:
+  nav:
+    omitted_files: info
 hooks:
   - hooks/product_schema.py
 theme:
