@@ -40,7 +40,7 @@ hide:
 
 </div>
 
-## Pre-owned list <span class="mg-list-meta">USD prices · Updated 07 Sep 2026</span>
+## Pre-owned list <span class="mg-list-meta">USD prices · Updated 08 Sep 2026</span>
 
 <p class="mg-preowned-showing" markdown="0">Loading results…</p>
 <p class="mg-price-legend" markdown="0"><span class="mg-price-legend__stock">Available (<span class="mg-preowned-count">—</span> items)</span><span class="mg-price-legend__sold">Sold / Out of stock</span></p>
@@ -754,6 +754,11 @@ hide:
       <td><img src="/images/yinhe-cttaa-special-89g/01.jpg" alt="Yinhe CTTAA Special | 89g" loading="lazy" data-gallery="/images/yinhe-cttaa-special-89g/01.jpg,/images/yinhe-cttaa-special-89g/02.jpg,/images/yinhe-cttaa-special-89g/03.jpg,/images/yinhe-cttaa-special-89g/04.jpg,/images/yinhe-cttaa-special-89g/05.jpg"></td>
       <td>Yinhe CTTAA Special | 89g</td>
       <td style="text-align:right">$75</td>
+    </tr>
+<tr data-added="2026-09-08">
+      <td><img src="/images/zhang-jk-szlc-t-code-91g/01.jpg" alt="Zhang JK SZLC | T-Code | 91g" loading="lazy" data-gallery="/images/zhang-jk-szlc-t-code-91g/01.jpg,/images/zhang-jk-szlc-t-code-91g/02.jpg,/images/zhang-jk-szlc-t-code-91g/03.jpg,/images/zhang-jk-szlc-t-code-91g/04.jpg,/images/zhang-jk-szlc-t-code-91g/05.jpg,/images/zhang-jk-szlc-t-code-91g/06.jpg,/images/zhang-jk-szlc-t-code-91g/07.jpg,/images/zhang-jk-szlc-t-code-91g/08.jpg"></td>
+      <td>Zhang JK SZLC | T-Code | 91g</td>
+      <td style="text-align:right">$198</td>
     </tr>
 <tr>
       <td><img src="/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/01.jpg" alt="Yinhe PRK Choi Hyun Hwa North Korea Team Special | 90g" loading="lazy" data-gallery="/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/01.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/02.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/03.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/04.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/05.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/06.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/07.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/08.jpg"></td>
