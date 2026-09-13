@@ -1,9 +1,9 @@
-"""Inject schema.org Product JSON-LD into /gear/<slug>/ product pages.
+"""Inject schema.org JSON-LD into /gear/<slug>/ product and /guide/<slug>/ article pages.
 
 Each entry holds the facts already published on the matching page and in the
 price tables (docs/blades.md / docs/rubbers.md): product name, brand, primary
-product photo and list price in USD. Keep this table in sync when a product
-page or its price changes.
+product photo and list price in USD. Keep these tables in sync when a page or
+its price changes.
 
 No aggregateRating / Review is emitted: the rating bars shown on the pages
 are community samples displayed as plain content, not on-page user reviews,
@@ -53,8 +53,80 @@ PRODUCTS = {
 }
 
 
+# Guide/article pages translated from Chinese source articles.
+# slug -> (headline, lead image path)
+ARTICLES = {
+    "blade-thickness-and-flatness": (
+        "Blade Thickness — Penetration, Spin vs. Speed, and Flatness",
+        "images/blade-thickness/01.png"),
+}
+
+
+def _add_updated_line(page):
+    """Mirror the frontmatter `updated:` date as a small line under the H1.
+
+    Opt-in per page, so bump `updated:` whenever the content is revised. The
+    returned date feeds the matching JSON-LD `dateModified`, keeping the crawl
+    date in step with the date a visitor actually reads.
+    """
+    updated = page.meta.get("updated")
+    if not updated:
+        return None
+    updated_str = str(updated)[:10]
+
+    marker = "</h1>"
+    i = page.content.find(marker)
+    if i == -1:
+        return updated_str
+    j = i + len(marker)
+    page.content = (page.content[:j]
+                    + '\n<p class="mg-updated">Updated '
+                      f'<time datetime="{updated_str}">{updated_str}</time></p>'
+                    + page.content[j:])
+    return updated_str
+
+
+def _emit(page, ld):
+    page.content += ('\n<script type="application/ld+json">'
+                     + json.dumps(ld, ensure_ascii=False) + "</script>")
+
+
 def on_page_context(context, page, config, nav):
-    if not page.url.startswith("gear/") or not page.url.endswith("/"):
+    updated_str = _add_updated_line(page)
+
+    if not page.url.endswith("/"):
+        return
+    site = config["site_url"].rstrip("/")
+    page_url = f"{site}/{page.url}"
+
+    if page.url.startswith("guide/"):
+        slug = page.url[len("guide/"):-1]
+        if slug not in ARTICLES or not page.meta.get("description"):
+            return
+        headline, img = ARTICLES[slug]
+        publisher = {"@type": "Organization", "name": config["site_name"],
+                     "url": site}
+        ld = {
+            "@context": "https://schema.org/",
+            "@type": "Article",
+            "headline": headline,
+            "description": page.meta["description"],
+            "image": f"{site}/{img}",
+            "url": page_url,
+            "mainEntityOfPage": {"@type": "WebPage", "@id": page_url},
+            "author": publisher,
+            "publisher": publisher,
+        }
+        # `imported:` marks when the translation went live.
+        published = page.meta.get("imported")
+        if published:
+            ld["datePublished"] = str(published)[:10]
+        if updated_str:
+            ld["dateModified"] = updated_str
+        _emit(page, ld)
+        return
+
+    if not page.url.startswith("gear/"):
         return
     slug = page.url[len("gear/"):-1]
     if slug not in PRODUCTS:
@@ -63,24 +135,7 @@ def on_page_context(context, page, config, nav):
     if not page.meta.get("description"):
         return
 
-    site = config["site_url"].rstrip("/")
-    page_url = f"{site}/{page.url}"
     image = f"{site}/{img}"
-
-    # Content freshness: "Updated on <date>" as a small line under the H1, and
-    # dateModified mirrored in the JSON-LD so the crawl date matches what the
-    # visitor sees. Bump `updated:` in the page frontmatter whenever the page
-    # content is revised.
-    updated = page.meta.get("updated")
-    updated_str = str(updated)[:10] if updated else None
-    if updated_str:
-        sub = ('<p class="mg-updated">Updated '
-               f'<time datetime="{updated_str}">{updated_str}</time></p>')
-        marker = "</h1>"
-        i = page.content.find(marker)
-        if i != -1:
-            j = i + len(marker)
-            page.content = page.content[:j] + "\n" + sub + page.content[j:]
 
     ld = {
         "@context": "https://schema.org/",
@@ -104,5 +159,4 @@ def on_page_context(context, page, config, nav):
     if mpn:
         ld["mpn"] = mpn
 
-    script = '<script type="application/ld+json">' + json.dumps(ld, ensure_ascii=False) + "</script>"
-    page.content += "\n" + script
+    _emit(page, ld)
