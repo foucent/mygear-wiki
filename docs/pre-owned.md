@@ -40,7 +40,7 @@ hide:
 
 </div>
 
-## Pre-owned list <span class="mg-list-meta">USD prices · Updated 11 Sep 2026</span>
+## Pre-owned list <span class="mg-list-meta">USD prices · Updated 14 Sep 2026</span>
 
 <p class="mg-preowned-showing" markdown="0">Loading results…</p>
 <p class="mg-price-legend" markdown="0"><span class="mg-price-legend__stock">Available (<span class="mg-preowned-count">—</span> items)</span><span class="mg-price-legend__sold">Sold / Out of stock</span></p>
@@ -769,6 +769,16 @@ hide:
       <td><img src="/images/fan-zd-alc-k-code-jp-84g/01.jpg" alt="Fan ZD ALC | K-Code | JP | 84g" loading="lazy" data-gallery="/images/fan-zd-alc-k-code-jp-84g/01.jpg,/images/fan-zd-alc-k-code-jp-84g/02.jpg,/images/fan-zd-alc-k-code-jp-84g/03.jpg,/images/fan-zd-alc-k-code-jp-84g/04.jpg,/images/fan-zd-alc-k-code-jp-84g/05.jpg,/images/fan-zd-alc-k-code-jp-84g/06.jpg,/images/fan-zd-alc-k-code-jp-84g/07.jpg"></td>
       <td>Fan ZD ALC | K-Code | JP | 84g</td>
       <td style="text-align:right">$98</td>
+    </tr>
+<tr data-added="2026-09-14">
+      <td><img src="/images/long-5x-cs-87g/01.jpg" alt="DHS Long 5x | CS | 87g | Without box" loading="lazy" data-gallery="/images/long-5x-cs-87g/01.jpg,/images/long-5x-cs-87g/02.jpg,/images/long-5x-cs-87g/03.jpg,/images/long-5x-cs-87g/04.jpg,/images/long-5x-cs-87g/05.jpg,/images/long-5x-cs-87g/06.jpg,/images/long-5x-cs-87g/07.jpg"></td>
+      <td>DHS Long 5x | CS | 87g | Without box</td>
+      <td style="text-align:right">$66</td>
+    </tr>
+<tr data-added="2026-09-14">
+      <td><img src="/images/harimoto-salc-y-code-jp-86g/01.jpg" alt="Harimoto SALC | Y-code | JP | 86g | Original Box" loading="lazy" data-gallery="/images/harimoto-salc-y-code-jp-86g/01.jpg,/images/harimoto-salc-y-code-jp-86g/02.jpg,/images/harimoto-salc-y-code-jp-86g/03.jpg,/images/harimoto-salc-y-code-jp-86g/04.jpg,/images/harimoto-salc-y-code-jp-86g/05.jpg,/images/harimoto-salc-y-code-jp-86g/06.jpg,/images/harimoto-salc-y-code-jp-86g/07.jpg"></td>
+      <td>Harimoto SALC | Y-code | JP | 86g | Original Box</td>
+      <td style="text-align:right">$109</td>
     </tr>
 <tr>
       <td><img src="/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/01.jpg" alt="Yinhe PRK Choi Hyun Hwa North Korea Team Special | 90g" loading="lazy" data-gallery="/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/01.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/02.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/03.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/04.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/05.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/06.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/07.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/08.jpg"></td>
