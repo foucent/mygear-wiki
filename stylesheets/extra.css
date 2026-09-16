@@ -3338,21 +3338,35 @@ html.md-no-js .md-typeset .mg-bio__toggle {
 .md-typeset .mg-guides__grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  /* 1fr rows + stretch: every card ends up the same size. */
+  grid-auto-rows: 1fr;
   gap: 2.2rem 1.6rem;
-  align-items: start;
+  align-items: stretch;
   margin: 0;
 }
 .md-typeset .mg-guide-card {
-  display: block;
+  display: flex;
+  flex-direction: column;
   color: inherit;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
+  /* Black frame so each card reads as a separate block. */
+  border: 1px solid #111;
+  padding: 0.85rem;
+  background: #fff;
+  transition: border-color 0.25s ease;
+}
+.md-typeset .mg-guide-card:hover,
+.md-typeset .mg-guide-card:focus {
+  border-color: #000;
 }
 .md-typeset .mg-guide-card__media {
   position: relative;
   overflow: hidden;
   aspect-ratio: 4 / 3;
   background: #eef0f2;
+  /* Fixed height — any spare card height goes to the text block instead. */
+  flex: 0 0 auto;
 }
 .md-typeset .mg-guide-card__media img {
   display: block;
@@ -3368,6 +3382,9 @@ html.md-no-js .md-typeset .mg-bio__toggle {
 }
 .md-typeset .mg-guide-card__body {
   padding-top: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
 }
 .md-typeset .mg-guide-card__cat {
   display: inline-block;
@@ -3389,6 +3406,12 @@ html.md-no-js .md-typeset .mg-bio__toggle {
   letter-spacing: 0.01em;
   text-transform: uppercase;
   color: #111;
+  /* Reserve three lines so the title block is the same height on every card. */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: calc(3 * 1.08em);
 }
 .md-typeset .mg-guide-card:hover .mg-guide-card__title,
 .md-typeset .mg-guide-card:focus .mg-guide-card__title {
@@ -3403,10 +3426,20 @@ html.md-no-js .md-typeset .mg-bio__toggle {
   font-size: 0.78rem;
   line-height: 1.55;
   color: #5f6368;
+  /* Four lines covers the longest current excerpt, so nothing is clipped and
+     every card's text block ends at the same point. */
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: calc(4 * 1.55em);
 }
 .md-typeset .mg-guide-card__link {
   display: inline-block;
-  margin-top: 0.65rem;
+  align-self: flex-start;
+  /* Pushed to the bottom of the card, so the link row lines up too. */
+  margin-top: auto;
+  padding-top: 0.65rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.7rem;
   font-weight: 700;
@@ -3423,6 +3456,15 @@ html.md-no-js .md-typeset .mg-bio__toggle {
   .md-typeset .mg-guides__grid {
     grid-template-columns: 1fr;
     gap: 1.6rem;
+  }
+  /* Narrow screens wrap titles onto more lines; drop the reserved line counts so
+     nothing gets clipped. The 1fr rows still even every card out. */
+  .md-typeset .mg-guide-card__title,
+  .md-typeset .mg-guide-card__excerpt {
+    display: block;
+    -webkit-line-clamp: none;
+    min-height: 0;
+    overflow: visible;
   }
 }
 
