@@ -53,11 +53,6 @@ description: "Get brand-new table tennis blades, popular rubbers, and sports gea
     </div>
   </section>
 
-  <div class="admonition note mg-page-note mg-list-note mg-list-note--proxy">
-    <p class="admonition-title">No online payment</p>
-    <p>I'm dedicated to providing table tennis players and enthusiasts around the world with quality, affordable equipment sourced from the China market. Due to transaction costs and our limited IT capabilities, we currently don't support online payment. Thank you for your understanding and support!</p>
-  </div>
-
 </div>
 
 <section class="mg-home-hot" aria-label="Hot gear" markdown="0">
