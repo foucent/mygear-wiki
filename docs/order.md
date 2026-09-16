@@ -81,7 +81,7 @@ I then prepare a formal **order form / spreadsheet** for a second confirmation. 
 
 - **Recommended:** [Wise](https://wise.com/invite/ahpc/pingl621) / Alipay (Southeast Asia customers) — usually instant
 - **Bank transfer** (1–3 business days)
-- **PayPal** (not recommended) — **5%** extra fee
+- **PayPal** — **3.9%** extra
 
 After you pay, send a quick "Paid" note — I confirm when the payment is received.
 

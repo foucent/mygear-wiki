@@ -15,6 +15,7 @@ Latest store updates, gear reviews, and customer feedback. For ordering and ship
 
 | Date | Update |
 | --- | --- |
+| **2026-09-16** | **Added:** PayPal payments accepted. |
 | **2026-08-26** | Optimized blades & rubbers product display — in-stock grids, proxy-buy tables, compact cards, and mobile layout fixes. |
 | **2026-08-15** | **Removed:** online live chat — checkout on WhatsApp again. |
 | **2026-08-02** | **Added:** online live chat is live. No WhatsApp — chat with me on the site and order directly in the chat. |
