@@ -40,7 +40,7 @@ hide:
 
 </div>
 
-## Pre-owned list <span class="mg-list-meta">USD prices · Updated 17 Sep 2026</span>
+## Pre-owned list <span class="mg-list-meta">USD prices · Updated 20 Sep 2026</span>
 
 <p class="mg-preowned-showing" markdown="0">Loading results…</p>
 <p class="mg-price-legend" markdown="0"><span class="mg-price-legend__stock">Available (<span class="mg-preowned-count">—</span> items)</span><span class="mg-price-legend__sold">Sold / Out of stock</span></p>
@@ -784,6 +784,11 @@ hide:
       <td><img src="/images/fan-zd-salc-k-code-jp-89g/01.jpg" alt="Fan ZD SALC | K-Code | JP | 89g | Original Box" loading="lazy" data-gallery="/images/fan-zd-salc-k-code-jp-89g/01.jpg,/images/fan-zd-salc-k-code-jp-89g/02.jpg,/images/fan-zd-salc-k-code-jp-89g/03.jpg,/images/fan-zd-salc-k-code-jp-89g/04.jpg,/images/fan-zd-salc-k-code-jp-89g/05.jpg,/images/fan-zd-salc-k-code-jp-89g/06.jpg,/images/fan-zd-salc-k-code-jp-89g/07.jpg"></td>
       <td>Fan ZD SALC | K-Code | JP | 89g | Original Box</td>
       <td style="text-align:right">$118</td>
+    </tr>
+<tr data-added="2026-09-20">
+      <td><img src="/images/fan-zd-salc-x-code-cn-91g/01.jpg" alt="Fan ZD SALC | X-Code | CN | 91g | Without box" loading="lazy" data-gallery="/images/fan-zd-salc-x-code-cn-91g/01.jpg,/images/fan-zd-salc-x-code-cn-91g/02.jpg,/images/fan-zd-salc-x-code-cn-91g/03.jpg,/images/fan-zd-salc-x-code-cn-91g/04.jpg,/images/fan-zd-salc-x-code-cn-91g/05.jpg,/images/fan-zd-salc-x-code-cn-91g/06.jpg,/images/fan-zd-salc-x-code-cn-91g/07.jpg,/images/fan-zd-salc-x-code-cn-91g/08.jpg"></td>
+      <td>Fan ZD SALC | X-Code | CN | 91g | Without box</td>
+      <td style="text-align:right">$125</td>
     </tr>
 <tr>
       <td><img src="/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/01.jpg" alt="Yinhe PRK Choi Hyun Hwa North Korea Team Special | 90g" loading="lazy" data-gallery="/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/01.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/02.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/03.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/04.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/05.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/06.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/07.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/08.jpg"></td>
