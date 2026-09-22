@@ -795,6 +795,11 @@ hide:
       <td>Butterfly Senkoh FT | 93g | Without box</td>
       <td style="text-align:right">$107</td>
     </tr>
+<tr data-added="2026-09-22">
+      <td><img src="/images/lin-yun-ju-szlc-cn-y-code-86g/01.jpg" alt="Lin Yun-Ju SZLC | CN | Y-code | 86g | Without box" loading="lazy" data-gallery="/images/lin-yun-ju-szlc-cn-y-code-86g/01.jpg,/images/lin-yun-ju-szlc-cn-y-code-86g/02.jpg,/images/lin-yun-ju-szlc-cn-y-code-86g/03.jpg,/images/lin-yun-ju-szlc-cn-y-code-86g/04.jpg,/images/lin-yun-ju-szlc-cn-y-code-86g/05.jpg,/images/lin-yun-ju-szlc-cn-y-code-86g/06.jpg,/images/lin-yun-ju-szlc-cn-y-code-86g/07.jpg,/images/lin-yun-ju-szlc-cn-y-code-86g/08.jpg,/images/lin-yun-ju-szlc-cn-y-code-86g/09.jpg"></td>
+      <td>Lin Yun-Ju SZLC | CN | Y-code | 86g | Without box</td>
+      <td style="text-align:right">$159</td>
+    </tr>
 <tr>
       <td><img src="/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/01.jpg" alt="Yinhe PRK Choi Hyun Hwa North Korea Team Special | 90g" loading="lazy" data-gallery="/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/01.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/02.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/03.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/04.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/05.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/06.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/07.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/08.jpg"></td>
       <td>Yinhe PRK Choi Hyun Hwa North Korea Team Special | 90g</td>
