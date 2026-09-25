@@ -1,0 +1,96 @@
+/* ============================================================
+   MyGear design tokens — the uncrate-derived light palette that
+   AceBase uses, which is what this site is now themed on.
+
+   Black header band over a white body, tan accent, green for
+   buy actions, red for prices.
+
+   The --ab-* family is the semantic layer and is the one to use in
+   new rules. The --mg-* names are this site's older token names,
+   kept as aliases so existing per-component rules keep resolving;
+   migrate them to --ab-* as each file is touched.
+
+   Why this file exists separately from extra.css: loading order is
+   the only lever available to override Material's palette, and a
+   token block has to be in place before anything reads it. See the
+   note about `primary: custom` in mkdocs.yml — declaring the
+   palette there is what lets these values be the single source.
+
+   NOTE: never write a `*` immediately followed by `/` inside a
+   comment in this file — it closes the comment early and the
+   browser drops the rule that follows.
+   ============================================================ */
+
+:root {
+  /* Surfaces + ink */
+  --ab-bg: #ffffff;
+  --ab-panel: #ffffff;
+  --ab-panel-2: #f7f7f7;
+  --ab-line: #c7c7c7;
+  --ab-line-soft: #e4e4e4;
+  --ab-text: #000000;
+  --ab-text-muted: #666666;      /* 5.7:1 on white — the lightest text that passes */
+  --ab-text-faint: #989898;      /* 2.9:1 — uncrate's own tone, but decorative
+                                    only: rules, separators, placeholder marks.
+                                    Never put text on it. */
+
+  /* Accents. --ab-accent is uncrate's own tan and is decorative only
+     (rules, underlines, borders) — at 2.6:1 on white it must never carry
+     text. --ab-accent-deep is the text-safe variant of the same hue
+     (5.9:1), used for links, active nav and category labels. */
+  --ab-accent: #ae9e85;
+  --ab-accent-deep: #6f6250;
+  --ab-green: #116b33;
+  --ab-green-deep: #0a5426;      /* the green's own hover shade */
+  --ab-red: #c02434;
+  --ab-purple: #6d28d9;
+
+  /* Header band stays black in the light theme */
+  --ab-header-bg: #000000;
+  --ab-header-fg: #ffffff;
+
+  /* Type stacks. Neither font is downloaded — theme.font is false, so the
+     site makes no third-party request at all; PingFang SC / Microsoft YaHei
+     take over wherever Inter is not already installed. */
+  --ab-sans: "PingFang SC", "Microsoft YaHei", Inter, -apple-system, "Segoe UI", sans-serif;
+  --ab-serif: Georgia, "Songti SC", "Times New Roman", SimSun, serif;
+
+  /* Material overrides. These only take effect because the palette is
+     `primary: custom` / `accent: custom` in mkdocs.yml: a real palette name
+     makes Material write its own --md-* values onto <body>, and a custom
+     property declared on <body> beats anything inherited from :root,
+     regardless of file order or specificity. */
+  --md-primary-fg-color: #000000;
+  --md-primary-fg-color--light: #333333;
+  --md-primary-fg-color--dark: #000000;
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: #ffffff;
+  --md-accent-fg-color: var(--ab-accent-deep);
+  --md-accent-fg-color--transparent: rgba(174, 158, 133, 0.15);
+  --md-accent-bg-color: #ffffff;
+  --md-default-fg-color: #000000;
+  --md-default-fg-color--light: #333333;
+  --md-default-fg-color--lighter: #666666;
+  --md-default-fg-color--lightest: #c7c7c7;
+  --md-default-bg-color: #ffffff;
+  --md-default-bg-color--light: #f7f7f7;
+  --md-default-bg-color--lighter: #f0f0f0;
+  --md-default-bg-color--lightest: #e4e4e4;
+  --md-code-bg-color: #f7f7f7;
+  --md-code-fg-color: #000000;
+  --md-typeset-a-color: var(--ab-accent-deep);
+  --md-typeset-table-color: rgba(0, 0, 0, 0.08);
+  --md-footer-bg-color: #000000;
+  --md-footer-bg-color--dark: #000000;
+
+  /* Legacy aliases still referenced by existing rules */
+  --mg-ink: var(--ab-text);
+  --mg-ink-muted: var(--ab-text-muted);
+  --mg-nav-active-bg: rgba(174, 158, 133, 0.18);
+  --mg-nav-section: var(--ab-accent-deep);
+  --mg-card-border: var(--ab-line);
+}
+
+body {
+  font-family: var(--ab-sans);
+}

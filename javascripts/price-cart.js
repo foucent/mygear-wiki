@@ -340,15 +340,13 @@
   function ensureUi() {
     if ($("#mg-cart-root")) return $("#mg-cart-root");
 
+    // No floating button: the cart's trigger is the "shop.mygear.top" item in
+    // the masthead strip (see overrides/partials/header.html), which is
+    // server-rendered and so is already in the DOM here. This root is only the
+    // toast and the drawer.
     var root = document.createElement("div");
     root.id = "mg-cart-root";
     root.innerHTML =
-      '<div class="mg-float-stack">' +
-      '<button type="button" class="mg-cart-fab" id="mg-cart-fab" aria-label="Open cart" hidden>' +
-      '  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zM7.2 14h9.45c.75 0 1.4-.41 1.73-1.07L21 6H6.2l-.94-2H1v2h2l3.6 7.59-1.35 2.44C4.52 16.37 5.48 18 7 18h12v-2H7.2l1-1.8z"/></svg>' +
-      '  <span class="mg-cart-fab__count" id="mg-cart-count">0</span>' +
-      "</button>" +
-      "</div>" +
       '<div class="mg-cart-toast" id="mg-cart-toast" hidden role="status" aria-live="polite"></div>' +
       '<div class="mg-cart-drawer" id="mg-cart-drawer" hidden>' +
       '  <div class="mg-cart-drawer__backdrop" data-cart-close="1"></div>' +
@@ -386,17 +384,20 @@
   }
 
   function render(cart) {
-    var fab = $("#mg-cart-fab");
-    var countEl = $("#mg-cart-count");
+    var countEl = $("#mg-cart-hdr-count");
     var itemsEl = $("#mg-cart-items");
     var totalEl = $("#mg-cart-total");
     var wa = $("#mg-cart-wa");
     var count = cartCount(cart);
 
-    if (!fab || !itemsEl) return;
+    if (!itemsEl) return;
 
-    fab.hidden = count === 0;
-    countEl.textContent = String(count);
+    // The badge only exists when header.html rendered it, and it stays hidden
+    // at zero so an empty cart leaves the strip reading as a plain label.
+    if (countEl) {
+      countEl.textContent = String(count);
+      countEl.hidden = count === 0;
+    }
     totalEl.textContent = money(cartTotal(cart));
 
     if (!cart.length) {
@@ -458,8 +459,13 @@
   }
 
   function init() {
-    if (!$(".mg-price-table") && !$(".mg-listing")) return;
-
+    // Every page, not just the ones selling something. The trigger used to be
+    // a floating button built here, so a page with nothing to add had no cart
+    // to open and this bailed out; the trigger is now the masthead's
+    // "shop.mygear.top", which is on all of them, and the cart itself lives in
+    // localStorage — so a reader who added a blade on /blades/ can open it
+    // again from /guide/. enhanceTables/enhanceListings are no-ops where their
+    // elements are absent.
     enhanceTables();
     enhanceListings();
     ensureUi();
@@ -497,7 +503,7 @@
         trackBeginCheckout(cart);
       }
 
-      if (e.target.closest("#mg-cart-fab")) {
+      if (e.target.closest("#mg-cart-hdr")) {
         openDrawer(true);
         return;
       }
