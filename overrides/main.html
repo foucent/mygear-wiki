@@ -1,5 +1,21 @@
 {% extends "base.html" %}
 
+{#- Material's own htmltitle block appends " - {{ site_name }}" to a
+    frontmatter `title:`, same as it does to the nav label. This override drops
+    that suffix on the frontmatter branch only.
+
+    Why: the house convention is that a frontmatter `title:` is a *complete* SEO
+    title with the brand already in it — the /gear/ product pages and two guide
+    articles write theirs as "… Review, Price & Specs | MyGear.Top", and
+    /order/, /FAQ/, /updates/ and /guide/ follow the same shape. Passing those
+    through Material unmodified would render "… | MyGear.Top - MyGear.Top".
+
+    The `elif` branch is deliberately left as Material wrote it: a page with no
+    frontmatter title is titled from its nav label, which the short labels in
+    mkdocs.yml make lossy, so those pages want the site name added.
+
+    Neither branch touches the nav label, the H1, or the search index title —
+    the nav comes from mkdocs.yml and the other two from the H1, all verified. -#}
 {% block htmltitle %}
   {%- if page.meta and page.meta.title -%}
     <title>{{ page.meta.title }}</title>

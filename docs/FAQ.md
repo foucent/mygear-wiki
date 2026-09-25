@@ -1,4 +1,5 @@
 ---
+title: "FAQ & Shipping, Payments & Restricted Regions | MyGear.Top"
 icon: material/help-circle-outline
 source_url: https://mygear.top/faq/
 source_title: "FAQ"
@@ -7,7 +8,7 @@ description: "FAQ and shipping for MyGear.Top table tennis shop — ordering, pa
 ---
 # FAQ & Shipping
 
-Quick answers for ordering, payment, shipping, and authenticity. Step-by-step checkout: [How to Order](order.md). See also [Blades](blades.md) · [Rubbers](rubbers.md) · [Updates & Reviews](updates-reviews.md).
+Quick answers for ordering, payment, shipping, and authenticity. Step-by-step checkout: [How to Order](order.md). See also [Blades](blades.md) · [Rubbers](rubbers.md) · [Updates & Reviews](updates.md).
 
 ---
 
@@ -73,5 +74,5 @@ Click a screenshot to enlarge:
 
 <div class="admonition note mg-page-note">
   <p class="admonition-title">Related</p>
-  <p><a href="/order/">How to Order</a> · <a href="/blades/">Blades</a> · <a href="/rubbers/">Rubbers</a> · <a href="/updates-reviews/">Updates & Reviews</a></p>
+  <p><a href="/order/">How to Order</a> · <a href="/blades/">Blades</a> · <a href="/rubbers/">Rubbers</a> · <a href="/updates/">Updates & Reviews</a></p>
 </div>

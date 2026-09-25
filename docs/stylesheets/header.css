@@ -1,0 +1,349 @@
+/* ============================================================
+   MyGear masthead — the same two bands AceBase (and uncrate.com
+   before it) uses:
+
+     band 1  black, family strip over a centred wordmark, tools right
+     band 2  main nav, 1px black rule underneath
+
+   The markup this styles lives in overrides/partials/header.html, which also
+   documents the Material hooks (.md-header__inner) the markup relies on.
+
+   Two deliberate departures from the AceBase original:
+
+   - The header is static rather than sticky, as it is there.
+   - The nav row is allowed to wrap at every width, and steps its type size
+     down. AceBase's seven CJK labels span ~727px of the 920px column; these
+     eight English labels at 28px/900 uppercase span roughly 1380px plus
+     7 × 16px of gap, which is most of a second line. Wrapping centred beats
+     both alternatives — a row sliced off at the right edge, or a horizontal
+     scrollbar — and it keeps every label whole. Measured, not estimated: the
+     acceptance check is scrollWidth <= clientWidth on .ab-mainnav__list.
+   ============================================================ */
+
+.md-header {
+  /* Material pins the header and paints it --md-primary-fg-color. Both have
+     to go before the bands below can lay themselves out. */
+  position: static;
+  display: block;
+  background: var(--ab-bg);
+  box-shadow: none;
+  color: var(--ab-text);
+}
+
+.md-header__inner {
+  padding: 0;
+}
+
+/* Material gates .md-header__button on :not([hidden]), which outranks a bare
+   class — hence the compound selector and the !important. */
+.md-header__button.ab-band__drawer {
+  display: none !important;
+}
+
+/* No page sets `hide: - navigation` today, so nothing renders the sidebar with
+   the attribute — but header.html still reads page.meta.hide, and if a page
+   ever opts out this keeps the drawer label from opening an empty panel. The
+   desktop half of the same rule lives in uncrate.css §1. */
+.md-sidebar--primary[hidden] {
+  display: none !important;
+}
+
+/* The drawer's own title bar. Material backs it with --md-primary-fg-color,
+   which tokens.css pins to black so the masthead bands read as black — right
+   for the band, but out of scale for a 242px drawer: it rendered 112px tall,
+   with a 48px logo and the site name wrapped onto a second line.
+
+   It has to clear Material's 3rem top padding, which exists to push the title
+   below a sticky header. Ours is position: static, so the drawer already
+   starts at the top of the viewport and that padding is just dead space. */
+.md-nav--primary .md-nav__title[for="__drawer"] {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 56px;
+  padding: 0 16px;
+  background-color: var(--ab-header-bg);
+  color: var(--ab-header-fg);
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  text-transform: uppercase;
+  box-shadow: none;
+}
+
+/* Material absolutely positions this logo at .4rem/.4rem, which is where it
+   lands if the title is left as a plain block — it has to come back into the
+   flex row to sit beside the name. */
+.md-nav--primary .md-nav__title[for="__drawer"] .md-logo,
+.md-nav--primary .md-nav__title[for="__drawer"] .md-logo svg {
+  position: static;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------- band 1 — black ---------- */
+.ab-band {
+  position: relative;
+  z-index: 3;
+  background: var(--ab-header-bg);
+  color: var(--ab-header-fg);
+}
+
+.ab-band__inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  box-sizing: border-box;
+  max-width: 960px;
+  min-height: 84px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.ab-wordmark {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  text-decoration: none !important;
+  color: var(--ab-header-fg) !important;
+  white-space: nowrap;
+}
+
+.ab-wordmark__name {
+  font-size: 2.1rem;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.ab-band__tools {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+/* ---------- band 1 family strip ----------
+   The slim row sitting on the black band above the wordmark: the family and
+   the brand on one centred line, uppercase, with a hairline under them.
+   12px/700 with 0.5px of tracking, 24px between items, 13px above and
+   14px below, and a 1px white rule across the 960px column.
+
+   `px` throughout, and no rem: the strip is a fixed 960px column, so its
+   contents must not grow when Material steps the root font size up (20px →
+   22px at 100em → 24px at 125em). */
+
+.ab-family__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px 24px;
+  box-sizing: border-box;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 13px 20px 14px;
+  list-style: none;
+  border-bottom: 1px solid var(--ab-header-fg);
+}
+
+.ab-family__item {
+  position: relative;
+}
+
+.ab-family__link {
+  display: block;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: var(--ab-header-fg) !important;
+  text-decoration: none !important;
+  opacity: 0.85;
+  transition: opacity 0.15s ease, color 0.15s ease;
+}
+
+.ab-family__link:hover,
+.ab-family__link:focus-visible {
+  opacity: 1;
+  color: var(--ab-accent) !important;
+}
+
+/* uncrate's .atsign: the @ is spacing, not part of the name. */
+.ab-family__at {
+  padding-right: 2px;
+}
+
+/* ---------- the strip's cart ----------
+   A <button>, because it opens the cart drawer price-cart.js appends to <body>
+   rather than navigating anywhere — so it needs the link's type without the
+   button's chrome. The type itself comes from .ab-family__link, which this
+   deliberately does not restate: a `font:` shorthand here would win on file
+   order and reset the strip to the UA's 13.33px. */
+.ab-family__cart {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+}
+
+/* price-cart.js fills this in and clears `hidden` once there is something to
+   count. `[hidden]` has to be restated because the UA rule it relies on is
+   outranked by any author `display`. */
+.ab-family__cart-count {
+  display: inline-block;
+  min-width: 15px;
+  margin-left: 5px;
+  padding: 0 4px;
+  border-radius: 999px;
+  background: var(--ab-red);
+  color: #fff;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 0;
+  text-align: center;
+  vertical-align: 1px;
+}
+
+.ab-family__cart-count[hidden] {
+  display: none;
+}
+
+.ab-band__tool {
+  color: var(--ab-header-fg) !important;
+}
+
+/* ---------- band 2 — main nav ---------- */
+.ab-mainnav {
+  background: var(--ab-bg);
+  border-bottom: 1px solid var(--ab-text);
+}
+
+.ab-mainnav__inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px 14px;
+}
+
+.ab-mainnav__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+  gap: 6px 16px;
+  margin: 0;
+  padding: 0.75rem 0 0;
+  list-style: none;
+}
+
+.ab-mainnav__item {
+  flex: 0 0 auto;
+}
+
+.ab-mainnav__link {
+  display: inline-block;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  color: var(--ab-text) !important;
+  text-decoration: none !important;
+}
+
+.ab-mainnav__link:hover,
+.ab-mainnav__link.is-active {
+  color: var(--ab-accent-deep) !important;
+}
+
+/* ---------- narrow screens ----------
+   One menu, not two. Above here the top row carries every top-level page and
+   the drawer is unreachable; below here the drawer is the menu, so the row
+   goes and the black band's own edge becomes the header's bottom edge.
+
+   76.1875em, not 76.25em: the two rules have to sum to a hair under Material's
+   own 76.25em breakpoint, or a 1px band of viewports gets both menus. */
+@media screen and (max-width: 76.1875em) {
+  .md-header__button.ab-band__drawer {
+    display: inline-block !important;
+  }
+
+  .ab-mainnav {
+    display: none;
+  }
+}
+
+/* Eight English labels never fit on one 920px row at 28px, so the wrap is the
+   resting state, not a fallback — these steps only keep the second line from
+   growing taller than the first. */
+@media screen and (max-width: 1200px) {
+  .ab-mainnav__link {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .ab-mainnav__link {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ab-band__inner {
+    min-height: 68px;
+    padding: 0 16px;
+  }
+
+  /* 16px rather than the 20px above: the band's own padding is 16px on a
+     narrow screen. */
+  .ab-family__list {
+    gap: 6px 16px;
+    padding: 10px 16px 11px;
+  }
+
+  /* The drawer label and the search icon sit ~200px apart on a 390px band,
+     which is not enough room for a viewport-centred 192px wordmark — it
+     renders underneath the search icon. Take it out of absolute centring and
+     let it occupy the gap instead; it can then never collide. */
+  .ab-wordmark {
+    position: static;
+    transform: none;
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .ab-wordmark__name {
+    font-size: 1.4rem;
+  }
+
+  .ab-mainnav__inner {
+    padding: 0 16px 10px;
+  }
+
+  .ab-mainnav__list {
+    gap: 6px 14px;
+    padding-top: 0.6rem;
+  }
+
+  .ab-mainnav__link {
+    font-size: 17px;
+  }
+}

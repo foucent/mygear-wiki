@@ -1,0 +1,1034 @@
+/* ============================================================
+   MyGear — the uncrate-derived layout layer.
+
+   This file loads last on purpose. extra.css carries a couple of hundred
+   !important declarations and a pile of :has() rules that a plain rule in an
+   earlier file cannot out-rank; loading order is the only lever that beats
+   them without a rewrite, so everything here that has to win is either
+   !important against an !important, or a plain rule against a plain one.
+
+   What lives here: the 960px content column, the section-heading ladder, the
+   card recipe and each card family's version of it, and the geometry cleanup
+   (radius and shadow) that the new palette makes unnecessary.
+
+   The measurements come from AceBase at a 1600px viewport, which is the
+   narrowest width at which Material's 150% root font size puts the full
+   960px column on screen:
+
+     content column   960px, centred
+     card             border 1px #c7c7c7, radius .55rem, centred copy,
+                      padding 0 0 20px, media 4:3 contain over a 1px rule
+     card hover       box-shadow 0 8px 24px rgba(0,0,0,.10), translateY(-1px),
+                      border colour unchanged
+     category label   12px/700 uppercase, tan rule, deep-tan ink
+     action link      13px/700 uppercase, 1px tan underline
+     section title    24px/900 uppercase over a 1px black rule
+
+   Title sizes are not one value: 26px is what AceBase's 470px column wants,
+   and it overflows a 306px one. The ladder below is column width -> size, and
+   each grid states which rung it is on.
+   ============================================================ */
+
+/* ---------------------------------------------------------------------------
+   1. The column.
+
+   Material caps .md-main__inner — which *is* .md-grid — at 61rem, and rem
+   steps with the root font size (20px, 22px at 100em, 24px at 125em), so that
+   cap lands at 1220/1342/1464px. None of those is 960. Cap the content
+   instead and let the grid be as wide as it likes.
+
+   Below 1100px the auto margins collapse to whatever the sidebar leaves, so
+   the explicit gutter Material would have used is restored there.
+--------------------------------------------------------------------------- */
+
+.md-main__inner {
+  max-width: none;
+}
+
+/* One nav surface at a time: the top row on desktop, the left drawer on
+   narrow viewports.
+
+   Material already makes that split for us — .md-sidebar--primary is an
+   off-canvas drawer below 76.25em and a permanent column at and above it — so
+   the fix is to drop the column at exactly the width Material promotes it, and
+   let the drawer be the only nav down there.
+
+   This has to be CSS rather than a site-wide `hide: navigation`, which is what
+   it replaced: Material keys the sidebar, the drawer and the header's drawer
+   toggle all on that one element, so hiding it for the desktop also removed the
+   drawer on phones and left the top row as the only menu at 390px. */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+    display: none;
+  }
+}
+
+/* No table of contents, at any width.
+
+   Material keeps the on-page TOC in a second sidebar, and .md-content__inner is
+   centred in whatever width that sidebar leaves behind — so its 266px put every
+   page that has a TOC 133px left of every page that does not (/blades/ at 360,
+   /order/ at 227): the column jumped sideways as you navigated. Hiding it frees
+   the same width `hide: - toc` does, which was the point — .md-content goes
+   1414 -> 1680, .md-content__inner goes 227 -> 360, and every page agrees.
+
+   CSS rather than `hide: - toc` on each page because this is a site-wide
+   decision, and the twelve pages that already carry the key (blades, rubbers,
+   add-ons, pre-owned, index, the /gear/ product pages) are the only reason it
+   was ever inconsistent. Those keys are now redundant but harmless.
+
+   The second selector is the drawer's copy of the same nav. Material renders
+   the secondary nav twice — once in that sidebar, once inside the primary nav
+   for narrow screens — and `hide: - toc` only removes the first, which is why
+   /blades/ still showed a "Table of contents" section in the phone drawer
+   despite setting the key. */
+.md-sidebar--secondary,
+.md-nav--secondary {
+  display: none !important;
+}
+
+.md-content__inner {
+  max-width: 960px;
+  /* !important because Material pins the left margin only, from a
+     specificity-0,5,0 selector:
+
+       @media screen and (min-width: 76.25em) {
+         [dir="ltr"] .md-sidebar--primary:not([hidden]) ~ .md-content > .md-content__inner
+           { margin-left: 1.2rem }
+       }
+
+     Without it the column gets 24px on the left and the whole remainder on
+     the right, so it sits off-centre in every viewport wide enough to show
+     the sidebar. Note that query is 76.25em of the *initial* font size, i.e.
+     1220px — media-query em never follows the root font size Material steps.
+
+     Both margins, and both in the narrow branch below, have to carry the
+     flag: an !important `auto` here would otherwise beat the plain 1.2rem
+     gutter down there, and a full-bleed column has no gutter at all. */
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+@media (max-width: 1100px) {
+  .md-content__inner {
+    max-width: none;
+    margin-left: 1.2rem !important;
+    margin-right: 1.2rem !important;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   2. Section headings.
+
+   One shape for every section title on the site: 24px/900 uppercase over a 1px
+   black rule, no fill, no gradient, no left bar.
+--------------------------------------------------------------------------- */
+
+.md-typeset h1 {
+  color: var(--ab-text);
+  font-weight: 900;
+  letter-spacing: -0.01em;
+  border-bottom: 2px solid var(--ab-text);
+}
+
+.md-typeset h2 {
+  color: var(--ab-text);
+  /* 750, not 900: at h2's size the 900 weight reads as a second h1. */
+  font-weight: 750;
+  letter-spacing: -0.01em;
+}
+
+.md-typeset h3 {
+  color: var(--ab-text);
+  font-weight: 700;
+}
+
+.md-typeset h2 .mg-list-meta,
+.md-typeset h2 .mg-list-badge {
+  border-radius: 0;
+}
+
+/* index.md writes "Shop" and "Hot Gear" as raw HTML carrying a class, but
+   "Brands" and "Guides worth reading" as plain markdown headings. Those two
+   therefore missed the section-title treatment and the home page ended up
+   showing two different heading styles for the same job.
+
+   Scoping on the grid each one introduces restyles exactly those two and
+   nothing else. The obvious alternative — styling `.md-typeset h2` — would
+   turn every article heading on /order/, /pre-owned/ and all eighteen guides
+   into uppercase labels over a black rule, which is not what those pages
+   want. The margins match the classed titles' 0.75rem and reproduce the ~2rem
+   of air Material's own h2 margin was giving above. */
+.md-content__inner > h2:has(+ .mg-brand-grid),
+.md-content__inner > h2:has(+ .mg-guides) {
+  margin: 2rem 0 0.75rem;
+  padding: 0 0 0.4rem;
+  border: 0;
+  border-bottom: 1px solid var(--ab-text);
+  color: var(--ab-text);
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+
+/* ---------------------------------------------------------------------------
+   3. The card.
+
+   One recipe, expressed once, applied to every family by class name. Each
+   family then only has to say what is different about it.
+--------------------------------------------------------------------------- */
+
+.md-typeset .mg-card,
+.md-typeset .mg-guide-card,
+.md-typeset .mg-hot-card,
+.md-typeset .mg-home-cat,
+.mg-preowned-card {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0 0 20px;
+  border: 1px solid var(--ab-line);
+  border-radius: 0.55rem;
+  background: var(--ab-panel);
+  text-align: center;
+  /* The media band is a full-width child, so without this its square corners
+     cut across the card's rounded ones. Clipping here means the per-element
+     top radii below are belt-and-braces rather than load-bearing. */
+  overflow: hidden;
+  transition: border-color 0.12s, box-shadow 0.12s, transform 0.12s;
+}
+
+/* The lift is the whole hover: the border colour deliberately does not
+   change, which is what AceBase renders. */
+.md-typeset .mg-card:hover,
+.md-typeset .mg-guide-card:hover,
+.md-typeset .mg-guide-card:focus,
+.md-typeset .mg-hot-card:hover,
+.md-typeset .mg-home-cat:hover,
+.mg-preowned-card:hover {
+  border-color: var(--ab-line);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px);
+}
+
+/* Media: 4:3, `contain`, over the same hairline the card is drawn with. The
+   product shots are white-background, so the letterbox bars take the panel
+   colour and disappear. */
+.md-typeset .mg-card__media img,
+.md-typeset .mg-hot-card__img,
+.md-typeset .mg-home-cat__img,
+.md-typeset .mg-guide-card__media img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  margin: 0;
+  background: var(--ab-panel);
+  border-bottom: 1px solid var(--ab-line);
+}
+
+.md-typeset .mg-guide-card__media {
+  aspect-ratio: auto;
+  background: var(--ab-panel);
+}
+
+/* The copy block: the family's inner 20px, on top of the card's outer one. */
+.md-typeset .mg-card__copy,
+.md-typeset .mg-guide-card__body,
+.md-typeset .mg-home-cat__body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+/* Category label — the one place a tan rule is allowed to carry text, because
+   the ink is the deep variant of the same hue. */
+.md-typeset .mg-card__cat,
+.md-typeset .mg-guide-card__cat {
+  align-self: center;
+  margin: 16px 0 17px;
+  padding: 0 0 3px;
+  border-bottom: 1px solid var(--ab-accent);
+  font-family: var(--ab-sans);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--ab-accent-deep);
+}
+
+/* Title. 900, 1.15 leading, uppercase — the size is the grid's rung. */
+.md-typeset .mg-card__title,
+.md-typeset .mg-guide-card__title {
+  margin: 0 0 12px;
+  padding: 0;
+  border: 0;
+  font-family: var(--ab-sans);
+  font-weight: 900;
+  line-height: 1.15;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  color: var(--ab-text);
+}
+
+/* Price sits in the same slot as any other fact about the item. */
+.md-typeset .mg-card__price {
+  margin: 0 0 12px;
+  font-size: 15px;
+  font-weight: 900;
+  color: var(--ab-red);
+}
+
+/* The action line, pinned to the bottom of the copy column so it lines up
+   across a row the grid has stretched. */
+.md-typeset .mg-card__more {
+  margin: auto 0 0;
+}
+
+.md-typeset .mg-card__more--split {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0 8px;
+}
+
+.md-typeset .mg-card__more--split a,
+.md-typeset .mg-card__more--split .mg-cart-add {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0 0 2px;
+  border: 0;
+  border-bottom: 1px solid var(--ab-accent);
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  font-family: var(--ab-serif);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ab-accent-deep);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.md-typeset .mg-card__more--split a:hover,
+.md-typeset .mg-card__more--split a:focus,
+.md-typeset .mg-card__more--split .mg-cart-add:hover,
+.md-typeset .mg-card__more--split .mg-cart-add:focus {
+  color: var(--ab-text);
+  border-bottom-color: var(--ab-text);
+}
+
+.md-typeset .mg-card__or {
+  font-family: var(--ab-serif);
+  font-size: 15px;
+  font-style: normal;
+  color: var(--ab-text-muted);
+}
+
+/* ---------------------------------------------------------------------------
+   4. Grids — each states its rung on the title ladder.
+
+   2 columns   ~464px   title 26px   (guide cards)
+   3 columns   ~307px   title 17px   (every shop grid)
+   4 columns   ~225px   title 14px   (home tiles, Hot Gear, brand wall)
+--------------------------------------------------------------------------- */
+
+/* add-ons: 3 up */
+.md-typeset .mg-card-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+/* pre-owned / blades / rubbers: 3 up */
+.mg-preowned-grid,
+.mg-preowned-grid--blades,
+.mg-preowned-grid--rubbers {
+  gap: 20px;
+}
+
+/* home category tiles: 4 up */
+.md-typeset .mg-home-cats__grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+}
+
+/* Hot Gear: 4 up. Six at 960px is 143px a card, which cannot hold a border,
+   a 20px gutter and a centred uppercase name. */
+.md-typeset .mg-hot-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+}
+
+/* brand wall: 4 up */
+.md-typeset .mg-brand-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+@media (max-width: 1099.98px) {
+  .md-typeset .mg-home-cats__grid,
+  .md-typeset .mg-hot-grid,
+  .md-typeset .mg-brand-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 759.98px) {
+  .md-typeset .mg-card-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .md-typeset .mg-home-cats__grid,
+  .md-typeset .mg-hot-grid,
+  .md-typeset .mg-brand-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .mg-preowned-grid,
+  .mg-preowned-grid--blades,
+  .mg-preowned-grid--rubbers {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   5. .mg-guide-card — the homepage's "Guides worth reading".
+
+   Two columns, so it takes the 26px rung. The black frame it used to carry is
+   gone: in this palette every card is a 1px #c7c7c7 block and the hover lift
+   is what marks it out.
+
+   The .mg-guide-card__body is a <div> wrapper and the whole card is the <a>,
+   so the action line is decorative — it is not a separate link target.
+--------------------------------------------------------------------------- */
+
+.md-typeset .mg-guide-card__title {
+  font-size: 26px;
+  /* Two lines reserved, so the excerpt and the action line land at the same
+     height on every card. Not a clamp: a longer title at a narrow width simply
+     makes its row taller, and the 1fr rows even that back out. */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: calc(2 * 1.15em);
+}
+
+.md-typeset .mg-guide-card:hover .mg-guide-card__title,
+.md-typeset .mg-guide-card:focus .mg-guide-card__title {
+  color: var(--ab-text);
+}
+
+/* The excerpt is the one serif passage on the page — that contrast is what
+   makes the card read as editorial rather than as a product tile. */
+.md-typeset .mg-guide-card__excerpt {
+  margin-top: 0;
+  font-family: var(--ab-serif);
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--ab-text-muted);
+
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: calc(4 * 1.55em);
+}
+
+.md-typeset .mg-guide-card__link {
+  display: inline-block;
+  align-self: center;
+  margin-top: auto;
+  padding: 0 0 2px;
+  border-bottom: 1px solid var(--ab-accent);
+  font-family: var(--ab-sans);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--ab-accent-deep);
+}
+
+.md-typeset .mg-guide-card:hover .mg-guide-card__link,
+.md-typeset .mg-guide-card:focus .mg-guide-card__link {
+  border-bottom-color: var(--ab-text);
+  color: var(--ab-text);
+}
+
+/* The image no longer scales on hover — the card lifts instead. */
+.md-typeset .mg-guide-card:hover .mg-guide-card__media img,
+.md-typeset .mg-guide-card:focus .mg-guide-card__media img {
+  transform: none;
+  opacity: 1;
+}
+
+@media (max-width: 759.98px) {
+  .md-typeset .mg-guide-card__title,
+  .md-typeset .mg-guide-card__excerpt {
+    display: block;
+    -webkit-line-clamp: none;
+    min-height: 0;
+    overflow: visible;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   6. .mg-preowned-card — the shop grids, built by preowned-grid.js.
+
+   The script appends media / title / price / action straight onto the
+   <article>, with no copy wrapper and no way to add one from CSS. So the side
+   padding the recipe puts on the copy wrapper goes on the text children
+   instead, and the card itself keeps only the bottom 20px — which is exactly
+   ab-card's own split, and means the media band needs no negative margins to
+   reach the card's edges (it is `width: 100%` in extra.css already).
+--------------------------------------------------------------------------- */
+
+.mg-preowned-card {
+  padding: 0 0 20px;
+}
+
+/* Everything that is text, plus the spec picker. The centred links size
+   themselves to fit and do not need it. */
+.md-typeset .mg-preowned-card__title,
+.md-typeset .mg-preowned-card__price,
+.md-typeset .mg-preowned-card__opts-select {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.mg-preowned-card__media {
+  border-bottom: 1px solid var(--ab-line);
+  background: var(--ab-panel);
+  border-radius: 0.55rem 0.55rem 0 0;
+}
+
+.md-typeset .mg-preowned-card__media,
+.md-typeset .mg-preowned-card .mg-price-slides {
+  background: var(--ab-panel);
+}
+
+.mg-preowned-card__thumbs {
+  margin: 6px 0 0;
+}
+
+.md-typeset .mg-preowned-card__title {
+  margin: 16px 0 8px !important;
+  color: var(--ab-text);
+  font-size: 17px;
+  font-weight: 900;
+  line-height: 1.15;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.md-typeset .mg-preowned-card__price,
+.md-typeset .mg-preowned-card__price-value {
+  color: var(--ab-red);
+}
+
+.md-typeset .mg-preowned-card__price {
+  margin: 0 0 12px !important;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.md-typeset .mg-preowned-card__price-value {
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.md-typeset .mg-preowned-card--sold .mg-preowned-card__price,
+.md-typeset .mg-preowned-card--sold .mg-preowned-card__price del,
+.md-typeset .mg-preowned-card--sold .mg-preowned-card__price-value {
+  color: var(--ab-text-muted);
+}
+
+.md-typeset .mg-preowned-card--sold .mg-preowned-card__title {
+  color: var(--ab-text-muted);
+}
+
+/* The two actions become the card's action line: underlined, uppercase, one
+   in the accent (add to cart) and one in the green (WhatsApp). Both stop
+   being full-width pills. */
+.md-typeset .mg-preowned-card__cart,
+.md-typeset .mg-preowned-card__wa,
+.md-typeset .mg-preowned-card__ae-link {
+  display: inline-block;
+  width: auto;
+  margin: 12px auto 0;
+  padding: 0 0 2px;
+  border: 0;
+  border-bottom: 1px solid var(--ab-accent);
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  font-family: var(--ab-sans);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--ab-accent-deep) !important;
+  cursor: pointer;
+}
+
+.md-typeset .mg-preowned-card__wa {
+  border-bottom-color: var(--ab-green);
+  color: var(--ab-green) !important;
+}
+
+.md-typeset .mg-preowned-card__cart:hover,
+.md-typeset .mg-preowned-card__cart:focus,
+.md-typeset .mg-preowned-card__ae-link:hover,
+.md-typeset .mg-preowned-card__ae-link:focus {
+  border-bottom-color: var(--ab-text);
+  color: var(--ab-text) !important;
+  background: none;
+}
+
+.md-typeset .mg-preowned-card__wa:hover,
+.md-typeset .mg-preowned-card__wa:focus {
+  border-bottom-color: var(--ab-green-deep);
+  color: var(--ab-green-deep) !important;
+  background: none;
+}
+
+.md-typeset .mg-preowned-card__cart.mg-cart-add--done {
+  border-bottom-color: var(--ab-green);
+  color: var(--ab-green) !important;
+}
+
+/* The spec <select> is part of the copy, not a card action. */
+.md-typeset .mg-preowned-card__opts-select,
+.md-typeset .mg-price-table table .mg-cart-row-options {
+  border: 1px solid var(--ab-line);
+  border-radius: 0;
+  background: var(--ab-panel);
+  color: var(--ab-text);
+}
+
+/* Badges and tags: square, flat, and never the only thing carrying meaning. */
+.md-typeset .mg-preowned-card__badge,
+.md-typeset .mg-preowned-card__new,
+.mg-price-sold-tag,
+.md-typeset .mg-preowned-card__oos {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.md-typeset .mg-preowned-card__new {
+  background: var(--ab-red);
+}
+
+.mg-price-sold-tag {
+  background: var(--ab-red);
+}
+
+.md-typeset .mg-preowned-card__thumb,
+.mg-preowned-card__thumb {
+  border-radius: 0;
+}
+
+.md-typeset .mg-preowned-card__thumb.is-active {
+  border-color: var(--ab-accent-deep);
+}
+
+/* ---------------------------------------------------------------------------
+   7. .mg-hot-card — Hot Gear. Picture and name only; AceBase's .ab-card--ec
+   variant has no action line either.
+--------------------------------------------------------------------------- */
+
+.md-typeset .mg-hot-card__img {
+  border-radius: 0.55rem 0.55rem 0 0;
+  margin: 0 !important;
+}
+
+.md-typeset .mg-hot-card__name {
+  padding: 0 20px 4px;
+  color: var(--ab-text) !important;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 1.2;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+/* ---------------------------------------------------------------------------
+   8. .mg-home-cat — the homepage's shop tiles. These are category links, so
+   the name takes the category-label treatment.
+
+   The 700px block in extra.css re-lays them out as photo-topped tiles; that is
+   the same shape as the card above, so only the type needs restating here.
+--------------------------------------------------------------------------- */
+
+.md-typeset .mg-home-cat__img {
+  border-radius: 0.55rem 0.55rem 0 0;
+}
+
+.md-typeset .mg-home-cat__name {
+  color: var(--ab-accent-deep);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.md-typeset .mg-home-cat__desc {
+  color: var(--ab-text-muted);
+  font-family: var(--ab-serif);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+@media (max-width: 700px) {
+  .md-typeset .mg-home-cat {
+    padding: 0 0 20px;
+    border-radius: 0.55rem;
+    overflow: hidden;
+  }
+
+  .md-typeset .mg-home-cat:hover,
+  .md-typeset .mg-home-cat:active {
+    transform: translateY(-1px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  }
+
+  .md-typeset .mg-home-cat__img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    border-radius: 0.55rem 0.55rem 0 0;
+  }
+
+  .md-typeset .mg-home-cat__body {
+    padding: 0 20px;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   9. .mg-brand-item — the equipment gallery's brand wall. An index of 20-odd
+   logos, not a card flow, so it keeps its smaller block and takes the lift
+   without the padding.
+--------------------------------------------------------------------------- */
+
+.md-typeset .mg-brand-item {
+  border-radius: 0;
+  background: var(--ab-panel);
+  box-shadow: none;
+  transition: border-color 0.12s, box-shadow 0.12s;
+}
+
+.md-typeset .mg-brand-item:hover {
+  /* Not var(--md-primary-fg-color): with `primary: custom` that resolves to
+     black, which would make every hover a hard black box. */
+  border-color: var(--ab-accent-deep);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.md-typeset .mg-brand-name {
+  color: var(--ab-text-muted);
+}
+
+/* ---------------------------------------------------------------------------
+   10. Info panels — not products, so they take the panel half of the recipe:
+   a hairline, a flat fill, square corners, no shadow, no media, no action.
+--------------------------------------------------------------------------- */
+
+.md-typeset .mg-product-meta,
+.md-typeset .mg-unit,
+.md-typeset .mg-listing,
+.md-typeset .mg-prod-specs,
+.md-typeset .mg-prod-radar,
+.md-typeset .mg-home-help,
+.md-typeset .admonition.mg-page-note,
+.mg-cta,
+.mg-cta-card {
+  border: 1px solid var(--ab-line);
+  border-radius: 0;
+  background: var(--ab-panel-2);
+  box-shadow: none;
+}
+
+.md-typeset .mg-prod-radar,
+.md-typeset .mg-home-help {
+  background: var(--ab-panel);
+}
+
+.md-typeset .mg-product-meta {
+  color: var(--ab-text-muted);
+}
+
+.md-typeset .admonition.mg-page-note > .admonition-title {
+  background-color: rgba(174, 158, 133, 0.16) !important;
+  border-bottom: 1px solid var(--ab-line);
+  color: var(--ab-text);
+}
+
+.md-typeset .mg-glance__label {
+  color: var(--ab-accent-deep);
+}
+
+.md-typeset .mg-cta-card__title {
+  color: var(--ab-text) !important;
+}
+
+.md-typeset .mg-cta-card__outline {
+  border: 1px solid var(--ab-accent-deep);
+  border-radius: 0 !important;
+  color: var(--ab-accent-deep);
+}
+
+.md-typeset .mg-cta-card__outline:hover {
+  background: var(--ab-accent-deep) !important;
+  color: #ffffff !important;
+}
+
+/* ---------------------------------------------------------------------------
+   11. Controls — square. Only the things that are circles by nature keep a
+   radius: the lightbox dots and its round close/arrow buttons. (The cart's
+   count bubble and the WhatsApp float are outside .md-typeset too, so this
+   rule never reached them — see §13 and header.css.)
+--------------------------------------------------------------------------- */
+
+.md-typeset .mg-bio__toggle,
+.md-typeset .mg-pager__btn,
+.md-typeset .mg-list-meta,
+.md-typeset .mg-list-badge,
+.md-typeset .mg-price-legend__blade,
+.md-typeset .mg-price-legend__rubber,
+.md-typeset .mg-price-legend__stock,
+.md-typeset .mg-price-legend__sold,
+.md-typeset .mg-price-thumb-count,
+.md-typeset .mg-copy-wa,
+.md-typeset .mg-wa-btn,
+.md-typeset .mg-cta-card__outline,
+.md-typeset .mg-home-hero__btn {
+  border-radius: 0 !important;
+}
+
+.md-typeset .mg-pager__btn {
+  border-color: var(--ab-line);
+  color: var(--ab-accent-deep);
+  background: var(--ab-panel);
+}
+
+.md-typeset .mg-pager__btn--active {
+  background: var(--ab-accent-deep);
+  border-color: var(--ab-accent-deep);
+  color: #ffffff;
+}
+
+.md-typeset .mg-home-hero__btn--primary {
+  background: var(--ab-green) !important;
+}
+
+.md-typeset .mg-home-hero__btn--primary:hover {
+  background: var(--ab-green-deep) !important;
+}
+
+.md-typeset .mg-home-hero__title {
+  font-weight: 900 !important;
+  letter-spacing: -0.01em;
+}
+
+.md-typeset .mg-home-hero__brand {
+  color: var(--ab-accent) !important;
+}
+
+/* The hero banner is a photograph, not a card: square, no radius, no glow. */
+.md-typeset .mg-home-hero {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* ---------------------------------------------------------------------------
+   12. Tables.
+--------------------------------------------------------------------------- */
+
+.md-typeset table th {
+  background-color: var(--ab-panel-2);
+  color: var(--ab-text);
+}
+
+.md-typeset .mg-price-table th.mg-sortable:hover {
+  /* Not var(--md-primary-fg-color) — that is black under `primary: custom`. */
+  color: var(--ab-accent-deep);
+}
+
+.md-typeset .mg-price-table--all tbody tr:nth-child(odd) > td {
+  background-color: rgba(174, 158, 133, 0.07) !important;
+}
+
+.md-typeset .mg-price-table tbody tr.mg-price-row--sold > td {
+  background-color: rgba(0, 0, 0, 0.04) !important;
+  color: var(--ab-text-muted);
+}
+
+.md-typeset .mg-price-table--all tbody tr.mg-price-row--sold > td {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+.md-typeset .mg-price-inline--sold,
+.md-typeset .mg-price-inline--sold del {
+  color: var(--ab-text-muted);
+}
+
+/* ---------------------------------------------------------------------------
+   13. Floating chrome. The WhatsApp float is an <img>, so its green is the
+   brand's own and stays.
+--------------------------------------------------------------------------- */
+
+/* The cart drawer is appended to <body> by price-cart.js, so it sits outside
+   .md-typeset — these three have to stay unscoped to reach it. Each already
+   carries an !important radius in extra.css, hence the flag here too. */
+.mg-cart-drawer__wa,
+.mg-cart-qty,
+.mg-cart-remove {
+  border-radius: 0 !important;
+}
+
+.mg-lightbox__img,
+.mg-lightbox__close,
+.mg-lightbox__nav,
+.mg-lightbox__dot {
+  border-radius: 999px;
+}
+
+.mg-lightbox__img {
+  background: var(--ab-text);
+}
+
+/* ---------------------------------------------------------------------------
+   14. The guide index — docs/guide/index.md.
+
+   This page is the nav's "Guide" target and the whole point of it is to carry
+   the eighteen articles that no longer sit in the sidebar, so it has to read
+   as an index rather than as prose. Group headings therefore borrow §2's
+   section-title shape, and each entry is a title over the same excerpt the
+   homepage feed shows.
+
+   The entries are written in markdown ("- **[Title](x.md)**<span …>"), so the
+   list is a plain <ul> and the title is a <strong><a> — hence the two
+   descendant selectors rather than classes on each part.
+--------------------------------------------------------------------------- */
+
+.md-guide-hub {
+  margin: 1.25rem 0 0;
+}
+
+.md-content__inner > .mg-guide-hub > h2 {
+  margin: 2rem 0 0;
+  padding: 0 0 0.4rem;
+  border: 0;
+  border-bottom: 1px solid var(--ab-text);
+  color: var(--ab-text);
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+
+/* Scoped to .md-typeset for the specificity, not for the cascade: Material 9.x
+   sets the list offsets through `:is(ul, ol)`, and `:is()` scores as its most
+   specific argument, so that rule is 0,2,0 — it beats a bare `.mg-guide-hub ul`
+   at 0,1,1 and leaves the list indented 10px against the section rules above
+   it. Listing first gives 0,2,1. (`list-style` and `padding` happened to win
+   anyway; `margin-left` did not.) */
+.md-typeset .mg-guide-hub ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.md-typeset .mg-guide-hub li {
+  margin: 0;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--ab-line-soft);
+}
+
+/* Material draws list bullets with a ::marker on .md-typeset ul li; the
+   hairline separators above already do that job. */
+.md-typeset .mg-guide-hub li::marker {
+  content: none;
+}
+
+.md-typeset .mg-guide-hub li > strong > a {
+  color: var(--ab-text);
+  font-size: 17px;
+  font-weight: 900;
+  letter-spacing: -0.005em;
+  text-decoration: none;
+}
+
+.md-typeset .mg-guide-hub li > strong > a:hover {
+  color: var(--ab-accent-deep);
+}
+
+/* Block, not inline: in the markdown source this span follows the title on the
+   same line, so it needs to be pushed onto its own line from here. */
+.mg-guide-hub__excerpt {
+  display: block;
+  margin-top: 0.3rem;
+  color: var(--ab-text-muted);
+  font-family: var(--ab-serif);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 700px) {
+  .md-content__inner > .mg-guide-hub > h2 {
+    font-size: 20px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .md-typeset .mg-card,
+  .md-typeset .mg-guide-card,
+  .md-typeset .mg-hot-card,
+  .md-typeset .mg-home-cat,
+  .md-typeset .mg-brand-item,
+  .md-typeset .mg-preowned-card {
+    transition: none;
+  }
+
+  .md-typeset .mg-card:hover,
+  .md-typeset .mg-guide-card:hover,
+  .md-typeset .mg-hot-card:hover,
+  .md-typeset .mg-home-cat:hover,
+  .md-typeset .mg-preowned-card:hover {
+    transform: none;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   15. The footer.
+
+   Material builds .md-footer-meta__inner as a space-between flex row — a
+   copyright on the left, the social icons on the right. This site has no
+   social block (mkdocs.yml's `extra:` explains why), so the copyright was left
+   holding the left end of a row with nothing at the other end of it.
+
+   justify-content centres the single child; text-align covers the widths where
+   the sentence wraps onto a second line, since a flex child that fills the row
+   ignores the row's own packing.
+--------------------------------------------------------------------------- */
+
+.md-footer-meta__inner {
+  justify-content: center;
+}
+
+.md-copyright {
+  text-align: center;
+}

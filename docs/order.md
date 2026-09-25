@@ -1,4 +1,5 @@
 ---
+title: "How to Order, WhatsApp Quote & Shipping | MyGear.Top"
 icon: fontawesome/brands/whatsapp
 source_url: https://mygear.top/faq/
 source_title: "How to Order (WhatsApp purchase guide)"
@@ -120,5 +121,5 @@ You can still adjust contents before packing is finalized — message me as earl
 
 <div class="admonition note mg-page-note">
   <p class="admonition-title">Related</p>
-  <p><a href="/blades/">Blades</a> · <a href="/rubbers/">Rubbers</a> · <a href="/FAQ/">FAQ & Shipping</a> · <a href="/updates-reviews/">Updates & Reviews</a></p>
+  <p><a href="/blades/">Blades</a> · <a href="/rubbers/">Rubbers</a> · <a href="/FAQ/">FAQ & Shipping</a> · <a href="/updates/">Updates & Reviews</a></p>
 </div>

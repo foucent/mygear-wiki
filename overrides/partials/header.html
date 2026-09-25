@@ -1,0 +1,117 @@
+{#-
+  MyGear masthead — the two bands AceBase uses (and uncrate.com before it).
+
+    band 1  black, family strip over a centred wordmark, tools on the right
+    band 2  main nav, 1px black rule underneath
+
+  Measurements live in docs/stylesheets/header.css.
+
+  Three departures from the AceBase file this is ported from:
+
+    * The family strip lists no sibling sites — there are none — so it carries
+      the brand alone, and the two remaining items are written out here rather
+      than taken from `extra.family`: the cart (a button, so it needs an id for
+      price-cart.js to fill its count) and the "@ MyGear.Top" that opens the
+      YouTube channel.
+
+    * The nav loop is guarded on nav_item.url. Every entry in mkdocs.yml's nav
+      is a plain page today, so the guard is inert — it is kept because a nav
+      *section* has no URL of its own, and one rendered here would be an empty
+      link sitting in the most prominent row on the site. (The Guide group used
+      to be exactly that; it is now a single entry pointing at docs/guide/.)
+
+    * The wordmark reads config.site_name rather than a hard-coded name.
+
+  Contracts this file must keep alive — they are all load-bearing:
+    .md-header__inner      Material's flex row; the bands lay out inside it
+    label[for="__drawer"]  toggles #__drawer, rendered by base.html
+    label[for="__search"]  + partials/search.html provide search
+
+  Note that base.html renders the header *outside* .md-container, so the
+  header and the #__search / #__drawer checkboxes are siblings of body.
+-#}
+{% set home_url = config.extra.homepage | d(nav.homepage.url, true) | url %}
+{#- `hide: - navigation` removes the sidebar, so the drawer label must go with
+    it — otherwise it opens an empty panel. -#}
+{% set hide_nav = page.meta.hide and "navigation" in page.meta.hide if page.meta else false %}
+
+<header class="md-header" data-md-component="header">
+  {#- band 1 — black -#}
+  <div class="ab-band">
+    {#- The family row, above the wordmark: the family and the brand on one
+        centred line, uppercase, with a hairline under them. -#}
+    {% set family = config.extra.family | d([], true) %}
+    {% if family %}
+      <div class="ab-family">
+        <ul class="ab-family__list">
+          {% for item in family %}
+            <li class="ab-family__item">
+              <a class="ab-family__link" href="{{ item.link | url }}">{{ item.label }}</a>
+            </li>
+          {% endfor %}
+          {#- The cart, in the middle of the strip. A <button>, not a link: it
+              opens the cart drawer price-cart.js appends to <body>, so there is
+              nowhere to navigate to. The count is filled in by that script's
+              render() — hence the id, and the `hidden` on a badge that starts
+              at zero so a first-time visitor sees the plain label. -#}
+          <li class="ab-family__item">
+            <button type="button" class="ab-family__link ab-family__cart" id="mg-cart-hdr" aria-label="Open cart" title="Your cart">
+              shop.mygear.top<span class="ab-family__cart-count" id="mg-cart-hdr-count" hidden>0</span>
+            </button>
+          </li>
+
+          {#- The @handle closes the strip. It used to open WhatsApp; the only
+              other place the channel was linked was the footer's social icon,
+              so pointing it at YouTube and dropping `extra.social` keeps one
+              link to the channel — in the masthead, on every page. -#}
+          <li class="ab-family__item">
+            <a class="ab-family__link" href="https://www.youtube.com/@Mygear-top" target="_blank" rel="noopener" title="MyGear.Top on YouTube" aria-label="MyGear.Top on YouTube">
+              <span class="ab-family__at" aria-hidden="true">@</span>{{ config.site_name }}
+            </a>
+          </li>
+        </ul>
+      </div>
+    {% endif %}
+
+    <div class="ab-band__inner md-header__inner">
+      {% if not hide_nav %}
+        <label class="md-header__button md-icon ab-band__drawer" for="__drawer" aria-label="{{ lang.t('header') }}">
+          {% set icon = config.theme.icon.menu or "material/menu" %}
+          {% include ".icons/" ~ icon ~ ".svg" %}
+        </label>
+      {% endif %}
+
+      <a href="{{ home_url }}" class="ab-wordmark" title="{{ config.site_name | e }}" aria-label="{{ config.site_name | e }}" data-md-component="logo">
+        <span class="ab-wordmark__name">{{ config.site_name }}</span>
+      </a>
+
+      <div class="ab-band__tools">
+        {% if "material/search" in config.plugins %}
+          {% set search = config.plugins["material/search"] | attr("config") %}
+          {% if search.enabled %}
+            <label class="md-header__button md-icon ab-band__tool" for="__search" aria-label="{{ lang.t('search') }}">
+              {% set icon = config.theme.icon.search or "material/magnify" %}
+              {% include ".icons/" ~ icon ~ ".svg" %}
+            </label>
+            {% include "partials/search.html" %}
+          {% endif %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  {#- band 2 — main nav -#}
+  <nav class="ab-mainnav" aria-label="{{ lang.t('tabs') }}">
+    <div class="ab-mainnav__inner">
+      <ul class="ab-mainnav__list">
+        {% for nav_item in nav.items %}
+          {% if nav_item.url %}
+            <li class="ab-mainnav__item">
+              <a class="ab-mainnav__link{% if nav_item.active %} is-active{% endif %}" href="{{ nav_item.url | url }}">{{ nav_item.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </nav>
+</header>

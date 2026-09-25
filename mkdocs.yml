@@ -2,10 +2,11 @@ site_name: MyGear.Top
 site_url: https://mygear.top/
 site_description: Table tennis blades, rubbers, pre-owned gear, buying guides, and brand photo galleries — USD prices with WhatsApp checkout.
 copyright: "© 2026 Mygear.top. All rights reserved. Independently published since 2025."
-# Validation / log-level tuning. The /gear/ product & brand pages are
-# intentionally kept out of the nav (they are linked from the price tables and
-# homepage, and are listed in the sitemap), so only log their omission at INFO.
-# Broken doc links and anchors keep the default WARNING so real problems surface.
+# Validation / log-level tuning. The /gear/ product & brand pages and the 18
+# /guide/ articles are intentionally kept out of the nav (they are linked from
+# the price tables, the homepage feed, and docs/guide/index.md, and are listed
+# in the sitemap), so only log their omission at INFO. Broken doc links and
+# anchors keep the default WARNING so real problems surface.
 validation:
   nav:
     omitted_files: info
@@ -15,10 +16,18 @@ theme:
   name: material
   custom_dir: overrides
   language: custom
+  # No webfonts: the theme runs on the system stacks (see --ab-sans / --ab-serif
+  # in stylesheets/tokens.css), so nothing third-party is on the critical path.
+  font: false
+  # `custom` is load-bearing, not cosmetic. A real palette name makes Material
+  # write its own --md-* custom properties onto <body>, and a custom property
+  # declared on <body> beats anything inherited from :root no matter what the
+  # file order or specificity is — so tokens.css could not override it. With
+  # `custom` Material emits no palette rule at all and :root is the only source.
   palette:
     scheme: default
-    primary: teal
-    accent: teal
+    primary: custom
+    accent: custom
   icon:
     logo: material/table-tennis
   features:
@@ -33,6 +42,10 @@ plugins:
   - redirects:
       redirect_maps:
         price-list.md: blades.md
+        # The page moved from /updates-reviews/ to /updates/; the stub the
+        # redirects plugin writes keeps the old URL alive for anything already
+        # pointing at it (search results, inbound links, the sitemap's history).
+        updates-reviews.md: updates.md
         getting-started/basic-questions.md: guide/essential-questions-before-buying.md
         getting-started/essential-questions-before-buying.md: guide/essential-questions-before-buying.md
         getting-started/blade-performance-metrics.md: guide/blade-performance-metrics.md
@@ -131,9 +144,16 @@ markdown_extensions:
         custom_icons:
           - overrides/.icons
 
+# Order is load-bearing. tokens.css defines the variables every later file
+# reads; header.css replaces Material's masthead; uncrate.css goes last so its
+# plain rules can win ties against extra.css's 200+ !important declarations
+# without having to out-rank them.
 extra_css:
+  - stylesheets/tokens.css
   - stylesheets/extra.css
   - stylesheets/photo-wall.css
+  - stylesheets/header.css
+  - stylesheets/uncrate.css
 
 extra_javascript:
   - javascripts/img-thumbs.js
@@ -158,13 +178,21 @@ watch:
 
 extra:
   generator: false
+  # The black band's family strip. AceBase lists its sibling sites here and
+  # appends its own @handle; this site has no siblings to list, so the strip
+  # carries the brand alone. header.html adds the other two items — the cart,
+  # between this one and the @handle, and the "@ MyGear.Top" that opens the
+  # YouTube channel — because both need the handler/markup the loop can't give
+  # them.
+  family:
+    - label: MyGear.Top
+      link: /
   analytics:
     provider: google
     property: G-1VPCP3FZN6
-  social:
-    - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/@Mygear-top
-      name: YouTube
+  # No `social:` block. It was the YouTube icon in the footer, and the same
+  # channel is now the "@ MyGear.Top" item in the masthead strip — one link to
+  # the channel, at the top of every page rather than the bottom.
 
 # 导航配置在这里
 nav:
@@ -173,24 +201,20 @@ nav:
   - Rubbers: rubbers.md
   - Add-ons: add-ons.md
   - Pre-owned: pre-owned.md
-  - How to Order: order.md
-  - FAQ & Shipping: FAQ.md
-  - Updates & Reviews: updates-reviews.md
-  - Guide:
-      - Essential Questions Before Buying: guide/essential-questions-before-buying.md
-      - Blade Performance Metrics: guide/blade-performance-metrics.md
-      - Blade Feel Fundamentals: guide/blade-feel-fundamentals.md
-      - Accelerating With Gear: guide/accelerating-with-gear.md
-      - Hurricane 3 Multi-Stage Boosting: guide/hurricane-3-multi-stage-boosting.md
-      - Harimoto SZLC vs SALC: guide/harimoto-szlc-vs-salc.md
-      - "How to Choose a Blade: All-Wood, Outer & Inner Fiber": guide/choosing-blade-structure.md
-      - Outer vs Inner Fiber: guide/outer-vs-inner-fiber.md
-      - Why Tenergy Before Dignics: guide/why-tenergy-before-dignics.md
-      - Hurricane Blue vs Orange Sponge: guide/hurricane-blue-vs-orange-sponge.md
-      - Rubber Thickness vs Hardness: guide/choosing-thickness-vs-hardness.md
-      - Boosting Truth: guide/boosting-truth.md
-      - Table Tennis Kingdom Top 10 Shakehand Blades 2025: guide/tt-kingdom-top-10-blades-2025.md
-      - Joola Hugo ARY-C Review: guide/joola-hugo-ary-c.md
-      - Tibhar Darko Jorgic Infinity Carbon Review: guide/tibhar-darko-jorgic-infinity-carbon.md
-      - Xu Xin Blue Label vs Tibhar Felix: guide/xu-xin-blue-label-vs-tibhar-felix.md
-      - Blade Thickness, Penetration & Flatness: guide/blade-thickness-and-flatness.md
+  # Short labels: the nav row is eight items wide at 28px, so anything longer
+  # than one word costs a line. The page headings and the frontmatter
+  # descriptions are unchanged, so the pages themselves still read in full.
+  #
+  # Title case, and kept there — ALL CAPS re-measured at 77px over two lines
+  # against these 43px over one, which would undo the shortening above. FAQ
+  # stays upper because it is an initialism, not a word. Guides is plural to
+  # match the three catalogue entries; the rest are singular because they name
+  # a process (Order), one running log (Updates), or one Q&A page (FAQ).
+  - Order: order.md
+  - FAQ: FAQ.md
+  - Updates: updates.md
+  # The 18 guide articles are deliberately *not* listed here — they live on
+  # docs/guide/index.md, which is both this entry's target and the full index.
+  # Listing them again as children would put the whole group back in the
+  # sidebar, which is what moving the entry up here was meant to remove.
+  - Guides: guide/index.md
