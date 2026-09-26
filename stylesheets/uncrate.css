@@ -214,8 +214,8 @@
 
 /* Media, over the same hairline the card is drawn with. The product shots are
    white-background, so the letterbox bars take the panel colour and disappear.
-   The ratio is the one thing the families disagree about, so it is set below
-   rather than here. */
+   The ratio, and how the shot sits in it, is what the families disagree about,
+   so both are set below rather than here. */
 .md-typeset .mg-card__media img,
 .md-typeset .mg-hot-card__img,
 .md-typeset .mg-home-cat__img,
@@ -228,13 +228,30 @@
   border-bottom: 1px solid var(--ab-line);
 }
 
-/* .mg-card — add-ons, and only add-ons — carries a portrait band, because this
-   grid was asked to look like AceBase's /gear/ cards (470px, 3:4). `contain`
-   rather than `cover` is where it deliberately departs from /gear/: those are
-   portrait photo sets, while these are wide product shots on white, and cover
-   would slice the sides off every bottle and box. */
+/* .mg-card — the four shop grids — is sized off the small card on uncrate.com's
+   front page (article.one-half): 470px wide in a 960px column, a landscape band
+   about 3:2, 520px tall overall.
+
+   `cover` is what buys that height. Most of these shots are square, and a square
+   fitted inside a 3:2 band would letterbox against both ends and lose a third of
+   the card. Cover fills the band and trims top and bottom instead, which on
+   white-background product shots is packaging and empty table.
+
+   Thirteen of the shots are portrait, and cover keeps half their height. For
+   eleven that is the right half — a blade's face, a packet's front. The two
+   that suffer opt out below. */
 .md-typeset .mg-card__media img {
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+/* The exception, opt-in per image: a shot whose subject runs the full height of
+   a portrait frame has nothing to give up, and cover takes its head off. Two of
+   them do — the No.15 glue bottle, the 3006C cutter — so they ask for the band
+   to be letterboxed instead. The panel colour behind is already white, so the
+   bars do not read as bars. */
+.md-typeset .mg-card__media img.mg-card__fit-contain {
+  object-fit: contain;
 }
 
 .md-typeset .mg-hot-card__img,
