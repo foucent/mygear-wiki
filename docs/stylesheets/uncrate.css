@@ -212,20 +212,35 @@
   transform: translateY(-1px);
 }
 
-/* Media: 4:3, `contain`, over the same hairline the card is drawn with. The
-   product shots are white-background, so the letterbox bars take the panel
-   colour and disappear. */
+/* Media, over the same hairline the card is drawn with. The product shots are
+   white-background, so the letterbox bars take the panel colour and disappear.
+   The ratio is the one thing the families disagree about, so it is set below
+   rather than here. */
 .md-typeset .mg-card__media img,
 .md-typeset .mg-hot-card__img,
 .md-typeset .mg-home-cat__img,
 .md-typeset .mg-guide-card__media img {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
   object-fit: contain;
   margin: 0;
   background: var(--ab-panel);
   border-bottom: 1px solid var(--ab-line);
+}
+
+/* .mg-card — add-ons, and only add-ons — carries a portrait band, because this
+   grid was asked to look like AceBase's /gear/ cards (470px, 3:4). `contain`
+   rather than `cover` is where it deliberately departs from /gear/: those are
+   portrait photo sets, while these are wide product shots on white, and cover
+   would slice the sides off every bottle and box. */
+.md-typeset .mg-card__media img {
+  aspect-ratio: 3 / 4;
+}
+
+.md-typeset .mg-hot-card__img,
+.md-typeset .mg-home-cat__img,
+.md-typeset .mg-guide-card__media img {
+  aspect-ratio: 4 / 3;
 }
 
 .md-typeset .mg-guide-card__media {
@@ -334,18 +349,114 @@
   color: var(--ab-text-muted);
 }
 
+/* A shop card is measured against /gear/ on the sister site: 470 x 767, spent on
+   a kicker, a one-line title and an action line. This card also has to carry a
+   price, and the English names wrap to a second title line often enough that
+   reserving one costs every card 30px — that reserve was extra.css's
+   .mg-card__title min-height and it is gone. Stacked as four rows the card came
+   to 830px; with the price riding at the end of the title it lands on 764px
+   against /gear/'s 767.
+
+   So the copy is a wrapping row, not a column, with the kicker and the title
+   each claiming a full line. The default align-content: stretch is what puts
+   the action line on the card's bottom edge — when a row's taller card
+   stretches its neighbour, the spare height goes into the gaps between the
+   lines rather than below the action. */
+.md-typeset .mg-card__copy {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+  column-gap: 12px;
+}
+
+.md-typeset .mg-card__cat,
+.md-typeset .mg-card__title,
+.md-typeset .mg-card__options {
+  flex: 0 0 100%;
+  align-self: auto;
+}
+
+/* The kicker holds the card's 16px of headroom with its own margin, and the
+   copy has no vertical padding of its own. A card without a kicker — the
+   rubbers, whose label was the redundant "Popular Rubber" — would otherwise
+   sit its title flush against the image rule, so whoever is first supplies
+   the gap. For the kicker itself this is a no-op: 16px either way. */
+.md-typeset .mg-card__copy > :first-child {
+  margin-top: 16px;
+}
+
+/* The price rides at the end of the name, a size down from it, so the card
+   keeps the three rows /gear/ has. It is inline in the <h3> because a wrapping
+   flex row breaks the line before it shrinks anything: a <p> sibling would be
+   pushed onto a row of its own and cost the card 30px.
+
+   A price that is still a <p> sibling — the shape add-ons.md uses — falls back
+   to the action line, which is where order 4 puts it. */
+.md-typeset .mg-card__title .mg-card__price {
+  display: inline;
+  margin: 0 0 0 8px;
+  font-size: 19px;
+  font-weight: 900;
+  line-height: 1;
+  color: var(--ab-red);
+  white-space: nowrap;
+}
+
+.md-typeset .mg-card__price {
+  order: 4;
+  margin: auto 0 0;
+}
+
+.md-typeset .mg-card__more {
+  order: 5;
+}
+
+/* The thickness / colour picker enhanceCards() builds out of a card's
+   data-options. A table row hands it the name cell to sit in; a card has no
+   such slot, so it takes its own centred row — order 3 keeps it just above the
+   action line wherever the script inserted it, since that line has to stay the
+   last thing on the card. Only the rubber cards carry one. */
+.md-typeset .mg-card__options {
+  order: 3;
+  align-self: center;
+  max-width: 100%;
+  margin: 0 0 12px;
+  padding: 4px 8px;
+  border: 1px solid var(--ab-line);
+  border-radius: 0;
+  background: var(--ab-panel-2);
+  font-family: var(--ab-sans);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  color: var(--ab-text);
+  cursor: pointer;
+}
+
+.md-typeset .mg-card__options:focus {
+  border-color: var(--ab-accent-deep);
+  outline: none;
+}
+
 /* ---------------------------------------------------------------------------
    4. Grids — each states its rung on the title ladder.
 
-   2 columns   ~464px   title 26px   (guide cards)
-   3 columns   ~307px   title 17px   (every shop grid)
+   2 columns   ~464px   title 26px   (guide cards, add-ons)
+   3 columns   ~307px   title 17px   (every other shop grid)
    4 columns   ~225px   title 14px   (home tiles, Hot Gear, brand wall)
 --------------------------------------------------------------------------- */
 
-/* add-ons: 3 up */
+/* add-ons: 2 up, the /gear/ arrangement. At 470px a card holds a portrait
+   media band, and its title set at 26px needs the wider column — at 307px the
+   same titles wrapped to three lines. */
 .md-typeset .mg-card-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 20px;
+}
+
+.md-typeset .mg-card-grid .mg-card__title {
+  font-size: 26px;
 }
 
 /* pre-owned / blades / rubbers: 3 up */
@@ -355,9 +466,9 @@
   gap: 20px;
 }
 
-/* home category tiles: 4 up */
+/* home category tiles: 5 up, one per shop entry in the nav row */
 .md-typeset .mg-home-cats__grid {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 20px;
 }
 
@@ -555,6 +666,26 @@
 .md-typeset .mg-preowned-card--sold .mg-preowned-card__title {
   color: var(--ab-text-muted);
 }
+
+/* The price ends the name, a size down from it — the same move the shop cards
+   make in .mg-card__title .mg-card__price above, and preowned-grid.js now puts
+   the span inside the <h3> for us. What is left here is undoing the block
+   treatment extra.css gave it: the 20px of side padding that lined it up under
+   the title, the bottom margin that spaced it from the action line, and the
+   15px size. */
+.md-typeset .mg-preowned-card__title .mg-preowned-card__price {
+  display: inline;
+  margin: 0 0 0 8px !important;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+/* No narrow-viewport step for the price: the title it rides on is pinned at
+   17px by the rule above at every width (extra.css steps it to 0.72rem at
+   600px, but that rule is the earlier file at equal specificity and loses), so
+   the price holding 14px stays in the same ratio. */
 
 /* The two actions become the card's action line: underlined, uppercase, one
    in the accent (add to cart) and one in the green (WhatsApp). Both stop
@@ -899,11 +1030,18 @@
   border-radius: 0 !important;
 }
 
-.mg-lightbox__img,
+/* The three controls are round on purpose — a close button, an arrow and a dot
+   read as controls because of the shape. The image is not one of them: 999px on
+   a square product shot is clipped to half its height, so the photo itself was
+   drawn as a circle. Squares stay squares. */
 .mg-lightbox__close,
 .mg-lightbox__nav,
 .mg-lightbox__dot {
   border-radius: 999px;
+}
+
+.mg-lightbox__img {
+  border-radius: 0;
 }
 
 .mg-lightbox__img {
@@ -1031,4 +1169,19 @@
 
 .md-copyright {
   text-align: center;
+}
+
+/* ---------------------------------------------------------------------------
+   16. Landing on a card.
+
+   Every product card carries an id, so a search hit can link straight to it —
+   see hooks/search_card_anchors.py. The browser scrolls an anchor target flush
+   to the top of the viewport, which for a card means its image rule sits hard
+   against the edge with nothing above it. The page header is position: static,
+   so this is breathing room, not clearance for an overlay.
+--------------------------------------------------------------------------- */
+
+.md-typeset .mg-card,
+.md-typeset .mg-preowned-card {
+  scroll-margin-top: 16px;
 }

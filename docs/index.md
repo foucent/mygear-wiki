@@ -22,6 +22,13 @@ description: "Get brand-new table tennis blades, popular rubbers, and sports gea
   <section class="mg-home-cats" aria-label="Shop categories">
     <h2 class="mg-home-section-title">Shop</h2>
     <div class="mg-home-cats__grid">
+      <a class="mg-home-cat" href="/top-picks/">
+        <img class="mg-home-cat__img" src="/images/stock-blades/brand-new-selected-fan-zhendong-golden.jpg" alt="Selected table tennis blades and popular rubbers" loading="lazy">
+        <span class="mg-home-cat__body">
+          <span class="mg-home-cat__name">Top Picks</span>
+          <span class="mg-home-cat__desc">Selected blades &amp; popular rubbers</span>
+        </span>
+      </a>
       <a class="mg-home-cat" href="/blades/">
         <img class="mg-home-cat__img" src="/images/stock-blades/brand-new-selected-viscaria.jpg" alt="Table tennis blades in stock" loading="lazy">
         <span class="mg-home-cat__body">

@@ -47,7 +47,7 @@
     );
   }
 
-  function appendShopPriceBlock(card, priceEl, img, tr) {
+  function appendShopPriceBlock(card, title, priceEl, img, tr) {
     var aeUrl =
       (img && img.getAttribute("data-aliexpress-url")) ||
       tr.getAttribute("data-aliexpress-url") ||
@@ -59,8 +59,15 @@
     var aePrice = parsePrice(aePriceRaw);
     var hasAe = aeUrl || aePrice >= 0;
 
+    // Nothing to compare against, so the price rides at the end of the name.
+    // Only the AliExpress variant keeps a block of its own — it is two labelled
+    // rows, not a bare price, and it cannot be folded into the title.
     if (!hasAe) {
-      card.appendChild(priceEl);
+      // The space is for the text, not the eye — the 8px in CSS is the gap.
+      // Without it the name and the price read as one word to a screen reader
+      // and to anything that copies the title out.
+      title.appendChild(document.createTextNode(" "));
+      title.appendChild(priceEl);
       return;
     }
 
@@ -160,6 +167,10 @@
       card.className =
         "mg-preowned-card" + (sold ? " mg-preowned-card--sold" : "");
       card.setAttribute("role", "listitem");
+      // The search index points at rows — see hooks/search_card_anchors.py —
+      // so the anchor has to survive the row-to-card move. The table itself is
+      // gone from the DOM by then.
+      if (tr.id) card.id = tr.id;
       card.dataset.name = name;
       card.dataset.price = String(price);
       if (sold) card.dataset.sold = "1";
@@ -187,7 +198,10 @@
       title.className = "mg-preowned-card__title";
       title.textContent = name;
 
-      var priceEl = document.createElement("p");
+      // A <span> rather than a <p>: it goes inside the <h3>, at the end of the
+      // name. A <p> there would be invalid, and on the card's flex column it
+      // would claim a row of its own.
+      var priceEl = document.createElement("span");
       priceEl.className = "mg-preowned-card__price";
       if (sold) {
         var del = document.createElement("del");
@@ -196,6 +210,8 @@
       } else {
         priceEl.textContent = money(price);
       }
+      title.appendChild(document.createTextNode(" "));
+      title.appendChild(priceEl);
 
       var cta;
       if (sold) {
@@ -224,7 +240,6 @@
 
       card.appendChild(media);
       card.appendChild(title);
-      card.appendChild(priceEl);
       card.appendChild(cta);
       if (sold) soldCards.push(card);
       else if (isNew)
@@ -301,6 +316,17 @@
       observer.observe(sentinel);
     }
 
+    // A search result can name a single card (…/pre-owned/#pre-owned-viscaria).
+    // The browser tried to scroll to it before this grid existed, and the card
+    // may still be one of the hidden ones, so open up to it and scroll again.
+    if (location.hash) {
+      var target = document.getElementById(location.hash.slice(1));
+      if (target && target.classList.contains("mg-preowned-card")) {
+        revealUpTo(allCards.indexOf(target) + 1);
+        target.scrollIntoView();
+      }
+    }
+
     var countEl = $(".mg-preowned-count");
     if (countEl) countEl.textContent = String(available);
 
@@ -358,6 +384,7 @@
         "mg-preowned-card" +
         (inStock ? " mg-preowned-card--stock" : " mg-preowned-card--proxy");
       card.setAttribute("role", "listitem");
+      if (tr.id) card.id = tr.id;
       card.dataset.name = name;
       card.dataset.price = String(price);
 
@@ -383,7 +410,7 @@
       title.className = "mg-preowned-card__title";
       title.textContent = name;
 
-      var priceEl = document.createElement("p");
+      var priceEl = document.createElement("span");
       priceEl.className = "mg-preowned-card__price";
       priceEl.textContent = money(price);
 
@@ -437,7 +464,7 @@
         card.appendChild(optWrap);
       }
 
-      appendShopPriceBlock(card, priceEl, img, tr);
+      appendShopPriceBlock(card, title, priceEl, img, tr);
       card.appendChild(btn);
       grid.appendChild(card);
     });

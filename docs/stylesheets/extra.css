@@ -1509,10 +1509,9 @@ body.mg-cart-open {
   letter-spacing: 0.75px;
   text-transform: uppercase;
   color: var(--ab-text);
-  /* Reserve two lines so the price and the action line sit at the same height
-     on every card. Not a clamp — a longer title at a narrow width simply makes
-     its row taller, and the 1fr rows even that back out. */
-  min-height: calc(2 * 1.15em);
+  /* The two-line title reserve that used to live here is gone: uncrate.css owns
+     the card recipe now, and it measures the card against /gear/ on the sister
+     site, where the title is one line tall. */
 }
 
 .md-typeset .mg-card__price {

@@ -53,12 +53,15 @@ PRODUCTS = {
 }
 
 
-# Guide/article pages translated from Chinese source articles.
-# slug -> (headline, lead image path)
+# Guide/article pages translated from Chinese source material.
+# slug -> (headline, lead image path or None)
 ARTICLES = {
     "blade-thickness-and-flatness": (
         "Blade Thickness — Penetration, Spin vs. Speed, and Flatness",
         "images/blade-thickness/01.png"),
+    "rubber-lifespan-and-durability": (
+        "How Long Do Table Tennis Rubbers Last?",
+        None),
 }
 
 
@@ -111,12 +114,13 @@ def on_page_context(context, page, config, nav):
             "@type": "Article",
             "headline": headline,
             "description": page.meta["description"],
-            "image": f"{site}/{img}",
             "url": page_url,
             "mainEntityOfPage": {"@type": "WebPage", "@id": page_url},
             "author": publisher,
             "publisher": publisher,
         }
+        if img:
+            ld["image"] = f"{site}/{img}"
         # `imported:` marks when the translation went live.
         published = page.meta.get("imported")
         if published:

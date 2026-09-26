@@ -12,6 +12,9 @@ validation:
     omitted_files: info
 hooks:
   - hooks/product_schema.py
+  # Gives every product card an id and its own search entry, so a search hit
+  # scrolls to the card instead of the top of the page.
+  - hooks/search_card_anchors.py
 theme:
   name: material
   custom_dir: overrides
@@ -197,6 +200,10 @@ extra:
 # 导航配置在这里
 nav:
   - Home: index.md
+  # Top Picks leads the shop row: it is the six selected blades and the fourteen
+  # rubber models that used to open /blades/ and /rubbers/, pulled out into one
+  # page so the two price tables below them start at the top.
+  - Top Picks: top-picks.md
   - Blades: blades.md
   - Rubbers: rubbers.md
   - Add-ons: add-ons.md

@@ -337,6 +337,54 @@
     });
   }
 
+  // The shop cards on /top-picks/ carry the same data-options attribute the
+  // rubber tables do, so a card offers the same thickness / colour picker the
+  // table row would have built. The add button is already in the markup — which
+  // is also why these cards must never be moved back into a table, since
+  // enhanceTables() skips any row that already holds a .mg-cart-add.
+  function enhanceCards() {
+    $all(".mg-card").forEach(function (card) {
+      if (card.dataset.mgCartReady === "1") return;
+      card.dataset.mgCartReady = "1";
+
+      var img = card.querySelector(".mg-card__media img");
+      var btn = card.querySelector(".mg-cart-add");
+      if (!img || !btn) return;
+
+      var options = (img.getAttribute("data-options") || "")
+        .split(",")
+        .map(function (s) {
+          return s.trim();
+        })
+        .filter(Boolean);
+      if (!options.length) return;
+
+      var baseName = btn.getAttribute("data-name") || "";
+      var sel = document.createElement("select");
+      sel.className = "mg-cart-row-options mg-card__options";
+      sel.setAttribute("aria-label", baseName + " option");
+      options.forEach(function (opt, i) {
+        var o = document.createElement("option");
+        o.value = opt;
+        o.textContent = opt;
+        if (i === 0) o.selected = true;
+        sel.appendChild(o);
+      });
+      function syncCardName() {
+        var full = baseName + " · " + sel.value;
+        btn.setAttribute("data-name", full);
+        btn.setAttribute("aria-label", "Add " + full + " to cart");
+      }
+      sel.addEventListener("change", syncCardName);
+      syncCardName();
+
+      var more = card.querySelector(".mg-card__more");
+      var copy = card.querySelector(".mg-card__copy");
+      if (more && copy) copy.insertBefore(sel, more);
+      else (copy || card).appendChild(sel);
+    });
+  }
+
   function ensureUi() {
     if ($("#mg-cart-root")) return $("#mg-cart-root");
 
@@ -468,6 +516,7 @@
     // elements are absent.
     enhanceTables();
     enhanceListings();
+    enhanceCards();
     ensureUi();
 
     var cart = normalizeCart(loadCart());

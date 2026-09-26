@@ -224,7 +224,12 @@
       });
     });
 
-    document.querySelectorAll(".mg-price-table").forEach(function (tableWrap) {
+    // .mg-card-grid is the add-ons card grid; it carries its images the same
+    // way a price table does (an <img> with an optional data-gallery list), so
+    // it rides the same binding rather than getting a second one.
+    document
+      .querySelectorAll(".mg-price-table, .mg-card-grid")
+      .forEach(function (tableWrap) {
       var imgs = tableWrap.querySelectorAll("img");
       var fallbackItems = imageItems(tableWrap);
       var isPreowned = tableWrap.classList.contains("mg-price-table--preowned");
@@ -348,15 +353,38 @@
           }
         }
 
+        // A card owns its own pictures: with a data-gallery list that list is
+        // the set, and without one the card is a single photo. Only outside a
+        // card (a price table) does an unlisted image fall back to the whole
+        // container, which is that layout's "browse them all" behaviour.
+        var cardScope = img.closest(".mg-card");
+        var cardItems = galleryItemsList || [
+          { href: fullHref(img), alt: img.alt || "" },
+        ];
+        var items = cardScope ? cardItems : galleryItemsList || fallbackItems;
+        var start = cardScope
+          ? 0
+          : galleryItemsList
+          ? parseInt(img.dataset.galleryIndex || "0", 10) || 0
+          : i;
+
         img.addEventListener("click", function (e) {
           e.preventDefault();
           e.stopPropagation();
-          var items = galleryItemsList || fallbackItems;
-          var start = galleryItemsList
-            ? parseInt(img.dataset.galleryIndex || "0", 10) || 0
-            : i;
           root._open(items, start);
         });
+
+        // The card's "View photo(s)" link opens the same set the image does,
+        // instead of navigating off to a bare JPEG.
+        var zoomLink = cardScope && cardScope.querySelector(".mg-card__zoom");
+        if (zoomLink && zoomLink.dataset.mgLightboxBound !== "1") {
+          zoomLink.dataset.mgLightboxBound = "1";
+          zoomLink.addEventListener("click", function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            root._open(items, 0);
+          });
+        }
       });
     });
   }
