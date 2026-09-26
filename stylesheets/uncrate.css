@@ -254,6 +254,33 @@
   object-fit: contain;
 }
 
+/* The corner marker for a card whose price is a proxy quote rather than a
+   listing — the same fact the pre-owned grid draws as "Proxy", said at the shop
+   card's scale. Top-left: the bottom-right corner already carries the photo
+   count gallery-lightbox.js adds. Square and flat, like every other badge here,
+   and the colour is the pre-owned one so the two pages agree. */
+.md-typeset .mg-card__badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  padding: 4px 8px;
+  border-radius: 0;
+  box-shadow: none;
+  font-family: var(--ab-sans);
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+  pointer-events: none;
+}
+
+.md-typeset .mg-card__badge--proxy {
+  background: #92400e;
+}
+
 .md-typeset .mg-hot-card__img,
 .md-typeset .mg-home-cat__img,
 .md-typeset .mg-guide-card__media img {
@@ -423,6 +450,27 @@
 .md-typeset .mg-card__price {
   order: 4;
   margin: auto 0 0;
+}
+
+/* The one card that has no price — the Victas Quartet AFC, which Victas does not
+   publish one for — takes a sentence of prose in that slot instead, so the card
+   is still something a search can land on rather than a bare name. Order 1 puts
+   it on its own line under the title and above whatever the price/action pair
+   does at the bottom; the row's stretch then spends any spare height in the gaps
+   between the lines, exactly as it does for a kicker.
+
+   Left-aligned, unlike everything else on the card: the copy column centres its
+   children, which is right for a kicker or a title and wrong for four lines of
+   prose, where a centred block reads as a ragged shape rather than a paragraph. */
+.md-typeset .mg-card__desc {
+  order: 1;
+  flex: 0 0 100%;
+  margin: 0 0 12px;
+  font-family: var(--ab-serif);
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: left;
+  color: var(--ab-text-muted);
 }
 
 .md-typeset .mg-card__more {

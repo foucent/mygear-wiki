@@ -388,13 +388,20 @@
   function ensureUi() {
     if ($("#mg-cart-root")) return $("#mg-cart-root");
 
-    // No floating button: the cart's trigger is the "shop.mygear.top" item in
-    // the masthead strip (see overrides/partials/header.html), which is
-    // server-rendered and so is already in the DOM here. This root is only the
-    // toast and the drawer.
+    // Two triggers, one drawer. The "shop.mygear.top" item in the masthead
+    // strip (see overrides/partials/header.html) is server-rendered and so is
+    // already in the DOM here; the floating button is the one you can reach
+    // without looking up, and it stacks over the WhatsApp float rather than
+    // fighting it for the corner — see .mg-float-stack in extra.css.
     var root = document.createElement("div");
     root.id = "mg-cart-root";
     root.innerHTML =
+      '<div class="mg-float-stack">' +
+      '  <button type="button" class="mg-cart-fab" id="mg-cart-fab" aria-label="Open cart" title="Your cart">' +
+      '    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zM7.2 14h9.45c.75 0 1.4-.41 1.73-1.07L21 6H6.2l-.94-2H1v2h2l3.6 7.59-1.35 2.44C4.52 16.37 5.48 18 7 18h12v-2H7.2l1-1.8z"/></svg>' +
+      '    <span class="mg-cart-fab__count" id="mg-cart-fab-count" hidden>0</span>' +
+      "  </button>" +
+      "</div>" +
       '<div class="mg-cart-toast" id="mg-cart-toast" hidden role="status" aria-live="polite"></div>' +
       '<div class="mg-cart-drawer" id="mg-cart-drawer" hidden>' +
       '  <div class="mg-cart-drawer__backdrop" data-cart-close="1"></div>' +
@@ -433,6 +440,7 @@
 
   function render(cart) {
     var countEl = $("#mg-cart-hdr-count");
+    var fabEl = $("#mg-cart-fab-count");
     var itemsEl = $("#mg-cart-items");
     var totalEl = $("#mg-cart-total");
     var wa = $("#mg-cart-wa");
@@ -440,11 +448,16 @@
 
     if (!itemsEl) return;
 
-    // The badge only exists when header.html rendered it, and it stays hidden
-    // at zero so an empty cart leaves the strip reading as a plain label.
+    // Both badges stay hidden at zero — one so an empty cart leaves the strip
+    // reading as a plain label, the other so the floating button carries no
+    // "0" over an empty cart. The buttons themselves are always there.
     if (countEl) {
       countEl.textContent = String(count);
       countEl.hidden = count === 0;
+    }
+    if (fabEl) {
+      fabEl.textContent = String(count);
+      fabEl.hidden = count === 0;
     }
     totalEl.textContent = money(cartTotal(cart));
 
@@ -552,7 +565,7 @@
         trackBeginCheckout(cart);
       }
 
-      if (e.target.closest("#mg-cart-hdr")) {
+      if (e.target.closest("#mg-cart-hdr, #mg-cart-fab")) {
         openDrawer(true);
         return;
       }
