@@ -46,7 +46,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
-      <img src="/images/add-ons/dhs-no-15-voc-free-glue.jpg" alt="DHS No.15 VOC-Free Glue" loading="lazy" decoding="async">
+      <img class="mg-card__fit-contain" src="/images/add-ons/dhs-no-15-voc-free-glue.jpg" alt="DHS No.15 VOC-Free Glue" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
       <p class="mg-card__cat">Glue</p>
@@ -206,7 +206,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
-      <img src="/images/add-ons/sdi-3006c-rubber-cutter.jpg" alt="SDI 3006C Rubber Cutter" loading="lazy" decoding="async">
+      <img class="mg-card__fit-contain" src="/images/add-ons/sdi-3006c-rubber-cutter.jpg" alt="SDI 3006C Rubber Cutter" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
       <p class="mg-card__cat">Tools</p>
