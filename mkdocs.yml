@@ -200,7 +200,7 @@ extra:
 # 导航配置在这里
 nav:
   - Home: index.md
-  # Top Picks leads the shop row: it is the six selected blades and the fourteen
+  # Top Picks leads the shop row: it is the seven selected blades and the fourteen
   # rubber models that used to open /blades/ and /rubbers/, pulled out into one
   # page so the two price tables below them start at the top.
   - Top Picks: top-picks.md

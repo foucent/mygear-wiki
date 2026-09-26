@@ -1205,10 +1205,71 @@ body.mg-lightbox-open {
   background: var(--ab-green);
 }
 
-/* .mg-float-stack and .mg-cart-fab lived here — the floating cart button and
-   the column it sat in, above the WhatsApp float. Both are gone: the cart's
-   trigger is now the "shop.mygear.top" item in the masthead strip, styled in
-   header.css. */
+/* The floating cart button, and the column it sits in.
+
+   Bottom-right is already the WhatsApp bubble's corner, so the cart stacks
+   above it — `bottom` here is the WhatsApp button's own height plus the gap,
+   and both numbers move together if either button is resized. The stack is
+   below the drawer (z-index 90) and the toast (85), so opening the cart covers
+   the button that opened it.
+
+   Black disc and white glyph, like the rest of the shop chrome after the
+   black-and-white pass; the badge is the one spot of --ab-red, and render()
+   keeps it hidden at zero. */
+.mg-float-stack {
+  position: fixed;
+  right: 1rem;
+  bottom: 5.25rem; /* .mg-wa-float: bottom 1.2rem + height 3.4rem + gap 0.65rem */
+  z-index: 80;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.mg-cart-fab {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.4rem;
+  height: 3.4rem;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: var(--ab-text);
+  color: var(--ab-bg);
+  cursor: pointer;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.28);
+  transition: transform 0.15s ease;
+}
+
+.mg-cart-fab:hover {
+  transform: translateY(-2px);
+}
+
+.mg-cart-fab svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: currentColor;
+}
+
+.mg-cart-fab__count {
+  position: absolute;
+  top: -0.2rem;
+  right: -0.2rem;
+  min-width: 1.3rem;
+  height: 1.3rem;
+  padding: 0 0.3rem;
+  border-radius: 999px;
+  background: var(--ab-red);
+  color: #fff;
+  font-family: var(--ab-sans);
+  font-size: 0.7rem;
+  font-weight: 800;
+  line-height: 1.3rem;
+  text-align: center;
+}
 
 .mg-cart-toast {
   position: fixed;
@@ -2915,6 +2976,19 @@ html.md-no-js .md-typeset .mg-bio__toggle {
   .mg-wa-float__icon {
     width: 3.1rem;
     height: 3.1rem;
+  }
+  /* Tracks the smaller WhatsApp button above: bottom 1rem + height 3.1rem. */
+  .mg-float-stack {
+    right: 0.75rem;
+    bottom: 4.75rem;
+  }
+  .mg-cart-fab {
+    width: 3.1rem;
+    height: 3.1rem;
+  }
+  .mg-cart-fab svg {
+    width: 1.35rem;
+    height: 1.35rem;
   }
 }
 
