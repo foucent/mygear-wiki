@@ -160,6 +160,7 @@ extra_css:
 
 extra_javascript:
   - javascripts/img-thumbs.js
+  - javascripts/card-read-more.js
   - javascripts/whatsapp-float.js
   - javascripts/preowned-grid.js
   - javascripts/gallery-lightbox.js
