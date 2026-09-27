@@ -473,6 +473,70 @@
   color: var(--ab-text-muted);
 }
 
+/* A description that runs past four lines — the Xiom Hugo Supreme ALXi, which
+   carries the whole article text — is cut at the fold and faded out, and its
+   photo link reads "Read more". javascripts/card-read-more.js measures each card
+   first and only tags the ones that actually overflow, so a description that
+   fits is left alone. */
+.md-typeset .mg-card__desc--clamp {
+  position: relative;
+  max-height: 6em; /* four lines at this rule's 1.5 line-height */
+  overflow: hidden;
+}
+
+/* The last line runs out under the panel colour rather than ending on a hard
+   edge, which is what tells the eye the paragraph continues. Horizontal, so it
+   fades the end of the line and not the line above it. */
+.md-typeset .mg-card__desc--clamp::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 5em;
+  height: 1.5em;
+  background: linear-gradient(to right, transparent, var(--ab-panel) 75%);
+  pointer-events: none;
+}
+
+/* Opened, the paragraph takes the media band — the same 3:2 box the photo sits
+   in — instead of growing the card. Growing it would grow the whole grid: rows
+   are 1fr, and in an auto-height grid every 1fr row resolves to the tallest, so
+   the three extra lines would have landed on all sixteen rows and dropped the
+   card you just clicked 300px down the page. Over the band nothing moves at
+   all, and the card stays 548.78px like its neighbours. */
+.md-typeset .mg-card {
+  position: relative;
+}
+
+.md-typeset .mg-card__desc--clamp.is-open {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  aspect-ratio: 3 / 2;
+  max-height: none;
+  margin: 0;
+  padding: 18px 20px;
+  overflow-y: auto;
+  background: var(--ab-panel);
+}
+
+.md-typeset .mg-card__desc--clamp.is-open::after {
+  display: none;
+}
+
+/* The band is only ~227px tall on a phone and the same paragraph needs ten
+   lines there, so the panel gives back its padding and a point of type rather
+   than hiding the last line and a half behind a scroll. "Read more" has to
+   actually show all of it. */
+@media (max-width: 759.98px) {
+  .md-typeset .mg-card__desc--clamp.is-open {
+    padding: 12px 14px;
+    font-size: 14px;
+  }
+}
+
 .md-typeset .mg-card__more {
   order: 5;
 }
