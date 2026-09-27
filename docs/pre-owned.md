@@ -40,7 +40,7 @@ hide:
 
 </div>
 
-## Pre-owned list <span class="mg-list-meta">USD prices · Updated 24 Sep 2026</span>
+## Pre-owned list <span class="mg-list-meta">USD prices · Updated 27 Sep 2026</span>
 
 <p class="mg-preowned-showing" markdown="0">Loading results…</p>
 <p class="mg-price-legend" markdown="0"><span class="mg-price-legend__stock">Available (<span class="mg-preowned-count">—</span> items)</span><span class="mg-price-legend__sold">Sold / Out of stock</span></p>
@@ -809,6 +809,11 @@ hide:
       <td><img src="/images/zhang-jk-alc-cn-y-code-82g/01.jpg" alt="Zhang JK ALC | CN | Y-code | 82g | Without box" loading="lazy" data-gallery="/images/zhang-jk-alc-cn-y-code-82g/01.jpg,/images/zhang-jk-alc-cn-y-code-82g/02.jpg,/images/zhang-jk-alc-cn-y-code-82g/03.jpg,/images/zhang-jk-alc-cn-y-code-82g/04.jpg,/images/zhang-jk-alc-cn-y-code-82g/05.jpg,/images/zhang-jk-alc-cn-y-code-82g/06.jpg,/images/zhang-jk-alc-cn-y-code-82g/07.jpg"></td>
       <td>Zhang JK ALC | CN | Y-code | 82g | Without box</td>
       <td style="text-align:right">$128</td>
+    </tr>
+<tr data-added="2026-09-27">
+      <td><img src="/images/viscaria-cn-y-code-89g/01.jpg" alt="Viscaria | CN | Y-Code | 89g | Without box" loading="lazy" data-gallery="/images/viscaria-cn-y-code-89g/01.jpg,/images/viscaria-cn-y-code-89g/02.jpg,/images/viscaria-cn-y-code-89g/03.jpg,/images/viscaria-cn-y-code-89g/04.jpg,/images/viscaria-cn-y-code-89g/05.jpg,/images/viscaria-cn-y-code-89g/06.jpg,/images/viscaria-cn-y-code-89g/07.jpg,/images/viscaria-cn-y-code-89g/08.jpg"></td>
+      <td>Viscaria | CN | Y-Code | 89g | Without box</td>
+      <td style="text-align:right">$95</td>
     </tr>
 <tr>
       <td><img src="/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/01.jpg" alt="Yinhe PRK Choi Hyun Hwa North Korea Team Special | 90g" loading="lazy" data-gallery="/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/01.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/02.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/03.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/04.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/05.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/06.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/07.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/08.jpg"></td>
