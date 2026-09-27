@@ -473,14 +473,15 @@
   color: var(--ab-text-muted);
 }
 
-/* A description that runs past four lines — the Xiom Hugo Supreme ALXi, which
-   carries the whole article text — is cut at the fold and faded out, and its
-   photo link reads "Read more". javascripts/card-read-more.js measures each card
-   first and only tags the ones that actually overflow, so a description that
-   fits is left alone. */
+/* A description that outgrows the page's other cards — the Xiom Hugo Supreme
+   ALXi, which carries the whole article text — is cut at the fold and faded
+   out, and its photo link reads "Read more". javascripts/card-read-more.js
+   measures every card first, works out how many lines the page's descriptions
+   normally run to at this width, and tags only the ones past it. Four lines on
+   a desktop column, six on a phone one; a description that fits is left alone. */
 .md-typeset .mg-card__desc--clamp {
   position: relative;
-  max-height: 6em; /* four lines at this rule's 1.5 line-height */
+  max-height: calc(var(--mg-clamp-lines, 4) * 1.5em);
   overflow: hidden;
 }
 
@@ -498,41 +499,52 @@
   pointer-events: none;
 }
 
-/* Opened, the paragraph takes the media band — the same 3:2 box the photo sits
-   in — instead of growing the card. Growing it would grow the whole grid: rows
-   are 1fr, and in an auto-height grid every 1fr row resolves to the tallest, so
-   the three extra lines would have landed on all sixteen rows and dropped the
-   card you just clicked 300px down the page. Over the band nothing moves at
-   all, and the card stays 548.78px like its neighbours. */
+/* Opened, the paragraph covers the card instead of growing it. Growing would
+   grow the whole grid: rows are 1fr, and an auto-height grid resolves every 1fr
+   row to the tallest, so the extra lines would have landed on every row and
+   dropped the card you just clicked down the page. Over the card nothing moves
+   at all.
+
+   The whole card rather than just the media band it replaces. Covering the band
+   alone reads better on a wide column, but the paragraph does not always fit in
+   it: in the narrowest ones it needs a line or two more and would have cut
+   across the title. A card-sized panel is the same shape at every width, and
+   the card is always far taller than the band, so the text has room. */
 .md-typeset .mg-card {
   position: relative;
 }
 
 .md-typeset .mg-card__desc--clamp.is-open {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
+  inset: 0;
   z-index: 2;
-  aspect-ratio: 3 / 2;
-  max-height: none;
   margin: 0;
-  padding: 18px 20px;
+  /* The fold the closed card is cut at does not apply once it is open. */
+  max-height: none;
+  /* The action line is held above this panel; the extra bottom padding keeps
+     the paragraph from ending underneath it. */
+  padding: 18px 20px 64px;
   overflow-y: auto;
   background: var(--ab-panel);
+}
+
+/* Still the card's last row, and still what closes the paragraph, so it has to
+   come out on top of the panel rather than behind it. */
+.md-typeset .mg-card__more {
+  position: relative;
+  z-index: 3;
 }
 
 .md-typeset .mg-card__desc--clamp.is-open::after {
   display: none;
 }
 
-/* The band is only ~227px tall on a phone and the same paragraph needs ten
-   lines there, so the panel gives back its padding and a point of type rather
-   than hiding the last line and a half behind a scroll. "Read more" has to
-   actually show all of it. */
-@media (max-width: 759.98px) {
+/* The band is only ~230px tall once the column narrows and the same paragraph
+   needs ten lines there, so the panel gives back its padding and a point of
+   type. "Read more" has to actually show all of it. */
+@media (max-width: 1099.98px) {
   .md-typeset .mg-card__desc--clamp.is-open {
-    padding: 12px 14px;
+    padding: 14px 16px;
     font-size: 14px;
   }
 }
