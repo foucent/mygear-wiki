@@ -254,11 +254,14 @@
   object-fit: contain;
 }
 
-/* The corner marker for a card whose price is a proxy quote rather than a
-   listing — the same fact the pre-owned grid draws as "Proxy", said at the shop
-   card's scale. Top-left: the bottom-right corner already carries the photo
-   count gallery-lightbox.js adds. Square and flat, like every other badge here,
-   and the colour is the pre-owned one so the two pages agree. */
+/* The corner marker for what a card's price actually buys: a proxy quote rather
+   than a listing, a blade already in our own stock, or one that has to be
+   ordered in before it ships. All three are the same kind of fact — a caveat on
+   the cart line — so all three are drawn the same way. Two of the colours are
+   the ones /pre-owned/ and the /rubbers/ heading already use; pre-order takes
+   the purple, the only token left that is neither "go" nor "ask us". Top-left:
+   the bottom-right corner already carries the photo count gallery-lightbox.js
+   adds. Square and flat, like every other badge here. */
 .md-typeset .mg-card__badge {
   position: absolute;
   top: 10px;
@@ -279,6 +282,14 @@
 
 .md-typeset .mg-card__badge--proxy {
   background: #92400e;
+}
+
+.md-typeset .mg-card__badge--stock {
+  background: var(--ab-green);
+}
+
+.md-typeset .mg-card__badge--preorder {
+  background: var(--ab-purple);
 }
 
 .md-typeset .mg-hot-card__img,

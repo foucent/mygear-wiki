@@ -35,20 +35,22 @@ hide:
 <div class="mg-card-grid" markdown="0">
 
   <!-- The seven selected/limited blades, moved here from the page that is now
-       /setups/. They keep the kicker line the other cards on this page do not
-       use, because on these the grade is the product: two of them share a model
-       name with a stock card further down (Viscaria, Zhang Jike ALC) at a
-       different price, and the kicker is what tells them apart. Viscaria is
-       titled with its grade for the same reason — two cards called plain
-       "Viscaria" would be indistinguishable on the page and in search. -->
+       /setups/. Their grade sits in the description under the title rather than
+       in a kicker line above it, so that they read like every other card on this
+       page. It still has to be said somewhere: two of them share a model name
+       with a stock card further down (Viscaria, Zhang Jike ALC) at a different
+       price, and that line is what tells them apart. Viscaria is titled with its
+       grade for the same reason — two cards called plain "Viscaria" would be
+       indistinguishable on the page and in search. -->
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--stock">In stock</span>
       <img src="/images/stock-blades/brand-new-selected-fan-zhendong-golden.jpg" alt="Fan ZD Golden, CN K-Code, 88.7g, brand new" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
-      <p class="mg-card__cat">CN · K-Code · 88.7g · Brand New</p>
       <h3 class="mg-card__title">Fan ZD Golden <span class="mg-card__price">$2100</span></h3>
+      <p class="mg-card__desc">CN · K-Code · 88.7g · Brand New</p>
       <p class="mg-card__more mg-card__more--split">
         <a class="mg-card__zoom" href="/images/stock-blades/brand-new-selected-fan-zhendong-golden.jpg">View photo</a>
         <em class="mg-card__or">or</em>
@@ -59,11 +61,12 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--stock">In stock</span>
       <img src="/images/stock-blades/brand-new-selected-butterfly-taksim-x.jpg" alt="Butterfly Taksim X, 2005 metal tag, no code, 90g, brand new" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
-      <p class="mg-card__cat">2005 Metal Tag (No Code) · 90g · Brand New</p>
       <h3 class="mg-card__title">Butterfly Taksim X <span class="mg-card__price">$505</span></h3>
+      <p class="mg-card__desc">2005 Metal Tag (No Code) · 90g · Brand New</p>
       <p class="mg-card__more mg-card__more--split">
         <a class="mg-card__zoom" href="/images/stock-blades/brand-new-selected-butterfly-taksim-x.jpg">View photo</a>
         <em class="mg-card__or">or</em>
@@ -74,11 +77,12 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--stock">In stock</span>
       <img src="/images/stock-blades/brand-new-selected-butterfly-cofferlait.jpg" alt="Butterfly Cofferlait, metal tag, no code, 84g, brand new" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
-      <p class="mg-card__cat">Metal Tag (No Code) · 84g · Brand New</p>
       <h3 class="mg-card__title">Butterfly Cofferlait <span class="mg-card__price">$1038</span></h3>
+      <p class="mg-card__desc">Metal Tag (No Code) · 84g · Brand New</p>
       <p class="mg-card__more mg-card__more--split">
         <a class="mg-card__zoom" href="/images/stock-blades/brand-new-selected-butterfly-cofferlait.jpg">View photo</a>
         <em class="mg-card__or">or</em>
@@ -89,13 +93,15 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--preorder">Pre-order</span>
       <img src="/images/stock-blades/dhs-national-player-version-w968.jpg" alt="DHS W968 National, brand new, pre-order" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
-      <p class="mg-card__cat">Brand New · Pre-order</p>
       <h3 class="mg-card__title">DHS W968 National <span class="mg-card__price">$704</span></h3>
-      <!-- Condensed from the tabletennis11.com page for DHS W968 (Hurricane Long 5 National). -->
-      <p class="mg-card__desc">A limited edition of the Hurricane Long 5, built and tuned for Ma Long &mdash; components selected, stored and produced to the standard of the blades DHS makes for the Chinese national team. 5+2 inner carbon, for top-end power.</p>
+      <!-- Condensed from the tabletennis11.com page for DHS W968 (Hurricane Long 5 National).
+           The grade line leads it rather than sitting in a kicker above the title,
+           so that this card reads like the rest of the page. -->
+      <p class="mg-card__desc">Brand New · Pre-order. A limited edition of the Hurricane Long 5, built and tuned for Ma Long &mdash; components selected, stored and produced to the standard of the blades DHS makes for the Chinese national team. 5+2 inner carbon, for top-end power.</p>
       <p class="mg-card__more mg-card__more--split">
         <a class="mg-card__zoom" href="/images/stock-blades/dhs-national-player-version-w968.jpg">View photo</a>
         <em class="mg-card__or">or</em>
@@ -106,11 +112,12 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--stock">In stock</span>
       <img src="/images/stock-blades/brand-new-selected-viscaria.jpg" alt="Butterfly Viscaria, CN K-Code, 90-93g, brand new selected" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
-      <p class="mg-card__cat">CN · K-Code · 90-93g · Brand New Selected</p>
       <h3 class="mg-card__title">Viscaria | CN K-Code (Selected) <span class="mg-card__price">$169</span></h3>
+      <p class="mg-card__desc">CN · K-Code · 90-93g · Brand New Selected</p>
       <p class="mg-card__more mg-card__more--split">
         <a class="mg-card__zoom" href="/images/stock-blades/brand-new-selected-viscaria.jpg">View photo</a>
         <em class="mg-card__or">or</em>
@@ -121,11 +128,12 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--stock">In stock</span>
       <img src="/images/stock-blades/brand-new-selected-fan-zhendong-salc.jpg" alt="Fan ZD SALC, CN K-Code, 87-90g, brand new selected" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
-      <p class="mg-card__cat">CN · K-Code · 87-90g · Brand New Selected</p>
       <h3 class="mg-card__title">Fan ZD SALC <span class="mg-card__price">$219</span></h3>
+      <p class="mg-card__desc">CN · K-Code · 87-90g · Brand New Selected</p>
       <p class="mg-card__more mg-card__more--split">
         <a class="mg-card__zoom" href="/images/stock-blades/brand-new-selected-fan-zhendong-salc.jpg">View photo</a>
         <em class="mg-card__or">or</em>
@@ -136,11 +144,12 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--stock">In stock</span>
       <img src="/images/stock-blades/zhang-jk-alc-cn-cs-k-code-83-90g-brand-new-selected.jpg" alt="Zhang JK ALC, CN CS K-Code, 86-90g, brand new selected" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
-      <p class="mg-card__cat">CN · CS · K-Code · 86-90g · Brand New Selected</p>
       <h3 class="mg-card__title">Zhang JK ALC <span class="mg-card__price">$259</span></h3>
+      <p class="mg-card__desc">CN · CS · K-Code · 86-90g · Brand New Selected</p>
       <p class="mg-card__more mg-card__more--split">
         <a class="mg-card__zoom" href="/images/stock-blades/zhang-jk-alc-cn-cs-k-code-83-90g-brand-new-selected.jpg">View photo</a>
         <em class="mg-card__or">or</em>
@@ -151,6 +160,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--proxy">Proxy buy</span>
       <img src="/images/stock-blades/dhs-official-w968no-10-40.jpg" alt="DHS W968 | Official (No.10-40)" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
@@ -169,6 +179,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--stock">In stock</span>
       <img src="/images/stock-blades/dhs-hurricane-long-5-series.jpg" alt="DHS Hurricane Long 5x" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
@@ -185,6 +196,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--stock">In stock</span>
       <img src="/images/stock-blades/dhs-hurricane-sun.jpg" alt="DHS Hurricane Sun" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
@@ -201,6 +213,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--stock">In stock</span>
       <img src="/images/stock-blades/dhs-hurricane-king-wang-chuqin.jpg" alt="DHS Hurricane King (Wang Chuqin)" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
@@ -217,6 +230,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/maze-advance.jpg" alt="Maze Advance" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
@@ -233,6 +247,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/yasaka-ma-lin-carbon.jpg" alt="Yasaka Ma Lin Carbon" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
@@ -249,6 +264,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/nittaku-acoustic-carbon-g-revision.jpg" alt="Nittaku Acoustic Carbon G-Revision" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
@@ -265,6 +281,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/dhs-hurricane-long-5.jpg" alt="DHS Hurricane Long 5" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
@@ -281,6 +298,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/butterfly-innerforce-layer-alc.jpg" alt="Butterfly Innerforce Layer ALC" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
@@ -297,6 +315,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/donic-zhang-jike-original-carbon.jpg" alt="Donic Zhang Jike Original Carbon" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
@@ -313,6 +332,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/harimoto-innerforce-alc.jpg" alt="Harimoto Innerforce ALC" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
@@ -329,6 +349,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/timo-boll-alc.jpg" alt="Timo Boll ALC" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
@@ -345,6 +366,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/viscaria.jpg" alt="Viscaria" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
@@ -361,6 +383,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/taksim-butterfly-king.jpg" alt="Taksim (Butterfly King)" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
@@ -377,6 +400,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/nittaku-goriki.jpg" alt="Nittaku Goriki" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
@@ -393,6 +417,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/ovtcharov-innerforce-alc.jpg" alt="Ovtcharov Innerforce ALC" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
@@ -409,6 +434,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/xiom-chrome-xaxi.jpg" alt="Xiom Chrome XAXi" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
@@ -446,6 +472,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/fan-zhendong-alc.jpg" alt="Fan Zhendong ALC" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
@@ -462,6 +489,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/zhang-jike-alc.jpg" alt="Zhang Jike ALC" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
@@ -478,6 +506,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/stiga-cybershape-carbon-cwt-truls.jpg" alt="Stiga Cybershape Carbon CWT Truls Edition" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
@@ -494,6 +523,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/joola-hugo-calderano-ary-x.jpg" alt="Joola Hugo Calderano ARY-X" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
@@ -510,6 +540,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/joola-hugo-calderano-ary-c.jpg" alt="Joola Hugo Calderano ARY-C" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
@@ -526,6 +557,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/victas-koki-niwa.jpg" alt="Victas Koki Niwa" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
@@ -542,6 +574,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/victas-koji-matsushita-offensive.jpg" alt="Victas Koji Matsushita Offensive" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
@@ -577,6 +610,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/dhs-power-g7.jpg" alt="DHS Power G7" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
@@ -593,6 +627,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/dhs-classic-08x.jpg" alt="DHS Classic 08X" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
@@ -609,6 +644,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/dhs-fang-bo-carbon.jpg" alt="DHS Fang Bo Carbon" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
@@ -625,6 +661,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/yinhe-pro-01.jpg" alt="Yinhe Pro 01" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
@@ -641,6 +678,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
+      <span class="mg-card__badge mg-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/yinhe-v-14-pro.jpg" alt="Yinhe V-14 Pro" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
