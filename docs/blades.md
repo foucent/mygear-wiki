@@ -34,6 +34,121 @@ hide:
 
 <div class="mg-card-grid" markdown="0">
 
+  <!-- The seven selected/limited blades, moved here from the page that is now
+       /setups/. They keep the kicker line the other cards on this page do not
+       use, because on these the grade is the product: two of them share a model
+       name with a stock card further down (Viscaria, Zhang Jike ALC) at a
+       different price, and the kicker is what tells them apart. Viscaria is
+       titled with its grade for the same reason — two cards called plain
+       "Viscaria" would be indistinguishable on the page and in search. -->
+
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/stock-blades/brand-new-selected-fan-zhendong-golden.jpg" alt="Fan ZD Golden, CN K-Code, 88.7g, brand new" loading="lazy" decoding="async">
+    </div>
+    <div class="mg-card__copy">
+      <p class="mg-card__cat">CN · K-Code · 88.7g · Brand New</p>
+      <h3 class="mg-card__title">Fan ZD Golden <span class="mg-card__price">$2100</span></h3>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/stock-blades/brand-new-selected-fan-zhendong-golden.jpg">View photo</a>
+        <em class="mg-card__or">or</em>
+        <button type="button" class="mg-cart-add" data-name="Fan ZD Golden | CN | K-Code | 88.7g | Brand New" data-price="2100" aria-label="Add Fan ZD Golden to cart">Add to cart</button>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/stock-blades/brand-new-selected-butterfly-taksim-x.jpg" alt="Butterfly Taksim X, 2005 metal tag, no code, 90g, brand new" loading="lazy" decoding="async">
+    </div>
+    <div class="mg-card__copy">
+      <p class="mg-card__cat">2005 Metal Tag (No Code) · 90g · Brand New</p>
+      <h3 class="mg-card__title">Butterfly Taksim X <span class="mg-card__price">$505</span></h3>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/stock-blades/brand-new-selected-butterfly-taksim-x.jpg">View photo</a>
+        <em class="mg-card__or">or</em>
+        <button type="button" class="mg-cart-add" data-name="Butterfly Taksim X | 2005 Metal Tag (No Code) | 90g | Brand New" data-price="505" aria-label="Add Butterfly Taksim X to cart">Add to cart</button>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/stock-blades/brand-new-selected-butterfly-cofferlait.jpg" alt="Butterfly Cofferlait, metal tag, no code, 84g, brand new" loading="lazy" decoding="async">
+    </div>
+    <div class="mg-card__copy">
+      <p class="mg-card__cat">Metal Tag (No Code) · 84g · Brand New</p>
+      <h3 class="mg-card__title">Butterfly Cofferlait <span class="mg-card__price">$1038</span></h3>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/stock-blades/brand-new-selected-butterfly-cofferlait.jpg">View photo</a>
+        <em class="mg-card__or">or</em>
+        <button type="button" class="mg-cart-add" data-name="Butterfly Cofferlait | Metal Tag (No Code) | 84g | Brand New" data-price="1038" aria-label="Add Butterfly Cofferlait to cart">Add to cart</button>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/stock-blades/dhs-national-player-version-w968.jpg" alt="DHS W968 National, brand new, pre-order" loading="lazy" decoding="async">
+    </div>
+    <div class="mg-card__copy">
+      <p class="mg-card__cat">Brand New · Pre-order</p>
+      <h3 class="mg-card__title">DHS W968 National <span class="mg-card__price">$704</span></h3>
+      <!-- Condensed from the tabletennis11.com page for DHS W968 (Hurricane Long 5 National). -->
+      <p class="mg-card__desc">A limited edition of the Hurricane Long 5, built and tuned for Ma Long &mdash; components selected, stored and produced to the standard of the blades DHS makes for the Chinese national team. 5+2 inner carbon, for top-end power.</p>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/stock-blades/dhs-national-player-version-w968.jpg">View photo</a>
+        <em class="mg-card__or">or</em>
+        <button type="button" class="mg-cart-add" data-name="DHS W968 National | Brand New | Pre-order" data-price="704" aria-label="Add DHS W968 National to cart">Add to cart</button>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/stock-blades/brand-new-selected-viscaria.jpg" alt="Butterfly Viscaria, CN K-Code, 90-93g, brand new selected" loading="lazy" decoding="async">
+    </div>
+    <div class="mg-card__copy">
+      <p class="mg-card__cat">CN · K-Code · 90-93g · Brand New Selected</p>
+      <h3 class="mg-card__title">Viscaria | CN K-Code (Selected) <span class="mg-card__price">$169</span></h3>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/stock-blades/brand-new-selected-viscaria.jpg">View photo</a>
+        <em class="mg-card__or">or</em>
+        <button type="button" class="mg-cart-add" data-name="Viscaria | CN | K-Code | 90-93g | Brand New Selected" data-price="169" aria-label="Add Viscaria | CN K-Code (Selected) to cart">Add to cart</button>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/stock-blades/brand-new-selected-fan-zhendong-salc.jpg" alt="Fan ZD SALC, CN K-Code, 87-90g, brand new selected" loading="lazy" decoding="async">
+    </div>
+    <div class="mg-card__copy">
+      <p class="mg-card__cat">CN · K-Code · 87-90g · Brand New Selected</p>
+      <h3 class="mg-card__title">Fan ZD SALC <span class="mg-card__price">$219</span></h3>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/stock-blades/brand-new-selected-fan-zhendong-salc.jpg">View photo</a>
+        <em class="mg-card__or">or</em>
+        <button type="button" class="mg-cart-add" data-name="Fan ZD SALC | CN | K-Code | 87-90g | Brand New Selected" data-price="219" aria-label="Add Fan ZD SALC to cart">Add to cart</button>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/stock-blades/zhang-jk-alc-cn-cs-k-code-83-90g-brand-new-selected.jpg" alt="Zhang JK ALC, CN CS K-Code, 86-90g, brand new selected" loading="lazy" decoding="async">
+    </div>
+    <div class="mg-card__copy">
+      <p class="mg-card__cat">CN · CS · K-Code · 86-90g · Brand New Selected</p>
+      <h3 class="mg-card__title">Zhang JK ALC <span class="mg-card__price">$259</span></h3>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/stock-blades/zhang-jk-alc-cn-cs-k-code-83-90g-brand-new-selected.jpg">View photo</a>
+        <em class="mg-card__or">or</em>
+        <button type="button" class="mg-cart-add" data-name="Zhang JK ALC | CN | CS | K-Code | 86-90g | Brand New Selected" data-price="259" aria-label="Add Zhang JK ALC to cart">Add to cart</button>
+      </p>
+    </div>
+  </article>
+
   <article class="mg-card">
     <div class="mg-card__media">
       <img src="/images/stock-blades/dhs-official-w968no-10-40.jpg" alt="DHS W968 | Official (No.10-40)" loading="lazy" decoding="async">
@@ -42,7 +157,7 @@ hide:
       <h3 class="mg-card__title">DHS W968 | Official (No.10-40) <span class="mg-card__price">$352</span></h3>
       <!-- From DHS's numbered W968 grade — the "official digital" version. The
            numbering runs 1 to 40; this card is the 10-40 band, which is what
-           separates it from the National on /top-picks/. -->
+           separates it from the National card higher up this page. -->
       <p class="mg-card__desc">The numbered version of the W968 that DHS sells through official channels, stamped 10 to 40 on the handle. Same 5+2 inner-carbon build as the Hurricane Long 5, and the low numbers get the wood picked first &mdash; hence the price.</p>
       <p class="mg-card__more mg-card__more--split">
         <a class="mg-card__zoom" href="/images/stock-blades/dhs-official-w968no-10-40.jpg">View photo</a>

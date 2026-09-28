@@ -32,6 +32,215 @@ hide:
 
 </div>
 
+## In-stock rubbers <span class="mg-list-badge mg-list-badge--stock">Ships right away</span>
+
+<!-- Moved here from the page that is now /setups/. These are the rubbers we
+     hold in our own inventory, so they need their own heading: the price table
+     below is proxy buy throughout, and a card sitting under that heading would
+     read as an order-in item. No note block here — the proxy table's note is a
+     warning about its 2-3 day supplier wait, and there is nothing to warn about
+     on these. -->
+
+<div class="mg-card-grid" markdown="0">
+
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/stock-rubbers/butterfly-zyre-03.jpg" alt="Butterfly ZYRE-03" loading="lazy" decoding="async" data-options="2.7 red, 2.5 red, 2.7 black, 2.5 black">
+    </div>
+    <div class="mg-card__copy">
+      <h3 class="mg-card__title">Butterfly ZYRE-03 <span class="mg-card__price">$89</span></h3>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/stock-rubbers/butterfly-zyre-03.jpg">View photo</a>
+        <em class="mg-card__or">or</em>
+        <button type="button" class="mg-cart-add" data-name="Butterfly ZYRE-03" data-price="89" aria-label="Add Butterfly ZYRE-03 to cart">Add to cart</button>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/stock-rubbers/butterfly-dignics-09c.jpg" alt="Butterfly Dignics 09C" loading="lazy" decoding="async" data-options="2.1 red, 2.1 black">
+    </div>
+    <div class="mg-card__copy">
+      <h3 class="mg-card__title">Butterfly Dignics 09C <span class="mg-card__price">$73</span></h3>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/stock-rubbers/butterfly-dignics-09c.jpg">View photo</a>
+        <em class="mg-card__or">or</em>
+        <button type="button" class="mg-cart-add" data-name="Butterfly Dignics 09C" data-price="73" aria-label="Add Butterfly Dignics 09C to cart">Add to cart</button>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/stock-rubbers/butterfly-tenergy-05.jpg" alt="Butterfly Tenergy 05" loading="lazy" decoding="async" data-options="2.1 red, 2.1 black">
+    </div>
+    <div class="mg-card__copy">
+      <h3 class="mg-card__title">Butterfly Tenergy 05 <span class="mg-card__price">$68</span></h3>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/stock-rubbers/butterfly-tenergy-05.jpg">View photo</a>
+        <em class="mg-card__or">or</em>
+        <button type="button" class="mg-cart-add" data-name="Butterfly Tenergy 05" data-price="68" aria-label="Add Butterfly Tenergy 05 to cart">Add to cart</button>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/stock-rubbers/butterfly-rozena.jpg" alt="Butterfly ROZENA" loading="lazy" decoding="async" data-options="2.1 red, 2.1 black">
+    </div>
+    <div class="mg-card__copy">
+      <h3 class="mg-card__title">Butterfly ROZENA <span class="mg-card__price">$35</span></h3>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/stock-rubbers/butterfly-rozena.jpg">View photo</a>
+        <em class="mg-card__or">or</em>
+        <button type="button" class="mg-cart-add" data-name="Butterfly ROZENA" data-price="35" aria-label="Add Butterfly ROZENA to cart">Add to cart</button>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/stock-rubbers/butterfly-dignics-05.jpg" alt="Butterfly Dignics 05" loading="lazy" decoding="async" data-options="2.1 red, 2.1 black">
+    </div>
+    <div class="mg-card__copy">
+      <h3 class="mg-card__title">Butterfly Dignics 05 <span class="mg-card__price">$68</span></h3>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/stock-rubbers/butterfly-dignics-05.jpg">View photo</a>
+        <em class="mg-card__or">or</em>
+        <button type="button" class="mg-cart-add" data-name="Butterfly Dignics 05" data-price="68" aria-label="Add Butterfly Dignics 05 to cart">Add to cart</button>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/price-list/rubbers/glayzer-09c.jpg" alt="Butterfly GLAYZER 09C" loading="lazy" decoding="async" data-options="2.1 red, 2.1 black">
+    </div>
+    <div class="mg-card__copy">
+      <h3 class="mg-card__title">GLAYZER 09C <span class="mg-card__price">$47</span></h3>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/price-list/rubbers/glayzer-09c.jpg">View photo</a>
+        <em class="mg-card__or">or</em>
+        <button type="button" class="mg-cart-add" data-name="GLAYZER 09C" data-price="47" aria-label="Add GLAYZER 09C to cart">Add to cart</button>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/stock-rubbers/neo-h3-national-blue.jpg" alt="DHS Neo Hurricane 3 National Blue" loading="lazy" decoding="async" data-options="2.1 40° black · hot, 2.1 39° black, 2.1 41° black, 2.1 42° black">
+    </div>
+    <div class="mg-card__copy">
+      <h3 class="mg-card__title">Neo H3 National Blue <span class="mg-card__price">$50</span></h3>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/stock-rubbers/neo-h3-national-blue.jpg">View photo</a>
+        <em class="mg-card__or">or</em>
+        <button type="button" class="mg-cart-add" data-name="Neo H3 National Blue" data-price="50" aria-label="Add Neo H3 National Blue to cart">Add to cart</button>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/stock-rubbers/neo-hurricane-3-provincial-blue.jpg" alt="DHS NEO Hurricane 3 Provincial Blue" loading="lazy" decoding="async" data-options="2.1 39° black, 2.1 40° black, 2.1 41° black, 2.15 39° black, 2.15 40° black">
+    </div>
+    <div class="mg-card__copy">
+      <h3 class="mg-card__title">NEO Hurricane 3 Provincial Blue <span class="mg-card__price">$36</span></h3>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/stock-rubbers/neo-hurricane-3-provincial-blue.jpg">View photo</a>
+        <em class="mg-card__or">or</em>
+        <button type="button" class="mg-cart-add" data-name="NEO Hurricane 3 Provincial Blue" data-price="36" aria-label="Add NEO Hurricane 3 Provincial Blue to cart">Add to cart</button>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/stock-rubbers/stiga-mantra-m.jpg" alt="Stiga Mantra M" loading="lazy" decoding="async" data-options="2.1 red · hot, 2.1 black">
+    </div>
+    <div class="mg-card__copy">
+      <h3 class="mg-card__title">Stiga Mantra M <span class="mg-card__price">$30</span></h3>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/stock-rubbers/stiga-mantra-m.jpg">View photo</a>
+        <em class="mg-card__or">or</em>
+        <button type="button" class="mg-cart-add" data-name="Stiga Mantra M" data-price="30" aria-label="Add Stiga Mantra M to cart">Add to cart</button>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/stock-rubbers/neo-hurricane-3.jpg" alt="DHS Neo Hurricane 3" loading="lazy" decoding="async" data-options="39° black · hot, 40° black, 40° red, 39° red">
+    </div>
+    <div class="mg-card__copy">
+      <h3 class="mg-card__title">Neo Hurricane 3 <span class="mg-card__price">$23</span></h3>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/stock-rubbers/neo-hurricane-3.jpg">View photo</a>
+        <em class="mg-card__or">or</em>
+        <button type="button" class="mg-cart-add" data-name="Neo Hurricane 3" data-price="23" aria-label="Add Neo Hurricane 3 to cart">Add to cart</button>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/stock-rubbers/dhs-hurricane8-80.jpg" alt="DHS Hurricane8-80" loading="lazy" decoding="async" data-options="2.1 37° red, 2.1 38° red">
+    </div>
+    <div class="mg-card__copy">
+      <h3 class="mg-card__title">DHS Hurricane8-80 <span class="mg-card__price">$25</span></h3>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/stock-rubbers/dhs-hurricane8-80.jpg">View photo</a>
+        <em class="mg-card__or">or</em>
+        <button type="button" class="mg-cart-add" data-name="DHS Hurricane8-80" data-price="25" aria-label="Add DHS Hurricane8-80 to cart">Add to cart</button>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/featured-rubbers/dhs-hurricane-3-neo-provincial-40orange-sponge.jpg" alt="DHS Neo Hurricane 3 Provincial Orange" loading="lazy" decoding="async" data-options="2.1 38° black, 2.1 39° black, 2.1 40° black, 2.1 41° black, 2.1 38° red, 2.1 39° red, 2.1 40° red, 2.15 39° black, 2.15 39° red, 2.15 40° black, 2.15 40° red, 2.1 37° soft red, 2.2 40° black, 2.2 39° red, 2.2 40° red">
+    </div>
+    <div class="mg-card__copy">
+      <h3 class="mg-card__title">Neo Hurricane 3 Provincial Orange <span class="mg-card__price">$30</span></h3>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/featured-rubbers/dhs-hurricane-3-neo-provincial-40orange-sponge.jpg">View photo</a>
+        <em class="mg-card__or">or</em>
+        <button type="button" class="mg-cart-add" data-name="Neo Hurricane 3 Provincial Orange" data-price="30" aria-label="Add Neo Hurricane 3 Provincial Orange to cart">Add to cart</button>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/featured-rubbers/hurricane-3-commercial.jpg" alt="DHS Hurricane 3 Commercial" loading="lazy" decoding="async" data-options="2.2 41° red, 2.2 40° red, 2.2 39° red, 2.2 41° black, 2.2 40° black, 2.2 39° black">
+    </div>
+    <div class="mg-card__copy">
+      <h3 class="mg-card__title">Hurricane 3 (Commercial) <span class="mg-card__price">$18</span></h3>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/featured-rubbers/hurricane-3-commercial.jpg">View photo</a>
+        <em class="mg-card__or">or</em>
+        <button type="button" class="mg-cart-add" data-name="Hurricane 3 (Commercial)" data-price="18" aria-label="Add Hurricane 3 (Commercial) to cart">Add to cart</button>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/featured-rubbers/donic-desto-f1/01.jpg" alt="DONIC Desto F1" loading="lazy" decoding="async" data-options="2.0 red, Max red, Max blue, 2.0 black, Max black, 2.0 blue" data-gallery="/images/featured-rubbers/donic-desto-f1/01.jpg,/images/featured-rubbers/donic-desto-f1/02.jpg">
+    </div>
+    <div class="mg-card__copy">
+      <h3 class="mg-card__title">DONIC Desto F1 <span class="mg-card__price">$27</span></h3>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/featured-rubbers/donic-desto-f1/01.jpg">View 2 photos</a>
+        <em class="mg-card__or">or</em>
+        <button type="button" class="mg-cart-add" data-name="DONIC Desto F1" data-price="27" aria-label="Add DONIC Desto F1 to cart">Add to cart</button>
+      </p>
+    </div>
+  </article>
+
+</div>
+
 ## Rubber price table <span class="mg-list-badge mg-list-badge--proxy">Proxy buy</span> <span class="mg-list-meta">Updated 08 Sep 2026</span>
 
 <div class="admonition note mg-page-note mg-list-note mg-list-note--proxy">
