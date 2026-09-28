@@ -2,13 +2,10 @@
 title: "Table Tennis Guides, Blades, Rubbers & Technique | MyGear.Top"
 icon: material/book-open-page-variant
 description: "Table tennis guides on MyGear.Top — choosing a blade, fiber construction, rubber hardness and boosting, plus gear reviews and rankings. Eighteen articles."
+# The header bar already says "Guides"; the hub below is the page.
+hide:
+  - title
 ---
-
-# Table Tennis Guides
-
-Eighteen articles on choosing, tuning, and living with table tennis gear — from a
-first blade through fiber construction to sponge boosting. Each entry is a
-standalone guide; the excerpts match the ones on the homepage feed.
 
 <div class="mg-guide-hub" markdown="1">
 

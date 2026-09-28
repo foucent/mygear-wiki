@@ -30,17 +30,11 @@ hide:
     </div>
   </section>
 
-  <section class="mg-home-help">
-    <p class="mg-home-help__links">
-      <a href="/blades/">Blades</a>
-      <a href="/rubbers/">Rubbers</a>
-      <a href="/FAQ/">FAQ &amp; Shipping</a>
-    </p>
-  </section>
-
 </div>
 
-## Shop add-ons <span class="mg-list-meta">USD prices · Updated 15 Aug 2026</span>
+<!-- Straight into the grid: the page header above already names the category and
+     the hero carries the ordering note, so a heading over the list would only
+     repeat them. -->
 
 <div class="mg-card-grid" markdown="0">
 

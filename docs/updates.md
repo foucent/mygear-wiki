@@ -5,11 +5,9 @@ source_url: https://mygear.top/faq/
 source_title: "Updates & Reviews"
 imported: 2026-07-14
 description: "Store updates, gear reviews, and feedback for MyGear.Top table tennis shop."
----
-# Updates & Reviews
-
-Latest store updates, gear reviews, and customer feedback. For ordering and shipping info, see [FAQ & Shipping](FAQ.md).
-
+# The header bar already says "Updates". The log starts straight away.
+hide:
+  - title
 ---
 
 ## Updates
