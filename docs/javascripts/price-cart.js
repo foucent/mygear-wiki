@@ -135,11 +135,27 @@
     };
   }
 
+  // There is no global gtag on this site, and there never was. The theme's own
+  // analytics snippet -- the one generated from `extra.analytics` -- keeps its
+  // tag function local (`function e(){dataLayer.push(arguments)}`) and only ever
+  // loads gtag.js; it never declares the `function gtag(){...}` that Google's
+  // install instructions put in the page. So `window.gtag` is undefined here,
+  // and an event sent the documented way was dropped on the floor by the check
+  // below -- silently, because the catch is empty.
+  //
+  // Pushing the arguments object is what that local function does, and it is the
+  // shape gtag.js processes. It also queues rather than discards: a click in the
+  // second before gtag.js finishes downloading still gets sent when it arrives.
   function trackGa(eventName, params) {
     try {
       if (typeof window.gtag === "function") {
         window.gtag("event", eventName, params || {});
+        return;
       }
+      window.dataLayer = window.dataLayer || [];
+      (function () {
+        window.dataLayer.push(arguments);
+      })("event", eventName, params || {});
     } catch (e) {}
   }
 
