@@ -337,7 +337,7 @@
     });
   }
 
-  // The shop cards on /top-picks/ carry the same data-options attribute the
+  // The shop cards on /rubbers/ carry the same data-options attribute the
   // rubber tables do, so a card offers the same thickness / colour picker the
   // table row would have built. The add button is already in the markup — which
   // is also why these cards must never be moved back into a table, since

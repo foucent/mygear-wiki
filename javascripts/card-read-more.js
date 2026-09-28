@@ -20,6 +20,12 @@
  * for as long as the card has one — "Read more" / "Read less" — and the picture
  * is reached by clicking it with the text closed, the way every other card
  * works.
+ *
+ * A grid can opt out with data-mg-no-clamp, and /setups/'s does. There the copy
+ * is the exhibit — each card is one build, and its paragraph is the whole of
+ * what there is to read — so folding the longer of two builds behind a link
+ * costs the reader the text and the "View N photos" label both, while buying
+ * nothing: 1fr rows make the two cards the same height either way.
  */
 (function () {
   var CLAMP = "mg-card__desc--clamp";
@@ -71,6 +77,7 @@
   function collect() {
     document.querySelectorAll(".mg-card").forEach(function (card) {
       if (card.dataset.mgReadMore === "1") return;
+      if (card.closest("[data-mg-no-clamp]")) return;
       var desc = card.querySelector(".mg-card__desc");
       var zoom = card.querySelector(".mg-card__zoom");
       /* A description with no link to open it would be clipped shut with no way
