@@ -40,7 +40,7 @@ hide:
 
 </div>
 
-## Pre-owned list <span class="mg-list-meta">USD prices · Updated 27 Sep 2026</span>
+## Pre-owned list <span class="mg-list-meta">USD prices · Updated 28 Sep 2026</span>
 
 <p class="mg-preowned-showing" markdown="0">Loading results…</p>
 <p class="mg-price-legend" markdown="0"><span class="mg-price-legend__stock">Available (<span class="mg-preowned-count">—</span> items)</span><span class="mg-price-legend__sold">Sold / Out of stock</span></p>
@@ -618,7 +618,7 @@ hide:
 <tr>
       <td><img src="/images/lin-gaoyuan-alc-cn-w-code-90g/01.jpg" alt="Lin Gaoyuan ALC | W-Code | CN | 90g" loading="lazy" data-gallery="/images/lin-gaoyuan-alc-cn-w-code-90g/01.jpg,/images/lin-gaoyuan-alc-cn-w-code-90g/02.jpg,/images/lin-gaoyuan-alc-cn-w-code-90g/03.jpg,/images/lin-gaoyuan-alc-cn-w-code-90g/04.jpg,/images/lin-gaoyuan-alc-cn-w-code-90g/05.jpg,/images/lin-gaoyuan-alc-cn-w-code-90g/06.jpg,/images/lin-gaoyuan-alc-cn-w-code-90g/07.jpg"></td>
       <td>Lin Gaoyuan ALC | W-Code | CN | 90g</td>
-      <td style="text-align:right">$155</td>
+      <td style="text-align:right"><del>$155</del></td>
     </tr>
 <tr data-added="2026-09-03">
       <td><img src="/images/lin-gaoyuan-alc-t-code-cn-an-89g/01.jpg" alt="Lin Gaoyuan ALC | T-Code | CN | AN | 89g" loading="lazy" data-gallery="/images/lin-gaoyuan-alc-t-code-cn-an-89g/01.jpg,/images/lin-gaoyuan-alc-t-code-cn-an-89g/02.jpg,/images/lin-gaoyuan-alc-t-code-cn-an-89g/03.jpg,/images/lin-gaoyuan-alc-t-code-cn-an-89g/04.jpg,/images/lin-gaoyuan-alc-t-code-cn-an-89g/05.jpg,/images/lin-gaoyuan-alc-t-code-cn-an-89g/06.jpg,/images/lin-gaoyuan-alc-t-code-cn-an-89g/07.jpg,/images/lin-gaoyuan-alc-t-code-cn-an-89g/08.jpg"></td>
@@ -814,6 +814,11 @@ hide:
       <td><img src="/images/viscaria-cn-y-code-89g/01.jpg" alt="Viscaria | CN | Y-Code | 89g | Without box" loading="lazy" data-gallery="/images/viscaria-cn-y-code-89g/01.jpg,/images/viscaria-cn-y-code-89g/02.jpg,/images/viscaria-cn-y-code-89g/03.jpg,/images/viscaria-cn-y-code-89g/04.jpg,/images/viscaria-cn-y-code-89g/05.jpg,/images/viscaria-cn-y-code-89g/06.jpg,/images/viscaria-cn-y-code-89g/07.jpg,/images/viscaria-cn-y-code-89g/08.jpg"></td>
       <td>Viscaria | CN | Y-Code | 89g | Without box</td>
       <td style="text-align:right">$95</td>
+    </tr>
+<tr data-added="2026-09-28">
+      <td><img src="/images/lin-gaoyuan-alc-t-code-cn-90g/01.jpg" alt="Lin Gaoyuan ALC | T-Code | CN | 90g | Without box" loading="lazy" data-gallery="/images/lin-gaoyuan-alc-t-code-cn-90g/01.jpg,/images/lin-gaoyuan-alc-t-code-cn-90g/02.jpg,/images/lin-gaoyuan-alc-t-code-cn-90g/03.jpg,/images/lin-gaoyuan-alc-t-code-cn-90g/04.jpg,/images/lin-gaoyuan-alc-t-code-cn-90g/05.jpg,/images/lin-gaoyuan-alc-t-code-cn-90g/06.jpg,/images/lin-gaoyuan-alc-t-code-cn-90g/07.jpg,/images/lin-gaoyuan-alc-t-code-cn-90g/08.jpg"></td>
+      <td>Lin Gaoyuan ALC | T-Code | CN | 90g | Without box</td>
+      <td style="text-align:right">$165</td>
     </tr>
 <tr>
       <td><img src="/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/01.jpg" alt="Yinhe PRK Choi Hyun Hwa North Korea Team Special | 90g" loading="lazy" data-gallery="/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/01.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/02.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/03.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/04.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/05.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/06.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/07.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/08.jpg"></td>
