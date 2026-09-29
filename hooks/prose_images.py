@@ -39,12 +39,48 @@ STEPS = (240, 480, 720, 1000)
 _w: dict[Path, int] = {}
 
 
+def _header_width(data: bytes) -> int:
+    """The pixel width in a webp, jpeg or png header, or 0 if unrecognised.
+
+    Pillow is not a build dependency -- the CI installs requirements.txt and
+    nothing else -- so the three formats this site ships are read here. Only the
+    width is wanted: it becomes the `w` descriptor next to each candidate.
+    """
+    if data[:8] == b"\x89PNG\r\n\x1a\n":
+        return int.from_bytes(data[16:20], "big")
+    if data[:2] == b"\xff\xd8":  # jpeg: walk the segments up to the frame header
+        i = 2
+        while i + 9 < len(data):
+            if data[i] != 0xFF:
+                i += 1
+                continue
+            marker = data[i + 1]
+            if marker in (0xD8, 0x01) or 0xD0 <= marker <= 0xD7:
+                i += 2
+                continue
+            seg = int.from_bytes(data[i + 2 : i + 4], "big")
+            # SOF0-15 carry the frame size; DHT/DAC/... have to be stepped over
+            if 0xC0 <= marker <= 0xCF and marker not in (0xC4, 0xC8, 0xCC):
+                return int.from_bytes(data[i + 7 : i + 9], "big")
+            i += 2 + seg
+        return 0
+    if data[:4] == b"RIFF" and data[8:12] == b"WEBP":
+        kind = data[12:16]
+        if kind == b"VP8 ":  # lossy: 14-bit width after the 3-byte start code
+            return int.from_bytes(data[26:28], "little") & 0x3FFF
+        if kind == b"VP8L":  # lossless: width-1 packed after a signature byte
+            return (int.from_bytes(data[21:25], "little") & 0x3FFF) + 1
+        if kind == b"VP8X":  # extended: 24-bit canvas width-1
+            return int.from_bytes(data[24:27], "little") + 1
+        return 0
+    if data[:6] in (b"GIF87a", b"GIF89a"):
+        return int.from_bytes(data[6:8], "little")
+    return 0
+
+
 def _width(p: Path) -> int:
     if p not in _w:
-        from PIL import Image
-
-        with Image.open(p) as im:
-            _w[p] = im.size[0]
+        _w[p] = _header_width(p.read_bytes())
     return _w[p]
 
 
@@ -58,12 +94,14 @@ def candidates(full: Path) -> list[tuple[str, int]]:
     """
     out: list[tuple[str, int]] = []
     fw = _width(full)
+    if not fw:  # a header this does not recognise: describe nothing
+        return out
     for size in STEPS:
         v = full.with_name("%s.thumb%s.webp" % (full.stem, "" if size == 720 else "-%d" % size))
         if not v.exists():
             continue
         w = _width(v)
-        if w < fw:
+        if w and w < fw:
             out.append((v.name, w))
     if fw <= 1000:
         out.append((full.name, fw))
