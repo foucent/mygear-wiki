@@ -26,13 +26,13 @@ Chinese players often call this **红张** (“Red Zhang”). Classic **outer 5+
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/donic-zhang-jike-original-carbon/03.jpg"><img src="/images/donic-zhang-jike-original-carbon/03.jpg" alt="Donic Zhang Jike Original Carbon table tennis blade photo 3" loading="lazy"></a>
+  <a href="/images/donic-zhang-jike-original-carbon/03.jpg"><img src="/images/donic-zhang-jike-original-carbon/03.thumb.webp" data-full-src="/images/donic-zhang-jike-original-carbon/03.jpg" srcset="/images/donic-zhang-jike-original-carbon/03.thumb-240.webp 240w, /images/donic-zhang-jike-original-carbon/03.thumb-480.webp 480w, /images/donic-zhang-jike-original-carbon/03.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Donic Zhang Jike Original Carbon table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/donic-zhang-jike-original-carbon/01.jpg"><img src="/images/donic-zhang-jike-original-carbon/01.jpg" alt="Donic Zhang Jike Original Carbon table tennis blade photo 1" loading="lazy"></a>
+  <a href="/images/donic-zhang-jike-original-carbon/01.jpg"><img src="/images/donic-zhang-jike-original-carbon/01.thumb.webp" data-full-src="/images/donic-zhang-jike-original-carbon/01.jpg" srcset="/images/donic-zhang-jike-original-carbon/01.thumb-240.webp 240w, /images/donic-zhang-jike-original-carbon/01.thumb-480.webp 480w, /images/donic-zhang-jike-original-carbon/01.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Donic Zhang Jike Original Carbon table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/donic-zhang-jike-original-carbon/08.jpg"><img src="/images/donic-zhang-jike-original-carbon/08.jpg" alt="Donic Zhang Jike Original Carbon table tennis blade photo 8" loading="lazy"></a>
+  <a href="/images/donic-zhang-jike-original-carbon/08.jpg"><img src="/images/donic-zhang-jike-original-carbon/08.thumb.webp" data-full-src="/images/donic-zhang-jike-original-carbon/08.jpg" srcset="/images/donic-zhang-jike-original-carbon/08.thumb-240.webp 240w, /images/donic-zhang-jike-original-carbon/08.thumb-480.webp 480w, /images/donic-zhang-jike-original-carbon/08.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Donic Zhang Jike Original Carbon table tennis blade photo 8" loading="lazy"></a>
 
-  <a href="/images/donic-zhang-jike-original-carbon/12.jpg"><img src="/images/donic-zhang-jike-original-carbon/12.jpg" alt="Donic Zhang Jike Original Carbon table tennis blade photo 12" loading="lazy"></a>
+  <a href="/images/donic-zhang-jike-original-carbon/12.webp"><img src="/images/donic-zhang-jike-original-carbon/12.thumb.webp" data-full-src="/images/donic-zhang-jike-original-carbon/12.webp" srcset="/images/donic-zhang-jike-original-carbon/12.thumb-240.webp 240w, /images/donic-zhang-jike-original-carbon/12.thumb-480.webp 480w, /images/donic-zhang-jike-original-carbon/12.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Donic Zhang Jike Original Carbon table tennis blade photo 12" loading="lazy"></a>
 
 </div>
 
@@ -48,13 +48,13 @@ Chinese players often call this **红张** (“Red Zhang”). Classic **outer 5+
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/donic-linde-carbon/01.jpg"><img src="/images/donic-linde-carbon/01.jpg" alt="Donic Anders Lind Hexa Carbon table tennis blade photo 1" loading="lazy"></a>
+  <a href="/images/donic-linde-carbon/01.webp"><img src="/images/donic-linde-carbon/01.thumb.webp" data-full-src="/images/donic-linde-carbon/01.webp" srcset="/images/donic-linde-carbon/01.thumb-240.webp 160w, /images/donic-linde-carbon/01.thumb-480.webp 320w, /images/donic-linde-carbon/01.thumb.webp 480w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Donic Anders Lind Hexa Carbon table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/donic-linde-carbon/02.jpg"><img src="/images/donic-linde-carbon/02.jpg" alt="Donic Anders Lind Hexa Carbon table tennis blade photo 2" loading="lazy"></a>
+  <a href="/images/donic-linde-carbon/02.jpg"><img src="/images/donic-linde-carbon/02.thumb.webp" data-full-src="/images/donic-linde-carbon/02.jpg" srcset="/images/donic-linde-carbon/02.thumb-240.webp 240w, /images/donic-linde-carbon/02.thumb-480.webp 480w, /images/donic-linde-carbon/02.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Donic Anders Lind Hexa Carbon table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/donic-linde-carbon/03.jpg"><img src="/images/donic-linde-carbon/03.jpg" alt="Donic Anders Lind Hexa Carbon table tennis blade photo 3" loading="lazy"></a>
+  <a href="/images/donic-linde-carbon/03.jpg"><img src="/images/donic-linde-carbon/03.thumb.webp" data-full-src="/images/donic-linde-carbon/03.jpg" srcset="/images/donic-linde-carbon/03.thumb-240.webp 240w, /images/donic-linde-carbon/03.thumb-480.webp 480w, /images/donic-linde-carbon/03.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Donic Anders Lind Hexa Carbon table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/donic-linde-carbon/04.jpg"><img src="/images/donic-linde-carbon/04.jpg" alt="Donic Anders Lind Hexa Carbon table tennis blade photo 4" loading="lazy"></a>
+  <a href="/images/donic-linde-carbon/04.jpg"><img src="/images/donic-linde-carbon/04.thumb.webp" data-full-src="/images/donic-linde-carbon/04.jpg" srcset="/images/donic-linde-carbon/04.thumb-240.webp 240w, /images/donic-linde-carbon/04.thumb-480.webp 480w, /images/donic-linde-carbon/04.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Donic Anders Lind Hexa Carbon table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 
@@ -70,13 +70,13 @@ Chinese players often call this **红张** (“Red Zhang”). Classic **outer 5+
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/donic-ocharov-seven/01.jpg"><img src="/images/donic-ocharov-seven/01.jpg" alt="Donic Ovtcharov Seven table tennis blade photo 1" loading="lazy"></a>
+  <a href="/images/donic-ocharov-seven/01.jpg"><img src="/images/donic-ocharov-seven/01.thumb.webp" data-full-src="/images/donic-ocharov-seven/01.jpg" srcset="/images/donic-ocharov-seven/01.thumb-240.webp 160w, /images/donic-ocharov-seven/01.thumb-480.webp 320w, /images/donic-ocharov-seven/01.thumb.webp 480w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Donic Ovtcharov Seven table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/donic-ocharov-seven/02.jpg"><img src="/images/donic-ocharov-seven/02.jpg" alt="Donic Ovtcharov Seven table tennis blade photo 2" loading="lazy"></a>
+  <a href="/images/donic-ocharov-seven/02.jpg"><img src="/images/donic-ocharov-seven/02.thumb.webp" data-full-src="/images/donic-ocharov-seven/02.jpg" srcset="/images/donic-ocharov-seven/02.thumb-240.webp 240w, /images/donic-ocharov-seven/02.thumb-480.webp 480w, /images/donic-ocharov-seven/02.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Donic Ovtcharov Seven table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/donic-ocharov-seven/03.jpg"><img src="/images/donic-ocharov-seven/03.jpg" alt="Donic Ovtcharov Seven table tennis blade photo 3" loading="lazy"></a>
+  <a href="/images/donic-ocharov-seven/03.jpg"><img src="/images/donic-ocharov-seven/03.thumb.webp" data-full-src="/images/donic-ocharov-seven/03.jpg" srcset="/images/donic-ocharov-seven/03.thumb-240.webp 240w, /images/donic-ocharov-seven/03.thumb-480.webp 480w, /images/donic-ocharov-seven/03.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Donic Ovtcharov Seven table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/donic-ocharov-seven/04.jpg"><img src="/images/donic-ocharov-seven/04.jpg" alt="Donic Ovtcharov Seven table tennis blade photo 4" loading="lazy"></a>
+  <a href="/images/donic-ocharov-seven/04.jpg"><img src="/images/donic-ocharov-seven/04.thumb.webp" data-full-src="/images/donic-ocharov-seven/04.jpg" srcset="/images/donic-ocharov-seven/04.thumb-240.webp 240w, /images/donic-ocharov-seven/04.thumb-480.webp 480w, /images/donic-ocharov-seven/04.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Donic Ovtcharov Seven table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 

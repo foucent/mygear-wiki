@@ -10,7 +10,7 @@ description: "For players chasing a transparent, lively H3 sponge—not just bul
 
 For players chasing a transparent, lively H3 sponge—not just bulk expansion. Five thin stages: open the sponge, soften deep, lock with glue, final charge, then assemble.
 
-![Boosted Hurricane 3 sponge edge](../images/h3-boost-method/01.jpg)
+![Boosted Hurricane 3 sponge edge](../images/h3-boost-method/01.webp)
 
 Background on whether to boost at all: [Boosting Truth](../guide/boosting-truth.md).
 
@@ -53,7 +53,7 @@ When the glue film is fully dry, apply **one last thin** booster layer. It seeps
 
 One layer of water-based glue on blade and rubber; when dry, mount as usual.
 
-![Boost process diagram](../images/h3-boost-method/02.png)
+![Boost process diagram](../images/h3-boost-method/02.webp)
 
 ---
 

@@ -26,13 +26,13 @@ Real-photo gallery of **Yinhe** table tennis blades. Browse models below; tap an
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/yinhe-v14-pro/01.jpg"><img src="/images/yinhe-v14-pro/01.jpg" alt="Yinhe V14 Pro table tennis blade photo 1" loading="lazy"></a>
+  <a href="/images/yinhe-v14-pro/01.jpg"><img src="/images/yinhe-v14-pro/01.thumb.webp" data-full-src="/images/yinhe-v14-pro/01.jpg" srcset="/images/yinhe-v14-pro/01.thumb-240.webp 240w, /images/yinhe-v14-pro/01.thumb-480.webp 480w, /images/yinhe-v14-pro/01.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Yinhe V14 Pro table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/yinhe-v14-pro/02.jpg"><img src="/images/yinhe-v14-pro/02.jpg" alt="Yinhe V14 Pro table tennis blade photo 2" loading="lazy"></a>
+  <a href="/images/yinhe-v14-pro/02.jpg"><img src="/images/yinhe-v14-pro/02.thumb.webp" data-full-src="/images/yinhe-v14-pro/02.jpg" srcset="/images/yinhe-v14-pro/02.thumb-240.webp 240w, /images/yinhe-v14-pro/02.thumb-480.webp 480w, /images/yinhe-v14-pro/02.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Yinhe V14 Pro table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/yinhe-v14-pro/03.jpg"><img src="/images/yinhe-v14-pro/03.jpg" alt="Yinhe V14 Pro table tennis blade photo 3" loading="lazy"></a>
+  <a href="/images/yinhe-v14-pro/03.jpg"><img src="/images/yinhe-v14-pro/03.thumb.webp" data-full-src="/images/yinhe-v14-pro/03.jpg" srcset="/images/yinhe-v14-pro/03.thumb-240.webp 240w, /images/yinhe-v14-pro/03.thumb-480.webp 480w, /images/yinhe-v14-pro/03.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Yinhe V14 Pro table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/yinhe-v14-pro/04.jpg"><img src="/images/yinhe-v14-pro/04.jpg" alt="Yinhe V14 Pro table tennis blade photo 4" loading="lazy"></a>
+  <a href="/images/yinhe-v14-pro/04.jpg"><img src="/images/yinhe-v14-pro/04.thumb.webp" data-full-src="/images/yinhe-v14-pro/04.jpg" srcset="/images/yinhe-v14-pro/04.thumb-240.webp 240w, /images/yinhe-v14-pro/04.thumb-480.webp 480w, /images/yinhe-v14-pro/04.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Yinhe V14 Pro table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 

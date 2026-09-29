@@ -26,13 +26,13 @@ Early **Bo Arylate-Carbon** (**FL**) from Fang Bo’s DHS era—**968**-family b
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/dhs-bo-arylate-carbon/01.jpg"><img src="/images/dhs-bo-arylate-carbon/01.jpg" alt="DHS Bo Arylate-Carbon (Early) table tennis blade photo 1" loading="lazy"></a>
+  <a href="/images/dhs-bo-arylate-carbon/01.webp"><img src="/images/dhs-bo-arylate-carbon/01.thumb.webp" data-full-src="/images/dhs-bo-arylate-carbon/01.webp" srcset="/images/dhs-bo-arylate-carbon/01.thumb-240.webp 240w, /images/dhs-bo-arylate-carbon/01.thumb-480.webp 480w, /images/dhs-bo-arylate-carbon/01.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="DHS Bo Arylate-Carbon (Early) table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/dhs-bo-arylate-carbon/02.jpg"><img src="/images/dhs-bo-arylate-carbon/02.jpg" alt="DHS Bo Arylate-Carbon (Early) table tennis blade photo 2" loading="lazy"></a>
+  <a href="/images/dhs-bo-arylate-carbon/02.jpg"><img src="/images/dhs-bo-arylate-carbon/02.thumb.webp" data-full-src="/images/dhs-bo-arylate-carbon/02.jpg" srcset="/images/dhs-bo-arylate-carbon/02.thumb-240.webp 240w, /images/dhs-bo-arylate-carbon/02.thumb-480.webp 480w, /images/dhs-bo-arylate-carbon/02.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="DHS Bo Arylate-Carbon (Early) table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/dhs-bo-arylate-carbon/03.jpg"><img src="/images/dhs-bo-arylate-carbon/03.jpg" alt="DHS Bo Arylate-Carbon (Early) table tennis blade photo 3" loading="lazy"></a>
+  <a href="/images/dhs-bo-arylate-carbon/03.jpg"><img src="/images/dhs-bo-arylate-carbon/03.thumb.webp" data-full-src="/images/dhs-bo-arylate-carbon/03.jpg" srcset="/images/dhs-bo-arylate-carbon/03.thumb-240.webp 240w, /images/dhs-bo-arylate-carbon/03.thumb-480.webp 480w, /images/dhs-bo-arylate-carbon/03.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="DHS Bo Arylate-Carbon (Early) table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/dhs-bo-arylate-carbon/04.jpg"><img src="/images/dhs-bo-arylate-carbon/04.jpg" alt="DHS Bo Arylate-Carbon (Early) table tennis blade photo 4" loading="lazy"></a>
+  <a href="/images/dhs-bo-arylate-carbon/04.jpg"><img src="/images/dhs-bo-arylate-carbon/04.thumb.webp" data-full-src="/images/dhs-bo-arylate-carbon/04.jpg" srcset="/images/dhs-bo-arylate-carbon/04.thumb-240.webp 240w, /images/dhs-bo-arylate-carbon/04.thumb-480.webp 480w, /images/dhs-bo-arylate-carbon/04.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="DHS Bo Arylate-Carbon (Early) table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 
@@ -48,13 +48,13 @@ Early **Bo Arylate-Carbon** (**FL**) from Fang Bo’s DHS era—**968**-family b
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/dhs-hurricane-guo-yan/01.jpg"><img src="/images/dhs-hurricane-guo-yan/01.jpg" alt="DHS Hurricane Guo Yan table tennis blade photo 1" loading="lazy"></a>
+  <a href="/images/dhs-hurricane-guo-yan/01.jpg"><img src="/images/dhs-hurricane-guo-yan/01.thumb.webp" data-full-src="/images/dhs-hurricane-guo-yan/01.jpg" srcset="/images/dhs-hurricane-guo-yan/01.thumb-240.webp 160w, /images/dhs-hurricane-guo-yan/01.thumb-480.webp 320w, /images/dhs-hurricane-guo-yan/01.thumb.webp 480w" sizes="(max-width: 759.98px) 46vw, 480px" alt="DHS Hurricane Guo Yan table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/dhs-hurricane-guo-yan/02.jpg"><img src="/images/dhs-hurricane-guo-yan/02.jpg" alt="DHS Hurricane Guo Yan table tennis blade photo 2" loading="lazy"></a>
+  <a href="/images/dhs-hurricane-guo-yan/02.jpg"><img src="/images/dhs-hurricane-guo-yan/02.thumb.webp" data-full-src="/images/dhs-hurricane-guo-yan/02.jpg" srcset="/images/dhs-hurricane-guo-yan/02.thumb-240.webp 240w, /images/dhs-hurricane-guo-yan/02.thumb-480.webp 480w, /images/dhs-hurricane-guo-yan/02.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="DHS Hurricane Guo Yan table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/dhs-hurricane-guo-yan/03.jpg"><img src="/images/dhs-hurricane-guo-yan/03.jpg" alt="DHS Hurricane Guo Yan table tennis blade photo 3" loading="lazy"></a>
+  <a href="/images/dhs-hurricane-guo-yan/03.jpg"><img src="/images/dhs-hurricane-guo-yan/03.thumb.webp" data-full-src="/images/dhs-hurricane-guo-yan/03.jpg" srcset="/images/dhs-hurricane-guo-yan/03.thumb-240.webp 240w, /images/dhs-hurricane-guo-yan/03.thumb-480.webp 480w, /images/dhs-hurricane-guo-yan/03.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="DHS Hurricane Guo Yan table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/dhs-hurricane-guo-yan/04.jpg"><img src="/images/dhs-hurricane-guo-yan/04.jpg" alt="DHS Hurricane Guo Yan table tennis blade photo 4" loading="lazy"></a>
+  <a href="/images/dhs-hurricane-guo-yan/04.jpg"><img src="/images/dhs-hurricane-guo-yan/04.thumb.webp" data-full-src="/images/dhs-hurricane-guo-yan/04.jpg" srcset="/images/dhs-hurricane-guo-yan/04.thumb-240.webp 240w, /images/dhs-hurricane-guo-yan/04.thumb-480.webp 480w, /images/dhs-hurricane-guo-yan/04.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="DHS Hurricane Guo Yan table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 
@@ -70,13 +70,13 @@ Early **Bo Arylate-Carbon** (**FL**) from Fang Bo’s DHS era—**968**-family b
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/dhs-hurricane-long-5x/01.jpg"><img src="/images/dhs-hurricane-long-5x/01.jpg" alt="DHS Hurricane Long 5X table tennis blade photo 1" loading="lazy"></a>
+  <a href="/images/dhs-hurricane-long-5x/01.jpg"><img src="/images/dhs-hurricane-long-5x/01.thumb.webp" data-full-src="/images/dhs-hurricane-long-5x/01.jpg" srcset="/images/dhs-hurricane-long-5x/01.thumb-240.webp 240w, /images/dhs-hurricane-long-5x/01.thumb-480.webp 480w, /images/dhs-hurricane-long-5x/01.thumb.webp 720w, /images/dhs-hurricane-long-5x/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 480px" alt="DHS Hurricane Long 5X table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/dhs-hurricane-long-5x/02.jpg"><img src="/images/dhs-hurricane-long-5x/02.jpg" alt="DHS Hurricane Long 5X table tennis blade photo 2" loading="lazy"></a>
+  <a href="/images/dhs-hurricane-long-5x/02.jpg"><img src="/images/dhs-hurricane-long-5x/02.thumb.webp" data-full-src="/images/dhs-hurricane-long-5x/02.jpg" srcset="/images/dhs-hurricane-long-5x/02.thumb-240.webp 240w, /images/dhs-hurricane-long-5x/02.thumb-480.webp 480w, /images/dhs-hurricane-long-5x/02.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="DHS Hurricane Long 5X table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/dhs-hurricane-long-5x/03.jpg"><img src="/images/dhs-hurricane-long-5x/03.jpg" alt="DHS Hurricane Long 5X table tennis blade photo 3" loading="lazy"></a>
+  <a href="/images/dhs-hurricane-long-5x/03.jpg"><img src="/images/dhs-hurricane-long-5x/03.thumb.webp" data-full-src="/images/dhs-hurricane-long-5x/03.jpg" srcset="/images/dhs-hurricane-long-5x/03.thumb-240.webp 240w, /images/dhs-hurricane-long-5x/03.thumb-480.webp 480w, /images/dhs-hurricane-long-5x/03.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="DHS Hurricane Long 5X table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/dhs-hurricane-long-5x/04.jpg"><img src="/images/dhs-hurricane-long-5x/04.jpg" alt="DHS Hurricane Long 5X table tennis blade photo 4" loading="lazy"></a>
+  <a href="/images/dhs-hurricane-long-5x/04.jpg"><img src="/images/dhs-hurricane-long-5x/04.thumb.webp" data-full-src="/images/dhs-hurricane-long-5x/04.jpg" srcset="/images/dhs-hurricane-long-5x/04.thumb-240.webp 240w, /images/dhs-hurricane-long-5x/04.thumb-480.webp 480w, /images/dhs-hurricane-long-5x/04.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="DHS Hurricane Long 5X table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 
@@ -92,13 +92,13 @@ Early **Bo Arylate-Carbon** (**FL**) from Fang Bo’s DHS era—**968**-family b
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/dhs-hurricane-sa/01.jpg"><img src="/images/dhs-hurricane-sa/01.jpg" alt="DHS Hurricane Sa table tennis blade photo 1" loading="lazy"></a>
+  <a href="/images/dhs-hurricane-sa/01.jpg"><img src="/images/dhs-hurricane-sa/01.thumb.webp" data-full-src="/images/dhs-hurricane-sa/01.jpg" srcset="/images/dhs-hurricane-sa/01.thumb-240.webp 240w, /images/dhs-hurricane-sa/01.thumb-480.webp 480w, /images/dhs-hurricane-sa/01.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="DHS Hurricane Sa table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/dhs-hurricane-sa/02.jpg"><img src="/images/dhs-hurricane-sa/02.jpg" alt="DHS Hurricane Sa table tennis blade photo 2" loading="lazy"></a>
+  <a href="/images/dhs-hurricane-sa/02.jpg"><img src="/images/dhs-hurricane-sa/02.thumb.webp" data-full-src="/images/dhs-hurricane-sa/02.jpg" srcset="/images/dhs-hurricane-sa/02.thumb-240.webp 240w, /images/dhs-hurricane-sa/02.thumb-480.webp 480w, /images/dhs-hurricane-sa/02.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="DHS Hurricane Sa table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/dhs-hurricane-sa/03.jpg"><img src="/images/dhs-hurricane-sa/03.jpg" alt="DHS Hurricane Sa table tennis blade photo 3" loading="lazy"></a>
+  <a href="/images/dhs-hurricane-sa/03.jpg"><img src="/images/dhs-hurricane-sa/03.thumb.webp" data-full-src="/images/dhs-hurricane-sa/03.jpg" srcset="/images/dhs-hurricane-sa/03.thumb-240.webp 240w, /images/dhs-hurricane-sa/03.thumb-480.webp 480w, /images/dhs-hurricane-sa/03.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="DHS Hurricane Sa table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/dhs-hurricane-sa/04.jpg"><img src="/images/dhs-hurricane-sa/04.jpg" alt="DHS Hurricane Sa table tennis blade photo 4" loading="lazy"></a>
+  <a href="/images/dhs-hurricane-sa/04.webp"><img src="/images/dhs-hurricane-sa/04.thumb.webp" data-full-src="/images/dhs-hurricane-sa/04.webp" srcset="/images/dhs-hurricane-sa/04.thumb-240.webp 240w, /images/dhs-hurricane-sa/04.thumb-480.webp 480w, /images/dhs-hurricane-sa/04.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="DHS Hurricane Sa table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 
@@ -126,21 +126,21 @@ Early **Bo Arylate-Carbon** (**FL**) from Fang Bo’s DHS era—**968**-family b
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/dhs-hurricane-2-yan-sen/01.jpg"><img src="/images/dhs-hurricane-2-yan-sen/01.jpg" alt="DHS Hurricane 2 (Yan Sen) table tennis blade photo 1" loading="lazy"></a>
+  <a href="/images/dhs-hurricane-2-yan-sen/01.jpg"><img src="/images/dhs-hurricane-2-yan-sen/01.jpg" srcset="/images/dhs-hurricane-2-yan-sen/01.thumb-240.webp 240w, /images/dhs-hurricane-2-yan-sen/01.thumb-480.webp 480w, /images/dhs-hurricane-2-yan-sen/01.jpg 780w" sizes="(max-width: 759.98px) 46vw, 480px" alt="DHS Hurricane 2 (Yan Sen) table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/dhs-hurricane-2-yan-sen/02.jpg"><img src="/images/dhs-hurricane-2-yan-sen/02.jpg" alt="DHS Hurricane 2 (Yan Sen) table tennis blade photo 2" loading="lazy"></a>
+  <a href="/images/dhs-hurricane-2-yan-sen/02.jpg"><img src="/images/dhs-hurricane-2-yan-sen/02.thumb.webp" data-full-src="/images/dhs-hurricane-2-yan-sen/02.jpg" srcset="/images/dhs-hurricane-2-yan-sen/02.thumb-240.webp 231w, /images/dhs-hurricane-2-yan-sen/02.thumb-480.webp 461w, /images/dhs-hurricane-2-yan-sen/02.thumb.webp 692w, /images/dhs-hurricane-2-yan-sen/02.jpg 780w" sizes="(max-width: 759.98px) 46vw, 480px" alt="DHS Hurricane 2 (Yan Sen) table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/dhs-hurricane-2-yan-sen/03.jpg"><img src="/images/dhs-hurricane-2-yan-sen/03.jpg" alt="DHS Hurricane 2 (Yan Sen) table tennis blade photo 3" loading="lazy"></a>
+  <a href="/images/dhs-hurricane-2-yan-sen/03.jpg"><img src="/images/dhs-hurricane-2-yan-sen/03.thumb.webp" data-full-src="/images/dhs-hurricane-2-yan-sen/03.jpg" srcset="/images/dhs-hurricane-2-yan-sen/03.thumb-240.webp 191w, /images/dhs-hurricane-2-yan-sen/03.thumb-480.webp 381w, /images/dhs-hurricane-2-yan-sen/03.jpg 441w" sizes="(max-width: 759.98px) 46vw, 480px" alt="DHS Hurricane 2 (Yan Sen) table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/dhs-hurricane-2-yan-sen/04.jpg"><img src="/images/dhs-hurricane-2-yan-sen/04.jpg" alt="DHS Hurricane 2 (Yan Sen) table tennis blade photo 4" loading="lazy"></a>
+  <a href="/images/dhs-hurricane-2-yan-sen/04.jpg"><img src="/images/dhs-hurricane-2-yan-sen/04.thumb.webp" data-full-src="/images/dhs-hurricane-2-yan-sen/04.jpg" srcset="/images/dhs-hurricane-2-yan-sen/04.thumb-240.webp 240w, /images/dhs-hurricane-2-yan-sen/04.thumb-480.webp 480w, /images/dhs-hurricane-2-yan-sen/04.jpg 640w" sizes="(max-width: 759.98px) 46vw, 480px" alt="DHS Hurricane 2 (Yan Sen) table tennis blade photo 4" loading="lazy"></a>
 
-  <a href="/images/dhs-hurricane-2-yan-sen/05.jpg"><img src="/images/dhs-hurricane-2-yan-sen/05.jpg" alt="DHS Hurricane 2 (Yan Sen) table tennis blade photo 5" loading="lazy"></a>
+  <a href="/images/dhs-hurricane-2-yan-sen/05.jpg"><img src="/images/dhs-hurricane-2-yan-sen/05.thumb.webp" data-full-src="/images/dhs-hurricane-2-yan-sen/05.jpg" srcset="/images/dhs-hurricane-2-yan-sen/05.thumb-240.webp 240w, /images/dhs-hurricane-2-yan-sen/05.thumb-480.webp 480w, /images/dhs-hurricane-2-yan-sen/05.jpg 640w" sizes="(max-width: 759.98px) 46vw, 480px" alt="DHS Hurricane 2 (Yan Sen) table tennis blade photo 5" loading="lazy"></a>
 
-  <a href="/images/dhs-hurricane-2-yan-sen/06.jpg"><img src="/images/dhs-hurricane-2-yan-sen/06.jpg" alt="DHS Hurricane 2 (Yan Sen) table tennis blade photo 6" loading="lazy"></a>
+  <a href="/images/dhs-hurricane-2-yan-sen/06.jpg"><img src="/images/dhs-hurricane-2-yan-sen/06.thumb.webp" data-full-src="/images/dhs-hurricane-2-yan-sen/06.jpg" srcset="/images/dhs-hurricane-2-yan-sen/06.thumb-240.webp 240w, /images/dhs-hurricane-2-yan-sen/06.thumb-480.webp 480w, /images/dhs-hurricane-2-yan-sen/06.jpg 561w" sizes="(max-width: 759.98px) 46vw, 480px" alt="DHS Hurricane 2 (Yan Sen) table tennis blade photo 6" loading="lazy"></a>
 
-  <a href="/images/dhs-hurricane-2-yan-sen/07.jpg"><img src="/images/dhs-hurricane-2-yan-sen/07.jpg" alt="DHS Hurricane 2 (Yan Sen) table tennis blade photo 7" loading="lazy"></a>
+  <a href="/images/dhs-hurricane-2-yan-sen/07.jpg"><img src="/images/dhs-hurricane-2-yan-sen/07.thumb.webp" data-full-src="/images/dhs-hurricane-2-yan-sen/07.jpg" srcset="/images/dhs-hurricane-2-yan-sen/07.thumb-240.webp 239w, /images/dhs-hurricane-2-yan-sen/07.thumb-480.webp 478w, /images/dhs-hurricane-2-yan-sen/07.jpg 540w" sizes="(max-width: 759.98px) 46vw, 480px" alt="DHS Hurricane 2 (Yan Sen) table tennis blade photo 7" loading="lazy"></a>
 
-  <a href="/images/dhs-hurricane-2-yan-sen/08.jpg"><img src="/images/dhs-hurricane-2-yan-sen/08.jpg" alt="DHS Hurricane 2 (Yan Sen) table tennis blade photo 8" loading="lazy"></a>
+  <a href="/images/dhs-hurricane-2-yan-sen/08.jpg"><img src="/images/dhs-hurricane-2-yan-sen/08.thumb.webp" data-full-src="/images/dhs-hurricane-2-yan-sen/08.jpg" srcset="/images/dhs-hurricane-2-yan-sen/08.thumb-240.webp 183w, /images/dhs-hurricane-2-yan-sen/08.thumb-480.webp 366w, /images/dhs-hurricane-2-yan-sen/08.jpg 509w" sizes="(max-width: 759.98px) 46vw, 480px" alt="DHS Hurricane 2 (Yan Sen) table tennis blade photo 8" loading="lazy"></a>
 
 </div>
 

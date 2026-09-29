@@ -26,13 +26,13 @@ Real-photo gallery of **Nittaku** table tennis blades. Browse models below; tap 
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/nittaku-kasumi-ishikawa-basic/01.jpg"><img src="/images/nittaku-kasumi-ishikawa-basic/01.jpg" alt="Nittaku Kasumi Ishikawa Basic table tennis blade photo 1" loading="lazy"></a>
+  <a href="/images/nittaku-kasumi-ishikawa-basic/01.jpg"><img src="/images/nittaku-kasumi-ishikawa-basic/01.thumb.webp" data-full-src="/images/nittaku-kasumi-ishikawa-basic/01.jpg" srcset="/images/nittaku-kasumi-ishikawa-basic/01.thumb-240.webp 240w, /images/nittaku-kasumi-ishikawa-basic/01.thumb-480.webp 480w, /images/nittaku-kasumi-ishikawa-basic/01.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Nittaku Kasumi Ishikawa Basic table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/nittaku-kasumi-ishikawa-basic/02.jpg"><img src="/images/nittaku-kasumi-ishikawa-basic/02.jpg" alt="Nittaku Kasumi Ishikawa Basic table tennis blade photo 2" loading="lazy"></a>
+  <a href="/images/nittaku-kasumi-ishikawa-basic/02.jpg"><img src="/images/nittaku-kasumi-ishikawa-basic/02.thumb.webp" data-full-src="/images/nittaku-kasumi-ishikawa-basic/02.jpg" srcset="/images/nittaku-kasumi-ishikawa-basic/02.thumb-240.webp 159w, /images/nittaku-kasumi-ishikawa-basic/02.thumb-480.webp 319w, /images/nittaku-kasumi-ishikawa-basic/02.thumb.webp 478w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Nittaku Kasumi Ishikawa Basic table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/nittaku-kasumi-ishikawa-basic/03.jpg"><img src="/images/nittaku-kasumi-ishikawa-basic/03.jpg" alt="Nittaku Kasumi Ishikawa Basic table tennis blade photo 3" loading="lazy"></a>
+  <a href="/images/nittaku-kasumi-ishikawa-basic/03.jpg"><img src="/images/nittaku-kasumi-ishikawa-basic/03.thumb.webp" data-full-src="/images/nittaku-kasumi-ishikawa-basic/03.jpg" srcset="/images/nittaku-kasumi-ishikawa-basic/03.thumb-240.webp 240w, /images/nittaku-kasumi-ishikawa-basic/03.thumb-480.webp 480w, /images/nittaku-kasumi-ishikawa-basic/03.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Nittaku Kasumi Ishikawa Basic table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/nittaku-kasumi-ishikawa-basic/04.jpg"><img src="/images/nittaku-kasumi-ishikawa-basic/04.jpg" alt="Nittaku Kasumi Ishikawa Basic table tennis blade photo 4" loading="lazy"></a>
+  <a href="/images/nittaku-kasumi-ishikawa-basic/04.jpg"><img src="/images/nittaku-kasumi-ishikawa-basic/04.thumb.webp" data-full-src="/images/nittaku-kasumi-ishikawa-basic/04.jpg" srcset="/images/nittaku-kasumi-ishikawa-basic/04.thumb-240.webp 159w, /images/nittaku-kasumi-ishikawa-basic/04.thumb-480.webp 319w, /images/nittaku-kasumi-ishikawa-basic/04.thumb.webp 478w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Nittaku Kasumi Ishikawa Basic table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 
@@ -48,13 +48,13 @@ Real-photo gallery of **Nittaku** table tennis blades. Browse models below; tap 
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/nittaku-runlox-5/01.jpg"><img src="/images/nittaku-runlox-5/01.jpg" alt="Nittaku Runlox-5 table tennis blade photo 1" loading="lazy"></a>
+  <a href="/images/nittaku-runlox-5/01.jpg"><img src="/images/nittaku-runlox-5/01.thumb.webp" data-full-src="/images/nittaku-runlox-5/01.jpg" srcset="/images/nittaku-runlox-5/01.thumb-240.webp 240w, /images/nittaku-runlox-5/01.thumb-480.webp 480w, /images/nittaku-runlox-5/01.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Nittaku Runlox-5 table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/nittaku-runlox-5/02.jpg"><img src="/images/nittaku-runlox-5/02.jpg" alt="Nittaku Runlox-5 table tennis blade photo 2" loading="lazy"></a>
+  <a href="/images/nittaku-runlox-5/02.webp"><img src="/images/nittaku-runlox-5/02.thumb.webp" data-full-src="/images/nittaku-runlox-5/02.webp" srcset="/images/nittaku-runlox-5/02.thumb-240.webp 240w, /images/nittaku-runlox-5/02.thumb-480.webp 480w, /images/nittaku-runlox-5/02.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Nittaku Runlox-5 table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/nittaku-runlox-5/03.jpg"><img src="/images/nittaku-runlox-5/03.jpg" alt="Nittaku Runlox-5 table tennis blade photo 3" loading="lazy"></a>
+  <a href="/images/nittaku-runlox-5/03.webp"><img src="/images/nittaku-runlox-5/03.thumb.webp" data-full-src="/images/nittaku-runlox-5/03.webp" srcset="/images/nittaku-runlox-5/03.thumb-240.webp 160w, /images/nittaku-runlox-5/03.thumb-480.webp 320w, /images/nittaku-runlox-5/03.thumb.webp 480w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Nittaku Runlox-5 table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/nittaku-runlox-5/04.jpg"><img src="/images/nittaku-runlox-5/04.jpg" alt="Nittaku Runlox-5 table tennis blade photo 4" loading="lazy"></a>
+  <a href="/images/nittaku-runlox-5/04.webp"><img src="/images/nittaku-runlox-5/04.thumb.webp" data-full-src="/images/nittaku-runlox-5/04.webp" srcset="/images/nittaku-runlox-5/04.thumb-240.webp 240w, /images/nittaku-runlox-5/04.thumb-480.webp 480w, /images/nittaku-runlox-5/04.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Nittaku Runlox-5 table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 

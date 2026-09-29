@@ -26,13 +26,13 @@ Real-photo gallery of **Xiom** table tennis blades. Browse models below; tap any
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/xiom-ice-cream-azxi/01.jpg"><img src="/images/xiom-ice-cream-azxi/01.jpg" alt="Xiom Ice Cream AZXi table tennis blade photo 1" loading="lazy"></a>
+  <a href="/images/xiom-ice-cream-azxi/01.jpg"><img src="/images/xiom-ice-cream-azxi/01.thumb.webp" data-full-src="/images/xiom-ice-cream-azxi/01.jpg" srcset="/images/xiom-ice-cream-azxi/01.thumb-240.webp 240w, /images/xiom-ice-cream-azxi/01.thumb-480.webp 480w, /images/xiom-ice-cream-azxi/01.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Xiom Ice Cream AZXi table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/xiom-ice-cream-azxi/02.jpg"><img src="/images/xiom-ice-cream-azxi/02.jpg" alt="Xiom Ice Cream AZXi table tennis blade photo 2" loading="lazy"></a>
+  <a href="/images/xiom-ice-cream-azxi/02.jpg"><img src="/images/xiom-ice-cream-azxi/02.thumb.webp" data-full-src="/images/xiom-ice-cream-azxi/02.jpg" srcset="/images/xiom-ice-cream-azxi/02.thumb-240.webp 159w, /images/xiom-ice-cream-azxi/02.thumb-480.webp 319w, /images/xiom-ice-cream-azxi/02.thumb.webp 478w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Xiom Ice Cream AZXi table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/xiom-ice-cream-azxi/03.jpg"><img src="/images/xiom-ice-cream-azxi/03.jpg" alt="Xiom Ice Cream AZXi table tennis blade photo 3" loading="lazy"></a>
+  <a href="/images/xiom-ice-cream-azxi/03.jpg"><img src="/images/xiom-ice-cream-azxi/03.thumb.webp" data-full-src="/images/xiom-ice-cream-azxi/03.jpg" srcset="/images/xiom-ice-cream-azxi/03.thumb-240.webp 240w, /images/xiom-ice-cream-azxi/03.thumb-480.webp 480w, /images/xiom-ice-cream-azxi/03.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Xiom Ice Cream AZXi table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/xiom-ice-cream-azxi/04.jpg"><img src="/images/xiom-ice-cream-azxi/04.jpg" alt="Xiom Ice Cream AZXi table tennis blade photo 4" loading="lazy"></a>
+  <a href="/images/xiom-ice-cream-azxi/04.jpg"><img src="/images/xiom-ice-cream-azxi/04.thumb.webp" data-full-src="/images/xiom-ice-cream-azxi/04.jpg" srcset="/images/xiom-ice-cream-azxi/04.thumb-240.webp 240w, /images/xiom-ice-cream-azxi/04.thumb-480.webp 480w, /images/xiom-ice-cream-azxi/04.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Xiom Ice Cream AZXi table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 

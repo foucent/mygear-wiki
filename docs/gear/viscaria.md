@@ -10,11 +10,11 @@ updated: "2026-09-08"
 
   <div class="mg-prod__media">
     <div class="mg-gallery mg-gallery--prod" markdown="0">
-      <a href="/images/price-list/blades/viscaria.jpg"><img src="/images/price-list/blades/viscaria.jpg" alt="Butterfly Viscaria table tennis blade" width="600" height="600" decoding="async"></a>
-      <a href="/images/butterfly-viscaria/01.jpg"><img src="/images/butterfly-viscaria/01.jpg" alt="Butterfly Viscaria table tennis blade photo 1" loading="lazy" decoding="async"></a>
-      <a href="/images/butterfly-viscaria/02.jpg"><img src="/images/butterfly-viscaria/02.jpg" alt="Butterfly Viscaria table tennis blade photo 2" loading="lazy" decoding="async"></a>
-      <a href="/images/butterfly-viscaria/03.jpg"><img src="/images/butterfly-viscaria/03.jpg" alt="Butterfly Viscaria table tennis blade photo 3" loading="lazy" decoding="async"></a>
-      <a href="/images/butterfly-viscaria/04.jpg"><img src="/images/butterfly-viscaria/04.jpg" alt="Butterfly Viscaria table tennis blade photo 4" loading="lazy" decoding="async"></a>
+      <a href="/images/price-list/blades/viscaria.jpg"><img src="/images/price-list/blades/viscaria.thumb.webp" data-full-src="/images/price-list/blades/viscaria.jpg" srcset="/images/price-list/blades/viscaria.thumb-240.webp 240w, /images/price-list/blades/viscaria.thumb-480.webp 480w, /images/price-list/blades/viscaria.jpg 600w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Butterfly Viscaria table tennis blade" width="600" height="600" decoding="async"></a>
+      <a href="/images/butterfly-viscaria/01.jpg"><img src="/images/butterfly-viscaria/01.thumb.webp" data-full-src="/images/butterfly-viscaria/01.jpg" srcset="/images/butterfly-viscaria/01.thumb-240.webp 240w, /images/butterfly-viscaria/01.thumb-480.webp 480w, /images/butterfly-viscaria/01.thumb.webp 720w, /images/butterfly-viscaria/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Butterfly Viscaria table tennis blade photo 1" loading="lazy" decoding="async"></a>
+      <a href="/images/butterfly-viscaria/02.jpg"><img src="/images/butterfly-viscaria/02.thumb.webp" data-full-src="/images/butterfly-viscaria/02.jpg" srcset="/images/butterfly-viscaria/02.thumb-240.webp 240w, /images/butterfly-viscaria/02.thumb-480.webp 480w, /images/butterfly-viscaria/02.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Butterfly Viscaria table tennis blade photo 2" loading="lazy" decoding="async"></a>
+      <a href="/images/butterfly-viscaria/03.jpg"><img src="/images/butterfly-viscaria/03.thumb.webp" data-full-src="/images/butterfly-viscaria/03.jpg" srcset="/images/butterfly-viscaria/03.thumb-240.webp 240w, /images/butterfly-viscaria/03.thumb-480.webp 480w, /images/butterfly-viscaria/03.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Butterfly Viscaria table tennis blade photo 3" loading="lazy" decoding="async"></a>
+      <a href="/images/butterfly-viscaria/04.jpg"><img src="/images/butterfly-viscaria/04.thumb.webp" data-full-src="/images/butterfly-viscaria/04.jpg" srcset="/images/butterfly-viscaria/04.thumb-240.webp 240w, /images/butterfly-viscaria/04.thumb-480.webp 480w, /images/butterfly-viscaria/04.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Butterfly Viscaria table tennis blade photo 4" loading="lazy" decoding="async"></a>
     </div>
   </div>
 

@@ -7,7 +7,11 @@ description: "Get brand-new table tennis blades, popular rubbers, and sports gea
 
 <div class="mg-home" markdown="0">
 
-  <section class="mg-home-hero" style="--mg-home-hero-image: url('/images/stock-blades/brand-new-selected-viscaria.jpg')">
+  <!-- A CSS background cannot carry a srcset, so this one slot picks its own
+       file. It renders 960px wide at every viewport (measured 1180 / 1440, DPR
+       1 and 2), and the 1000px copy is within 39.5 dB of the 329KB original in
+       all four -- so it always takes the 1000px copy. -->
+  <section class="mg-home-hero" style="--mg-home-hero-image: url('/images/stock-blades/brand-new-selected-viscaria.thumb-1000.webp')">
     <div class="mg-home-hero__inner">
       <p class="mg-home-hero__brand">MyGear.Top</p>
       <h1 class="mg-home-hero__title">Table tennis gear, ready to quote</h1>
@@ -23,35 +27,35 @@ description: "Get brand-new table tennis blades, popular rubbers, and sports gea
     <h2 class="mg-home-section-title">Shop</h2>
     <div class="mg-home-cats__grid">
       <a class="mg-home-cat" href="/setups/">
-        <img class="mg-home-cat__img" src="/images/stock-blades/brand-new-selected-fan-zhendong-golden.jpg" alt="A table tennis blade and its rubbers, put together as a setup" loading="lazy">
+        <img class="mg-home-cat__img" src="/images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb.webp" data-full-src="/images/stock-blades/brand-new-selected-fan-zhendong-golden.webp" srcset="/images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb-240.webp 180w, /images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb-480.webp 360w, /images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb.webp 540w, /images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 42vw, 174px" alt="A table tennis blade and its rubbers, put together as a setup" loading="lazy">
         <span class="mg-home-cat__body">
           <span class="mg-home-cat__name">Setups</span>
           <span class="mg-home-cat__desc">Blade + rubbers, quoted together</span>
         </span>
       </a>
       <a class="mg-home-cat" href="/blades/">
-        <img class="mg-home-cat__img" src="/images/stock-blades/brand-new-selected-viscaria.jpg" alt="Table tennis blades in stock" loading="lazy">
+        <img class="mg-home-cat__img" src="/images/stock-blades/brand-new-selected-viscaria.thumb.webp" data-full-src="/images/stock-blades/brand-new-selected-viscaria.webp" srcset="/images/stock-blades/brand-new-selected-viscaria.thumb-240.webp 240w, /images/stock-blades/brand-new-selected-viscaria.thumb-480.webp 480w, /images/stock-blades/brand-new-selected-viscaria.thumb.webp 720w, /images/stock-blades/brand-new-selected-viscaria.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 42vw, 174px" alt="Table tennis blades in stock" loading="lazy">
         <span class="mg-home-cat__body">
           <span class="mg-home-cat__name">Blades</span>
           <span class="mg-home-cat__desc">Brand-new blades</span>
         </span>
       </a>
       <a class="mg-home-cat" href="/rubbers/">
-        <img class="mg-home-cat__img" src="/images/stock-rubbers/butterfly-tenergy-05.jpg" alt="Table tennis rubbers including Tenergy" loading="lazy">
+        <img class="mg-home-cat__img" src="/images/stock-rubbers/butterfly-tenergy-05.thumb.webp" data-full-src="/images/stock-rubbers/butterfly-tenergy-05.webp" srcset="/images/stock-rubbers/butterfly-tenergy-05.thumb-240.webp 240w, /images/stock-rubbers/butterfly-tenergy-05.thumb-480.webp 480w, /images/stock-rubbers/butterfly-tenergy-05.thumb.webp 720w, /images/stock-rubbers/butterfly-tenergy-05.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 42vw, 174px" alt="Table tennis rubbers including Tenergy" loading="lazy">
         <span class="mg-home-cat__body">
           <span class="mg-home-cat__name">Rubbers</span>
           <span class="mg-home-cat__desc">Popular rubbers</span>
         </span>
       </a>
       <a class="mg-home-cat" href="/pre-owned/">
-        <img class="mg-home-cat__img" src="/images/dhs-hurricane-sun-92g/01.jpg" alt="Pre-owned table tennis blade photos" loading="lazy">
+        <img class="mg-home-cat__img" src="/images/dhs-hurricane-sun-92g/01.thumb.webp" data-full-src="/images/dhs-hurricane-sun-92g/01.jpg" srcset="/images/dhs-hurricane-sun-92g/01.thumb-240.webp 180w, /images/dhs-hurricane-sun-92g/01.thumb-480.webp 360w, /images/dhs-hurricane-sun-92g/01.thumb.webp 540w, /images/dhs-hurricane-sun-92g/01.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 42vw, 174px" alt="Pre-owned table tennis blade photos" loading="lazy">
         <span class="mg-home-cat__body">
           <span class="mg-home-cat__name">Pre-owned</span>
           <span class="mg-home-cat__desc">Selected used blades</span>
         </span>
       </a>
       <a class="mg-home-cat" href="/add-ons/">
-        <img class="mg-home-cat__img" src="/images/add-ons/dhs-no-15-voc-free-glue.jpg" alt="Table tennis glue and add-ons" loading="lazy">
+        <img class="mg-home-cat__img" src="/images/add-ons/dhs-no-15-voc-free-glue.thumb.webp" data-full-src="/images/add-ons/dhs-no-15-voc-free-glue.jpg" srcset="/images/add-ons/dhs-no-15-voc-free-glue.thumb-240.webp 180w, /images/add-ons/dhs-no-15-voc-free-glue.thumb-480.webp 360w, /images/add-ons/dhs-no-15-voc-free-glue.thumb.webp 540w, /images/add-ons/dhs-no-15-voc-free-glue.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 42vw, 174px" alt="Table tennis glue and add-ons" loading="lazy">
         <span class="mg-home-cat__body">
           <span class="mg-home-cat__name">Add-ons</span>
           <span class="mg-home-cat__desc">Glue, booster, cleaner, balls</span>
@@ -67,62 +71,62 @@ description: "Get brand-new table tennis blades, popular rubbers, and sports gea
   <div class="mg-hot-grid" markdown="0">
 
     <a class="mg-hot-card" href="/gear/fan-zhendong-alc/">
-      <img class="mg-hot-card__img" src="/images/price-list/blades/fan-zhendong-alc.thumb.webp" alt="Butterfly Fan Zhendong ALC" width="600" height="600" loading="lazy" decoding="async">
+      <img class="mg-hot-card__img" src="/images/price-list/blades/fan-zhendong-alc.thumb.webp" data-full-src="/images/price-list/blades/fan-zhendong-alc.jpg" srcset="/images/price-list/blades/fan-zhendong-alc.thumb-240.webp 240w, /images/price-list/blades/fan-zhendong-alc.thumb-480.webp 480w, /images/price-list/blades/fan-zhendong-alc.jpg 600w" sizes="(max-width: 759.98px) 46vw, 223px" alt="Butterfly Fan Zhendong ALC" width="600" height="600" loading="lazy" decoding="async">
       <span class="mg-hot-card__name">Fan Zhendong ALC</span>
     </a>
 
     <a class="mg-hot-card" href="/gear/zhang-jike-alc/">
-      <img class="mg-hot-card__img" src="/images/price-list/blades/zhang-jike-alc.thumb.webp" alt="Butterfly Zhang Jike ALC" width="600" height="600" loading="lazy" decoding="async">
+      <img class="mg-hot-card__img" src="/images/price-list/blades/zhang-jike-alc.thumb.webp" data-full-src="/images/price-list/blades/zhang-jike-alc.jpg" srcset="/images/price-list/blades/zhang-jike-alc.thumb-240.webp 240w, /images/price-list/blades/zhang-jike-alc.thumb-480.webp 480w, /images/price-list/blades/zhang-jike-alc.jpg 600w" sizes="(max-width: 759.98px) 46vw, 223px" alt="Butterfly Zhang Jike ALC" width="600" height="600" loading="lazy" decoding="async">
       <span class="mg-hot-card__name">Zhang Jike ALC</span>
     </a>
 
     <a class="mg-hot-card" href="/gear/ovtcharov-innerforce-alc/">
-      <img class="mg-hot-card__img" src="/images/price-list/blades/ovtcharov-innerforce-alc.thumb.webp" alt="Butterfly Ovtcharov Innerforce ALC" width="600" height="600" loading="lazy" decoding="async">
+      <img class="mg-hot-card__img" src="/images/price-list/blades/ovtcharov-innerforce-alc.thumb.webp" data-full-src="/images/price-list/blades/ovtcharov-innerforce-alc.jpg" srcset="/images/price-list/blades/ovtcharov-innerforce-alc.thumb-240.webp 240w, /images/price-list/blades/ovtcharov-innerforce-alc.thumb-480.webp 480w, /images/price-list/blades/ovtcharov-innerforce-alc.jpg 600w" sizes="(max-width: 759.98px) 46vw, 223px" alt="Butterfly Ovtcharov Innerforce ALC" width="600" height="600" loading="lazy" decoding="async">
       <span class="mg-hot-card__name">Ovtcharov Innerforce ALC</span>
     </a>
 
     <a class="mg-hot-card" href="/gear/viscaria/">
-      <img class="mg-hot-card__img" src="/images/price-list/blades/viscaria.thumb.webp" alt="Butterfly Viscaria" width="600" height="600" loading="lazy" decoding="async">
+      <img class="mg-hot-card__img" src="/images/price-list/blades/viscaria.thumb.webp" data-full-src="/images/price-list/blades/viscaria.jpg" srcset="/images/price-list/blades/viscaria.thumb-240.webp 240w, /images/price-list/blades/viscaria.thumb-480.webp 480w, /images/price-list/blades/viscaria.jpg 600w" sizes="(max-width: 759.98px) 46vw, 223px" alt="Butterfly Viscaria" width="600" height="600" loading="lazy" decoding="async">
       <span class="mg-hot-card__name">Viscaria</span>
     </a>
 
     <a class="mg-hot-card" href="/gear/timo-boll-alc/">
-      <img class="mg-hot-card__img" src="/images/price-list/blades/timo-boll-alc.thumb.webp" alt="Butterfly Timo Boll ALC" width="600" height="600" loading="lazy" decoding="async">
+      <img class="mg-hot-card__img" src="/images/price-list/blades/timo-boll-alc.thumb.webp" data-full-src="/images/price-list/blades/timo-boll-alc.jpg" srcset="/images/price-list/blades/timo-boll-alc.thumb-240.webp 240w, /images/price-list/blades/timo-boll-alc.thumb-480.webp 480w, /images/price-list/blades/timo-boll-alc.jpg 600w" sizes="(max-width: 759.98px) 46vw, 223px" alt="Butterfly Timo Boll ALC" width="600" height="600" loading="lazy" decoding="async">
       <span class="mg-hot-card__name">Timo Boll ALC</span>
     </a>
 
     <a class="mg-hot-card" href="/gear/harimoto-innerforce-alc/">
-      <img class="mg-hot-card__img" src="/images/price-list/blades/harimoto-innerforce-alc.thumb.webp" alt="Butterfly Harimoto Innerforce ALC" width="600" height="600" loading="lazy" decoding="async">
+      <img class="mg-hot-card__img" src="/images/price-list/blades/harimoto-innerforce-alc.thumb.webp" data-full-src="/images/price-list/blades/harimoto-innerforce-alc.jpg" srcset="/images/price-list/blades/harimoto-innerforce-alc.thumb-240.webp 240w, /images/price-list/blades/harimoto-innerforce-alc.thumb-480.webp 480w, /images/price-list/blades/harimoto-innerforce-alc.jpg 600w" sizes="(max-width: 759.98px) 46vw, 223px" alt="Butterfly Harimoto Innerforce ALC" width="600" height="600" loading="lazy" decoding="async">
       <span class="mg-hot-card__name">Harimoto Innerforce ALC</span>
     </a>
 
     <a class="mg-hot-card" href="/gear/dhs-hurricane-long-5/">
-      <img class="mg-hot-card__img" src="/images/price-list/blades/dhs-hurricane-long-5.thumb.webp" alt="DHS Hurricane Long 5" width="720" height="514" loading="lazy" decoding="async">
+      <img class="mg-hot-card__img" src="/images/price-list/blades/dhs-hurricane-long-5.thumb.webp" data-full-src="/images/price-list/blades/dhs-hurricane-long-5.webp" srcset="/images/price-list/blades/dhs-hurricane-long-5.thumb-480.webp 480w, /images/price-list/blades/dhs-hurricane-long-5.thumb.webp 720w, /images/price-list/blades/dhs-hurricane-long-5.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 223px" alt="DHS Hurricane Long 5" width="720" height="514" loading="lazy" decoding="async">
       <span class="mg-hot-card__name">Hurricane Long 5</span>
     </a>
 
     <a class="mg-hot-card" href="/gear/victas-koki-niwa/">
-      <img class="mg-hot-card__img" src="/images/price-list/blades/victas-koki-niwa.thumb.webp" alt="Victas Koki Niwa" width="700" height="700" loading="lazy" decoding="async">
+      <img class="mg-hot-card__img" src="/images/price-list/blades/victas-koki-niwa.thumb.webp" data-full-src="/images/price-list/blades/victas-koki-niwa.jpg" srcset="/images/price-list/blades/victas-koki-niwa.thumb-240.webp 240w, /images/price-list/blades/victas-koki-niwa.thumb-480.webp 480w, /images/price-list/blades/victas-koki-niwa.jpg 700w" sizes="(max-width: 759.98px) 46vw, 223px" alt="Victas Koki Niwa" width="700" height="700" loading="lazy" decoding="async">
       <span class="mg-hot-card__name">Victas Koki Niwa</span>
     </a>
 
     <a class="mg-hot-card" href="/gear/dignics-09c/">
-      <img class="mg-hot-card__img" src="/images/dignics-09c/01.thumb.webp" alt="Butterfly Dignics 09C" width="600" height="600" loading="lazy" decoding="async">
+      <img class="mg-hot-card__img" src="/images/dignics-09c/01.thumb.webp" data-full-src="/images/dignics-09c/01.jpg" srcset="/images/dignics-09c/01.thumb-240.webp 240w, /images/dignics-09c/01.thumb-480.webp 480w, /images/dignics-09c/01.thumb.webp 600w" sizes="(max-width: 759.98px) 46vw, 223px" alt="Butterfly Dignics 09C" width="600" height="600" loading="lazy" decoding="async">
       <span class="mg-hot-card__name">Dignics 09C</span>
     </a>
 
     <a class="mg-hot-card" href="/gear/zyre-03/">
-      <img class="mg-hot-card__img" src="/images/zyre-03/01.thumb.webp" alt="Butterfly ZYRE-03" width="600" height="600" loading="lazy" decoding="async">
+      <img class="mg-hot-card__img" src="/images/zyre-03/01.thumb.webp" data-full-src="/images/zyre-03/01.jpg" srcset="/images/zyre-03/01.thumb-240.webp 240w, /images/zyre-03/01.thumb-480.webp 480w, /images/zyre-03/01.thumb.webp 600w" sizes="(max-width: 759.98px) 46vw, 223px" alt="Butterfly ZYRE-03" width="600" height="600" loading="lazy" decoding="async">
       <span class="mg-hot-card__name">ZYRE-03</span>
     </a>
 
     <a class="mg-hot-card" href="/gear/tenergy-05/">
-      <img class="mg-hot-card__img" src="/images/tenergy-05/01.thumb.webp" alt="Butterfly Tenergy 05" width="600" height="600" loading="lazy" decoding="async">
+      <img class="mg-hot-card__img" src="/images/tenergy-05/01.thumb.webp" data-full-src="/images/tenergy-05/01.jpg" srcset="/images/tenergy-05/01.thumb-240.webp 240w, /images/tenergy-05/01.thumb-480.webp 480w, /images/tenergy-05/01.thumb.webp 600w" sizes="(max-width: 759.98px) 46vw, 223px" alt="Butterfly Tenergy 05" width="600" height="600" loading="lazy" decoding="async">
       <span class="mg-hot-card__name">Tenergy 05</span>
     </a>
 
     <a class="mg-hot-card" href="/gear/dignics-05/">
-      <img class="mg-hot-card__img" src="/images/dignics-05/01.thumb.webp" alt="Butterfly Dignics 05" width="600" height="600" loading="lazy" decoding="async">
+      <img class="mg-hot-card__img" src="/images/dignics-05/01.thumb.webp" data-full-src="/images/dignics-05/01.jpg" srcset="/images/dignics-05/01.thumb-240.webp 240w, /images/dignics-05/01.thumb-480.webp 480w, /images/dignics-05/01.thumb.webp 600w" sizes="(max-width: 759.98px) 46vw, 223px" alt="Butterfly Dignics 05" width="600" height="600" loading="lazy" decoding="async">
       <span class="mg-hot-card__name">Dignics 05</span>
     </a>
 

@@ -10,7 +10,7 @@ updated: "2026-09-08"
 
   <div class="mg-prod__media">
     <div class="mg-gallery mg-gallery--prod" markdown="0">
-      <a href="/images/zyre-03/01.jpg"><img src="/images/zyre-03/01.jpg" alt="Butterfly ZYRE-03 table tennis rubber" width="1200" height="1200" decoding="async"></a>
+      <a href="/images/zyre-03/01.jpg"><img src="/images/zyre-03/01.thumb.webp" data-full-src="/images/zyre-03/01.jpg" srcset="/images/zyre-03/01.thumb-240.webp 240w, /images/zyre-03/01.thumb-480.webp 480w, /images/zyre-03/01.thumb.webp 600w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Butterfly ZYRE-03 table tennis rubber" width="1200" height="1200" decoding="async"></a>
     </div>
   </div>
 

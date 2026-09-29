@@ -10,7 +10,7 @@ description: "Boosting is not a moral absolute. It is a tool for opening the spo
 
 Boosting is not a moral absolute. It is a tool for **opening the sponge** and **adding spring**. Whether you need it depends on the rubber family, blade support, and your ability to punch through.
 
-![Chinese tacky rubber setup on the table](../images/boosting-truth/01.jpg)
+![Chinese tacky rubber setup on the table](../images/boosting-truth/01.webp)
 
 ---
 
@@ -29,7 +29,7 @@ If the blade already has strong spring and the Hurricane sponge is not extremely
 
 Boosting also helps sheets that feel dead to mid-level force, e.g. some players call unopened **T05 Hard** trash until a light boost makes it usable.
 
-![Boosted / lively sponge edge on an assembled racket](../images/boosting-truth/02.jpg)
+![Boosted / lively sponge edge on an assembled racket](../images/boosting-truth/02.webp)
 
 ---
 
@@ -53,7 +53,7 @@ On Butterfly **Tenergy**, boost/oil excess often accelerates **topsheet pilling*
 !!! note "The short-life paradox"
     The easier an imported energy rubber feels out of the pack, the shorter its peak window tends to be.
 
-![Mildly tacky / hybrid outer rubber close-up](../images/boosting-truth/03.jpg)
+![Mildly tacky / hybrid outer rubber close-up](../images/boosting-truth/03.webp)
 
 ---
 

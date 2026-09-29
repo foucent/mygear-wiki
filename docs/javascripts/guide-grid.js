@@ -9,7 +9,9 @@
     {
       title: "Tibhar Darko Jorgic Infinity Carbon Review",
       href: "/guide/tibhar-darko-jorgic-infinity-carbon/",
-      img: "/images/tibhar-darko-jorgic-infinity-carbon/blade_overall_1.jpg",
+      img: "/images/tibhar-darko-jorgic-infinity-carbon/blade_overall_1.webp",
+      srcset: "/images/tibhar-darko-jorgic-infinity-carbon/blade_overall_1.thumb-480.webp 480w, /images/tibhar-darko-jorgic-infinity-carbon/blade_overall_1.thumb.webp 720w, /images/tibhar-darko-jorgic-infinity-carbon/blade_overall_1.thumb-1000.webp 1000w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
       alt: "Tibhar Darko Jorgic Infinity Carbon blade",
       cat: "Review",
       excerpt:
@@ -18,7 +20,9 @@
     {
       title: "How to Choose a Blade: All-Wood, Outer & Inner Fiber",
       href: "/guide/choosing-blade-structure/",
-      img: "/images/choosing-blade-structure/01.png",
+      img: "/images/choosing-blade-structure/01.webp",
+      srcset: "/images/choosing-blade-structure/01.thumb-480.webp 480w, /images/choosing-blade-structure/01.thumb.webp 720w, /images/choosing-blade-structure/01.thumb-1000.webp 1000w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
       alt: "All-wood, outer fiber and inner fiber blade structures",
       cat: "Construction",
       excerpt:
@@ -27,7 +31,9 @@
     {
       title: "Essential Questions Before Buying",
       href: "/guide/essential-questions-before-buying/",
-      img: "/images/blade-basics/01.jpg",
+      img: "/images/blade-basics/01.webp",
+      srcset: "/images/blade-basics/01.thumb-480.webp 480w, /images/blade-basics/01.thumb.webp 720w, /images/blade-basics/01.thumb-1000.webp 1000w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
       alt: "Butterfly Viscaria with Tibhar Hybrid K3",
       cat: "Buying",
       excerpt:
@@ -36,7 +42,9 @@
     {
       title: "Blade Performance Metrics",
       href: "/guide/blade-performance-metrics/",
-      img: "/images/blade-basics/03.jpg",
+      img: "/images/blade-basics/03.webp",
+      srcset: "/images/blade-basics/03.thumb-480.webp 480w, /images/blade-basics/03.thumb.webp 720w, /images/blade-basics/03.thumb-1000.webp 1000w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
       alt: "Assembled offensive table tennis setup",
       cat: "Performance",
       excerpt:
@@ -45,7 +53,9 @@
     {
       title: "Blade Feel Fundamentals",
       href: "/guide/blade-feel-fundamentals/",
-      img: "/images/blade-basics/02.png",
+      img: "/images/blade-basics/02.webp",
+      srcset: "/images/blade-basics/02.thumb-480.webp 480w, /images/blade-basics/02.webp 674w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
       alt: "Two Yinhe blades with different handle shapes",
       cat: "Feel",
       excerpt:
@@ -55,6 +65,8 @@
       title: "Accelerating With Gear",
       href: "/guide/accelerating-with-gear/",
       img: "/images/gear-acceleration/01.jpg",
+      srcset: "/images/gear-acceleration/01.thumb-480.webp 480w, /images/gear-acceleration/01.thumb.webp 720w, /images/gear-acceleration/01.jpg 799w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
       alt: "Acceleration technique and gear setup",
       cat: "Technique",
       excerpt:
@@ -63,7 +75,9 @@
     {
       title: "Hurricane 3 Multi-Stage Boosting",
       href: "/guide/hurricane-3-multi-stage-boosting/",
-      img: "/images/h3-boost-method/01.jpg",
+      img: "/images/h3-boost-method/01.webp",
+      srcset: "/images/h3-boost-method/01.thumb-480.webp 360w, /images/h3-boost-method/01.thumb.webp 540w, /images/h3-boost-method/01.thumb-1000.webp 750w, /images/h3-boost-method/01.webp 768w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
       alt: "Boosted Hurricane 3 sponge edge",
       cat: "Boosting",
       excerpt:
@@ -73,6 +87,8 @@
       title: "Harimoto SZLC vs SALC",
       href: "/guide/harimoto-szlc-vs-salc/",
       img: "/images/szlc-salc-tourney/01.jpg",
+      srcset: "/images/szlc-salc-tourney/01.thumb-480.webp 480w, /images/szlc-salc-tourney/01.jpg 552w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
       alt: "Harimoto SZLC and SALC blades",
       cat: "Comparison",
       excerpt:
@@ -81,7 +97,9 @@
     {
       title: "Outer vs Inner Fiber",
       href: "/guide/outer-vs-inner-fiber/",
-      img: "/images/outer-vs-inner-fiber/01.jpg",
+      img: "/images/outer-vs-inner-fiber/01.webp",
+      srcset: "/images/outer-vs-inner-fiber/01.thumb-480.webp 480w, /images/outer-vs-inner-fiber/01.thumb.webp 720w, /images/outer-vs-inner-fiber/01.thumb-1000.webp 1000w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
       alt: "Inner-fiber blade construction example",
       cat: "Construction",
       excerpt:
@@ -90,7 +108,9 @@
     {
       title: "Why Tenergy Before Dignics",
       href: "/guide/why-tenergy-before-dignics/",
-      img: "/images/tenergy-to-dignics/03.jpg",
+      img: "/images/tenergy-to-dignics/03.webp",
+      srcset: "/images/tenergy-to-dignics/03.thumb-480.webp 480w, /images/tenergy-to-dignics/03.thumb.webp 720w, /images/tenergy-to-dignics/03.thumb-1000.webp 1000w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
       alt: "Tenergy and Dignics rubbers",
       cat: "Rubbers",
       excerpt:
@@ -99,7 +119,9 @@
     {
       title: "Hurricane Blue vs Orange Sponge",
       href: "/guide/hurricane-blue-vs-orange-sponge/",
-      img: "/images/hurricane-blue-orange/01.png",
+      img: "/images/hurricane-blue-orange/01.webp",
+      srcset: "/images/hurricane-blue-orange/01.thumb-480.webp 480w, /images/hurricane-blue-orange/01.webp 485w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
       alt: "Hurricane 3 blue and orange sponge",
       cat: "Rubbers",
       excerpt:
@@ -108,7 +130,9 @@
     {
       title: "Rubber Thickness vs Hardness",
       href: "/guide/choosing-thickness-vs-hardness/",
-      img: "/images/rubber-thickness/01.png",
+      img: "/images/rubber-thickness/01.webp",
+      srcset: "/images/rubber-thickness/01.thumb-480.webp 480w, /images/rubber-thickness/01.webp 656w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
       alt: "Rubber thickness and hardness comparison",
       cat: "Rubbers",
       excerpt:
@@ -117,7 +141,9 @@
     {
       title: "Boosting Truth",
       href: "/guide/boosting-truth/",
-      img: "/images/boosting-truth/01.jpg",
+      img: "/images/boosting-truth/01.webp",
+      srcset: "/images/boosting-truth/01.thumb-480.webp 480w, /images/boosting-truth/01.thumb.webp 720w, /images/boosting-truth/01.thumb-1000.webp 1000w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
       alt: "Chinese tacky rubber setup on the table",
       cat: "Boosting",
       excerpt:
@@ -126,7 +152,9 @@
     {
       title: "Table Tennis Kingdom Top 10 Shakehand Blades 2025",
       href: "/guide/tt-kingdom-top-10-blades-2025/",
-      img: "/images/tt-kingdom-top-10-blades-2025/harimoto-super-alc.jpg",
+      img: "/images/tt-kingdom-top-10-blades-2025/harimoto-super-alc.webp",
+      srcset: "/images/tt-kingdom-top-10-blades-2025/harimoto-super-alc.thumb-480.webp 480w, /images/tt-kingdom-top-10-blades-2025/harimoto-super-alc.thumb.webp 720w, /images/tt-kingdom-top-10-blades-2025/harimoto-super-alc.thumb-1000.webp 1000w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
       alt: "Table Tennis Kingdom top 10 blades",
       cat: "Blades",
       excerpt:
@@ -135,7 +163,9 @@
     {
       title: "Joola Hugo ARY-C Review",
       href: "/guide/joola-hugo-ary-c/",
-      img: "/images/joola-hugo-ary-c/01.jpg",
+      img: "/images/joola-hugo-ary-c/01.webp",
+      srcset: "/images/joola-hugo-ary-c/01.thumb-480.webp 480w, /images/joola-hugo-ary-c/01.thumb.webp 720w, /images/joola-hugo-ary-c/01.thumb-1000.webp 1000w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
       alt: "Joola Hugo ARY-C blade",
       cat: "Review",
       excerpt:
@@ -144,7 +174,9 @@
     {
       title: "Xu Xin Blue Label vs Tibhar Felix",
       href: "/guide/xu-xin-blue-label-vs-tibhar-felix/",
-      img: "/images/xu-xin-blue-label-vs-tibhar-felix/01.jpg",
+      img: "/images/xu-xin-blue-label-vs-tibhar-felix/01.webp",
+      srcset: "/images/xu-xin-blue-label-vs-tibhar-felix/01.thumb-240.webp 240w, /images/xu-xin-blue-label-vs-tibhar-felix/01.thumb-480.webp 480w, /images/xu-xin-blue-label-vs-tibhar-felix/01.thumb.webp 720w, /images/xu-xin-blue-label-vs-tibhar-felix/01.thumb-1000.webp 1000w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
       alt: "Xu Xin Blue Label and Tibhar Felix blades",
       cat: "Review",
       excerpt:
@@ -168,10 +200,30 @@
     var media = document.createElement("div");
     media.className = "mg-guide-card__media";
     var img = document.createElement("img");
-    img.src = g.img;
+    // The card draws at 462px; `img` still names the full-size file so the
+    // lightbox and any no-srcset browser keep working.
+    img.src =
+      window.mgImgThumbs && !window.mgImgThumbs.isThumb(g.img)
+        ? window.mgImgThumbs.thumbSrc(g.img)
+        : g.img;
     img.alt = g.alt;
     img.loading = "lazy";
     img.decoding = "async";
+    if (g.srcset) {
+      img.srcset = g.srcset;
+      img.sizes = g.sizes;
+      // srcset wins over src, so a missing variant has to drop the pair before
+      // the full-size file can take over.
+      img.addEventListener(
+        "error",
+        function () {
+          img.removeAttribute("srcset");
+          img.removeAttribute("sizes");
+          img.src = g.img;
+        },
+        { once: true }
+      );
+    }
     media.appendChild(img);
     a.appendChild(media);
 

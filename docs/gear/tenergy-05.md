@@ -10,7 +10,7 @@ updated: "2026-09-08"
 
   <div class="mg-prod__media">
     <div class="mg-gallery mg-gallery--prod" markdown="0">
-      <a href="/images/tenergy-05/01.jpg"><img src="/images/tenergy-05/01.jpg" alt="Butterfly Tenergy 05 table tennis rubber" width="1200" height="1200" decoding="async"></a>
+      <a href="/images/tenergy-05/01.jpg"><img src="/images/tenergy-05/01.thumb.webp" data-full-src="/images/tenergy-05/01.jpg" srcset="/images/tenergy-05/01.thumb-240.webp 240w, /images/tenergy-05/01.thumb-480.webp 480w, /images/tenergy-05/01.thumb.webp 600w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Butterfly Tenergy 05 table tennis rubber" width="1200" height="1200" decoding="async"></a>
     </div>
   </div>
 

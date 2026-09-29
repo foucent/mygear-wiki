@@ -13,7 +13,7 @@ Under ITTF rules, a blade must be at least **85% wood**. The remaining materials
 - **Outer fiber** — fiber sits directly under the face ply  
 - **Inner fiber** — fiber sits on both sides of the core  
 
-![Hard-face inner-fiber blade example](../images/outer-vs-inner-fiber/01.jpg)
+![Hard-face inner-fiber blade example](../images/outer-vs-inner-fiber/01.webp)
 
 ---
 

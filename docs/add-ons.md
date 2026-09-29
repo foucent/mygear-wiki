@@ -12,12 +12,12 @@ hide:
 
   <section class="mg-home-hero mg-home-hero--shop mg-hero-slides" aria-label="Table tennis add-on photos">
     <div class="mg-hero-slides__track" aria-hidden="true">
-      <img class="mg-hero-slides__img is-active" src="/images/add-ons/dhs-no-15-voc-free-glue.jpg" alt="" width="1200" height="900" decoding="async" fetchpriority="high">
-      <img class="mg-hero-slides__img" src="/images/add-ons/haifu-sea-moon-booster.jpg" alt="" width="1200" height="900" decoding="async" loading="lazy">
-      <img class="mg-hero-slides__img" src="/images/add-ons/dhs-3-star-balls.jpg" alt="" width="1200" height="900" decoding="async" loading="lazy">
-      <img class="mg-hero-slides__img" src="/images/add-ons/hard-case-for-racket.jpg" alt="" width="1200" height="900" decoding="async" loading="lazy">
-      <img class="mg-hero-slides__img" src="/images/add-ons/haifu-national-black-oil.jpg" alt="" width="1200" height="900" decoding="async" loading="lazy">
-      <img class="mg-hero-slides__img" src="/images/add-ons/dhs-blade-professional-lacquer.jpg" alt="" width="1200" height="900" decoding="async" loading="lazy">
+      <img class="mg-hero-slides__img is-active" src="/images/add-ons/dhs-no-15-voc-free-glue.thumb.webp" data-full-src="/images/add-ons/dhs-no-15-voc-free-glue.jpg" srcset="/images/add-ons/dhs-no-15-voc-free-glue.thumb-240.webp 180w, /images/add-ons/dhs-no-15-voc-free-glue.thumb-480.webp 360w, /images/add-ons/dhs-no-15-voc-free-glue.thumb.webp 540w, /images/add-ons/dhs-no-15-voc-free-glue.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 96vw, 960px" alt="" width="1200" height="900" decoding="async" fetchpriority="high">
+      <img class="mg-hero-slides__img" src="/images/add-ons/haifu-sea-moon-booster.thumb.webp" data-full-src="/images/add-ons/haifu-sea-moon-booster.jpg" srcset="/images/add-ons/haifu-sea-moon-booster.thumb-480.webp 480w, /images/add-ons/haifu-sea-moon-booster.thumb.webp 720w, /images/add-ons/haifu-sea-moon-booster.jpg 800w" sizes="(max-width: 759.98px) 96vw, 960px" alt="" width="1200" height="900" decoding="async" loading="lazy">
+      <img class="mg-hero-slides__img" src="/images/add-ons/dhs-3-star-balls.thumb.webp" data-full-src="/images/add-ons/dhs-3-star-balls.jpg" srcset="/images/add-ons/dhs-3-star-balls.thumb-480.webp 480w, /images/add-ons/dhs-3-star-balls.thumb.webp 720w, /images/add-ons/dhs-3-star-balls.jpg 800w" sizes="(max-width: 759.98px) 96vw, 960px" alt="" width="1200" height="900" decoding="async" loading="lazy">
+      <img class="mg-hero-slides__img" src="/images/add-ons/hard-case-for-racket.thumb.webp" data-full-src="/images/add-ons/hard-case-for-racket.jpg" srcset="/images/add-ons/hard-case-for-racket.thumb-480.webp 480w, /images/add-ons/hard-case-for-racket.jpg 610w" sizes="(max-width: 759.98px) 96vw, 960px" alt="" width="1200" height="900" decoding="async" loading="lazy">
+      <img class="mg-hero-slides__img" src="/images/add-ons/haifu-national-black-oil.thumb.webp" data-full-src="/images/add-ons/haifu-national-black-oil.jpg" srcset="/images/add-ons/haifu-national-black-oil.thumb-480.webp 480w, /images/add-ons/haifu-national-black-oil.thumb.webp 720w, /images/add-ons/haifu-national-black-oil.jpg 800w" sizes="(max-width: 759.98px) 96vw, 960px" alt="" width="1200" height="900" decoding="async" loading="lazy">
+      <img class="mg-hero-slides__img" src="/images/add-ons/dhs-blade-professional-lacquer.thumb.webp" data-full-src="/images/add-ons/dhs-blade-professional-lacquer.jpg" srcset="/images/add-ons/dhs-blade-professional-lacquer.thumb-480.webp 480w, /images/add-ons/dhs-blade-professional-lacquer.thumb.webp 720w, /images/add-ons/dhs-blade-professional-lacquer.jpg 800w" sizes="(max-width: 759.98px) 96vw, 960px" alt="" width="1200" height="900" decoding="async" loading="lazy">
     </div>
     <div class="mg-home-hero__inner">
       <p class="mg-home-hero__brand">MyGear.Top</p>
@@ -40,7 +40,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
-      <img class="mg-card__fit-contain" src="/images/add-ons/dhs-no-15-voc-free-glue.jpg" alt="DHS No.15 VOC-Free Glue" loading="lazy" decoding="async">
+      <img class="mg-card__fit-contain" src="/images/add-ons/dhs-no-15-voc-free-glue.thumb.webp" data-full-src="/images/add-ons/dhs-no-15-voc-free-glue.jpg" srcset="/images/add-ons/dhs-no-15-voc-free-glue.thumb-240.webp 180w, /images/add-ons/dhs-no-15-voc-free-glue.thumb-480.webp 360w, /images/add-ons/dhs-no-15-voc-free-glue.thumb.webp 540w, /images/add-ons/dhs-no-15-voc-free-glue.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 88vw, 468px" alt="DHS No.15 VOC-Free Glue" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
       <p class="mg-card__cat">Glue</p>
@@ -56,7 +56,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
-      <img src="/images/add-ons/dhs-blade-professional-lacquer.jpg" alt="DHS Blade Professional Lacquer" loading="lazy" decoding="async">
+      <img src="/images/add-ons/dhs-blade-professional-lacquer.thumb.webp" data-full-src="/images/add-ons/dhs-blade-professional-lacquer.jpg" srcset="/images/add-ons/dhs-blade-professional-lacquer.thumb-480.webp 480w, /images/add-ons/dhs-blade-professional-lacquer.thumb.webp 720w, /images/add-ons/dhs-blade-professional-lacquer.jpg 800w" sizes="(max-width: 759.98px) 88vw, 468px" alt="DHS Blade Professional Lacquer" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
       <p class="mg-card__cat">Treatment</p>
@@ -72,7 +72,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
-      <img src="/images/add-ons/haifu-national-black-oil.jpg" alt="Haifu National Black Oil" loading="lazy" decoding="async">
+      <img src="/images/add-ons/haifu-national-black-oil.thumb.webp" data-full-src="/images/add-ons/haifu-national-black-oil.jpg" srcset="/images/add-ons/haifu-national-black-oil.thumb-480.webp 480w, /images/add-ons/haifu-national-black-oil.thumb.webp 720w, /images/add-ons/haifu-national-black-oil.jpg 800w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Haifu National Black Oil" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
       <p class="mg-card__cat">Booster</p>
@@ -88,7 +88,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
-      <img src="/images/add-ons/haifu-sea-moon-booster.jpg" alt="Haifu Sea Moon Booster" loading="lazy" decoding="async">
+      <img src="/images/add-ons/haifu-sea-moon-booster.thumb.webp" data-full-src="/images/add-ons/haifu-sea-moon-booster.jpg" srcset="/images/add-ons/haifu-sea-moon-booster.thumb-480.webp 480w, /images/add-ons/haifu-sea-moon-booster.thumb.webp 720w, /images/add-ons/haifu-sea-moon-booster.jpg 800w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Haifu Sea Moon Booster" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
       <p class="mg-card__cat">Booster</p>
@@ -104,7 +104,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
-      <img src="/images/add-ons/liu-lan-rubber-nutrition-liquid-100ml.jpg" alt="LIU LAN Rubber Nutrition Liquid (100ml)" loading="lazy" decoding="async">
+      <img src="/images/add-ons/liu-lan-rubber-nutrition-liquid-100ml.thumb.webp" data-full-src="/images/add-ons/liu-lan-rubber-nutrition-liquid-100ml.jpg" srcset="/images/add-ons/liu-lan-rubber-nutrition-liquid-100ml.thumb-480.webp 480w, /images/add-ons/liu-lan-rubber-nutrition-liquid-100ml.thumb.webp 720w, /images/add-ons/liu-lan-rubber-nutrition-liquid-100ml.jpg 800w" sizes="(max-width: 759.98px) 88vw, 468px" alt="LIU LAN Rubber Nutrition Liquid (100ml)" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
       <p class="mg-card__cat">Treatment</p>
@@ -120,7 +120,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
-      <img src="/images/add-ons/loki-table-tennis-rubber-cleaner-foam200ml.jpg" alt="LOKI Table Tennis Rubber Cleaner Foam (200ml)" loading="lazy" decoding="async">
+      <img src="/images/add-ons/loki-table-tennis-rubber-cleaner-foam200ml.thumb.webp" data-full-src="/images/add-ons/loki-table-tennis-rubber-cleaner-foam200ml.jpg" srcset="/images/add-ons/loki-table-tennis-rubber-cleaner-foam200ml.thumb-480.webp 480w, /images/add-ons/loki-table-tennis-rubber-cleaner-foam200ml.thumb.webp 720w, /images/add-ons/loki-table-tennis-rubber-cleaner-foam200ml.jpg 800w" sizes="(max-width: 759.98px) 88vw, 468px" alt="LOKI Table Tennis Rubber Cleaner Foam (200ml)" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
       <p class="mg-card__cat">Cleaning</p>
@@ -136,7 +136,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
-      <img src="/images/add-ons/dhs-3-star-balls.jpg" alt="DHS 3-Star Balls" loading="lazy" decoding="async">
+      <img src="/images/add-ons/dhs-3-star-balls.thumb.webp" data-full-src="/images/add-ons/dhs-3-star-balls.jpg" srcset="/images/add-ons/dhs-3-star-balls.thumb-480.webp 480w, /images/add-ons/dhs-3-star-balls.thumb.webp 720w, /images/add-ons/dhs-3-star-balls.jpg 800w" sizes="(max-width: 759.98px) 88vw, 468px" alt="DHS 3-Star Balls" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
       <p class="mg-card__cat">Balls</p>
@@ -152,7 +152,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
-      <img src="/images/add-ons/hard-case-for-racket.jpg" alt="Hard Case for Racket" loading="lazy" decoding="async">
+      <img src="/images/add-ons/hard-case-for-racket.thumb.webp" data-full-src="/images/add-ons/hard-case-for-racket.jpg" srcset="/images/add-ons/hard-case-for-racket.thumb-480.webp 480w, /images/add-ons/hard-case-for-racket.jpg 610w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Hard Case for Racket" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
       <p class="mg-card__cat">Cases</p>
@@ -168,14 +168,14 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
-      <img src="/images/add-ons/nittaku-cleaning-sponge.jpg" alt="Nittaku Cleaning Sponge" loading="lazy" decoding="async">
+      <img src="/images/add-ons/nittaku-cleaning-sponge.thumb.webp" data-full-src="/images/add-ons/nittaku-cleaning-sponge.webp" srcset="/images/add-ons/nittaku-cleaning-sponge.thumb-480.webp 476w, /images/add-ons/nittaku-cleaning-sponge.webp 604w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Nittaku Cleaning Sponge" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
       <p class="mg-card__cat">Cleaning</p>
       <h3 class="mg-card__title">Nittaku Cleaning Sponge</h3>
       <p class="mg-card__price">$1</p>
       <p class="mg-card__more mg-card__more--split">
-        <a class="mg-card__zoom" href="/images/add-ons/nittaku-cleaning-sponge.jpg">View photo</a>
+        <a class="mg-card__zoom" href="/images/add-ons/nittaku-cleaning-sponge.webp">View photo</a>
         <em class="mg-card__or">or</em>
         <button type="button" class="mg-cart-add" data-name="Nittaku Cleaning Sponge" data-price="1" aria-label="Add Nittaku Cleaning Sponge to cart">Add to cart</button>
       </p>
@@ -184,14 +184,14 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
-      <img src="/images/add-ons/rubber-protective-sleeve.jpg" alt="Rubber Protective Sleeve" loading="lazy" decoding="async">
+      <img src="/images/add-ons/rubber-protective-sleeve.thumb.webp" data-full-src="/images/add-ons/rubber-protective-sleeve.webp" srcset="/images/add-ons/rubber-protective-sleeve.thumb-480.webp 480w, /images/add-ons/rubber-protective-sleeve.webp 611w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Rubber Protective Sleeve" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
       <p class="mg-card__cat">Protection</p>
       <h3 class="mg-card__title">Rubber Protective Sleeve</h3>
       <p class="mg-card__price">$1</p>
       <p class="mg-card__more mg-card__more--split">
-        <a class="mg-card__zoom" href="/images/add-ons/rubber-protective-sleeve.jpg">View photo</a>
+        <a class="mg-card__zoom" href="/images/add-ons/rubber-protective-sleeve.webp">View photo</a>
         <em class="mg-card__or">or</em>
         <button type="button" class="mg-cart-add" data-name="Rubber Protective Sleeve" data-price="1" aria-label="Add Rubber Protective Sleeve to cart">Add to cart</button>
       </p>
@@ -200,7 +200,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
-      <img class="mg-card__fit-contain" src="/images/add-ons/sdi-3006c-rubber-cutter.jpg" alt="SDI 3006C Rubber Cutter" loading="lazy" decoding="async">
+      <img class="mg-card__fit-contain" src="/images/add-ons/sdi-3006c-rubber-cutter.thumb.webp" data-full-src="/images/add-ons/sdi-3006c-rubber-cutter.jpg" srcset="/images/add-ons/sdi-3006c-rubber-cutter.thumb-480.webp 360w, /images/add-ons/sdi-3006c-rubber-cutter.thumb.webp 540w, /images/add-ons/sdi-3006c-rubber-cutter.jpg 600w" sizes="(max-width: 759.98px) 88vw, 468px" alt="SDI 3006C Rubber Cutter" loading="lazy" decoding="async">
     </div>
     <div class="mg-card__copy">
       <p class="mg-card__cat">Tools</p>
@@ -216,7 +216,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
-      <img src="/images/add-ons/butterfly-racket-case/01.jpg" alt="Butterfly 2025 Racket Case" loading="lazy" decoding="async" data-gallery="/images/add-ons/butterfly-racket-case/01.jpg,/images/add-ons/butterfly-racket-case/02.jpg,/images/add-ons/butterfly-racket-case/03.jpg,/images/add-ons/butterfly-racket-case/04.jpg,/images/add-ons/butterfly-racket-case/05.jpg,/images/add-ons/butterfly-racket-case/06.jpg,/images/add-ons/butterfly-racket-case/07.jpg">
+      <img src="/images/add-ons/butterfly-racket-case/01.thumb.webp" data-full-src="/images/add-ons/butterfly-racket-case/01.jpg" srcset="/images/add-ons/butterfly-racket-case/01.thumb-480.webp 480w, /images/add-ons/butterfly-racket-case/01.thumb.webp 720w, /images/add-ons/butterfly-racket-case/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Butterfly 2025 Racket Case" loading="lazy" decoding="async" data-gallery="/images/add-ons/butterfly-racket-case/01.jpg,/images/add-ons/butterfly-racket-case/02.jpg,/images/add-ons/butterfly-racket-case/03.jpg,/images/add-ons/butterfly-racket-case/04.jpg,/images/add-ons/butterfly-racket-case/05.jpg,/images/add-ons/butterfly-racket-case/06.jpg,/images/add-ons/butterfly-racket-case/07.jpg">
     </div>
     <div class="mg-card__copy">
       <p class="mg-card__cat">Cases</p>
@@ -232,14 +232,14 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
-      <img src="/images/add-ons/butterfly-wristband/01.jpg" alt="Butterfly Wristband" loading="lazy" decoding="async" data-gallery="/images/add-ons/butterfly-wristband/01.jpg,/images/add-ons/butterfly-wristband/02.jpg,/images/add-ons/butterfly-wristband/03.jpg,/images/add-ons/butterfly-wristband/04.jpg,/images/add-ons/butterfly-wristband/05.jpg">
+      <img src="/images/add-ons/butterfly-wristband/01.thumb.webp" data-full-src="/images/add-ons/butterfly-wristband/01.webp" srcset="/images/add-ons/butterfly-wristband/01.thumb-480.webp 480w, /images/add-ons/butterfly-wristband/01.thumb.webp 720w, /images/add-ons/butterfly-wristband/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Butterfly Wristband" loading="lazy" decoding="async" data-gallery="/images/add-ons/butterfly-wristband/01.webp,/images/add-ons/butterfly-wristband/02.jpg,/images/add-ons/butterfly-wristband/03.jpg,/images/add-ons/butterfly-wristband/04.jpg,/images/add-ons/butterfly-wristband/05.jpg">
     </div>
     <div class="mg-card__copy">
       <p class="mg-card__cat">Apparel</p>
       <h3 class="mg-card__title">Butterfly Wristband</h3>
       <p class="mg-card__price">$10</p>
       <p class="mg-card__more mg-card__more--split">
-        <a class="mg-card__zoom" href="/images/add-ons/butterfly-wristband/01.jpg">View 5 photos</a>
+        <a class="mg-card__zoom" href="/images/add-ons/butterfly-wristband/01.webp">View 5 photos</a>
         <em class="mg-card__or">or</em>
         <button type="button" class="mg-cart-add" data-name="Butterfly Wristband" data-price="10" aria-label="Add Butterfly Wristband to cart">Add to cart</button>
       </p>
@@ -248,7 +248,7 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
-      <img src="/images/add-ons/butterfly-2026-racket-bag/01.jpg" alt="Butterfly 2026 Racket Bag" loading="lazy" decoding="async" data-gallery="/images/add-ons/butterfly-2026-racket-bag/01.jpg,/images/add-ons/butterfly-2026-racket-bag/02.jpg,/images/add-ons/butterfly-2026-racket-bag/03.jpg,/images/add-ons/butterfly-2026-racket-bag/04.jpg,/images/add-ons/butterfly-2026-racket-bag/05.jpg,/images/add-ons/butterfly-2026-racket-bag/06.jpg,/images/add-ons/butterfly-2026-racket-bag/07.jpg,/images/add-ons/butterfly-2026-racket-bag/08.jpg">
+      <img src="/images/add-ons/butterfly-2026-racket-bag/01.thumb.webp" data-full-src="/images/add-ons/butterfly-2026-racket-bag/01.jpg" srcset="/images/add-ons/butterfly-2026-racket-bag/01.thumb-480.webp 480w, /images/add-ons/butterfly-2026-racket-bag/01.thumb.webp 720w, /images/add-ons/butterfly-2026-racket-bag/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Butterfly 2026 Racket Bag" loading="lazy" decoding="async" data-gallery="/images/add-ons/butterfly-2026-racket-bag/01.jpg,/images/add-ons/butterfly-2026-racket-bag/02.jpg,/images/add-ons/butterfly-2026-racket-bag/03.jpg,/images/add-ons/butterfly-2026-racket-bag/04.jpg,/images/add-ons/butterfly-2026-racket-bag/05.jpg,/images/add-ons/butterfly-2026-racket-bag/06.jpg,/images/add-ons/butterfly-2026-racket-bag/07.jpg,/images/add-ons/butterfly-2026-racket-bag/08.jpg">
     </div>
     <div class="mg-card__copy">
       <p class="mg-card__cat">Cases</p>
@@ -264,14 +264,14 @@ hide:
 
   <article class="mg-card">
     <div class="mg-card__media">
-      <img src="/images/add-ons/butterfly-2026-sports-towel/01.jpg" alt="Butterfly 2026 Sports Towel" loading="lazy" decoding="async" data-gallery="/images/add-ons/butterfly-2026-sports-towel/01.jpg,/images/add-ons/butterfly-2026-sports-towel/02.jpg,/images/add-ons/butterfly-2026-sports-towel/03.jpg,/images/add-ons/butterfly-2026-sports-towel/04.jpg">
+      <img src="/images/add-ons/butterfly-2026-sports-towel/01.thumb.webp" data-full-src="/images/add-ons/butterfly-2026-sports-towel/01.webp" srcset="/images/add-ons/butterfly-2026-sports-towel/01.thumb-480.webp 480w, /images/add-ons/butterfly-2026-sports-towel/01.thumb.webp 720w, /images/add-ons/butterfly-2026-sports-towel/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Butterfly 2026 Sports Towel" loading="lazy" decoding="async" data-gallery="/images/add-ons/butterfly-2026-sports-towel/01.webp,/images/add-ons/butterfly-2026-sports-towel/02.webp,/images/add-ons/butterfly-2026-sports-towel/03.webp,/images/add-ons/butterfly-2026-sports-towel/04.webp">
     </div>
     <div class="mg-card__copy">
       <p class="mg-card__cat">Apparel</p>
       <h3 class="mg-card__title">Butterfly 2026 Sports Towel</h3>
       <p class="mg-card__price">$6</p>
       <p class="mg-card__more mg-card__more--split">
-        <a class="mg-card__zoom" href="/images/add-ons/butterfly-2026-sports-towel/01.jpg">View 4 photos</a>
+        <a class="mg-card__zoom" href="/images/add-ons/butterfly-2026-sports-towel/01.webp">View 4 photos</a>
         <em class="mg-card__or">or</em>
         <button type="button" class="mg-cart-add" data-name="Butterfly 2026 Sports Towel" data-price="6" aria-label="Add Butterfly 2026 Sports Towel to cart">Add to cart</button>
       </p>

@@ -43,8 +43,8 @@ How orders are packed, how to track them, and example shipping timelines (FR / D
 Click a photo to enlarge:
 
 <div class="mg-gallery mg-gallery--pack" markdown="0">
-  <a href="/images/shop-cases/01.jpg"><img src="/images/shop-cases/01.jpg" alt="Packed order example" loading="lazy"></a>
-  <a href="/images/shop-cases/02.jpg"><img src="/images/shop-cases/02.jpg" alt="Packaging detail" loading="lazy"></a>
+  <a href="/images/shop-cases/01.jpg"><img src="/images/shop-cases/01.thumb.webp" data-full-src="/images/shop-cases/01.jpg" srcset="/images/shop-cases/01.thumb-240.webp 180w, /images/shop-cases/01.thumb-480.webp 360w, /images/shop-cases/01.thumb.webp 540w, /images/shop-cases/01.jpg 768w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Packed order example" loading="lazy"></a>
+  <a href="/images/shop-cases/02.jpg"><img src="/images/shop-cases/02.thumb.webp" data-full-src="/images/shop-cases/02.jpg" srcset="/images/shop-cases/02.thumb-240.webp 180w, /images/shop-cases/02.thumb-480.webp 360w, /images/shop-cases/02.thumb.webp 540w, /images/shop-cases/02.jpg 768w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Packaging detail" loading="lazy"></a>
 </div>
 
 ### How to track
@@ -64,10 +64,10 @@ Examples below show packing and transit for customers in **France, Germany, Ital
 Click a screenshot to enlarge:
 
 <div class="mg-gallery mg-gallery--timelines" markdown="0">
-  <a href="/images/shop-cases/03.png"><img src="/images/shop-cases/03.png" alt="Shipping timeline example — France" loading="lazy"></a>
-  <a href="/images/shop-cases/04.png"><img src="/images/shop-cases/04.png" alt="Shipping timeline example — Germany" loading="lazy"></a>
-  <a href="/images/shop-cases/05.png"><img src="/images/shop-cases/05.png" alt="Shipping timeline example — Italy" loading="lazy"></a>
-  <a href="/images/shop-cases/06.png"><img src="/images/shop-cases/06.png" alt="Shipping timeline example — USA" loading="lazy"></a>
+  <a href="/images/shop-cases/03.png"><img src="/images/shop-cases/03.thumb.webp" data-full-src="/images/shop-cases/03.png" srcset="/images/shop-cases/03.thumb-240.webp 240w, /images/shop-cases/03.thumb-480.webp 480w, /images/shop-cases/03.thumb.webp 720w, /images/shop-cases/03.png 928w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Shipping timeline example — France" loading="lazy"></a>
+  <a href="/images/shop-cases/04.webp"><img src="/images/shop-cases/04.thumb.webp" data-full-src="/images/shop-cases/04.webp" srcset="/images/shop-cases/04.thumb-240.webp 240w, /images/shop-cases/04.thumb-480.webp 480w, /images/shop-cases/04.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Shipping timeline example — Germany" loading="lazy"></a>
+  <a href="/images/shop-cases/05.webp"><img src="/images/shop-cases/05.thumb.webp" data-full-src="/images/shop-cases/05.webp" srcset="/images/shop-cases/05.thumb-240.webp 240w, /images/shop-cases/05.thumb-480.webp 480w, /images/shop-cases/05.thumb.webp 720w, /images/shop-cases/05.webp 986w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Shipping timeline example — Italy" loading="lazy"></a>
+  <a href="/images/shop-cases/06.webp"><img src="/images/shop-cases/06.thumb.webp" data-full-src="/images/shop-cases/06.webp" srcset="/images/shop-cases/06.thumb-240.webp 240w, /images/shop-cases/06.thumb-480.webp 480w, /images/shop-cases/06.thumb.webp 720w, /images/shop-cases/06.webp 809w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Shipping timeline example — USA" loading="lazy"></a>
 </div>
 
 ---

@@ -10,7 +10,7 @@ description: "A beginner-friendly checklist. Before you chase brand names, check
 
 A beginner-friendly checklist. Before you chase brand names, check these six basics: **weight**, **balance**, **blade face size**, **thickness**, **outer ply**, and **construction**.
 
-![Butterfly Viscaria with Tibhar Hybrid K3](../images/blade-basics/01.jpg)
+![Butterfly Viscaria with Tibhar Hybrid K3](../images/blade-basics/01.webp)
 
 ---
 
@@ -50,7 +50,7 @@ Brand tendencies (many models, not every model):
 | Butterfly, Yinhe (many lines) | Less head-heavy | Usually easier to swing longer |
 | DHS, Stiga (many lines) | More head-forward | More attack power, more tiring |
 
-![Two Yinhe blades with different handle shapes](../images/blade-basics/02.png)
+![Two Yinhe blades with different handle shapes](../images/blade-basics/02.webp)
 
 ---
 
@@ -79,7 +79,7 @@ For two-wing inverted looping, thickness is a style choice:
 
 Thicker “borrow-force” blades can also mute clarity and make full wood-through harder. When you fail to punch through, balls drop and errors rise.
 
-![Assembled offensive setup on the table](../images/blade-basics/03.jpg)
+![Assembled offensive setup on the table](../images/blade-basics/03.webp)
 
 ---
 

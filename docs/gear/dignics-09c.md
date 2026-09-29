@@ -10,7 +10,7 @@ updated: "2026-09-08"
 
   <div class="mg-prod__media">
     <div class="mg-gallery mg-gallery--prod" markdown="0">
-      <a href="/images/dignics-09c/01.jpg"><img src="/images/dignics-09c/01.jpg" alt="Butterfly Dignics 09C table tennis rubber" width="1200" height="1200" decoding="async"></a>
+      <a href="/images/dignics-09c/01.jpg"><img src="/images/dignics-09c/01.thumb.webp" data-full-src="/images/dignics-09c/01.jpg" srcset="/images/dignics-09c/01.thumb-240.webp 240w, /images/dignics-09c/01.thumb-480.webp 480w, /images/dignics-09c/01.thumb.webp 600w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Butterfly Dignics 09C table tennis rubber" width="1200" height="1200" decoding="async"></a>
     </div>
   </div>
 

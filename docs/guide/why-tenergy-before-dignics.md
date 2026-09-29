@@ -31,7 +31,7 @@ Among Butterfly-contracted men, Tenergy users are already rare. Among women, rou
 
 On an inner blade, plenty of amateurs can fully open **T05** on FH but find **D05** a struggle. If you cannot punch through, you never get full acceleration. Top male pros usually do not have that ceiling problem.
 
-![Tournament play with modern Butterfly gear](../images/tenergy-to-dignics/03.jpg)
+![Tournament play with modern Butterfly gear](../images/tenergy-to-dignics/03.webp)
 
 ---
 
@@ -62,7 +62,7 @@ Even when players already suspect **double D** is the end state, they often **ca
 
 A personal parallel: years ago **T80** on BH felt tough and slow; years later it felt lightning fast; later still it felt almost *too* transparent on BH. Gear “difficulty” moves with your punch-through ability.
 
-![Assembled offensive Butterfly setup](../images/tenergy-to-dignics/04.jpg)
+![Assembled offensive Butterfly setup](../images/tenergy-to-dignics/04.webp)
 
 ---
 

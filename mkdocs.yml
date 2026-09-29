@@ -15,6 +15,9 @@ hooks:
   # Gives every product card an id and its own search entry, so a search hit
   # scrolls to the card instead of the top of the page.
   - hooks/search_card_anchors.py
+  # The guide articles show their photographs through Markdown, so they arrive
+  # without the thumb/srcset every other image is hand-written with.
+  - hooks/prose_images.py
 theme:
   name: material
   custom_dir: overrides

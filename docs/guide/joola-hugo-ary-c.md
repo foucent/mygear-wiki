@@ -14,7 +14,7 @@ This blade isn't just a brand flagship — it holds a significant place among th
 
 His current racket, the **Joola Hugo ARY-C**, has become a talking point for many. In a way, it represents the top standard of Korean manufacturing.
 
-![Joola Hugo ARY-C](../images/joola-hugo-ary-c/01.jpg)
+![Joola Hugo ARY-C](../images/joola-hugo-ary-c/01.webp)
 
 ## The Basics
 
@@ -30,7 +30,7 @@ Measured thickness: ARY-C **6.05mm**, Golden Waldner 5.93mm, Ola Hybrid Carbon 5
 
 In the grip, the ARY-C feels the fullest and likely the most rigid of the three. The handle color scheme references the Brazilian flag.
 
-![Joola Hugo ARY-C](../images/joola-hugo-ary-c/02.jpg)
+![Joola Hugo ARY-C](../images/joola-hugo-ary-c/02.webp)
 
 In feel, the ARY-C is like a faster, higher-dwelling, slightly harder-to-transparent Golden Waldner; or a hybrid of the Ovtcharov ALC and the Ola Hybrid Carbon.
 
@@ -46,7 +46,7 @@ From these numbers you'd guess it has some power threshold. But even if that's t
 
 **Receiving and backhand loop:** you can bite the ball and produce more spin than expected on the backhand flip. Whether flipping or looping, you instantly feel supported by the blade. Opponents report the incoming rotation is really strong. That is, with low-to-mid power strokes you get great spin quality.
 
-![Joola Hugo ARY-C](../images/joola-hugo-ary-c/03.jpg)
+![Joola Hugo ARY-C](../images/joola-hugo-ary-c/03.webp)
 
 **Backhand and forehand attack/defense:** the compact backhand motion gets good speed. On the forehand, with a large swing it's not easy to hit through fully — but even so, its speed feels better than a typical inner ALC blade. Similar to the Ovtcharov ALC, it plays both drive and loop. When looping with power it's not easily penetrated but speed is good; when spinning, it spins a bit more than expected.
 
@@ -54,7 +54,7 @@ The backhand has strong support and rigidity. Blocking with borrowed power is ea
 
 **Mid-to-long distance:** the support and stamina remain strong. When you step back, the rigidity and rebound are enough that the blade doesn't feel hollow — it holds power steadily, and actually feels easier at mid-far range.
 
-![Joola Hugo ARY-C](../images/joola-hugo-ary-c/04.jpg)
+![Joola Hugo ARY-C](../images/joola-hugo-ary-c/04.webp)
 
 ## Verdict
 

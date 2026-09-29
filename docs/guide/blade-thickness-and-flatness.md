@@ -20,7 +20,7 @@ Whether you can penetrate a blade is something you'll roughly know after a hands
 
 On the other hand, a thicker blade is generally faster when it comes to blocking and redirecting borrowed pace. But the thinner one adds spin more easily, because it deforms more readily. So — assuming you can penetrate both — if you play mainly drive-and-attack, or you emphasize speed, the thicker blade suits you better. But if spin is your first priority, then pick the thinner one.
 
-![Custom KLC blades whose reinforcement plies are thicker than the W968's](../images/blade-thickness/01.png)
+![Custom KLC blades whose reinforcement plies are thicker than the W968's](../images/blade-thickness/01.webp)
 
 ---
 
@@ -30,7 +30,7 @@ This is also worth considering when picking the thickness of a **W968**. Once it
 
 The **Stiga CL** is an even more extreme case. There was a time when a CL as thin as **6.4mm** was regarded as a god blade for looping. But there simply weren't many of them around. So plenty of players turned instead to the thinner **Donic UP**. These days plenty of all-wood 7-ply blades are deliberately made not-too-thick to suit the "loop-ification" of the game — the **Banda Offensive** (measured **6.08mm**) and **Chunli** (measured **6.2mm**), for example. Most CLs today are still over 6.5mm. If you play pips, then you really should pick a thicker one — that's what gives you enough support and makes it easy to speed the ball up.
 
-![Close-up of two blade edges showing the ply structure and core thickness](../images/blade-thickness/02.jpg)
+![Close-up of two blade edges showing the ply structure and core thickness](../images/blade-thickness/02.webp)
 
 ---
 

@@ -16,13 +16,13 @@ description: "Avalox table tennis blades — classic P500, YouTube review, and w
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/avalox-p500/01.jpg"><img src="/images/avalox-p500/01.jpg" alt="Avalox P500 table tennis blade photo 1" loading="lazy"></a>
+  <a href="/images/avalox-p500/01.jpg"><img src="/images/avalox-p500/01.thumb.webp" data-full-src="/images/avalox-p500/01.jpg" srcset="/images/avalox-p500/01.thumb-240.webp 160w, /images/avalox-p500/01.thumb-480.webp 320w, /images/avalox-p500/01.thumb.webp 480w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Avalox P500 table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/avalox-p500/02.jpg"><img src="/images/avalox-p500/02.jpg" alt="Avalox P500 table tennis blade photo 2" loading="lazy"></a>
+  <a href="/images/avalox-p500/02.jpg"><img src="/images/avalox-p500/02.thumb.webp" data-full-src="/images/avalox-p500/02.jpg" srcset="/images/avalox-p500/02.thumb-240.webp 240w, /images/avalox-p500/02.thumb-480.webp 480w, /images/avalox-p500/02.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Avalox P500 table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/avalox-p500/03.jpg"><img src="/images/avalox-p500/03.jpg" alt="Avalox P500 table tennis blade photo 3" loading="lazy"></a>
+  <a href="/images/avalox-p500/03.jpg"><img src="/images/avalox-p500/03.thumb.webp" data-full-src="/images/avalox-p500/03.jpg" srcset="/images/avalox-p500/03.thumb-240.webp 240w, /images/avalox-p500/03.thumb-480.webp 480w, /images/avalox-p500/03.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Avalox P500 table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/avalox-p500/04.jpg"><img src="/images/avalox-p500/04.jpg" alt="Avalox P500 table tennis blade photo 4" loading="lazy"></a>
+  <a href="/images/avalox-p500/04.jpg"><img src="/images/avalox-p500/04.thumb.webp" data-full-src="/images/avalox-p500/04.jpg" srcset="/images/avalox-p500/04.thumb-240.webp 240w, /images/avalox-p500/04.thumb-480.webp 480w, /images/avalox-p500/04.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Avalox P500 table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 

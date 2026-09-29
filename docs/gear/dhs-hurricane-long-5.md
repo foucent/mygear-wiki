@@ -10,7 +10,7 @@ updated: "2026-09-08"
 
   <div class="mg-prod__media">
     <div class="mg-gallery mg-gallery--prod" markdown="0">
-      <a href="/images/price-list/blades/dhs-hurricane-long-5.thumb.webp"><img src="/images/price-list/blades/dhs-hurricane-long-5.thumb.webp" alt="DHS Hurricane Long 5 table tennis blade" width="720" height="514" decoding="async"></a>
+      <a href="/images/price-list/blades/dhs-hurricane-long-5.thumb.webp"><img src="/images/price-list/blades/dhs-hurricane-long-5.thumb.webp" data-full-src="/images/price-list/blades/dhs-hurricane-long-5.webp" srcset="/images/price-list/blades/dhs-hurricane-long-5.thumb-480.webp 480w, /images/price-list/blades/dhs-hurricane-long-5.thumb.webp 720w, /images/price-list/blades/dhs-hurricane-long-5.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 480px" alt="DHS Hurricane Long 5 table tennis blade" width="720" height="514" decoding="async"></a>
     </div>
   </div>
 

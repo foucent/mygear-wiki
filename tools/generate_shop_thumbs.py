@@ -31,12 +31,12 @@ SHOP_DIRS = [
     IMAGES / "add-ons",
 ]
 
-MD_FILES = [
-    DOCS / "pre-owned.md",
-    DOCS / "rubbers.md",
-    DOCS / "blades.md",
-    DOCS / "add-ons.md",
-]
+JS_FILES = sorted((DOCS / "javascripts").glob("*.js"))
+
+# Anything smaller than this is a logo, an icon or a favicon: a thumb would be a
+# few hundred bytes smaller and one more request to keep in sync. 40 KB is
+# comfortably below every photo and above every brand mark on the site.
+MIN_BYTES = 40_000
 
 
 def thumb_path(src: Path) -> Path:
@@ -48,6 +48,13 @@ def is_thumb(path: Path) -> bool:
 
 
 def collect_from_md() -> set[Path]:
+    """Every image referenced by a page or a script.
+
+    This used to be the four shop pages, because only they had thumbs. The card
+    covers and the gear albums pull the full-size file too, so the net is cast
+    over the whole docs tree plus the page scripts (guide-grid.js holds the
+    homepage guide images in a JS array).
+    """
     found: set[Path] = set()
     pat = re.compile(
         r"""(?:src|href|data-gallery)=["']([^"']+\.(?:jpe?g|png|webp))["']""",
@@ -57,7 +64,8 @@ def collect_from_md() -> set[Path]:
     pat2 = re.compile(r"""(/images/[\w./\-]+\.(?:jpe?g|png|webp))""", re.I)
     pat3 = re.compile(r"""\((?:\.\./)*images/([\w./\-]+\.(?:jpe?g|png|webp))\)""", re.I)
 
-    for md in MD_FILES:
+    sources = sorted(DOCS.rglob("*.md")) + JS_FILES
+    for md in sources:
         if not md.exists():
             continue
         text = md.read_text(encoding="utf-8")
@@ -132,7 +140,11 @@ def main() -> int:
     ap.add_argument("--force", action="store_true")
     args = ap.parse_args()
 
-    targets = collect_from_dirs() | collect_from_md()
+    targets = {
+        p
+        for p in (collect_from_dirs() | collect_from_md())
+        if p.stat().st_size >= MIN_BYTES
+    }
     ok = skip = err = 0
     before = after = 0
 

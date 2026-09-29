@@ -10,7 +10,7 @@ description: "For amateurs, Hurricane 3 sponge choice is not a color preference�
 
 For amateurs, Hurricane 3 sponge choice is not a color preference—it is matching sponge physics to your blade and swing. Factory codes matter: **Orange ≈ No. 20**, **Blue ≈ No. 22**.
 
-![Hurricane sponge comparison visual](../images/hurricane-blue-orange/01.png)
+![Hurricane sponge comparison visual](../images/hurricane-blue-orange/01.webp)
 
 ---
 
@@ -35,7 +35,7 @@ At the same listed degree (e.g. **39°**):
 - **Orange** — faster first kick off the bat; more forgiving when power is moderate.
 - **Blue** — feels firmer under the same hit; needs more compression work, then a higher energy return ceiling when you fully engage it.
 
-![Sponge / sheet detail](../images/hurricane-blue-orange/02.png)
+![Sponge / sheet detail](../images/hurricane-blue-orange/02.webp)
 
 ---
 

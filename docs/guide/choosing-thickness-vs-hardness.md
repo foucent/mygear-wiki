@@ -12,7 +12,7 @@ This guide uses the **Hurricane 3** series as examples. Classic provincial Hurri
 
 In the same model, raising hardness or thickness both add support to some degree, but the feel is not the same.
 
-![Hardness vs thickness comparison graphic](../images/rubber-thickness/01.png)
+![Hardness vs thickness comparison graphic](../images/rubber-thickness/01.webp)
 
 ---
 

@@ -26,13 +26,13 @@ Real-photo gallery of **Victas** table tennis blades. Browse models below; tap a
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/victas-koki-niwa-10th-anniversary/01.jpg"><img src="/images/victas-koki-niwa-10th-anniversary/01.jpg" alt="Victas Koki Niwa 10th Anniversary table tennis blade photo 1" loading="lazy"></a>
+  <a href="/images/victas-koki-niwa-10th-anniversary/01.jpg"><img src="/images/victas-koki-niwa-10th-anniversary/01.thumb.webp" data-full-src="/images/victas-koki-niwa-10th-anniversary/01.jpg" srcset="/images/victas-koki-niwa-10th-anniversary/01.thumb-240.webp 240w, /images/victas-koki-niwa-10th-anniversary/01.thumb-480.webp 480w, /images/victas-koki-niwa-10th-anniversary/01.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Victas Koki Niwa 10th Anniversary table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/victas-koki-niwa-10th-anniversary/02.jpg"><img src="/images/victas-koki-niwa-10th-anniversary/02.jpg" alt="Victas Koki Niwa 10th Anniversary table tennis blade photo 2" loading="lazy"></a>
+  <a href="/images/victas-koki-niwa-10th-anniversary/02.webp"><img src="/images/victas-koki-niwa-10th-anniversary/02.thumb.webp" data-full-src="/images/victas-koki-niwa-10th-anniversary/02.webp" srcset="/images/victas-koki-niwa-10th-anniversary/02.thumb-240.webp 160w, /images/victas-koki-niwa-10th-anniversary/02.thumb-480.webp 320w, /images/victas-koki-niwa-10th-anniversary/02.thumb.webp 480w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Victas Koki Niwa 10th Anniversary table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/victas-koki-niwa-10th-anniversary/03.jpg"><img src="/images/victas-koki-niwa-10th-anniversary/03.jpg" alt="Victas Koki Niwa 10th Anniversary table tennis blade photo 3" loading="lazy"></a>
+  <a href="/images/victas-koki-niwa-10th-anniversary/03.jpg"><img src="/images/victas-koki-niwa-10th-anniversary/03.thumb.webp" data-full-src="/images/victas-koki-niwa-10th-anniversary/03.jpg" srcset="/images/victas-koki-niwa-10th-anniversary/03.thumb-240.webp 240w, /images/victas-koki-niwa-10th-anniversary/03.thumb-480.webp 480w, /images/victas-koki-niwa-10th-anniversary/03.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Victas Koki Niwa 10th Anniversary table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/victas-koki-niwa-10th-anniversary/04.jpg"><img src="/images/victas-koki-niwa-10th-anniversary/04.jpg" alt="Victas Koki Niwa 10th Anniversary table tennis blade photo 4" loading="lazy"></a>
+  <a href="/images/victas-koki-niwa-10th-anniversary/04.webp"><img src="/images/victas-koki-niwa-10th-anniversary/04.thumb.webp" data-full-src="/images/victas-koki-niwa-10th-anniversary/04.webp" srcset="/images/victas-koki-niwa-10th-anniversary/04.thumb-240.webp 240w, /images/victas-koki-niwa-10th-anniversary/04.thumb-480.webp 480w, /images/victas-koki-niwa-10th-anniversary/04.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Victas Koki Niwa 10th Anniversary table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 
@@ -52,13 +52,13 @@ Real-photo gallery of **Victas** table tennis blades. Browse models below; tap a
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/victas-vj-07-stiff/01.jpg"><img src="/images/victas-vj-07-stiff/01.jpg" alt="Victas VJ > 07 Stiff table tennis blade photo 1" loading="lazy"></a>
+  <a href="/images/victas-vj-07-stiff/01.jpg"><img src="/images/victas-vj-07-stiff/01.thumb.webp" data-full-src="/images/victas-vj-07-stiff/01.jpg" srcset="/images/victas-vj-07-stiff/01.thumb-240.webp 240w, /images/victas-vj-07-stiff/01.thumb-480.webp 480w, /images/victas-vj-07-stiff/01.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Victas VJ > 07 Stiff table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/victas-vj-07-stiff/02.jpg"><img src="/images/victas-vj-07-stiff/02.jpg" alt="Victas VJ > 07 Stiff table tennis blade photo 2" loading="lazy"></a>
+  <a href="/images/victas-vj-07-stiff/02.jpg"><img src="/images/victas-vj-07-stiff/02.thumb.webp" data-full-src="/images/victas-vj-07-stiff/02.jpg" srcset="/images/victas-vj-07-stiff/02.thumb-240.webp 240w, /images/victas-vj-07-stiff/02.thumb-480.webp 480w, /images/victas-vj-07-stiff/02.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Victas VJ > 07 Stiff table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/victas-vj-07-stiff/03.jpg"><img src="/images/victas-vj-07-stiff/03.jpg" alt="Victas VJ > 07 Stiff table tennis blade photo 3" loading="lazy"></a>
+  <a href="/images/victas-vj-07-stiff/03.jpg"><img src="/images/victas-vj-07-stiff/03.thumb.webp" data-full-src="/images/victas-vj-07-stiff/03.jpg" srcset="/images/victas-vj-07-stiff/03.thumb-240.webp 240w, /images/victas-vj-07-stiff/03.thumb-480.webp 480w, /images/victas-vj-07-stiff/03.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Victas VJ > 07 Stiff table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/victas-vj-07-stiff/04.jpg"><img src="/images/victas-vj-07-stiff/04.jpg" alt="Victas VJ > 07 Stiff table tennis blade photo 4" loading="lazy"></a>
+  <a href="/images/victas-vj-07-stiff/04.jpg"><img src="/images/victas-vj-07-stiff/04.thumb.webp" data-full-src="/images/victas-vj-07-stiff/04.jpg" srcset="/images/victas-vj-07-stiff/04.thumb-240.webp 240w, /images/victas-vj-07-stiff/04.thumb-480.webp 480w, /images/victas-vj-07-stiff/04.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Victas VJ > 07 Stiff table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 

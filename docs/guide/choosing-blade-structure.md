@@ -13,7 +13,7 @@ Since the **40+ ball** was introduced in 2014, ball speed has dropped and spin h
 
 ## All-Wood Blades: Clear and Linear — The Mirror of Fundamentals
 
-![All-wood blade construction](../images/choosing-blade-structure/01.png)
+![All-wood blade construction](../images/choosing-blade-structure/01.webp)
 
 An all-wood blade is built from multiple layers of natural wood (ayous, hinoki, limba, koto, and more) hot-pressed together, with no fiber material at all — strictly **100% wood**. Its core advantage is high structural consistency: the wood fibers run in one direction with no abrupt interfaces in stress transmission, so the hitting feedback is remarkably transparent, linear, and predictable. When you lightly drive a fast loop, the blade's flex and ball speed rise in almost direct proportion; in blocking, a small forearm movement gives a clear rebound rhythm. This *"what you send in is what you get out"* character makes it a golden tool for refining feel and building a correct power chain.
 
@@ -23,7 +23,7 @@ So all-wood is not *"outdated"* — it is the ideal fit for **beginners building
 
 ## Outer Fiber Blades: Explosive Off the Block — An Accelerator for Fast Attack and Backhand Play
 
-![Outer fiber blade construction](../images/choosing-blade-structure/02.png)
+![Outer fiber blade construction](../images/choosing-blade-structure/02.webp)
 
 The typical outer-fiber construction is *"face ply — strength ply — fiber layer — core,"* with the fiber hugging the top surface of the strength ply, closest to the hitting surface. This layout lets the fiber activate under very small flex, sharply raising the blade's overall rigidity and instant response. Flagship examples are **Butterfly Viscaria** and **Fan Zhendong ALC**, whose trademark is *"high output at low effort"*:
 
@@ -37,7 +37,7 @@ So an outer-fiber blade is no *"universal speed booster."* It best suits players
 
 ## Inner Fiber Blades: Deep Dwell — The Powerplant for Looping and Mid-to-Long Range Battles
 
-![Inner fiber blade construction](../images/choosing-blade-structure/03.png)
+![Inner fiber blade construction](../images/choosing-blade-structure/03.webp)
 
 The inner-fiber construction is *"face ply — strength ply — fiber layer — core,"* but the fiber is covered by the strength ply, so the strength ply must flex substantially before the fiber responds. This *"delayed response"* mechanism produces two key traits:
 

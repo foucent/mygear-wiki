@@ -26,13 +26,13 @@ Real-photo gallery of **Tibhar** table tennis blades. Browse models below; tap a
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/tibhar-samsonov-25th-anniversary/01.jpg"><img src="/images/tibhar-samsonov-25th-anniversary/01.jpg" alt="Tibhar Samsonov Limited Edition 25 table tennis blade photo 1" loading="lazy"></a>
+  <a href="/images/tibhar-samsonov-25th-anniversary/01.webp"><img src="/images/tibhar-samsonov-25th-anniversary/01.thumb.webp" data-full-src="/images/tibhar-samsonov-25th-anniversary/01.webp" srcset="/images/tibhar-samsonov-25th-anniversary/01.thumb-240.webp 160w, /images/tibhar-samsonov-25th-anniversary/01.thumb-480.webp 320w, /images/tibhar-samsonov-25th-anniversary/01.thumb.webp 480w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Tibhar Samsonov Limited Edition 25 table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/tibhar-samsonov-25th-anniversary/02.jpg"><img src="/images/tibhar-samsonov-25th-anniversary/02.jpg" alt="Tibhar Samsonov Limited Edition 25 table tennis blade photo 2" loading="lazy"></a>
+  <a href="/images/tibhar-samsonov-25th-anniversary/02.webp"><img src="/images/tibhar-samsonov-25th-anniversary/02.thumb.webp" data-full-src="/images/tibhar-samsonov-25th-anniversary/02.webp" srcset="/images/tibhar-samsonov-25th-anniversary/02.thumb-240.webp 240w, /images/tibhar-samsonov-25th-anniversary/02.thumb-480.webp 480w, /images/tibhar-samsonov-25th-anniversary/02.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Tibhar Samsonov Limited Edition 25 table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/tibhar-samsonov-25th-anniversary/03.jpg"><img src="/images/tibhar-samsonov-25th-anniversary/03.jpg" alt="Tibhar Samsonov Limited Edition 25 table tennis blade photo 3" loading="lazy"></a>
+  <a href="/images/tibhar-samsonov-25th-anniversary/03.jpg"><img src="/images/tibhar-samsonov-25th-anniversary/03.thumb.webp" data-full-src="/images/tibhar-samsonov-25th-anniversary/03.jpg" srcset="/images/tibhar-samsonov-25th-anniversary/03.thumb-240.webp 240w, /images/tibhar-samsonov-25th-anniversary/03.thumb-480.webp 480w, /images/tibhar-samsonov-25th-anniversary/03.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Tibhar Samsonov Limited Edition 25 table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/tibhar-samsonov-25th-anniversary/04.jpg"><img src="/images/tibhar-samsonov-25th-anniversary/04.jpg" alt="Tibhar Samsonov Limited Edition 25 table tennis blade photo 4" loading="lazy"></a>
+  <a href="/images/tibhar-samsonov-25th-anniversary/04.webp"><img src="/images/tibhar-samsonov-25th-anniversary/04.thumb.webp" data-full-src="/images/tibhar-samsonov-25th-anniversary/04.webp" srcset="/images/tibhar-samsonov-25th-anniversary/04.thumb-240.webp 160w, /images/tibhar-samsonov-25th-anniversary/04.thumb-480.webp 320w, /images/tibhar-samsonov-25th-anniversary/04.thumb.webp 480w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Tibhar Samsonov Limited Edition 25 table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 
@@ -48,13 +48,13 @@ Real-photo gallery of **Tibhar** table tennis blades. Browse models below; tap a
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/tibhar-elowa-violin-cs/01.jpg"><img src="/images/tibhar-elowa-violin-cs/01.jpg" alt="Tibhar Violin (CS) table tennis blade photo 1" loading="lazy"></a>
+  <a href="/images/tibhar-elowa-violin-cs/01.jpg"><img src="/images/tibhar-elowa-violin-cs/01.thumb.webp" data-full-src="/images/tibhar-elowa-violin-cs/01.jpg" srcset="/images/tibhar-elowa-violin-cs/01.thumb-240.webp 240w, /images/tibhar-elowa-violin-cs/01.thumb-480.webp 480w, /images/tibhar-elowa-violin-cs/01.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Tibhar Violin (CS) table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/tibhar-elowa-violin-cs/02.jpg"><img src="/images/tibhar-elowa-violin-cs/02.jpg" alt="Tibhar Violin (CS) table tennis blade photo 2" loading="lazy"></a>
+  <a href="/images/tibhar-elowa-violin-cs/02.jpg"><img src="/images/tibhar-elowa-violin-cs/02.thumb.webp" data-full-src="/images/tibhar-elowa-violin-cs/02.jpg" srcset="/images/tibhar-elowa-violin-cs/02.thumb-240.webp 240w, /images/tibhar-elowa-violin-cs/02.thumb-480.webp 480w, /images/tibhar-elowa-violin-cs/02.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Tibhar Violin (CS) table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/tibhar-elowa-violin-cs/03.jpg"><img src="/images/tibhar-elowa-violin-cs/03.jpg" alt="Tibhar Violin (CS) table tennis blade photo 3" loading="lazy"></a>
+  <a href="/images/tibhar-elowa-violin-cs/03.jpg"><img src="/images/tibhar-elowa-violin-cs/03.thumb.webp" data-full-src="/images/tibhar-elowa-violin-cs/03.jpg" srcset="/images/tibhar-elowa-violin-cs/03.thumb-240.webp 240w, /images/tibhar-elowa-violin-cs/03.thumb-480.webp 480w, /images/tibhar-elowa-violin-cs/03.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Tibhar Violin (CS) table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/tibhar-elowa-violin-cs/04.jpg"><img src="/images/tibhar-elowa-violin-cs/04.jpg" alt="Tibhar Violin (CS) table tennis blade photo 4" loading="lazy"></a>
+  <a href="/images/tibhar-elowa-violin-cs/04.jpg"><img src="/images/tibhar-elowa-violin-cs/04.thumb.webp" data-full-src="/images/tibhar-elowa-violin-cs/04.jpg" srcset="/images/tibhar-elowa-violin-cs/04.thumb-240.webp 240w, /images/tibhar-elowa-violin-cs/04.thumb-480.webp 480w, /images/tibhar-elowa-violin-cs/04.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Tibhar Violin (CS) table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 
@@ -70,13 +70,13 @@ Real-photo gallery of **Tibhar** table tennis blades. Browse models below; tap a
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/tibhar-kenta-matsudaira-mk-carbon/01.jpg"><img src="/images/tibhar-kenta-matsudaira-mk-carbon/01.jpg" alt="Tibhar Kenta Matsudaira MK Carbon table tennis blade photo 1" loading="lazy"></a>
+  <a href="/images/tibhar-kenta-matsudaira-mk-carbon/01.jpg"><img src="/images/tibhar-kenta-matsudaira-mk-carbon/01.thumb.webp" data-full-src="/images/tibhar-kenta-matsudaira-mk-carbon/01.jpg" srcset="/images/tibhar-kenta-matsudaira-mk-carbon/01.thumb-240.webp 240w, /images/tibhar-kenta-matsudaira-mk-carbon/01.thumb-480.webp 480w, /images/tibhar-kenta-matsudaira-mk-carbon/01.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Tibhar Kenta Matsudaira MK Carbon table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/tibhar-kenta-matsudaira-mk-carbon/02.jpg"><img src="/images/tibhar-kenta-matsudaira-mk-carbon/02.jpg" alt="Tibhar Kenta Matsudaira MK Carbon table tennis blade photo 2" loading="lazy"></a>
+  <a href="/images/tibhar-kenta-matsudaira-mk-carbon/02.webp"><img src="/images/tibhar-kenta-matsudaira-mk-carbon/02.thumb.webp" data-full-src="/images/tibhar-kenta-matsudaira-mk-carbon/02.webp" srcset="/images/tibhar-kenta-matsudaira-mk-carbon/02.thumb-240.webp 240w, /images/tibhar-kenta-matsudaira-mk-carbon/02.thumb-480.webp 480w, /images/tibhar-kenta-matsudaira-mk-carbon/02.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Tibhar Kenta Matsudaira MK Carbon table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/tibhar-kenta-matsudaira-mk-carbon/03.jpg"><img src="/images/tibhar-kenta-matsudaira-mk-carbon/03.jpg" alt="Tibhar Kenta Matsudaira MK Carbon table tennis blade photo 3" loading="lazy"></a>
+  <a href="/images/tibhar-kenta-matsudaira-mk-carbon/03.webp"><img src="/images/tibhar-kenta-matsudaira-mk-carbon/03.thumb.webp" data-full-src="/images/tibhar-kenta-matsudaira-mk-carbon/03.webp" srcset="/images/tibhar-kenta-matsudaira-mk-carbon/03.thumb-240.webp 240w, /images/tibhar-kenta-matsudaira-mk-carbon/03.thumb-480.webp 480w, /images/tibhar-kenta-matsudaira-mk-carbon/03.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Tibhar Kenta Matsudaira MK Carbon table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/tibhar-kenta-matsudaira-mk-carbon/04.jpg"><img src="/images/tibhar-kenta-matsudaira-mk-carbon/04.jpg" alt="Tibhar Kenta Matsudaira MK Carbon table tennis blade photo 4" loading="lazy"></a>
+  <a href="/images/tibhar-kenta-matsudaira-mk-carbon/04.jpg"><img src="/images/tibhar-kenta-matsudaira-mk-carbon/04.thumb.webp" data-full-src="/images/tibhar-kenta-matsudaira-mk-carbon/04.jpg" srcset="/images/tibhar-kenta-matsudaira-mk-carbon/04.thumb-240.webp 240w, /images/tibhar-kenta-matsudaira-mk-carbon/04.thumb-480.webp 480w, /images/tibhar-kenta-matsudaira-mk-carbon/04.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Tibhar Kenta Matsudaira MK Carbon table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 
@@ -92,13 +92,13 @@ Classic **Samsonov Alpha**—smaller-than-usual shakehand face; control-first or
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/tibhar-samsonov-alpha/01.jpg"><img src="/images/tibhar-samsonov-alpha/01.jpg" alt="Tibhar Samsonov Alpha table tennis blade photo 1" loading="lazy"></a>
+  <a href="/images/tibhar-samsonov-alpha/01.jpg"><img src="/images/tibhar-samsonov-alpha/01.thumb.webp" data-full-src="/images/tibhar-samsonov-alpha/01.jpg" srcset="/images/tibhar-samsonov-alpha/01.thumb-240.webp 160w, /images/tibhar-samsonov-alpha/01.thumb-480.webp 320w, /images/tibhar-samsonov-alpha/01.thumb.webp 480w, /images/tibhar-samsonov-alpha/01.thumb-1000.webp 667w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Tibhar Samsonov Alpha table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/tibhar-samsonov-alpha/02.jpg"><img src="/images/tibhar-samsonov-alpha/02.jpg" alt="Tibhar Samsonov Alpha table tennis blade photo 2" loading="lazy"></a>
+  <a href="/images/tibhar-samsonov-alpha/02.jpg"><img src="/images/tibhar-samsonov-alpha/02.thumb.webp" data-full-src="/images/tibhar-samsonov-alpha/02.jpg" srcset="/images/tibhar-samsonov-alpha/02.thumb-240.webp 160w, /images/tibhar-samsonov-alpha/02.thumb-480.webp 320w, /images/tibhar-samsonov-alpha/02.thumb.webp 480w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Tibhar Samsonov Alpha table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/tibhar-samsonov-alpha/03.jpg"><img src="/images/tibhar-samsonov-alpha/03.jpg" alt="Tibhar Samsonov Alpha table tennis blade photo 3" loading="lazy"></a>
+  <a href="/images/tibhar-samsonov-alpha/03.jpg"><img src="/images/tibhar-samsonov-alpha/03.thumb.webp" data-full-src="/images/tibhar-samsonov-alpha/03.jpg" srcset="/images/tibhar-samsonov-alpha/03.thumb-240.webp 240w, /images/tibhar-samsonov-alpha/03.thumb-480.webp 480w, /images/tibhar-samsonov-alpha/03.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Tibhar Samsonov Alpha table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/tibhar-samsonov-alpha/04.jpg"><img src="/images/tibhar-samsonov-alpha/04.jpg" alt="Tibhar Samsonov Alpha table tennis blade photo 4" loading="lazy"></a>
+  <a href="/images/tibhar-samsonov-alpha/04.jpg"><img src="/images/tibhar-samsonov-alpha/04.thumb.webp" data-full-src="/images/tibhar-samsonov-alpha/04.jpg" srcset="/images/tibhar-samsonov-alpha/04.thumb-240.webp 240w, /images/tibhar-samsonov-alpha/04.thumb-480.webp 480w, /images/tibhar-samsonov-alpha/04.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Tibhar Samsonov Alpha table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 
@@ -114,13 +114,13 @@ Two older Tibhar blanks in one album: **Samsonov Alpha** and **Violin** (shakeha
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/tibhar-samsonov-alpha-elowa-violin/01.jpg"><img src="/images/tibhar-samsonov-alpha-elowa-violin/01.jpg" alt="Tibhar Samsonov Alpha & Violin table tennis blade photo 1" loading="lazy"></a>
+  <a href="/images/tibhar-samsonov-alpha-elowa-violin/01.jpg"><img src="/images/tibhar-samsonov-alpha-elowa-violin/01.thumb.webp" data-full-src="/images/tibhar-samsonov-alpha-elowa-violin/01.jpg" srcset="/images/tibhar-samsonov-alpha-elowa-violin/01.thumb-240.webp 240w, /images/tibhar-samsonov-alpha-elowa-violin/01.thumb-480.webp 480w, /images/tibhar-samsonov-alpha-elowa-violin/01.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Tibhar Samsonov Alpha & Violin table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/tibhar-samsonov-alpha-elowa-violin/02.jpg"><img src="/images/tibhar-samsonov-alpha-elowa-violin/02.jpg" alt="Tibhar Samsonov Alpha & Violin table tennis blade photo 2" loading="lazy"></a>
+  <a href="/images/tibhar-samsonov-alpha-elowa-violin/02.jpg"><img src="/images/tibhar-samsonov-alpha-elowa-violin/02.thumb.webp" data-full-src="/images/tibhar-samsonov-alpha-elowa-violin/02.jpg" srcset="/images/tibhar-samsonov-alpha-elowa-violin/02.thumb-240.webp 240w, /images/tibhar-samsonov-alpha-elowa-violin/02.thumb-480.webp 480w, /images/tibhar-samsonov-alpha-elowa-violin/02.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Tibhar Samsonov Alpha & Violin table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/tibhar-samsonov-alpha-elowa-violin/03.jpg"><img src="/images/tibhar-samsonov-alpha-elowa-violin/03.jpg" alt="Tibhar Samsonov Alpha & Violin table tennis blade photo 3" loading="lazy"></a>
+  <a href="/images/tibhar-samsonov-alpha-elowa-violin/03.jpg"><img src="/images/tibhar-samsonov-alpha-elowa-violin/03.thumb.webp" data-full-src="/images/tibhar-samsonov-alpha-elowa-violin/03.jpg" srcset="/images/tibhar-samsonov-alpha-elowa-violin/03.thumb-240.webp 160w, /images/tibhar-samsonov-alpha-elowa-violin/03.thumb-480.webp 320w, /images/tibhar-samsonov-alpha-elowa-violin/03.thumb.webp 480w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Tibhar Samsonov Alpha & Violin table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/tibhar-samsonov-alpha-elowa-violin/04.jpg"><img src="/images/tibhar-samsonov-alpha-elowa-violin/04.jpg" alt="Tibhar Samsonov Alpha & Violin table tennis blade photo 4" loading="lazy"></a>
+  <a href="/images/tibhar-samsonov-alpha-elowa-violin/04.jpg"><img src="/images/tibhar-samsonov-alpha-elowa-violin/04.thumb.webp" data-full-src="/images/tibhar-samsonov-alpha-elowa-violin/04.jpg" srcset="/images/tibhar-samsonov-alpha-elowa-violin/04.thumb-240.webp 240w, /images/tibhar-samsonov-alpha-elowa-violin/04.thumb-480.webp 480w, /images/tibhar-samsonov-alpha-elowa-violin/04.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Tibhar Samsonov Alpha & Violin table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 
@@ -136,13 +136,13 @@ Two older Tibhar blanks in one album: **Samsonov Alpha** and **Violin** (shakeha
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
-  <a href="/images/tibhar-szocs-bs-1/01.jpg"><img src="/images/tibhar-szocs-bs-1/01.jpg" alt="Tibhar Szocs BS 1 table tennis blade photo 1" loading="lazy"></a>
+  <a href="/images/tibhar-szocs-bs-1/01.jpg"><img src="/images/tibhar-szocs-bs-1/01.thumb.webp" data-full-src="/images/tibhar-szocs-bs-1/01.jpg" srcset="/images/tibhar-szocs-bs-1/01.thumb-240.webp 240w, /images/tibhar-szocs-bs-1/01.thumb-480.webp 480w, /images/tibhar-szocs-bs-1/01.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Tibhar Szocs BS 1 table tennis blade photo 1" loading="lazy"></a>
 
-  <a href="/images/tibhar-szocs-bs-1/02.jpg"><img src="/images/tibhar-szocs-bs-1/02.jpg" alt="Tibhar Szocs BS 1 table tennis blade photo 2" loading="lazy"></a>
+  <a href="/images/tibhar-szocs-bs-1/02.jpg"><img src="/images/tibhar-szocs-bs-1/02.thumb.webp" data-full-src="/images/tibhar-szocs-bs-1/02.jpg" srcset="/images/tibhar-szocs-bs-1/02.thumb-240.webp 240w, /images/tibhar-szocs-bs-1/02.thumb-480.webp 480w, /images/tibhar-szocs-bs-1/02.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Tibhar Szocs BS 1 table tennis blade photo 2" loading="lazy"></a>
 
-  <a href="/images/tibhar-szocs-bs-1/03.jpg"><img src="/images/tibhar-szocs-bs-1/03.jpg" alt="Tibhar Szocs BS 1 table tennis blade photo 3" loading="lazy"></a>
+  <a href="/images/tibhar-szocs-bs-1/03.jpg"><img src="/images/tibhar-szocs-bs-1/03.thumb.webp" data-full-src="/images/tibhar-szocs-bs-1/03.jpg" srcset="/images/tibhar-szocs-bs-1/03.thumb-240.webp 240w, /images/tibhar-szocs-bs-1/03.thumb-480.webp 480w, /images/tibhar-szocs-bs-1/03.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Tibhar Szocs BS 1 table tennis blade photo 3" loading="lazy"></a>
 
-  <a href="/images/tibhar-szocs-bs-1/04.jpg"><img src="/images/tibhar-szocs-bs-1/04.jpg" alt="Tibhar Szocs BS 1 table tennis blade photo 4" loading="lazy"></a>
+  <a href="/images/tibhar-szocs-bs-1/04.jpg"><img src="/images/tibhar-szocs-bs-1/04.thumb.webp" data-full-src="/images/tibhar-szocs-bs-1/04.jpg" srcset="/images/tibhar-szocs-bs-1/04.thumb-240.webp 240w, /images/tibhar-szocs-bs-1/04.thumb-480.webp 480w, /images/tibhar-szocs-bs-1/04.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 480px" alt="Tibhar Szocs BS 1 table tennis blade photo 4" loading="lazy"></a>
 
 </div>
 

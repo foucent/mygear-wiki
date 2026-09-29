@@ -191,9 +191,14 @@
     );
   }
 
-  function thumbHref(href) {
-    return window.mgImgThumbs ? window.mgImgThumbs.thumbSrc(href) : href;
+  function thumbHref(href, size) {
+    return window.mgImgThumbs ? window.mgImgThumbs.thumbSrc(href, size) : href;
   }
+
+  // The strip under a pre-owned card draws at 70px (34 on a phone). It used to
+  // pull the 720px thumb -- 17KB per 70px square, and there are up to eight of
+  // them on every card the lazy reveal has opened.
+  var STRIP_THUMB = 240;
 
   function imageItems(container) {
     return Array.prototype.slice
@@ -284,16 +289,31 @@
               thumb.dataset.mgLightboxBound = "1";
 
               var thumbImg = document.createElement("img");
-              thumbImg.src = thumbHref(href);
+              thumbImg.src = thumbHref(href, STRIP_THUMB);
               thumbImg.alt = "";
               thumbImg.loading = "lazy";
               thumbImg.dataset.mgLightboxBound = "1";
+              // Not every gallery photo has a 240px step; fall back to the
+              // thumb the card itself uses rather than show a broken square.
+              thumbImg.addEventListener(
+                "error",
+                function () {
+                  thumbImg.src = thumbHref(href);
+                },
+                { once: true }
+              );
               thumb.appendChild(thumbImg);
 
               thumb.addEventListener("click", function (e) {
                 e.preventDefault();
                 e.stopPropagation();
                 img.setAttribute("data-full-src", href);
+                // The card's photo carries a srcset (it draws at 305px, so it
+                // is offered 480/720/1000). srcset outranks src, so the swap
+                // has to drop it or the browser would keep showing the old
+                // picture. One 720px file for the photo the visitor asked for.
+                img.removeAttribute("srcset");
+                img.removeAttribute("sizes");
                 img.src = thumbHref(href);
                 img.dataset.galleryIndex = String(galleryIndex);
                 strip
