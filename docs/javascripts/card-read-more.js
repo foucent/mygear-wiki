@@ -21,11 +21,11 @@
  * is reached by clicking it with the text closed, the way every other card
  * works.
  *
- * A grid can opt out with data-mg-no-clamp, and /setups/'s does. There the copy
- * is the exhibit — each card is one build, and its paragraph is the whole of
- * what there is to read — so folding the longer of two builds behind a link
- * costs the reader the text and the "View N photos" label both, while buying
- * nothing: 1fr rows make the two cards the same height either way.
+ * A grid whose descriptions are all long has no median worth taking — /setups/
+ * is eleven builds and every one of them is a paragraph — so it states its own
+ * budget with data-mg-clamp-fixed. That number lives in uncrate.css, where the
+ * media query that changes it with the column also lives, and this file reads it
+ * back off the cascade rather than keeping a second copy of it in step.
  */
 (function () {
   var CLAMP = "mg-card__desc--clamp";
@@ -77,14 +77,19 @@
   function collect() {
     document.querySelectorAll(".mg-card").forEach(function (card) {
       if (card.dataset.mgReadMore === "1") return;
-      if (card.closest("[data-mg-no-clamp]")) return;
       var desc = card.querySelector(".mg-card__desc");
       var zoom = card.querySelector(".mg-card__zoom");
       /* A description with no link to open it would be clipped shut with no way
          back, so a card without one is left out of this and left whole. */
       if (!desc || !zoom) return;
       card.dataset.mgReadMore = "1";
-      var item = { desc: desc, zoom: zoom, label: zoom.textContent, lines: 0 };
+      var item = {
+        desc: desc,
+        zoom: zoom,
+        label: zoom.textContent,
+        lines: 0,
+        fixed: !!card.closest("[data-mg-clamp-fixed]"),
+      };
       card.addEventListener("click", function (e) { onClick(item, e); }, true);
       items.push(item);
     });
@@ -104,18 +109,39 @@
     });
     clipped.forEach(function (it) { it.desc.classList.add(CLAMP); });
 
-    var counts = items
+    /* The page's own median, for the grids that have a normal description
+       length to measure it from. A grid that states its own budget is left out
+       of the count: its long paragraphs would drag the median up with them. */
+    var counted = items
+      .filter(function (it) { return !it.fixed; })
       .map(function (it) { return it.lines; })
       .sort(function (a, b) { return a - b; });
-    var norm = counts[Math.floor((counts.length - 1) / 2)];
+    var norm = counted.length ? counted[Math.floor((counted.length - 1) / 2)] : 0;
 
     items.forEach(function (it) {
-      var long = it.lines > norm;
-      it.desc.style.setProperty("--mg-clamp-lines", norm);
+      var budget = it.fixed ? fixedBudget(it.desc) : norm;
+      var long = budget > 0 && it.lines > budget;
+      /* A stated budget stays in the stylesheet: set inline it would out-rank
+         the media query that changes it in a narrow column. */
+      if (!it.fixed) it.desc.style.setProperty("--mg-clamp-lines", budget);
       it.desc.classList.toggle(CLAMP, long);
       if (!long) it.desc.classList.remove(OPEN);
       render(it);
     });
+  }
+
+  /* The budget a data-mg-clamp-fixed grid states for itself, read off the
+     cascade rather than passed in, so the number is written once — in
+     uncrate.css, beside the media query that changes it with the column.
+     Nothing stated means nothing to enforce: 0 clamps no card rather than
+     hiding text behind a guessed limit. */
+  function fixedBudget(desc) {
+    return (
+      parseInt(
+        getComputedStyle(desc).getPropertyValue("--mg-clamp-lines"),
+        10
+      ) || 0
+    );
   }
 
   function start() {

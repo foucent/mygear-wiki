@@ -191,21 +191,9 @@
     );
   }
 
-  function thumbHref(href, size) {
-    return window.mgImgThumbs ? window.mgImgThumbs.thumbSrc(href, size) : href;
-  }
-
-  // The strip under a pre-owned card draws at 70px (34 on a phone). It used to
-  // pull the 720px thumb -- 17KB per 70px square, and there are up to eight of
-  // them on every card the lazy reveal has opened.
-  var STRIP_THUMB = 240;
-
   function imageItems(container) {
     return Array.prototype.slice
       .call(container.querySelectorAll("img"))
-      .filter(function (img) {
-        return !img.closest(".mg-preowned-card__thumbs");
-      })
       .map(function (img) {
         return {
           href: fullHref(img),
@@ -258,106 +246,26 @@
             })
           : null;
 
+        // A pre-owned card is one 240px photo with the number of photos on it.
+        // The strip of thumbnails that used to sit under the picture is gone:
+        // it made the card twice as tall as its copy needed and pulled eight
+        // more files per listing, all of them for a 70px square. The number is
+        // the count the strip used to show by showing it; the picture opens the
+        // set — the main photo first, the rest on the arrows or the dots.
         if (isPreowned && gallery.length > 1) {
           var card = img.closest(".mg-preowned-card");
           var media =
             (card && card.querySelector(".mg-preowned-card__media")) ||
             img.parentElement;
-          if (
-            card &&
-            media &&
-            !card.querySelector(".mg-preowned-card__thumbs")
-          ) {
-            var extras = gallery.slice(1);
-            var maxThumbs = 8; // 2 rows × 4 cols
-            var showMore = extras.length > maxThumbs;
-            var visible = showMore ? extras.slice(0, maxThumbs - 1) : extras;
-            var strip = document.createElement("div");
-            strip.className = "mg-preowned-card__thumbs";
-            strip.setAttribute("role", "list");
-
-            visible.forEach(function (href, j) {
-              var galleryIndex = j + 1; // skip main (0)
-              var thumb = document.createElement("button");
-              thumb.type = "button";
-              thumb.className = "mg-preowned-card__thumb";
-              thumb.setAttribute("role", "listitem");
-              thumb.setAttribute(
-                "aria-label",
-                (img.alt || "Photo") + " " + (galleryIndex + 1)
-              );
-              thumb.dataset.mgLightboxBound = "1";
-
-              var thumbImg = document.createElement("img");
-              thumbImg.src = thumbHref(href, STRIP_THUMB);
-              thumbImg.alt = "";
-              thumbImg.loading = "lazy";
-              thumbImg.dataset.mgLightboxBound = "1";
-              // Not every gallery photo has a 240px step; fall back to the
-              // thumb the card itself uses rather than show a broken square.
-              thumbImg.addEventListener(
-                "error",
-                function () {
-                  thumbImg.src = thumbHref(href);
-                },
-                { once: true }
-              );
-              thumb.appendChild(thumbImg);
-
-              thumb.addEventListener("click", function (e) {
-                e.preventDefault();
-                e.stopPropagation();
-                img.setAttribute("data-full-src", href);
-                // The card's photo carries a srcset (it draws at 305px, so it
-                // is offered 480/720/1000). srcset outranks src, so the swap
-                // has to drop it or the browser would keep showing the old
-                // picture. One 720px file for the photo the visitor asked for.
-                img.removeAttribute("srcset");
-                img.removeAttribute("sizes");
-                img.src = thumbHref(href);
-                img.dataset.galleryIndex = String(galleryIndex);
-                strip
-                  .querySelectorAll(".mg-preowned-card__thumb")
-                  .forEach(function (el) {
-                    el.classList.toggle("is-active", el === thumb);
-                  });
-              });
-
-              strip.appendChild(thumb);
-            });
-
-            if (showMore) {
-              var moreIdx = maxThumbs - 1 + 1; // first hidden extra's gallery index
-              var moreHref = extras[maxThumbs - 1];
-              var moreBtn = document.createElement("button");
-              moreBtn.type = "button";
-              moreBtn.className =
-                "mg-preowned-card__thumb mg-preowned-card__thumb--more";
-              moreBtn.setAttribute("role", "listitem");
-              moreBtn.setAttribute(
-                "aria-label",
-                "View all " + gallery.length + " photos"
-              );
-              moreBtn.dataset.mgLightboxBound = "1";
-              var moreImg = document.createElement("img");
-              moreImg.src = thumbHref(moreHref);
-              moreImg.alt = "";
-              moreImg.loading = "lazy";
-              moreImg.dataset.mgLightboxBound = "1";
-              var moreLabel = document.createElement("span");
-              moreLabel.className = "mg-preowned-card__thumb-more-label";
-              moreLabel.textContent = "+" + (extras.length - (maxThumbs - 1));
-              moreBtn.appendChild(moreImg);
-              moreBtn.appendChild(moreLabel);
-              moreBtn.addEventListener("click", function (e) {
-                e.preventDefault();
-                e.stopPropagation();
-                root._open(galleryItemsList, moreIdx);
-              });
-              strip.appendChild(moreBtn);
-            }
-
-            media.insertAdjacentElement("afterend", strip);
+          if (media && !media.querySelector(".mg-preowned-card__count")) {
+            var countPill = document.createElement("span");
+            countPill.className = "mg-preowned-card__count";
+            /* A bare number reads as nothing to a screen reader, so the label
+               carries the words the badge no longer shows. */
+            countPill.textContent = String(count);
+            countPill.setAttribute("role", "img");
+            countPill.setAttribute("aria-label", count + " photos");
+            media.appendChild(countPill);
           }
         } else if (count > 1) {
           var wrap = img.parentElement;
@@ -382,11 +290,11 @@
           { href: fullHref(img), alt: img.alt || "" },
         ];
         var items = cardScope ? cardItems : galleryItemsList || fallbackItems;
-        var start = cardScope
-          ? 0
-          : galleryItemsList
-          ? parseInt(img.dataset.galleryIndex || "0", 10) || 0
-          : i;
+        /* Which photo it opens on. A card, or a listing that carries its own
+           gallery list, starts at the first — that is its cover. A price table
+           with neither opens on the photo that was clicked, which is where in
+           the container's own run of photos it sits. */
+        var start = cardScope || galleryItemsList ? 0 : i;
 
         img.addEventListener("click", function (e) {
           e.preventDefault();

@@ -30,9 +30,12 @@ hide:
 
 </div>
 
-<!-- data-mg-no-clamp: these cards are showcases, not a price list. Their copy is
-     the exhibit and is shown whole — see card-read-more.js. -->
-<div class="mg-card-grid" markdown="0" data-mg-no-clamp>
+<!-- data-mg-clamp-fixed: these cards are showcases, not a price list, so there
+     is no one-line description here to take a median from — every build's
+     paragraph runs to several lines. The grid states the budget instead (three
+     lines, five on a phone, in uncrate.css), which is what makes these cards
+     the same size as /blades/'s. See card-read-more.js. -->
+<div class="mg-card-grid" markdown="0" data-mg-clamp-fixed>
 
   <!-- The first setup on the page. The photos came with the racket; the
        description is the shop's own read on how the three play together. No
@@ -43,9 +46,7 @@ hide:
     <div class="mg-card__media">
       <img src="/images/viscaria-d09c-d05/01.thumb.webp" data-full-src="/images/viscaria-d09c-d05/01.jpg" srcset="/images/viscaria-d09c-d05/01.thumb-480.webp 360w, /images/viscaria-d09c-d05/01.thumb.webp 540w, /images/viscaria-d09c-d05/01.thumb-1000.webp 750w, /images/viscaria-d09c-d05/01.jpg 960w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Viscaria FL with Dignics 09C and Dignics 05 in a Butterfly case" loading="lazy" decoding="async" data-gallery="/images/viscaria-d09c-d05/01.jpg,/images/viscaria-d09c-d05/02.jpg,/images/viscaria-d09c-d05/03.jpg,/images/viscaria-d09c-d05/04.jpg,/images/viscaria-d09c-d05/05.webp">
     </div>
-    <div class="mg-card__copy">
-      <p class="mg-card__cat">Community build</p>
-      <h3 class="mg-card__title">Viscaria + Dignics 09C + Dignics 05</h3>
+    <div class="mg-card__copy">      <h3 class="mg-card__title">Viscaria + Dignics 09C + Dignics 05</h3>
       <p class="mg-card__desc">The ultimate gold standard for outer ALC blades. D09C on forehand delivers supreme dwell time and pinpoint short-game control, while D05 on backhand provides effortless speed and explosive counter-drives.</p>
       <p class="mg-card__more mg-card__more--split">
         <a class="mg-card__zoom" href="/images/viscaria-d09c-d05/01.jpg">View 5 photos</a>
@@ -62,9 +63,7 @@ hide:
     <div class="mg-card__media">
       <img src="/images/lin-gaoyuan-alc-h3-d09c/01.thumb.webp" data-full-src="/images/lin-gaoyuan-alc-h3-d09c/01.jpg" srcset="/images/lin-gaoyuan-alc-h3-d09c/01.thumb-480.webp 360w, /images/lin-gaoyuan-alc-h3-d09c/01.thumb.webp 540w, /images/lin-gaoyuan-alc-h3-d09c/01.thumb-1000.webp 750w, /images/lin-gaoyuan-alc-h3-d09c/01.jpg 960w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Lin Gaoyuan ALC with Hurricane 3 on one side and Dignics 09C on the other" loading="lazy" decoding="async" data-gallery="/images/lin-gaoyuan-alc-h3-d09c/01.jpg,/images/lin-gaoyuan-alc-h3-d09c/02.jpg">
     </div>
-    <div class="mg-card__copy">
-      <p class="mg-card__cat">Community build</p>
-      <h3 class="mg-card__title">Lin Gaoyuan ALC + Hurricane 3 Blue Sponge + Dignics 09C</h3>
+    <div class="mg-card__copy">      <h3 class="mg-card__title">Lin Gaoyuan ALC + Hurricane 3 Blue Sponge + Dignics 09C</h3>
       <p class="mg-card__desc">The quintessential hybrid setup for close-table speed and relentless spin. Hurricane 3 Blue Sponge on forehand delivers unmatched tacky spin and explosive power on full impact, while D09C on backhand provides supreme dwell time and pinpoint counter-drive control.</p>
       <p class="mg-card__more mg-card__more--split">
         <a class="mg-card__zoom" href="/images/lin-gaoyuan-alc-h3-d09c/01.jpg">View 2 photos</a>
@@ -81,9 +80,7 @@ hide:
     <div class="mg-card__media">
       <img src="/images/lin-gaoyuan-alc-loki-rxton-telson/01.thumb.webp" data-full-src="/images/lin-gaoyuan-alc-loki-rxton-telson/01.jpg" srcset="/images/lin-gaoyuan-alc-loki-rxton-telson/01.thumb-480.webp 360w, /images/lin-gaoyuan-alc-loki-rxton-telson/01.thumb.webp 540w, /images/lin-gaoyuan-alc-loki-rxton-telson/01.thumb-1000.webp 750w, /images/lin-gaoyuan-alc-loki-rxton-telson/01.jpg 960w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Lin Gaoyuan ALC with LOKI TELSON HYPER on the red face and LOKI RXTON IX on the black" loading="lazy" decoding="async" data-gallery="/images/lin-gaoyuan-alc-loki-rxton-telson/01.jpg,/images/lin-gaoyuan-alc-loki-rxton-telson/02.jpg">
     </div>
-    <div class="mg-card__copy">
-      <p class="mg-card__cat">Community build</p>
-      <h3 class="mg-card__title">Lin Gaoyuan ALC + LOKI RXTON IX + LOKI TELSON HYPER</h3>
+    <div class="mg-card__copy">      <h3 class="mg-card__title">Lin Gaoyuan ALC + LOKI RXTON IX + LOKI TELSON HYPER</h3>
       <p class="mg-card__desc">A high-performance hybrid setup pairing Butterfly's iconic outer ALC blade with LOKI's flagship rubbers. RXTON IX on forehand delivers aggressive tacky spin and high-arc power, while TELSON HYPER on backhand provides explosive speed and sharp close-table counter-attacks.</p>
       <p class="mg-card__more mg-card__more--split">
         <a class="mg-card__zoom" href="/images/lin-gaoyuan-alc-loki-rxton-telson/01.jpg">View 2 photos</a>
@@ -103,9 +100,7 @@ hide:
     <div class="mg-card__media">
       <img src="/images/fan-zhendong-alc-vega-china-europe-df/01.thumb.webp" data-full-src="/images/fan-zhendong-alc-vega-china-europe-df/01.jpg" srcset="/images/fan-zhendong-alc-vega-china-europe-df/01.thumb-480.webp 480w, /images/fan-zhendong-alc-vega-china-europe-df/01.thumb.webp 720w, /images/fan-zhendong-alc-vega-china-europe-df/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Fan Zhendong ALC Japanese version with XIOM Vega China on the red face and XIOM Vega Europe DF on the black" loading="lazy" decoding="async" data-gallery="/images/fan-zhendong-alc-vega-china-europe-df/01.jpg,/images/fan-zhendong-alc-vega-china-europe-df/02.jpg,/images/fan-zhendong-alc-vega-china-europe-df/03.jpg,/images/fan-zhendong-alc-vega-china-europe-df/04.jpg,/images/fan-zhendong-alc-vega-china-europe-df/05.jpg">
     </div>
-    <div class="mg-card__copy">
-      <p class="mg-card__cat">Community build</p>
-      <h3 class="mg-card__title">Fan Zhendong ALC (JP Version) + XIOM Vega China + XIOM Vega Europe DF</h3>
+    <div class="mg-card__copy">      <h3 class="mg-card__title">Fan Zhendong ALC (JP Version) + XIOM Vega China + XIOM Vega Europe DF</h3>
       <p class="mg-card__desc">A high-control offensive setup combining Butterfly's flagship outer ALC blade with XIOM's spin-oriented rubbers. XIOM Vega China on forehand delivers dense spin, crisp feedback, and powerful topspin loops, while XIOM Vega Europe DF on backhand provides generous forgiveness, high catapult, and effortless backhand stability.</p>
       <p class="mg-card__more mg-card__more--split">
         <a class="mg-card__zoom" href="/images/fan-zhendong-alc-vega-china-europe-df/01.jpg">View 5 photos</a>
@@ -129,9 +124,7 @@ hide:
     <div class="mg-card__media">
       <img src="/images/petr-korbel-sky-wing-ii-big-dipper/01.thumb.webp" data-full-src="/images/petr-korbel-sky-wing-ii-big-dipper/01.jpg" srcset="/images/petr-korbel-sky-wing-ii-big-dipper/01.thumb-480.webp 480w, /images/petr-korbel-sky-wing-ii-big-dipper/01.thumb.webp 720w, /images/petr-korbel-sky-wing-ii-big-dipper/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Petr Korbel with YINHE Big Dipper on the black face and 729 Sky-Wing II on the red" loading="lazy" decoding="async" data-gallery="/images/petr-korbel-sky-wing-ii-big-dipper/01.jpg,/images/petr-korbel-sky-wing-ii-big-dipper/02.jpg,/images/petr-korbel-sky-wing-ii-big-dipper/03.jpg,/images/petr-korbel-sky-wing-ii-big-dipper/04.jpg,/images/petr-korbel-sky-wing-ii-big-dipper/05.jpg">
     </div>
-    <div class="mg-card__copy">
-      <p class="mg-card__cat">Community build</p>
-      <h3 class="mg-card__title">Petr Korbel + 729 Sky-Wing II + YINHE Big Dipper</h3>
+    <div class="mg-card__copy">      <h3 class="mg-card__title">Petr Korbel + 729 Sky-Wing II + YINHE Big Dipper</h3>
       <p class="mg-card__desc">A first serious racket built around Butterfly's five-ply all-wood Petr Korbel, a long-running control-first offensive blade, with a pair of tacky Chinese rubbers that make spin easy to find. 729 Sky-Wing II on forehand is deliberately light and grippy, keeping the racket quick in the hand and the ball on the topsheet long enough to feel the stroke, while YINHE Big Dipper on backhand brings MAX TENSE tack for heavy spin and a high, forgiving arc on blocks and loops.</p>
       <p class="mg-card__more mg-card__more--split">
         <a class="mg-card__zoom" href="/images/petr-korbel-sky-wing-ii-big-dipper/01.jpg">View 5 photos</a>
@@ -152,9 +145,7 @@ hide:
     <div class="mg-card__media">
       <img src="/images/viscaria-cs-tau-ii-388d-2/01.thumb.webp" data-full-src="/images/viscaria-cs-tau-ii-388d-2/01.jpg" srcset="/images/viscaria-cs-tau-ii-388d-2/01.thumb-480.webp 480w, /images/viscaria-cs-tau-ii-388d-2/01.thumb.webp 720w, /images/viscaria-cs-tau-ii-388d-2/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Viscaria CS penhold blade with XIOM Tau II on the red face and Dawei 388D-2 long pips on the black" loading="lazy" decoding="async" data-gallery="/images/viscaria-cs-tau-ii-388d-2/01.jpg,/images/viscaria-cs-tau-ii-388d-2/02.jpg,/images/viscaria-cs-tau-ii-388d-2/03.jpg,/images/viscaria-cs-tau-ii-388d-2/04.jpg">
     </div>
-    <div class="mg-card__copy">
-      <p class="mg-card__cat">Community build</p>
-      <h3 class="mg-card__title">Viscaria CS + XIOM Tau II + Dawei 388D-2</h3>
+    <div class="mg-card__copy">      <h3 class="mg-card__title">Viscaria CS + XIOM Tau II + Dawei 388D-2</h3>
       <p class="mg-card__desc">A penhold build on Butterfly's classic outer ALC blade, cut in the short CS handle, with a tacky attacking rubber on the red face and long pips on the black. XIOM Tau II on the red face delivers the strong tack and hard, tensioned sponge that make an opening loop heavy and a short push bite, while Dawei 388D-2 long pips on the black face bring heavy reversal and a flat, skidding ball that sends the opponent's own spin straight back at them.</p>
       <p class="mg-card__more mg-card__more--split">
         <a class="mg-card__zoom" href="/images/viscaria-cs-tau-ii-388d-2/01.jpg">View 4 photos</a>
@@ -175,9 +166,7 @@ hide:
     <div class="mg-card__media">
       <img src="/images/viscaria-cs-vega-europe-df-glayzer-09c/01.thumb.webp" data-full-src="/images/viscaria-cs-vega-europe-df-glayzer-09c/01.jpg" srcset="/images/viscaria-cs-vega-europe-df-glayzer-09c/01.thumb-480.webp 480w, /images/viscaria-cs-vega-europe-df-glayzer-09c/01.thumb.webp 720w, /images/viscaria-cs-vega-europe-df-glayzer-09c/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Viscaria CS penhold blade with Butterfly Glayzer 09C on the black face and XIOM Vega Europe DF on the red" loading="lazy" decoding="async" data-gallery="/images/viscaria-cs-vega-europe-df-glayzer-09c/01.jpg,/images/viscaria-cs-vega-europe-df-glayzer-09c/02.jpg,/images/viscaria-cs-vega-europe-df-glayzer-09c/03.jpg,/images/viscaria-cs-vega-europe-df-glayzer-09c/04.jpg,/images/viscaria-cs-vega-europe-df-glayzer-09c/05.jpg">
     </div>
-    <div class="mg-card__copy">
-      <p class="mg-card__cat">Community build</p>
-      <h3 class="mg-card__title">Viscaria CS + XIOM Vega Europe DF + Glayzer 09C</h3>
+    <div class="mg-card__copy">      <h3 class="mg-card__title">Viscaria CS + XIOM Vega Europe DF + Glayzer 09C</h3>
       <p class="mg-card__desc">A penhold build on Butterfly's Viscaria, cut in the short CS handle, with an inverted rubber on each face and a clear split of duties between them. Butterfly Glayzer 09C on the black face delivers the tacky, spin-first topsheet of the 09C line on a sponge softer than Dignics, so a heavy loop and a close-table counter both land with margin, while XIOM Vega Europe DF on the red face provides the soft, high-catapult forgiveness that makes blocking and quick backhand counters easy to keep on the table.</p>
       <p class="mg-card__more mg-card__more--split">
         <a class="mg-card__zoom" href="/images/viscaria-cs-vega-europe-df-glayzer-09c/01.jpg">View 5 photos</a>
@@ -199,9 +188,7 @@ hide:
     <div class="mg-card__media">
       <img src="/images/viscaria-super-alc-battle-ii-hurricane-3/01.thumb.webp" data-full-src="/images/viscaria-super-alc-battle-ii-hurricane-3/01.jpg" srcset="/images/viscaria-super-alc-battle-ii-hurricane-3/01.thumb-480.webp 480w, /images/viscaria-super-alc-battle-ii-hurricane-3/01.thumb.webp 720w, /images/viscaria-super-alc-battle-ii-hurricane-3/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Viscaria Super ALC with DHS Hurricane III on the black face and 729 Battle II on the red" loading="lazy" decoding="async" data-gallery="/images/viscaria-super-alc-battle-ii-hurricane-3/01.jpg,/images/viscaria-super-alc-battle-ii-hurricane-3/02.jpg,/images/viscaria-super-alc-battle-ii-hurricane-3/03.jpg,/images/viscaria-super-alc-battle-ii-hurricane-3/04.jpg,/images/viscaria-super-alc-battle-ii-hurricane-3/05.jpg,/images/viscaria-super-alc-battle-ii-hurricane-3/06.jpg">
     </div>
-    <div class="mg-card__copy">
-      <p class="mg-card__cat">Community build</p>
-      <h3 class="mg-card__title">Viscaria Super ALC + 729 Battle II + DHS Hurricane III</h3>
+    <div class="mg-card__copy">      <h3 class="mg-card__title">Viscaria Super ALC + 729 Battle II + DHS Hurricane III</h3>
       <p class="mg-card__desc">Butterfly's Viscaria Super ALC — the faster, stiffer take on the Viscaria — loaded with the two Chinese rubbers most attacking players grew up looping with. 729 Battle II on the red face delivers a tacky topsheet over a lively sponge, so an opening loop carries heavy spin and a flat hit still travels, while DHS Hurricane III on the black face provides the dense tack that keeps a short push low and loaded and makes a full-power loop dive off the end of the table.</p>
       <p class="mg-card__more mg-card__more--split">
         <a class="mg-card__zoom" href="/images/viscaria-super-alc-battle-ii-hurricane-3/01.jpg">View 6 photos</a>
@@ -225,9 +212,7 @@ hide:
     <div class="mg-card__media">
       <img src="/images/stiga-rosewood-xo-pen-vega-europe-df-sword-ares/01.thumb.webp" data-full-src="/images/stiga-rosewood-xo-pen-vega-europe-df-sword-ares/01.jpg" srcset="/images/stiga-rosewood-xo-pen-vega-europe-df-sword-ares/01.thumb-480.webp 480w, /images/stiga-rosewood-xo-pen-vega-europe-df-sword-ares/01.thumb.webp 720w, /images/stiga-rosewood-xo-pen-vega-europe-df-sword-ares/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Stiga Rosewood XO penhold blade with SWORD Ares on the black face over its violet sponge and XIOM Vega Europe DF on the red" loading="lazy" decoding="async" data-gallery="/images/stiga-rosewood-xo-pen-vega-europe-df-sword-ares/01.jpg,/images/stiga-rosewood-xo-pen-vega-europe-df-sword-ares/02.jpg,/images/stiga-rosewood-xo-pen-vega-europe-df-sword-ares/03.jpg,/images/stiga-rosewood-xo-pen-vega-europe-df-sword-ares/04.jpg,/images/stiga-rosewood-xo-pen-vega-europe-df-sword-ares/05.jpg">
     </div>
-    <div class="mg-card__copy">
-      <p class="mg-card__cat">Community build</p>
-      <h3 class="mg-card__title">Stiga Rosewood XO (PEN) + XIOM Vega Europe DF + SWORD Ares</h3>
+    <div class="mg-card__copy">      <h3 class="mg-card__title">Stiga Rosewood XO (PEN) + XIOM Vega Europe DF + SWORD Ares</h3>
       <p class="mg-card__desc">A penhold build on Stiga's Rosewood XO, the rosewood-faced blade with a crisp, direct feel, carrying a soft European rubber on one face and a tacky Chinese one on the other. XIOM Vega Europe DF on the red face delivers the soft sponge and high catapult that make blocking and quick counters almost effortless, while SWORD's 战神 (Ares) on the black face brings a high-tack topsheet over its violet sponge — a bouncier take on the classic Chinese attacking rubber, with heavy spin on the loop and plenty of bite in the short game.</p>
       <p class="mg-card__more mg-card__more--split">
         <a class="mg-card__zoom" href="/images/stiga-rosewood-xo-pen-vega-europe-df-sword-ares/01.jpg">View 5 photos</a>
@@ -249,9 +234,7 @@ hide:
     <div class="mg-card__media">
       <img src="/images/stiga-clipper-cr-pen-battle-ii-388d-1/01.thumb.webp" data-full-src="/images/stiga-clipper-cr-pen-battle-ii-388d-1/01.jpg" srcset="/images/stiga-clipper-cr-pen-battle-ii-388d-1/01.thumb-480.webp 480w, /images/stiga-clipper-cr-pen-battle-ii-388d-1/01.thumb.webp 720w, /images/stiga-clipper-cr-pen-battle-ii-388d-1/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Stiga Clipper CR penhold blade with 729 Battle II on the black face and Dawei 388D-1 long pips on the red" loading="lazy" decoding="async" data-gallery="/images/stiga-clipper-cr-pen-battle-ii-388d-1/01.jpg,/images/stiga-clipper-cr-pen-battle-ii-388d-1/02.jpg,/images/stiga-clipper-cr-pen-battle-ii-388d-1/03.jpg">
     </div>
-    <div class="mg-card__copy">
-      <p class="mg-card__cat">Community build</p>
-      <h3 class="mg-card__title">Stiga Clipper CR (PEN) + 729 Battle II + Dawei 388D-1</h3>
+    <div class="mg-card__copy">      <h3 class="mg-card__title">Stiga Clipper CR (PEN) + 729 Battle II + Dawei 388D-1</h3>
       <p class="mg-card__desc">A penhold long-pip build on Stiga's Clipper CR, the seven-ply blade that penhold blockers have trusted for decades, with a tacky attacking rubber on one face and long pips on the other. 729 Battle II on the black face delivers a tacky topsheet over a lively sponge, so spin-loaded loops and hard flat hits both come off with pace, while Dawei 388D-1 long pips on the red face bring heavy reversal and a flat, skidding ball that hands the opponent's spin straight back to them.</p>
       <p class="mg-card__more mg-card__more--split">
         <a class="mg-card__zoom" href="/images/stiga-clipper-cr-pen-battle-ii-388d-1/01.jpg">View 3 photos</a>
@@ -272,9 +255,7 @@ hide:
     <div class="mg-card__media">
       <img src="/images/mizutani-jun-zlc-vega-china/01.thumb.webp" data-full-src="/images/mizutani-jun-zlc-vega-china/01.jpg" srcset="/images/mizutani-jun-zlc-vega-china/01.thumb-480.webp 480w, /images/mizutani-jun-zlc-vega-china/01.thumb.webp 720w, /images/mizutani-jun-zlc-vega-china/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Mizutani Jun ZLC with XIOM Vega China VM on both the black and the red face" loading="lazy" decoding="async" data-gallery="/images/mizutani-jun-zlc-vega-china/01.jpg,/images/mizutani-jun-zlc-vega-china/02.jpg,/images/mizutani-jun-zlc-vega-china/03.jpg,/images/mizutani-jun-zlc-vega-china/04.jpg,/images/mizutani-jun-zlc-vega-china/05.jpg,/images/mizutani-jun-zlc-vega-china/06.jpg">
     </div>
-    <div class="mg-card__copy">
-      <p class="mg-card__cat">Community build</p>
-      <h3 class="mg-card__title">Mizutani Jun ZLC + XIOM Vega China VM (both sides)</h3>
+    <div class="mg-card__copy">      <h3 class="mg-card__title">Mizutani Jun ZLC + XIOM Vega China VM (both sides)</h3>
       <p class="mg-card__desc">A one-rubber build: Butterfly's Mizutani Jun ZLC, a fast ZL-carbon blade, with XIOM Vega China VM glued to both faces. Vega China VM on forehand delivers the tacky topsheet and hard sponge that make a spin-loaded loop land deep and a flat drive stay on the table, while the same rubber on backhand keeps both wings identical — the same touch, the same arc, and nothing to adjust when the racket is turned.</p>
       <p class="mg-card__more mg-card__more--split">
         <a class="mg-card__zoom" href="/images/mizutani-jun-zlc-vega-china/01.jpg">View 6 photos</a>
