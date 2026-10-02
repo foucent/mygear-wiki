@@ -237,21 +237,14 @@
    the card. Cover fills the band and trims top and bottom instead, which on
    white-background product shots is packaging and empty table.
 
-   Thirteen of the shots are portrait, and cover keeps half their height. For
-   eleven that is the right half — a blade's face, a packet's front. The two
-   that suffer opt out below. */
+   Thirteen of the shots are portrait, and cover keeps half their height, which
+   for a blade's face or a packet's front is the right half. The two that had
+   nothing to give up — the No.15 glue bottle and the 3006C cutter — used to opt
+   into `contain` from here; they are /add-ons/ cards now, and that grid fits
+   every picture inside its square. */
 .md-typeset .mg-card__media img {
   aspect-ratio: 3 / 2;
   object-fit: cover;
-}
-
-/* The exception, opt-in per image: a shot whose subject runs the full height of
-   a portrait frame has nothing to give up, and cover takes its head off. Two of
-   them do — the No.15 glue bottle, the 3006C cutter — so they ask for the band
-   to be letterboxed instead. The panel colour behind is already white, so the
-   bars do not read as bars. */
-.md-typeset .mg-card__media img.mg-card__fit-contain {
-  object-fit: contain;
 }
 
 /* The corner marker for what a card's price actually buys: a proxy quote rather
@@ -261,8 +254,14 @@
    the ones /pre-owned/ and the /rubbers/ heading already use; pre-order takes
    the purple, the only token left that is neither "go" nor "ask us". Top-left:
    the bottom-right corner already carries the photo count gallery-lightbox.js
-   adds. Square and flat, like every other badge here. */
-.md-typeset .mg-card__badge {
+   adds. Square and flat, like every other badge here.
+
+   One rule for both card recipes: /rubbers/ says "In stock" or "Proxy buy" in
+   the same words the blade cards do, so it has to look the same. extra.css
+   draws its own, smaller, mixed-case version for the pre-owned badge and this
+   file is the later one, so the card keeps the shop's badge either way. */
+.md-typeset .mg-card__badge,
+.md-typeset .mg-preowned-card__badge {
   position: absolute;
   top: 10px;
   left: 10px;
@@ -280,11 +279,13 @@
   pointer-events: none;
 }
 
-.md-typeset .mg-card__badge--proxy {
+.md-typeset .mg-card__badge--proxy,
+.md-typeset .mg-preowned-card__badge--proxy {
   background: #92400e;
 }
 
-.md-typeset .mg-card__badge--stock {
+.md-typeset .mg-card__badge--stock,
+.md-typeset .mg-preowned-card__badge--stock {
   background: var(--ab-green);
 }
 
@@ -596,7 +597,9 @@
    data-options. A table row hands it the name cell to sit in; a card has no
    such slot, so it takes its own centred row — order 3 keeps it just above the
    action line wherever the script inserted it, since that line has to stay the
-   last thing on the card. Only the rubber cards carry one. */
+   last thing on the card. /rubbers/ is the one page that carries a picker, and
+   it writes the pre-owned recipe: extra.css lays that one out as a labelled
+   <select> under the name. This is the shape a plain .mg-card would get. */
 .md-typeset .mg-card__options {
   order: 3;
   align-self: center;
@@ -622,14 +625,16 @@
 /* ---------------------------------------------------------------------------
    4. Grids — each states its rung on the title ladder.
 
-   2 columns   ~464px   title 26px   (guide cards, add-ons)
+   2 columns   ~464px   title 26px   (guide cards, blades, setups)
    3 columns   ~307px   title 17px   (every other shop grid)
    4 columns   ~225px   title 14px   (home tiles, Hot Gear, brand wall)
 --------------------------------------------------------------------------- */
 
-/* add-ons: 2 up, the /gear/ arrangement. At 470px a card holds a portrait
-   media band, and its title set at 26px needs the wider column — at 307px the
-   same titles wrapped to three lines. */
+/* blades / setups: 2 up, the /gear/ arrangement. At 470px a card holds a
+   portrait media band, and its title set at 26px needs the wider column — at
+   307px the same titles wrapped to three lines. /rubbers/ and /add-ons/ used
+   to sit here; both are written in the pre-owned recipe now and take the 3-up
+   rung with the rest of the shop. */
 .md-typeset .mg-card-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 20px;
@@ -788,10 +793,13 @@
 }
 
 /* Everything that is text, plus the spec picker. The centred links size
-   themselves to fit and do not need it. */
+   themselves to fit and do not need it. The picker's inset goes on its wrapper
+   rather than on the <select> itself, so the control's own box starts where the
+   name's first letter does — the select then fills it, and keeps the small
+   inner padding extra.css gives it for the option text. */
 .md-typeset .mg-preowned-card__title,
 .md-typeset .mg-preowned-card__price,
-.md-typeset .mg-preowned-card__opts-select {
+.md-typeset .mg-preowned-card__opts {
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -807,19 +815,38 @@
   background: var(--ab-panel);
 }
 
-/* Pre-owned listings only — the shop grids (--shop: blades, rubbers, add-ons)
-   keep the full-width band. Their photographs are the product, shot to be read
-   whole; a listing's photo is one board face among eight, and the card reads
-   better as a 240px square with its name, price and action under it than as a
-   305px band with a strip of thumbnails taking the height of the copy again.
-   The square is centred, so the 305px card leaves it a gutter each side, and
-   capped at the card's own width so the two-up phone grid still fills. */
+/* The listings' shape — /pre-owned/, and /add-ons/ with it. A listing's photo
+   is one board face among eight, and the card reads better as a 240px square
+   with its name, price and action under it than as a 305px band with a strip
+   of thumbnails taking the height of the copy again. The square is centred, so
+   the 305px card leaves it a gutter each side, and capped at the card's own
+   width so the two-up phone grid still fills. The --shop grids buildShopGrid
+   makes keep the full-width band instead. */
 .mg-preowned-grid:not(.mg-preowned-grid--shop) .mg-preowned-card__media {
   width: 240px;
   max-width: 100%;
   margin: 16px auto 0;
   border-bottom: 0;
   border-radius: 0.55rem;
+}
+
+/* Add-ons are bottles, boxes and tools photographed whole on white, several of
+   them taller than they are wide, so the square is a frame rather than a crop:
+   the picture fits inside it. Every other image on the page is already square
+   to within a pixel or two, and the panel behind the photo is white, so this
+   costs the ones that fill the square nothing. */
+.md-typeset .mg-preowned-grid--addons .mg-preowned-card__media > img {
+  object-fit: contain;
+}
+
+/* The rubber photographs are the packets themselves, full bleed — a table, a
+   bag, a hand — so they crop rather than sit in a white frame, and the square
+   crops the tall ones. Anchored at the top the crop takes the table off the
+   bottom; centred it would cut the brand off the top of the packet, which is
+   the one line on it a buyer reads first. The images that are already square
+   to within a pixel or two have nothing to crop either way. */
+.md-typeset .mg-preowned-grid--rubbers .mg-preowned-card__media > img {
+  object-position: top;
 }
 
 /* How many photos there are, written on the picture — the count the thumbnail

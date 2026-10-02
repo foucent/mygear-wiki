@@ -358,12 +358,21 @@
   // table row would have built. The add button is already in the markup — which
   // is also why these cards must never be moved back into a table, since
   // enhanceTables() skips any row that already holds a .mg-cart-add.
+  //
+  // Two card recipes take it. /rubbers/ writes the pre-owned one, whose picker
+  // is the labelled <select> preowned-grid.js used to build there — the wrapper
+  // extra.css sizes for it; a plain .mg-card gets the bare centred one it has
+  // always had. Either way the picker goes in above the button, so the action
+  // line stays the last thing on the card.
   function enhanceCards() {
-    $all(".mg-card").forEach(function (card) {
+    $all(".mg-card, .mg-preowned-card").forEach(function (card) {
       if (card.dataset.mgCartReady === "1") return;
       card.dataset.mgCartReady = "1";
 
-      var img = card.querySelector(".mg-card__media img");
+      var preowned = card.classList.contains("mg-preowned-card");
+      var img = card.querySelector(
+        (preowned ? ".mg-preowned-card__media" : ".mg-card__media") + " img"
+      );
       var btn = card.querySelector(".mg-cart-add");
       if (!img || !btn) return;
 
@@ -377,7 +386,9 @@
 
       var baseName = btn.getAttribute("data-name") || "";
       var sel = document.createElement("select");
-      sel.className = "mg-cart-row-options mg-card__options";
+      sel.className =
+        "mg-cart-row-options " +
+        (preowned ? "mg-preowned-card__opts-select" : "mg-card__options");
       sel.setAttribute("aria-label", baseName + " option");
       options.forEach(function (opt, i) {
         var o = document.createElement("option");
@@ -393,6 +404,18 @@
       }
       sel.addEventListener("change", syncCardName);
       syncCardName();
+
+      if (preowned) {
+        var optWrap = document.createElement("div");
+        optWrap.className = "mg-preowned-card__opts";
+        var label = document.createElement("label");
+        label.className = "mg-preowned-card__opts-label";
+        label.textContent = "Option";
+        optWrap.appendChild(label);
+        optWrap.appendChild(sel);
+        card.insertBefore(optWrap, btn);
+        return;
+      }
 
       var more = card.querySelector(".mg-card__more");
       var copy = card.querySelector(".mg-card__copy");
