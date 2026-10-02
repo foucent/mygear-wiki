@@ -32,250 +32,130 @@ hide:
 
 </div>
 
-<!-- Straight into the grid: the page header above already names the category and
-     the hero carries the ordering note, so a heading over the list would only
-     repeat them. -->
+<!-- The card recipe from /pre-owned/: a square photo, the name with its price
+     at the end of it, and one action line under it. /add-ons/ has no price
+     table for preowned-grid.js to build a grid from, so the cards are written
+     out here — the class names are what keeps the two grids one shop. -->
+<div class="mg-preowned-grid mg-preowned-grid--addons" markdown="0" role="list">
 
-<div class="mg-card-grid" markdown="0">
-
-  <article class="mg-card">
-    <div class="mg-card__media">
-      <img class="mg-card__fit-contain" src="/images/add-ons/dhs-no-15-voc-free-glue.thumb.webp" data-full-src="/images/add-ons/dhs-no-15-voc-free-glue.jpg" srcset="/images/add-ons/dhs-no-15-voc-free-glue.thumb-240.webp 180w, /images/add-ons/dhs-no-15-voc-free-glue.thumb-480.webp 360w, /images/add-ons/dhs-no-15-voc-free-glue.thumb.webp 540w, /images/add-ons/dhs-no-15-voc-free-glue.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 88vw, 468px" alt="DHS No.15 VOC-Free Glue" loading="lazy" decoding="async">
+  <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media">
+      <img src="/images/add-ons/dhs-no-15-voc-free-glue.thumb.webp" data-full-src="/images/add-ons/dhs-no-15-voc-free-glue.jpg" srcset="/images/add-ons/dhs-no-15-voc-free-glue.thumb-240.webp 180w, /images/add-ons/dhs-no-15-voc-free-glue.thumb-480.webp 360w, /images/add-ons/dhs-no-15-voc-free-glue.thumb.webp 540w, /images/add-ons/dhs-no-15-voc-free-glue.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS No.15 VOC-Free Glue" loading="lazy" decoding="async">
     </div>
-    <div class="mg-card__copy">
-      <p class="mg-card__cat">Glue</p>
-      <h3 class="mg-card__title">DHS No.15 VOC-Free Glue</h3>
-      <p class="mg-card__price">$8</p>
-      <p class="mg-card__more mg-card__more--split">
-        <a class="mg-card__zoom" href="/images/add-ons/dhs-no-15-voc-free-glue.jpg">View photo</a>
-        <em class="mg-card__or">or</em>
-        <button type="button" class="mg-cart-add" data-name="DHS No.15 VOC-Free Glue" data-price="8" aria-label="Add DHS No.15 VOC-Free Glue to cart">Add to cart</button>
-      </p>
-    </div>
+    <h3 class="mg-preowned-card__title">DHS No.15 VOC-Free Glue <span class="mg-preowned-card__price">$8</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add DHS No.15 VOC-Free Glue to cart" data-name="DHS No.15 VOC-Free Glue" data-price="8"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
 
-  <article class="mg-card">
-    <div class="mg-card__media">
-      <img src="/images/add-ons/dhs-blade-professional-lacquer.thumb.webp" data-full-src="/images/add-ons/dhs-blade-professional-lacquer.jpg" srcset="/images/add-ons/dhs-blade-professional-lacquer.thumb-480.webp 480w, /images/add-ons/dhs-blade-professional-lacquer.thumb.webp 720w, /images/add-ons/dhs-blade-professional-lacquer.jpg 800w" sizes="(max-width: 759.98px) 88vw, 468px" alt="DHS Blade Professional Lacquer" loading="lazy" decoding="async">
+  <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media">
+      <img src="/images/add-ons/dhs-blade-professional-lacquer.thumb.webp" data-full-src="/images/add-ons/dhs-blade-professional-lacquer.jpg" srcset="/images/add-ons/dhs-blade-professional-lacquer.thumb-480.webp 480w, /images/add-ons/dhs-blade-professional-lacquer.thumb.webp 720w, /images/add-ons/dhs-blade-professional-lacquer.jpg 800w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS Blade Professional Lacquer" loading="lazy" decoding="async">
     </div>
-    <div class="mg-card__copy">
-      <p class="mg-card__cat">Treatment</p>
-      <h3 class="mg-card__title">DHS Blade Professional Lacquer</h3>
-      <p class="mg-card__price">$10</p>
-      <p class="mg-card__more mg-card__more--split">
-        <a class="mg-card__zoom" href="/images/add-ons/dhs-blade-professional-lacquer.jpg">View photo</a>
-        <em class="mg-card__or">or</em>
-        <button type="button" class="mg-cart-add" data-name="DHS Blade Professional Lacquer" data-price="10" aria-label="Add DHS Blade Professional Lacquer to cart">Add to cart</button>
-      </p>
-    </div>
+    <h3 class="mg-preowned-card__title">DHS Blade Professional Lacquer <span class="mg-preowned-card__price">$10</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add DHS Blade Professional Lacquer to cart" data-name="DHS Blade Professional Lacquer" data-price="10"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
 
-  <article class="mg-card">
-    <div class="mg-card__media">
-      <img src="/images/add-ons/haifu-national-black-oil.thumb.webp" data-full-src="/images/add-ons/haifu-national-black-oil.jpg" srcset="/images/add-ons/haifu-national-black-oil.thumb-480.webp 480w, /images/add-ons/haifu-national-black-oil.thumb.webp 720w, /images/add-ons/haifu-national-black-oil.jpg 800w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Haifu National Black Oil" loading="lazy" decoding="async">
+  <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media">
+      <img src="/images/add-ons/haifu-national-black-oil.thumb.webp" data-full-src="/images/add-ons/haifu-national-black-oil.jpg" srcset="/images/add-ons/haifu-national-black-oil.thumb-480.webp 480w, /images/add-ons/haifu-national-black-oil.thumb.webp 720w, /images/add-ons/haifu-national-black-oil.jpg 800w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Haifu National Black Oil" loading="lazy" decoding="async">
     </div>
-    <div class="mg-card__copy">
-      <p class="mg-card__cat">Booster</p>
-      <h3 class="mg-card__title">Haifu National Black Oil</h3>
-      <p class="mg-card__price">$18</p>
-      <p class="mg-card__more mg-card__more--split">
-        <a class="mg-card__zoom" href="/images/add-ons/haifu-national-black-oil.jpg">View photo</a>
-        <em class="mg-card__or">or</em>
-        <button type="button" class="mg-cart-add" data-name="Haifu National Black Oil" data-price="18" aria-label="Add Haifu National Black Oil to cart">Add to cart</button>
-      </p>
-    </div>
+    <h3 class="mg-preowned-card__title">Haifu National Black Oil <span class="mg-preowned-card__price">$18</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Haifu National Black Oil to cart" data-name="Haifu National Black Oil" data-price="18"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
 
-  <article class="mg-card">
-    <div class="mg-card__media">
-      <img src="/images/add-ons/haifu-sea-moon-booster.thumb.webp" data-full-src="/images/add-ons/haifu-sea-moon-booster.jpg" srcset="/images/add-ons/haifu-sea-moon-booster.thumb-480.webp 480w, /images/add-ons/haifu-sea-moon-booster.thumb.webp 720w, /images/add-ons/haifu-sea-moon-booster.jpg 800w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Haifu Sea Moon Booster" loading="lazy" decoding="async">
+  <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media">
+      <img src="/images/add-ons/haifu-sea-moon-booster.thumb.webp" data-full-src="/images/add-ons/haifu-sea-moon-booster.jpg" srcset="/images/add-ons/haifu-sea-moon-booster.thumb-480.webp 480w, /images/add-ons/haifu-sea-moon-booster.thumb.webp 720w, /images/add-ons/haifu-sea-moon-booster.jpg 800w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Haifu Sea Moon Booster" loading="lazy" decoding="async">
     </div>
-    <div class="mg-card__copy">
-      <p class="mg-card__cat">Booster</p>
-      <h3 class="mg-card__title">Haifu Sea Moon Booster</h3>
-      <p class="mg-card__price">$8</p>
-      <p class="mg-card__more mg-card__more--split">
-        <a class="mg-card__zoom" href="/images/add-ons/haifu-sea-moon-booster.jpg">View photo</a>
-        <em class="mg-card__or">or</em>
-        <button type="button" class="mg-cart-add" data-name="Haifu Sea Moon Booster" data-price="8" aria-label="Add Haifu Sea Moon Booster to cart">Add to cart</button>
-      </p>
-    </div>
+    <h3 class="mg-preowned-card__title">Haifu Sea Moon Booster <span class="mg-preowned-card__price">$8</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Haifu Sea Moon Booster to cart" data-name="Haifu Sea Moon Booster" data-price="8"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
 
-  <article class="mg-card">
-    <div class="mg-card__media">
-      <img src="/images/add-ons/liu-lan-rubber-nutrition-liquid-100ml.thumb.webp" data-full-src="/images/add-ons/liu-lan-rubber-nutrition-liquid-100ml.jpg" srcset="/images/add-ons/liu-lan-rubber-nutrition-liquid-100ml.thumb-480.webp 480w, /images/add-ons/liu-lan-rubber-nutrition-liquid-100ml.thumb.webp 720w, /images/add-ons/liu-lan-rubber-nutrition-liquid-100ml.jpg 800w" sizes="(max-width: 759.98px) 88vw, 468px" alt="LIU LAN Rubber Nutrition Liquid (100ml)" loading="lazy" decoding="async">
+  <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media">
+      <img src="/images/add-ons/liu-lan-rubber-nutrition-liquid-100ml.thumb.webp" data-full-src="/images/add-ons/liu-lan-rubber-nutrition-liquid-100ml.jpg" srcset="/images/add-ons/liu-lan-rubber-nutrition-liquid-100ml.thumb-480.webp 480w, /images/add-ons/liu-lan-rubber-nutrition-liquid-100ml.thumb.webp 720w, /images/add-ons/liu-lan-rubber-nutrition-liquid-100ml.jpg 800w" sizes="(max-width: 759.98px) 46vw, 305px" alt="LIU LAN Rubber Nutrition Liquid (100ml)" loading="lazy" decoding="async">
     </div>
-    <div class="mg-card__copy">
-      <p class="mg-card__cat">Treatment</p>
-      <h3 class="mg-card__title">LIU LAN Rubber Nutrition Liquid (100ml)</h3>
-      <p class="mg-card__price">$6</p>
-      <p class="mg-card__more mg-card__more--split">
-        <a class="mg-card__zoom" href="/images/add-ons/liu-lan-rubber-nutrition-liquid-100ml.jpg">View photo</a>
-        <em class="mg-card__or">or</em>
-        <button type="button" class="mg-cart-add" data-name="LIU LAN Rubber Nutrition Liquid (100ml)" data-price="6" aria-label="Add LIU LAN Rubber Nutrition Liquid (100ml) to cart">Add to cart</button>
-      </p>
-    </div>
+    <h3 class="mg-preowned-card__title">LIU LAN Rubber Nutrition Liquid (100ml) <span class="mg-preowned-card__price">$6</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add LIU LAN Rubber Nutrition Liquid (100ml) to cart" data-name="LIU LAN Rubber Nutrition Liquid (100ml)" data-price="6"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
 
-  <article class="mg-card">
-    <div class="mg-card__media">
-      <img src="/images/add-ons/loki-table-tennis-rubber-cleaner-foam200ml.thumb.webp" data-full-src="/images/add-ons/loki-table-tennis-rubber-cleaner-foam200ml.jpg" srcset="/images/add-ons/loki-table-tennis-rubber-cleaner-foam200ml.thumb-480.webp 480w, /images/add-ons/loki-table-tennis-rubber-cleaner-foam200ml.thumb.webp 720w, /images/add-ons/loki-table-tennis-rubber-cleaner-foam200ml.jpg 800w" sizes="(max-width: 759.98px) 88vw, 468px" alt="LOKI Table Tennis Rubber Cleaner Foam (200ml)" loading="lazy" decoding="async">
+  <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media">
+      <img src="/images/add-ons/loki-table-tennis-rubber-cleaner-foam200ml.thumb.webp" data-full-src="/images/add-ons/loki-table-tennis-rubber-cleaner-foam200ml.jpg" srcset="/images/add-ons/loki-table-tennis-rubber-cleaner-foam200ml.thumb-480.webp 480w, /images/add-ons/loki-table-tennis-rubber-cleaner-foam200ml.thumb.webp 720w, /images/add-ons/loki-table-tennis-rubber-cleaner-foam200ml.jpg 800w" sizes="(max-width: 759.98px) 46vw, 305px" alt="LOKI Table Tennis Rubber Cleaner Foam (200ml)" loading="lazy" decoding="async">
     </div>
-    <div class="mg-card__copy">
-      <p class="mg-card__cat">Cleaning</p>
-      <h3 class="mg-card__title">LOKI Table Tennis Rubber Cleaner Foam (200ml)</h3>
-      <p class="mg-card__price">$3</p>
-      <p class="mg-card__more mg-card__more--split">
-        <a class="mg-card__zoom" href="/images/add-ons/loki-table-tennis-rubber-cleaner-foam200ml.jpg">View photo</a>
-        <em class="mg-card__or">or</em>
-        <button type="button" class="mg-cart-add" data-name="LOKI Table Tennis Rubber Cleaner Foam (200ml)" data-price="3" aria-label="Add LOKI Table Tennis Rubber Cleaner Foam (200ml) to cart">Add to cart</button>
-      </p>
-    </div>
+    <h3 class="mg-preowned-card__title">LOKI Table Tennis Rubber Cleaner Foam (200ml) <span class="mg-preowned-card__price">$3</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add LOKI Table Tennis Rubber Cleaner Foam (200ml) to cart" data-name="LOKI Table Tennis Rubber Cleaner Foam (200ml)" data-price="3"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
 
-  <article class="mg-card">
-    <div class="mg-card__media">
-      <img src="/images/add-ons/dhs-3-star-balls.thumb.webp" data-full-src="/images/add-ons/dhs-3-star-balls.jpg" srcset="/images/add-ons/dhs-3-star-balls.thumb-480.webp 480w, /images/add-ons/dhs-3-star-balls.thumb.webp 720w, /images/add-ons/dhs-3-star-balls.jpg 800w" sizes="(max-width: 759.98px) 88vw, 468px" alt="DHS 3-Star Balls" loading="lazy" decoding="async">
+  <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media">
+      <img src="/images/add-ons/dhs-3-star-balls.thumb.webp" data-full-src="/images/add-ons/dhs-3-star-balls.jpg" srcset="/images/add-ons/dhs-3-star-balls.thumb-480.webp 480w, /images/add-ons/dhs-3-star-balls.thumb.webp 720w, /images/add-ons/dhs-3-star-balls.jpg 800w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS 3-Star Balls" loading="lazy" decoding="async">
     </div>
-    <div class="mg-card__copy">
-      <p class="mg-card__cat">Balls</p>
-      <h3 class="mg-card__title">DHS 3-Star Balls</h3>
-      <p class="mg-card__price">$5</p>
-      <p class="mg-card__more mg-card__more--split">
-        <a class="mg-card__zoom" href="/images/add-ons/dhs-3-star-balls.jpg">View photo</a>
-        <em class="mg-card__or">or</em>
-        <button type="button" class="mg-cart-add" data-name="DHS 3-Star Balls" data-price="5" aria-label="Add DHS 3-Star Balls to cart">Add to cart</button>
-      </p>
-    </div>
+    <h3 class="mg-preowned-card__title">DHS 3-Star Balls <span class="mg-preowned-card__price">$5</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add DHS 3-Star Balls to cart" data-name="DHS 3-Star Balls" data-price="5"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
 
-  <article class="mg-card">
-    <div class="mg-card__media">
-      <img src="/images/add-ons/hard-case-for-racket.thumb.webp" data-full-src="/images/add-ons/hard-case-for-racket.jpg" srcset="/images/add-ons/hard-case-for-racket.thumb-480.webp 480w, /images/add-ons/hard-case-for-racket.jpg 610w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Hard Case for Racket" loading="lazy" decoding="async">
+  <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media">
+      <img src="/images/add-ons/hard-case-for-racket.thumb.webp" data-full-src="/images/add-ons/hard-case-for-racket.jpg" srcset="/images/add-ons/hard-case-for-racket.thumb-480.webp 480w, /images/add-ons/hard-case-for-racket.jpg 610w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Hard Case for Racket" loading="lazy" decoding="async">
     </div>
-    <div class="mg-card__copy">
-      <p class="mg-card__cat">Cases</p>
-      <h3 class="mg-card__title">Hard Case for Racket</h3>
-      <p class="mg-card__price">$5</p>
-      <p class="mg-card__more mg-card__more--split">
-        <a class="mg-card__zoom" href="/images/add-ons/hard-case-for-racket.jpg">View photo</a>
-        <em class="mg-card__or">or</em>
-        <button type="button" class="mg-cart-add" data-name="Hard Case for Racket" data-price="5" aria-label="Add Hard Case for Racket to cart">Add to cart</button>
-      </p>
-    </div>
+    <h3 class="mg-preowned-card__title">Hard Case for Racket <span class="mg-preowned-card__price">$5</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Hard Case for Racket to cart" data-name="Hard Case for Racket" data-price="5"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
 
-  <article class="mg-card">
-    <div class="mg-card__media">
-      <img src="/images/add-ons/nittaku-cleaning-sponge.thumb.webp" data-full-src="/images/add-ons/nittaku-cleaning-sponge.webp" srcset="/images/add-ons/nittaku-cleaning-sponge.thumb-480.webp 476w, /images/add-ons/nittaku-cleaning-sponge.webp 604w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Nittaku Cleaning Sponge" loading="lazy" decoding="async">
+  <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media">
+      <img src="/images/add-ons/nittaku-cleaning-sponge.thumb.webp" data-full-src="/images/add-ons/nittaku-cleaning-sponge.webp" srcset="/images/add-ons/nittaku-cleaning-sponge.thumb-480.webp 476w, /images/add-ons/nittaku-cleaning-sponge.webp 604w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Nittaku Cleaning Sponge" loading="lazy" decoding="async">
     </div>
-    <div class="mg-card__copy">
-      <p class="mg-card__cat">Cleaning</p>
-      <h3 class="mg-card__title">Nittaku Cleaning Sponge</h3>
-      <p class="mg-card__price">$1</p>
-      <p class="mg-card__more mg-card__more--split">
-        <a class="mg-card__zoom" href="/images/add-ons/nittaku-cleaning-sponge.webp">View photo</a>
-        <em class="mg-card__or">or</em>
-        <button type="button" class="mg-cart-add" data-name="Nittaku Cleaning Sponge" data-price="1" aria-label="Add Nittaku Cleaning Sponge to cart">Add to cart</button>
-      </p>
-    </div>
+    <h3 class="mg-preowned-card__title">Nittaku Cleaning Sponge <span class="mg-preowned-card__price">$1</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Nittaku Cleaning Sponge to cart" data-name="Nittaku Cleaning Sponge" data-price="1"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
 
-  <article class="mg-card">
-    <div class="mg-card__media">
-      <img src="/images/add-ons/rubber-protective-sleeve.thumb.webp" data-full-src="/images/add-ons/rubber-protective-sleeve.webp" srcset="/images/add-ons/rubber-protective-sleeve.thumb-480.webp 480w, /images/add-ons/rubber-protective-sleeve.webp 611w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Rubber Protective Sleeve" loading="lazy" decoding="async">
+  <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media">
+      <img src="/images/add-ons/rubber-protective-sleeve.thumb.webp" data-full-src="/images/add-ons/rubber-protective-sleeve.webp" srcset="/images/add-ons/rubber-protective-sleeve.thumb-480.webp 480w, /images/add-ons/rubber-protective-sleeve.webp 611w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Rubber Protective Sleeve" loading="lazy" decoding="async">
     </div>
-    <div class="mg-card__copy">
-      <p class="mg-card__cat">Protection</p>
-      <h3 class="mg-card__title">Rubber Protective Sleeve</h3>
-      <p class="mg-card__price">$1</p>
-      <p class="mg-card__more mg-card__more--split">
-        <a class="mg-card__zoom" href="/images/add-ons/rubber-protective-sleeve.webp">View photo</a>
-        <em class="mg-card__or">or</em>
-        <button type="button" class="mg-cart-add" data-name="Rubber Protective Sleeve" data-price="1" aria-label="Add Rubber Protective Sleeve to cart">Add to cart</button>
-      </p>
-    </div>
+    <h3 class="mg-preowned-card__title">Rubber Protective Sleeve <span class="mg-preowned-card__price">$1</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Rubber Protective Sleeve to cart" data-name="Rubber Protective Sleeve" data-price="1"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
 
-  <article class="mg-card">
-    <div class="mg-card__media">
-      <img class="mg-card__fit-contain" src="/images/add-ons/sdi-3006c-rubber-cutter.thumb.webp" data-full-src="/images/add-ons/sdi-3006c-rubber-cutter.jpg" srcset="/images/add-ons/sdi-3006c-rubber-cutter.thumb-480.webp 360w, /images/add-ons/sdi-3006c-rubber-cutter.thumb.webp 540w, /images/add-ons/sdi-3006c-rubber-cutter.jpg 600w" sizes="(max-width: 759.98px) 88vw, 468px" alt="SDI 3006C Rubber Cutter" loading="lazy" decoding="async">
+  <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media">
+      <img src="/images/add-ons/sdi-3006c-rubber-cutter.thumb.webp" data-full-src="/images/add-ons/sdi-3006c-rubber-cutter.jpg" srcset="/images/add-ons/sdi-3006c-rubber-cutter.thumb-480.webp 360w, /images/add-ons/sdi-3006c-rubber-cutter.thumb.webp 540w, /images/add-ons/sdi-3006c-rubber-cutter.jpg 600w" sizes="(max-width: 759.98px) 46vw, 305px" alt="SDI 3006C Rubber Cutter" loading="lazy" decoding="async">
     </div>
-    <div class="mg-card__copy">
-      <p class="mg-card__cat">Tools</p>
-      <h3 class="mg-card__title">SDI 3006C Rubber Cutter</h3>
-      <p class="mg-card__price">$5</p>
-      <p class="mg-card__more mg-card__more--split">
-        <a class="mg-card__zoom" href="/images/add-ons/sdi-3006c-rubber-cutter.jpg">View photo</a>
-        <em class="mg-card__or">or</em>
-        <button type="button" class="mg-cart-add" data-name="SDI 3006C Rubber Cutter" data-price="5" aria-label="Add SDI 3006C Rubber Cutter to cart">Add to cart</button>
-      </p>
-    </div>
+    <h3 class="mg-preowned-card__title">SDI 3006C Rubber Cutter <span class="mg-preowned-card__price">$5</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add SDI 3006C Rubber Cutter to cart" data-name="SDI 3006C Rubber Cutter" data-price="5"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
 
-  <article class="mg-card">
-    <div class="mg-card__media">
-      <img src="/images/add-ons/butterfly-racket-case/01.thumb.webp" data-full-src="/images/add-ons/butterfly-racket-case/01.jpg" srcset="/images/add-ons/butterfly-racket-case/01.thumb-480.webp 480w, /images/add-ons/butterfly-racket-case/01.thumb.webp 720w, /images/add-ons/butterfly-racket-case/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Butterfly 2025 Racket Case" loading="lazy" decoding="async" data-gallery="/images/add-ons/butterfly-racket-case/01.jpg,/images/add-ons/butterfly-racket-case/02.jpg,/images/add-ons/butterfly-racket-case/03.jpg,/images/add-ons/butterfly-racket-case/04.jpg,/images/add-ons/butterfly-racket-case/05.jpg,/images/add-ons/butterfly-racket-case/06.jpg,/images/add-ons/butterfly-racket-case/07.jpg">
+  <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media">
+      <img src="/images/add-ons/butterfly-racket-case/01.thumb.webp" data-full-src="/images/add-ons/butterfly-racket-case/01.jpg" srcset="/images/add-ons/butterfly-racket-case/01.thumb-480.webp 480w, /images/add-ons/butterfly-racket-case/01.thumb.webp 720w, /images/add-ons/butterfly-racket-case/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly 2025 Racket Case" loading="lazy" decoding="async" data-gallery="/images/add-ons/butterfly-racket-case/01.jpg,/images/add-ons/butterfly-racket-case/02.jpg,/images/add-ons/butterfly-racket-case/03.jpg,/images/add-ons/butterfly-racket-case/04.jpg,/images/add-ons/butterfly-racket-case/05.jpg,/images/add-ons/butterfly-racket-case/06.jpg,/images/add-ons/butterfly-racket-case/07.jpg">
     </div>
-    <div class="mg-card__copy">
-      <p class="mg-card__cat">Cases</p>
-      <h3 class="mg-card__title">Butterfly 2025 Racket Case</h3>
-      <p class="mg-card__price">$30</p>
-      <p class="mg-card__more mg-card__more--split">
-        <a class="mg-card__zoom" href="/images/add-ons/butterfly-racket-case/01.jpg">View 7 photos</a>
-        <em class="mg-card__or">or</em>
-        <button type="button" class="mg-cart-add" data-name="Butterfly 2025 Racket Case" data-price="30" aria-label="Add Butterfly 2025 Racket Case to cart">Add to cart</button>
-      </p>
-    </div>
+    <h3 class="mg-preowned-card__title">Butterfly 2025 Racket Case <span class="mg-preowned-card__price">$30</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Butterfly 2025 Racket Case to cart" data-name="Butterfly 2025 Racket Case" data-price="30"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
 
-  <article class="mg-card">
-    <div class="mg-card__media">
-      <img src="/images/add-ons/butterfly-wristband/01.thumb.webp" data-full-src="/images/add-ons/butterfly-wristband/01.webp" srcset="/images/add-ons/butterfly-wristband/01.thumb-480.webp 480w, /images/add-ons/butterfly-wristband/01.thumb.webp 720w, /images/add-ons/butterfly-wristband/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Butterfly Wristband" loading="lazy" decoding="async" data-gallery="/images/add-ons/butterfly-wristband/01.webp,/images/add-ons/butterfly-wristband/02.jpg,/images/add-ons/butterfly-wristband/03.jpg,/images/add-ons/butterfly-wristband/04.jpg,/images/add-ons/butterfly-wristband/05.jpg">
+  <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media">
+      <img src="/images/add-ons/butterfly-wristband/01.thumb.webp" data-full-src="/images/add-ons/butterfly-wristband/01.webp" srcset="/images/add-ons/butterfly-wristband/01.thumb-480.webp 480w, /images/add-ons/butterfly-wristband/01.thumb.webp 720w, /images/add-ons/butterfly-wristband/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Wristband" loading="lazy" decoding="async" data-gallery="/images/add-ons/butterfly-wristband/01.webp,/images/add-ons/butterfly-wristband/02.jpg,/images/add-ons/butterfly-wristband/03.jpg,/images/add-ons/butterfly-wristband/04.jpg,/images/add-ons/butterfly-wristband/05.jpg">
     </div>
-    <div class="mg-card__copy">
-      <p class="mg-card__cat">Apparel</p>
-      <h3 class="mg-card__title">Butterfly Wristband</h3>
-      <p class="mg-card__price">$10</p>
-      <p class="mg-card__more mg-card__more--split">
-        <a class="mg-card__zoom" href="/images/add-ons/butterfly-wristband/01.webp">View 5 photos</a>
-        <em class="mg-card__or">or</em>
-        <button type="button" class="mg-cart-add" data-name="Butterfly Wristband" data-price="10" aria-label="Add Butterfly Wristband to cart">Add to cart</button>
-      </p>
-    </div>
+    <h3 class="mg-preowned-card__title">Butterfly Wristband <span class="mg-preowned-card__price">$10</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Butterfly Wristband to cart" data-name="Butterfly Wristband" data-price="10"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
 
-  <article class="mg-card">
-    <div class="mg-card__media">
-      <img src="/images/add-ons/butterfly-2026-racket-bag/01.thumb.webp" data-full-src="/images/add-ons/butterfly-2026-racket-bag/01.jpg" srcset="/images/add-ons/butterfly-2026-racket-bag/01.thumb-480.webp 480w, /images/add-ons/butterfly-2026-racket-bag/01.thumb.webp 720w, /images/add-ons/butterfly-2026-racket-bag/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Butterfly 2026 Racket Bag" loading="lazy" decoding="async" data-gallery="/images/add-ons/butterfly-2026-racket-bag/01.jpg,/images/add-ons/butterfly-2026-racket-bag/02.jpg,/images/add-ons/butterfly-2026-racket-bag/03.jpg,/images/add-ons/butterfly-2026-racket-bag/04.jpg,/images/add-ons/butterfly-2026-racket-bag/05.jpg,/images/add-ons/butterfly-2026-racket-bag/06.jpg,/images/add-ons/butterfly-2026-racket-bag/07.jpg,/images/add-ons/butterfly-2026-racket-bag/08.jpg">
+  <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media">
+      <img src="/images/add-ons/butterfly-2026-racket-bag/01.thumb.webp" data-full-src="/images/add-ons/butterfly-2026-racket-bag/01.jpg" srcset="/images/add-ons/butterfly-2026-racket-bag/01.thumb-480.webp 480w, /images/add-ons/butterfly-2026-racket-bag/01.thumb.webp 720w, /images/add-ons/butterfly-2026-racket-bag/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly 2026 Racket Bag" loading="lazy" decoding="async" data-gallery="/images/add-ons/butterfly-2026-racket-bag/01.jpg,/images/add-ons/butterfly-2026-racket-bag/02.jpg,/images/add-ons/butterfly-2026-racket-bag/03.jpg,/images/add-ons/butterfly-2026-racket-bag/04.jpg,/images/add-ons/butterfly-2026-racket-bag/05.jpg,/images/add-ons/butterfly-2026-racket-bag/06.jpg,/images/add-ons/butterfly-2026-racket-bag/07.jpg,/images/add-ons/butterfly-2026-racket-bag/08.jpg">
     </div>
-    <div class="mg-card__copy">
-      <p class="mg-card__cat">Cases</p>
-      <h3 class="mg-card__title">Butterfly 2026 Racket Bag</h3>
-      <p class="mg-card__price">$31</p>
-      <p class="mg-card__more mg-card__more--split">
-        <a class="mg-card__zoom" href="/images/add-ons/butterfly-2026-racket-bag/01.jpg">View 8 photos</a>
-        <em class="mg-card__or">or</em>
-        <button type="button" class="mg-cart-add" data-name="Butterfly 2026 Racket Bag" data-price="31" aria-label="Add Butterfly 2026 Racket Bag to cart">Add to cart</button>
-      </p>
-    </div>
+    <h3 class="mg-preowned-card__title">Butterfly 2026 Racket Bag <span class="mg-preowned-card__price">$31</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Butterfly 2026 Racket Bag to cart" data-name="Butterfly 2026 Racket Bag" data-price="31"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
 
-  <article class="mg-card">
-    <div class="mg-card__media">
-      <img src="/images/add-ons/butterfly-2026-sports-towel/01.thumb.webp" data-full-src="/images/add-ons/butterfly-2026-sports-towel/01.webp" srcset="/images/add-ons/butterfly-2026-sports-towel/01.thumb-480.webp 480w, /images/add-ons/butterfly-2026-sports-towel/01.thumb.webp 720w, /images/add-ons/butterfly-2026-sports-towel/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Butterfly 2026 Sports Towel" loading="lazy" decoding="async" data-gallery="/images/add-ons/butterfly-2026-sports-towel/01.webp,/images/add-ons/butterfly-2026-sports-towel/02.webp,/images/add-ons/butterfly-2026-sports-towel/03.webp,/images/add-ons/butterfly-2026-sports-towel/04.webp">
+  <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media">
+      <img src="/images/add-ons/butterfly-2026-sports-towel/01.thumb.webp" data-full-src="/images/add-ons/butterfly-2026-sports-towel/01.webp" srcset="/images/add-ons/butterfly-2026-sports-towel/01.thumb-480.webp 480w, /images/add-ons/butterfly-2026-sports-towel/01.thumb.webp 720w, /images/add-ons/butterfly-2026-sports-towel/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly 2026 Sports Towel" loading="lazy" decoding="async" data-gallery="/images/add-ons/butterfly-2026-sports-towel/01.webp,/images/add-ons/butterfly-2026-sports-towel/02.webp,/images/add-ons/butterfly-2026-sports-towel/03.webp,/images/add-ons/butterfly-2026-sports-towel/04.webp">
     </div>
-    <div class="mg-card__copy">
-      <p class="mg-card__cat">Apparel</p>
-      <h3 class="mg-card__title">Butterfly 2026 Sports Towel</h3>
-      <p class="mg-card__price">$6</p>
-      <p class="mg-card__more mg-card__more--split">
-        <a class="mg-card__zoom" href="/images/add-ons/butterfly-2026-sports-towel/01.webp">View 4 photos</a>
-        <em class="mg-card__or">or</em>
-        <button type="button" class="mg-cart-add" data-name="Butterfly 2026 Sports Towel" data-price="6" aria-label="Add Butterfly 2026 Sports Towel to cart">Add to cart</button>
-      </p>
-    </div>
+    <h3 class="mg-preowned-card__title">Butterfly 2026 Sports Towel <span class="mg-preowned-card__price">$6</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Butterfly 2026 Sports Towel to cart" data-name="Butterfly 2026 Sports Towel" data-price="6"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
 
 </div>

@@ -217,15 +217,17 @@
       });
     });
 
-    // .mg-card-grid is the add-ons card grid; it carries its images the same
-    // way a price table does (an <img> with an optional data-gallery list), so
-    // it rides the same binding rather than getting a second one.
+    // Every card container carries its images the same way — an <img> with an
+    // optional data-gallery list — so they all ride this one binding rather
+    // than getting a second. .mg-card-grid is the hand-written shop grid, the
+    // price table holds the pre-owned listings, and .mg-preowned-grid is that
+    // table's grid plus the /add-ons/ card list, which is built to the same
+    // recipe without a table behind it.
     document
-      .querySelectorAll(".mg-price-table, .mg-card-grid")
+      .querySelectorAll(".mg-price-table, .mg-card-grid, .mg-preowned-grid")
       .forEach(function (tableWrap) {
       var imgs = tableWrap.querySelectorAll("img");
       var fallbackItems = imageItems(tableWrap);
-      var isPreowned = tableWrap.classList.contains("mg-price-table--preowned");
 
       imgs.forEach(function (img, i) {
         if (img.dataset.mgLightboxBound === "1") return;
@@ -246,17 +248,16 @@
             })
           : null;
 
-        // A pre-owned card is one 240px photo with the number of photos on it.
-        // The strip of thumbnails that used to sit under the picture is gone:
-        // it made the card twice as tall as its copy needed and pulled eight
-        // more files per listing, all of them for a 70px square. The number is
-        // the count the strip used to show by showing it; the picture opens the
-        // set — the main photo first, the rest on the arrows or the dots.
-        if (isPreowned && gallery.length > 1) {
-          var card = img.closest(".mg-preowned-card");
+        // A 240px card is one photo with the number of photos on it. The strip
+        // of thumbnails that used to sit under the picture is gone: it made the
+        // card twice as tall as its copy needed and pulled eight more files per
+        // listing, all of them for a 70px square. The number is the count the
+        // strip used to show by showing it; the picture opens the set — the
+        // main photo first, the rest on the arrows or the dots.
+        var card = img.closest(".mg-preowned-card");
+        if (card && gallery.length > 1) {
           var media =
-            (card && card.querySelector(".mg-preowned-card__media")) ||
-            img.parentElement;
+            card.querySelector(".mg-preowned-card__media") || img.parentElement;
           if (media && !media.querySelector(".mg-preowned-card__count")) {
             var countPill = document.createElement("span");
             countPill.className = "mg-preowned-card__count";
@@ -285,7 +286,7 @@
         // the set, and without one the card is a single photo. Only outside a
         // card (a price table) does an unlisted image fall back to the whole
         // container, which is that layout's "browse them all" behaviour.
-        var cardScope = img.closest(".mg-card");
+        var cardScope = img.closest(".mg-card, .mg-preowned-card");
         var cardItems = galleryItemsList || [
           { href: fullHref(img), alt: img.alt || "" },
         ];

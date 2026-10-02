@@ -8,6 +8,10 @@ class="mg-card__title"> never reach the toc extension. A whole shop page
 therefore collapses into a single index entry with no anchor, and searching
 "Viscaria" drops you at the top of /blades/ to find the card yourself.
 
+/add-ons/ is in the same boat with the pre-owned card recipe (mg-preowned-card)
+rather than the shop one, and /pre-owned/ with a price table whose rows
+preowned-grid.js turns into those same cards.
+
 So this hook puts an id on every card, and then rewrites
 site/search/search_index.json once the search plugin has written it: one entry
 per card, and the page's own entry cut back to the text that sits outside the
@@ -29,13 +33,25 @@ import re
 from html.parser import HTMLParser
 
 _ARTICLE_CARD = "mg-card"
+_PREOWNED_CARD = "mg-preowned-card"
 _PREOWNED_TABLE = "mg-price-table--preowned"
+# The card wrappers that are written out in the Markdown: the shop pages'
+# <article class="mg-card">, and /add-ons/, whose cards are built to the
+# pre-owned recipe instead — a square photo, the name with its price inside it,
+# one action line. A card's title and price are its own class plus __title and
+# __price, so this one list covers all three lookups.
+_CARD_NAMES = (_ARTICLE_CARD, _PREOWNED_CARD)
 _SLUG_MAX = 60
 
 _TAG = re.compile(r"<[^>]+>")
 
 # page.url -> {"text": page text outside the cards, "entries": [card entries]}
 _pages = {}
+
+
+def _card_class(classes, part=""):
+    """Is one of `classes` a card class, or a card's `part` of it?"""
+    return any(name + part in classes for name in _CARD_NAMES)
 
 
 def _collapse(text):
@@ -78,9 +94,10 @@ def _line_starts(source):
 class _CardScanner(HTMLParser):
     """Walk one rendered page, hand back its cards and the text around them.
 
-    A card is either an <article class="mg-card"> — the four shop pages, one
-    per product — or a <tr> with at least three cells inside the pre-owned
-    price table, which preowned-grid.js later turns into the same card shape.
+    A card is either an <article> — the shop pages' mg-card, or the pre-owned
+    recipe the /add-ons/ cards are written in — or a <tr> with at least three
+    cells inside the pre-owned price table, which preowned-grid.js later turns
+    into that same card shape.
 
     Depth is tracked with counters rather than an element stack: HTML is full
     of void tags (<img>, <br>) that would push without ever popping.
@@ -94,7 +111,7 @@ class _CardScanner(HTMLParser):
         self.cards = []
         self.page_text = []
 
-        self._article = 0  # open article.mg-card
+        self._article = 0  # open <article> card
         self._row = 0  # open <tr>, inside the pre-owned table's <tbody>
         self._tbody = 0
         self._div = 0
@@ -152,15 +169,15 @@ class _CardScanner(HTMLParser):
         elif tag == "tbody" and self._table_div:
             self._tbody += 1
 
-        if tag == "article" and _ARTICLE_CARD in classes and not self._article:
+        if tag == "article" and _card_class(classes) and not self._article:
             self._article = 1
             self._open_card("article")
         elif tag == "tr" and self._tbody and not self._row:
             self._row = 1
             self._open_card("tr")
-        elif tag == "h3" and "mg-card__title" in classes and self._card:
+        elif tag == "h3" and _card_class(classes, "__title") and self._card:
             self._title += 1
-        elif tag == "span" and "mg-card__price" in classes and self._card:
+        elif tag == "span" and _card_class(classes, "__price") and self._card:
             self._price += 1
         elif tag == "td" and self._card and self._card["tag"] == "tr":
             self._cell += 1
@@ -233,7 +250,7 @@ def _without_cards(text, entries):
 
 
 def on_page_content(html, *, page, config, files):
-    if _ARTICLE_CARD not in html and _PREOWNED_TABLE not in html:
+    if not any(marker in html for marker in _CARD_NAMES + (_PREOWNED_TABLE,)):
         return html
 
     scanner = _CardScanner(html)
