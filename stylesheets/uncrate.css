@@ -228,20 +228,18 @@
   border-bottom: 1px solid var(--ab-line);
 }
 
-/* .mg-card — the four shop grids — is sized off the small card on uncrate.com's
-   front page (article.one-half): 470px wide in a 960px column, a landscape band
-   about 3:2, 520px tall overall.
+/* .mg-card — /gear/, the last page in this recipe — is sized off the small
+   card on uncrate.com's front page (article.one-half): 470px wide in a 960px
+   column, a landscape band about 3:2, 520px tall overall.
 
-   `cover` is what buys that height. Most of these shots are square, and a square
-   fitted inside a 3:2 band would letterbox against both ends and lose a third of
-   the card. Cover fills the band and trims top and bottom instead, which on
-   white-background product shots is packaging and empty table.
-
-   Thirteen of the shots are portrait, and cover keeps half their height, which
-   for a blade's face or a packet's front is the right half. The two that had
-   nothing to give up — the No.15 glue bottle and the 3006C cutter — used to opt
-   into `contain` from here; they are /add-ons/ cards now, and that grid fits
-   every picture inside its square. */
+   `cover` is what buys that height. A square shot fitted inside a 3:2 band
+   would letterbox against both ends and lose a third of the card; cover fills
+   the band and trims top and bottom instead. Eighteen of these twenty-one
+   photos are landscape already and lose almost nothing; the three portrait
+   ones keep the middle of the frame. /blades/, /rubbers/ and /add-ons/ have
+   left for the pre-owned recipe, whose square band fits a picture whole — the
+   two that had nothing to give up, the No.15 glue bottle and the 3006C cutter,
+   left with /add-ons/. */
 .md-typeset .mg-card__media img {
   aspect-ratio: 3 / 2;
   object-fit: cover;
@@ -256,10 +254,11 @@
    the bottom-right corner already carries the photo count gallery-lightbox.js
    adds. Square and flat, like every other badge here.
 
-   One rule for both card recipes: /rubbers/ says "In stock" or "Proxy buy" in
-   the same words the blade cards do, so it has to look the same. extra.css
-   draws its own, smaller, mixed-case version for the pre-owned badge and this
-   file is the later one, so the card keeps the shop's badge either way. */
+   One rule for both card recipes: /blades/ and /rubbers/ say "In stock" or
+   "Proxy buy" in the same words the pre-owned cards do, so it has to look the
+   same. extra.css draws its own, smaller, mixed-case version for the pre-owned
+   badge and this file is the later one, so the card keeps the shop's badge
+   either way. */
 .md-typeset .mg-card__badge,
 .md-typeset .mg-preowned-card__badge {
   position: absolute;
@@ -289,7 +288,8 @@
   background: var(--ab-green);
 }
 
-.md-typeset .mg-card__badge--preorder {
+.md-typeset .mg-card__badge--preorder,
+.md-typeset .mg-preowned-card__badge--preorder {
   background: var(--ab-purple);
 }
 
@@ -485,26 +485,25 @@
   color: var(--ab-text-muted);
 }
 
-/* A description that outgrows the page's other cards — the Xiom Hugo Supreme
-   ALXi, which carries the whole article text — is cut at the fold and faded
-   out, and its photo link reads "Read more". javascripts/card-read-more.js
-   measures every card first, works out how many lines the page's descriptions
-   normally run to at this width, and tags only the ones past it. Four lines on
-   a desktop column, six on a phone one; a description that fits is left alone.
+/* A description that outgrows its grid is cut at the fold and faded out, and
+   its photo link reads "Read more". javascripts/card-read-more.js measures
+   every card first, works out how many lines the page's descriptions normally
+   run to at this width, and tags only the ones past it. Four lines on a
+   desktop column, six on a phone one; a description that fits is left alone.
 
-   A grid where every description is long — /setups/, eleven builds and eleven
-   paragraphs — has no such normal to measure, so it states the budget itself
-   with data-mg-clamp-fixed and the number lives here, where it can change with
-   the column. The script reads it back off the cascade; nothing is duplicated
-   in the JS.
+   /gear/ is the only page left with descriptions at all — the builds and the
+   blades that cannot be priced, twenty-one paragraphs with no one-line card
+   among them to take a median from — so it states the budget itself with
+   data-mg-clamp-fixed and the number lives here, where it can change with the
+   column. The script reads it back off the cascade; nothing is duplicated in
+   the JS, and the measuring path above is there for the next page that does
+   have a mix of long and short cards.
 
-   One line less than /blades/ takes, and that is what makes the two pages'
-   cards the same size: a build's name is three parts and wraps to three lines
-   where a blade's two, and a 26px title line is 30px against the 22.5px a line
-   of description costs. Three lines here, five in the narrow column, leaves
-   /setups/ at 556px against /blades/'s 549 (546 against 538 on a phone). Four
-   would have put it at 579 — one title line taller than the page it is meant
-   to match, which is the gap this replaced. */
+   The number is three lines, five in the narrow column. It was measured when
+   /blades/ shared this recipe and the two pages' cards were meant to be the
+   same height; /blades/ is a pre-owned grid now, and what the budget still
+   buys is a grid of one height — no card stretches to the longest write-up,
+   and the ones that are cut say so with "Read more". */
 .md-typeset .mg-card-grid[data-mg-clamp-fixed] {
   --mg-clamp-lines: 3;
 }
@@ -625,15 +624,15 @@
 /* ---------------------------------------------------------------------------
    4. Grids — each states its rung on the title ladder.
 
-   2 columns   ~464px   title 26px   (guide cards, blades, setups)
+   2 columns   ~464px   title 26px   (guide cards, /gear/)
    3 columns   ~307px   title 17px   (every other shop grid)
    4 columns   ~225px   title 14px   (home tiles, Hot Gear, brand wall)
 --------------------------------------------------------------------------- */
 
-/* blades / setups: 2 up, the /gear/ arrangement. At 470px a card holds a
-   portrait media band, and its title set at 26px needs the wider column — at
-   307px the same titles wrapped to three lines. /rubbers/ and /add-ons/ used
-   to sit here; both are written in the pre-owned recipe now and take the 3-up
+/* /gear/: 2 up. At 470px a card holds a portrait media
+   band, and its title set at 26px needs the wider column — at 307px the same
+   titles wrapped to three lines. /blades/, /rubbers/ and /add-ons/ used to sit
+   here; all three are written in the pre-owned recipe now and take the 3-up
    rung with the rest of the shop. */
 .md-typeset .mg-card-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -848,6 +847,16 @@
 .md-typeset .mg-preowned-grid--rubbers .mg-preowned-card__media > img {
   object-position: top;
 }
+
+/* The blades take the default, which is the middle of the picture — and that
+   was decided, not overlooked. A blade is shot held up or lying on its box,
+   and what identifies it is the face and the print on it, which sits around
+   the middle of the frame; a portrait shot then gives up the empty table above
+   the blade and the hand below it. An anchor at the top was measured against
+   this: it keeps the print but takes the whole handle off, and a handle says
+   less about a blade than the face does. Eight of the thirty-seven photos are
+   portrait and the rest are square or landscape, which the square crops across
+   rather than down — a vertical anchor never moves those at all. */
 
 /* How many photos there are, written on the picture — the count the thumbnail
    strip used to demonstrate by showing them. Flat and square like the other
