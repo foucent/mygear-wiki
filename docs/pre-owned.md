@@ -30,20 +30,7 @@ hide:
     </div>
   </section>
 
-  <section class="mg-home-help">
-    <p class="mg-home-help__links">
-      <a href="/blades/">Blades</a>
-      <a href="/rubbers/">Rubbers</a>
-      <a href="/FAQ/">FAQ &amp; Shipping</a>
-    </p>
-  </section>
-
 </div>
-
-## Pre-owned list <span class="mg-list-meta">USD prices · Updated 30 Sep 2026</span>
-
-<p class="mg-preowned-showing" markdown="0">Loading results…</p>
-<p class="mg-price-legend" markdown="0"><span class="mg-price-legend__stock">Available (<span class="mg-preowned-count">—</span> items)</span><span class="mg-price-legend__sold">Sold / Out of stock</span></p>
 
 <div class="mg-price-table mg-price-table--preowned mg-price-table--nopager" markdown="0">
 <table>
@@ -248,12 +235,12 @@ hide:
 <tr>
       <td><img src="/images/viscaria-golden003/01.thumb.webp" data-full-src="/images/viscaria-golden003/01.webp" srcset="/images/viscaria-golden003/01.thumb-240.webp 180w, /images/viscaria-golden003/01.thumb-480.webp 360w, /images/viscaria-golden003/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Viscaria Golden | CN | T-Code | 95.2g" loading="lazy" data-gallery="/images/viscaria-golden003/01.webp,/images/viscaria-golden003/02.jpg,/images/viscaria-golden003/03.jpg,/images/viscaria-golden003/04.jpg,/images/viscaria-golden003/05.jpg,/images/viscaria-golden003/06.jpg"></td>
       <td>Viscaria Golden | CN | T-Code | 95.2g</td>
-      <td style="text-align:right">$523</td>
+      <td style="text-align:right"><del>$523</del></td>
     </tr>
 <tr>
       <td><img src="/images/viscaria-golden-006/01.thumb.webp" data-full-src="/images/viscaria-golden-006/01.jpg" srcset="/images/viscaria-golden-006/01.thumb-240.webp 180w, /images/viscaria-golden-006/01.thumb-480.webp 360w, /images/viscaria-golden-006/01.thumb.webp 540w, /images/viscaria-golden-006/01.jpg 790w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Viscaria Golden | CN | T-Code" loading="lazy" data-gallery="/images/viscaria-golden-006/01.jpg,/images/viscaria-golden-006/02.jpg,/images/viscaria-golden-006/03.jpg,/images/viscaria-golden-006/04.jpg,/images/viscaria-golden-006/05.jpg,/images/viscaria-golden-006/06.jpg,/images/viscaria-golden-006/07.jpg"></td>
       <td>Viscaria Golden | CN | T-Code</td>
-      <td style="text-align:right">$518</td>
+      <td style="text-align:right"><del>$518</del></td>
     </tr>
 <tr>
       <td><img src="/images/viscaria-golden-t-code/01.thumb.webp" data-full-src="/images/viscaria-golden-t-code/01.jpg" srcset="/images/viscaria-golden-t-code/01.thumb-240.webp 180w, /images/viscaria-golden-t-code/01.thumb-480.webp 360w, /images/viscaria-golden-t-code/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Viscaria Golden | CN | T-Code | 93.5g" loading="lazy" data-gallery="/images/viscaria-golden-t-code/01.jpg,/images/viscaria-golden-t-code/02.jpg,/images/viscaria-golden-t-code/03.jpg,/images/viscaria-golden-t-code/05.jpg,/images/viscaria-golden-t-code/06.jpg,/images/viscaria-golden-t-code/07.jpg,/images/viscaria-golden-t-code/08.jpg"></td>
@@ -824,6 +811,11 @@ hide:
       <td><img src="/images/zhang-jk-szlc-v-code-cn-95g/01.jpg" alt="Zhang JK SZLC | V-Code | CN | 95g | Without box" loading="lazy" data-gallery="/images/zhang-jk-szlc-v-code-cn-95g/01.jpg,/images/zhang-jk-szlc-v-code-cn-95g/02.jpg,/images/zhang-jk-szlc-v-code-cn-95g/03.jpg,/images/zhang-jk-szlc-v-code-cn-95g/04.jpg,/images/zhang-jk-szlc-v-code-cn-95g/05.jpg,/images/zhang-jk-szlc-v-code-cn-95g/06.jpg,/images/zhang-jk-szlc-v-code-cn-95g/07.jpg,/images/zhang-jk-szlc-v-code-cn-95g/08.jpg"></td>
       <td>Zhang JK SZLC | V-Code | CN | 95g | Without box</td>
       <td style="text-align:right">$213</td>
+    </tr>
+<tr data-added="2026-10-02">
+      <td><img src="/images/viscaria-golden-cn-x-code-92g/01.jpg" alt="Viscaria Golden | CN | X-Code | 92g" loading="lazy" data-gallery="/images/viscaria-golden-cn-x-code-92g/01.jpg,/images/viscaria-golden-cn-x-code-92g/02.jpg,/images/viscaria-golden-cn-x-code-92g/03.jpg,/images/viscaria-golden-cn-x-code-92g/04.jpg,/images/viscaria-golden-cn-x-code-92g/05.jpg,/images/viscaria-golden-cn-x-code-92g/06.jpg"></td>
+      <td>Viscaria Golden | CN | X-Code | 92g</td>
+      <td style="text-align:right">$618</td>
     </tr>
 <tr>
       <td><img src="/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/01.thumb.webp" data-full-src="/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/01.jpg" srcset="/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/01.thumb-240.webp 180w, /images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/01.thumb-480.webp 360w, /images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/01.thumb.webp 540w, /images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/01.jpg 790w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Yinhe PRK Choi Hyun Hwa North Korea Team Special | 90g" loading="lazy" data-gallery="/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/01.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/02.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/03.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/04.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/05.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/06.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/07.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/08.jpg"></td>
