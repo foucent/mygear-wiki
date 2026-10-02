@@ -131,6 +131,20 @@
     });
   }
 
+  // The lines the shop pushes, which sit right below the newest uploads instead
+  // of in their alphabetical place. Matched against the card's own name, so a
+  // W968 or a Viscaria Golden added to the table later lands here on its own —
+  // nobody has to remember to move it, and the rule survives a re-sorted table.
+  // Only available listings are promoted: a sold one stays in the sold run
+  // under the "Recently sold" rule, where a buyer reads it as a record.
+  var FEATURED_LINES = [/w968/i, /viscaria\s+golden/i];
+
+  function isFeatured(name) {
+    return FEATURED_LINES.some(function (re) {
+      return re.test(name);
+    });
+  }
+
   function buildGrid() {
     var wrap = $(".mg-price-table--preowned");
     if (!wrap || wrap.dataset.mgGridReady === "1") return;
@@ -145,6 +159,7 @@
     var available = 0;
     var total = 0;
     var newItems = [];
+    var featuredItems = [];
     var oldItems = [];
     var soldCards = [];
 
@@ -244,11 +259,15 @@
       if (sold) soldCards.push(card);
       else if (isNew)
         newItems.push({ card: card, name: name, days: daysAdded });
+      else if (isFeatured(name)) featuredItems.push({ card: card, name: name });
       else oldItems.push({ card: card, name: name });
     });
 
     newItems.sort(function (a, b) {
       if (a.days !== b.days) return a.days - b.days;
+      return nameCompare(a.name, b.name);
+    });
+    featuredItems.sort(function (a, b) {
       return nameCompare(a.name, b.name);
     });
     oldItems.sort(function (a, b) {
@@ -259,12 +278,34 @@
     newItems.forEach(function (item) {
       allCards.push(item.card);
     });
+    featuredItems.forEach(function (item) {
+      allCards.push(item.card);
+    });
     oldItems.forEach(function (item) {
       allCards.push(item.card);
     });
     soldCards.forEach(function (card) {
       allCards.push(card);
     });
+
+    // Where the sold run starts. A sold card is not stock — it is a record of
+    // what a blade like this actually went for and in what condition — so the
+    // two runs are split by a rule carrying that sentence. Built only when
+    // there is a sold run: a caption over nothing would be a lie.
+    var availableCount =
+      newItems.length + featuredItems.length + oldItems.length;
+    var divider = null;
+    if (soldCards.length) {
+      divider = document.createElement("div");
+      divider.className = "mg-preowned-divider";
+      divider.setAttribute("role", "presentation");
+      divider.hidden = true;
+      divider.innerHTML =
+        '<span class="mg-preowned-divider__text">' +
+        '<b class="mg-preowned-divider__label">Recently sold</b>' +
+        '<span class="mg-preowned-divider__note">For reference on price and condition</span>' +
+        "</span>";
+    }
 
     wrap.appendChild(grid);
 
@@ -290,14 +331,19 @@
       n = Math.min(n, allCards.length);
       for (var i = visible; i < n; i++) allCards[i].hidden = false;
       visible = n;
+      // The rule belongs to the sold run, so it arrives with the first sold
+      // card rather than sitting over a batch of listings that are all still
+      // available.
+      if (divider) divider.hidden = n <= availableCount;
       if (visible >= allCards.length) {
         sentinel.hidden = true;
         if (observer) observer.disconnect();
       }
     }
 
-    allCards.forEach(function (card) {
+    allCards.forEach(function (card, i) {
       card.hidden = true;
+      if (divider && i === availableCount) grid.appendChild(divider);
       grid.appendChild(card);
     });
     grid.appendChild(sentinel);

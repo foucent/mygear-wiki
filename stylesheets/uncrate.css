@@ -489,25 +489,52 @@
    out, and its photo link reads "Read more". javascripts/card-read-more.js
    measures every card first, works out how many lines the page's descriptions
    normally run to at this width, and tags only the ones past it. Four lines on
-   a desktop column, six on a phone one; a description that fits is left alone. */
+   a desktop column, six on a phone one; a description that fits is left alone.
+
+   A grid where every description is long — /setups/, eleven builds and eleven
+   paragraphs — has no such normal to measure, so it states the budget itself
+   with data-mg-clamp-fixed and the number lives here, where it can change with
+   the column. The script reads it back off the cascade; nothing is duplicated
+   in the JS.
+
+   One line less than /blades/ takes, and that is what makes the two pages'
+   cards the same size: a build's name is three parts and wraps to three lines
+   where a blade's two, and a 26px title line is 30px against the 22.5px a line
+   of description costs. Three lines here, five in the narrow column, leaves
+   /setups/ at 556px against /blades/'s 549 (546 against 538 on a phone). Four
+   would have put it at 579 — one title line taller than the page it is meant
+   to match, which is the gap this replaced. */
+.md-typeset .mg-card-grid[data-mg-clamp-fixed] {
+  --mg-clamp-lines: 3;
+}
+
+@media (max-width: 759.98px) {
+  .md-typeset .mg-card-grid[data-mg-clamp-fixed] {
+    --mg-clamp-lines: 5;
+  }
+}
 .md-typeset .mg-card__desc--clamp {
   position: relative;
   max-height: calc(var(--mg-clamp-lines, 4) * 1.5em);
   overflow: hidden;
-}
-
-/* The last line runs out under the panel colour rather than ending on a hard
-   edge, which is what tells the eye the paragraph continues. Horizontal, so it
-   fades the end of the line and not the line above it. */
-.md-typeset .mg-card__desc--clamp::after {
-  content: "";
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 5em;
-  height: 1.5em;
-  background: linear-gradient(to right, transparent, var(--ab-panel) 75%);
-  pointer-events: none;
+  /* The line the fold cuts is dropped to a ghost — the whole line, not its
+     tail. Fading the tail alone left the rest of the sentence readable and the
+     cut looked like a typo: the reader got most of the line and lost the last
+     word. The mask steps down at the line box above, so every full line stays
+     solid and this one is uniformly faint: no word of it reads on its own, and
+     a line-shaped ghost is what says the paragraph goes on. */
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    #000 calc(100% - 1.5em),
+    rgba(0, 0, 0, 0.18) calc(100% - 1.5em),
+    rgba(0, 0, 0, 0.1) 100%
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    #000 calc(100% - 1.5em),
+    rgba(0, 0, 0, 0.18) calc(100% - 1.5em),
+    rgba(0, 0, 0, 0.1) 100%
+  );
 }
 
 /* Opened, the paragraph covers the card instead of growing it. Growing would
@@ -546,8 +573,9 @@
   z-index: 3;
 }
 
-.md-typeset .mg-card__desc--clamp.is-open::after {
-  display: none;
+.md-typeset .mg-card__desc--clamp.is-open {
+  -webkit-mask-image: none;
+  mask-image: none;
 }
 
 /* The band is only ~230px tall once the column narrows and the same paragraph
@@ -779,8 +807,92 @@
   background: var(--ab-panel);
 }
 
-.mg-preowned-card__thumbs {
-  margin: 6px 0 0;
+/* Pre-owned listings only — the shop grids (--shop: blades, rubbers, add-ons)
+   keep the full-width band. Their photographs are the product, shot to be read
+   whole; a listing's photo is one board face among eight, and the card reads
+   better as a 240px square with its name, price and action under it than as a
+   305px band with a strip of thumbnails taking the height of the copy again.
+   The square is centred, so the 305px card leaves it a gutter each side, and
+   capped at the card's own width so the two-up phone grid still fills. */
+.mg-preowned-grid:not(.mg-preowned-grid--shop) .mg-preowned-card__media {
+  width: 240px;
+  max-width: 100%;
+  margin: 16px auto 0;
+  border-bottom: 0;
+  border-radius: 0.55rem;
+}
+
+/* How many photos there are, written on the picture — the count the thumbnail
+   strip used to demonstrate by showing them. Flat and square like the other
+   pre-owned tags, and click-through so the picture stays the click target. */
+.md-typeset .mg-preowned-card__count {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.5rem;
+  z-index: 2;
+  min-width: 1.5rem;
+  padding: 0.18rem 0.35rem;
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0.72);
+  color: #fff;
+  font-family: var(--ab-sans);
+  font-size: 0.72rem;
+  font-weight: 800;
+  line-height: 1.15;
+  text-align: center;
+  pointer-events: none;
+}
+
+/* The rule and caption that split the sold run off the available one. It is a
+   grid item, so `1 / -1` spans every column of the two- and three-up grid; the
+   hairlines are generated either side so the caption stands on the line rather
+   than next to it. preowned-grid.js reveals it with the first sold card — a
+   caption over nothing would be a lie — and so restates [hidden], because the
+   display here would otherwise out-rank the user agent's own rule. */
+.md-typeset .mg-preowned-divider {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 10px 0 0;
+}
+
+.md-typeset .mg-preowned-divider[hidden] {
+  display: none !important;
+}
+
+.mg-preowned-divider::before,
+.mg-preowned-divider::after {
+  content: "";
+  flex: 1 1 24px;
+  min-width: 12px;
+  height: 1px;
+  background: var(--ab-line);
+}
+
+.mg-preowned-divider__text {
+  flex: 0 1 auto;
+  font-family: var(--ab-sans);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--ab-text-muted);
+}
+
+.md-typeset .mg-preowned-divider__label {
+  display: block;
+  color: var(--ab-text);
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.mg-preowned-divider__note {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 0;
 }
 
 .md-typeset .mg-preowned-card__title {
@@ -915,15 +1027,6 @@
 
 .mg-price-sold-tag {
   background: var(--ab-red);
-}
-
-.md-typeset .mg-preowned-card__thumb,
-.mg-preowned-card__thumb {
-  border-radius: 0;
-}
-
-.md-typeset .mg-preowned-card__thumb.is-active {
-  border-color: var(--ab-accent-deep);
 }
 
 /* ---------------------------------------------------------------------------
