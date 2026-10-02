@@ -53,8 +53,11 @@ plugins:
         # pointing at it (search results, inbound links, the sitemap's history).
         updates-reviews.md: updates.md
         # /top-picks/ became /setups/ when its blades and rubbers moved to
-        # /blades/ and /rubbers/. The stub keeps the old URL alive.
-        top-picks.md: setups.md
+        # /blades/ and /rubbers/, and /setups/ became /gear/ when the page was
+        # renamed. Both stubs keep the older URLs alive. The first one points
+        # straight at gear/index.md rather than chaining through /setups/.
+        top-picks.md: gear/index.md
+        setups.md: gear/index.md
         getting-started/basic-questions.md: guide/essential-questions-before-buying.md
         getting-started/essential-questions-before-buying.md: guide/essential-questions-before-buying.md
         getting-started/blade-performance-metrics.md: guide/blade-performance-metrics.md
@@ -207,11 +210,18 @@ extra:
 # 导航配置在这里
 nav:
   - Home: index.md
-  # Setups leads the shop row: it is where a blade and its rubbers get put
+  # Gear leads the shop row: it is where a blade and its rubbers get put
   # together and quoted as one package. The seven selected blades and fourteen
   # rubber models that used to sit on it now live on Blades and Rubbers, where
-  # they can be compared with everything else of their kind.
-  - Setups: setups.md
+  # they can be compared with everything else of their kind — and the blades
+  # that have no price to compare (nobody stocks them) came back the other way,
+  # because Blades is a price list and can only hold a card with a price on it.
+  #
+  # gear/index.md is this page. That directory is also where the twenty-four
+  # product and brand pages live (/gear/viscaria/, /gear/butterfly/, …); they
+  # stay out of the nav and keep the URLs they have always had, so only the bare
+  # /gear/ is new here.
+  - Gear: gear/index.md
   - Blades: blades.md
   - Rubbers: rubbers.md
   - Add-ons: add-ons.md

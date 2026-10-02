@@ -26,10 +26,10 @@ description: "Get brand-new table tennis blades, popular rubbers, and sports gea
   <section class="mg-home-cats" aria-label="Shop categories">
     <h2 class="mg-home-section-title">Shop</h2>
     <div class="mg-home-cats__grid">
-      <a class="mg-home-cat" href="/setups/">
+      <a class="mg-home-cat" href="/gear/">
         <img class="mg-home-cat__img" src="/images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb.webp" data-full-src="/images/stock-blades/brand-new-selected-fan-zhendong-golden.webp" srcset="/images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb-240.webp 180w, /images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb-480.webp 360w, /images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb.webp 540w, /images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 42vw, 174px" alt="A table tennis blade and its rubbers, put together as a setup" loading="lazy">
         <span class="mg-home-cat__body">
-          <span class="mg-home-cat__name">Setups</span>
+          <span class="mg-home-cat__name">Gear</span>
           <span class="mg-home-cat__desc">Blade + rubbers, quoted together</span>
         </span>
       </a>

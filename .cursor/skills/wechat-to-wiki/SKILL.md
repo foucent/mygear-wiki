@@ -67,7 +67,7 @@ Choose the lightest fit:
 | --- | --- |
 | Beginner buying checklist / basics / care | `docs/guide/` |
 | Metrics / feel theory / comparisons | `docs/guide/` |
-| Product photo spotlight / gear album | `docs/gear/<brand>.md` (one page per brand; `## Blades` / `## Rubbers`; hero + thumbs) |
+| Product photo spotlight / gear album | `docs/gear/<brand>.md` (one page per brand; `## Blades` / `## Rubbers`; hero + thumbs). Note `docs/gear/index.md` is the shop's Gear page, the one entry of that directory in the nav — it is not a product page |
 | Product review / gear debate (long-form) | `docs/guide/<topic>.md` |
 | Shop FAQ & Updates / Pricing & Sourcing / Shipping & Delivery | `docs/shop/` |
 | Training / improvement | create `docs/technique-growth/` + nav if needed |

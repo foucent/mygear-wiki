@@ -1,5 +1,5 @@
 ---
-title: "Table Tennis Setups — Pro Rackets, Iconic Combos & Custom Builds | MyGear.Top"
+title: "Table Tennis Gear — Pro Rackets, Iconic Combos & Custom Builds | MyGear.Top"
 icon: material/star
 description: "Pro player rackets, iconic combos and community custom builds at MyGear.Top — send us your racket specs on WhatsApp and tell us how it plays."
 hide:
@@ -8,7 +8,7 @@ hide:
 
 <div class="mg-shop" markdown="0">
 
-  <section class="mg-home-hero mg-home-hero--shop mg-hero-slides" aria-label="Table tennis setups">
+  <section class="mg-home-hero mg-home-hero--shop mg-hero-slides" aria-label="Table tennis gear">
     <div class="mg-hero-slides__track" aria-hidden="true">
       <img class="mg-hero-slides__img is-active" src="/images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb.webp" data-full-src="/images/stock-blades/brand-new-selected-fan-zhendong-golden.webp" srcset="/images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb-240.webp 180w, /images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb-480.webp 360w, /images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb.webp 540w, /images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 96vw, 960px" alt="" width="1200" height="900" decoding="async" fetchpriority="high">
       <img class="mg-hero-slides__img" src="/images/stock-rubbers/butterfly-dignics-09c.thumb.webp" data-full-src="/images/stock-rubbers/butterfly-dignics-09c.webp" srcset="/images/stock-rubbers/butterfly-dignics-09c.thumb-480.webp 480w, /images/stock-rubbers/butterfly-dignics-09c.thumb.webp 720w, /images/stock-rubbers/butterfly-dignics-09c.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 96vw, 960px" alt="" width="1200" height="900" decoding="async" loading="lazy">
@@ -19,7 +19,7 @@ hide:
     </div>
     <div class="mg-home-hero__inner">
       <p class="mg-home-hero__brand">MyGear.Top</p>
-      <h1 class="mg-home-hero__title">Setups</h1>
+      <h1 class="mg-home-hero__title">Gear</h1>
       <p class="mg-home-hero__lead">Pro player rackets, iconic combos, and community custom builds. Want to showcase your setup? Send us your racket specs and tell us how it plays on WhatsApp!</p>
       <div class="mg-home-hero__actions">
         <a class="mg-home-hero__btn mg-home-hero__btn--primary" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20to%20showcase%20my%20setup.%0D%0A%0D%0ARacket%20specs%3A%0D%0AHow%20it%20plays%3A%0D%0A%0D%0A">Send us your setup</a>
@@ -30,11 +30,11 @@ hide:
 
 </div>
 
-<!-- data-mg-clamp-fixed: these cards are showcases, not a price list, so there
-     is no one-line description here to take a median from — every build's
-     paragraph runs to several lines. The grid states the budget instead (three
-     lines, five on a phone, in uncrate.css), which is what makes these cards
-     the same size as /blades/'s. See card-read-more.js. -->
+<!-- data-mg-clamp-fixed: these cards are showcases and enquiries, not a price
+     list, so there is no one-line description here to take a median from —
+     every paragraph runs to several lines. The grid states the budget instead
+     (three lines, five on a phone, in uncrate.css), which is what makes these
+     cards the same size as /blades/'s. See card-read-more.js. -->
 <div class="mg-card-grid" markdown="0" data-mg-clamp-fixed>
 
   <!-- The first setup on the page. The photos came with the racket; the
@@ -261,6 +261,188 @@ hide:
         <a class="mg-card__zoom" href="/images/mizutani-jun-zlc-vega-china/01.jpg">View 6 photos</a>
         <em class="mg-card__or">or</em>
         <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20Mizutani%20Jun%20ZLC%20with%20XIOM%20Vega%20China%20VM%20on%20both%20sides.%0D%0A%0D%0AShip%20to%20%28city%20%2F%20postal%20code%29%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>
+      </p>
+    </div>
+  </article>
+
+  <!-- The blades that cannot be priced: nobody stocks them, so there is no
+       listing to quote from and the action is an enquiry rather than a cart
+       line. They close the grid. Kindred cards, but not the same kind of
+       card: a build above is a showcase of parts that are for sale, these
+       are single products waiting on a price, and none of them carries a
+       corner badge — the badge says how a priced item is bought, and a card
+       whose action is a question has nothing for it to mark. They came from
+       /blades/, which is a price list and can only hold a card with a price
+       on it. -->
+
+  <!-- No price for this one: Xiom sells it through its own channels and has not
+       published a list price, so the action is an enquiry rather than a cart
+       line. The description is the supplied article text kept whole — the
+       longest on the page, so it is one of the paragraphs this grid's line
+       budget clips into "Read more". -->
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/xiom-hugo-supreme-alxi/01.thumb.webp" data-full-src="/images/xiom-hugo-supreme-alxi/01.jpg" srcset="/images/xiom-hugo-supreme-alxi/01.thumb-480.webp 480w, /images/xiom-hugo-supreme-alxi/01.thumb.webp 720w, /images/xiom-hugo-supreme-alxi/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Xiom Hugo Supreme ALXi" loading="lazy" decoding="async" data-gallery="/images/xiom-hugo-supreme-alxi/01.jpg,/images/xiom-hugo-supreme-alxi/02.jpg,/images/xiom-hugo-supreme-alxi/03.jpg,/images/xiom-hugo-supreme-alxi/04.jpg,/images/xiom-hugo-supreme-alxi/05.jpg,/images/xiom-hugo-supreme-alxi/06.jpg,/images/xiom-hugo-supreme-alxi/07.jpg,/images/xiom-hugo-supreme-alxi/08.jpg,/images/xiom-hugo-supreme-alxi/09.jpg,/images/xiom-hugo-supreme-alxi/10.jpg,/images/xiom-hugo-supreme-alxi/11.jpg,/images/xiom-hugo-supreme-alxi/12.jpg,/images/xiom-hugo-supreme-alxi/13.jpg,/images/xiom-hugo-supreme-alxi/14.jpg,/images/xiom-hugo-supreme-alxi/15.jpg">
+    </div>
+    <div class="mg-card__copy">
+      <h3 class="mg-card__title">Xiom Hugo Supreme ALXi</h3>
+      <p class="mg-card__desc">As one of the final high-end signature blades crafted by Xiom for Hugo Calderano before his move to JOOLA, the Supreme ALXi represents a pinnacle of inner-composite engineering. With Hugo&rsquo;s signature lineup continuing to generate massive buzz across the table tennis community, this masterpiece remains an iconic legacy blade celebrated for its sublime touch, power, and precise feedback.</p>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/xiom-hugo-supreme-alxi/01.jpg">View 15 photos</a>
+        <em class="mg-card__or">or</em>
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Xiom%20Hugo%20Supreme%20ALXi%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask the price</a>
+      </p>
+    </div>
+  </article>
+
+  <!-- No price on this one: Victas has not published one for this model,
+       so the action is an enquiry rather than a cart line. -->
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/victas-quartet-afc/01.thumb.webp" data-full-src="/images/victas-quartet-afc/01.jpg" srcset="/images/victas-quartet-afc/01.thumb-480.webp 480w, /images/victas-quartet-afc/01.thumb.webp 720w, /images/victas-quartet-afc/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Victas Quartet AFC" loading="lazy" decoding="async" data-gallery="/images/victas-quartet-afc/01.jpg,/images/victas-quartet-afc/02.jpg,/images/victas-quartet-afc/03.jpg,/images/victas-quartet-afc/04.jpg,/images/victas-quartet-afc/05.jpg,/images/victas-quartet-afc/06.jpg,/images/victas-quartet-afc/07.jpg">
+    </div>
+    <div class="mg-card__copy">
+      <h3 class="mg-card__title">Victas Quartet AFC</h3>
+      <p class="mg-card__desc">The 4-fiber Quartet series is arguably Victas&rsquo; most iconic lineup &mdash; built for supreme feel and precision over raw power. Trusted by players like Koki Niwa, it paved the way for top-tier signature blades like the Koki Niwa Carbon and Duda AFC.</p>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/victas-quartet-afc/01.jpg">View 7 photos</a>
+        <em class="mg-card__or">or</em>
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Victas%20Quartet%20AFC%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask the price</a>
+      </p>
+    </div>
+  </article>
+
+  <!-- No price, for the other reason a card can have none:
+       nobody stocks this blade, so there is no listing to quote from. The CO
+       handle is the whole argument for it, which is why it leads the photos. -->
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/stiga-maplewood-v/01.thumb.webp" data-full-src="/images/stiga-maplewood-v/01.jpg" srcset="/images/stiga-maplewood-v/01.thumb-480.webp 480w, /images/stiga-maplewood-v/01.thumb.webp 720w, /images/stiga-maplewood-v/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 88vw, 468px" alt="STIGA Maplewood V" loading="lazy" decoding="async" data-gallery="/images/stiga-maplewood-v/01.jpg,/images/stiga-maplewood-v/02.jpg,/images/stiga-maplewood-v/03.jpg,/images/stiga-maplewood-v/04.jpg,/images/stiga-maplewood-v/05.jpg,/images/stiga-maplewood-v/06.jpg,/images/stiga-maplewood-v/07.jpg,/images/stiga-maplewood-v/08.jpg,/images/stiga-maplewood-v/09.jpg,/images/stiga-maplewood-v/10.jpg">
+    </div>
+    <div class="mg-card__copy">
+      <h3 class="mg-card__title">STIGA Maplewood V</h3>
+  <!-- Condensed from the folder's own write-up, and cut to the budget this
+       grid states for itself (three lines here, five on a phone, in
+       uncrate.css) rather than by word count: the card keeps its photo count
+       — "View 10 photos" — for exactly as long as the text fits that budget,
+       and reads "Read more" the moment it does not. -->
+      <p class="mg-card__desc">STIGA missed the composite boom and answered with hardwood-faced all-wood blades. Maple over spruce over ayous: a much-derided structure almost nobody plays &mdash; kept alive by its rare CO handle.</p>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/stiga-maplewood-v/01.jpg">View 10 photos</a>
+        <em class="mg-card__or">or</em>
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20STIGA%20Maplewood%20V%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask the price</a>
+      </p>
+    </div>
+  </article>
+
+  <!-- The Butterfly gallery's blades. None of them has a listing behind it to
+       quote from, so each one asks for a price rather than offering a cart line,
+       and the photos are the ones already on the Butterfly page. The handle note
+       in each description is the same thing the gallery says about it, kept
+       because handle shape is most of what separates two copies of the same
+       model. -->
+
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/butterfly-chuang-chih-yuan-gold/01.thumb.webp" data-full-src="/images/butterfly-chuang-chih-yuan-gold/01.jpg" srcset="/images/butterfly-chuang-chih-yuan-gold/01.thumb-480.webp 480w, /images/butterfly-chuang-chih-yuan-gold/01.thumb.webp 720w, /images/butterfly-chuang-chih-yuan-gold/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Butterfly Chuang Chih-Yuan Gold" loading="lazy" decoding="async" data-gallery="/images/butterfly-chuang-chih-yuan-gold/01.jpg,/images/butterfly-chuang-chih-yuan-gold/02.jpg,/images/butterfly-chuang-chih-yuan-gold/03.jpg,/images/butterfly-chuang-chih-yuan-gold/04.webp">
+    </div>
+    <div class="mg-card__copy">
+      <h3 class="mg-card__title">Butterfly Chuang Chih-Yuan Gold</h3>
+      <p class="mg-card__desc">An early Chuang Chih-Yuan signature, from the run that still carried the gold label. Outer ALC under a wood face &mdash; the composite structure behind two decades of Chuang&rsquo;s blocking game. Shakehand FL handle.</p>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/butterfly-chuang-chih-yuan-gold/01.jpg">View 4 photos</a>
+        <em class="mg-card__or">or</em>
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Butterfly%20Chuang%20Chih-Yuan%20Gold%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask the price</a>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/butterfly-guo-yue/01.thumb.webp" data-full-src="/images/butterfly-guo-yue/01.webp" srcset="/images/butterfly-guo-yue/01.thumb-480.webp 480w, /images/butterfly-guo-yue/01.thumb.webp 720w, /images/butterfly-guo-yue/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Butterfly Guo Yue" loading="lazy" decoding="async" data-gallery="/images/butterfly-guo-yue/01.webp,/images/butterfly-guo-yue/02.webp">
+    </div>
+    <div class="mg-card__copy">
+      <h3 class="mg-card__title">Butterfly Guo Yue</h3>
+      <p class="mg-card__desc">Guo Yue&rsquo;s signature blank, built in the OC mould: limba over a thick ayous core, the all-wood recipe that made that series a benchmark for looping feel. A bare blade. Shakehand FL handle.</p>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/butterfly-guo-yue/01.webp">View 2 photos</a>
+        <em class="mg-card__or">or</em>
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Butterfly%20Guo%20Yue%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask the price</a>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/butterfly-hadraw-sk/01.thumb.webp" data-full-src="/images/butterfly-hadraw-sk/01.jpg" srcset="/images/butterfly-hadraw-sk/01.thumb-480.webp 480w, /images/butterfly-hadraw-sk/01.thumb.webp 720w, /images/butterfly-hadraw-sk/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Butterfly Hadraw SK" loading="lazy" decoding="async" data-gallery="/images/butterfly-hadraw-sk/01.jpg,/images/butterfly-hadraw-sk/02.jpg,/images/butterfly-hadraw-sk/03.jpg,/images/butterfly-hadraw-sk/04.jpg">
+    </div>
+    <div class="mg-card__copy">
+      <h3 class="mg-card__title">Butterfly Hadraw SK</h3>
+      <p class="mg-card__desc">A Hadraw-series blank &mdash; the wood-only line Butterfly keeps for players who want feel ahead of fibre. This one is the SK, marked by the palm-print graphic on its face. Shakehand FL handle.</p>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/butterfly-hadraw-sk/01.jpg">View 4 photos</a>
+        <em class="mg-card__or">or</em>
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Butterfly%20Hadraw%20SK%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask the price</a>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/butterfly-kong-linghui-arylate-carbon/01.thumb.webp" data-full-src="/images/butterfly-kong-linghui-arylate-carbon/01.jpg" srcset="/images/butterfly-kong-linghui-arylate-carbon/01.thumb-480.webp 480w, /images/butterfly-kong-linghui-arylate-carbon/01.thumb.webp 720w, /images/butterfly-kong-linghui-arylate-carbon/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Butterfly Kong Linghui Arylate-Carbon" loading="lazy" decoding="async" data-gallery="/images/butterfly-kong-linghui-arylate-carbon/01.jpg,/images/butterfly-kong-linghui-arylate-carbon/02.jpg,/images/butterfly-kong-linghui-arylate-carbon/03.jpg,/images/butterfly-kong-linghui-arylate-carbon/04.jpg">
+    </div>
+    <div class="mg-card__copy">
+      <h3 class="mg-card__title">Butterfly Kong Linghui Arylate-Carbon</h3>
+      <p class="mg-card__desc">Kong Linghui&rsquo;s Arylate-Carbon, from Butterfly&rsquo;s classic signature era. Almost every surviving copy is shakehand FL; this one carries the scarce AN &mdash; the anatomical grip with the waist notch.</p>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/butterfly-kong-linghui-arylate-carbon/01.jpg">View 4 photos</a>
+        <em class="mg-card__or">or</em>
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Butterfly%20Kong%20Linghui%20Arylate-Carbon%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask the price</a>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/butterfly-minions-caf/01.thumb.webp" data-full-src="/images/butterfly-minions-caf/01.jpg" srcset="/images/butterfly-minions-caf/01.thumb-480.webp 480w, /images/butterfly-minions-caf/01.thumb.webp 720w, /images/butterfly-minions-caf/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Butterfly Minions CAF" loading="lazy" decoding="async" data-gallery="/images/butterfly-minions-caf/01.jpg,/images/butterfly-minions-caf/02.jpg,/images/butterfly-minions-caf/03.jpg,/images/butterfly-minions-caf/04.jpg">
+    </div>
+    <div class="mg-card__copy">
+      <h3 class="mg-card__title">Butterfly Minions CAF</h3>
+      <p class="mg-card__desc">Butterfly&rsquo;s Despicable Me tie-in: CAF fibre under a printed face, and a collaboration blade rather than a competition one. Buyers come for the Minions graphics and the box. Shakehand FL handle.</p>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/butterfly-minions-caf/01.jpg">View 4 photos</a>
+        <em class="mg-card__or">or</em>
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Butterfly%20Minions%20CAF%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask the price</a>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/butterfly-primorac-fiber-glass/01.thumb.webp" data-full-src="/images/butterfly-primorac-fiber-glass/01.jpg" srcset="/images/butterfly-primorac-fiber-glass/01.thumb-480.webp 480w, /images/butterfly-primorac-fiber-glass/01.thumb.webp 720w, /images/butterfly-primorac-fiber-glass/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Butterfly Primorac Fiber Glass" loading="lazy" decoding="async" data-gallery="/images/butterfly-primorac-fiber-glass/01.jpg,/images/butterfly-primorac-fiber-glass/02.jpg,/images/butterfly-primorac-fiber-glass/03.jpg,/images/butterfly-primorac-fiber-glass/04.jpg">
+    </div>
+    <div class="mg-card__copy">
+      <h3 class="mg-card__title">Butterfly Primorac Fiber Glass</h3>
+      <p class="mg-card__desc">Primorac in its glass-fibre version: the limba-over-ayous frame of the all-wood original, plus a glass-fibre layer that was Butterfly&rsquo;s answer before carbon became the default. Shakehand FL handle.</p>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/butterfly-primorac-fiber-glass/01.jpg">View 4 photos</a>
+        <em class="mg-card__or">or</em>
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Butterfly%20Primorac%20Fiber%20Glass%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask the price</a>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/butterfly-schlager-light-carbon/01.thumb.webp" data-full-src="/images/butterfly-schlager-light-carbon/01.jpg" srcset="/images/butterfly-schlager-light-carbon/01.thumb-480.webp 480w, /images/butterfly-schlager-light-carbon/01.thumb.webp 720w, /images/butterfly-schlager-light-carbon/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Butterfly Schlager Light Carbon" loading="lazy" decoding="async" data-gallery="/images/butterfly-schlager-light-carbon/01.jpg,/images/butterfly-schlager-light-carbon/02.jpg,/images/butterfly-schlager-light-carbon/03.jpg,/images/butterfly-schlager-light-carbon/04.jpg">
+    </div>
+    <div class="mg-card__copy">
+      <h3 class="mg-card__title">Butterfly Schlager Light Carbon</h3>
+      <p class="mg-card__desc">The light version of Schlager&rsquo;s carbon blade: 3+2 plies, Tamca 5000 under a hinoki face, and a weight that made it a pick for close-to-the-table attackers. This copy is the straight ST handle.</p>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__zoom" href="/images/butterfly-schlager-light-carbon/01.jpg">View 4 photos</a>
+        <em class="mg-card__or">or</em>
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Butterfly%20Schlager%20Light%20Carbon%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask the price</a>
       </p>
     </div>
   </article>

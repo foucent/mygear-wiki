@@ -1,15 +1,19 @@
-/* Card copy that outgrows the page's other cards — the Xiom Hugo Supreme ALXi
- * on /blades/, which carries its article text whole — is clipped at the fold
- * and faded out, and its photo link reads "Read more" until it is opened.
+/* Card copy that outgrows its grid is clipped at the fold and faded out, and
+ * its photo link reads "Read more" until it is opened.
  *
- * "Outgrows" is measured against the page, not against a number of lines. A
- * fixed four would have been right in the wide column on /blades/ and wrong
- * everywhere else: the descriptions that are perfectly normal there wrap to six
- * lines in the narrow column, so a flat four put "Read more" on all thirty-one
- * cards on a phone. The median of the page's own descriptions is what a card
- * costs at the width it is actually being read at — and it is the height the
- * grid has settled on anyway, so a clipped card is exactly as tall as its
- * neighbours and the rows do not move.
+ * "Outgrows" is normally measured against the page, not against a number of
+ * lines. A fixed four would be right in one column and wrong in another: a
+ * description that is perfectly normal in the wide column wraps to six lines in
+ * the narrow one, so a flat four would put "Read more" on every card on a
+ * phone. The median of the page's own descriptions is what a card costs at the
+ * width it is actually being read at — and it is the height the grid has
+ * settled on anyway, so a clipped card is exactly as tall as its neighbours and
+ * the rows do not move.
+ *
+ * No page needs that measurement today: /gear/ is the only page with
+ * descriptions left — twenty-one of them, builds and blades that cannot be
+ * priced — and every one is a paragraph, so there is no median worth taking.
+ * The measuring path stays in for the next page that does have a mix.
  *
  * The paragraph then opens over the card rather than growing it: rows are 1fr,
  * and an auto-height grid resolves every 1fr row to the tallest, so a card that
@@ -21,11 +25,10 @@
  * is reached by clicking it with the text closed, the way every other card
  * works.
  *
- * A grid whose descriptions are all long has no median worth taking — /setups/
- * is eleven builds and every one of them is a paragraph — so it states its own
- * budget with data-mg-clamp-fixed. That number lives in uncrate.css, where the
- * media query that changes it with the column also lives, and this file reads it
- * back off the cascade rather than keeping a second copy of it in step.
+ * A grid whose descriptions are all long states its own budget with
+ * data-mg-clamp-fixed. That number lives in uncrate.css, where the media query
+ * that changes it with the column also lives, and this file reads it back off
+ * the cascade rather than keeping a second copy of it in step.
  */
 (function () {
   var CLAMP = "mg-card__desc--clamp";
