@@ -1494,7 +1494,8 @@ body.mg-cart-open {
    The /gear/ card anatomy: image over a bordered white panel, a small
    uppercase category label with a tan rule under it, an uppercase title, a
    price, and a centred action line reading "X or Y". The homepage guide cards
-   are built to the same recipe, so the two grids read as one system. */
+   are built to the same recipe — same anatomy, minus the label and the price —
+   and laid out by this same grid, so the two read as one system. */
 .mg-card-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -3377,144 +3378,39 @@ html.md-no-js .md-typeset .mg-bio__toggle {
 }
 
 /* ---------------------------------------------------------------------------
-   Uncrate-style guide cards (homepage "Guides worth reading")
-   Layout mimics uncrate.com: thumbnail image, small uppercase category with a
-   gold rule, big uppercase title, serif excerpt, "Read More" link — 2-col grid.
+   Homepage "Guides worth reading" — the section.
+
+   The cards themselves are /gear/'s .mg-card recipe, built by
+   javascripts/guide-grid.js and laid out by .mg-card-grid, so a guide and a
+   build read as one system and no card anatomy is written twice. Only the
+   section's own furniture is here: the wrapper the h2 above it is scoped to,
+   the sentinel that loads the next batch, and the status line.
 --------------------------------------------------------------------------- */
 .md-typeset .mg-guides {
   margin: 0.2rem 0 0.5rem;
 }
-.md-typeset .mg-guides__grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  /* 1fr rows + stretch: every card ends up the same size. */
-  grid-auto-rows: 1fr;
-  gap: 2.2rem 1.6rem;
-  align-items: stretch;
-  margin: 0;
+
+/* A guide's picture is one photo, not a gallery: gallery-lightbox.js binds the
+   containers it knows about before guide-grid.js has built these cards, so
+   nothing is listening for the click and .mg-card__media img's zoom cursor
+   would be a promise the card does not keep. */
+.md-typeset .mg-guides .mg-card__media img {
+  cursor: default;
 }
-.md-typeset .mg-guide-card {
-  display: flex;
-  flex-direction: column;
+
+/* The title is a link here — a shop card puts its one on the action line — so
+   it takes the card's ink rather than Material's link colour, and says it is
+   clickable on hover the way every other link on the site does. */
+.md-typeset .mg-guides .mg-card__title a {
   color: inherit;
   text-decoration: none;
-  -webkit-tap-highlight-color: transparent;
-  /* Black frame so each card reads as a separate block. */
-  border: 1px solid var(--ab-text);
-  padding: 0.85rem;
-  background: #fff;
-  transition: border-color 0.25s ease;
 }
-.md-typeset .mg-guide-card:hover,
-.md-typeset .mg-guide-card:focus {
-  border-color: #000;
-}
-.md-typeset .mg-guide-card__media {
-  position: relative;
-  overflow: hidden;
-  aspect-ratio: 4 / 3;
-  background: var(--ab-panel-2);
-  /* Fixed height — any spare card height goes to the text block instead. */
-  flex: 0 0 auto;
-}
-.md-typeset .mg-guide-card__media img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.5s ease, opacity 0.3s ease;
-}
-.md-typeset .mg-guide-card:hover .mg-guide-card__media img,
-.md-typeset .mg-guide-card:focus .mg-guide-card__media img {
-  transform: scale(1.03);
-  opacity: 0.92;
-}
-.md-typeset .mg-guide-card__body {
-  padding-top: 0.85rem;
-  display: flex;
-  flex-direction: column;
-  flex: 1 1 auto;
-}
-.md-typeset .mg-guide-card__cat {
-  display: inline-block;
-  font-family: var(--ab-sans);
-  font-size: 0.6rem;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: var(--ab-accent);
-  border-bottom: 1px solid var(--ab-accent);
-  padding-bottom: 0.22rem;
-  margin-bottom: 0.7rem;
-}
-.md-typeset .mg-guide-card__title {
-  font-family: var(--ab-sans);
-  font-size: 1.35rem;
-  font-weight: 400;
-  line-height: 1.08;
-  letter-spacing: 0.01em;
-  text-transform: uppercase;
-  color: var(--ab-text);
-  /* Reserve three lines so the title block is the same height on every card. */
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  min-height: calc(3 * 1.08em);
-}
-.md-typeset .mg-guide-card:hover .mg-guide-card__title,
-.md-typeset .mg-guide-card:focus .mg-guide-card__title {
-  color: #000;
+.md-typeset .mg-guides .mg-card__title a:hover,
+.md-typeset .mg-guides .mg-card__title a:focus {
+  color: inherit;
   text-decoration: underline;
-  text-underline-offset: 0.25em;
+  text-underline-offset: 0.2em;
   text-decoration-thickness: 1px;
-}
-.md-typeset .mg-guide-card__excerpt {
-  margin-top: 0.55rem;
-  font-family: var(--ab-serif);
-  font-size: 0.78rem;
-  line-height: 1.55;
-  color: var(--ab-text-muted);
-  /* Four lines covers the longest current excerpt, so nothing is clipped and
-     every card's text block ends at the same point. */
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  min-height: calc(4 * 1.55em);
-}
-.md-typeset .mg-guide-card__link {
-  display: inline-block;
-  align-self: flex-start;
-  /* Pushed to the bottom of the card, so the link row lines up too. */
-  margin-top: auto;
-  padding-top: 0.65rem;
-  font-family: var(--ab-sans);
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: var(--ab-accent);
-  border-bottom: 1px solid transparent;
-}
-.md-typeset .mg-guide-card:hover .mg-guide-card__link,
-.md-typeset .mg-guide-card:focus .mg-guide-card__link {
-  border-bottom-color: var(--ab-accent);
-}
-@media (max-width: 759.98px) {
-  .md-typeset .mg-guides__grid {
-    grid-template-columns: 1fr;
-    gap: 1.6rem;
-  }
-  /* Narrow screens wrap titles onto more lines; drop the reserved line counts so
-     nothing gets clipped. The 1fr rows still even every card out. */
-  .md-typeset .mg-guide-card__title,
-  .md-typeset .mg-guide-card__excerpt {
-    display: block;
-    -webkit-line-clamp: none;
-    min-height: 0;
-    overflow: visible;
-  }
 }
 
 .md-typeset .mg-guides__sentinel {

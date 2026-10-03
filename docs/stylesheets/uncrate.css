@@ -180,7 +180,6 @@
 --------------------------------------------------------------------------- */
 
 .md-typeset .mg-card,
-.md-typeset .mg-guide-card,
 .md-typeset .mg-hot-card,
 .md-typeset .mg-home-cat,
 .mg-preowned-card {
@@ -202,8 +201,6 @@
 /* The lift is the whole hover: the border colour deliberately does not
    change, which is what AceBase renders. */
 .md-typeset .mg-card:hover,
-.md-typeset .mg-guide-card:hover,
-.md-typeset .mg-guide-card:focus,
 .md-typeset .mg-hot-card:hover,
 .md-typeset .mg-home-cat:hover,
 .mg-preowned-card:hover {
@@ -218,8 +215,7 @@
    so both are set below rather than here. */
 .md-typeset .mg-card__media img,
 .md-typeset .mg-hot-card__img,
-.md-typeset .mg-home-cat__img,
-.md-typeset .mg-guide-card__media img {
+.md-typeset .mg-home-cat__img {
   display: block;
   width: 100%;
   object-fit: contain;
@@ -294,19 +290,12 @@
 }
 
 .md-typeset .mg-hot-card__img,
-.md-typeset .mg-home-cat__img,
-.md-typeset .mg-guide-card__media img {
+.md-typeset .mg-home-cat__img {
   aspect-ratio: 4 / 3;
-}
-
-.md-typeset .mg-guide-card__media {
-  aspect-ratio: auto;
-  background: var(--ab-panel);
 }
 
 /* The copy block: the family's inner 20px, on top of the card's outer one. */
 .md-typeset .mg-card__copy,
-.md-typeset .mg-guide-card__body,
 .md-typeset .mg-home-cat__body {
   display: flex;
   flex: 1 1 auto;
@@ -316,8 +305,7 @@
 
 /* Category label — the one place a tan rule is allowed to carry text, because
    the ink is the deep variant of the same hue. */
-.md-typeset .mg-card__cat,
-.md-typeset .mg-guide-card__cat {
+.md-typeset .mg-card__cat {
   align-self: center;
   margin: 16px 0 17px;
   padding: 0 0 3px;
@@ -332,8 +320,7 @@
 }
 
 /* Title. 900, 1.15 leading, uppercase — the size is the grid's rung. */
-.md-typeset .mg-card__title,
-.md-typeset .mg-guide-card__title {
+.md-typeset .mg-card__title {
   margin: 0 0 12px;
   padding: 0;
   border: 0;
@@ -696,88 +683,7 @@
 }
 
 /* ---------------------------------------------------------------------------
-   5. .mg-guide-card — the homepage's "Guides worth reading".
-
-   Two columns, so it takes the 26px rung. The black frame it used to carry is
-   gone: in this palette every card is a 1px #c7c7c7 block and the hover lift
-   is what marks it out.
-
-   The .mg-guide-card__body is a <div> wrapper and the whole card is the <a>,
-   so the action line is decorative — it is not a separate link target.
---------------------------------------------------------------------------- */
-
-.md-typeset .mg-guide-card__title {
-  font-size: 26px;
-  /* Two lines reserved, so the excerpt and the action line land at the same
-     height on every card. Not a clamp: a longer title at a narrow width simply
-     makes its row taller, and the 1fr rows even that back out. */
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  min-height: calc(2 * 1.15em);
-}
-
-.md-typeset .mg-guide-card:hover .mg-guide-card__title,
-.md-typeset .mg-guide-card:focus .mg-guide-card__title {
-  color: var(--ab-text);
-}
-
-/* The excerpt is the one serif passage on the page — that contrast is what
-   makes the card read as editorial rather than as a product tile. */
-.md-typeset .mg-guide-card__excerpt {
-  margin-top: 0;
-  font-family: var(--ab-serif);
-  font-size: 15px;
-  line-height: 1.55;
-  color: var(--ab-text-muted);
-
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  min-height: calc(4 * 1.55em);
-}
-
-.md-typeset .mg-guide-card__link {
-  display: inline-block;
-  align-self: center;
-  margin-top: auto;
-  padding: 0 0 2px;
-  border-bottom: 1px solid var(--ab-accent);
-  font-family: var(--ab-sans);
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  color: var(--ab-accent-deep);
-}
-
-.md-typeset .mg-guide-card:hover .mg-guide-card__link,
-.md-typeset .mg-guide-card:focus .mg-guide-card__link {
-  border-bottom-color: var(--ab-text);
-  color: var(--ab-text);
-}
-
-/* The image no longer scales on hover — the card lifts instead. */
-.md-typeset .mg-guide-card:hover .mg-guide-card__media img,
-.md-typeset .mg-guide-card:focus .mg-guide-card__media img {
-  transform: none;
-  opacity: 1;
-}
-
-@media (max-width: 759.98px) {
-  .md-typeset .mg-guide-card__title,
-  .md-typeset .mg-guide-card__excerpt {
-    display: block;
-    -webkit-line-clamp: none;
-    min-height: 0;
-    overflow: visible;
-  }
-}
-
-/* ---------------------------------------------------------------------------
-   6. .mg-preowned-card — the shop grids, built by preowned-grid.js.
+   5. .mg-preowned-card — the shop grids, built by preowned-grid.js.
 
    The script appends media / title / price / action straight onto the
    <article>, with no copy wrapper and no way to add one from CSS. So the side
@@ -1066,7 +972,7 @@
 }
 
 /* ---------------------------------------------------------------------------
-   7. .mg-hot-card — Hot Gear. Picture and name only; AceBase's .ab-card--ec
+   6. .mg-hot-card — Hot Gear. Picture and name only; AceBase's .ab-card--ec
    variant has no action line either.
 --------------------------------------------------------------------------- */
 
@@ -1086,7 +992,7 @@
 }
 
 /* ---------------------------------------------------------------------------
-   8. .mg-home-cat — the homepage's shop tiles. These are category links, so
+   7. .mg-home-cat — the homepage's shop tiles. These are category links, so
    the name takes the category-label treatment.
 
    The 700px block in extra.css re-lays them out as photo-topped tiles; that is
@@ -1140,7 +1046,7 @@
 }
 
 /* ---------------------------------------------------------------------------
-   9. .mg-brand-item — the equipment gallery's brand wall. An index of 20-odd
+   8. .mg-brand-item — the equipment gallery's brand wall. An index of 20-odd
    logos, not a card flow, so it keeps its smaller block and takes the lift
    without the padding.
 --------------------------------------------------------------------------- */
@@ -1164,7 +1070,7 @@
 }
 
 /* ---------------------------------------------------------------------------
-   10. Info panels — not products, so they take the panel half of the recipe:
+   9. Info panels — not products, so they take the panel half of the recipe:
    a hairline, a flat fill, square corners, no shadow, no media, no action.
 --------------------------------------------------------------------------- */
 
@@ -1218,7 +1124,7 @@
 }
 
 /* ---------------------------------------------------------------------------
-   11. Controls — square. Only the things that are circles by nature keep a
+   10. Controls — square. Only the things that are circles by nature keep a
    radius: the lightbox dots and its round close/arrow buttons. (The cart's
    count bubble and the WhatsApp float are outside .md-typeset too, so this
    rule never reached them — see §13 and header.css.)
@@ -1276,7 +1182,7 @@
 }
 
 /* ---------------------------------------------------------------------------
-   12. Tables.
+   11. Tables.
 --------------------------------------------------------------------------- */
 
 .md-typeset table th {
@@ -1308,7 +1214,7 @@
 }
 
 /* ---------------------------------------------------------------------------
-   13. Floating chrome. The WhatsApp float is an <img>, so its green is the
+   12. Floating chrome. The WhatsApp float is an <img>, so its green is the
    brand's own and stays.
 --------------------------------------------------------------------------- */
 
@@ -1340,7 +1246,7 @@
 }
 
 /* ---------------------------------------------------------------------------
-   14. The guide index — docs/guide/index.md.
+   13. The guide index — docs/guide/index.md.
 
    This page is the nav's "Guide" target and the whole point of it is to carry
    the eighteen articles that no longer sit in the sidebar, so it has to read
@@ -1424,7 +1330,6 @@
 
 @media (prefers-reduced-motion: reduce) {
   .md-typeset .mg-card,
-  .md-typeset .mg-guide-card,
   .md-typeset .mg-hot-card,
   .md-typeset .mg-home-cat,
   .md-typeset .mg-brand-item,
@@ -1433,7 +1338,6 @@
   }
 
   .md-typeset .mg-card:hover,
-  .md-typeset .mg-guide-card:hover,
   .md-typeset .mg-hot-card:hover,
   .md-typeset .mg-home-cat:hover,
   .md-typeset .mg-preowned-card:hover {
@@ -1442,7 +1346,7 @@
 }
 
 /* ---------------------------------------------------------------------------
-   15. The footer.
+   14. The footer.
 
    Material builds .md-footer-meta__inner as a space-between flex row — a
    copyright on the left, the social icons on the right. This site has no
@@ -1463,7 +1367,7 @@
 }
 
 /* ---------------------------------------------------------------------------
-   16. Landing on a card.
+   15. Landing on a card.
 
    Every product card carries an id, so a search hit can link straight to it —
    see hooks/search_card_anchors.py. The browser scrolls an anchor target flush
