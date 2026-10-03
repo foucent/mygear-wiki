@@ -43,8 +43,18 @@ def thumb_path(src: Path) -> Path:
     return src.with_name(src.stem + ".thumb.webp")
 
 
+THUMB_RE = re.compile(r"\.thumb(?:-\d+)?\.(?:webp|jpe?g|png)$", re.I)
+
+
 def is_thumb(path: Path) -> bool:
-    return path.name.endswith(".thumb.webp") or ".thumb." in path.name
+    """Already a thumbnail — never a source for another one.
+
+    Matching only the bare `.thumb.webp` missed the sized variants: the pages
+    carry `01.thumb-480.webp` / `-1000` inside their srcsets, and the bare
+    /images/ scan in collect_from_md reads those as sources, so a run used to
+    leave `01.thumb-1000.thumb.webp` beside every cover in the tree.
+    """
+    return bool(THUMB_RE.search(path.name))
 
 
 def collect_from_md() -> set[Path]:
