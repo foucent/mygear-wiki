@@ -1,6 +1,6 @@
 /* ---------------------------------------------------------------------------
    Guides worth reading — lazy-loaded feed (homepage)
-   Renders every article from the Guide directory as an uncrate-style card.
+   Renders every article from the Guide directory as a shop card (.mg-card).
    Shows BATCH cards first; scrolling to the sentinel loads the next batch
    until all guides are shown (infinite scroll).
 --------------------------------------------------------------------------- */
@@ -192,13 +192,20 @@
   var idx = 0;
   var observer = null;
 
+  /* A guide card is a shop card — /gear/'s .mg-card recipe, class for class, so
+     the two grids are one system and the stylesheet needs no guide-specific
+     rules. What differs is only what the card is made of: no kicker, no price,
+     and a "Read more" where a build offers its photos and a quote.
+
+     The card is an <article> rather than the <a> it used to be, because the
+     recipe puts real links inside it; the media band is not one of them (the
+     shop cards leave theirs to the lightbox). */
   function makeCard(g) {
-    var a = document.createElement("a");
-    a.className = "mg-guide-card";
-    a.href = g.href;
+    var card = document.createElement("article");
+    card.className = "mg-card";
 
     var media = document.createElement("div");
-    media.className = "mg-guide-card__media";
+    media.className = "mg-card__media";
     var img = document.createElement("img");
     // The card draws at 462px; `img` still names the full-size file so the
     // lightbox and any no-srcset browser keep working.
@@ -206,6 +213,7 @@
       window.mgImgThumbs && !window.mgImgThumbs.isThumb(g.img)
         ? window.mgImgThumbs.thumbSrc(g.img)
         : g.img;
+    img.setAttribute("data-full-src", g.img);
     img.alt = g.alt;
     img.loading = "lazy";
     img.decoding = "async";
@@ -225,33 +233,40 @@
       );
     }
     media.appendChild(img);
-    a.appendChild(media);
+    card.appendChild(media);
 
-    var body = document.createElement("div");
-    body.className = "mg-guide-card__body";
+    var copy = document.createElement("div");
+    copy.className = "mg-card__copy";
 
-    var cat = document.createElement("div");
-    cat.className = "mg-guide-card__cat";
-    cat.textContent = "Guide / " + g.cat;
-    body.appendChild(cat);
+    var title = document.createElement("h3");
+    title.className = "mg-card__title";
+    var titleLink = document.createElement("a");
+    titleLink.href = g.href;
+    titleLink.textContent = g.title;
+    title.appendChild(titleLink);
+    copy.appendChild(title);
 
-    var title = document.createElement("div");
-    title.className = "mg-guide-card__title";
-    title.textContent = g.title;
-    body.appendChild(title);
-
-    var excerpt = document.createElement("div");
-    excerpt.className = "mg-guide-card__excerpt";
+    var excerpt = document.createElement("p");
+    excerpt.className = "mg-card__desc";
     excerpt.textContent = g.excerpt;
-    body.appendChild(excerpt);
+    copy.appendChild(excerpt);
 
-    var link = document.createElement("div");
-    link.className = "mg-guide-card__link";
-    link.textContent = "Read More";
-    body.appendChild(link);
+    /* The action line is the shop cards' split one, so a lone "Read more" sits
+       on the same baseline the "X or Y" pair does. It carries no
+       .mg-card__zoom: card-read-more.js reads that class as the disclosure for
+       a clipped description, and a guide's excerpt is short enough to be shown
+       whole — naming it here would turn the link into a toggle and take the
+       article away from the reader. */
+    var more = document.createElement("p");
+    more.className = "mg-card__more mg-card__more--split";
+    var link = document.createElement("a");
+    link.href = g.href;
+    link.textContent = "Read more";
+    more.appendChild(link);
+    copy.appendChild(more);
 
-    a.appendChild(body);
-    return a;
+    card.appendChild(copy);
+    return card;
   }
 
   function loadNext() {
