@@ -14,7 +14,6 @@ hide:
 
 | Date | Update |
 | --- | --- |
-| **2026-10-03** | **Renamed:** the Setups page is now **Gear**, at `/gear/`. Old `/setups/` and `/top-picks/` links redirect. |
 | **2026-09-25** | New black-and-white colour scheme across the site. Navigation layout adjusted, with shorter top-level menu labels. |
 | **2026-09-16** | **Added:** PayPal payments accepted. |
 | **2026-08-26** | Optimized blades & rubbers product display — in-stock grids, proxy-buy tables, compact cards, and mobile layout fixes. |
