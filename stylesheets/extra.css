@@ -2387,83 +2387,11 @@ body.mg-cart-open {
   color: #fff !important;
 }
 
-.mg-home-section-title {
-  margin: 0 0 0.75rem !important;
-  padding: 0 0 0.4rem !important;
-  border: 0 !important;
-  border-bottom: 1px solid var(--ab-text) !important;
-  color: var(--ab-text) !important;
-  font-size: 24px !important;
-  font-weight: 900 !important;
-  letter-spacing: -0.01em;
-  text-transform: uppercase;
-}
-
-.mg-home-cats {
-  margin: 0 0 1.25rem;
-}
-
-.mg-home-cats__grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.75rem;
-}
-
-.mg-home-cat {
-  display: flex !important;
-  align-items: stretch;
-  gap: 0.75rem;
-  min-height: 5.5rem;
-  padding: 0.55rem;
-  border-radius: 0.65rem;
-  background: var(--ab-panel-2);
-  border: 1px solid rgba(174, 158, 133, 0.14);
-  text-decoration: none !important;
-  color: inherit !important;
-  font-weight: 500 !important;
-  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
-}
-
-.mg-home-cat:hover {
-  border-color: rgba(174, 158, 133, 0.4);
-  box-shadow: 0 6px 18px rgba(174, 158, 133, 0.12);
-  transform: translateY(-1px);
-  color: inherit !important;
-}
-
-.mg-home-cat__img {
-  width: 4.75rem;
-  height: 4.75rem;
-  object-fit: cover;
-  border-radius: 0.45rem;
-  margin: 0 !important;
-  flex-shrink: 0;
-  background: var(--ab-panel-2);
-}
-
-.mg-home-cat__body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 0.2rem;
-  min-width: 0;
-}
-
-.mg-home-cat__name {
-  color: var(--mg-ink);
-  font-size: 0.98rem;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-  line-height: 1.2;
-}
-
-.mg-home-cat__desc {
-  color: var(--mg-ink-muted);
-  font-size: 0.72rem;
-  font-weight: 500;
-  line-height: 1.35;
-}
-
+/* The homepage category grid is gone — tiles and "Shop" heading both. The hero
+   above already says what the page sells, and the nav row above *that* is the
+   same five links, so the grid was a second copy of the menu. Its rules left
+   with it: .mg-home-section-title (nothing else ever carried the class),
+   .mg-home-cats, .mg-home-cat and its four internals. */
 .mg-home-help {
   margin: 0 0 0.35rem;
   padding: 0.85rem 1rem;
@@ -2580,58 +2508,9 @@ body.mg-cart-open {
     font-size: 0.84rem !important;
   }
 
-  .mg-home-cats,
   .mg-home-help {
     margin-left: 0.8rem;
     margin-right: 0.8rem;
-  }
-
-  .mg-home-section-title {
-    margin: 0 0 0.65rem !important;
-  }
-
-  .mg-home-cats__grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.65rem;
-  }
-
-  .mg-home-cat {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0;
-    min-height: 0;
-    padding: 0;
-    overflow: hidden;
-    border-radius: 0.7rem;
-  }
-
-  .mg-home-cat:hover,
-  .mg-home-cat:active {
-    transform: none;
-    box-shadow: 0 4px 14px rgba(174, 158, 133, 0.14);
-  }
-
-  .mg-home-cat__img {
-    width: 100%;
-    height: 7.75rem;
-    border-radius: 0;
-  }
-
-  .mg-home-cat__body {
-    padding: 0.6rem 0.65rem 0.75rem;
-    gap: 0.15rem;
-  }
-
-  .mg-home-cat__name {
-    font-size: 0.92rem;
-  }
-
-  .mg-home-cat__desc {
-    font-size: 0.68rem;
-    line-height: 1.3;
-  }
-
-  .mg-home-help {
     margin-top: 0.15rem;
     margin-bottom: 0.25rem;
     padding: 0.9rem 0.95rem;
@@ -2647,10 +2526,6 @@ body.mg-cart-open {
 }
 
 @media (max-width: 380px) {
-  .mg-home-cat__img {
-    height: 6.5rem;
-  }
-
   .mg-home-hero__title {
     font-size: 1.28rem !important;
   }
@@ -2920,89 +2795,10 @@ html.md-no-js .md-typeset .mg-bio__toggle {
   }
 }
 
-/* Home: Hot Gear — featured blade cards */
-.md-typeset .mg-home-hot {
-  margin: 0 0 1.6rem;
-}
-
-.md-typeset .mg-home-hot__title {
-  margin: 0 0 0.55rem !important;
-  padding: 0 0 0.4rem !important;
-  border: 0 !important;
-  border-bottom: 1px solid var(--ab-text) !important;
-  color: var(--ab-text) !important;
-  font-size: 24px !important;
-  font-weight: 900 !important;
-  letter-spacing: -0.01em;
-  text-transform: uppercase;
-}
-
-.md-typeset .mg-hot-grid {
-  display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
-  gap: 0.5rem;
-}
-
-.md-typeset .mg-hot-card {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0.35rem 0.35rem 0.45rem;
-  border: 1px solid rgba(174, 158, 133, 0.14);
-  border-radius: 0.5rem;
-  background: #ffffff;
-  text-decoration: none !important;
-  color: inherit !important;
-  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
-}
-
-.md-typeset .mg-hot-card:hover {
-  border-color: rgba(174, 158, 133, 0.4);
-  box-shadow: 0 6px 16px rgba(174, 158, 133, 0.12);
-  transform: translateY(-2px);
-  text-decoration: none !important;
-}
-
-.md-typeset .mg-hot-card__img {
-  display: block;
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  border-radius: 0.35rem;
-  margin: 0 0 0.3rem !important;
-  background: var(--ab-panel-2);
-}
-
-.md-typeset .mg-hot-card__name {
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  min-height: 2.5em;
-  color: var(--mg-ink) !important;
-  font-size: 0.7rem;
-  font-weight: 800;
-  line-height: 1.25;
-  letter-spacing: -0.01em;
-}
-
-@media (max-width: 1099.98px) {
-  .md-typeset .mg-hot-grid {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-}
-
-@media (max-width: 759.98px) {
-  .md-typeset .mg-hot-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 0.45rem;
-  }
-
-  .md-typeset .mg-hot-card__name {
-    font-size: 0.62rem;
-    min-height: 2.6em;
-  }
-}
+/* Home: the Hot Gear grid that used to sit here is gone. Its twelve cards were
+   /gear/ product pages, and those are cards in the Reviews & guides feed now —
+   one recipe for both, instead of a 4-up thumbnail grid beside a 2-up card
+   grid showing the same kind of page. */
 
 /* Product detail pages — image gallery + facts column */
 .md-typeset .mg-updated {
