@@ -1,11 +1,154 @@
 /* ---------------------------------------------------------------------------
-   Guides worth reading — lazy-loaded feed (homepage)
-   Renders every article from the Guide directory as a shop card (.mg-card).
-   Shows BATCH cards first; scrolling to the sentinel loads the next batch
-   until all guides are shown (infinite scroll).
+   Reviews & guides — lazy-loaded feed (homepage)
+   Renders every article from the Guide directory, and every /gear/ product
+   page, as a shop card (.mg-card). Shows BATCH cards first; scrolling to the
+   sentinel loads the next batch until all of them are shown (infinite scroll).
+
+   The two kinds of entry are one list because they are one job: each is a
+   page worth reading, with a cover, a title and a line of what is inside. The
+   twelve /gear/ pages come first (product pages lead, in the order the old
+   Hot Gear grid ran), then the sixteen guides.
 --------------------------------------------------------------------------- */
 (function () {
   var MG_GUIDES = [
+    /* The first twelve entries are /gear/ product pages — review, specs and
+       live price on one URL. Each is a .mg-prod page whose own cover is a
+       1:1 studio shot, so the 3:2 card band crops top and bottom; the shared
+       band is the price of looking like the cards around it. Their covers
+       reuse the page's own srcset, which stops at the 600px thumb: there is
+       no larger variant on disk. */
+    {
+      title: "Butterfly Dignics 09C Review, Price & Specs",
+      href: "/gear/dignics-09c/",
+      img: "/images/dignics-09c/01.jpg",
+      srcset: "/images/dignics-09c/01.thumb-240.webp 240w, /images/dignics-09c/01.thumb-480.webp 480w, /images/dignics-09c/01.thumb.webp 600w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
+      alt: "Butterfly Dignics 09C table tennis rubber in red and black",
+      cat: "Review",
+      excerpt:
+        "The tackier face of the Dignics family — a mildly tacky topsheet over Spring Sponge X. Line, specs, community ratings, and how it differs from Dignics 05 and Tenergy 05.",
+    },
+    {
+      title: "Butterfly Fan Zhendong ALC Review, Price & Specs",
+      href: "/gear/fan-zhendong-alc/",
+      img: "/images/price-list/blades/fan-zhendong-alc.jpg",
+      srcset: "/images/price-list/blades/fan-zhendong-alc.thumb-240.webp 240w, /images/price-list/blades/fan-zhendong-alc.thumb-480.webp 480w, /images/price-list/blades/fan-zhendong-alc.thumb.webp 600w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
+      alt: "Butterfly Fan Zhendong ALC table tennis blade",
+      cat: "Review",
+      excerpt:
+        "Butterfly's outer-ALC reissue of the Viscaria formula under Fan Zhendong's name — Arylate-Carbon on the outside, firing early and easily.",
+    },
+    {
+      title: "Butterfly Zhang Jike ALC Review, Price & Specs",
+      href: "/gear/zhang-jike-alc/",
+      img: "/images/price-list/blades/zhang-jike-alc.jpg",
+      srcset: "/images/price-list/blades/zhang-jike-alc.thumb-240.webp 240w, /images/price-list/blades/zhang-jike-alc.thumb-480.webp 480w, /images/price-list/blades/zhang-jike-alc.thumb.webp 600w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
+      alt: "Butterfly Zhang Jike ALC table tennis blade",
+      cat: "Review",
+      excerpt:
+        "Zhang Jike's signature outer-ALC blade, in the same classic class as the Viscaria — built to wait for the opening, then explode through the ball.",
+    },
+    {
+      title: "Butterfly Ovtcharov Innerforce ALC Review, Price & Specs",
+      href: "/gear/ovtcharov-innerforce-alc/",
+      img: "/images/price-list/blades/ovtcharov-innerforce-alc.jpg",
+      srcset: "/images/price-list/blades/ovtcharov-innerforce-alc.thumb-240.webp 240w, /images/price-list/blades/ovtcharov-innerforce-alc.thumb-480.webp 480w, /images/price-list/blades/ovtcharov-innerforce-alc.thumb.webp 600w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
+      alt: "Butterfly Ovtcharov Innerforce ALC table tennis blade",
+      cat: "Review",
+      excerpt:
+        "An Innerforce board — ALC under the face wood, so it keeps a wood-like touch on light strokes and lets the fibre join in only as you commit.",
+    },
+    {
+      title: "Butterfly Viscaria Review, Price & Specs",
+      href: "/gear/viscaria/",
+      img: "/images/price-list/blades/viscaria.jpg",
+      srcset: "/images/price-list/blades/viscaria.thumb-240.webp 240w, /images/price-list/blades/viscaria.thumb-480.webp 480w, /images/price-list/blades/viscaria.thumb.webp 600w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
+      alt: "Butterfly Viscaria table tennis blade",
+      cat: "Review",
+      excerpt:
+        "The blade most players picture for a modern outer-fibre shakehand board — Arylate-Carbon on the outside, active from the smallest flex.",
+    },
+    {
+      title: "Butterfly Timo Boll ALC Review, Price & Specs",
+      href: "/gear/timo-boll-alc/",
+      img: "/images/price-list/blades/timo-boll-alc.jpg",
+      srcset: "/images/price-list/blades/timo-boll-alc.thumb-240.webp 240w, /images/price-list/blades/timo-boll-alc.thumb-480.webp 480w, /images/price-list/blades/timo-boll-alc.thumb.webp 600w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
+      alt: "Butterfly Timo Boll ALC table tennis blade",
+      cat: "Review",
+      excerpt:
+        "The outer-fibre Viscaria recipe tuned for Boll's all-court game: controlled power, excellent touch, and no gear change from block to loop.",
+    },
+    {
+      title: "Butterfly Harimoto Innerforce ALC Review, Price & Specs",
+      href: "/gear/harimoto-innerforce-alc/",
+      img: "/images/price-list/blades/harimoto-innerforce-alc.jpg",
+      srcset: "/images/price-list/blades/harimoto-innerforce-alc.thumb-240.webp 240w, /images/price-list/blades/harimoto-innerforce-alc.thumb-480.webp 480w, /images/price-list/blades/harimoto-innerforce-alc.thumb.webp 600w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
+      alt: "Butterfly Harimoto Innerforce ALC table tennis blade",
+      cat: "Review",
+      excerpt:
+        "Harimoto's signature inner-fibre blade — wood-like at low force, firm and fast once you commit, with forgiving control at mid force.",
+    },
+    {
+      title: "DHS Hurricane Long 5 Review, Price & Specs",
+      href: "/gear/dhs-hurricane-long-5/",
+      img: "/images/price-list/blades/dhs-hurricane-long-5.webp",
+      srcset: "/images/price-list/blades/dhs-hurricane-long-5.thumb-240.webp 240w, /images/price-list/blades/dhs-hurricane-long-5.thumb-480.webp 480w, /images/price-list/blades/dhs-hurricane-long-5.thumb.webp 720w, /images/price-list/blades/dhs-hurricane-long-5.thumb-1000.webp 1000w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
+      alt: "DHS Hurricane Long 5 table tennis blade",
+      cat: "Review",
+      excerpt:
+        "DHS's flagship market blade and retail sibling of the W968 Ma Long plays — light swings stay wood-like, the fibre waits until you commit.",
+    },
+    {
+      title: "Victas Koki Niwa Review, Price & Specs",
+      href: "/gear/victas-koki-niwa/",
+      img: "/images/price-list/blades/victas-koki-niwa.jpg",
+      srcset: "/images/price-list/blades/victas-koki-niwa.thumb-240.webp 240w, /images/price-list/blades/victas-koki-niwa.thumb-480.webp 480w, /images/price-list/blades/victas-koki-niwa.thumb.webp 600w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
+      alt: "Victas Koki Niwa table tennis blade",
+      cat: "Review",
+      excerpt:
+        "Koki Niwa's signature blade: not about brute speed, but built to make every kind of spin easy to produce and every placement easy to reach.",
+    },
+    {
+      title: "Butterfly ZYRE-03 Review, Price & Specs",
+      href: "/gear/zyre-03/",
+      img: "/images/zyre-03/01.jpg",
+      srcset: "/images/zyre-03/01.thumb-240.webp 240w, /images/zyre-03/01.thumb-480.webp 480w, /images/zyre-03/01.thumb.webp 600w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
+      alt: "Butterfly ZYRE-03 table tennis rubber",
+      cat: "Review",
+      excerpt:
+        "Butterfly's newest flagship rubber and the clean, non-tacky face of the family — an ultra-thin Ricosheet that loses less energy to the topsheet.",
+    },
+    {
+      title: "Butterfly Tenergy 05 Review, Price & Specs",
+      href: "/gear/tenergy-05/",
+      img: "/images/tenergy-05/01.jpg",
+      srcset: "/images/tenergy-05/01.thumb-240.webp 240w, /images/tenergy-05/01.thumb-480.webp 480w, /images/tenergy-05/01.thumb.webp 600w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
+      alt: "Butterfly Tenergy 05 table tennis rubber",
+      cat: "Review",
+      excerpt:
+        "The rubber that set the modern benchmark for high-tension play in 2008, and still the model every other performance rubber is measured against.",
+    },
+    {
+      title: "Butterfly Dignics 05 Review, Price & Specs",
+      href: "/gear/dignics-05/",
+      img: "/images/dignics-05/01.jpg",
+      srcset: "/images/dignics-05/01.thumb-240.webp 240w, /images/dignics-05/01.thumb-480.webp 480w, /images/dignics-05/01.thumb.webp 600w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
+      alt: "Butterfly Dignics 05 table tennis rubber",
+      cat: "Review",
+      excerpt:
+        "The clean, non-tacky flagship of the Dignics line — a code No. 05 topsheet built for spin, bonded to the firmer, more resilient Spring Sponge X.",
+    },
     {
       title: "Tibhar Darko Jorgic Infinity Carbon Review",
       href: "/guide/tibhar-darko-jorgic-infinity-carbon/",

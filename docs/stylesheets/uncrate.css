@@ -148,10 +148,11 @@
   border-radius: 0;
 }
 
-/* index.md writes "Shop" and "Hot Gear" as raw HTML carrying a class, but
-   "Brands" and "Guides worth reading" as plain markdown headings. Those two
-   therefore missed the section-title treatment and the home page ended up
-   showing two different heading styles for the same job.
+/* index.md's home-page sections are plain markdown headings — "Brands" and
+   "Reviews & guides" — where the old "Shop" and "Hot Gear" ones were raw HTML
+   carrying a class. The two that remain would therefore miss the section-title
+   treatment, and the home page would show a different heading style for the
+   same job.
 
    Scoping on the grid each one introduces restyles exactly those two and
    nothing else. The obvious alternative — styling `.md-typeset h2` — would
@@ -180,8 +181,6 @@
 --------------------------------------------------------------------------- */
 
 .md-typeset .mg-card,
-.md-typeset .mg-hot-card,
-.md-typeset .mg-home-cat,
 .mg-preowned-card {
   display: flex;
   flex-direction: column;
@@ -201,8 +200,6 @@
 /* The lift is the whole hover: the border colour deliberately does not
    change, which is what AceBase renders. */
 .md-typeset .mg-card:hover,
-.md-typeset .mg-hot-card:hover,
-.md-typeset .mg-home-cat:hover,
 .mg-preowned-card:hover {
   border-color: var(--ab-line);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
@@ -213,9 +210,7 @@
    white-background, so the letterbox bars take the panel colour and disappear.
    The ratio, and how the shot sits in it, is what the families disagree about,
    so both are set below rather than here. */
-.md-typeset .mg-card__media img,
-.md-typeset .mg-hot-card__img,
-.md-typeset .mg-home-cat__img {
+.md-typeset .mg-card__media img {
   display: block;
   width: 100%;
   object-fit: contain;
@@ -289,14 +284,8 @@
   background: var(--ab-purple);
 }
 
-.md-typeset .mg-hot-card__img,
-.md-typeset .mg-home-cat__img {
-  aspect-ratio: 4 / 3;
-}
-
 /* The copy block: the family's inner 20px, on top of the card's outer one. */
-.md-typeset .mg-card__copy,
-.md-typeset .mg-home-cat__body {
+.md-typeset .mg-card__copy {
   display: flex;
   flex: 1 1 auto;
   flex-direction: column;
@@ -613,7 +602,7 @@
 
    2 columns   ~464px   title 26px   (guide cards, /gear/)
    3 columns   ~307px   title 17px   (every other shop grid)
-   4 columns   ~225px   title 14px   (home tiles, Hot Gear, brand wall)
+   4 columns   ~225px   title 14px   (brand wall)
 --------------------------------------------------------------------------- */
 
 /* /gear/: 2 up. At 470px a card holds a portrait media
@@ -637,19 +626,6 @@
   gap: 20px;
 }
 
-/* home category tiles: 5 up, one per shop entry in the nav row */
-.md-typeset .mg-home-cats__grid {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 20px;
-}
-
-/* Hot Gear: 4 up. Six at 960px is 143px a card, which cannot hold a border,
-   a 20px gutter and a centred uppercase name. */
-.md-typeset .mg-hot-grid {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 20px;
-}
-
 /* brand wall: 4 up */
 .md-typeset .mg-brand-grid {
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -657,8 +633,6 @@
 }
 
 @media (max-width: 1099.98px) {
-  .md-typeset .mg-home-cats__grid,
-  .md-typeset .mg-hot-grid,
   .md-typeset .mg-brand-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -669,8 +643,6 @@
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .md-typeset .mg-home-cats__grid,
-  .md-typeset .mg-hot-grid,
   .md-typeset .mg-brand-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -972,81 +944,7 @@
 }
 
 /* ---------------------------------------------------------------------------
-   6. .mg-hot-card — Hot Gear. Picture and name only; AceBase's .ab-card--ec
-   variant has no action line either.
---------------------------------------------------------------------------- */
-
-.md-typeset .mg-hot-card__img {
-  border-radius: 0.55rem 0.55rem 0 0;
-  margin: 0 !important;
-}
-
-.md-typeset .mg-hot-card__name {
-  padding: 0 20px 4px;
-  color: var(--ab-text) !important;
-  font-size: 14px;
-  font-weight: 900;
-  line-height: 1.2;
-  letter-spacing: 0;
-  text-transform: uppercase;
-}
-
-/* ---------------------------------------------------------------------------
-   7. .mg-home-cat — the homepage's shop tiles. These are category links, so
-   the name takes the category-label treatment.
-
-   The 700px block in extra.css re-lays them out as photo-topped tiles; that is
-   the same shape as the card above, so only the type needs restating here.
---------------------------------------------------------------------------- */
-
-.md-typeset .mg-home-cat__img {
-  border-radius: 0.55rem 0.55rem 0 0;
-}
-
-.md-typeset .mg-home-cat__name {
-  color: var(--ab-accent-deep);
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  line-height: 1.2;
-  text-transform: uppercase;
-}
-
-.md-typeset .mg-home-cat__desc {
-  color: var(--ab-text-muted);
-  font-family: var(--ab-serif);
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
-@media (max-width: 700px) {
-  .md-typeset .mg-home-cat {
-    padding: 0 0 20px;
-    border-radius: 0.55rem;
-    overflow: hidden;
-  }
-
-  .md-typeset .mg-home-cat:hover,
-  .md-typeset .mg-home-cat:active {
-    transform: translateY(-1px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-  }
-
-  .md-typeset .mg-home-cat__img {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 4 / 3;
-    border-radius: 0.55rem 0.55rem 0 0;
-  }
-
-  .md-typeset .mg-home-cat__body {
-    padding: 0 20px;
-  }
-}
-
-/* ---------------------------------------------------------------------------
-   8. .mg-brand-item — the equipment gallery's brand wall. An index of 20-odd
+   7. .mg-brand-item — the equipment gallery's brand wall. An index of 20-odd
    logos, not a card flow, so it keeps its smaller block and takes the lift
    without the padding.
 --------------------------------------------------------------------------- */
@@ -1330,16 +1228,12 @@
 
 @media (prefers-reduced-motion: reduce) {
   .md-typeset .mg-card,
-  .md-typeset .mg-hot-card,
-  .md-typeset .mg-home-cat,
   .md-typeset .mg-brand-item,
   .md-typeset .mg-preowned-card {
     transition: none;
   }
 
   .md-typeset .mg-card:hover,
-  .md-typeset .mg-hot-card:hover,
-  .md-typeset .mg-home-cat:hover,
   .md-typeset .mg-preowned-card:hover {
     transform: none;
   }
