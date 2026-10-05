@@ -95,7 +95,7 @@ description: "Get brand-new table tennis blades, popular rubbers, and sports gea
 
 <div class="mg-guides" markdown="0">
 
-  <div class="mg-card-grid" id="mg-guides-grid"></div>
+  <div class="mg-card-grid" id="mg-guides-grid" data-mg-clamp-fixed></div>
 
   <div class="mg-guides__sentinel" aria-hidden="true"></div>
 

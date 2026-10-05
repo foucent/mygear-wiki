@@ -395,14 +395,20 @@
     copy.appendChild(excerpt);
 
     /* The action line is the shop cards' split one, so a lone "Read more" sits
-       on the same baseline the "X or Y" pair does. It carries no
-       .mg-card__zoom: card-read-more.js reads that class as the disclosure for
-       a clipped description, and a guide's excerpt is short enough to be shown
-       whole — naming it here would turn the link into a toggle and take the
-       article away from the reader. */
+       on the same baseline the "X or Y" pair does.
+
+       The link carries .mg-card__zoom, which hands it to card-read-more.js as
+       the disclosure for a clipped description. That class used to be left off
+       on the argument that a guide's excerpt is short enough to show whole;
+       what changed is that the feed's copy block is a fixed height now, so the
+       excerpts that do not fit have to be reachable rather than cut. Left
+       unclipped the link is still a plain link to the article, which is what
+       card-read-more.js does with a card it did not clip — so a short excerpt
+       keeps its old behaviour exactly. */
     var more = document.createElement("p");
     more.className = "mg-card__more mg-card__more--split";
     var link = document.createElement("a");
+    link.className = "mg-card__zoom";
     link.href = g.href;
     link.textContent = "Read more";
     more.appendChild(link);
@@ -417,6 +423,14 @@
     slice.forEach(function (g) {
       grid.appendChild(makeCard(g));
     });
+    /* card-read-more.js clips the excerpts that do not fit the fixed copy
+       block, and it is loaded and started ahead of this file — so it has
+       already collected by the time the first batch exists, and the later
+       batches arrive after it. Announcing each batch, once its cards are in
+       the DOM, is how the two stay in step. */
+    if (slice.length) {
+      document.dispatchEvent(new CustomEvent("mg:cards-added"));
+    }
     idx += slice.length;
     var status = document.querySelector(".mg-guides__status");
     if (idx >= MG_GUIDES.length) {
