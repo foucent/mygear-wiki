@@ -619,6 +619,50 @@
   font-size: 26px;
 }
 
+/* ---------------------------------------------------------------------------
+   The homepage feed: a fixed copy block, a smaller title, and excerpts that
+   fold.
+
+   Same recipe as /gear/ above, three departures — all of them scoped to
+   .mg-guides, because /gear/'s twenty-one cards need up to 222px of copy and
+   would lose text if this height reached them.
+
+   1. The title is 20px, not 26px. At 26px the longest titles ("Butterfly
+      Ovtcharov Innerforce ALC Review, Price & Specs") ran to three lines in
+      the wide column and five in the narrow one, which is most of the block.
+
+   2. The copy is a fixed 200px at every width, so a row of cards is one
+      height top to bottom instead of stretching to whichever neighbour wrote
+      the most.
+
+   3. The excerpt folds. At 200px the wide column fits three lines of it and
+      the narrow one about two — the same paragraph needs four there — so
+      card-read-more.js clips the overflow and the action line reads "Read
+      more", opening the paragraph over the card. The budget is per-column:
+      three lines wide, two narrow, which is what makes the block land on 200.
+--------------------------------------------------------------------------- */
+.md-typeset .mg-guides .mg-card-grid {
+  --mg-clamp-lines: 3;
+}
+
+.md-typeset .mg-guides .mg-card__copy {
+  /* Border-box, or the 20px of side padding .mg-card__copy carries would ride
+     on top of the 200 and the block would be 200 only for the one card whose
+     text happens to fit. */
+  box-sizing: border-box;
+  height: 200px;
+}
+
+.md-typeset .mg-guides .mg-card__title {
+  font-size: 20px;
+}
+
+@media (max-width: 1099.98px) {
+  .md-typeset .mg-guides .mg-card-grid {
+    --mg-clamp-lines: 2;
+  }
+}
+
 /* pre-owned / blades / rubbers: 3 up */
 .mg-preowned-grid,
 .mg-preowned-grid--blades,

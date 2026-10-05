@@ -150,6 +150,15 @@
   function start() {
     collect();
     apply();
+    /* The homepage feed builds its cards in batches as you scroll, and this
+       file is loaded ahead of it, so the first collect() above runs against an
+       empty grid. The feed announces each batch it appends and the new cards
+       are picked up then — collect() skips what it has already seen via
+       data-mg-read-more, so a batch only ever costs the cards in it. */
+    document.addEventListener("mg:cards-added", function () {
+      collect();
+      apply();
+    });
     /* The median is a property of the column width, so the answer changes when
        the window does. Nothing is re-bound, only re-measured. */
     var pending;
