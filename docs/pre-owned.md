@@ -90,12 +90,12 @@ hide:
 <tr>
       <td><img src="/images/w968-official-no-11-88g/01.thumb.webp" data-full-src="/images/w968-official-no-11-88g/01.webp" srcset="/images/w968-official-no-11-88g/01.thumb-240.webp 180w, /images/w968-official-no-11-88g/01.thumb-480.webp 360w, /images/w968-official-no-11-88g/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="W968 Official | No.11 | 88g" loading="lazy" data-gallery="/images/w968-official-no-11-88g/01.webp,/images/w968-official-no-11-88g/02.webp,/images/w968-official-no-11-88g/03.jpg,/images/w968-official-no-11-88g/04.webp,/images/w968-official-no-11-88g/05.jpg,/images/w968-official-no-11-88g/06.webp,/images/w968-official-no-11-88g/07.webp"></td>
       <td>W968 Official | No.11 | 88g</td>
-      <td style="text-align:right">$193</td>
+      <td style="text-align:right"><del>$193</del></td>
     </tr>
 <tr>
       <td><img src="/images/w968-official-no-20-89g/01.thumb.webp" data-full-src="/images/w968-official-no-20-89g/01.jpg" srcset="/images/w968-official-no-20-89g/01.thumb-240.webp 180w, /images/w968-official-no-20-89g/01.thumb-480.webp 360w, /images/w968-official-no-20-89g/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="W968 Official | No.20 | 89g" loading="lazy" data-gallery="/images/w968-official-no-20-89g/01.jpg,/images/w968-official-no-20-89g/02.jpg,/images/w968-official-no-20-89g/03.jpg,/images/w968-official-no-20-89g/04.jpg,/images/w968-official-no-20-89g/05.jpg,/images/w968-official-no-20-89g/06.jpg,/images/w968-official-no-20-89g/07.jpg,/images/w968-official-no-20-89g/08.jpg,/images/w968-official-no-20-89g/09.jpg"></td>
       <td>W968 Official | No.20 | 89g</td>
-      <td style="text-align:right">$189</td>
+      <td style="text-align:right"><del>$189</del></td>
     </tr>
 <tr>
       <td><img src="/images/w968-official-no-17-93g/01.thumb.webp" data-full-src="/images/w968-official-no-17-93g/01.webp" srcset="/images/w968-official-no-17-93g/01.thumb-240.webp 180w, /images/w968-official-no-17-93g/01.thumb-480.webp 360w, /images/w968-official-no-17-93g/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="W968 Official | No.17 | 93g" loading="lazy" data-gallery="/images/w968-official-no-17-93g/01.webp,/images/w968-official-no-17-93g/02.webp,/images/w968-official-no-17-93g/03.jpg,/images/w968-official-no-17-93g/04.jpg,/images/w968-official-no-17-93g/05.jpg,/images/w968-official-no-17-93g/06.webp,/images/w968-official-no-17-93g/07.webp,/images/w968-official-no-17-93g/08.webp,/images/w968-official-no-17-93g/09.jpg"></td>
@@ -825,7 +825,7 @@ hide:
 <tr data-added="2026-10-04">
       <td><img src="/images/dhs-s968-no-18-91g/01.thumb.webp" data-full-src="/images/dhs-s968-no-18-91g/01.jpg" srcset="/images/dhs-s968-no-18-91g/01.thumb-240.webp 135w, /images/dhs-s968-no-18-91g/01.thumb-480.webp 270w, /images/dhs-s968-no-18-91g/01.thumb.webp 405w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS S968 | No.18 | 91g | Original Box" loading="lazy" data-gallery="/images/dhs-s968-no-18-91g/01.jpg,/images/dhs-s968-no-18-91g/02.jpg,/images/dhs-s968-no-18-91g/03.jpg,/images/dhs-s968-no-18-91g/04.jpg,/images/dhs-s968-no-18-91g/05.jpg,/images/dhs-s968-no-18-91g/06.jpg,/images/dhs-s968-no-18-91g/07.jpg"></td>
       <td>DHS S968 | No.18 | 91g | Original Box</td>
-      <td style="text-align:right">$232</td>
+      <td style="text-align:right"><del>$232</del></td>
     </tr>
 <tr data-added="2026-10-04">
       <td><img src="/images/dhs-w968-no-06-87g/01.thumb.webp" data-full-src="/images/dhs-w968-no-06-87g/01.jpg" srcset="/images/dhs-w968-no-06-87g/01.thumb-240.webp 180w, /images/dhs-w968-no-06-87g/01.thumb-480.webp 360w, /images/dhs-w968-no-06-87g/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS W968 | No.06 | 87g | Original Box" loading="lazy" data-gallery="/images/dhs-w968-no-06-87g/01.jpg,/images/dhs-w968-no-06-87g/02.jpg,/images/dhs-w968-no-06-87g/03.jpg,/images/dhs-w968-no-06-87g/04.jpg,/images/dhs-w968-no-06-87g/05.jpg,/images/dhs-w968-no-06-87g/06.jpg,/images/dhs-w968-no-06-87g/07.jpg"></td>
