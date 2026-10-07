@@ -158,6 +158,21 @@ hide:
     <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Butterfly 2026 Sports Towel to cart" data-name="Butterfly 2026 Sports Towel" data-price="6"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
 
+  <!-- Li-Ning's Qilin 2.0 PE, the shoe Fan Zhendong plays in. The folder it
+       came from mixed product shots with match frames from the same post; the
+       match frames are here because the shoe's whole pitch is that he wears
+       it, and they show it on the table rather than in a box. Frame 1 is the
+       cover — the pair, whole, on a clean background — and the card's media is
+       a square frame with `object-fit: contain`, so the portrait shot sits in
+       it uncropped. -->
+  <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media">
+      <img src="/images/lining-qilin-2-pe/01.thumb.webp" data-full-src="/images/lining-qilin-2-pe/01.jpg" srcset="/images/lining-qilin-2-pe/01.thumb-240.webp 188w, /images/lining-qilin-2-pe/01.thumb-480.webp 377w, /images/lining-qilin-2-pe/01.thumb.webp 565w, /images/lining-qilin-2-pe/01.thumb-1000.webp 784w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Li-Ning Qilin 2.0 PE table tennis shoe in blue and white" loading="lazy" decoding="async" data-gallery="/images/lining-qilin-2-pe/01.jpg,/images/lining-qilin-2-pe/02.jpg,/images/lining-qilin-2-pe/03.jpg,/images/lining-qilin-2-pe/04.jpg,/images/lining-qilin-2-pe/05.jpg,/images/lining-qilin-2-pe/06.jpg,/images/lining-qilin-2-pe/07.jpg">
+    </div>
+    <h3 class="mg-preowned-card__title">Li-Ning Qilin 2.0 PE <span class="mg-preowned-card__price">$125</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Li-Ning Qilin 2.0 PE to cart" data-name="Li-Ning Qilin 2.0 PE" data-price="125"><span aria-hidden="true">+</span><span>Add to cart</span></button>
+  </article>
+
 </div>
 
 <div class="admonition note mg-page-note mg-list-note mg-list-note--proxy">
