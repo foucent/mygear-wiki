@@ -847,6 +847,21 @@ hide:
       <td>W968 Official | No.28</td>
       <td style="text-align:right">$233</td>
     </tr>
+<tr data-added="2026-10-09">
+      <td><img src="/images/zhang-jike-t5000-cn-old-t-code/01.thumb.webp" data-full-src="/images/zhang-jike-t5000-cn-old-t-code/01.jpg" srcset="/images/zhang-jike-t5000-cn-old-t-code/01.thumb-240.webp 180w, /images/zhang-jike-t5000-cn-old-t-code/01.thumb-480.webp 360w, /images/zhang-jike-t5000-cn-old-t-code/01.thumb.webp 540w, /images/zhang-jike-t5000-cn-old-t-code/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Zhang Jike T5000 | CN | Old T-Code" loading="lazy" data-gallery="/images/zhang-jike-t5000-cn-old-t-code/01.jpg,/images/zhang-jike-t5000-cn-old-t-code/02.jpg,/images/zhang-jike-t5000-cn-old-t-code/03.jpg,/images/zhang-jike-t5000-cn-old-t-code/04.jpg,/images/zhang-jike-t5000-cn-old-t-code/05.jpg,/images/zhang-jike-t5000-cn-old-t-code/06.jpg,/images/zhang-jike-t5000-cn-old-t-code/07.jpg"></td>
+      <td>Zhang Jike T5000 | CN | Old T-Code</td>
+      <td style="text-align:right">$149</td>
+    </tr>
+<tr data-added="2026-10-09">
+      <td><img src="/images/maze-arylate-carbon-old-j-code/01.thumb.webp" data-full-src="/images/maze-arylate-carbon-old-j-code/01.jpg" srcset="/images/maze-arylate-carbon-old-j-code/01.thumb-240.webp 180w, /images/maze-arylate-carbon-old-j-code/01.thumb-480.webp 360w, /images/maze-arylate-carbon-old-j-code/01.thumb.webp 540w, /images/maze-arylate-carbon-old-j-code/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="M.Maze | Arylate-Carbon | Old J-Code | 90g | Original Box" loading="lazy" data-gallery="/images/maze-arylate-carbon-old-j-code/01.jpg,/images/maze-arylate-carbon-old-j-code/02.jpg,/images/maze-arylate-carbon-old-j-code/03.jpg,/images/maze-arylate-carbon-old-j-code/04.jpg,/images/maze-arylate-carbon-old-j-code/05.jpg,/images/maze-arylate-carbon-old-j-code/06.jpg,/images/maze-arylate-carbon-old-j-code/07.jpg"></td>
+      <td>M.Maze | Arylate-Carbon | Old J-Code | 90g | Original Box</td>
+      <td style="text-align:right">$331</td>
+    </tr>
+<tr data-added="2026-10-09">
+      <td><img src="/images/dhs-long-5x-fl-90g-2/01.thumb.webp" data-full-src="/images/dhs-long-5x-fl-90g-2/01.jpg" srcset="/images/dhs-long-5x-fl-90g-2/01.thumb-240.webp 180w, /images/dhs-long-5x-fl-90g-2/01.thumb-480.webp 360w, /images/dhs-long-5x-fl-90g-2/01.thumb.webp 540w, /images/dhs-long-5x-fl-90g-2/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS Long 5X | FL | 90g" loading="lazy" data-gallery="/images/dhs-long-5x-fl-90g-2/01.jpg,/images/dhs-long-5x-fl-90g-2/02.jpg,/images/dhs-long-5x-fl-90g-2/03.jpg,/images/dhs-long-5x-fl-90g-2/04.jpg,/images/dhs-long-5x-fl-90g-2/05.jpg,/images/dhs-long-5x-fl-90g-2/06.jpg,/images/dhs-long-5x-fl-90g-2/07.jpg"></td>
+      <td>DHS Long 5X | FL | 90g</td>
+      <td style="text-align:right">$69</td>
+    </tr>
 <tr>
       <td><img src="/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/01.thumb.webp" data-full-src="/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/01.jpg" srcset="/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/01.thumb-240.webp 180w, /images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/01.thumb-480.webp 360w, /images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/01.thumb.webp 540w, /images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/01.jpg 790w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Yinhe PRK Choi Hyun Hwa North Korea Team Special | 90g" loading="lazy" data-gallery="/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/01.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/02.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/03.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/04.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/05.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/06.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/07.jpg,/images/yinhe-prk-choi-hyun-hwa-north-korea-team-special-90g/08.jpg"></td>
       <td>Yinhe PRK Choi Hyun Hwa North Korea Team Special | 90g</td>
