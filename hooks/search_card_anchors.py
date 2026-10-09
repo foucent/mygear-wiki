@@ -42,6 +42,11 @@ _PREOWNED_TABLE = "mg-price-table--preowned"
 # __price, so this one list covers all three lookups.
 _CARD_NAMES = (_ARTICLE_CARD, _PREOWNED_CARD)
 _SLUG_MAX = 60
+# A card's name is its own heading, and which heading has moved once already:
+# /gear/ writes them as <h2> so the page runs h1 -> h2 with nothing skipped,
+# while the homepage feed that guide-grid.js builds still emits <h3>. Both are
+# this hook's business, so it matches the class and accepts either tag.
+_TITLE_TAGS = ("h2", "h3", "h4")
 
 _TAG = re.compile(r"<[^>]+>")
 
@@ -175,7 +180,7 @@ class _CardScanner(HTMLParser):
         elif tag == "tr" and self._tbody and not self._row:
             self._row = 1
             self._open_card("tr")
-        elif tag == "h3" and _card_class(classes, "__title") and self._card:
+        elif tag in _TITLE_TAGS and _card_class(classes, "__title") and self._card:
             self._title += 1
         elif tag == "span" and _card_class(classes, "__price") and self._card:
             self._price += 1
@@ -196,7 +201,7 @@ class _CardScanner(HTMLParser):
         elif tag == "tbody":
             self._tbody = max(0, self._tbody - 1)
 
-        if tag == "h3" and self._title:
+        if tag in _TITLE_TAGS and self._title:
             self._title -= 1
         elif tag == "span" and self._price:
             self._price -= 1

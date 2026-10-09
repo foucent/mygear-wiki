@@ -25,3 +25,47 @@
     <title>{{ config.site_name }}</title>
   {%- endif -%}
 {% endblock %}
+
+{#- Open Graph / Twitter cards.
+
+    The site had none, so every share of a page — WhatsApp, Reddit, a forum —
+    went out as a bare link with no title, no summary and no picture. WhatsApp
+    is where most of this shop's traffic is asked to land, which made it the
+    one place the omission actually cost something.
+
+    og:title / og:description / og:url are derived per page and are always
+    correct, so they are emitted everywhere. og:image is not derivable: a
+    landscape card has to be built for the page it represents (see
+    docs/images/og/), so it is opt-in through an `og_image:` frontmatter key
+    rather than a site-wide default that would put a Viscaria photo on the
+    /pre-owned/ share. `page.canonical_url` is what makes it absolute, which
+    the scrapers require.
+
+    Twitter's card is declared as well as OG: X reads the og: tags, but
+    `summary_large_image` is what tells it to show the picture at full width
+    rather than as a thumbnail beside the text. -#}
+{% block extrahead %}
+  {%- set og_title = (page.meta.title if page.meta and page.meta.title else (page.title | striptags ~ " - " ~ config.site_name if page.title and not page.is_homepage else config.site_name)) -%}
+  {%- set og_desc = page.meta.description if page.meta and page.meta.description else config.site_description -%}
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ config.site_name }}">
+  <meta property="og:title" content="{{ og_title }}">
+  {%- if og_desc %}
+  <meta property="og:description" content="{{ og_desc }}">
+  {%- endif %}
+  <meta property="og:url" content="{{ page.canonical_url }}">
+  {%- if page.meta and page.meta.og_image %}
+  {#- Absolute, which is what the scrapers require: `| url` only makes the path
+      root-relative (it exists for sub-path deployments), so the origin has to
+      be prepended by hand. site_url is written with a trailing slash, hence the
+      rstrip. -#}
+  {%- set og_img = config.site_url.rstrip("/") ~ (page.meta.og_image | url) %}
+  <meta property="og:image" content="{{ og_img }}">
+  <meta name="twitter:image" content="{{ og_img }}">
+  {%- endif %}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ og_title }}">
+  {%- if og_desc %}
+  <meta name="twitter:description" content="{{ og_desc }}">
+  {%- endif %}
+{% endblock %}

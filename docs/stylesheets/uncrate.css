@@ -329,6 +329,59 @@
   color: var(--ab-red);
 }
 
+/* The part list under a build: what is glued to each face. The card's prose
+   already says all of it, but as sentences — a reader scanning for "Viscaria
+   D09C" and a crawler both do better with the pairing stated on its own line.
+   The label sits in the muted ink so the rubber name is the thing that reads.
+
+   Two levels of alignment, and they are different jobs. Each row is
+   `text-align: left` so its label and its value sit in two columns; the block
+   around them is `width: fit-content` with auto margins so it centres in the
+   card as a whole. Centring the *rows*, which is what inheriting the card's
+   `text-align: center` did, centres each line on its own length and leaves the
+   labels ragged.
+
+   The label's fixed width is what makes the columns. Inline-block at 7em of its
+   own 11px: wide enough for "FOREHAND" at that weight and tracking, and the
+   same number on every row, so the two values start at the same x. Labels
+   longer than that would not, which is why it is spelled out here rather than
+   left to the content.
+
+   No border or background: the card already draws enough lines, and these are
+   a caption on the description rather than a table.
+
+   It carries no `order`, which is deliberate and worth knowing: the copy column
+   is a flex column on explicit orders (desc 1, options 3, price 4, more 5), so
+   a new child defaults to 0 and sorts with the title — which puts the list
+   directly under the title, above the description, where the markup also now
+   has it. Giving it a number would move it. */
+.md-typeset .mg-card__specs {
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 auto 12px;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--ab-text);
+}
+
+.md-typeset .mg-card__specs li {
+  margin: 0;
+  padding: 1px 0;
+}
+
+.md-typeset .mg-card__specs .mg-card__spec-label {
+  display: inline-block;
+  width: 7em;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ab-text-muted);
+}
+
 /* The action line, pinned to the bottom of the copy column so it lines up
    across a row the grid has stretched. */
 .md-typeset .mg-card__more {
