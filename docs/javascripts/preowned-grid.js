@@ -290,12 +290,15 @@
 
     // Where the sold run starts. A sold card is not stock — it is a record of
     // what a blade like this actually went for and in what condition — so the
-    // two runs are split by a rule carrying that sentence. Built only when
-    // there is a sold run: a caption over nothing would be a lie.
+    // two runs are split by a rule carrying that sentence.
+    //
+    // Only when there are two runs to split. The sold cards live on
+    // /pre-owned/sold/ now, where every card is sold, and a rule built there
+    // would sit over the whole grid as a header rather than between anything.
     var availableCount =
       newItems.length + featuredItems.length + oldItems.length;
     var divider = null;
-    if (soldCards.length) {
+    if (soldCards.length && availableCount) {
       divider = document.createElement("div");
       divider.className = "mg-preowned-divider";
       divider.setAttribute("role", "presentation");
