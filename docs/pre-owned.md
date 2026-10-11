@@ -248,39 +248,9 @@ hide:
       <td style="text-align:right">$85</td>
     </tr>
 <tr>
-      <td><img src="/images/fan-zd-alc-k-code-cn-90g/01.thumb.webp" data-full-src="/images/fan-zd-alc-k-code-cn-90g/01.jpg" srcset="/images/fan-zd-alc-k-code-cn-90g/01.thumb-240.webp 180w, /images/fan-zd-alc-k-code-cn-90g/01.thumb-480.webp 360w, /images/fan-zd-alc-k-code-cn-90g/01.thumb.webp 540w, /images/fan-zd-alc-k-code-cn-90g/01.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Fan ZD ALC | K-Code | CN | 90g" loading="lazy" data-gallery="/images/fan-zd-alc-k-code-cn-90g/01.jpg,/images/fan-zd-alc-k-code-cn-90g/02.jpg,/images/fan-zd-alc-k-code-cn-90g/03.jpg,/images/fan-zd-alc-k-code-cn-90g/04.jpg,/images/fan-zd-alc-k-code-cn-90g/05.jpg,/images/fan-zd-alc-k-code-cn-90g/06.jpg,/images/fan-zd-alc-k-code-cn-90g/07.jpg,/images/fan-zd-alc-k-code-cn-90g/08.jpg"></td>
-      <td>Fan ZD ALC | K-Code | CN | 90g</td>
-      <td style="text-align:right">$112</td>
-    </tr>
-<tr>
-      <td><img src="/images/fan-zd-alc006-2/01.thumb.webp" data-full-src="/images/fan-zd-alc006-2/01.jpg" srcset="/images/fan-zd-alc006-2/01.thumb-240.webp 180w, /images/fan-zd-alc006-2/01.thumb-480.webp 360w, /images/fan-zd-alc006-2/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Fan ZD ALC | K-Code | CN | 92g" loading="lazy" data-gallery="/images/fan-zd-alc006-2/01.jpg,/images/fan-zd-alc006-2/02.jpg,/images/fan-zd-alc006-2/03.jpg,/images/fan-zd-alc006-2/04.jpg,/images/fan-zd-alc006-2/05.jpg,/images/fan-zd-alc006-2/06.jpg,/images/fan-zd-alc006-2/07.jpg"></td>
-      <td>Fan ZD ALC | K-Code | CN | 92g</td>
-      <td style="text-align:right"><del>$125</del></td>
-    </tr>
-<tr>
-      <td><img src="/images/fan-zd-alc-jp-k-code-90g/01.thumb.webp" data-full-src="/images/fan-zd-alc-jp-k-code-90g/01.webp" srcset="/images/fan-zd-alc-jp-k-code-90g/01.thumb-240.webp 180w, /images/fan-zd-alc-jp-k-code-90g/01.thumb-480.webp 360w, /images/fan-zd-alc-jp-k-code-90g/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Fan ZD ALC | K-Code | JP | 90g" loading="lazy" data-gallery="/images/fan-zd-alc-jp-k-code-90g/01.webp,/images/fan-zd-alc-jp-k-code-90g/02.jpg,/images/fan-zd-alc-jp-k-code-90g/03.jpg,/images/fan-zd-alc-jp-k-code-90g/04.jpg,/images/fan-zd-alc-jp-k-code-90g/05.jpg,/images/fan-zd-alc-jp-k-code-90g/06.jpg,/images/fan-zd-alc-jp-k-code-90g/07.jpg,/images/fan-zd-alc-jp-k-code-90g/08.jpg"></td>
-      <td>Fan ZD ALC | K-Code | JP | 90g</td>
-      <td style="text-align:right">$100</td>
-    </tr>
-<tr>
       <td><img src="/images/fan-zd-alc-k-code-jp-91g/01.thumb.webp" data-full-src="/images/fan-zd-alc-k-code-jp-91g/01.jpg" srcset="/images/fan-zd-alc-k-code-jp-91g/01.thumb-240.webp 180w, /images/fan-zd-alc-k-code-jp-91g/01.thumb-480.webp 360w, /images/fan-zd-alc-k-code-jp-91g/01.thumb.webp 540w, /images/fan-zd-alc-k-code-jp-91g/01.jpg 790w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Fan ZD ALC | K-Code | JP | 91g" loading="lazy" data-gallery="/images/fan-zd-alc-k-code-jp-91g/01.jpg,/images/fan-zd-alc-k-code-jp-91g/02.jpg,/images/fan-zd-alc-k-code-jp-91g/03.jpg,/images/fan-zd-alc-k-code-jp-91g/04.jpg,/images/fan-zd-alc-k-code-jp-91g/05.jpg,/images/fan-zd-alc-k-code-jp-91g/06.jpg,/images/fan-zd-alc-k-code-jp-91g/07.jpg"></td>
       <td>Fan ZD ALC | K-Code | JP | 91g</td>
       <td style="text-align:right">$135</td>
-    </tr>
-<tr data-added="2026-09-07">
-      <td><img src="/images/fan-zd-alc-k-code-jp-83g/01.thumb.webp" data-full-src="/images/fan-zd-alc-k-code-jp-83g/01.jpg" srcset="/images/fan-zd-alc-k-code-jp-83g/01.thumb-240.webp 180w, /images/fan-zd-alc-k-code-jp-83g/01.thumb-480.webp 360w, /images/fan-zd-alc-k-code-jp-83g/01.thumb.webp 540w, /images/fan-zd-alc-k-code-jp-83g/01.jpg 640w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Fan ZD ALC | K-Code | JP | 83g" loading="lazy" data-gallery="/images/fan-zd-alc-k-code-jp-83g/01.jpg,/images/fan-zd-alc-k-code-jp-83g/02.jpg,/images/fan-zd-alc-k-code-jp-83g/03.jpg,/images/fan-zd-alc-k-code-jp-83g/04.jpg,/images/fan-zd-alc-k-code-jp-83g/05.jpg,/images/fan-zd-alc-k-code-jp-83g/06.jpg,/images/fan-zd-alc-k-code-jp-83g/07.jpg"></td>
-      <td>Fan ZD ALC | K-Code | JP | 83g</td>
-      <td style="text-align:right">$102</td>
-    </tr>
-<tr>
-      <td><img src="/images/fan-zd-alc006/01.thumb.webp" data-full-src="/images/fan-zd-alc006/01.jpg" srcset="/images/fan-zd-alc006/01.thumb-240.webp 180w, /images/fan-zd-alc006/01.thumb-480.webp 360w, /images/fan-zd-alc006/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Fan ZD ALC | K-Code | JP | CS | 82.5g" loading="lazy" data-gallery="/images/fan-zd-alc006/01.jpg,/images/fan-zd-alc006/02.jpg,/images/fan-zd-alc006/03.jpg,/images/fan-zd-alc006/04.jpg,/images/fan-zd-alc006/05.jpg,/images/fan-zd-alc006/06.jpg"></td>
-      <td>Fan ZD ALC | K-Code | JP | CS | 82.5g</td>
-      <td style="text-align:right">$115</td>
-    </tr>
-<tr>
-      <td><img src="/images/fan-zd-alc-w-code-jp/01.thumb.webp" data-full-src="/images/fan-zd-alc-w-code-jp/01.jpg" srcset="/images/fan-zd-alc-w-code-jp/01.thumb-240.webp 180w, /images/fan-zd-alc-w-code-jp/01.jpg 220w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Fan ZD ALC | W-Code | JP" loading="lazy" data-gallery="/images/fan-zd-alc-w-code-jp/01.jpg,/images/fan-zd-alc-w-code-jp/02.jpg,/images/fan-zd-alc-w-code-jp/03.jpg,/images/fan-zd-alc-w-code-jp/04.jpg,/images/fan-zd-alc-w-code-jp/05.jpg,/images/fan-zd-alc-w-code-jp/06.jpg,/images/fan-zd-alc-w-code-jp/07.jpg"></td>
-      <td>Fan ZD ALC | W-Code | JP</td>
-      <td style="text-align:right"><del>$138</del></td>
     </tr>
 <tr>
       <td><img src="/images/fan-zd-alc-x-code-jp-90g/01.thumb.webp" data-full-src="/images/fan-zd-alc-x-code-jp-90g/01.jpg" srcset="/images/fan-zd-alc-x-code-jp-90g/01.thumb-240.webp 180w, /images/fan-zd-alc-x-code-jp-90g/01.thumb-480.webp 360w, /images/fan-zd-alc-x-code-jp-90g/01.thumb.webp 540w, /images/fan-zd-alc-x-code-jp-90g/01.jpg 790w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Fan ZD ALC | X-Code | JP | 90g" loading="lazy" data-gallery="/images/fan-zd-alc-x-code-jp-90g/01.jpg,/images/fan-zd-alc-x-code-jp-90g/02.jpg,/images/fan-zd-alc-x-code-jp-90g/03.jpg,/images/fan-zd-alc-x-code-jp-90g/04.jpg,/images/fan-zd-alc-x-code-jp-90g/05.jpg,/images/fan-zd-alc-x-code-jp-90g/06.jpg,/images/fan-zd-alc-x-code-jp-90g/07.jpg"></td>
@@ -295,7 +265,7 @@ hide:
 <tr>
       <td><img src="/images/fan-zd-alc-x-code-jp-cs-85g/01.thumb.webp" data-full-src="/images/fan-zd-alc-x-code-jp-cs-85g/01.jpg" srcset="/images/fan-zd-alc-x-code-jp-cs-85g/01.thumb-240.webp 180w, /images/fan-zd-alc-x-code-jp-cs-85g/01.thumb-480.webp 360w, /images/fan-zd-alc-x-code-jp-cs-85g/01.thumb.webp 540w, /images/fan-zd-alc-x-code-jp-cs-85g/01.jpg 640w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Fan ZD ALC | X-Code | JP | CS | 85g" loading="lazy" data-gallery="/images/fan-zd-alc-x-code-jp-cs-85g/01.jpg,/images/fan-zd-alc-x-code-jp-cs-85g/02.jpg,/images/fan-zd-alc-x-code-jp-cs-85g/03.jpg,/images/fan-zd-alc-x-code-jp-cs-85g/04.jpg,/images/fan-zd-alc-x-code-jp-cs-85g/05.jpg,/images/fan-zd-alc-x-code-jp-cs-85g/06.jpg,/images/fan-zd-alc-x-code-jp-cs-85g/07.jpg"></td>
       <td>Fan ZD ALC | X-Code | JP | CS | 85g</td>
-      <td style="text-align:right">$115</td>
+      <td style="text-align:right"><del>$115</del></td>
     </tr>
 <tr>
       <td><img src="/images/fan-zd-alc-y-code-jp-90g/01.thumb.webp" data-full-src="/images/fan-zd-alc-y-code-jp-90g/01.jpg" srcset="/images/fan-zd-alc-y-code-jp-90g/01.thumb-240.webp 180w, /images/fan-zd-alc-y-code-jp-90g/01.thumb-480.webp 360w, /images/fan-zd-alc-y-code-jp-90g/01.thumb.webp 540w, /images/fan-zd-alc-y-code-jp-90g/01.jpg 790w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Fan ZD ALC | Y-Code | JP | 90g" loading="lazy" data-gallery="/images/fan-zd-alc-y-code-jp-90g/01.jpg,/images/fan-zd-alc-y-code-jp-90g/02.jpg,/images/fan-zd-alc-y-code-jp-90g/03.jpg,/images/fan-zd-alc-y-code-jp-90g/04.jpg,/images/fan-zd-alc-y-code-jp-90g/05.jpg,/images/fan-zd-alc-y-code-jp-90g/06.jpg"></td>
@@ -333,14 +303,9 @@ hide:
       <td style="text-align:right">$138</td>
     </tr>
 <tr>
-      <td><img src="/images/fan-zd-salc-jp03021/01.thumb.webp" data-full-src="/images/fan-zd-salc-jp03021/01.jpg" srcset="/images/fan-zd-salc-jp03021/01.thumb-240.webp 180w, /images/fan-zd-salc-jp03021/01.thumb-480.webp 360w, /images/fan-zd-salc-jp03021/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Fan ZD SALC | W-Code | CN | 97g" loading="lazy" data-gallery="/images/fan-zd-salc-jp03021/01.jpg,/images/fan-zd-salc-jp03021/02.webp,/images/fan-zd-salc-jp03021/03.jpg,/images/fan-zd-salc-jp03021/04.jpg,/images/fan-zd-salc-jp03021/05.jpg,/images/fan-zd-salc-jp03021/06.jpg,/images/fan-zd-salc-jp03021/07.jpg,/images/fan-zd-salc-jp03021/08.jpg"></td>
-      <td>Fan ZD SALC | W-Code | CN | 97g</td>
-      <td style="text-align:right"><del>$135</del></td>
-    </tr>
-<tr>
       <td><img src="/images/fan-zd-salc003/01.thumb.webp" data-full-src="/images/fan-zd-salc003/01.jpg" srcset="/images/fan-zd-salc003/01.thumb-240.webp 180w, /images/fan-zd-salc003/01.thumb-480.webp 360w, /images/fan-zd-salc003/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Fan ZD SALC | Y-Code | JP | 87g" loading="lazy" data-gallery="/images/fan-zd-salc003/01.jpg,/images/fan-zd-salc003/02.jpg,/images/fan-zd-salc003/03.jpg,/images/fan-zd-salc003/04.jpg,/images/fan-zd-salc003/05.jpg,/images/fan-zd-salc003/06.jpg,/images/fan-zd-salc003/07.jpg,/images/fan-zd-salc003/08.jpg"></td>
       <td>Fan ZD SALC | Y-Code | JP | 87g</td>
-      <td style="text-align:right">$138</td>
+      <td style="text-align:right"><del>$138</del></td>
     </tr>
 <tr>
       <td><img src="/images/long5_006/01.thumb.webp" data-full-src="/images/long5_006/01.jpg" srcset="/images/long5_006/01.thumb-240.webp 180w, /images/long5_006/01.thumb-480.webp 360w, /images/long5_006/01.thumb.webp 540w, /images/long5_006/01.jpg 790w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Long 5 | 2016 No.008 | 89g" loading="lazy" data-gallery="/images/long5_006/01.jpg,/images/long5_006/02.jpg,/images/long5_006/03.jpg,/images/long5_006/04.jpg,/images/long5_006/05.jpg,/images/long5_006/06.jpg,/images/long5_006/07.jpg"></td>
@@ -485,12 +450,12 @@ hide:
 <tr>
       <td><img src="/images/dhs-hurricane-sun-003/01.thumb.webp" data-full-src="/images/dhs-hurricane-sun-003/01.jpg" srcset="/images/dhs-hurricane-sun-003/01.thumb-240.webp 180w, /images/dhs-hurricane-sun-003/01.thumb-480.webp 360w, /images/dhs-hurricane-sun-003/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS Hurricane Sun | 90g | CS" loading="lazy" data-gallery="/images/dhs-hurricane-sun-003/01.jpg,/images/dhs-hurricane-sun-003/02.jpg,/images/dhs-hurricane-sun-003/03.jpg,/images/dhs-hurricane-sun-003/04.jpg,/images/dhs-hurricane-sun-003/05.jpg,/images/dhs-hurricane-sun-003/06.jpg,/images/dhs-hurricane-sun-003/07.jpg,/images/dhs-hurricane-sun-003/08.jpg"></td>
       <td>DHS Hurricane Sun | 90g | CS</td>
-      <td style="text-align:right">$75</td>
+      <td style="text-align:right"><del>$75</del></td>
     </tr>
 <tr>
       <td><img src="/images/dhs-hurricane-sun-92g/01.thumb.webp" data-full-src="/images/dhs-hurricane-sun-92g/01.jpg" srcset="/images/dhs-hurricane-sun-92g/01.thumb-240.webp 180w, /images/dhs-hurricane-sun-92g/01.thumb-480.webp 360w, /images/dhs-hurricane-sun-92g/01.thumb.webp 540w, /images/dhs-hurricane-sun-92g/01.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS Hurricane Sun | 92g" loading="lazy" data-gallery="/images/dhs-hurricane-sun-92g/01.jpg,/images/dhs-hurricane-sun-92g/02.jpg,/images/dhs-hurricane-sun-92g/03.jpg,/images/dhs-hurricane-sun-92g/04.jpg,/images/dhs-hurricane-sun-92g/05.jpg,/images/dhs-hurricane-sun-92g/06.jpg,/images/dhs-hurricane-sun-92g/07.jpg,/images/dhs-hurricane-sun-92g/08.jpg"></td>
       <td>DHS Hurricane Sun | 92g</td>
-      <td style="text-align:right">$73</td>
+      <td style="text-align:right"><del>$73</del></td>
     </tr>
 <tr>
       <td><img src="/images/donic-zhang-jike-new-era-de-86g/01.thumb.webp" data-full-src="/images/donic-zhang-jike-new-era-de-86g/01.jpg" srcset="/images/donic-zhang-jike-new-era-de-86g/01.thumb-240.webp 180w, /images/donic-zhang-jike-new-era-de-86g/01.thumb-480.webp 360w, /images/donic-zhang-jike-new-era-de-86g/01.thumb.webp 540w, /images/donic-zhang-jike-new-era-de-86g/01.jpg 790w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DONIC Zhang Jike | NEW ERA | DE | 86g" loading="lazy" data-gallery="/images/donic-zhang-jike-new-era-de-86g/01.jpg,/images/donic-zhang-jike-new-era-de-86g/02.jpg,/images/donic-zhang-jike-new-era-de-86g/03.jpg,/images/donic-zhang-jike-new-era-de-86g/04.jpg,/images/donic-zhang-jike-new-era-de-86g/05.jpg,/images/donic-zhang-jike-new-era-de-86g/06.jpg"></td>
@@ -515,17 +480,12 @@ hide:
 <tr>
       <td><img src="/images/lin-gaoyuan-alc-cn-w-code-88g-2/01.thumb.webp" data-full-src="/images/lin-gaoyuan-alc-cn-w-code-88g-2/01.webp" srcset="/images/lin-gaoyuan-alc-cn-w-code-88g-2/01.thumb-240.webp 180w, /images/lin-gaoyuan-alc-cn-w-code-88g-2/01.thumb-480.webp 360w, /images/lin-gaoyuan-alc-cn-w-code-88g-2/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Lin Gaoyuan ALC | W-Code | CN | 88g" loading="lazy" data-gallery="/images/lin-gaoyuan-alc-cn-w-code-88g-2/01.webp,/images/lin-gaoyuan-alc-cn-w-code-88g-2/02.jpg,/images/lin-gaoyuan-alc-cn-w-code-88g-2/03.jpg,/images/lin-gaoyuan-alc-cn-w-code-88g-2/04.jpg,/images/lin-gaoyuan-alc-cn-w-code-88g-2/05.jpg,/images/lin-gaoyuan-alc-cn-w-code-88g-2/06.jpg,/images/lin-gaoyuan-alc-cn-w-code-88g-2/07.jpg,/images/lin-gaoyuan-alc-cn-w-code-88g-2/08.jpg,/images/lin-gaoyuan-alc-cn-w-code-88g-2/09.jpg"></td>
       <td>Lin Gaoyuan ALC | W-Code | CN | 88g</td>
-      <td style="text-align:right">$137</td>
+      <td style="text-align:right"><del>$137</del></td>
     </tr>
 <tr>
       <td><img src="/images/lin-gaoyuan-alc-cn-w-code-88g/01.thumb.webp" data-full-src="/images/lin-gaoyuan-alc-cn-w-code-88g/01.webp" srcset="/images/lin-gaoyuan-alc-cn-w-code-88g/01.thumb-240.webp 180w, /images/lin-gaoyuan-alc-cn-w-code-88g/01.thumb-480.webp 360w, /images/lin-gaoyuan-alc-cn-w-code-88g/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Lin Gaoyuan ALC | W-Code | CN | 88g" loading="lazy" data-gallery="/images/lin-gaoyuan-alc-cn-w-code-88g/01.webp,/images/lin-gaoyuan-alc-cn-w-code-88g/02.webp,/images/lin-gaoyuan-alc-cn-w-code-88g/03.jpg,/images/lin-gaoyuan-alc-cn-w-code-88g/04.jpg,/images/lin-gaoyuan-alc-cn-w-code-88g/05.jpg,/images/lin-gaoyuan-alc-cn-w-code-88g/06.jpg,/images/lin-gaoyuan-alc-cn-w-code-88g/07.jpg,/images/lin-gaoyuan-alc-cn-w-code-88g/08.jpg"></td>
       <td>Lin Gaoyuan ALC | W-Code | CN | 88g</td>
-      <td style="text-align:right">$126</td>
-    </tr>
-<tr>
-      <td><img src="/images/lin-gaoyuan-alc-cn-w-code-90g/01.thumb.webp" data-full-src="/images/lin-gaoyuan-alc-cn-w-code-90g/01.jpg" srcset="/images/lin-gaoyuan-alc-cn-w-code-90g/01.thumb-240.webp 180w, /images/lin-gaoyuan-alc-cn-w-code-90g/01.thumb-480.webp 360w, /images/lin-gaoyuan-alc-cn-w-code-90g/01.thumb.webp 540w, /images/lin-gaoyuan-alc-cn-w-code-90g/01.jpg 790w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Lin Gaoyuan ALC | W-Code | CN | 90g" loading="lazy" data-gallery="/images/lin-gaoyuan-alc-cn-w-code-90g/01.jpg,/images/lin-gaoyuan-alc-cn-w-code-90g/02.jpg,/images/lin-gaoyuan-alc-cn-w-code-90g/03.jpg,/images/lin-gaoyuan-alc-cn-w-code-90g/04.jpg,/images/lin-gaoyuan-alc-cn-w-code-90g/05.jpg,/images/lin-gaoyuan-alc-cn-w-code-90g/06.jpg,/images/lin-gaoyuan-alc-cn-w-code-90g/07.jpg"></td>
-      <td>Lin Gaoyuan ALC | W-Code | CN | 90g</td>
-      <td style="text-align:right"><del>$155</del></td>
+      <td style="text-align:right"><del>$126</del></td>
     </tr>
 <tr data-added="2026-09-03">
       <td><img src="/images/lin-gaoyuan-alc-t-code-cn-an-89g/01.thumb.webp" data-full-src="/images/lin-gaoyuan-alc-t-code-cn-an-89g/01.webp" srcset="/images/lin-gaoyuan-alc-t-code-cn-an-89g/01.thumb-240.webp 180w, /images/lin-gaoyuan-alc-t-code-cn-an-89g/01.thumb-480.webp 360w, /images/lin-gaoyuan-alc-t-code-cn-an-89g/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Lin Gaoyuan ALC | T-Code | CN | AN | 89g" loading="lazy" data-gallery="/images/lin-gaoyuan-alc-t-code-cn-an-89g/01.webp,/images/lin-gaoyuan-alc-t-code-cn-an-89g/02.webp,/images/lin-gaoyuan-alc-t-code-cn-an-89g/03.jpg,/images/lin-gaoyuan-alc-t-code-cn-an-89g/04.jpg,/images/lin-gaoyuan-alc-t-code-cn-an-89g/05.jpg,/images/lin-gaoyuan-alc-t-code-cn-an-89g/06.jpg,/images/lin-gaoyuan-alc-t-code-cn-an-89g/07.jpg,/images/lin-gaoyuan-alc-t-code-cn-an-89g/08.jpg"></td>
@@ -675,7 +635,7 @@ hide:
 <tr data-added="2026-09-11">
       <td><img src="/images/fan-zd-alc-k-code-jp-84g/01.thumb.webp" data-full-src="/images/fan-zd-alc-k-code-jp-84g/01.jpg" srcset="/images/fan-zd-alc-k-code-jp-84g/01.thumb-240.webp 180w, /images/fan-zd-alc-k-code-jp-84g/01.thumb-480.webp 360w, /images/fan-zd-alc-k-code-jp-84g/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Fan ZD ALC | K-Code | JP | 84g" loading="lazy" data-gallery="/images/fan-zd-alc-k-code-jp-84g/01.jpg,/images/fan-zd-alc-k-code-jp-84g/02.jpg,/images/fan-zd-alc-k-code-jp-84g/03.jpg,/images/fan-zd-alc-k-code-jp-84g/04.jpg,/images/fan-zd-alc-k-code-jp-84g/05.jpg,/images/fan-zd-alc-k-code-jp-84g/06.jpg,/images/fan-zd-alc-k-code-jp-84g/07.jpg"></td>
       <td>Fan ZD ALC | K-Code | JP | 84g</td>
-      <td style="text-align:right">$98</td>
+      <td style="text-align:right"><del>$98</del></td>
     </tr>
 <tr data-added="2026-09-14">
       <td><img src="/images/long-5x-cs-87g/01.thumb.webp" data-full-src="/images/long-5x-cs-87g/01.jpg" srcset="/images/long-5x-cs-87g/01.thumb-240.webp 180w, /images/long-5x-cs-87g/01.thumb-480.webp 360w, /images/long-5x-cs-87g/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS Long 5x | CS | 87g | Without box" loading="lazy" data-gallery="/images/long-5x-cs-87g/01.jpg,/images/long-5x-cs-87g/02.jpg,/images/long-5x-cs-87g/03.jpg,/images/long-5x-cs-87g/04.jpg,/images/long-5x-cs-87g/05.jpg,/images/long-5x-cs-87g/06.jpg,/images/long-5x-cs-87g/07.jpg"></td>
@@ -690,7 +650,7 @@ hide:
 <tr data-added="2026-09-17">
       <td><img src="/images/fan-zd-salc-k-code-jp-89g/01.thumb.webp" data-full-src="/images/fan-zd-salc-k-code-jp-89g/01.webp" srcset="/images/fan-zd-salc-k-code-jp-89g/01.thumb-240.webp 180w, /images/fan-zd-salc-k-code-jp-89g/01.thumb-480.webp 360w, /images/fan-zd-salc-k-code-jp-89g/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Fan ZD SALC | K-Code | JP | 89g | Original Box" loading="lazy" data-gallery="/images/fan-zd-salc-k-code-jp-89g/01.webp,/images/fan-zd-salc-k-code-jp-89g/02.jpg,/images/fan-zd-salc-k-code-jp-89g/03.jpg,/images/fan-zd-salc-k-code-jp-89g/04.jpg,/images/fan-zd-salc-k-code-jp-89g/05.jpg,/images/fan-zd-salc-k-code-jp-89g/06.jpg,/images/fan-zd-salc-k-code-jp-89g/07.jpg"></td>
       <td>Fan ZD SALC | K-Code | JP | 89g | Original Box</td>
-      <td style="text-align:right">$118</td>
+      <td style="text-align:right"><del>$118</del></td>
     </tr>
 <tr data-added="2026-09-20">
       <td><img src="/images/fan-zd-salc-x-code-cn-91g/01.thumb.webp" data-full-src="/images/fan-zd-salc-x-code-cn-91g/01.webp" srcset="/images/fan-zd-salc-x-code-cn-91g/01.thumb-240.webp 180w, /images/fan-zd-salc-x-code-cn-91g/01.thumb-480.webp 360w, /images/fan-zd-salc-x-code-cn-91g/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Fan ZD SALC | X-Code | CN | 91g | Without box" loading="lazy" data-gallery="/images/fan-zd-salc-x-code-cn-91g/01.webp,/images/fan-zd-salc-x-code-cn-91g/02.webp,/images/fan-zd-salc-x-code-cn-91g/03.jpg,/images/fan-zd-salc-x-code-cn-91g/04.jpg,/images/fan-zd-salc-x-code-cn-91g/05.jpg,/images/fan-zd-salc-x-code-cn-91g/06.jpg,/images/fan-zd-salc-x-code-cn-91g/07.jpg,/images/fan-zd-salc-x-code-cn-91g/08.jpg"></td>
