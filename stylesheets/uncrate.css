@@ -909,11 +909,10 @@
 /* The door to that record, which is its own page now.
 
    It replaced a rule that used to cut the sold run off the bottom of the same
-   grid; the two lines it carried — what the run is, and why it is kept — moved
-   into the button, so nothing the rule said is lost by removing it. Centred
-   under the grid, and drawn as a button rather than a text link because it is
-   the way off the page: the shop's links are all small and inline, and this one
-   has to hold two lines of its own. */
+   grid; the sentence the rule carried moved up to the "Recently sold" divider
+   that now heads the six-card preview, so nothing it said is lost. Centred
+   under that preview, and drawn as a button rather than a text link because it
+   is the way off the page — the shop's links are all small and inline. */
 .md-typeset .mg-sold-link {
   display: flex;
   justify-content: center;
@@ -921,11 +920,8 @@
 }
 
 .md-typeset .mg-sold-link__btn {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 3px;
-  padding: 13px 34px;
+  display: inline-block;
+  padding: 12px 30px;
   border: 1px solid var(--ab-line);
   border-radius: 0.55rem;
   background: var(--ab-panel);
@@ -949,13 +945,6 @@
   line-height: 1.2;
   text-transform: uppercase;
   color: var(--ab-text);
-}
-
-.md-typeset .mg-sold-link__note {
-  font-family: var(--ab-serif);
-  font-size: 13px;
-  line-height: 1.3;
-  color: var(--ab-text-muted);
 }
 
 @media (prefers-reduced-motion: reduce) {
