@@ -507,6 +507,16 @@ hide:
       <td>DHS W968 | No.08 | 88g | Original Box</td>
       <td style="text-align:right">$248</td>
     </tr>
+<tr data-added="2026-10-13">
+      <td><img src="/images/viscaria-super-alc-w-code-jp-91g/01.thumb.webp" data-full-src="/images/viscaria-super-alc-w-code-jp-91g/01.jpg" srcset="/images/viscaria-super-alc-w-code-jp-91g/01.thumb-240.webp 180w, /images/viscaria-super-alc-w-code-jp-91g/01.thumb-480.webp 360w, /images/viscaria-super-alc-w-code-jp-91g/01.thumb.webp 540w, /images/viscaria-super-alc-w-code-jp-91g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Viscaria SALC | W-Code | JP | 91g" loading="lazy" data-gallery="/images/viscaria-super-alc-w-code-jp-91g/01.jpg,/images/viscaria-super-alc-w-code-jp-91g/02.jpg,/images/viscaria-super-alc-w-code-jp-91g/03.jpg,/images/viscaria-super-alc-w-code-jp-91g/04.jpg,/images/viscaria-super-alc-w-code-jp-91g/05.jpg,/images/viscaria-super-alc-w-code-jp-91g/06.jpg,/images/viscaria-super-alc-w-code-jp-91g/07.jpg"></td>
+      <td>Viscaria SALC | W-Code | JP | 91g</td>
+      <td style="text-align:right">$130</td>
+    </tr>
+<tr data-added="2026-10-13">
+      <td><img src="/images/dhs-w968-no-31-90g/01.thumb.webp" data-full-src="/images/dhs-w968-no-31-90g/01.jpg" srcset="/images/dhs-w968-no-31-90g/01.thumb-240.webp 180w, /images/dhs-w968-no-31-90g/01.thumb-480.webp 360w, /images/dhs-w968-no-31-90g/01.thumb.webp 540w, /images/dhs-w968-no-31-90g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS W968 | No.31 | 90g | Original Box" loading="lazy" data-gallery="/images/dhs-w968-no-31-90g/01.jpg,/images/dhs-w968-no-31-90g/02.jpg,/images/dhs-w968-no-31-90g/03.jpg,/images/dhs-w968-no-31-90g/04.jpg,/images/dhs-w968-no-31-90g/05.jpg,/images/dhs-w968-no-31-90g/06.jpg,/images/dhs-w968-no-31-90g/07.jpg"></td>
+      <td>DHS W968 | No.31 | 90g | Original Box</td>
+      <td style="text-align:right">$223</td>
+    </tr>
 <tr>
       <td><img src="/images/viscaria-w-code-cn-86g/01.thumb.webp" data-full-src="/images/viscaria-w-code-cn-86g/01.jpg" srcset="/images/viscaria-w-code-cn-86g/01.thumb-240.webp 180w, /images/viscaria-w-code-cn-86g/01.thumb-480.webp 360w, /images/viscaria-w-code-cn-86g/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Viscaria | W-Code | CN | 86g" loading="lazy" data-gallery="/images/viscaria-w-code-cn-86g/01.jpg,/images/viscaria-w-code-cn-86g/02.jpg,/images/viscaria-w-code-cn-86g/03.jpg,/images/viscaria-w-code-cn-86g/05.jpg,/images/viscaria-w-code-cn-86g/06.jpg,/images/viscaria-w-code-cn-86g/07.jpg,/images/viscaria-w-code-cn-86g/08.jpg"></td>
       <td>Viscaria | W-Code | CN | 86g</td>
