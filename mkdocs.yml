@@ -213,9 +213,11 @@ nav:
   # Gear leads the shop row: it is where a blade and its rubbers get put
   # together and quoted as one package. The seven selected blades and fourteen
   # rubber models that used to sit on it now live on Blades and Rubbers, where
-  # they can be compared with everything else of their kind — and the blades
-  # that have no price to compare (nobody stocks them) came back the other way,
-  # because Blades is a price list and can only hold a card with a price on it.
+  # they can be compared with everything else of their kind — and the eleven
+  # blades that have no price (nobody stocks them, or nobody has published a
+  # list price) went back to Blades as well, where they sit below the priced
+  # grid asking for a quote. What is left on Gear is the rackets: eleven builds
+  # and nothing else.
   #
   # gear/index.md is this page. That directory is also where the twenty-four
   # product and brand pages live (/gear/viscaria/, /gear/butterfly/, …); they

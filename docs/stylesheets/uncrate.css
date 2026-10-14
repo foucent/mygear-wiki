@@ -219,18 +219,17 @@
   border-bottom: 1px solid var(--ab-line);
 }
 
-/* .mg-card — /gear/, the last page in this recipe — is sized off the small
-   card on uncrate.com's front page (article.one-half): 470px wide in a 960px
+/* .mg-card — /gear/, the last page in this recipe — is sized off the small card
+   on uncrate.com's front page (article.one-half): 470px wide in a 960px
    column, a landscape band about 3:2, 520px tall overall.
 
    `cover` is what buys that height. A square shot fitted inside a 3:2 band
    would letterbox against both ends and lose a third of the card; cover fills
-   the band and trims top and bottom instead. Eighteen of these twenty-one
-   photos are landscape already and lose almost nothing; the three portrait
-   ones keep the middle of the frame. /blades/, /rubbers/ and /add-ons/ have
-   left for the pre-owned recipe, whose square band fits a picture whole — the
-   two that had nothing to give up, the No.15 glue bottle and the 3006C cutter,
-   left with /add-ons/. */
+   the band and trims top and bottom instead. Eight of these eleven photos are
+   landscape already and lose almost nothing; the three portrait ones keep the
+   middle of the frame. /rubbers/, /add-ons/ and — since the eleven blades that
+   could not be priced came back to /blades/ — that page too have left for the
+   pre-owned recipe, whose square band fits a picture whole. */
 .md-typeset .mg-card__media img {
   aspect-ratio: 3 / 2;
   object-fit: cover;
@@ -493,12 +492,16 @@
   margin: auto 0 0;
 }
 
-/* The one card that has no price — the Victas Quartet AFC, which Victas does not
-   publish one for — takes a sentence of prose in that slot instead, so the card
-   is still something a search can land on rather than a bare name. Order 1 puts
-   it on its own line under the title and above whatever the price/action pair
-   does at the bottom; the row's stretch then spends any spare height in the gaps
-   between the lines, exactly as it does for a kicker.
+/* The paragraph slot. No page in this file's own grids writes one any more —
+   the last cards that did were the eleven blades that cannot be priced, and
+   they are back on /blades/ in the priced-card recipe, which has no room for
+   prose. What is left is the homepage feed: javascripts/guide-grid.js writes
+   each card's excerpt into this class, and it is the only thing the median in
+   javascripts/card-read-more.js ever measures now.
+
+   Order 1 puts it on its own line under the title and above whatever the
+   price/action pair does at the bottom; the row's stretch then spends any spare
+   height in the gaps between the lines, exactly as it does for a kicker.
 
    Left-aligned, unlike everything else on the card: the copy column centres its
    children, which is right for a kicker or a title and wrong for four lines of
@@ -515,13 +518,14 @@
 }
 
 /* The rubbers on a build, on one line under the title — on each of the eleven
-   build cards that open /gear/, none of which carries a Forehand / Backhand
-   table any more: the title is the blade and this is everything that is on it.
+   build cards that are all of /gear/ now, none of which carries a Forehand /
+   Backhand table any more: the title is the blade and this is everything that
+   is on it.
 
    Black, not the muted ink the spec *labels* were set in. What a reader scans
-   this card for is "Viscaria with Hurricane III on it", and on the other twenty
-   cards the rubber names are the one thing on the line that is not grey; a
-   subtitle that steps down to grey would make the answer to that scan the
+   this card for is "Viscaria with Hurricane III on it", and every other name on
+   the page — the eleven build titles — is black; a
+   subtitle that stepped down to grey would make the answer to that scan the
    quietest thing on the card. A size under the title and 600 rather than 900
    keeps it a subtitle all the same.
 
@@ -566,25 +570,28 @@
 
    A card with tags carries no .mg-card__desc for
    javascripts/card-read-more.js to measure, so its action line stays the photo
-   count it is on every other card rather than the "Read more" a cut paragraph
-   would put there — the tags are short enough to want no disclosure.
+   count rather than the "Read more" a cut paragraph puts there — the tags are
+   short enough to want no disclosure.
 
-   The size below is what the grid's one height costs. .mg-card-grid is
-   grid-auto-rows: 1fr, so at two columns the tallest card of a row sets the
-   height of every card in it: a tag block taller than the three lines of
-   paragraph the eleven blade cards are clamped to is charged to the whole row.
-   Measured on the built page, six tags at 11px and 3px of padding take three
-   rows on a desktop column and six on a phone one — 81px and 167px against the
-   paragraph's 68px and 113px — and that would have cost the page 143px and
-   543px. At 10px with 2px of padding and 1.3 of line height the same six take
-   three rows on a desktop column — 151px widest, so two fit the 428px one — and
-   come to 67px, a pixel under the paragraph's 68, so the desktop grid does not
-   move at all: nothing on the page is one line taller than it was.
+   The size below is a leftover of the page this grid used to be, and it was
+   chosen against the paragraph rather than against the chips. .mg-card-grid is
+   grid-auto-rows: 1fr, so at two columns the tallest card of a row set the
+   height of every card in it: a tag block taller than the three lines its
+   neighbours were clamped to was charged to the whole row. Measured on the built
+   page, six tags at 11px and 3px of padding took three rows on a desktop column
+   and six on a phone one — 81px and 167px against the paragraph's 68px and
+   113px — which would have cost the page 143px and 543px. At 10px with 2px of
+   padding and 1.3 of line height the same six take three rows on a desktop
+   column — 151px widest, so two fit the 428px one — and come to 67px, a pixel
+   under the paragraph's 68, so nothing on the page moved. Those paragraphs are
+   nowhere now — the blades that carried them lost them in the move to the
+   pre-owned recipe — so a row of two tag cards is set by the tags themselves:
+   the size stays because it was measured, and because at 10px a chip reads as a
+   label rather than as a sentence.
 
    Only the desktop grid is the one to protect. Below 760px the grid is a single
    column, a row holds one card, and a tag block is charged to the card it is on
-   and to nothing else — so there the block may run past the paragraph's five
-   lines. At a 420px viewport it does not: on the 330px column the chips take
+   and to nothing else. At a 420px viewport, on the 330px column, the chips take
    three rows and two of the eleven reach a fourth, 67 to 91px. At 360px the
    column is 270px and the widest chip is 172px, so most of them cannot pair at
    all and the block runs five or six rows, 115 to 139px. That is a taller page
@@ -635,19 +642,20 @@
    run to at this width, and tags only the ones past it. Four lines on a
    desktop column, six on a phone one; a description that fits is left alone.
 
-   /gear/ is the only page left with descriptions at all — the builds and the
-   blades that cannot be priced, twenty-one paragraphs with no one-line card
-   among them to take a median from — so it states the budget itself with
-   data-mg-clamp-fixed and the number lives here, where it can change with the
-   column. The script reads it back off the cascade; nothing is duplicated in
-   the JS, and the measuring path above is there for the next page that does
-   have a mix of long and short cards.
+   The rule below is the affordance for a grid whose descriptions are all long:
+   it states the budget itself and the number lives here, where it can change
+   with the column. The script reads it back off the cascade; nothing is
+   duplicated in the JS. No grid states it today — the one that did was the
+   eleven blades under the price list on /blades/, and they are in the
+   priced-card recipe now, with no description left to clip — so the measuring
+   path above is what every remaining card goes through, and this stays for the
+   next grid that has no short card to take a median from.
 
    The number is three lines, five in the narrow column. It was measured when
-   /blades/ shared this recipe and the two pages' cards were meant to be the
-   same height; /blades/ is a pre-owned grid now, and what the budget still
-   buys is a grid of one height — no card stretches to the longest write-up,
-   and the ones that are cut say so with "Read more". */
+   /gear/ shared this recipe and the two pages' cards were meant to be the same
+   height, and the blades carried it across to /blades/ when they moved; what it
+   bought there was a grid of one height — no card stretched to the longest
+   write-up, and the ones that were cut said so with "Read more". */
 .md-typeset .mg-card-grid[data-mg-clamp-fixed] {
   --mg-clamp-lines: 3;
 }
@@ -773,11 +781,12 @@
    4 columns   ~225px   title 14px   (brand wall)
 --------------------------------------------------------------------------- */
 
-/* /gear/: 2 up. At 470px a card holds a portrait media
-   band, and its title set at 26px needs the wider column — at 307px the same
-   titles wrapped to three lines. /blades/, /rubbers/ and /add-ons/ used to sit
-   here; all three are written in the pre-owned recipe now and take the 3-up
-   rung with the rest of the shop. */
+/* /gear/: 2 up, and the last grid in this recipe. At 470px a card holds a
+   portrait media band, and its title set at 26px needs the wider column — at
+   307px the same titles wrapped to three lines. /rubbers/, /add-ons/ and, since
+   the eleven blades that could not be priced joined the price list there,
+   /blades/ all sit in the pre-owned recipe now and take the 3-up rung with the
+   rest of the shop. */
 .md-typeset .mg-card-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 20px;
@@ -792,8 +801,8 @@
    fold.
 
    Same recipe as /gear/ above, three departures — all of them scoped to
-   .mg-guides, because /gear/'s twenty-one cards need up to 222px of copy and
-   would lose text if this height reached them.
+   .mg-guides, because the twenty-two cards in that recipe need up to 222px of
+   copy and would lose text if this height reached them.
 
    1. The title is 20px, not 26px. At 26px the longest titles ("Butterfly
       Ovtcharov Innerforce ALC Review, Price & Specs") ran to three lines in
@@ -944,9 +953,10 @@
    the middle of the frame; a portrait shot then gives up the empty table above
    the blade and the hand below it. An anchor at the top was measured against
    this: it keeps the print but takes the whole handle off, and a handle says
-   less about a blade than the face does. Eight of the thirty-seven photos are
-   portrait and the rest are square or landscape, which the square crops across
-   rather than down — a vertical anchor never moves those at all. */
+   less about a blade than the face does. Told off the built page, ten of the
+   grid's fifty-two photos are portrait and the other forty-two are square or
+   landscape, which a square crops across rather than down — a vertical anchor
+   never moves those at all. */
 
 /* How many photos there are, written on the picture — the count the thumbnail
    strip used to demonstrate by showing them. Flat and square like the other
@@ -985,6 +995,19 @@
 
 .md-typeset .mg-preowned-divider[hidden] {
   display: none !important;
+}
+
+/* The same rule, authored rather than built, to split the two runs of cards on
+   /blades/: the price list above, the eleven blades that have no price below.
+   It is the only divider on a page that is not a grid item, which is what the
+   margin is for — the recipe's own 10px is a gap *inside* a grid, where the
+   20px of `gap` is doing the spacing, and between two grids it left the caption
+   10px under the priced cards and 5px over the ones below. Margins collapse
+   here, so these two numbers are the gaps: 28px and 24px, measured off the
+   built page. Slightly more above than below, because the caption belongs to
+   the run it introduces. */
+.md-typeset .mg-preowned-divider--lead {
+  margin: 28px 0 24px;
 }
 
 .mg-preowned-divider::before,
@@ -1129,10 +1152,20 @@
    600px, but that rule is the earlier file at equal specificity and loses), so
    the price holding 14px stays in the same ratio. */
 
-/* The two actions become the card's action line: underlined, uppercase, one
-   in the accent (add to cart) and one in the green (WhatsApp). Both stop
-   being full-width pills. */
+/* The card's action line: underlined, uppercase, one in the accent (add to
+   cart) and one in the green (WhatsApp). What were full-width pills stop being
+   any such thing.
+
+   `__quote` is the same line with different words: the eleven blades under the
+   price list on /blades/ have no price, so where the card above them says
+   "+Add to cart" they say "Contact for Price" and the link goes to WhatsApp
+   instead of the cart. It borrows `__cart`'s ink rather than `__wa`'s green on
+   purpose — the caption over that run is what says these are the quote-only
+   ones, and two runs of one list read as one list when their action lines are
+   drawn the same. It is an <a>, not a <button>: the cart script binds buttons,
+   and this one leaves the page. */
 .md-typeset .mg-preowned-card__cart,
+.md-typeset .mg-preowned-card__quote,
 .md-typeset .mg-preowned-card__wa,
 .md-typeset .mg-preowned-card__ae-link {
   display: inline-block;
@@ -1162,6 +1195,8 @@
 
 .md-typeset .mg-preowned-card__cart:hover,
 .md-typeset .mg-preowned-card__cart:focus,
+.md-typeset .mg-preowned-card__quote:hover,
+.md-typeset .mg-preowned-card__quote:focus,
 .md-typeset .mg-preowned-card__ae-link:hover,
 .md-typeset .mg-preowned-card__ae-link:focus {
   border-bottom-color: var(--ab-text);
