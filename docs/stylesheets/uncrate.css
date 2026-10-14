@@ -514,6 +514,121 @@
   color: var(--ab-text-muted);
 }
 
+/* The rubbers on a build, on one line under the title — on each of the eleven
+   build cards that open /gear/, none of which carries a Forehand / Backhand
+   table any more: the title is the blade and this is everything that is on it.
+
+   Black, not the muted ink the spec *labels* were set in. What a reader scans
+   this card for is "Viscaria with Hurricane III on it", and on the other twenty
+   cards the rubber names are the one thing on the line that is not grey; a
+   subtitle that steps down to grey would make the answer to that scan the
+   quietest thing on the card. A size under the title and 600 rather than 900
+   keeps it a subtitle all the same.
+
+   No `order`, like .mg-card__specs and for the same reason: the copy column is
+   a flex row on explicit orders (tags 1, options 3, price 4, more 5), so a
+   child with none sorts at 0 with the title, and the markup is where it reads.
+
+   -4px of the title's own 12px of bottom margin handed back, which is the floor
+   and not the whole gap: the copy column is a wrapping flex row with the default
+   align-content, so spare height is shared out between its lines and the gap
+   grows with the row. Measured on the built page, the line under a title sits 8
+   to 30px below it on a desktop column and 8 to 36px on a phone one, by how much
+   content each card's neighbours have.
+
+   The pair is written with U+00A0 between the words of each rubber name and
+   before the "·", which leaves the one ordinary space after the "·" as the only
+   place the line can break. On a phone column — 330px of content at a 420px
+   viewport, 270px at 360px — the longest pair wants about 360px, so some of them
+   do wrap. Left to itself the browser breaks at any space and splits a maker
+   from its model ("Butterfly / Dignics 09C"); `text-wrap: balance` does no
+   better, it just moves that break in front of the "·". With the names held
+   together, a wrapped pair reads "DHS Hurricane 3 Blue Sponge ·" / "Butterfly
+   Dignics 09C". The two spaces render identically; only breaking differs. */
+.md-typeset .mg-card__sub {
+  flex: 0 0 100%;
+  margin: -4px 0 12px;
+  font-family: var(--ab-sans);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+  color: var(--ab-text);
+}
+
+/* The feature tags under a card's specs — the eleven build cards on /gear/,
+   whose write-ups are five or six facts rather than a paragraph.
+
+   Same slot as the description: order 1, a row of its own in the wrapping flex,
+   because it stands where the paragraph did. The subtitle above it names the two
+   rubbers; these say what the pairing plays like, which is the half a reader is
+   actually choosing on.
+
+   A card with tags carries no .mg-card__desc for
+   javascripts/card-read-more.js to measure, so its action line stays the photo
+   count it is on every other card rather than the "Read more" a cut paragraph
+   would put there — the tags are short enough to want no disclosure.
+
+   The size below is what the grid's one height costs. .mg-card-grid is
+   grid-auto-rows: 1fr, so at two columns the tallest card of a row sets the
+   height of every card in it: a tag block taller than the three lines of
+   paragraph the eleven blade cards are clamped to is charged to the whole row.
+   Measured on the built page, six tags at 11px and 3px of padding take three
+   rows on a desktop column and six on a phone one — 81px and 167px against the
+   paragraph's 68px and 113px — and that would have cost the page 143px and
+   543px. At 10px with 2px of padding and 1.3 of line height the same six take
+   three rows on a desktop column — 151px widest, so two fit the 428px one — and
+   come to 67px, a pixel under the paragraph's 68, so the desktop grid does not
+   move at all: nothing on the page is one line taller than it was.
+
+   Only the desktop grid is the one to protect. Below 760px the grid is a single
+   column, a row holds one card, and a tag block is charged to the card it is on
+   and to nothing else — so there the block may run past the paragraph's five
+   lines. At a 420px viewport it does not: on the 330px column the chips take
+   three rows and two of the eleven reach a fourth, 67 to 91px. At 360px the
+   column is 270px and the widest chip is 172px, so most of them cannot pair at
+   all and the block runs five or six rows, 115 to 139px. That is a taller page
+   on a narrow phone, not a fault: the chips stay legible and inside the card,
+   and no other card is held to their height.
+
+   Centred, unlike the description it replaces: chips are a block rather than
+   prose, so there is no ragged right edge to avoid, and centring keeps them on
+   the card's own axis with the subtitle above. Drawn in the card's label idiom —
+   square-ish, uppercase, 10px, hairline border — at the muted ink the spec
+   labels use, which is 5.7:1 on the panel.
+
+   The `ul` in the selector is load-bearing. Material styles every list in the
+   content area with .md-typeset ul:not([hidden]) — an element, a class and an
+   attribute, so it out-ranks a plain .md-typeset .mg-card__tags and wins the
+   `display` no matter which file is read last. Two classes are not enough; the
+   element makes it a tie, and this file is loaded after the theme's. Left off,
+   the tags render as six full-width bars. */
+.md-typeset ul.mg-card__tags {
+  order: 1;
+  flex: 0 0 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  margin: 0 0 12px;
+  padding: 0;
+  list-style: none;
+}
+
+.md-typeset .mg-card__tags li {
+  margin: 0;
+  padding: 2px 6px;
+  border: 1px solid var(--ab-line);
+  border-radius: 2px;
+  font-family: var(--ab-sans);
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ab-text-muted);
+}
+
 /* A description that outgrows its grid is cut at the fold and faded out, and
    its photo link reads "Read more". javascripts/card-read-more.js measures
    every card first, works out how many lines the page's descriptions normally
