@@ -355,6 +355,22 @@ hide:
     <h3 class="mg-preowned-card__title">LOKI W81 Zhou Yu ALC Special Edition <span class="mg-preowned-card__price">$68</span></h3>
     <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add LOKI W81 Zhou Yu ALC Special Edition to cart" data-name="LOKI W81 Zhou Yu ALC Special Edition" data-price="68"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
+  <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media">
+      <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
+      <img src="/images/butterfly-sk7-classic/01.thumb.webp" data-full-src="/images/butterfly-sk7-classic/01.jpg" srcset="/images/butterfly-sk7-classic/01.thumb-480.webp 480w, /images/butterfly-sk7-classic/01.thumb.webp 720w, /images/butterfly-sk7-classic/01.jpg 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly SK7 Classic" loading="lazy" decoding="async" data-gallery="/images/butterfly-sk7-classic/01.jpg,/images/butterfly-sk7-classic/02.jpg,/images/butterfly-sk7-classic/03.jpg,/images/butterfly-sk7-classic/04.jpg">
+    </div>
+    <h3 class="mg-preowned-card__title">Butterfly SK7 Classic <span class="mg-preowned-card__price">$62</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Butterfly SK7 Classic to cart" data-name="Butterfly SK7 Classic" data-price="62"><span aria-hidden="true">+</span><span>Add to cart</span></button>
+  </article>
+  <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media">
+      <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
+      <img src="/images/butterfly-diode-pro/01.thumb.webp" data-full-src="/images/butterfly-diode-pro/01.jpg" srcset="/images/butterfly-diode-pro/01.thumb-480.webp 357w, /images/butterfly-diode-pro/01.thumb.webp 535w, /images/butterfly-diode-pro/01.thumb-1000.webp 743w, /images/butterfly-diode-pro/01.jpg 800w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Diode Pro" loading="lazy" decoding="async" data-gallery="/images/butterfly-diode-pro/01.jpg,/images/butterfly-diode-pro/02.jpg,/images/butterfly-diode-pro/03.jpg,/images/butterfly-diode-pro/04.jpg,/images/butterfly-diode-pro/05.jpg">
+    </div>
+    <h3 class="mg-preowned-card__title">Butterfly Diode Pro <span class="mg-preowned-card__price">$65</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Butterfly Diode Pro to cart" data-name="Butterfly Diode Pro" data-price="65"><span aria-hidden="true">+</span><span>Add to cart</span></button>
+  </article>
 
 </div>
 
