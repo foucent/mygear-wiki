@@ -10,10 +10,15 @@
  * settled on anyway, so a clipped card is exactly as tall as its neighbours and
  * the rows do not move.
  *
- * No page needs that measurement today: /gear/ is the only page with
- * descriptions left — twenty-one of them, builds and blades that cannot be
- * priced — and every one is a paragraph, so there is no median worth taking.
- * The measuring path stays in for the next page that does have a mix.
+ * The cards that go through that measurement today are the homepage feed's:
+ * javascripts/guide-grid.js writes each one's excerpt into .mg-card__desc, and
+ * those run from one line to five, which is the mix a median is for. /blades/
+ * used to be the other caller — the eleven blades that could not be priced,
+ * every one of them a paragraph, which is why that grid stated its own budget
+ * with data-mg-clamp-fixed rather than take a median from a page with no short
+ * card on it. Those cards are in the pre-owned recipe now, with no description
+ * left to measure or to cut, so the stated-budget path has no caller at all and
+ * this file's own median is the only thing deciding.
  *
  * The paragraph then opens over the card rather than growing it: rows are 1fr,
  * and an auto-height grid resolves every 1fr row to the tallest, so a card that
