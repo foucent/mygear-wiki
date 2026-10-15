@@ -1,9 +1,10 @@
 ---
+title: "Table Tennis Blades | Butterfly, DHS W968 & Rare Finds | MyGear.Top"
 icon: tt/blade
 source_url: https://mygear.top/product-category/blade/
 source_title: "Blades"
 imported: 2026-07-24
-description: "Table tennis blades for sale — in-stock and proxy-buy models with USD prices, plus rare blades quoted on request. WhatsApp quote on MyGear.Top."
+description: "Table tennis blades in USD — Butterfly Viscaria CN K-Code, Fan Zhendong Golden, DHS W968 National and rare collectibles. WhatsApp quote, worldwide shipping."
 hide:
   - toc
 ---
@@ -31,6 +32,16 @@ hide:
   </section>
 
 </div>
+
+  <!-- The page's own words, above the price tables. The hero banner keeps the
+       page's only H1; this is the H2 the page did not have, and it says in two
+       lines what kind of blades are on the page and what to do when the one
+       you want is missing, so a reader (and a crawler) meets the page's own
+       sentence before the grid does. -->
+  <section class="mg-blades-intro" markdown="0">
+    <h2>Buy Authentic Table Tennis Blades at Great Value</h2>
+    <p>This page carries brand-new Butterfly, DHS and other popular table tennis blades. If the model you need is not listed here, I can proxy-buy it for you.</p>
+  </section>
 
   <!-- Every card in this grid is a price: the badge in the corner says how it
        is bought, and the action line is a cart button. The card's name is the
@@ -508,11 +519,6 @@ hide:
     <a class="mg-preowned-card__quote" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Double%20Fish%20Zhou%20Qihao%20Project%20Z%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Contact for Price</a>
   </article>
 
-</div>
-
-<div class="admonition note mg-page-note mg-list-note mg-list-note--proxy">
-  <p class="admonition-title">Custom</p>
-  <p>If you have special needs, or would like to know the proxy-buy price for another product not listed here, please <a href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20product%20not%20listed%20on%20your%20site." target="_blank" rel="noopener noreferrer">confirm with me on WhatsApp</a>.</p>
 </div>
 
 <div class="admonition note mg-page-note">

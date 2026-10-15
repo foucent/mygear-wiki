@@ -5,12 +5,18 @@ price tables (docs/blades.md / docs/rubbers.md): product name, brand, primary
 product photo and list price in USD. Keep these tables in sync when a page or
 its price changes.
 
+The /blades/ listing page is the exception: it is not one product, so it is
+not in the tables above. It emits an ItemList read out of its own cards at
+build time — see the block below.
+
 No aggregateRating / Review is emitted: the rating bars shown on the pages
 are community samples displayed as plain content, not on-page user reviews,
 so an AggregateRating here could read as self-serving review markup.
 """
 
+import html
 import json
+import re
 
 # slug -> (name, brand, image path, price USD, mpn)
 PRODUCTS = {
@@ -65,6 +71,101 @@ ARTICLES = {
 }
 
 
+# --- /blades/ -----------------------------------------------------------------
+# A listing, not a product, so it gets no hand-kept table of its own: the
+# ItemList is read out of the page's own cards at build time. Every priced card
+# already carries the name and the price in its cart button and the badge that
+# says how it is bought, so the markup cannot drift from what the page says —
+# change a price in docs/blades.md and the JSON-LD changes with it. That is the
+# point: a 41-row table kept by hand would be wrong the first time a price
+# moved.
+#
+# Two deliberate omissions. No `brand`: most cards name a model ("Viscaria",
+# "Fan Zhendong ALC") without naming its maker, and guessing a maker would put
+# a fact nobody checked into structured data. No aggregateRating, for the
+# reason in the module docstring.
+#
+# The page also takes no `updated:` frontmatter, because its only H1 is the
+# hero banner and `_add_updated_line` would splice the date line into the
+# banner. Add one and that line lands there.
+
+BADGE_AVAILABILITY = {
+    "In stock": "https://schema.org/InStock",
+    "Pre-order": "https://schema.org/PreOrder",
+    "Proxy buy": "https://schema.org/InStock",
+}
+
+_CARD_RE = re.compile(r'<article class="mg-preowned-card".*?</article>', re.S)
+_CART_RE = re.compile(r"<button[^>]*\bmg-cart-add\b[^>]*>")
+_BADGE_RE = re.compile(r'<span class="mg-preowned-card__badge[^"]*">([^<]*)</span>')
+_IMG_RE = re.compile(r"<img\b[^>]*>")
+
+
+def _attr(tag, name):
+    """One attribute off one tag, entities resolved."""
+    m = re.search(r'\b%s="([^"]*)"' % re.escape(name), tag)
+    return html.unescape(m.group(1)).strip() if m else None
+
+
+def _text(fragment):
+    """The words a reader sees.
+
+    Tags come out to nothing rather than to a space, which is what textContent
+    does — so an inline link inside a sentence leaves the sentence's own
+    spacing alone and the text here is the text on the page, word for word.
+    """
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", fragment))).strip()
+
+
+def _blades_item_list(content, site, page_url):
+    items = []
+    for card in _CARD_RE.findall(content):
+        cart = _CART_RE.search(card)
+        if not cart:
+            continue  # a card with no price to declare: "Contact for Price"
+        name = _attr(cart.group(0), "data-name")
+        price = _attr(cart.group(0), "data-price")
+        if not name or not price:
+            continue
+
+        product = {
+            "@type": "Product",
+            "name": name,
+            "url": page_url,
+            "itemCondition": "https://schema.org/NewCondition",
+            "offers": {
+                "@type": "Offer",
+                "url": page_url,
+                "priceCurrency": "USD",
+                "price": price,
+            },
+        }
+        img = _IMG_RE.search(card)
+        if img:
+            src = _attr(img.group(0), "data-full-src") or _attr(img.group(0), "src")
+            if src:
+                product["image"] = src if src.startswith("http") else f"{site}{src}"
+
+        badge = _BADGE_RE.search(card)
+        badge = _text(badge.group(1)) if badge else None
+        if badge in BADGE_AVAILABILITY:
+            product["offers"]["availability"] = BADGE_AVAILABILITY[badge]
+
+        items.append({"@type": "ListItem", "position": len(items) + 1,
+                      "item": product})
+
+    if not items:
+        return None
+    return {
+        "@context": "https://schema.org/",
+        "@type": "ItemList",
+        "name": "Table Tennis Blades",
+        "url": page_url,
+        "numberOfItems": len(items),
+        "itemListElement": items,
+    }
+
+
 def _add_updated_line(page):
     """Mirror the frontmatter `updated:` date as a small line under the H1.
 
@@ -101,6 +202,12 @@ def on_page_context(context, page, config, nav):
         return
     site = config["site_url"].rstrip("/")
     page_url = f"{site}/{page.url}"
+
+    if page.url == "blades/":
+        ld = _blades_item_list(page.content, site, page_url)
+        if ld:
+            _emit(page, ld)
+        return
 
     if page.url.startswith("guide/"):
         slug = page.url[len("guide/"):-1]
