@@ -528,8 +528,8 @@ hide:
       <td style="text-align:right">$231</td>
     </tr>
 <tr data-added="2026-10-17">
-      <td><img src="/images/dhs-supreme-no-2-08x-88g/01.thumb.webp" data-full-src="/images/dhs-supreme-no-2-08x-88g/01.jpg" srcset="/images/dhs-supreme-no-2-08x-88g/01.thumb-240.webp 180w, /images/dhs-supreme-no-2-08x-88g/01.thumb-480.webp 360w, /images/dhs-supreme-no-2-08x-88g/01.thumb.webp 540w, /images/dhs-supreme-no-2-08x-88g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS Supreme No.2 | 08X | 88g" loading="lazy" data-gallery="/images/dhs-supreme-no-2-08x-88g/01.jpg,/images/dhs-supreme-no-2-08x-88g/02.jpg,/images/dhs-supreme-no-2-08x-88g/03.jpg,/images/dhs-supreme-no-2-08x-88g/04.jpg,/images/dhs-supreme-no-2-08x-88g/05.jpg,/images/dhs-supreme-no-2-08x-88g/06.jpg,/images/dhs-supreme-no-2-08x-88g/07.jpg,/images/dhs-supreme-no-2-08x-88g/08.jpg"></td>
-      <td>DHS Supreme No.2 | 08X | 88g</td>
+      <td><img src="/images/dhs-supreme-no-2-08x-88g/01.thumb.webp" data-full-src="/images/dhs-supreme-no-2-08x-88g/01.jpg" srcset="/images/dhs-supreme-no-2-08x-88g/01.thumb-240.webp 180w, /images/dhs-supreme-no-2-08x-88g/01.thumb-480.webp 360w, /images/dhs-supreme-no-2-08x-88g/01.thumb.webp 540w, /images/dhs-supreme-no-2-08x-88g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS 08X | No.2 | 88g" loading="lazy" data-gallery="/images/dhs-supreme-no-2-08x-88g/01.jpg,/images/dhs-supreme-no-2-08x-88g/02.jpg,/images/dhs-supreme-no-2-08x-88g/03.jpg,/images/dhs-supreme-no-2-08x-88g/04.jpg,/images/dhs-supreme-no-2-08x-88g/05.jpg,/images/dhs-supreme-no-2-08x-88g/06.jpg,/images/dhs-supreme-no-2-08x-88g/07.jpg,/images/dhs-supreme-no-2-08x-88g/08.jpg"></td>
+      <td>DHS 08X | No.2 | 88g</td>
       <td style="text-align:right">$260</td>
     </tr>
 <tr>
