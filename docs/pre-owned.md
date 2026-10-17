@@ -522,6 +522,16 @@ hide:
       <td>Butterfly Kim Taek Soo | Old Iron Tag | 88g | Original Box</td>
       <td style="text-align:right">$1580</td>
     </tr>
+<tr data-added="2026-10-17">
+      <td><img src="/images/dhs-w968-no-23-88-5g/01.thumb.webp" data-full-src="/images/dhs-w968-no-23-88-5g/01.jpg" srcset="/images/dhs-w968-no-23-88-5g/01.thumb-240.webp 180w, /images/dhs-w968-no-23-88-5g/01.thumb-480.webp 360w, /images/dhs-w968-no-23-88-5g/01.thumb.webp 540w, /images/dhs-w968-no-23-88-5g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS W968 | No.23 | 88.5g | Original Box" loading="lazy" data-gallery="/images/dhs-w968-no-23-88-5g/01.jpg,/images/dhs-w968-no-23-88-5g/02.jpg,/images/dhs-w968-no-23-88-5g/03.jpg,/images/dhs-w968-no-23-88-5g/04.jpg,/images/dhs-w968-no-23-88-5g/05.jpg,/images/dhs-w968-no-23-88-5g/06.jpg,/images/dhs-w968-no-23-88-5g/07.jpg"></td>
+      <td>DHS W968 | No.23 | 88.5g | Original Box</td>
+      <td style="text-align:right">$231</td>
+    </tr>
+<tr data-added="2026-10-17">
+      <td><img src="/images/dhs-supreme-no-2-08x-88g/01.thumb.webp" data-full-src="/images/dhs-supreme-no-2-08x-88g/01.jpg" srcset="/images/dhs-supreme-no-2-08x-88g/01.thumb-240.webp 180w, /images/dhs-supreme-no-2-08x-88g/01.thumb-480.webp 360w, /images/dhs-supreme-no-2-08x-88g/01.thumb.webp 540w, /images/dhs-supreme-no-2-08x-88g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS Supreme No.2 | 08X | 88g" loading="lazy" data-gallery="/images/dhs-supreme-no-2-08x-88g/01.jpg,/images/dhs-supreme-no-2-08x-88g/02.jpg,/images/dhs-supreme-no-2-08x-88g/03.jpg,/images/dhs-supreme-no-2-08x-88g/04.jpg,/images/dhs-supreme-no-2-08x-88g/05.jpg,/images/dhs-supreme-no-2-08x-88g/06.jpg,/images/dhs-supreme-no-2-08x-88g/07.jpg,/images/dhs-supreme-no-2-08x-88g/08.jpg"></td>
+      <td>DHS Supreme No.2 | 08X | 88g</td>
+      <td style="text-align:right">$260</td>
+    </tr>
 <tr>
       <td><img src="/images/viscaria-w-code-cn-86g/01.thumb.webp" data-full-src="/images/viscaria-w-code-cn-86g/01.jpg" srcset="/images/viscaria-w-code-cn-86g/01.thumb-240.webp 180w, /images/viscaria-w-code-cn-86g/01.thumb-480.webp 360w, /images/viscaria-w-code-cn-86g/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Viscaria | W-Code | CN | 86g" loading="lazy" data-gallery="/images/viscaria-w-code-cn-86g/01.jpg,/images/viscaria-w-code-cn-86g/02.jpg,/images/viscaria-w-code-cn-86g/03.jpg,/images/viscaria-w-code-cn-86g/05.jpg,/images/viscaria-w-code-cn-86g/06.jpg,/images/viscaria-w-code-cn-86g/07.jpg,/images/viscaria-w-code-cn-86g/08.jpg"></td>
       <td>Viscaria | W-Code | CN | 86g</td>
