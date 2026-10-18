@@ -1,7 +1,7 @@
 ---
 title: "Butterfly Tenergy 05 Review, Price & Specs | MyGear.Top"
 description: "Looking for a Butterfly Tenergy 05? Explore our detailed overview, high-tension benchmark analysis, global pricing, and worldwide shipping info."
-updated: "2026-09-08"
+updated: "2026-10-19"
 ---
 
 # Butterfly Tenergy 05
@@ -68,7 +68,7 @@ That history matters less than what it still does: Tenergy 05 turns a decent loo
 
 Tenergy 05 is the easiest high-end spin rubber to live with. Its arc is high and safe, spin comes early even from brushes, and the ball stays on the topsheet just long enough that slightly late or slightly short swings still produce good balls. Against backspin it is famous for how easily it lifts — the stroke most intermediate players struggle with is exactly the one this rubber forgives.
 
-The trade is in durability rather than difficulty: the delicate, high-grip topsheet wears and ages faster than the firmer Dignics sheets, so it asks for gentle handling and its protective film when not in play. We stock the 2.1 mm sheet in red or black — the family story and how Tenergy sits under Dignics is covered in our [Tenergy-before-Dignics guide](../guide/why-tenergy-before-dignics.md).
+The trade is in durability rather than difficulty: the delicate, high-grip topsheet wears and ages faster than the firmer Dignics sheets, so it asks for gentle handling and its protective film when not in play. We stock the 2.1 mm sheet in red or black — the family story and how Tenergy sits under Dignics is covered in our [Tenergy-before-Dignics guide](../guide/why-tenergy-before-dignics.md). If you are choosing a blade to go with it, start from the classic outer-carbon [Viscaria](/gear/viscaria/) or Fan Zhendong's own [Fan Zhendong ALC](/gear/fan-zhendong-alc/).
 
 <div class="mg-cta-card" markdown="0">
   <div class="mg-cta-card__body">
@@ -90,10 +90,23 @@ If you are weighing the Tenergy 05 against its modern successors — the firm [D
 | Topsheet | Non-tacky (No. 05) | Non-tacky (No. 05) | Mildly tacky (No. 09 C) |
 | Sponge | Spring Sponge | Spring Sponge X | Spring Sponge X |
 | Stocked thickness | 2.1 mm | 2.1 mm | 2.1 mm |
-| Community rating | 9.34 (275 reviews) | 9.59 (135 reviews) | 9.54 (113 reviews) |
 | Character | forgiving high-tension classic | clean full-contact spin | extra bite, grip-then-catapult |
 
-Look down the table and Tenergy's slightly lower overall rating is not a mark against it — it reflects a sheet played by far more recreational and intermediate players, and one whose forgiving feel is exactly the point. Choose the Tenergy 05 when you want the easiest high-end spin rubber to live with, or as the natural first high-tension sheet; choose the Dignics 05 when you have outgrown it and want more firmness and penetration on committed strokes; choose the Dignics 09C when you want extra bite on serve, short pushes and balls taken slightly late. The family logic behind the ordering is explained in [Why Play Tenergy Before Dignics?](../guide/why-tenergy-before-dignics.md).
+Tenergy 05 is played by far more recreational and intermediate players than either Dignics sheet, and its forgiving feel is exactly the point. Choose the Tenergy 05 when you want the easiest high-end spin rubber to live with, or as the natural first high-tension sheet; choose the Dignics 05 when you have outgrown it and want more firmness and penetration on committed strokes; choose the Dignics 09C when you want extra bite on serve, short pushes and balls taken slightly late. The family logic behind the ordering is explained in [Why Play Tenergy Before Dignics?](../guide/why-tenergy-before-dignics.md).
+
+## Frequently Asked Questions
+
+### Does Tenergy 05 need boosting or tuning?
+
+No. Tenergy 05 ships already tensioned from the factory, and boosting is not recommended: the oil softens the Spring Sponge the topsheet was tuned around, and it shortens the life of a sheet whose topsheet is already the delicate part.
+
+### Is Tenergy 05 better on the forehand or the backhand?
+
+Either wing works, which is a large part of why it became the benchmark. Most players put it on the forehand for its spin, and it is forgiving enough to serve on the backhand as well.
+
+### Can amateur players handle Tenergy 05?
+
+Yes — that is its role. It is the easiest high-end spin rubber to live with: the arc is high and safe, spin comes early even from brushes, and slightly late or short swings still produce good balls. It is the natural first high-tension sheet for intermediate players.
 
 ## Ordering
 

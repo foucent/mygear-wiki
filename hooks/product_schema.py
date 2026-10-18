@@ -9,9 +9,17 @@ The /blades/ listing page is the exception: it is not one product, so it is
 not in the tables above. It emits an ItemList read out of its own cards at
 build time — see the block below.
 
-No aggregateRating / Review is emitted: the rating bars shown on the pages
-are community samples displayed as plain content, not on-page user reviews,
-so an AggregateRating here could read as self-serving review markup.
+The rating bars on the pages are community samples, not reviews left on this
+site, so no AggregateRating is emitted by default — it could read as
+self-serving review markup. RATINGS below opts a page in only where the page
+itself prints the number, and says which sample it is.
+
+A page that ends with a `## Frequently Asked Questions` section gets a FAQPage
+built from that section's own H3/P pairs, so the markup cannot say anything the
+reader cannot see. Parse it or emit nothing: no empty schema.
+
+Breadcrumbs are opt-in per page (BREADCRUMBS) and describe the trail the site
+actually offers — Home > Gear > <shop page> > product.
 """
 
 import html
@@ -56,6 +64,28 @@ PRODUCTS = {
     "dignics-05": (
         "Butterfly Dignics 05", "Butterfly",
         "images/dignics-05/01.jpg", 68, "06040"),
+}
+
+
+# slug -> (ratingValue, reviewCount) for pages that print the community rating.
+# The scale is 1-10 on every radar on this site, hence bestRating/worstRating.
+# Keep in step with the radar's aria-label: if the number changes on the page
+# and not here, the markup starts lying.
+RATINGS = {
+    "dignics-09c": (9.54, 113),
+    "zyre-03": (9.84, 31),
+    "dignics-05": (9.59, 135),
+    "tenergy-05": (9.34, 275),
+}
+
+# slug -> the trail above the product, (name, path from the site root).
+# Only the page's own URL is added automatically; the shop page it belongs to
+# is the opinion this table records.
+BREADCRUMBS = {
+    "dignics-09c": [("Home", ""), ("Gear", "gear/"), ("Rubbers", "rubbers/")],
+    "zyre-03": [("Home", ""), ("Gear", "gear/"), ("Rubbers", "rubbers/")],
+    "dignics-05": [("Home", ""), ("Gear", "gear/"), ("Rubbers", "rubbers/")],
+    "tenergy-05": [("Home", ""), ("Gear", "gear/"), ("Rubbers", "rubbers/")],
 }
 
 
@@ -166,6 +196,56 @@ def _blades_item_list(content, site, page_url):
     }
 
 
+_FAQ_HEADING = re.compile(
+    r'<h2[^>]*>\s*Frequently Asked Questions\s*</h2>(.*?)(?=<h2\b|$)', re.S)
+_QA_PAIR = re.compile(r"<h3[^>]*>(.*?)</h3>\s*<p>(.*?)</p>", re.S)
+
+
+def _faq_page(content):
+    """FAQPage out of the page's own FAQ section, word for word.
+
+    The question is the H3, the answer the paragraph right after it. Anything
+    else in the section is left alone. No section, or no pairs -> None, so a
+    page never carries an FAQPage the reader cannot see.
+    """
+    m = _FAQ_HEADING.search(content)
+    if not m:
+        return None
+    qa = [(q, a) for q, a in _QA_PAIR.findall(m.group(1))
+          if _text(q) and _text(a)]
+    if not qa:
+        return None
+    return {
+        "@context": "https://schema.org/",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": _text(q),
+                "acceptedAnswer": {"@type": "Answer", "text": _text(a)},
+            }
+            for q, a in qa
+        ],
+    }
+
+
+def _breadcrumb_list(slug, name, site, page_url):
+    trail = BREADCRUMBS.get(slug)
+    if trail is None:
+        return None
+    items = []
+    for label, path in trail:
+        items.append({"@type": "ListItem", "position": len(items) + 1,
+                      "name": label, "item": f"{site}/{path}"})
+    items.append({"@type": "ListItem", "position": len(items) + 1,
+                  "name": name, "item": page_url})
+    return {
+        "@context": "https://schema.org/",
+        "@type": "BreadcrumbList",
+        "itemListElement": items,
+    }
+
+
 def _add_updated_line(page):
     """Mirror the frontmatter `updated:` date as a small line under the H1.
 
@@ -269,5 +349,22 @@ def on_page_context(context, page, config, nav):
         ld["dateModified"] = updated_str
     if mpn:
         ld["mpn"] = mpn
+    if slug in RATINGS:
+        value, count = RATINGS[slug]
+        ld["aggregateRating"] = {
+            "@type": "AggregateRating",
+            "ratingValue": str(value),
+            "reviewCount": str(count),
+            "bestRating": "10",
+            "worstRating": "1",
+        }
 
     _emit(page, ld)
+
+    crumbs = _breadcrumb_list(slug, name, site, page_url)
+    if crumbs:
+        _emit(page, crumbs)
+
+    faq = _faq_page(page.content)
+    if faq:
+        _emit(page, faq)

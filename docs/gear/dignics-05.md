@@ -1,7 +1,7 @@
 ---
 title: "Butterfly Dignics 05 Review, Price & Specs | MyGear.Top"
 description: "Looking for a Butterfly Dignics 05? Explore our detailed overview, high-tension spin analysis, global pricing, and worldwide shipping info."
-updated: "2026-09-08"
+updated: "2026-10-19"
 ---
 
 # Butterfly Dignics 05
@@ -48,7 +48,7 @@ updated: "2026-09-08"
 
 ## Overview
 
-**Butterfly Dignics 05** is the clean, non-tacky flagship of the Dignics line — the rubber Harimoto plays on his forehand. Where its stablemate Dignics 09C bites with a mildly tacky sheet, D05 is a pure high-tension spin weapon: the code No. 05 topsheet built for spin, bonded to Butterfly's firmer, more resilient Spring Sponge X.
+**Butterfly Dignics 05** is the clean, non-tacky flagship of the Dignics line — the rubber [Harimoto](/gear/harimoto-innerforce-alc/) plays on his forehand. Where its stablemate Dignics 09C bites with a mildly tacky sheet, D05 is a pure high-tension spin weapon: the code No. 05 topsheet built for spin, bonded to Butterfly's firmer, more resilient Spring Sponge X.
 
 That pairing takes everything Tenergy 05 does and turns it up. The sponge resists more before it lets go, so the payoff is a heavier, faster, more penetrating ball — spin and speed on the same full-blooded stroke rather than a choice between them.
 
@@ -68,7 +68,7 @@ That pairing takes everything Tenergy 05 does and turns it up. The sponge resist
 
 Dignics 05 is firmer and more demanding than Tenergy, and that is exactly the point. Play it with a committed stroke and it is one of the most dangerous rubbers Butterfly has made — deep loops, hard counters and serve-plus-attack sequences that bury opponents under rotation and pace. The topsheet holds the ball a touch longer than the numbers suggest, which is why trained players can spin so violently with it; uncommitted or lazy swings, by contrast, find a hard board that does little for them.
 
-The trade is difficulty, not fragility: the firmer sheet is genuinely more durable than Tenergy's, holding its spin longer. We stock the 2.1 mm sheet in red or black — how D05 sits in the family next to Tenergy and the tacky D09c is covered in our [Tenergy-before-Dignics guide](../guide/why-tenergy-before-dignics.md).
+The trade is difficulty, not fragility: the firmer sheet is genuinely more durable than Tenergy's, holding its spin longer. We stock the 2.1 mm sheet in red or black — how D05 sits in the family next to Tenergy and the tacky D09c is covered in our [Tenergy-before-Dignics guide](../guide/why-tenergy-before-dignics.md). If you are choosing a blade to go with it, start from the classic outer-carbon [Viscaria](/gear/viscaria/) or Fan Zhendong's own [Fan Zhendong ALC](/gear/fan-zhendong-alc/).
 
 <div class="mg-cta-card" markdown="0">
   <div class="mg-cta-card__body">
@@ -90,10 +90,23 @@ If you are weighing the Dignics 05 against the semi-tacky [Dignics 09C](dignics-
 | Topsheet | Non-tacky (No. 05) | Mildly tacky (No. 09 C) | Non-tacky (No. 05) |
 | Sponge | Spring Sponge X | Spring Sponge X | Spring Sponge |
 | Stocked thickness | 2.1 mm | 2.1 mm | 2.1 mm |
-| Community rating | 9.59 (135 reviews) | 9.54 (113 reviews) | 9.34 (275 reviews) |
 | Character | clean full-contact spin | extra bite, grip-then-catapult | forgiving high-tension classic |
 
-Look down the table and the community numbers tell the real story: all three are rated almost identically overall, because they are not better or worse than each other — they ask for slightly different strokes. Choose the Dignics 05 when you hit clean, full-contact spin and want more firmness and penetration than Tenergy offers; choose the Dignics 09C when you want extra bite on serve, short pushes and balls taken slightly late; choose the Tenergy 05 when you want the most forgiving high-tension sheet to learn on. The family logic behind the ordering is explained in [Why Play Tenergy Before Dignics?](../guide/why-tenergy-before-dignics.md).
+The three are not better or worse than each other — they ask for slightly different strokes. Choose the Dignics 05 when you hit clean, full-contact spin and want more firmness and penetration than Tenergy offers; choose the Dignics 09C when you want extra bite on serve, short pushes and balls taken slightly late; choose the Tenergy 05 when you want the most forgiving high-tension sheet to learn on. The family logic behind the ordering is explained in [Why Play Tenergy Before Dignics?](../guide/why-tenergy-before-dignics.md).
+
+## Frequently Asked Questions
+
+### Does Dignics 05 need boosting or tuning?
+
+No. Dignics 05 is factory-tuned high-tension rubber, and Butterfly does not recommend boosting it: the oil softens the Spring Sponge X that gives the sheet its firmness, and the gain is neither needed nor lasting.
+
+### Is Dignics 05 better on the forehand or the backhand?
+
+It is a forehand-first sheet — the one Harimoto plays on his forehand — and that is where its clean, full-contact spin does the most damage. It can be used on the backhand, but the firm sponge asks for a compact, committed stroke there.
+
+### Can amateur players handle Dignics 05?
+
+It is firmer and more demanding than Tenergy 05. With a committed stroke it is one of the most dangerous rubbers Butterfly has made; uncommitted or lazy swings find a hard board that does little for them. Advanced amateurs with clean contact handle it well; players still building their technique should start on a Tenergy.
 
 ## Ordering
 
