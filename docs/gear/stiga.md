@@ -1,28 +1,20 @@
 ---
+title: "Stiga Blades | Cybershape & Classic Wood | MyGear.Top"
+description: "Stiga table tennis blades in real photographs — the hexagonal Cybershape Wood and other models, with current USD prices on our blades table."
 source_url: https://mp.weixin.qq.com/s/vplyhixvTntZlTOFIxDHfQ
 source_title: "斯蒂卡 赛博纯木底板 横板FL手柄"
 imported: 2026-07-23
-description: "Photo gallery of Stiga table tennis blades — real product shots, models, and details from MyGear.Top."
+updated: "2026-10-19"
 ---
 # Stiga Table Tennis Blades
 
+<p class="mg-prod-lead">Stiga has made table tennis equipment in Sweden since 1944, and its blades are still produced in Eskilstuna. The brand built its name on all-wood blades through the Waldner era, and the Cybershape Wood below is its modern shape experiment on that same wood-first approach.</p>
 
-
-Real-photo gallery of **Stiga** table tennis blades. Browse models below; tap any image to enlarge.
-
-
-
-## Blades
-
-
+## Popular Blades
 
 ### Cybershape Wood
 
-
-
 **Cybershape Wood**—hexagonal all-wood retail version (**FL**). Not the same premium build Moregard has used on tour.
-
-
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
@@ -36,9 +28,6 @@ Real-photo gallery of **Stiga** table tennis blades. Browse models below; tap an
 
 </div>
 
-
-
 !!! tip "Related"
 
     Live USD references: [Blades](../blades.md).
-

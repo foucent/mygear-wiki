@@ -1,28 +1,20 @@
 ---
+title: "Donic Blades | Zhang Jike, Waldner & More | MyGear.Top"
+description: "Donic table tennis blades in real photographs — Zhang Jike Original Carbon, Anders Lind Hexa Carbon and Ovtcharov Seven, with USD prices on our blades table."
 source_url: https://mp.weixin.qq.com/s/MOAtwehL5rNUkLh99fO2MQ
 source_title: "多尼克 张继科原创碳素底板 横板FL手柄"
 imported: 2026-07-23
-description: "Photo gallery of Donic table tennis blades — real product shots, models, and details from MyGear.Top."
+updated: "2026-10-19"
 ---
 # Donic Table Tennis Blades
 
+<p class="mg-prod-lead">Donic is the German brand founded in Cologne in the late 1970s and based in Völklingen since the 1980s. Jan-Ove Waldner made its blades famous in the 1990s, and Zhang Jike became a global ambassador in 2024; the signature models below come from that line.</p>
 
-
-Real-photo gallery of **Donic** table tennis blades. Browse models below; tap any image to enlarge.
-
-
-
-## Blades
-
-
+## Popular Blades
 
 ### Zhang Jike Original Carbon
 
-
-
 Chinese players often call this **红张** (“Red Zhang”). Classic **outer 5+2** Viscaria-style build with hard face and fiber near the surface—fast near/mid-table offense, usually seen in **FL**. Polarizing feel: direct pop and pressure for compact, active strokes; less ideal if you want soft dwell. Live USD reference: [Blades](../blades.md).
-
-
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
@@ -36,15 +28,9 @@ Chinese players often call this **红张** (“Red Zhang”). Classic **outer 5+
 
 </div>
 
-
-
 ### Anders Lind Hexa Carbon
 
-
-
 **Anders Lind Hexa Carbon** (**FL**)—Hexamid carbon **5+2**, Denmark-flag handle cosmetics. Less common than the big Donic signature blanks; a clean fiber option in the Lind line.
-
-
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
@@ -58,15 +44,9 @@ Chinese players often call this **红张** (“Red Zhang”). Classic **outer 5+
 
 </div>
 
-
-
 ### Ovtcharov Seven
 
-
-
 **Ovtcharov Seven**—walnut-face **7-ply all-wood**, **AN** here (Senso-era cosmetics). Once a value-performance hit with Liu Shiwen-era buzz; older copies remain nostalgic daily-drivers for many.
-
-
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
@@ -80,9 +60,6 @@ Chinese players often call this **红张** (“Red Zhang”). Classic **outer 5+
 
 </div>
 
-
-
 !!! tip "Related"
 
     Fiber placement: [Outer vs Inner Fiber](../guide/outer-vs-inner-fiber.md). Shop references: [Blades](../blades.md).
-

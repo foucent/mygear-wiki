@@ -1,28 +1,20 @@
 ---
+title: "Xiom Blades | Ice Cream, Hugo & More | MyGear.Top"
+description: "Xiom table tennis blades in real photographs — the asymmetric Ice Cream AZXi and other models, with current USD prices on our blades table."
 source_url: https://mp.weixin.qq.com/s/B53HL5N2wboBlDb0xwNlnQ
 source_title: "骄猛 冰淇淋内置底板 横板FL手柄"
 imported: 2026-07-23
-description: "Photo gallery of Xiom table tennis blades — real product shots, models, and details from MyGear.Top."
+updated: "2026-10-19"
 ---
 # Xiom Table Tennis Blades
 
+<p class="mg-prod-lead">Xiom is the Korean brand launched in 2006 by Champion, a table tennis manufacturer founded in 1976 that supplied the tables for the 1988 Seoul Olympics. Its Ice Cream and Hugo Calderano blades and Omega rubbers come from that line; the Ice Cream AZXi below is the asymmetric inner-fiber model.</p>
 
-
-Real-photo gallery of **Xiom** table tennis blades. Browse models below; tap any image to enlarge.
-
-
-
-## Blades
-
-
+## Popular Blades
 
 ### Ice Cream AZXi
 
-
-
 **Ice Cream AZXi**—asymmetric inner fiber (**FL**): one face **ZLC**, the other **ALC**.
-
-
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
@@ -36,9 +28,6 @@ Real-photo gallery of **Xiom** table tennis blades. Browse models below; tap any
 
 </div>
 
-
-
 !!! tip "Related"
 
     Fiber placement: [Outer vs Inner Fiber](../guide/outer-vs-inner-fiber.md). Live USD references: [Blades](../blades.md).
-

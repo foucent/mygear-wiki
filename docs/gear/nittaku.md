@@ -1,28 +1,20 @@
 ---
+title: "Nittaku Blades | Kasumi Ishikawa & Runlox | MyGear.Top"
+description: "Nittaku table tennis blades in real photographs — Kasumi Ishikawa Basic and Runlox-5, with current USD prices on our blades table."
 source_url: https://mp.weixin.qq.com/s/BScaSfBr6nq05yoeBL16MA
 source_title: "尼塔库 石川佳纯 Basic 横板ST手柄"
 imported: 2026-07-23
-description: "Photo gallery of Nittaku table tennis blades — real product shots, models, and details from MyGear.Top."
+updated: "2026-10-19"
 ---
 # Nittaku Table Tennis Blades
 
+<p class="mg-prod-lead">Nittaku — Nippon Takkyu — traces its table tennis business to 1947, when it set up as a dedicated manufacturer; its predecessor dates to 1920. It is Japan's only domestic maker of ITTF-approved balls and has supplied the official ball at World Championships and Olympics, and its blades run from the Kasumi Ishikawa signature line to older wood such as the Runlox-5 below.</p>
 
-
-Real-photo gallery of **Nittaku** table tennis blades. Browse models below; tap any image to enlarge.
-
-
-
-## Blades
-
-
+## Popular Blades
 
 ### Kasumi Ishikawa Basic
 
-
-
 **Kasumi Ishikawa Basic** (**ST**)—entry-tier Kasumi signature look; still a clean collectible blank.
-
-
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
@@ -36,15 +28,9 @@ Real-photo gallery of **Nittaku** table tennis blades. Browse models below; tap 
 
 </div>
 
-
-
 ### Runlox-5
 
-
-
 **Runlox-5**—older blank with sparse period photos; once discussed alongside Avalox **P500**-class wood tools (**ST**).
-
-
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
@@ -58,9 +44,6 @@ Real-photo gallery of **Nittaku** table tennis blades. Browse models below; tap 
 
 </div>
 
-
-
 !!! tip "Related"
 
     Live USD references: [Blades](../blades.md).
-

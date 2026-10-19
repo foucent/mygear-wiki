@@ -29,11 +29,6 @@ description: "Get brand-new table tennis blades, popular rubbers, and sports gea
 
 <div class="mg-brand-grid" markdown="0">
 
-  <a class="mg-brand-item" href="/gear/avalox/">
-    <img class="mg-brand-image" src="/images/brand-logos/avalox.png" alt="Avalox" loading="lazy">
-    <span class="mg-brand-name">Avalox</span>
-  </a>
-
   <a class="mg-brand-item" href="/gear/butterfly/">
     <img class="mg-brand-image" src="/images/brand-logos/butterfly.png" alt="Butterfly" loading="lazy">
     <span class="mg-brand-name">Butterfly</span>
@@ -49,19 +44,9 @@ description: "Get brand-new table tennis blades, popular rubbers, and sports gea
     <span class="mg-brand-name">Donic</span>
   </a>
 
-  <a class="mg-brand-item" href="/gear/double-fish/">
-    <img class="mg-brand-image" src="/images/brand-logos/double-fish.png" alt="Double Fish" loading="lazy">
-    <span class="mg-brand-name">Double Fish</span>
-  </a>
-
   <a class="mg-brand-item" href="/gear/nittaku/">
     <img class="mg-brand-image" src="/images/brand-logos/nittaku.png" alt="Nittaku" loading="lazy">
     <span class="mg-brand-name">Nittaku</span>
-  </a>
-
-  <a class="mg-brand-item" href="/gear/sanwei/">
-    <img class="mg-brand-image" src="/images/brand-logos/sanwei.png" alt="Sanwei" loading="lazy">
-    <span class="mg-brand-name">Sanwei</span>
   </a>
 
   <a class="mg-brand-item" href="/gear/stiga/">
@@ -82,11 +67,6 @@ description: "Get brand-new table tennis blades, popular rubbers, and sports gea
   <a class="mg-brand-item" href="/gear/xiom/">
     <img class="mg-brand-image" src="/images/brand-logos/xiom.png" alt="Xiom" loading="lazy">
     <span class="mg-brand-name">Xiom</span>
-  </a>
-
-  <a class="mg-brand-item" href="/gear/yinhe/">
-    <img class="mg-brand-image" src="/images/brand-logos/yinhe.png" alt="Yinhe" loading="lazy">
-    <span class="mg-brand-name">Yinhe</span>
   </a>
 
 </div>

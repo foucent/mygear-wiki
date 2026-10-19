@@ -1,28 +1,20 @@
 ---
+title: "Butterfly Blades | Viscaria, FZD & Rare Models | MyGear.Top"
+description: "Butterfly table tennis blades in real photographs — Viscaria, Fan Zhendong ALC, Kong Linghui and rare signature models, with USD prices on our blades table."
 source_url: https://mp.weixin.qq.com/s/5-UbC9LW-XBZ_EZ0Pmg3Dw
 source_title: "蝴蝶 庄智渊金标限量底板 横板FL手柄"
 imported: 2026-07-23
-description: "Photo gallery of Butterfly table tennis blades — real product shots, models, and details from MyGear.Top."
+updated: "2026-10-19"
 ---
 # Butterfly Table Tennis Blades
 
+<p class="mg-prod-lead">Butterfly is the brand of Tamasu Co., Ltd., the Tokyo manufacturer Hikosuke Tamasu founded in 1950. Sriver and Bryce defined whole eras of the sport, and the current line — Tenergy and Dignics rubbers, Viscaria and the Fan Zhendong signature blades — is still the equipment much of the world tour is built around.</p>
 
-
-Real-photo gallery of **Butterfly** table tennis blades. Browse models below; tap any image to enlarge.
-
-
-
-## Blades
-
-
+## Popular Blades
 
 ### Chuang Chih-Yuan Gold
 
-
-
 Early **gold-label** outer ALC signature for Chuang Chih-Yuan (**FL**).
-
-
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
@@ -36,15 +28,9 @@ Early **gold-label** outer ALC signature for Chuang Chih-Yuan (**FL**).
 
 </div>
 
-
-
 ### Fan Zhendong ALC
 
-
-
 **Fan Zhendong ALC**—Viscaria-structure outer ALC with FZD naming (**ST** here).
-
-
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
@@ -58,15 +44,9 @@ Early **gold-label** outer ALC signature for Chuang Chih-Yuan (**FL**).
 
 </div>
 
-
-
 ### Guo Yue
 
-
-
 **Guo Yue**—OC-class nostalgia signature blank (**FL**).
-
-
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
@@ -76,15 +56,9 @@ Early **gold-label** outer ALC signature for Chuang Chih-Yuan (**FL**).
 
 </div>
 
-
-
 ### Hadraw SK
 
-
-
 **Hadraw SK**—“palm-print” Hadraw-series blank (**FL**).
-
-
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
@@ -98,15 +72,9 @@ Early **gold-label** outer ALC signature for Chuang Chih-Yuan (**FL**).
 
 </div>
 
-
-
 ### Innerforce Layer ALC
 
-
-
 **Innerforce Layer ALC**—inner ALC under the face wood; hold-oriented fiber feel (**FL**).
-
-
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
@@ -120,15 +88,9 @@ Early **gold-label** outer ALC signature for Chuang Chih-Yuan (**FL**).
 
 </div>
 
-
-
 ### Kong Linghui Arylate-Carbon
 
-
-
 **Kong Linghui Arylate-Carbon**—classic Kong AC; this copy is the scarce **AN** handle.
-
-
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
@@ -142,15 +104,9 @@ Early **gold-label** outer ALC signature for Chuang Chih-Yuan (**FL**).
 
 </div>
 
-
-
 ### Minions CAF
 
-
-
 **Minions CAF**—Despicable Me collab blank (**FL**); collectible cosmetics first.
-
-
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
@@ -164,15 +120,9 @@ Early **gold-label** outer ALC signature for Chuang Chih-Yuan (**FL**).
 
 </div>
 
-
-
 ### Primorac Fiber Glass
 
-
-
 **Primorac Fiber Glass**—glass-fiber classic (**FL**) from the BBS-era GF conversation.
-
-
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
@@ -186,15 +136,9 @@ Early **gold-label** outer ALC signature for Chuang Chih-Yuan (**FL**).
 
 </div>
 
-
-
 ### Schlager Light Carbon
 
-
-
 **Schlager Light Carbon**—light **3+2 / T5000** carbon with hinoki face (**ST** here).
-
-
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
@@ -208,15 +152,9 @@ Early **gold-label** outer ALC signature for Chuang Chih-Yuan (**FL**).
 
 </div>
 
-
-
 ### Viscaria
 
-
-
 **Viscaria**—the reference outer **ALC** shakehand blank (**FL**).
-
-
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
@@ -230,9 +168,6 @@ Early **gold-label** outer ALC signature for Chuang Chih-Yuan (**FL**).
 
 </div>
 
-
-
 !!! tip "Related"
 
     Fiber placement: [Outer vs Inner Fiber](../guide/outer-vs-inner-fiber.md). Live USD references: [Blades](../blades.md).
-

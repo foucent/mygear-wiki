@@ -1,28 +1,20 @@
 ---
+title: "DHS Blades | Bo, 968 & Hurricane Gear | MyGear.Top"
+description: "DHS table tennis blades in real photographs — Bo Arylate-Carbon and other rare models, with current USD prices on our blades table."
 source_url: https://mp.weixin.qq.com/s/qksxPVDQ_Wvs8zxt7KyqZA
 source_title: "红双喜 博芳碳底板 横板FL手柄 老款"
 imported: 2026-07-23
-description: "Photo gallery of DHS table tennis blades — real product shots, models, and details from MyGear.Top."
+updated: "2026-10-19"
 ---
 # DHS Table Tennis Blades
 
+<p class="mg-prod-lead">DHS — Double Happiness, 红双喜 — is the Shanghai brand created in 1959, the year Rong Guotuan won China's first world title. It has supplied table tennis equipment at every Olympic Games since Sydney 2000, and its Hurricane rubbers and 968-family blades remain the reference Chinese setup.</p>
 
-
-Real-photo gallery of **DHS** table tennis blades. Browse models below; tap any image to enlarge.
-
-
-
-## Blades
-
-
+## Popular Blades
 
 ### Bo Arylate-Carbon (Early)
 
-
-
 Early **Bo Arylate-Carbon** (**FL**) from Fang Bo’s DHS era—**968**-family build, older face/portrait version.
-
-
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
@@ -36,15 +28,9 @@ Early **Bo Arylate-Carbon** (**FL**) from Fang Bo’s DHS era—**968**-family b
 
 </div>
 
-
-
 ### Hurricane Guo Yan
 
-
-
 **Hurricane Guo Yan (H-GY)**—period national-team–line spruce five-ply (**ST**).
-
-
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
@@ -58,15 +44,9 @@ Early **Bo Arylate-Carbon** (**FL**) from Fang Bo’s DHS era—**968**-family b
 
 </div>
 
-
-
 ### Hurricane Long 5X
 
-
-
 **Hurricane Long 5X**—best-known retail Ma Long–family fiber blank (**AN** here).
-
-
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
@@ -80,15 +60,9 @@ Early **Bo Arylate-Carbon** (**FL**) from Fang Bo’s DHS era—**968**-family b
 
 </div>
 
-
-
 ### Hurricane Sa
 
-
-
 **Hurricane Sa**—retail S968-family “飒” blank (**FL**).
-
-
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
@@ -102,11 +76,7 @@ Early **Bo Arylate-Carbon** (**FL**) from Fang Bo’s DHS era—**968**-family b
 
 </div>
 
-
-
 ### Hurricane 2 (Yan Sen)
-
-
 
 <div class="mg-bio" markdown="0">
 
@@ -121,8 +91,6 @@ Early **Bo Arylate-Carbon** (**FL**) from Fang Bo’s DHS era—**968**-family b
   </button>
 
 </div>
-
-
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
@@ -144,9 +112,6 @@ Early **Bo Arylate-Carbon** (**FL**) from Fang Bo’s DHS era—**968**-family b
 
 </div>
 
-
-
 !!! tip "Related"
 
     Fiber placement: [Outer vs Inner Fiber](../guide/outer-vs-inner-fiber.md). Live USD references: [Blades](../blades.md).
-

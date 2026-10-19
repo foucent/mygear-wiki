@@ -1,28 +1,20 @@
 ---
+title: "Tibhar Blades | Samsonov & Violin Models | MyGear.Top"
+description: "Tibhar table tennis blades in real photographs — Samsonov Limited Edition 25, Violin and other models, with USD prices on our blades table."
 source_url: https://mp.weixin.qq.com/s/kMHZ1YzNu_0kUUzwD8H4TA
 source_title: "挺拔 埃洛瓦小提琴 直板"
 imported: 2026-07-23
-description: "Photo gallery of Tibhar table tennis blades — real product shots, models, and details from MyGear.Top."
+updated: "2026-10-19"
 ---
 # Tibhar Table Tennis Blades
 
+<p class="mg-prod-lead">Tibhar is the German manufacturer in Saarbrücken that grew out of the training courses Tibor Harangozo ran from 1959; the company was founded in 1969 and still carries his name. Vladimir Samsonov has been its signature player for decades, and the anniversary and Violin blades below come from that line.</p>
 
-
-Real-photo gallery of **Tibhar** table tennis blades. Browse models below; tap any image to enlarge.
-
-
-
-## Blades
-
-
+## Popular Blades
 
 ### Samsonov Limited Edition 25 (FL)
 
-
-
 **Samsonov Limited Edition 25**—Vladimir Samsonov anniversary blank (**FL**); victory silhouette graphic, numbered **VS** serial, “Limited Edition 25” handle lens.
-
-
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
@@ -36,15 +28,9 @@ Real-photo gallery of **Tibhar** table tennis blades. Browse models below; tap a
 
 </div>
 
-
-
 ### Violin (CS)
 
-
-
 **Violin** in Chinese penhold (**CS**)—unusual thin–thick–thin–thick–thin five-ply stack.
-
-
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
@@ -58,15 +44,9 @@ Real-photo gallery of **Tibhar** table tennis blades. Browse models below; tap a
 
 </div>
 
-
-
 ### Kenta Matsudaira MK Carbon
 
-
-
 **Kenta Matsudaira MK Carbon**—outer **5+2** with green fiber (**FL**).
-
-
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
@@ -80,15 +60,9 @@ Real-photo gallery of **Tibhar** table tennis blades. Browse models below; tap a
 
 </div>
 
-
-
 ### Samsonov Alpha
 
-
-
 Classic **Samsonov Alpha**—smaller-than-usual shakehand face; control-first organic-era tool.
-
-
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
@@ -102,15 +76,9 @@ Classic **Samsonov Alpha**—smaller-than-usual shakehand face; control-first or
 
 </div>
 
-
-
 ### Samsonov Alpha & Violin
 
-
-
 Two older Tibhar blanks in one album: **Samsonov Alpha** and **Violin** (shakehand set).
-
-
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
@@ -124,15 +92,9 @@ Two older Tibhar blanks in one album: **Samsonov Alpha** and **Violin** (shakeha
 
 </div>
 
-
-
 ### Szocs BS 1
 
-
-
 **Szocs BS 1**—Bernadette Szocs signature blank (**AN**).
-
-
 
 <div class="mg-gallery mg-gallery--gear-album" markdown="0">
 
@@ -146,9 +108,6 @@ Two older Tibhar blanks in one album: **Samsonov Alpha** and **Violin** (shakeha
 
 </div>
 
-
-
 !!! tip "Related"
 
     Live USD references: [Blades](../blades.md).
-
