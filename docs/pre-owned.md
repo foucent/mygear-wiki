@@ -532,6 +532,16 @@ hide:
       <td>DHS 08X | No.2 | 88g</td>
       <td style="text-align:right">$260</td>
     </tr>
+<tr data-added="2026-10-20">
+      <td><img src="/images/dhs-w968-2016-white-label-no-2-92g/01.thumb.webp" data-full-src="/images/dhs-w968-2016-white-label-no-2-92g/01.jpg" srcset="/images/dhs-w968-2016-white-label-no-2-92g/01.thumb-240.webp 135w, /images/dhs-w968-2016-white-label-no-2-92g/01.thumb-480.webp 270w, /images/dhs-w968-2016-white-label-no-2-92g/01.thumb.webp 405w, /images/dhs-w968-2016-white-label-no-2-92g/01.jpg 1080w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS W968 | 2016 White Label | No.2 | 92g" loading="lazy" data-gallery="/images/dhs-w968-2016-white-label-no-2-92g/01.jpg,/images/dhs-w968-2016-white-label-no-2-92g/02.jpg,/images/dhs-w968-2016-white-label-no-2-92g/03.jpg,/images/dhs-w968-2016-white-label-no-2-92g/04.jpg,/images/dhs-w968-2016-white-label-no-2-92g/05.jpg,/images/dhs-w968-2016-white-label-no-2-92g/06.jpg,/images/dhs-w968-2016-white-label-no-2-92g/07.jpg,/images/dhs-w968-2016-white-label-no-2-92g/08.jpg"></td>
+      <td>DHS W968 | 2016 White Label | No.2 | 92g</td>
+      <td style="text-align:right">$356</td>
+    </tr>
+<tr data-added="2026-10-20">
+      <td><img src="/images/mizutani-jun-zlc-s-code-87g/01.thumb.webp" data-full-src="/images/mizutani-jun-zlc-s-code-87g/01.jpg" srcset="/images/mizutani-jun-zlc-s-code-87g/01.thumb-240.webp 180w, /images/mizutani-jun-zlc-s-code-87g/01.thumb-480.webp 360w, /images/mizutani-jun-zlc-s-code-87g/01.thumb.webp 540w, /images/mizutani-jun-zlc-s-code-87g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Mizutani Jun ZLC | S-Code | 87g | Original Box" loading="lazy" data-gallery="/images/mizutani-jun-zlc-s-code-87g/01.jpg,/images/mizutani-jun-zlc-s-code-87g/02.jpg,/images/mizutani-jun-zlc-s-code-87g/03.jpg,/images/mizutani-jun-zlc-s-code-87g/04.jpg,/images/mizutani-jun-zlc-s-code-87g/05.jpg,/images/mizutani-jun-zlc-s-code-87g/06.jpg,/images/mizutani-jun-zlc-s-code-87g/07.jpg,/images/mizutani-jun-zlc-s-code-87g/08.jpg"></td>
+      <td>Mizutani Jun ZLC | S-Code | 87g | Original Box</td>
+      <td style="text-align:right">$215</td>
+    </tr>
 <tr>
       <td><img src="/images/viscaria-w-code-cn-86g/01.thumb.webp" data-full-src="/images/viscaria-w-code-cn-86g/01.jpg" srcset="/images/viscaria-w-code-cn-86g/01.thumb-240.webp 180w, /images/viscaria-w-code-cn-86g/01.thumb-480.webp 360w, /images/viscaria-w-code-cn-86g/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Viscaria | W-Code | CN | 86g" loading="lazy" data-gallery="/images/viscaria-w-code-cn-86g/01.jpg,/images/viscaria-w-code-cn-86g/02.jpg,/images/viscaria-w-code-cn-86g/03.jpg,/images/viscaria-w-code-cn-86g/05.jpg,/images/viscaria-w-code-cn-86g/06.jpg,/images/viscaria-w-code-cn-86g/07.jpg,/images/viscaria-w-code-cn-86g/08.jpg"></td>
       <td>Viscaria | W-Code | CN | 86g</td>
