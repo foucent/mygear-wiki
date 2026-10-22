@@ -2875,6 +2875,15 @@ html.md-no-js .md-typeset .mg-bio__toggle {
   border-radius: 0.5rem;
 }
 
+/* A list of labelled facts, not prose: the panel is the box the list sits in,
+   so the bullet and the theme's list indent only crowd it — /gear/sora-matsushima/
+   is the page that writes this list. */
+.md-typeset ul.mg-prod-specs {
+  margin-left: 0;
+  padding-left: 0.9rem;
+  list-style: none;
+}
+
 .md-typeset .mg-prod-specs li {
   margin: 0;
   color: var(--mg-ink-muted);
