@@ -31,22 +31,31 @@ hide:
 
 </div>
 
-<!-- Eleven rackets, and every one of them reads the same way: the blade alone
-     as the title, the pair of rubbers on one line under it, then what the two
-     of them play like as tags, then the action. The pairing is written
-     forehand first — the order the Forehand / Backhand table it replaced
-     carried — because two rubber names on their own do not say which side each
-     is on, and that order is now the only thing that does. See .mg-card__sub
-     and .mg-card__tags in uncrate.css.
+<!-- Thirteen cards. Eleven are builds for sale and read the same way: the blade
+     alone as the title, the pair of rubbers on one line under it, what the two
+     of them play like as tags, then the action. The other two are players' own
+     setups — titled with the blade like the rest, their rubbers under it — and
+     where the builds carry tags they carry a paragraph: the same gear list in
+     prose. Those paragraphs are clamped in uncrate.css
+     (.mg-card__desc--clamped) to the height the six chips took, so the card
+     keeps the row height it had as a tag card, and the ellipsis is answered by
+     the action beside it: "View his gear" opens /gear/sora-matsushima/ and
+     /gear/wang-chuqin/, the pages with the lists in full.
 
-     The grid does not state a line budget any more. A build card has no
-     .mg-card__desc for javascripts/card-read-more.js to measure or to clip —
-     the tags took its place — so there is nothing here left to clamp, and
-     data-mg-clamp-fixed would have been a rule with nothing under it. The
+     The link is a plain anchor, not .mg-card__zoom, and that is deliberate:
+     the zoom class hands a click to gallery-lightbox.js (the lightbox) and
+     puts the card in front of card-read-more.js. Without it the photo still
+     opens the lightbox and its sheet, and the link navigates. That also means
+     the player cards' descriptions are never measured by that script. The
      eleven blades that used to carry write-ups are on /blades/ now and have
      lost them there too: they are written in the priced-card recipe, which has
-     no paragraph slot. Nothing in this file's own grids writes a description
-     any more, and the only cards that do are the homepage feed's. -->
+     no paragraph slot. Beyond those two cards, the only descriptions on the
+     site are the homepage feed's.
+
+     The pairing is written forehand first — the order the Forehand / Backhand
+     table it replaced carried — because rubber names on their own do not say
+     which side each is on, and that order is now the only thing that does. See
+     .mg-card__sub, .mg-card__tags and .mg-card__desc--clamped in uncrate.css. -->
 <div class="mg-card-grid" markdown="0">
 
   <!-- The first setup on the page. The photos came with the racket; the tags
@@ -163,6 +172,145 @@ hide:
       </p>
     </div>
   </article>
+
+  <!-- The fifth card is not a build for sale, and neither is the sixth. The
+       fifth is Sora Matsushima's own setup, taken from his Takkyu-Navi
+       profile: the blade, both rubbers and what they replaced, the shoes and
+       the shirt. It is titled with the blade like the builds around it, and
+       where they carry tags it carries one paragraph: the gear list written
+       out, the pieces and what each replaced.
+       .mg-card__desc--clamped holds it to the height the six chips
+       took, and "View his gear" opens /gear/sora-matsushima/, where the list
+       runs whole. The subtitle keeps the page's order: his two rubbers,
+       forehand first.
+
+       The band above the copy is an action shot, and its source is a tall
+       poster graphic — the stroke on top, then a caption that names the same
+       gear the subtitle does, then the credits. The band is cut from the top
+       of that graphic at exactly 3:2 and stops above the caption, so the card
+       shows the stroke and nothing the card or the lightbox already says.
+
+       The lightbox opens on the blade and carries the same list again as a
+       labelled sheet under it — data-lightbox-spec points at the <template>
+       below and gallery-lightbox.js clones it in (.mg-lightbox__caption in
+       uncrate.css) — then walks the rest of the gear: each rubber, the shoes,
+       the shirt, each with a one-line note saying what it is. The player's
+       own portrait is not in the set: the card is about the gear, and the
+       cut-out on white added nothing the sheet does not already say. A
+       data-gallery entry can carry its own alt and its own panel as
+       "href|alt|#template-id" — the parser is galleryEntry() in
+       gallery-lightbox.js — which is why the alts here are written without
+       commas: the list is split on them. The blade and both rubbers are the
+       shop's own product photos, the same files /blades/ and the rubber cards
+       show; only the shoes and the shirt had to be brought over from the
+       profile, which has no larger file than 450px for either. -->
+
+  <article class="mg-card mg-card--player">
+    <div class="mg-card__media">
+      <img src="/images/sora-matsushima/cover.thumb.webp" data-full-src="/images/sora-matsushima/cover.webp" srcset="/images/sora-matsushima/cover.thumb-480.webp 480w, /images/sora-matsushima/cover.thumb.webp 720w, /images/sora-matsushima/cover.thumb-1000.webp 1000w, /images/sora-matsushima/cover.webp 1200w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Sora Matsushima mid-stroke in a pink shirt with both hands on his racket" loading="lazy" decoding="async" data-gallery="/images/butterfly-fan-zhendong-alc/03.jpg|Butterfly Fan Zhendong ALC blade face up on its box|#matsushima-gear,/images/dignics-09c/01.jpg|Butterfly Dignics 09C rubber sheets in red and black|#matsushima-forehand,/images/zyre-03/01.jpg|Butterfly ZYRE-03 rubber sheets in red and black|#matsushima-backhand,/images/sora-matsushima/shoes.webp|Butterfly Lezoline Revalis table tennis shoe in red|#matsushima-shoes,/images/sora-matsushima/shirt.webp|Butterfly Elista 10 shirt in pink and black|#matsushima-shirt" data-lightbox-spec="#matsushima-gear">
+    </div>
+    <div class="mg-card__copy">      <h2 class="mg-card__title">Butterfly Fan Zhendong ALC</h2>
+      <p class="mg-card__sub">Butterfly Dignics 09C · Butterfly ZYRE-03</p>
+      <p class="mg-card__desc mg-card__desc--clamped">Sora Matsushima · Okayama Rivets plays the Butterfly Fan Zhendong ALC with Dignics 09C on the forehand and ZYRE-03 on the backhand, in Lezoline Rifones / Revalis shoes and an Elista 10 shirt. Before this: Harimoto Innerforce ALC on the blade, Spin Art then Dignics 05 on the forehand, Dignics 09C then Dignics 05 on the backhand. Gear list: Takkyu-Navi, checked October 2026.</p>
+      <p class="mg-card__more mg-card__more--split">
+        <a href="/gear/sora-matsushima/">View his gear</a>
+        <em class="mg-card__or">or</em>
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20Fan%20Zhendong%20ALC%20with%20Dignics%2009C%20and%20ZYRE-03.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>
+      </p>
+    </div>
+  </article>
+
+  <!-- The sixth card, the second of the two player cards, reads exactly as the
+       fifth does. Wang Chuqin's list is shorter than Sora Matsushima's — the
+       blade and two rubbers, no shoes or shirt on his Takkyu-Navi profile —
+       so the paragraph is the three pieces and where the list came from.
+
+       The band is the profile's celebration frame, cut to 3:2 above the chest
+       and scaled to 1200 — the one soft file on the card, because the profile
+       carries that frame at 360px and nothing larger. It is still the right
+       band: the same card built from the cut-out on white left a half-torso
+       floating in a white strip that read as a missing photo. The lightbox
+       opens on the blade with the sheet under it, like the fifth card; the
+       portrait cut-out is not in the set. The two rubber shots are the
+       profile's own catalogue photos of the boxes it lists, doubled on the way
+       in, since 450px is the largest rung the profile has. The blade shot is
+       the shop's, not the profile's: the profile files his "Hurricane King"
+       under the all-wood retail blade's name, but the National Q968 he plays
+       is the composite one, and that is the photo /blades/ carries. -->
+
+  <article class="mg-card mg-card--player">
+    <div class="mg-card__media">
+      <img src="/images/wang-chuqin/cover.thumb.webp" data-full-src="/images/wang-chuqin/cover.webp" srcset="/images/wang-chuqin/cover.thumb-480.webp 480w, /images/wang-chuqin/cover.thumb.webp 720w, /images/wang-chuqin/cover.thumb-1000.webp 1000w, /images/wang-chuqin/cover.webp 1200w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Wang Chuqin shouting in his China shirt after a point" loading="lazy" decoding="async" data-gallery="/images/dhs-q968-hurricane-king-national/01.jpg|DHS Q968 blade face up with the Hurricane King badge on the handle|#wang-gear,/images/wang-chuqin/forehand.webp|DHS Hurricane 3 National blue sponge rubber in its box|#wang-forehand,/images/wang-chuqin/backhand.webp|DHS Hurricane 8 rubber in its box|#wang-backhand" data-lightbox-spec="#wang-gear">
+    </div>
+    <div class="mg-card__copy">      <h2 class="mg-card__title">DHS Q968</h2>
+      <p class="mg-card__sub">DHS Hurricane 3 National · DHS Hurricane 8</p>
+      <p class="mg-card__desc mg-card__desc--clamped">Wang Chuqin · China plays the DHS Q968, the inner-carbon Hurricane King National, with Hurricane 3 National, the blue-sponge national version, on the forehand and Hurricane 8 on the backhand. Gear list: Takkyu-Navi, checked October 2026.</p>
+      <p class="mg-card__more mg-card__more--split">
+        <a href="/gear/wang-chuqin/">View his gear</a>
+        <em class="mg-card__or">or</em>
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20DHS%20Q968%20with%20Hurricane%203%20National%20blue%20sponge%20and%20Hurricane%208.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>
+      </p>
+    </div>
+  </article>
+
+  <template id="matsushima-gear">
+    <h3 class="mg-lightbox__spec-title">Sora Matsushima · Okayama Rivets</h3>
+    <dl class="mg-lightbox__spec">
+      <div><dt>Blade</dt><dd>Butterfly Fan Zhendong ALC</dd></div>
+      <div><dt>Forehand</dt><dd>Butterfly Dignics 09C</dd></div>
+      <div><dt>Backhand</dt><dd>Butterfly ZYRE-03</dd></div>
+      <div><dt>Shoes</dt><dd>Butterfly Lezoline Rifones / Revalis</dd></div>
+      <div><dt>Shirt</dt><dd>Butterfly Elista 10</dd></div>
+    </dl>
+    <p class="mg-lightbox__spec-note">Before this: Harimoto Innerforce ALC on the blade, Spin Art then Dignics 05 on the forehand, Dignics 09C then Dignics 05 on the backhand.</p>
+    <p class="mg-lightbox__spec-src">Gear list: <a href="https://takkyu-navi.jp/player/detail/8092" target="_blank" rel="noopener noreferrer">Takkyu-Navi</a>, checked October 2026.</p>
+  </template>
+
+  <!-- The four shots after the blade carry a note rather than the sheet: the
+       first slide has already given the whole list, and what these photos need
+       is a name. A panel with no <dl> in it is is-note and costs the photo
+       less height than a sheet does (uncrate.css, §12). -->
+
+  <template id="matsushima-forehand">
+    <h3 class="mg-lightbox__spec-title">Forehand · Dignics 09C</h3>
+    <p class="mg-lightbox__spec-note">Before it: Spin Art, then Dignics 05.</p>
+  </template>
+
+  <template id="matsushima-backhand">
+    <h3 class="mg-lightbox__spec-title">Backhand · ZYRE-03</h3>
+    <p class="mg-lightbox__spec-note">Before it: Dignics 09C, then Dignics 05.</p>
+  </template>
+
+  <template id="matsushima-shoes">
+    <h3 class="mg-lightbox__spec-title">Shoes · Lezoline Revalis</h3>
+    <p class="mg-lightbox__spec-note">The shoe pictured on his gear list, which also names the Rifones.</p>
+  </template>
+
+  <template id="matsushima-shirt">
+    <h3 class="mg-lightbox__spec-title">Shirt · Elista 10</h3>
+    <p class="mg-lightbox__spec-note">The Butterfly shirt model on his gear list.</p>
+  </template>
+
+  <template id="wang-gear">
+    <h3 class="mg-lightbox__spec-title">Wang Chuqin · China</h3>
+    <dl class="mg-lightbox__spec">
+      <div><dt>Blade</dt><dd>DHS Q968</dd></div>
+      <div><dt>Forehand</dt><dd>DHS Hurricane 3 National, blue sponge</dd></div>
+      <div><dt>Backhand</dt><dd>DHS Hurricane 8</dd></div>
+    </dl>
+    <p class="mg-lightbox__spec-note">The composite Hurricane King: five wood plies, two inner carbon, 6.0 mm, around 90 g.</p>
+    <p class="mg-lightbox__spec-src">Gear list: <a href="https://takkyu-navi.jp/player/detail/1980" target="_blank" rel="noopener noreferrer">Takkyu-Navi</a>, checked October 2026.</p>
+  </template>
+
+  <template id="wang-forehand">
+    <h3 class="mg-lightbox__spec-title">Forehand · Hurricane 3 National</h3>
+    <p class="mg-lightbox__spec-note">The national-team sheet, with the harder blue sponge.</p>
+  </template>
+
+  <template id="wang-backhand">
+    <h3 class="mg-lightbox__spec-title">Backhand · Hurricane 8</h3>
+    <p class="mg-lightbox__spec-note">A grippier topsheet on a livelier sponge than the 3 — easier on that wing.</p>
+  </template>
 
   <!-- Blade and both rubbers are read off the racket, not off the filename: the
        handle carries Butterfly's "PETR KORBEL / OFFENSIVE / MADE IN JAPAN"

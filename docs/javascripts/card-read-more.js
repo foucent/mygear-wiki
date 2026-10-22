@@ -10,15 +10,23 @@
  * settled on anyway, so a clipped card is exactly as tall as its neighbours and
  * the rows do not move.
  *
- * The cards that go through that measurement today are the homepage feed's:
- * javascripts/guide-grid.js writes each one's excerpt into .mg-card__desc, and
- * those run from one line to five, which is the mix a median is for. /blades/
- * used to be the other caller — the eleven blades that could not be priced,
- * every one of them a paragraph, which is why that grid stated its own budget
- * with data-mg-clamp-fixed rather than take a median from a page with no short
- * card on it. Those cards are in the pre-owned recipe now, with no description
- * left to measure or to cut, so the stated-budget path has no caller at all and
- * this file's own median is the only thing deciding.
+ * The cards this file collects need a description and a .mg-card__zoom to open
+ * it, and the homepage feed supplies all of them today:
+ * javascripts/guide-grid.js writes each card's excerpt into .mg-card__desc,
+ * and that grid states its own budget with data-mg-clamp-fixed — three lines
+ * in the wide column — while its narrow column takes the fold away altogether
+ * through the stylesheet's --mg-read-more switch.
+ *
+ * /gear/'s twelfth card writes a description too, but the stylesheet clamps it
+ * (.mg-card__desc--clamped, to the height the tags took) and its action is a
+ * plain anchor to /gear/sora-matsushima/ rather than a zoom link. No zoom link
+ * means this file never collects that card, so the link navigates instead of
+ * becoming a disclosure — which is the point: the page behind it is where the
+ * paragraph runs whole.
+ *
+ * /blades/ used to be the other caller — the eleven blades that could not be
+ * priced, every one of them a paragraph — and those cards are in the
+ * pre-owned recipe now, with no description left to measure or to cut.
  *
  * The paragraph then opens over the card rather than growing it: rows are 1fr,
  * and an auto-height grid resolves every 1fr row to the tallest, so a card that
@@ -127,11 +135,24 @@
     var norm = counted.length ? counted[Math.floor((counted.length - 1) / 2)] : 0;
 
     items.forEach(function (it) {
-      var budget = it.fixed ? fixedBudget(it.desc) : norm;
+      /* A grid can switch the fold off for the rung it is on. The homepage
+         feed does it below 1100px: there the copy block is auto height and the
+         excerpt has to run whole, because a phone should read the same card a
+         desktop does. The switch is a custom property in the stylesheet beside
+         the column rule, not a breakpoint repeated here — this file only reads
+         the cascade. */
+      var off =
+        getComputedStyle(it.desc).getPropertyValue("--mg-read-more").trim() ===
+        "off";
+      var budget = off ? 0 : it.fixed ? fixedBudget(it.desc) : norm;
       var long = budget > 0 && it.lines > budget;
       /* A stated budget stays in the stylesheet: set inline it would out-rank
          the media query that changes it in a narrow column. */
-      if (!it.fixed) it.desc.style.setProperty("--mg-clamp-lines", budget);
+      if (!it.fixed && !off) {
+        it.desc.style.setProperty("--mg-clamp-lines", budget);
+      } else if (off) {
+        it.desc.style.removeProperty("--mg-clamp-lines");
+      }
       it.desc.classList.toggle(CLAMP, long);
       if (!long) it.desc.classList.remove(OPEN);
       render(it);

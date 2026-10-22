@@ -492,12 +492,14 @@
   margin: auto 0 0;
 }
 
-/* The paragraph slot. No page in this file's own grids writes one any more —
-   the last cards that did were the eleven blades that cannot be priced, and
-   they are back on /blades/ in the priced-card recipe, which has no room for
-   prose. What is left is the homepage feed: javascripts/guide-grid.js writes
-   each card's excerpt into this class, and it is the only thing the median in
-   javascripts/card-read-more.js ever measures now.
+/* The paragraph slot. Two places write one. On /gear/ it is the twelfth card
+   alone — the player's own setup, where the eleven builds carry tags — and it
+   is the grid's only paragraph, so the median javascripts/card-read-more.js
+   measures against is the paragraph itself and nothing is ever clipped. The
+   other is the homepage feed, where javascripts/guide-grid.js writes each
+   card's excerpt into this class and the median does its work. The eleven
+   blades that used to carry write-ups lost them in the move to /blades/,
+   whose priced-card recipe has no room for prose.
 
    Order 1 puts it on its own line under the title and above whatever the
    price/action pair does at the bottom; the row's stretch then spends any spare
@@ -517,10 +519,43 @@
   color: var(--ab-text-muted);
 }
 
-/* The rubbers on a build, on one line under the title — on each of the eleven
-   build cards that are all of /gear/ now, none of which carries a Forehand /
-   Backhand table any more: the title is the blade and this is everything that
-   is on it.
+/* One card on /gear/ writes a paragraph where the other eleven write tags: the
+   player's own setup, whose full list lives on /gear/sora-matsushima/. It is
+   held to the height those six chips took, so the card sits in its row exactly
+   as it did before the paragraph arrived — two lines where the chips took two
+   rows, three where they took three. Which of the two happens depends on the
+   card's own width, not the viewport (the chips reflowed at about 444px of
+   column), so the clamp follows a container query on that card; a viewport
+   breakpoint would put a single-column phone and a two-column desktop on the
+   wrong sides of it. A browser without container queries keeps the three-line
+   default, which is the narrow column's answer anyway.
+
+   The ellipsis is the disclosure, and the action beside it is the way out:
+   "View his gear" opens the page that carries the list in full. That link is
+   a plain anchor, not .mg-card__zoom, so neither gallery-lightbox.js nor
+   card-read-more.js claims the click — the photo is still what opens the
+   lightbox. */
+.md-typeset .mg-card--player {
+  container-type: inline-size;
+}
+
+.md-typeset .mg-card__desc--clamped {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+@container (min-width: 444px) {
+  .md-typeset .mg-card__desc--clamped {
+    -webkit-line-clamp: 2;
+  }
+}
+
+/* The rubbers on a build, on one line under the title — on each of the twelve
+   cards that are all of /gear/ now, eleven builds and a player's own setup,
+   none of which carries a Forehand / Backhand table any more: the title is the
+   blade and this is everything that is on it.
 
    Black, not the muted ink the spec *labels* were set in. What a reader scans
    this card for is "Viscaria with Hurricane III on it", and every other name on
@@ -540,14 +575,14 @@
    to 30px below it on a desktop column and 8 to 36px on a phone one, by how much
    content each card's neighbours have.
 
-   The pair is written with U+00A0 between the words of each rubber name and
-   before the "·", which leaves the one ordinary space after the "·" as the only
-   place the line can break. On a phone column — 330px of content at a 420px
-   viewport, 270px at 360px — the longest pair wants about 360px, so some of them
-   do wrap. Left to itself the browser breaks at any space and splits a maker
-   from its model ("Butterfly / Dignics 09C"); `text-wrap: balance` does no
-   better, it just moves that break in front of the "·". With the names held
-   together, a wrapped pair reads "DHS Hurricane 3 Blue Sponge ·" / "Butterfly
+   The names are written with U+00A0 between their words and before the "·",
+   which leaves the one ordinary space after the "·" as the only place the line
+   can break. On a phone column — 330px of content at a 420px viewport, 270px at
+   360px — the longest pair wants about 360px, so some of them do wrap. Left to
+   itself the browser breaks at any space and splits a maker from its model
+   ("Butterfly / Dignics 09C"); `text-wrap: balance` does no better, it just
+   moves that break in front of the "·". With the names held together, a
+   wrapped pair reads "DHS Hurricane 3 Blue Sponge ·" / "Butterfly
    Dignics 09C". The two spaces render identically; only breaking differs. */
 .md-typeset .mg-card__sub {
   flex: 0 0 100%;
@@ -583,11 +618,12 @@
    113px — which would have cost the page 143px and 543px. At 10px with 2px of
    padding and 1.3 of line height the same six take three rows on a desktop
    column — 151px widest, so two fit the 428px one — and come to 67px, a pixel
-   under the paragraph's 68, so nothing on the page moved. Those paragraphs are
-   nowhere now — the blades that carried them lost them in the move to the
-   pre-owned recipe — so a row of two tag cards is set by the tags themselves:
-   the size stays because it was measured, and because at 10px a chip reads as a
-   label rather than as a sentence.
+   under the paragraph's 68, so nothing on the page moved. Those eleven
+   paragraphs are gone — the blades lost them in the move to the pre-owned
+   recipe — and the one paragraph left in the grid is on the twelfth card,
+   which carries no tags, so a row of two tag cards is set by the tags
+   themselves: the size stays because it was measured, and because at 10px a
+   chip reads as a label rather than as a sentence.
 
    Only the desktop grid is the one to protect. Below 760px the grid is a single
    column, a row holds one card, and a tag block is charged to the card it is on
@@ -645,11 +681,12 @@
    The rule below is the affordance for a grid whose descriptions are all long:
    it states the budget itself and the number lives here, where it can change
    with the column. The script reads it back off the cascade; nothing is
-   duplicated in the JS. No grid states it today — the one that did was the
-   eleven blades under the price list on /blades/, and they are in the
-   priced-card recipe now, with no description left to clip — so the measuring
-   path above is what every remaining card goes through, and this stays for the
-   next grid that has no short card to take a median from.
+   duplicated in the JS. The homepage feed is the grid that states it today —
+   the .mg-guides block further down takes it to three lines wide and switches
+   the fold off entirely in the narrow column. Every other grid carries no
+   attribute, so the measuring path above decides it; the blades that could not
+   be priced, the last other caller, are in the pre-owned recipe now with no
+   description left to clip.
 
    The number is three lines, five in the narrow column. It was measured when
    /gear/ shared this recipe and the two pages' cards were meant to be the same
@@ -797,26 +834,31 @@
 }
 
 /* ---------------------------------------------------------------------------
-   The homepage feed: a fixed copy block, a smaller title, and excerpts that
-   fold.
+   The homepage feed: a smaller title, a fixed copy block on the wide column,
+   and excerpts that run whole everywhere.
 
-   Same recipe as /gear/ above, three departures — all of them scoped to
-   .mg-guides, because the twenty-two cards in that recipe need up to 222px of
-   copy and would lose text if this height reached them.
+   Same recipe as /gear/ above, scoped to .mg-guides, because the twenty-two
+   cards in that recipe need up to 222px of copy and would lose text if this
+   height reached them.
 
    1. The title is 20px, not 26px. At 26px the longest titles ("Butterfly
       Ovtcharov Innerforce ALC Review, Price & Specs") ran to three lines in
       the wide column and five in the narrow one, which is most of the block.
 
-   2. The copy is a fixed 200px at every width, so a row of cards is one
-      height top to bottom instead of stretching to whichever neighbour wrote
-      the most.
+   2. On the two-column rung the copy is a fixed 200px, so a row of cards is
+      one height top to bottom instead of stretching to whichever neighbour
+      wrote the most. It is fixed only there.
 
-   3. The excerpt folds. At 200px the wide column fits three lines of it and
-      the narrow one about two — the same paragraph needs four there — so
-      card-read-more.js clips the overflow and the action line reads "Read
-      more", opening the paragraph over the card. The budget is per-column:
-      three lines wide, two narrow, which is what makes the block land on 200.
+   3. The excerpt is never folded. The wide column fits every excerpt in the
+      200px whole, so "Read more" is a plain link to the guide. The narrow
+      column is a different case — the same paragraph needs four to six lines
+      there and no 200px block can hold it — and it used to fold the text at
+      two lines and turn that link into a disclosure opening the paragraph
+      over the card. A card should read the same on a phone as on a desktop,
+      so below 1100 the copy block gives the height up instead: auto height,
+      whole excerpt, the same plain link. card-read-more.js is told which rung
+      it is on by --mg-read-more: off, set with the column rule below rather
+      than by a breakpoint of its own.
 --------------------------------------------------------------------------- */
 .md-typeset .mg-guides .mg-card-grid {
   --mg-clamp-lines: 3;
@@ -836,7 +878,13 @@
 
 @media (max-width: 1099.98px) {
   .md-typeset .mg-guides .mg-card-grid {
-    --mg-clamp-lines: 2;
+    /* The switch card-read-more.js reads. Off means no card in this grid is
+       clipped and "Read more" stays the article link. */
+    --mg-read-more: off;
+  }
+
+  .md-typeset .mg-guides .mg-card__copy {
+    height: auto;
   }
 }
 
@@ -1442,87 +1490,211 @@
   background: var(--ab-text);
 }
 
+/* A lightbox can carry a spec sheet under the photo. /gear/'s player card uses
+   it to put a pro's whole equipment list under his portrait, where the card
+   itself has room for only the two rubbers. The sheet's markup sits in a
+   <template> in the card and gallery-lightbox.js clones it in here, so it
+   needs no script to exist on the page and every other gallery leaves this
+   panel hidden. The photo gives up some height while it is showing so the two
+   still fit the stage together.
+
+   The same card's gear photos carry a short note instead — one line saying
+   which part of the setup the picture is. gallery-lightbox.js marks a sheet
+   is-sheet and a note is-note, because the two want different room: a sheet
+   takes the stage down to 46vh, a note only enough to pay for its own height. */
+.mg-lightbox__caption {
+  box-sizing: border-box;
+  width: min(90vw, 620px);
+  max-height: 40vh;
+  overflow-y: auto;
+  margin: 0.7rem auto 0;
+  padding: 16px 20px 18px;
+  background: var(--ab-bg);
+  color: var(--ab-text);
+  text-align: left;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.mg-lightbox__caption[hidden] {
+  display: none;
+}
+
+.mg-lightbox__stage:has(.mg-lightbox__caption.is-sheet) .mg-lightbox__img {
+  max-height: 46vh;
+  margin: 0 auto;
+}
+
+.mg-lightbox__stage:has(.mg-lightbox__caption.is-note) .mg-lightbox__img {
+  max-height: 66vh;
+  margin: 0 auto;
+}
+
+.mg-lightbox__caption.is-note {
+  width: min(90vw, 520px);
+  padding: 14px 18px 15px;
+}
+
+.mg-lightbox__caption.is-note .mg-lightbox__spec-title {
+  margin-bottom: 6px;
+}
+
+.mg-lightbox__caption.is-note .mg-lightbox__spec-note {
+  margin: 0;
+}
+
+.mg-lightbox__spec-title {
+  margin: 0 0 12px;
+  color: var(--ab-text);
+  font-family: var(--ab-sans);
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 0.4px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.mg-lightbox__spec {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px 24px;
+  margin: 0;
+}
+
+.mg-lightbox__spec > div {
+  margin: 0;
+}
+
+.mg-lightbox__spec dt {
+  margin: 0;
+  color: var(--ab-text-muted);
+  font-family: var(--ab-sans);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.mg-lightbox__spec dd {
+  margin: 3px 0 0;
+  color: var(--ab-text);
+  font-family: var(--ab-sans);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.mg-lightbox__spec-note,
+.mg-lightbox__spec-src {
+  margin: 12px 0 0;
+  color: var(--ab-text-muted);
+  font-family: var(--ab-sans);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.mg-lightbox__spec-src {
+  margin-top: 8px;
+}
+
+.mg-lightbox__spec-src a {
+  color: var(--ab-accent-deep);
+  text-decoration: none;
+  border-bottom: 1px solid var(--ab-accent);
+}
+
+/* On a phone the sheet is one column and a size down, which is what lets all of
+   it — five rows, the note and the source — sit under the photo on a 390x844
+   screen without the panel having to scroll. Anything narrower scrolls it. */
+@media (max-width: 600px) {
+  .mg-lightbox__caption {
+    max-height: 46vh;
+    padding: 12px 14px 14px;
+  }
+
+  .mg-lightbox__stage:has(.mg-lightbox__caption.is-sheet) .mg-lightbox__img {
+    max-height: 38vh;
+  }
+
+  .mg-lightbox__stage:has(.mg-lightbox__caption.is-note) .mg-lightbox__img {
+    max-height: 52vh;
+  }
+
+  .mg-lightbox__caption.is-note {
+    padding: 11px 14px 12px;
+  }
+
+  /* The arrows hang at the middle of the screen (extra.css), which a full
+     sheet reaches past on a phone — it lands across the sheet's own title.
+     While one is up they move onto the photo, which is the only thing they act
+     on; a one-line note does not reach that far and leaves them alone. */
+  .mg-lightbox.has-sheet .mg-lightbox__nav {
+    top: 27%;
+  }
+
+  .mg-lightbox__spec-title {
+    margin-bottom: 8px;
+    font-size: 15px;
+  }
+
+  .mg-lightbox__spec {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 7px;
+  }
+
+  .mg-lightbox__spec dt {
+    font-size: 10px;
+  }
+
+  .mg-lightbox__spec dd {
+    margin-top: 2px;
+    font-size: 14px;
+  }
+
+  .mg-lightbox__spec-note,
+  .mg-lightbox__spec-src {
+    margin-top: 8px;
+    font-size: 12px;
+    line-height: 1.45;
+  }
+}
+
 /* ---------------------------------------------------------------------------
    13. The guide index — docs/guide/index.md.
 
    This page is the nav's "Guide" target and the whole point of it is to carry
    the eighteen articles that no longer sit in the sidebar, so it has to read
-   as an index rather than as prose. Group headings therefore borrow §2's
-   section-title shape, and each entry is a title over the same excerpt the
-   homepage feed shows.
+   as an index rather than as prose. Each entry sits in a card above the same
+   excerpt the homepage feed shows.
 
-   The entries are written in markdown ("- **[Title](x.md)**<span …>"), so the
-   list is a plain <ul> and the title is a <strong><a> — hence the two
-   descendant selectors rather than classes on each part.
+   2026-10-22: the entries were a bare <ul> — title over excerpt, a hairline
+   between them. At the reader's request they are now the front page's own
+   "Reviews & guides" grid rather than a layout of their own: one .mg-guides
+   wrapper around a .mg-card-grid of .mg-card tiles, class for class the markup
+   guide-grid.js builds, only written by hand in the page so all eighteen show
+   at once instead of six at a time behind the sentinel. The card recipe (§3
+   here, extra.css for the anatomy) is untouched: 3:2 picture band, uppercase
+   20px title, excerpt, "Read more" on the tan rule, two up on a desktop column
+   and one up from 767px down. data-mg-clamp-fixed is carried over too, so an
+   excerpt that outgrows the three-line budget fades and its link opens the
+   paragraph over the card, exactly as on the front page.
+
+   Cover pictures are the feed's: guide-grid.js already picks one for sixteen
+   of the eighteen, including the ones whose article has no photograph of its
+   own (blade-basics, gear-acceleration, h3-boost-method…). The two the feed
+   does not carry — blade thickness, rubber lifespan — take the thickness
+   article's own first photo and a stock rubber shot.
+
+   The four group headings (Start Here, Blade Technology, Rubbers & Boosting,
+   Reviews & Rankings) were here for half a day. Asked to take them out, the
+   page became a single grid, the cards still in the order the groups had set,
+   so this page needs no heading style of its own after all: nothing below
+   styles anything but the wrapper's top margin, and `.mg-guides` supplies the
+   rest.
 --------------------------------------------------------------------------- */
 
 .md-guide-hub {
   margin: 1.25rem 0 0;
-}
-
-.md-content__inner > .mg-guide-hub > h2 {
-  margin: 2rem 0 0;
-  padding: 0 0 0.4rem;
-  border: 0;
-  border-bottom: 1px solid var(--ab-text);
-  color: var(--ab-text);
-  font-size: 24px;
-  font-weight: 900;
-  letter-spacing: -0.01em;
-  text-transform: uppercase;
-}
-
-/* Scoped to .md-typeset for the specificity, not for the cascade: Material 9.x
-   sets the list offsets through `:is(ul, ol)`, and `:is()` scores as its most
-   specific argument, so that rule is 0,2,0 — it beats a bare `.mg-guide-hub ul`
-   at 0,1,1 and leaves the list indented 10px against the section rules above
-   it. Listing first gives 0,2,1. (`list-style` and `padding` happened to win
-   anyway; `margin-left` did not.) */
-.md-typeset .mg-guide-hub ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.md-typeset .mg-guide-hub li {
-  margin: 0;
-  padding: 0.85rem 0;
-  border-bottom: 1px solid var(--ab-line-soft);
-}
-
-/* Material draws list bullets with a ::marker on .md-typeset ul li; the
-   hairline separators above already do that job. */
-.md-typeset .mg-guide-hub li::marker {
-  content: none;
-}
-
-.md-typeset .mg-guide-hub li > strong > a {
-  color: var(--ab-text);
-  font-size: 17px;
-  font-weight: 900;
-  letter-spacing: -0.005em;
-  text-decoration: none;
-}
-
-.md-typeset .mg-guide-hub li > strong > a:hover {
-  color: var(--ab-accent-deep);
-}
-
-/* Block, not inline: in the markdown source this span follows the title on the
-   same line, so it needs to be pushed onto its own line from here. */
-.mg-guide-hub__excerpt {
-  display: block;
-  margin-top: 0.3rem;
-  color: var(--ab-text-muted);
-  font-family: var(--ab-serif);
-  font-size: 15px;
-  line-height: 1.5;
-}
-
-@media screen and (max-width: 700px) {
-  .md-content__inner > .mg-guide-hub > h2 {
-    font-size: 20px;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {

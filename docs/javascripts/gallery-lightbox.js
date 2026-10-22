@@ -19,6 +19,7 @@
       '<button type="button" class="mg-lightbox__nav mg-lightbox__next" aria-label="Next">›</button>' +
       '<div class="mg-lightbox__stage">' +
       '  <img class="mg-lightbox__img" alt="">' +
+      '  <div class="mg-lightbox__caption" hidden></div>' +
       '  <div class="mg-lightbox__meta">' +
       '    <div class="mg-lightbox__counter" aria-live="polite"></div>' +
       '    <div class="mg-lightbox__hint">More photos — swipe or use arrows</div>' +
@@ -31,6 +32,7 @@
     var prevBtn = root.querySelector(".mg-lightbox__prev");
     var nextBtn = root.querySelector(".mg-lightbox__next");
     var img = root.querySelector(".mg-lightbox__img");
+    var caption = root.querySelector(".mg-lightbox__caption");
     var counter = root.querySelector(".mg-lightbox__counter");
     var hint = root.querySelector(".mg-lightbox__hint");
     var dots = root.querySelector(".mg-lightbox__dots");
@@ -57,6 +59,38 @@
         .join("");
     }
 
+    /* Some cards carry a spec sheet for what the photo shows — /gear/'s player
+       card puts a pro's whole equipment list under his portrait, where the card
+       itself only has room for the two rubbers. The sheet stays in a <template>
+       in the card, so it costs no script to have on the page and is not part of
+       the page's text; an image opts in with data-lightbox-spec="#id". Every
+       item without one leaves the panel hidden, which is every other gallery.
+
+       A panel with a <dl> is a sheet and takes half the stage; a panel without
+       one is a line or two naming the photo (the player card's gear shots), so
+       it is marked is-note and the photo keeps most of its height
+       (.mg-lightbox__caption in uncrate.css). */
+    function showCaption(item) {
+      caption.innerHTML = "";
+      var tpl = item.spec ? document.querySelector(item.spec) : null;
+      var sheet = false;
+      if (tpl && tpl.content) {
+        caption.appendChild(tpl.content.cloneNode(true));
+        sheet = !!caption.querySelector(".mg-lightbox__spec");
+        caption.classList.toggle("is-sheet", sheet);
+        caption.classList.toggle("is-note", !sheet);
+        caption.hidden = false;
+      } else {
+        caption.hidden = true;
+      }
+      /* On a phone a full sheet reaches up past the middle of the screen,
+         where the arrows sit, and covers the sheet's own title. This marks the
+         lightbox so uncrate.css can lift them onto the photo; a one-line note
+         does not reach that far, so it leaves them where every other gallery
+         has them. */
+      root.classList.toggle("has-sheet", sheet);
+    }
+
     function show(i) {
       if (!items.length) return;
       index = (i + items.length) % items.length;
@@ -70,11 +104,16 @@
       counter.hidden = !multi;
       hint.hidden = !multi;
       renderDots();
+      showCaption(item);
     }
 
     function close() {
       root.hidden = true;
       img.removeAttribute("src");
+      caption.innerHTML = "";
+      caption.classList.remove("is-sheet", "is-note");
+      caption.hidden = true;
+      root.classList.remove("has-sheet");
       items = [];
       document.body.classList.remove("mg-lightbox-open");
     }
@@ -202,6 +241,27 @@
       });
   }
 
+  /* A data-gallery entry is a photo, and may carry its own alt and its own
+     spec panel: "href|alt|#template-id", the two trailing fields optional. A
+     field that opens with # is the template, anything else is the alt. Without
+     either, the entry keeps the card's own alt and its data-lightbox-spec —
+     which is how every gallery outside /gear/ writes its list. */
+  function galleryEntry(entry, img) {
+    var item = {
+      href: "",
+      alt: img.alt || "",
+      spec: img.getAttribute("data-lightbox-spec") || "",
+    };
+    entry.split("|").forEach(function (field, i) {
+      var value = field.trim();
+      if (!value) return;
+      if (i === 0) item.href = value;
+      else if (value.charAt(0) === "#") item.spec = value;
+      else item.alt = value;
+    });
+    return item;
+  }
+
   function bindGalleries() {
     var root = ensureLightbox();
 
@@ -240,13 +300,13 @@
           .map(function (s) {
             return s.trim();
           })
-          .filter(Boolean);
+          .filter(Boolean)
+          .map(function (entry) {
+            return galleryEntry(entry, img);
+          });
         var count = gallery.length || 1;
-        var galleryItemsList = gallery.length
-          ? gallery.map(function (href) {
-              return { href: href, alt: img.alt || "" };
-            })
-          : null;
+        var spec = img.getAttribute("data-lightbox-spec") || "";
+        var galleryItemsList = gallery.length ? gallery : null;
 
         // A 240px card is one photo with the number of photos on it. The strip
         // of thumbnails that used to sit under the picture is gone: it made the
@@ -288,7 +348,7 @@
         // container, which is that layout's "browse them all" behaviour.
         var cardScope = img.closest(".mg-card, .mg-preowned-card");
         var cardItems = galleryItemsList || [
-          { href: fullHref(img), alt: img.alt || "" },
+          { href: fullHref(img), alt: img.alt || "", spec: spec },
         ];
         var items = cardScope ? cardItems : galleryItemsList || fallbackItems;
         /* Which photo it opens on. A card, or a listing that carries its own
