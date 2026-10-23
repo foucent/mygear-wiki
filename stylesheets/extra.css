@@ -678,6 +678,13 @@ body.mg-lightbox-open {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
 }
 
+/* The two player cards on /gear/ keep their bands as plain photos: the count
+   pill is left off them, so nothing sits over the picture. The lightbox still
+   walks every frame the band's data-gallery lists. */
+.md-typeset .mg-card--player .mg-price-thumb-count {
+  display: none;
+}
+
 @media (max-width: 600px) {
   .mg-lightbox {
     padding: 3rem 0.5rem 1rem;
