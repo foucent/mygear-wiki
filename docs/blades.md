@@ -486,7 +486,7 @@ hide:
     <div class="mg-preowned-card__media">
       <img src="/images/butterfly-minions-caf/01.thumb.webp" data-full-src="/images/butterfly-minions-caf/01.jpg" srcset="/images/butterfly-minions-caf/01.thumb-480.webp 480w, /images/butterfly-minions-caf/01.thumb.webp 720w, /images/butterfly-minions-caf/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Minions CAF" loading="lazy" decoding="async" data-gallery="/images/butterfly-minions-caf/01.jpg,/images/butterfly-minions-caf/02.jpg,/images/butterfly-minions-caf/03.jpg,/images/butterfly-minions-caf/04.jpg">
     </div>
-    <h3 class="mg-preowned-card__title">Butterfly Minions CAF</h3>
+    <h3 class="mg-preowned-card__title">Butterfly Minions CAF <span class="mg-preowned-card__price">?</span></h3>
     <a class="mg-preowned-card__quote" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Butterfly%20Minions%20CAF%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Contact for Price</a>
   </article>
 
