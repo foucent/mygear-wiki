@@ -6,8 +6,15 @@
 
    The two kinds of entry are one list because they are one job: each is a
    page worth reading, with a cover, a title and a line of what is inside. The
-   twelve /gear/ pages come first (product pages lead, in the order the old
-   Hot Gear grid ran), then the sixteen guides.
+   twelve /gear/ product pages come first (product pages lead, in the order
+   the old Hot Gear grid ran), then the ten player albums in the order /gear/
+   runs them, then the eighteen guides.
+
+   The ten player albums joined on 2026-10-26, the same day the last of them
+   went up: without them the homepage ignored the biggest thing /gear/ gained
+   that week. The two guide entries that were missing (blade thickness, rubber
+   lifespan) went in the same pass, so the list now really is "every article
+   from the Guide directory" as this header has always claimed.
 --------------------------------------------------------------------------- */
 (function () {
   var MG_GUIDES = [
@@ -149,6 +156,126 @@
       excerpt:
         "The clean, non-tacky flagship of the Dignics line — a code No. 05 topsheet built for spin, bonded to the firmer, more resilient Spring Sponge X.",
     },
+    /* The ten player albums — /gear/'s player cards, one page each. The band
+       is the album's own cover, already a 3:2 crop, so unlike the twelve
+       product pages above nothing is cropped by the card. Their srcset keeps
+       the album cover's rungs and its full-size file, which is the lightbox
+       target the card names in data-full-src.
+
+       Order follows the cards on /gear/. The excerpt is the album's own
+       frontmatter description, unchanged, rather than a second version of the
+       same sentence that could drift away from the page. */
+
+    {
+      title: "Sora Matsushima's Gear: Fan Zhendong ALC, Dignics 09C, ZYRE-03",
+      href: "/gear/sora-matsushima/",
+      img: "/images/sora-matsushima/cover.webp",
+      srcset: "/images/sora-matsushima/cover.thumb-240.webp 240w, /images/sora-matsushima/cover.thumb-480.webp 480w, /images/sora-matsushima/cover.thumb-720.webp 720w, /images/sora-matsushima/cover.thumb-1000.webp 1000w, /images/sora-matsushima/cover.webp 1200w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
+      alt: "Sora Matsushima mid-stroke in a pink shirt with both hands on his racket",
+      cat: "Player",
+      excerpt:
+        "The Butterfly Fan Zhendong ALC setup Sora Matsushima plays: Dignics 09C on the forehand, ZYRE-03 on the backhand, Lezoline shoes and an Elista 10 shirt.",
+    },
+    {
+      title: "Wang Chuqin's Gear: DHS Q968, Hurricane 3 National, Hurricane 8",
+      href: "/gear/wang-chuqin/",
+      img: "/images/wang-chuqin/cover.webp",
+      srcset: "/images/wang-chuqin/cover.thumb-240.webp 240w, /images/wang-chuqin/cover.thumb-480.webp 480w, /images/wang-chuqin/cover.thumb.webp 720w, /images/wang-chuqin/cover.thumb-1000.webp 1000w, /images/wang-chuqin/cover.webp 1200w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
+      alt: "Wang Chuqin seen from behind, arms raised to the crowd, China shirt reading Wang C.Q.",
+      cat: "Player",
+      excerpt:
+        "The DHS setup Wang Chuqin plays: the inner-carbon Q968 blade with Hurricane 3 National blue sponge on the forehand and Hurricane 8 on the backhand.",
+    },
+    {
+      title: "Tomokazu Harimoto's Gear: Harimoto Innerforce Super ALC, ZYRE-03",
+      href: "/gear/tomokazu-harimoto/",
+      img: "/images/tomokazu-harimoto/cover.webp",
+      srcset: "/images/tomokazu-harimoto/cover.thumb-240.webp 240w, /images/tomokazu-harimoto/cover.thumb-480.webp 480w, /images/tomokazu-harimoto/cover.thumb.webp 720w, /images/tomokazu-harimoto/cover.webp 762w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
+      alt: "Tomokazu Harimoto shouting in a pink ANA Japan shirt",
+      cat: "Player",
+      excerpt:
+        "The Butterfly setup Tomokazu Harimoto plays: the Harimoto Innerforce Super ALC with ZYRE-03 on both wings, Lezoline Rifones shoes and a Jemelio shirt.",
+    },
+    {
+      title: "Dang Qiu's Gear: Timo Boll ALC Penhold, Dignics 09C",
+      href: "/gear/dang-qiu/",
+      img: "/images/dang-qiu/cover.webp",
+      srcset: "/images/dang-qiu/cover.thumb-240.webp 240w, /images/dang-qiu/cover.thumb-480.webp 480w, /images/dang-qiu/cover.thumb.webp 720w, /images/dang-qiu/cover.thumb-1000.webp 1000w, /images/dang-qiu/cover.webp 1080w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
+      alt: "Dang Qiu mid-stroke in a red LIEBHERR shirt and a red headband, racket raised",
+      cat: "Player",
+      excerpt:
+        "The setup the German penholder Dang Qiu plays: a special-order Timo Boll ALC in penhold with Dignics 09C on the forehand and the reverse backhand.",
+    },
+    {
+      title: "Patrick Franziska's Gear: Franziska Innerforce ZLC, ZYRE-03",
+      href: "/gear/patrick-franziska/",
+      img: "/images/patrick-franziska/cover.webp",
+      srcset: "/images/patrick-franziska/cover.thumb-240.webp 240w, /images/patrick-franziska/cover.thumb-480.webp 480w, /images/patrick-franziska/cover.thumb.webp 720w, /images/patrick-franziska/cover.thumb-1000.webp 1000w, /images/patrick-franziska/cover.webp 1080w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
+      alt: "Patrick Franziska from behind in a blue shirt with his name and the Butterfly mark, arms raised with his racket and a bundle of shirts",
+      cat: "Player",
+      excerpt:
+        "The Butterfly setup Patrick Franziska plays: his signature Franziska Innerforce ZLC with ZYRE-03 on both wings, after a long Tenergy and Dignics backhand line.",
+    },
+    {
+      title: "Félix Lebrun's Gear: Lebrun Hyper Carbon, Hybrid K3 Pro",
+      href: "/gear/felix-lebrun/",
+      img: "/images/felix-lebrun/cover.webp",
+      srcset: "/images/felix-lebrun/cover.thumb-240.webp 240w, /images/felix-lebrun/cover.thumb-480.webp 480w, /images/felix-lebrun/cover.thumb.webp 720w, /images/felix-lebrun/cover.thumb-1000.webp 1000w, /images/felix-lebrun/cover.webp 1200w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
+      alt: "Félix Lebrun shouting in glasses and a pink, yellow and blue Tibhar shirt, racket in hand",
+      cat: "Player",
+      excerpt:
+        "The Tibhar setup Félix Lebrun plays: his signature Félix Lebrun Hyper Carbon with Hybrid K3 Pro on both wings, penhold with the reverse backhand.",
+    },
+    {
+      title: "Lin Yun-Ju's Gear: Viscaria Super ALC, ZYRE-03, Dignics 05",
+      href: "/gear/lin-yun-ju/",
+      img: "/images/lin-yun-ju/cover.webp",
+      srcset: "/images/lin-yun-ju/cover.thumb-240.webp 240w, /images/lin-yun-ju/cover.thumb-480.webp 480w, /images/lin-yun-ju/cover.thumb.webp 720w, /images/lin-yun-ju/cover.thumb-1000.webp 1000w, /images/lin-yun-ju/cover.webp 1080w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
+      alt: "Lin Yun-Ju reaching across the table in a green and yellow shirt, the ball in the air in front of him",
+      cat: "Player",
+      excerpt:
+        "The Butterfly setup Lin Yun-Ju plays: Viscaria Super ALC with ZYRE-03 on the forehand and Dignics 05 on the backhand.",
+    },
+    {
+      title: "Truls Möregårdh's Gear: Cybershape Carbon, Helix Platinum XH",
+      href: "/gear/truls-moregardh/",
+      img: "/images/truls-moregardh/cover.webp",
+      srcset: "/images/truls-moregardh/cover.thumb-240.webp 240w, /images/truls-moregardh/cover.thumb-480.webp 480w, /images/truls-moregardh/cover.thumb.webp 720w, /images/truls-moregardh/cover.thumb-1000.webp 1000w, /images/truls-moregardh/cover.webp 1200w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
+      alt: "Truls Moregardh in a blue Sweden shirt, fist raised and racket in his other hand",
+      cat: "Player",
+      excerpt:
+        "The STIGA setup Truls Möregårdh plays: the hexagonal Cybershape Carbon with Helix Platinum XH on both wings, after a Carbonado 290 blade.",
+    },
+    {
+      title: "Hugo Calderano's Gear: XIOM Hyper Axylium, Joola Trinity",
+      href: "/gear/hugo-calderano/",
+      img: "/images/hugo-calderano/cover.webp",
+      srcset: "/images/hugo-calderano/cover.thumb-240.webp 240w, /images/hugo-calderano/cover.thumb-480.webp 480w, /images/hugo-calderano/cover.thumb.webp 720w, /images/hugo-calderano/cover.thumb-1000.webp 1000w, /images/hugo-calderano/cover.webp 1200w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
+      alt: "Hugo Calderano with his fist raised in a blue and green shirt, racket down at his side",
+      cat: "Player",
+      excerpt:
+        "The XIOM blade and Joola Trinity rubbers Hugo Calderano plays: Hyper Axylium with Trinity Charged on the forehand and Trinity Dynamic on the backhand.",
+    },
+    {
+      title: "Lin Shidong's Gear: Viscaria Golden, Hurricane 3 Neo, Dignics 09C",
+      href: "/gear/lin-shidong/",
+      img: "/images/lin-shidong/cover.webp",
+      srcset: "/images/lin-shidong/cover.thumb-240.webp 240w, /images/lin-shidong/cover.thumb-480.webp 480w, /images/lin-shidong/cover.thumb.webp 720w, /images/lin-shidong/cover.thumb-1000.webp 1000w, /images/lin-shidong/cover.webp 1200w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
+      alt: "Lin Shidong close up in China's blue shirt, reaching past the ball",
+      cat: "Player",
+      excerpt:
+        "The setup Lin Shidong plays: a gold-label Butterfly Viscaria with DHS Hurricane 3 Neo on the forehand and Butterfly Dignics 09C on the backhand.",
+    },
     {
       title: "Tibhar Darko Jorgic Infinity Carbon Review",
       href: "/guide/tibhar-darko-jorgic-infinity-carbon/",
@@ -249,6 +376,17 @@
         "A blade is at least 85% wood. Where the fiber sits — outer or inner — changes the feel and arc more than the fiber itself.",
     },
     {
+      title: "Blade Thickness, Penetration & Flatness",
+      href: "/guide/blade-thickness-and-flatness/",
+      img: "/images/blade-thickness/01.webp",
+      srcset: "/images/blade-thickness/01.thumb-480.webp 480w, /images/blade-thickness/01.thumb.webp 674w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
+      alt: "Custom KLC blades whose reinforcement plies are thicker than the W968's",
+      cat: "Construction",
+      excerpt:
+        "How blade thickness changes penetration, spin and speed — measured figures for the Harimoto ALC, W968 and Stiga CL, plus what blade flatness means for consistency.",
+    },
+    {
       title: "Why Tenergy Before Dignics",
       href: "/guide/why-tenergy-before-dignics/",
       img: "/images/tenergy-to-dignics/03.webp",
@@ -291,6 +429,17 @@
       cat: "Boosting",
       excerpt:
         "Boosting is not a moral absolute — it is a tool for opening the sponge and adding spring. Here is when you actually need it.",
+    },
+    {
+      title: "How Long Rubbers Last",
+      href: "/guide/rubber-lifespan-and-durability/",
+      img: "/images/stock-rubbers/neo-h3-national-blue.jpg",
+      srcset: "/images/stock-rubbers/neo-h3-national-blue.thumb-480.webp 480w, /images/stock-rubbers/neo-h3-national-blue.thumb.webp 720w, /images/stock-rubbers/neo-h3-national-blue.thumb-1000.webp 1000w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
+      alt: "DHS Neo Hurricane 3 National blue sponge rubber",
+      cat: "Rubbers",
+      excerpt:
+        "How long table tennis rubbers really last — a durability ranking of Chinese, Japanese and German sheets, blue vs orange sponge life, and what actually wears out.",
     },
     {
       title: "Table Tennis Kingdom Top 10 Shakehand Blades 2025",
