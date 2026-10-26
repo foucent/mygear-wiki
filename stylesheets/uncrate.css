@@ -1664,37 +1664,149 @@
 
    This page is the nav's "Guide" target and the whole point of it is to carry
    the eighteen articles that no longer sit in the sidebar, so it has to read
-   as an index rather than as prose. Each entry sits in a card above the same
-   excerpt the homepage feed shows.
+   as an index rather than as prose.
 
-   2026-10-22: the entries were a bare <ul> — title over excerpt, a hairline
-   between them. At the reader's request they are now the front page's own
-   "Reviews & guides" grid rather than a layout of their own: one .mg-guides
-   wrapper around a .mg-card-grid of .mg-card tiles, class for class the markup
-   guide-grid.js builds, only written by hand in the page so all eighteen show
-   at once instead of six at a time behind the sentinel. The card recipe (§3
-   here, extra.css for the anatomy) is untouched: 3:2 picture band, uppercase
-   20px title, excerpt, "Read more" on the tan rule, two up on a desktop column
-   and one up from 767px down. data-mg-clamp-fixed is carried over too, so an
-   excerpt that outgrows the three-line budget fades and its link opens the
-   paragraph over the card, exactly as on the front page.
+   2026-10-27: it is now the news list acebase.cc/blog/ uses (user: 「将
+   http://127.0.0.1:8001/guide/ 的样式 更换成https://acebase.cc/blog/ 的样式」).
+   One column of rows — a 16:9 thumbnail on the left, and beside it the
+   headline, a date · category kicker, two or three lines of standfirst and
+   "Read more".
 
-   Cover pictures are the feed's: guide-grid.js already picks one for sixteen
-   of the eighteen, including the ones whose article has no photograph of its
-   own (blade-basics, gear-acceleration, h3-boost-method…). The two the feed
-   does not carry — blade thickness, rubber lifespan — take the thickness
-   article's own first photo and a stock rubber shot.
+   The reference's page head (uppercase h1 on a black rule, then the serif
+   lead) was tried and rejected the same day — the user quoted those two
+   lines back and said 这段不要. So there is no head: the hub opens on the
+   first row. The page hides Material's title, so it has no h1, as before.
 
-   The four group headings (Start Here, Blade Technology, Rubbers & Boosting,
-   Reviews & Rankings) were here for half a day. Asked to take them out, the
-   page became a single grid, the cards still in the order the groups had set,
-   so this page needs no heading style of its own after all: nothing below
-   styles anything but the wrapper's top margin, and `.mg-guides` supplies the
-   rest.
+   The card is still .mg-card, plus `.mg-card--row` — the same shape of change
+   /blog/ made to .ab-card. It undoes the tile's centred column (a two-column
+   grid, text left) and leaves the frame, the radius and the hover lift alone.
+   The grid is 1fr : 1.9fr rather than a fixed thumbnail width, so the picture
+   keeps its proportion at every content width.
+
+   The picture is 16:9 `cover`, cropped from covers whose own ratios run from
+   2.36:1 to portrait; that was a choice put to the reader, and it is the
+   reference list's shape. It takes its own 1px frame instead of the tile's
+   border-bottom, because it no longer runs the card's full width.
+
+   The title drops the uppercase (`text-transform: none`): these are nine- to
+   fourteen-word headlines, and "HOW TO CHOOSE A BLADE: ALL-WOOD, OUTER &
+   INNER FIBER" at 900 weight is a wall. This is the only guide card that does
+   it, exactly as on /blog/.
+
+   No .mg-card__zoom, so card-read-more.js leaves every row whole: the earlier
+   grid's data-mg-clamp-fixed fold is gone, and `.mg-guides`' 200px copy block
+   is overridden back to auto height for the same reason.
+
+   Before 2026-10-22 the entries were a bare <ul>; for half a day before that,
+   four group headings. Neither survives. The order is by date now, newest
+   first — see make_guide_hub.py.
 --------------------------------------------------------------------------- */
 
 .md-guide-hub {
   margin: 1.25rem 0 0;
+}
+
+.md-typeset .mg-guide-list {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+}
+
+.md-typeset .mg-guide-hub .mg-card--row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.9fr);
+  align-items: start;
+  gap: 24px;
+  padding: 16px;
+  text-align: left;
+}
+
+.md-typeset .mg-guide-hub .mg-card--row .mg-card__media img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border: 1px solid var(--ab-line);
+}
+
+/* The shop card's copy is a centred wrapping row (the price rides at the end
+   of the name); a row card's copy is a plain left-handed column, so the
+   kicker and "Read more" start where the headline does instead of centring. */
+.md-typeset .mg-guide-hub .mg-card--row .mg-card__copy {
+  display: block;
+  height: auto;
+  padding: 0;
+  text-align: left;
+}
+
+/* No kicker above the headline here, so the shop card's 16px of headroom
+   under the picture rule is not needed. */
+.md-typeset .mg-guide-hub .mg-card--row .mg-card__copy > :first-child {
+  margin-top: 0;
+}
+
+.md-typeset .mg-guide-hub .mg-card--row .mg-card__title {
+  margin: 0 0 8px;
+  font-size: 22px;
+  line-height: 1.28;
+  letter-spacing: 0.2px;
+  text-transform: none;
+}
+
+/* Date and category as a kicker under the headline: a stamp, not copy, so it
+   stays well under the headline's weight. */
+.md-typeset .mg-guide-hub .mg-card__meta {
+  margin: 0 0 12px;
+  font-family: var(--ab-sans);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ab-text-muted);
+}
+
+.md-typeset .mg-guide-hub .mg-card--row .mg-card__desc {
+  margin: 0 0 12px;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/* A row is as tall as its own text, so the action line needs no pinning. */
+.md-typeset .mg-guide-hub .mg-card--row .mg-card__more {
+  margin: 0;
+}
+
+.md-typeset .mg-guide-hub .mg-card--row .mg-card__more a {
+  display: inline-block;
+  padding: 0 0 2px;
+  border: 0;
+  border-bottom: 1px solid var(--ab-accent);
+  border-radius: 0;
+  background: none;
+  font-family: var(--ab-sans);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--ab-accent-deep);
+  text-decoration: none;
+}
+
+.md-typeset .mg-guide-hub .mg-card--row .mg-card__more a:hover,
+.md-typeset .mg-guide-hub .mg-card--row .mg-card__more a:focus {
+  color: var(--ab-text);
+  border-bottom-color: var(--ab-text);
+}
+
+/* Phone: the row stacks, picture over text, at the breakpoint Material drops
+   the content column to one; the action goes back to the site's 16px there. */
+@media screen and (max-width: 767px) {
+  .md-typeset .mg-guide-hub .mg-card--row {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 14px;
+  }
+
+  .md-typeset .mg-guide-hub .mg-card--row .mg-card__more a {
+    font-size: 16px;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
