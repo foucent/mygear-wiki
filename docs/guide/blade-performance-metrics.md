@@ -1,6 +1,7 @@
 ---
 icon: material/chart-bar
 description: "When you shop for a blade, brand and looks matter less than the playing qualities underneath. Beyond elasticity, hardness, and core wood, these six metr..."
+imported: 2026-07-22
 ---
 
 # Blade Performance Metrics
