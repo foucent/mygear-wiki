@@ -572,6 +572,11 @@ hide:
       <td>VICTAS | Koji Matsushita | FL | 87g</td>
       <td style="text-align:right">$50</td>
     </tr>
+<tr data-added="2026-10-28">
+      <td><img src="/images/viscaria-v-code-cn-86g-without-box/01.thumb.webp" data-full-src="/images/viscaria-v-code-cn-86g-without-box/01.jpg" srcset="/images/viscaria-v-code-cn-86g-without-box/01.thumb-240.webp 180w, /images/viscaria-v-code-cn-86g-without-box/01.thumb-480.webp 360w, /images/viscaria-v-code-cn-86g-without-box/01.thumb.webp 540w, /images/viscaria-v-code-cn-86g-without-box/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Viscaria | V-Code | CN | 86g | Without box" loading="lazy" data-gallery="/images/viscaria-v-code-cn-86g-without-box/01.jpg,/images/viscaria-v-code-cn-86g-without-box/02.jpg,/images/viscaria-v-code-cn-86g-without-box/03.jpg,/images/viscaria-v-code-cn-86g-without-box/04.jpg,/images/viscaria-v-code-cn-86g-without-box/05.jpg,/images/viscaria-v-code-cn-86g-without-box/06.jpg,/images/viscaria-v-code-cn-86g-without-box/07.jpg,/images/viscaria-v-code-cn-86g-without-box/08.jpg"></td>
+      <td>Viscaria | V-Code | CN | 86g | Without box</td>
+      <td style="text-align:right">$88</td>
+    </tr>
 <tr>
       <td><img src="/images/viscaria-w-code-cn-86g/01.thumb.webp" data-full-src="/images/viscaria-w-code-cn-86g/01.jpg" srcset="/images/viscaria-w-code-cn-86g/01.thumb-240.webp 180w, /images/viscaria-w-code-cn-86g/01.thumb-480.webp 360w, /images/viscaria-w-code-cn-86g/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Viscaria | W-Code | CN | 86g" loading="lazy" data-gallery="/images/viscaria-w-code-cn-86g/01.jpg,/images/viscaria-w-code-cn-86g/02.jpg,/images/viscaria-w-code-cn-86g/03.jpg,/images/viscaria-w-code-cn-86g/05.jpg,/images/viscaria-w-code-cn-86g/06.jpg,/images/viscaria-w-code-cn-86g/07.jpg,/images/viscaria-w-code-cn-86g/08.jpg"></td>
       <td>Viscaria | W-Code | CN | 86g</td>
