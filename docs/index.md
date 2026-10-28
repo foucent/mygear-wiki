@@ -105,6 +105,7 @@ description: "Get brand-new table tennis blades, popular rubbers, and sports gea
       <li><a href="/gear/truls-moregardh/">Truls Möregårdh's Gear: Cybershape Carbon, Helix Platinum XH</a></li>
       <li><a href="/gear/hugo-calderano/">Hugo Calderano's Gear: XIOM Hyper Axylium, Joola Trinity</a></li>
       <li><a href="/gear/lin-shidong/">Lin Shidong's Gear: Viscaria Golden, Hurricane 3 Neo, Dignics 09C</a></li>
+      <li><a href="/gear/fan-zhendong/">Fan Zhendong's Gear: Fan Zhendong ALC, Hurricane 3 National, Dignics 09C</a></li>
       <li><a href="/guide/tibhar-darko-jorgic-infinity-carbon/">Tibhar Darko Jorgic Infinity Carbon Review</a></li>
       <li><a href="/guide/choosing-blade-structure/">How to Choose a Blade: All-Wood, Outer &amp; Inner Fiber</a></li>
       <li><a href="/guide/essential-questions-before-buying/">Essential Questions Before Buying</a></li>

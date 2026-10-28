@@ -7,14 +7,15 @@
    The two kinds of entry are one list because they are one job: each is a
    page worth reading, with a cover, a title and a line of what is inside. The
    twelve /gear/ product pages come first (product pages lead, in the order
-   the old Hot Gear grid ran), then the ten player albums in the order /gear/
-   runs them, then the eighteen guides.
+   the old Hot Gear grid ran), then the eleven player albums in the order
+   /gear/ runs them, then the eighteen guides.
 
-   The ten player albums joined on 2026-10-26, the same day the last of them
-   went up: without them the homepage ignored the biggest thing /gear/ gained
-   that week. The two guide entries that were missing (blade thickness, rubber
-   lifespan) went in the same pass, so the list now really is "every article
-   from the Guide directory" as this header has always claimed.
+   The player albums joined on 2026-10-26, the same day the last of the first
+   ten went up: without them the homepage ignored the biggest thing /gear/
+   gained that week. The two guide entries that were missing (blade thickness,
+   rubber lifespan) went in the same pass, so the list now really is "every
+   article from the Guide directory" as this header has always claimed. Fan
+   Zhendong's album is the eleventh, added alone on 2026-10-28.
 --------------------------------------------------------------------------- */
 (function () {
   var MG_GUIDES = [
@@ -156,7 +157,7 @@
       excerpt:
         "The clean, non-tacky flagship of the Dignics line — a code No. 05 topsheet built for spin, bonded to the firmer, more resilient Spring Sponge X.",
     },
-    /* The ten player albums — /gear/'s player cards, one page each. The band
+    /* The eleven player albums — /gear/'s player cards, one page each. The band
        is the album's own cover, already a 3:2 crop, so unlike the twelve
        product pages above nothing is cropped by the card. Their srcset keeps
        the album cover's rungs and its full-size file, which is the lightbox
@@ -275,6 +276,17 @@
       cat: "Player",
       excerpt:
         "The setup Lin Shidong plays: a gold-label Butterfly Viscaria with DHS Hurricane 3 Neo on the forehand and Butterfly Dignics 09C on the backhand.",
+    },
+    {
+      title: "Fan Zhendong's Gear: Fan Zhendong ALC, Hurricane 3 National, Dignics 09C",
+      href: "/gear/fan-zhendong/",
+      img: "/images/fan-zhendong/cover.webp",
+      srcset: "/images/fan-zhendong/cover.thumb-240.webp 240w, /images/fan-zhendong/cover.thumb-480.webp 480w, /images/fan-zhendong/cover.thumb.webp 720w, /images/fan-zhendong/cover.thumb-1000.webp 1000w, /images/fan-zhendong/cover.webp 1200w",
+      sizes: "(max-width: 759.98px) 88vw, 462px",
+      alt: "Fan Zhendong seen from behind on the Paris table, arms flung wide with his racket in one hand",
+      cat: "Player",
+      excerpt:
+        "The setup Fan Zhendong plays: the Butterfly Fan Zhendong ALC with DHS Hurricane 3 National blue sponge on the forehand and Butterfly Dignics 09C on the backhand.",
     },
     {
       title: "Tibhar Darko Jorgic Infinity Carbon Review",
