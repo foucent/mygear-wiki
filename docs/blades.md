@@ -46,43 +46,18 @@ hide:
   <!-- Every card in this grid is a price: the badge in the corner says how it
        is bought, and the action line is a cart button. The card's name is the
        cart line's, word for word, so what is read and what lands in the
-       basket are the same string — and for the seven selected blades that
-       string carries the grade, which is the only thing telling the two
-       Viscarias (and the two Zhang Jike ALCs) apart at a different price
-       each. The photos are the ones the old cards carried, so the picture
-       opens the same gallery it did.
+       basket are the same string — and for the selected blades that string
+       carries the grade, which is the only thing telling the two Viscarias
+       apart at a different price each. The photos are the ones the old cards
+       carried, so the picture opens the same gallery it did.
 
-       This is the page's priced grid, not the whole page: the eleven blades
+       This is the page's priced grid, not the whole page: the fifteen blades
        with no price are a second grid below it, split off by the caption. They
        are written in this recipe too — only the action line differs. See the
        comment over them. -->
 
 <div class="mg-preowned-grid mg-preowned-grid--blades" markdown="0" role="list">
 
-  <article class="mg-preowned-card" role="listitem">
-    <div class="mg-preowned-card__media">
-      <span class="mg-preowned-card__badge mg-preowned-card__badge--stock">In stock</span>
-      <img src="/images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb.webp" data-full-src="/images/stock-blades/brand-new-selected-fan-zhendong-golden.webp" srcset="/images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb-240.webp 180w, /images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb-480.webp 360w, /images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb.webp 540w, /images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Fan ZD Golden, CN K-Code, 88.7g, brand new" loading="lazy" decoding="async">
-    </div>
-    <h3 class="mg-preowned-card__title">Fan ZD Golden | CN | K-Code | 88.7g | Brand New <span class="mg-preowned-card__price">$2100</span></h3>
-    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Fan ZD Golden to cart" data-name="Fan ZD Golden | CN | K-Code | 88.7g | Brand New" data-price="2100"><span aria-hidden="true">+</span><span>Add to cart</span></button>
-  </article>
-  <article class="mg-preowned-card" role="listitem">
-    <div class="mg-preowned-card__media">
-      <span class="mg-preowned-card__badge mg-preowned-card__badge--stock">In stock</span>
-      <img src="/images/stock-blades/brand-new-selected-butterfly-taksim-x.thumb.webp" data-full-src="/images/stock-blades/brand-new-selected-butterfly-taksim-x.webp" srcset="/images/stock-blades/brand-new-selected-butterfly-taksim-x.thumb-480.webp 360w, /images/stock-blades/brand-new-selected-butterfly-taksim-x.thumb.webp 540w, /images/stock-blades/brand-new-selected-butterfly-taksim-x.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Taksim X, 2005 metal tag, no code, 90g, brand new" loading="lazy" decoding="async">
-    </div>
-    <h3 class="mg-preowned-card__title">Butterfly Taksim X | 2005 Metal Tag (No Code) | 90g | Brand New <span class="mg-preowned-card__price">$505</span></h3>
-    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Butterfly Taksim X to cart" data-name="Butterfly Taksim X | 2005 Metal Tag (No Code) | 90g | Brand New" data-price="505"><span aria-hidden="true">+</span><span>Add to cart</span></button>
-  </article>
-  <article class="mg-preowned-card" role="listitem">
-    <div class="mg-preowned-card__media">
-      <span class="mg-preowned-card__badge mg-preowned-card__badge--stock">In stock</span>
-      <img src="/images/stock-blades/brand-new-selected-butterfly-cofferlait.thumb.webp" data-full-src="/images/stock-blades/brand-new-selected-butterfly-cofferlait.webp" srcset="/images/stock-blades/brand-new-selected-butterfly-cofferlait.thumb-480.webp 360w, /images/stock-blades/brand-new-selected-butterfly-cofferlait.thumb.webp 540w, /images/stock-blades/brand-new-selected-butterfly-cofferlait.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Cofferlait, metal tag, no code, 84g, brand new" loading="lazy" decoding="async">
-    </div>
-    <h3 class="mg-preowned-card__title">Butterfly Cofferlait | Metal Tag (No Code) | 84g | Brand New <span class="mg-preowned-card__price">$1038</span></h3>
-    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Butterfly Cofferlait to cart" data-name="Butterfly Cofferlait | Metal Tag (No Code) | 84g | Brand New" data-price="1038"><span aria-hidden="true">+</span><span>Add to cart</span></button>
-  </article>
   <article class="mg-preowned-card" role="listitem">
     <div class="mg-preowned-card__media">
       <span class="mg-preowned-card__badge mg-preowned-card__badge--preorder">Pre-order</span>
@@ -106,14 +81,6 @@ hide:
     </div>
     <h3 class="mg-preowned-card__title">Fan ZD SALC | CN | K-Code | 87-90g | Brand New Selected <span class="mg-preowned-card__price">$219</span></h3>
     <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Fan ZD SALC to cart" data-name="Fan ZD SALC | CN | K-Code | 87-90g | Brand New Selected" data-price="219"><span aria-hidden="true">+</span><span>Add to cart</span></button>
-  </article>
-  <article class="mg-preowned-card" role="listitem">
-    <div class="mg-preowned-card__media">
-      <span class="mg-preowned-card__badge mg-preowned-card__badge--stock">In stock</span>
-      <img src="/images/stock-blades/zhang-jk-alc-cn-cs-k-code-83-90g-brand-new-selected.thumb.webp" data-full-src="/images/stock-blades/zhang-jk-alc-cn-cs-k-code-83-90g-brand-new-selected.webp" srcset="/images/stock-blades/zhang-jk-alc-cn-cs-k-code-83-90g-brand-new-selected.thumb-480.webp 480w, /images/stock-blades/zhang-jk-alc-cn-cs-k-code-83-90g-brand-new-selected.thumb.webp 720w, /images/stock-blades/zhang-jk-alc-cn-cs-k-code-83-90g-brand-new-selected.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Zhang JK ALC, CN CS K-Code, 86-90g, brand new selected" loading="lazy" decoding="async">
-    </div>
-    <h3 class="mg-preowned-card__title">Zhang JK ALC | CN | CS | K-Code | 86-90g | Brand New Selected <span class="mg-preowned-card__price">$259</span></h3>
-    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Zhang JK ALC to cart" data-name="Zhang JK ALC | CN | CS | K-Code | 86-90g | Brand New Selected" data-price="259"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
   <article class="mg-preowned-card" role="listitem">
     <div class="mg-preowned-card__media">
@@ -280,8 +247,8 @@ hide:
       <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/zhang-jike-alc.thumb.webp" data-full-src="/images/price-list/blades/zhang-jike-alc.jpg" srcset="/images/price-list/blades/zhang-jike-alc.thumb-240.webp 240w, /images/price-list/blades/zhang-jike-alc.thumb-480.webp 480w, /images/price-list/blades/zhang-jike-alc.jpg 600w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Zhang Jike ALC" loading="lazy" decoding="async">
     </div>
-    <h3 class="mg-preowned-card__title">Zhang Jike ALC <span class="mg-preowned-card__price">$169</span></h3>
-    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Zhang Jike ALC to cart" data-name="Zhang Jike ALC" data-price="169"><span aria-hidden="true">+</span><span>Add to cart</span></button>
+    <h3 class="mg-preowned-card__title">Zhang Jike ALC <span class="mg-preowned-card__price">$209</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Zhang Jike ALC to cart" data-name="Zhang Jike ALC" data-price="209"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
   <article class="mg-preowned-card" role="listitem">
     <div class="mg-preowned-card__media">
@@ -528,6 +495,36 @@ hide:
     </div>
     <h3 class="mg-preowned-card__title">Donic J.O. Waldner Dicon</h3>
     <a class="mg-preowned-card__quote" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Donic%20J.O.%20Waldner%20Dicon%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Contact for Price</a>
+  </article>
+
+  <!-- Golden Fan Zhendong, CN-market K-Code, 88.7g, brand new. In hand;
+       price on request rather than listed. -->
+  <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media">
+      <img src="/images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb.webp" data-full-src="/images/stock-blades/brand-new-selected-fan-zhendong-golden.webp" srcset="/images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb-240.webp 180w, /images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb-480.webp 360w, /images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb.webp 540w, /images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Fan ZD Golden, CN K-Code, 88.7g, brand new" loading="lazy" decoding="async">
+    </div>
+    <h3 class="mg-preowned-card__title">Fan ZD Golden | CN | K-Code | 88.7g | Brand New</h3>
+    <a class="mg-preowned-card__quote" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Fan%20ZD%20Golden%20blade.%0D%0A%0D%0AShip%20to%20%28city%20%2F%20postal%20code%29%3A" target="_blank" rel="noopener noreferrer">Contact for Price</a>
+  </article>
+
+  <!-- Taksim X with the 2005 metal tag and no letter code, 90g, brand new.
+       In hand; price on request rather than listed. -->
+  <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media">
+      <img src="/images/stock-blades/brand-new-selected-butterfly-taksim-x.thumb.webp" data-full-src="/images/stock-blades/brand-new-selected-butterfly-taksim-x.webp" srcset="/images/stock-blades/brand-new-selected-butterfly-taksim-x.thumb-480.webp 360w, /images/stock-blades/brand-new-selected-butterfly-taksim-x.thumb.webp 540w, /images/stock-blades/brand-new-selected-butterfly-taksim-x.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Taksim X, 2005 metal tag, no code, 90g, brand new" loading="lazy" decoding="async">
+    </div>
+    <h3 class="mg-preowned-card__title">Butterfly Taksim X | 2005 Metal Tag (No Code) | 90g | Brand New</h3>
+    <a class="mg-preowned-card__quote" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Butterfly%20Taksim%20X%20blade.%0D%0A%0D%0AShip%20to%20%28city%20%2F%20postal%20code%29%3A" target="_blank" rel="noopener noreferrer">Contact for Price</a>
+  </article>
+
+  <!-- Cofferlait with the metal tag and no letter code, 84g, brand new. In
+       hand; price on request rather than listed. -->
+  <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media">
+      <img src="/images/stock-blades/brand-new-selected-butterfly-cofferlait.thumb.webp" data-full-src="/images/stock-blades/brand-new-selected-butterfly-cofferlait.webp" srcset="/images/stock-blades/brand-new-selected-butterfly-cofferlait.thumb-480.webp 360w, /images/stock-blades/brand-new-selected-butterfly-cofferlait.thumb.webp 540w, /images/stock-blades/brand-new-selected-butterfly-cofferlait.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Cofferlait, metal tag, no code, 84g, brand new" loading="lazy" decoding="async">
+    </div>
+    <h3 class="mg-preowned-card__title">Butterfly Cofferlait | Metal Tag (No Code) | 84g | Brand New</h3>
+    <a class="mg-preowned-card__quote" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Butterfly%20Cofferlait%20blade.%0D%0A%0D%0AShip%20to%20%28city%20%2F%20postal%20code%29%3A" target="_blank" rel="noopener noreferrer">Contact for Price</a>
   </article>
 
 </div>

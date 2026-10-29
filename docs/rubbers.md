@@ -32,7 +32,7 @@ hide:
 
 </div>
 
-<!-- One list, two ways of getting the rubber. The first fourteen are in our own
+<!-- One list, two ways of getting the rubber. The first thirteen are in our own
      inventory; the rest are ordered from suppliers after you confirm, which is
      the 2-3 day wait the hero warns about. The difference is said with the
      corner badge on each card rather than with a heading over half the grid, so
@@ -157,55 +157,10 @@ hide:
   <article class="mg-preowned-card" role="listitem">
     <div class="mg-preowned-card__media">
       <span class="mg-preowned-card__badge mg-preowned-card__badge--stock">In stock</span>
-      <img src="/images/featured-rubbers/hurricane-3-commercial.thumb.webp" data-full-src="/images/featured-rubbers/hurricane-3-commercial.webp" srcset="/images/featured-rubbers/hurricane-3-commercial.thumb-480.webp 480w, /images/featured-rubbers/hurricane-3-commercial.thumb.webp 720w, /images/featured-rubbers/hurricane-3-commercial.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS Hurricane 3 Commercial" loading="lazy" decoding="async" data-options="2.2 41° red, 2.2 40° red, 2.2 39° red, 2.2 41° black, 2.2 40° black, 2.2 39° black">
-    </div>
-    <h3 class="mg-preowned-card__title">Hurricane 3 (Commercial) <span class="mg-preowned-card__price">$18</span></h3>
-    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Hurricane 3 (Commercial) to cart" data-name="Hurricane 3 (Commercial)" data-price="18"><span aria-hidden="true">+</span><span>Add to cart</span></button>
-  </article>
-
-  <article class="mg-preowned-card" role="listitem">
-    <div class="mg-preowned-card__media">
-      <span class="mg-preowned-card__badge mg-preowned-card__badge--stock">In stock</span>
       <img src="/images/featured-rubbers/donic-desto-f1/01.thumb.webp" data-full-src="/images/featured-rubbers/donic-desto-f1/01.webp" srcset="/images/featured-rubbers/donic-desto-f1/01.thumb-480.webp 360w, /images/featured-rubbers/donic-desto-f1/01.thumb.webp 540w, /images/featured-rubbers/donic-desto-f1/01.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DONIC Desto F1" loading="lazy" decoding="async" data-options="2.0 red, Max red, Max blue, 2.0 black, Max black, 2.0 blue" data-gallery="/images/featured-rubbers/donic-desto-f1/01.webp,/images/featured-rubbers/donic-desto-f1/02.webp">
     </div>
     <h3 class="mg-preowned-card__title">DONIC Desto F1 <span class="mg-preowned-card__price">$27</span></h3>
     <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add DONIC Desto F1 to cart" data-name="DONIC Desto F1" data-price="27"><span aria-hidden="true">+</span><span>Add to cart</span></button>
-  </article>
-
-  <article class="mg-preowned-card" role="listitem">
-    <div class="mg-preowned-card__media">
-      <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
-      <img src="/images/price-list/rubbers/loki-rxton-ix-national.thumb.webp" data-full-src="/images/price-list/rubbers/loki-rxton-ix-national.jpg" srcset="/images/price-list/rubbers/loki-rxton-ix-national.thumb-480.webp 480w, /images/price-list/rubbers/loki-rxton-ix-national.thumb.webp 720w, /images/price-list/rubbers/loki-rxton-ix-national.jpg 800w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Loki RXTON IX National (Blue Sponge)" loading="lazy" decoding="async" data-options="40.5° black · hot, 39° black">
-    </div>
-    <h3 class="mg-preowned-card__title">Loki RXTON IX National (Blue Sponge) <span class="mg-preowned-card__price">$18</span></h3>
-    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Loki RXTON IX National (Blue Sponge) to cart" data-name="Loki RXTON IX National (Blue Sponge)" data-price="18"><span aria-hidden="true">+</span><span>Add to cart</span></button>
-  </article>
-
-  <article class="mg-preowned-card" role="listitem">
-    <div class="mg-preowned-card__media">
-      <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
-      <img src="/images/price-list/rubbers/friendship-729-battle-ii-national.thumb.webp" data-full-src="/images/price-list/rubbers/friendship-729-battle-ii-national.webp" srcset="/images/price-list/rubbers/friendship-729-battle-ii-national.thumb-480.webp 473w, /images/price-list/rubbers/friendship-729-battle-ii-national.thumb.webp 710w, /images/price-list/rubbers/friendship-729-battle-ii-national.thumb-1000.webp 986w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Friendship 729 Battle II National" loading="lazy" decoding="async" data-options="38° red, 39° red, 40° red, 38° black, 39° black, 40° black">
-    </div>
-    <h3 class="mg-preowned-card__title">Friendship 729 Battle II National <span class="mg-preowned-card__price">$25</span></h3>
-    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Friendship 729 Battle II National to cart" data-name="Friendship 729 Battle II National" data-price="25"><span aria-hidden="true">+</span><span>Add to cart</span></button>
-  </article>
-
-  <article class="mg-preowned-card" role="listitem">
-    <div class="mg-preowned-card__media">
-      <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
-      <img src="/images/price-list/rubbers/galaxy-moon-speed.thumb.webp" data-full-src="/images/price-list/rubbers/galaxy-moon-speed.webp" srcset="/images/price-list/rubbers/galaxy-moon-speed.thumb-480.webp 479w, /images/price-list/rubbers/galaxy-moon-speed.thumb.webp 719w, /images/price-list/rubbers/galaxy-moon-speed.thumb-1000.webp 998w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Yinhe Moon Speed" loading="lazy" decoding="async" data-options="Soft red, Soft black, Medium red, Medium black">
-    </div>
-    <h3 class="mg-preowned-card__title">Yinhe Moon Speed <span class="mg-preowned-card__price">$11</span></h3>
-    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Yinhe Moon Speed to cart" data-name="Yinhe Moon Speed" data-price="11"><span aria-hidden="true">+</span><span>Add to cart</span></button>
-  </article>
-
-  <article class="mg-preowned-card" role="listitem">
-    <div class="mg-preowned-card__media">
-      <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
-      <img src="/images/price-list/rubbers/yinhe-jupiter-iii.thumb.webp" data-full-src="/images/price-list/rubbers/yinhe-jupiter-iii.jpg" alt="Yinhe Jupiter III" loading="lazy" decoding="async" data-options="38° red, 39° red, 40° red, 41° red, 37° black, 38° black, 39° black, 40° black, 41° black">
-    </div>
-    <h3 class="mg-preowned-card__title">Yinhe Jupiter III <span class="mg-preowned-card__price">$10</span></h3>
-    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Yinhe Jupiter III to cart" data-name="Yinhe Jupiter III" data-price="10"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
 
   <article class="mg-preowned-card" role="listitem">
@@ -265,33 +220,6 @@ hide:
   <article class="mg-preowned-card" role="listitem">
     <div class="mg-preowned-card__media">
       <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
-      <img src="/images/price-list/rubbers/tibhar-aurus.thumb.webp" data-full-src="/images/price-list/rubbers/tibhar-aurus.jpg" srcset="/images/price-list/rubbers/tibhar-aurus.thumb-480.webp 466w, /images/price-list/rubbers/tibhar-aurus.thumb.webp 699w, /images/price-list/rubbers/tibhar-aurus.thumb-1000.webp 971w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Tibhar Aurus" loading="lazy" decoding="async" data-options="Max black, Max red">
-    </div>
-    <h3 class="mg-preowned-card__title">Tibhar Aurus <span class="mg-preowned-card__price">$25</span></h3>
-    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Tibhar Aurus to cart" data-name="Tibhar Aurus" data-price="25"><span aria-hidden="true">+</span><span>Add to cart</span></button>
-  </article>
-
-  <article class="mg-preowned-card" role="listitem">
-    <div class="mg-preowned-card__media">
-      <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
-      <img src="/images/price-list/rubbers/yasaka-thunder-dragon.thumb.webp" data-full-src="/images/price-list/rubbers/yasaka-thunder-dragon.jpg" srcset="/images/price-list/rubbers/yasaka-thunder-dragon.thumb-480.webp 480w, /images/price-list/rubbers/yasaka-thunder-dragon.jpg 720w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Yasaka Thunder Dragon" loading="lazy" decoding="async" data-options="Max medium-soft red, Max medium-soft black, Max medium-hard red, Max medium-hard black">
-    </div>
-    <h3 class="mg-preowned-card__title">Yasaka Thunder Dragon <span class="mg-preowned-card__price">$17</span></h3>
-    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Yasaka Thunder Dragon to cart" data-name="Yasaka Thunder Dragon" data-price="17"><span aria-hidden="true">+</span><span>Add to cart</span></button>
-  </article>
-
-  <article class="mg-preowned-card" role="listitem">
-    <div class="mg-preowned-card__media">
-      <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
-      <img src="/images/price-list/rubbers/yasaka-flying-dragon.thumb.webp" data-full-src="/images/price-list/rubbers/yasaka-flying-dragon.jpg" alt="Yasaka Flying Dragon Vitality" loading="lazy" decoding="async" data-options="Max medium-soft red, Max medium-soft black, Max medium-hard red, Max medium-hard black">
-    </div>
-    <h3 class="mg-preowned-card__title">Yasaka Flying Dragon Vitality <span class="mg-preowned-card__price">$21</span></h3>
-    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Yasaka Flying Dragon Vitality to cart" data-name="Yasaka Flying Dragon Vitality" data-price="21"><span aria-hidden="true">+</span><span>Add to cart</span></button>
-  </article>
-
-  <article class="mg-preowned-card" role="listitem">
-    <div class="mg-preowned-card__media">
-      <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/rubbers/victas-v102.thumb.webp" data-full-src="/images/price-list/rubbers/victas-v102.jpg" srcset="/images/price-list/rubbers/victas-v102.thumb-480.webp 461w, /images/price-list/rubbers/victas-v102.jpg 521w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Victas V&gt;102" loading="lazy" decoding="async" data-options="1.8 red, 2.0 red, Max red, 1.8 black, 2.0 black, Max black">
     </div>
     <h3 class="mg-preowned-card__title">Victas V&gt;102 <span class="mg-preowned-card__price">$34</span></h3>
@@ -323,15 +251,6 @@ hide:
     </div>
     <h3 class="mg-preowned-card__title">FLEXTRA <span class="mg-preowned-card__price">$25</span></h3>
     <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add FLEXTRA to cart" data-name="FLEXTRA" data-price="25"><span aria-hidden="true">+</span><span>Add to cart</span></button>
-  </article>
-
-  <article class="mg-preowned-card" role="listitem">
-    <div class="mg-preowned-card__media">
-      <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
-      <img src="/images/price-list/rubbers/tenergy-19.thumb.webp" data-full-src="/images/price-list/rubbers/tenergy-19.jpg" srcset="/images/price-list/rubbers/tenergy-19.thumb-480.webp 480w, /images/price-list/rubbers/tenergy-19.jpg 600w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Tenergy 19" loading="lazy" decoding="async" data-options="2.1 black, 2.1 red">
-    </div>
-    <h3 class="mg-preowned-card__title">Tenergy 19 <span class="mg-preowned-card__price">$63</span></h3>
-    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Tenergy 19 to cart" data-name="Tenergy 19" data-price="63"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
 
   <article class="mg-preowned-card" role="listitem">
@@ -440,15 +359,6 @@ hide:
     </div>
     <h3 class="mg-preowned-card__title">Tibhar Evolution EL-P <span class="mg-preowned-card__price">$36</span></h3>
     <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Tibhar Evolution EL-P to cart" data-name="Tibhar Evolution EL-P" data-price="36"><span aria-hidden="true">+</span><span>Add to cart</span></button>
-  </article>
-
-  <article class="mg-preowned-card" role="listitem">
-    <div class="mg-preowned-card__media">
-      <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
-      <img src="/images/featured-rubbers/yasaka-psych-dragon-pro.thumb.webp" data-full-src="/images/featured-rubbers/yasaka-psych-dragon-pro.jpg" srcset="/images/featured-rubbers/yasaka-psych-dragon-pro.thumb-480.webp 480w, /images/featured-rubbers/yasaka-psych-dragon-pro.jpg 600w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Yasaka Psych Dragon Pro" loading="lazy" decoding="async" data-options="Max medium-soft red, Max medium-soft black, Max medium-hard red, Max medium-hard black">
-    </div>
-    <h3 class="mg-preowned-card__title">Yasaka Psych Dragon Pro <span class="mg-preowned-card__price">$33</span></h3>
-    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Yasaka Psych Dragon Pro to cart" data-name="Yasaka Psych Dragon Pro" data-price="33"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
 
   <article class="mg-preowned-card" role="listitem">
