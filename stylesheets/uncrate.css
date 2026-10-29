@@ -1857,3 +1857,78 @@
 .md-typeset .mg-preowned-card {
   scroll-margin-top: 16px;
 }
+
+/* ---------------------------------------------------------------------------
+   16. /FAQ/: the question list.
+
+   The page set each question as a bold line inside an ordinary paragraph, so
+   four answers ran together as one block of body text with no edges to them.
+   Each group now carries a label over a hairline, and every question is a
+   block of its own — question in the display face, answer under it, one tan
+   rule down the left tying the pair together. The tan is the system's own
+   marker for "what this block is about" (the card's category label uses the
+   same one), and at 3px it carries no text, so --ab-accent is allowed here;
+   the label itself is --ab-accent-deep, which passes on white.
+--------------------------------------------------------------------------- */
+
+.md-typeset .mg-faq {
+  margin: 0 0 4px;
+}
+
+.md-typeset .mg-faq__label {
+  margin: 32px 0 0;
+  padding: 0 0 8px;
+  border-bottom: 1px solid var(--ab-line);
+  font-family: var(--ab-sans);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .14em;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: var(--ab-accent-deep);
+}
+
+/* The first label sits under the "FAQ" h2, whose own margin already separates
+   it from the section above. */
+.md-typeset .mg-faq__label:first-child {
+  margin-top: 18px;
+}
+
+.md-typeset .mg-faq__item {
+  margin: 18px 0 0;
+  padding: 0 0 0 18px;
+  border-left: 3px solid var(--ab-accent);
+}
+
+.md-typeset .mg-faq .mg-faq__q {
+  margin: 0 0 6px;
+  font-family: var(--ab-sans);
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 1.4;
+  color: var(--ab-text);
+}
+
+.md-typeset .mg-faq .mg-faq__a {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--md-default-fg-color);
+}
+
+@media screen and (max-width: 767px) {
+  .md-typeset .mg-faq__label {
+    margin-top: 28px;
+    font-size: 11px;
+  }
+
+  .md-typeset .mg-faq__item {
+    margin-top: 16px;
+    padding-left: 14px;
+    border-left-width: 2px;
+  }
+
+  .md-typeset .mg-faq .mg-faq__q {
+    font-size: 16px;
+  }
+}

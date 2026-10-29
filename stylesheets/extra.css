@@ -697,34 +697,9 @@ body.mg-lightbox-open {
   }
 }
 
-/* —— Shop FAQ: mark each question —— */
-.mg-faq p {
-  margin-top: 1.15em;
-}
-
-.mg-faq h2 + p {
-  margin-top: 0.85em;
-}
-
-.mg-faq p > strong:first-child {
-  color: var(--ab-text);
-  font-weight: 800;
-  font-size: 1.02em;
-}
-
-.mg-faq p > strong:first-child::before {
-  content: "Q";
-  display: inline-block;
-  margin-right: 0.45em;
-  padding: 0.1em 0.42em;
-  border-radius: 0.3em;
-  background: rgba(174, 158, 133, 0.16);
-  color: var(--ab-accent-deep);
-  font-size: 0.78em;
-  font-weight: 800;
-  line-height: 1.2;
-  vertical-align: 0.12em;
-}
+/* The "Q" chip that used to sit before the first <strong> of a /FAQ/ paragraph
+   went with the old flat markup on 2026-10-30: the page now sets each question
+   as a heading inside .mg-faq__item, styled in uncrate.css §16. */
 
 .md-typeset table th {
   color: var(--mg-ink);
