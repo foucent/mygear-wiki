@@ -1,30 +1,54 @@
 ---
-title: "FAQ & Shipping, Payments & Restricted Regions | MyGear.Top"
+title: "FAQ & Shipping Rates, Payments & Delivery | MyGear.Top"
 icon: material/help-circle-outline
 source_url: https://mygear.top/faq/
 source_title: "FAQ"
 imported: 2026-07-14
-description: "FAQ and shipping for MyGear.Top table tennis shop — ordering, payments, shipping, and restricted regions."
+description: "FAQ and shipping for MyGear.Top table tennis shop — ordering, payments, shipping rates for Europe and North America, and delivery."
 ---
 # FAQ & Shipping
 
-Quick answers for ordering, payment, shipping, and authenticity. Step-by-step checkout: [How to Order](order.md). See also [Blades](blades.md) · [Rubbers](rubbers.md) · [Updates & Reviews](updates.md).
+Quick answers for ordering, payment, shipping, and authenticity. Step-by-step checkout: [How to Order](order.md).
 
 ---
 
 ## FAQ
 
-**How can I get a final quote and place an order?**  
-Send your location or postal code via WhatsApp. You’ll get a total that includes **product + shipping**. Full steps: [How to Order](order.md).
+  <!-- Four questions, three groups. Before 2026-10-30 each one was a bold line
+       inside an ordinary paragraph, so the four answers read as one block of
+       body text; the group label and the tan rule down the left of each item
+       are what draw the lines between them. Wording is unchanged — only the
+       markup moves. -->
 
-**Are there restricted regions?**  
-Shipping to **Albania, Bosnia, India, Iran, Kosovo, Nepal, and Pakistan** is not recommended (high duties / difficult logistics).
+  <section class="mg-faq" markdown="0">
 
-**Can I save on shipping?**  
-A boxed racket is about **600 g**, and one rubber is about **100 g**, but shipping is charged per **1 kg**. You can usually add rubbers or balls up to about **400 g** without raising the shipping tier. Liquid shipping is available when needed.
+    <h3 class="mg-faq__label">Ordering</h3>
 
-**JP vs CN Butterfly blades?**  
-**CN** versions include a serial code for online verification; **JP** versions do not. Both are authentic. Choose CN if you want online authenticity tracking.
+    <div class="mg-faq__item">
+      <h4 class="mg-faq__q">How can I get a final quote and place an order?</h4>
+      <p class="mg-faq__a">Send your location or postal code via WhatsApp. You'll get a total that includes <strong>product + shipping</strong>. Full steps: <a href="/order/">How to Order</a>.</p>
+    </div>
+
+    <h3 class="mg-faq__label">Shipping Costs</h3>
+
+    <div class="mg-faq__item">
+      <h4 class="mg-faq__q">How much is shipping?</h4>
+      <p class="mg-faq__a">In general, shipping to <strong>Europe and North America</strong> is charged in three tiers: <strong>500 g — $16</strong>, <strong>1 kg — $20</strong>, <strong>2 kg — $25</strong>. For any other country or region, message me on <strong>WhatsApp</strong> to confirm the rate.</p>
+    </div>
+
+    <div class="mg-faq__item">
+      <h4 class="mg-faq__q">Can I save on shipping?</h4>
+      <p class="mg-faq__a">A boxed racket is about <strong>600 g</strong>, and one rubber is about <strong>100 g</strong>, but shipping is charged per <strong>1 kg</strong>. You can usually add rubbers or balls up to about <strong>400 g</strong> without raising the shipping tier. Liquid shipping is available when needed.</p>
+    </div>
+
+    <h3 class="mg-faq__label">Blades &amp; Authenticity</h3>
+
+    <div class="mg-faq__item">
+      <h4 class="mg-faq__q">JP vs CN Butterfly blades?</h4>
+      <p class="mg-faq__a"><strong>CN</strong> versions include a serial code for online verification; <strong>JP</strong> versions do not. Both are authentic. Choose CN if you want online authenticity tracking.</p>
+    </div>
+
+  </section>
 
 ---
 

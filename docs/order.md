@@ -113,9 +113,9 @@ Packing photos and trackers: [FAQ & Shipping](FAQ.md).
 
 ---
 
-## Payment & order changes
+## Payment & Order Changes
 
-After payment, I start sourcing and packing. If an item becomes unavailable, I contact you to swap, cancel that line, or keep the balance as credit toward your next order (full remittance out of China can be restricted by FX rules — credit / partial adjustment is usually smoother).
+After payment, I start sourcing and packing. If an item is temporarily out of stock (which is rare, as I will double-check items that are prone to shortage), I will contact you to discuss swapping, cancelling that line, or keeping the balance as credit toward your next order (full remittance out of China can be restricted by FX rules — credit / partial adjustment is usually smoother).
 
 You can still adjust contents before packing is finalized — message me as early as possible.
 
