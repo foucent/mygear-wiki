@@ -1006,6 +1006,26 @@
    landscape, which a square crops across rather than down — a vertical anchor
    never moves those at all. */
 
+/* Some of those landscape photos are not blades "lying on a box" but the blade
+   laid corner to corner across the whole frame — the DHS Q968 (King) and S968
+   (Sun), Xiom Chrome XAXi, DHS Hurricane Long 5, Stiga Cybershape CWT Truls
+   and LOKI W81 Zhou Yu. (Fan Zhendong ALC was on this list until 2026-10-31,
+   when its cover became the square studio shot from the price list; a square
+   photo in the square frame has nothing to crop, so it went back to the
+   default.) The centred square crop takes the
+   round head off the left edge and the end of the handle off the right, so
+   neither end of the blade survives. Those cards carry --fit: the photo sits in
+   the square like the add-ons do, and the blade reads whole (the ones shot on
+   white meet the white panel edge to edge; the two on a grey wall or a box are
+   inset, which is the price of keeping the whole picture). The rest of the
+   page's photos keep the crop. The class sits on the media div and not on the
+   article: product_schema.py reads the cards with an exact
+   `class="mg-preowned-card"` match, and a second class there would drop the
+   card out of the ItemList. */
+.md-typeset .mg-preowned-card__media--fit > img {
+  object-fit: contain;
+}
+
 /* How many photos there are, written on the picture — the count the thumbnail
    strip used to demonstrate by showing them. Flat and square like the other
    pre-owned tags, and click-through so the picture stays the click target. */
