@@ -91,7 +91,7 @@ hide:
     <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add DHS W968 | Official (No.10-40) to cart" data-name="DHS W968 | Official (No.10-40)" data-price="352"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
   <article class="mg-preowned-card" role="listitem">
-    <div class="mg-preowned-card__media">
+    <div class="mg-preowned-card__media mg-preowned-card__media--fit">
       <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
       <img src="/images/dhs-q968-hurricane-king-national/01.thumb.webp" data-full-src="/images/dhs-q968-hurricane-king-national/01.jpg" srcset="/images/dhs-q968-hurricane-king-national/01.thumb-480.webp 480w, /images/dhs-q968-hurricane-king-national/01.thumb.webp 720w, /images/dhs-q968-hurricane-king-national/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS Q968 | Hurricane King National" loading="lazy" decoding="async" data-gallery="/images/dhs-q968-hurricane-king-national/01.jpg,/images/dhs-q968-hurricane-king-national/02.jpg,/images/dhs-q968-hurricane-king-national/03.jpg">
     </div>
@@ -99,7 +99,7 @@ hide:
     <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add DHS Q968 | Hurricane King National to cart" data-name="DHS Q968 | Hurricane King National" data-price="320"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
   <article class="mg-preowned-card" role="listitem">
-    <div class="mg-preowned-card__media">
+    <div class="mg-preowned-card__media mg-preowned-card__media--fit">
       <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
       <img src="/images/dhs-s968-hurricane-sun-national/01.thumb.webp" data-full-src="/images/dhs-s968-hurricane-sun-national/01.jpg" srcset="/images/dhs-s968-hurricane-sun-national/01.thumb-480.webp 480w, /images/dhs-s968-hurricane-sun-national/01.thumb.webp 720w, /images/dhs-s968-hurricane-sun-national/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS S968 | Hurricane Sun National" loading="lazy" decoding="async" data-gallery="/images/dhs-s968-hurricane-sun-national/01.jpg,/images/dhs-s968-hurricane-sun-national/02.jpg,/images/dhs-s968-hurricane-sun-national/03.jpg">
     </div>
@@ -155,7 +155,7 @@ hide:
     <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Nittaku Acoustic Carbon G-Revision to cart" data-name="Nittaku Acoustic Carbon G-Revision" data-price="102"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
   <article class="mg-preowned-card" role="listitem">
-    <div class="mg-preowned-card__media">
+    <div class="mg-preowned-card__media mg-preowned-card__media--fit">
       <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/dhs-hurricane-long-5.thumb.webp" data-full-src="/images/price-list/blades/dhs-hurricane-long-5.webp" srcset="/images/price-list/blades/dhs-hurricane-long-5.thumb-480.webp 480w, /images/price-list/blades/dhs-hurricane-long-5.thumb.webp 720w, /images/price-list/blades/dhs-hurricane-long-5.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS Hurricane Long 5" loading="lazy" decoding="async">
     </div>
@@ -210,6 +210,16 @@ hide:
     <h3 class="mg-preowned-card__title">Taksim (Butterfly King) <span class="mg-preowned-card__price">$134</span></h3>
     <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Taksim (Butterfly King) to cart" data-name="Taksim (Butterfly King)" data-price="134"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
+  <!-- Tibhar's Felix Lebrun blade: 5+2 with Hyper carbon either side of the
+       core, Limba outer plies, 5.9 mm, approx. 85 g, Off+. -->
+  <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media">
+      <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
+      <img src="/images/price-list/blades/tibhar-felix-lebrun-hyper-carbon-inside.thumb.webp" data-full-src="/images/price-list/blades/tibhar-felix-lebrun-hyper-carbon-inside.webp" srcset="/images/price-list/blades/tibhar-felix-lebrun-hyper-carbon-inside.thumb-480.webp 480w, /images/price-list/blades/tibhar-felix-lebrun-hyper-carbon-inside.thumb.webp 720w, /images/price-list/blades/tibhar-felix-lebrun-hyper-carbon-inside.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Tibhar Felix Lebrun Hyper Carbon" loading="lazy" decoding="async">
+    </div>
+    <h3 class="mg-preowned-card__title">Tibhar Felix Lebrun Hyper Carbon <span class="mg-preowned-card__price">$139</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Tibhar Felix Lebrun Hyper Carbon to cart" data-name="Tibhar Felix Lebrun Hyper Carbon" data-price="139"><span aria-hidden="true">+</span><span>Add to cart</span></button>
+  </article>
   <article class="mg-preowned-card" role="listitem">
     <div class="mg-preowned-card__media">
       <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
@@ -227,7 +237,7 @@ hide:
     <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Ovtcharov Innerforce ALC to cart" data-name="Ovtcharov Innerforce ALC" data-price="149"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
   <article class="mg-preowned-card" role="listitem">
-    <div class="mg-preowned-card__media">
+    <div class="mg-preowned-card__media mg-preowned-card__media--fit">
       <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/xiom-chrome-xaxi.thumb.webp" data-full-src="/images/price-list/blades/xiom-chrome-xaxi.webp" srcset="/images/price-list/blades/xiom-chrome-xaxi.thumb-480.webp 480w, /images/price-list/blades/xiom-chrome-xaxi.thumb.webp 720w, /images/price-list/blades/xiom-chrome-xaxi.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Xiom Chrome XAXi" loading="lazy" decoding="async">
     </div>
@@ -237,7 +247,7 @@ hide:
   <article class="mg-preowned-card" role="listitem">
     <div class="mg-preowned-card__media">
       <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
-      <img src="/images/butterfly-fan-zhendong-alc/01.thumb.webp" data-full-src="/images/butterfly-fan-zhendong-alc/01.jpg" srcset="/images/butterfly-fan-zhendong-alc/01.thumb-480.webp 480w, /images/butterfly-fan-zhendong-alc/01.thumb.webp 720w, /images/butterfly-fan-zhendong-alc/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Fan Zhendong ALC" loading="lazy" decoding="async" data-gallery="/images/butterfly-fan-zhendong-alc/01.jpg,/images/butterfly-fan-zhendong-alc/02.jpg,/images/butterfly-fan-zhendong-alc/03.webp,/images/butterfly-fan-zhendong-alc/04.webp">
+      <img src="/images/price-list/blades/fan-zhendong-alc.thumb.webp" data-full-src="/images/price-list/blades/fan-zhendong-alc.jpg" srcset="/images/price-list/blades/fan-zhendong-alc.thumb-240.webp 240w, /images/price-list/blades/fan-zhendong-alc.thumb-480.webp 480w, /images/price-list/blades/fan-zhendong-alc.jpg 600w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Fan Zhendong ALC" loading="lazy" decoding="async" data-gallery="/images/price-list/blades/fan-zhendong-alc.jpg,/images/butterfly-fan-zhendong-alc/01.jpg,/images/butterfly-fan-zhendong-alc/02.jpg,/images/butterfly-fan-zhendong-alc/03.webp,/images/butterfly-fan-zhendong-alc/04.webp">
     </div>
     <h3 class="mg-preowned-card__title">Fan Zhendong ALC <span class="mg-preowned-card__price">$159</span></h3>
     <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Fan Zhendong ALC to cart" data-name="Fan Zhendong ALC" data-price="159"><span aria-hidden="true">+</span><span>Add to cart</span></button>
@@ -251,12 +261,22 @@ hide:
     <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Zhang Jike ALC to cart" data-name="Zhang Jike ALC" data-price="209"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
   <article class="mg-preowned-card" role="listitem">
-    <div class="mg-preowned-card__media">
+    <div class="mg-preowned-card__media mg-preowned-card__media--fit">
       <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/stiga-cybershape-carbon-cwt-truls.thumb.webp" data-full-src="/images/price-list/blades/stiga-cybershape-carbon-cwt-truls.webp" srcset="/images/price-list/blades/stiga-cybershape-carbon-cwt-truls.thumb-480.webp 480w, /images/price-list/blades/stiga-cybershape-carbon-cwt-truls.thumb.webp 720w, /images/price-list/blades/stiga-cybershape-carbon-cwt-truls.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Stiga Cybershape Carbon CWT Truls Edition" loading="lazy" decoding="async">
     </div>
     <h3 class="mg-preowned-card__title">Stiga Cybershape Carbon CWT Truls Edition <span class="mg-preowned-card__price">$232</span></h3>
     <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Stiga Cybershape Carbon CWT Truls Edition to cart" data-name="Stiga Cybershape Carbon CWT Truls Edition" data-price="232"><span aria-hidden="true">+</span><span>Add to cart</span></button>
+  </article>
+  <!-- Stiga's Dynasty Carbon: 5+2 layers with a thick core veneer and a Koto
+       outer ply, 5.9 mm, approx. 92 g, Off+. Sourced on order. -->
+  <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media">
+      <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
+      <img src="/images/price-list/blades/stiga-dynasty-carbon.thumb.webp" data-full-src="/images/price-list/blades/stiga-dynasty-carbon.webp" srcset="/images/price-list/blades/stiga-dynasty-carbon.thumb-480.webp 480w, /images/price-list/blades/stiga-dynasty-carbon.thumb.webp 720w, /images/price-list/blades/stiga-dynasty-carbon.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Stiga Dynasty Carbon" loading="lazy" decoding="async">
+    </div>
+    <h3 class="mg-preowned-card__title">Stiga Dynasty Carbon <span class="mg-preowned-card__price">$150</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Stiga Dynasty Carbon to cart" data-name="Stiga Dynasty Carbon" data-price="150"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
   <article class="mg-preowned-card" role="listitem">
     <div class="mg-preowned-card__media">
@@ -290,15 +310,7 @@ hide:
     <h3 class="mg-preowned-card__title">Victas Koji Matsushita Offensive <span class="mg-preowned-card__price">$92</span></h3>
     <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Victas Koji Matsushita Offensive to cart" data-name="Victas Koji Matsushita Offensive" data-price="92"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
-  <article class="mg-preowned-card" role="listitem">
-    <div class="mg-preowned-card__media">
-      <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
-      <img src="/images/price-list/blades/dhs-power-g7.thumb.webp" data-full-src="/images/price-list/blades/dhs-power-g7.jpg" srcset="/images/price-list/blades/dhs-power-g7.thumb-480.webp 480w, /images/price-list/blades/dhs-power-g7.jpg 700w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS Power G7" loading="lazy" decoding="async">
-    </div>
-    <h3 class="mg-preowned-card__title">DHS Power G7 <span class="mg-preowned-card__price">$20</span></h3>
-    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add DHS Power G7 to cart" data-name="DHS Power G7" data-price="20"><span aria-hidden="true">+</span><span>Add to cart</span></button>
-  </article>
-  <article class="mg-preowned-card" role="listitem">
+    <article class="mg-preowned-card" role="listitem">
     <div class="mg-preowned-card__media">
       <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
       <img src="/images/price-list/blades/dhs-classic-08x.thumb.webp" data-full-src="/images/price-list/blades/dhs-classic-08x.jpg" srcset="/images/price-list/blades/dhs-classic-08x.thumb-480.webp 480w, /images/price-list/blades/dhs-classic-08x.jpg 600w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS Classic 08X" loading="lazy" decoding="async">
@@ -314,29 +326,21 @@ hide:
     <h3 class="mg-preowned-card__title">DHS Fang Bo Carbon <span class="mg-preowned-card__price">$99</span></h3>
     <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add DHS Fang Bo Carbon to cart" data-name="DHS Fang Bo Carbon" data-price="99"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
-  <article class="mg-preowned-card" role="listitem">
-    <div class="mg-preowned-card__media">
-      <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
-      <img src="/images/price-list/blades/yinhe-pro-01.thumb.webp" data-full-src="/images/price-list/blades/yinhe-pro-01.jpg" srcset="/images/price-list/blades/yinhe-pro-01.thumb-480.webp 480w, /images/price-list/blades/yinhe-pro-01.jpg 600w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Yinhe Pro 01" loading="lazy" decoding="async">
-    </div>
-    <h3 class="mg-preowned-card__title">Yinhe Pro 01 <span class="mg-preowned-card__price">$50</span></h3>
-    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Yinhe Pro 01 to cart" data-name="Yinhe Pro 01" data-price="50"><span aria-hidden="true">+</span><span>Add to cart</span></button>
-  </article>
-  <article class="mg-preowned-card" role="listitem">
-    <div class="mg-preowned-card__media">
-      <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
-      <img src="/images/price-list/blades/yinhe-v-14-pro.thumb.webp" data-full-src="/images/price-list/blades/yinhe-v-14-pro.jpg" srcset="/images/price-list/blades/yinhe-v-14-pro.thumb-480.webp 480w, /images/price-list/blades/yinhe-v-14-pro.jpg 600w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Yinhe V-14 Pro" loading="lazy" decoding="async">
-    </div>
-    <h3 class="mg-preowned-card__title">Yinhe V-14 Pro <span class="mg-preowned-card__price">$52</span></h3>
-    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Yinhe V-14 Pro to cart" data-name="Yinhe V-14 Pro" data-price="52"><span aria-hidden="true">+</span><span>Add to cart</span></button>
-  </article>
-  <article class="mg-preowned-card" role="listitem">
-    <div class="mg-preowned-card__media">
+      <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media mg-preowned-card__media--fit">
       <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
       <img src="/images/loki-w81-zhou-yu-alc-special-edition/01.thumb.webp" data-full-src="/images/loki-w81-zhou-yu-alc-special-edition/01.jpg" srcset="/images/loki-w81-zhou-yu-alc-special-edition/01.thumb-480.webp 480w, /images/loki-w81-zhou-yu-alc-special-edition/01.thumb.webp 720w, /images/loki-w81-zhou-yu-alc-special-edition/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="LOKI W81 Zhou Yu ALC Special Edition" loading="lazy" decoding="async" data-gallery="/images/loki-w81-zhou-yu-alc-special-edition/01.jpg,/images/loki-w81-zhou-yu-alc-special-edition/02.jpg,/images/loki-w81-zhou-yu-alc-special-edition/03.jpg,/images/loki-w81-zhou-yu-alc-special-edition/04.jpg,/images/loki-w81-zhou-yu-alc-special-edition/05.jpg,/images/loki-w81-zhou-yu-alc-special-edition/06.jpg,/images/loki-w81-zhou-yu-alc-special-edition/07.jpg,/images/loki-w81-zhou-yu-alc-special-edition/08.jpg,/images/loki-w81-zhou-yu-alc-special-edition/09.jpg,/images/loki-w81-zhou-yu-alc-special-edition/10.jpg">
     </div>
     <h3 class="mg-preowned-card__title">LOKI W81 Zhou Yu ALC Special Edition <span class="mg-preowned-card__price">$68</span></h3>
     <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add LOKI W81 Zhou Yu ALC Special Edition to cart" data-name="LOKI W81 Zhou Yu ALC Special Edition" data-price="68"><span aria-hidden="true">+</span><span>Add to cart</span></button>
+  </article>
+  <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media">
+      <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
+      <img src="/images/loki-liang-jingkun-adc/01.thumb.webp" data-full-src="/images/loki-liang-jingkun-adc/01.jpg" srcset="/images/loki-liang-jingkun-adc/01.thumb-480.webp 480w, /images/loki-liang-jingkun-adc/01.thumb.webp 720w, /images/loki-liang-jingkun-adc/01.thumb-1000.webp 960w" sizes="(max-width: 759.98px) 46vw, 305px" alt="LOKI Liang Jingkun ADC" loading="lazy" decoding="async" data-gallery="/images/loki-liang-jingkun-adc/01.jpg,/images/loki-liang-jingkun-adc/02.jpg">
+    </div>
+    <h3 class="mg-preowned-card__title">LOKI Liang Jingkun ADC <span class="mg-preowned-card__price">$99</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add LOKI Liang Jingkun ADC to cart" data-name="LOKI Liang Jingkun ADC" data-price="99"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
   <article class="mg-preowned-card" role="listitem">
     <div class="mg-preowned-card__media">
