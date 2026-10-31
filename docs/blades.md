@@ -33,13 +33,12 @@ hide:
 
 </div>
 
-  <!-- The page's own words, above the price tables. The hero banner keeps the
-       page's only H1; this is the H2 the page did not have, and it says in two
-       lines what kind of blades are on the page and what to do when the one
-       you want is missing, so a reader (and a crawler) meets the page's own
-       sentence before the grid does. -->
+  <!-- The page's own words, above the price tables. The heading that used to
+       carry them came off on request (2026-10-31); the sentence stands alone
+       in the site's faint note fill so a reader still meets the page's own
+       words before the grid does, without a second title competing with the
+       hero's H1. -->
   <section class="mg-blades-intro" markdown="0">
-    <h2>Buy Authentic Table Tennis Blades at Great Value</h2>
     <p>This page carries brand-new Butterfly, DHS and other popular table tennis blades. If the model you need is not listed here, I can proxy-buy it for you.</p>
   </section>
 
@@ -61,34 +60,42 @@ hide:
   <article class="mg-preowned-card" role="listitem">
     <div class="mg-preowned-card__media">
       <span class="mg-preowned-card__badge mg-preowned-card__badge--preorder">Pre-order</span>
-      <img src="/images/stock-blades/dhs-national-player-version-w968.thumb.webp" data-full-src="/images/stock-blades/dhs-national-player-version-w968.jpg" srcset="/images/stock-blades/dhs-national-player-version-w968.thumb-480.webp 369w, /images/stock-blades/dhs-national-player-version-w968.thumb.webp 553w, /images/stock-blades/dhs-national-player-version-w968.thumb-1000.webp 768w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS W968 National, brand new, pre-order" loading="lazy" decoding="async">
+      <img src="/images/stock-blades/dhs-national-player-version-w968.thumb.webp" data-full-src="/images/stock-blades/dhs-national-player-version-w968.jpg" srcset="/images/stock-blades/dhs-national-player-version-w968.thumb-480.webp 369w, /images/stock-blades/dhs-national-player-version-w968.thumb.webp 553w, /images/stock-blades/dhs-national-player-version-w968.thumb-1000.webp 768w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS W968 National" loading="lazy" decoding="async">
     </div>
-    <h3 class="mg-preowned-card__title">DHS W968 National | Brand New | Pre-order <span class="mg-preowned-card__price">$704</span></h3>
-    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add DHS W968 National to cart" data-name="DHS W968 National | Brand New | Pre-order" data-price="704"><span aria-hidden="true">+</span><span>Add to cart</span></button>
+    <h3 class="mg-preowned-card__title">DHS W968 National <span class="mg-preowned-card__price">$704</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add DHS W968 National to cart" data-name="DHS W968 National" data-price="704"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
   <article class="mg-preowned-card" role="listitem">
     <div class="mg-preowned-card__media">
       <span class="mg-preowned-card__badge mg-preowned-card__badge--stock">In stock</span>
-      <img src="/images/stock-blades/brand-new-selected-viscaria.thumb.webp" data-full-src="/images/stock-blades/brand-new-selected-viscaria.webp" srcset="/images/stock-blades/brand-new-selected-viscaria.thumb-240.webp 240w, /images/stock-blades/brand-new-selected-viscaria.thumb-480.webp 480w, /images/stock-blades/brand-new-selected-viscaria.thumb.webp 720w, /images/stock-blades/brand-new-selected-viscaria.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Viscaria, CN K-Code, 90-93g, brand new selected" loading="lazy" decoding="async">
+      <img src="/images/stock-blades/brand-new-selected-viscaria.thumb.webp" data-full-src="/images/stock-blades/brand-new-selected-viscaria.webp" srcset="/images/stock-blades/brand-new-selected-viscaria.thumb-240.webp 240w, /images/stock-blades/brand-new-selected-viscaria.thumb-480.webp 480w, /images/stock-blades/brand-new-selected-viscaria.thumb.webp 720w, /images/stock-blades/brand-new-selected-viscaria.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Viscaria, CN K-Code, 90-93g, selected" loading="lazy" decoding="async">
     </div>
-    <h3 class="mg-preowned-card__title">Viscaria | CN | K-Code | 90-93g | Brand New Selected <span class="mg-preowned-card__price">$169</span></h3>
-    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Viscaria | CN K-Code (Selected) to cart" data-name="Viscaria | CN | K-Code | 90-93g | Brand New Selected" data-price="169"><span aria-hidden="true">+</span><span>Add to cart</span></button>
+    <h3 class="mg-preowned-card__title">Viscaria | CN | K-Code | 90-93g | Selected <span class="mg-preowned-card__price">$169</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Viscaria | CN | K-Code | 90-93g | Selected to cart" data-name="Viscaria | CN | K-Code | 90-93g | Selected" data-price="169"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
   <article class="mg-preowned-card" role="listitem">
     <div class="mg-preowned-card__media">
       <span class="mg-preowned-card__badge mg-preowned-card__badge--stock">In stock</span>
-      <img src="/images/stock-blades/brand-new-selected-fan-zhendong-salc.thumb.webp" data-full-src="/images/stock-blades/brand-new-selected-fan-zhendong-salc.webp" srcset="/images/stock-blades/brand-new-selected-fan-zhendong-salc.thumb-480.webp 480w, /images/stock-blades/brand-new-selected-fan-zhendong-salc.thumb.webp 720w, /images/stock-blades/brand-new-selected-fan-zhendong-salc.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Fan ZD SALC, CN K-Code, 87-90g, brand new selected" loading="lazy" decoding="async">
+      <img src="/images/stock-blades/brand-new-selected-fan-zhendong-salc.thumb.webp" data-full-src="/images/stock-blades/brand-new-selected-fan-zhendong-salc.webp" srcset="/images/stock-blades/brand-new-selected-fan-zhendong-salc.thumb-480.webp 480w, /images/stock-blades/brand-new-selected-fan-zhendong-salc.thumb.webp 720w, /images/stock-blades/brand-new-selected-fan-zhendong-salc.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Fan ZD SALC, CN K-Code, 87-90g, selected" loading="lazy" decoding="async">
     </div>
-    <h3 class="mg-preowned-card__title">Fan ZD SALC | CN | K-Code | 87-90g | Brand New Selected <span class="mg-preowned-card__price">$219</span></h3>
-    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Fan ZD SALC to cart" data-name="Fan ZD SALC | CN | K-Code | 87-90g | Brand New Selected" data-price="219"><span aria-hidden="true">+</span><span>Add to cart</span></button>
+    <h3 class="mg-preowned-card__title">Fan ZD SALC | CN | K-Code | 87-90g | Selected <span class="mg-preowned-card__price">$219</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Fan ZD SALC | CN | K-Code | 87-90g | Selected to cart" data-name="Fan ZD SALC | CN | K-Code | 87-90g | Selected" data-price="219"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
   <article class="mg-preowned-card" role="listitem">
     <div class="mg-preowned-card__media">
-      <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
-      <img src="/images/stock-blades/dhs-official-w968no-10-40.thumb.webp" data-full-src="/images/stock-blades/dhs-official-w968no-10-40.jpg" srcset="/images/stock-blades/dhs-official-w968no-10-40.thumb-480.webp 360w, /images/stock-blades/dhs-official-w968no-10-40.thumb.webp 540w, /images/stock-blades/dhs-official-w968no-10-40.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS W968 | Official (No.10-40)" loading="lazy" decoding="async">
+      <span class="mg-preowned-card__badge mg-preowned-card__badge--stock">In stock</span>
+      <img src="/images/stock-blades/dhs-official-w968no-10-40.thumb.webp" data-full-src="/images/stock-blades/dhs-official-w968no-10-40.jpg" srcset="/images/stock-blades/dhs-official-w968no-10-40.thumb-480.webp 360w, /images/stock-blades/dhs-official-w968no-10-40.thumb.webp 540w, /images/stock-blades/dhs-official-w968no-10-40.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS W968 | Official" loading="lazy" decoding="async">
     </div>
-    <h3 class="mg-preowned-card__title">DHS W968 | Official (No.10-40) <span class="mg-preowned-card__price">$352</span></h3>
-    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add DHS W968 | Official (No.10-40) to cart" data-name="DHS W968 | Official (No.10-40)" data-price="352"><span aria-hidden="true">+</span><span>Add to cart</span></button>
+    <h3 class="mg-preowned-card__title">DHS W968 | Official <span class="mg-preowned-card__price">$352</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add DHS W968 | Official to cart" data-name="DHS W968 | Official" data-price="352"><span aria-hidden="true">+</span><span>Add to cart</span></button>
+  </article>
+  <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media">
+      <span class="mg-preowned-card__badge mg-preowned-card__badge--stock">In stock</span>
+      <img src="/images/dhs-w968-golden-slam-fl/01.thumb.webp" data-full-src="/images/dhs-w968-golden-slam-fl/01.jpg" srcset="/images/dhs-w968-golden-slam-fl/01.thumb-480.webp 360w, /images/dhs-w968-golden-slam-fl/01.thumb.webp 540w, /images/dhs-w968-golden-slam-fl/01.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS W968 | Golden Slam" loading="lazy" decoding="async" data-gallery="/images/dhs-w968-golden-slam-fl/01.jpg,/images/dhs-w968-golden-slam-fl/02.jpg,/images/dhs-w968-golden-slam-fl/03.jpg,/images/dhs-w968-golden-slam-fl/04.jpg,/images/dhs-w968-golden-slam-fl/05.jpg,/images/dhs-w968-golden-slam-fl/06.jpg,/images/dhs-w968-golden-slam-fl/07.jpg">
+    </div>
+    <h3 class="mg-preowned-card__title">DHS W968 | Golden Slam <span class="mg-preowned-card__price">$399</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add DHS W968 | Golden Slam to cart" data-name="DHS W968 | Golden Slam" data-price="399"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
   <article class="mg-preowned-card" role="listitem">
     <div class="mg-preowned-card__media mg-preowned-card__media--fit">
@@ -505,9 +512,9 @@ hide:
        price on request rather than listed. -->
   <article class="mg-preowned-card" role="listitem">
     <div class="mg-preowned-card__media">
-      <img src="/images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb.webp" data-full-src="/images/stock-blades/brand-new-selected-fan-zhendong-golden.webp" srcset="/images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb-240.webp 180w, /images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb-480.webp 360w, /images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb.webp 540w, /images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Fan ZD Golden, CN K-Code, 88.7g, brand new" loading="lazy" decoding="async">
+      <img src="/images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb.webp" data-full-src="/images/stock-blades/brand-new-selected-fan-zhendong-golden.webp" srcset="/images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb-240.webp 180w, /images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb-480.webp 360w, /images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb.webp 540w, /images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Fan ZD Golden, CN K-Code, 88.7g" loading="lazy" decoding="async">
     </div>
-    <h3 class="mg-preowned-card__title">Fan ZD Golden | CN | K-Code | 88.7g | Brand New</h3>
+    <h3 class="mg-preowned-card__title">Fan ZD Golden | CN | K-Code | 88.7g</h3>
     <a class="mg-preowned-card__quote" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Fan%20ZD%20Golden%20blade.%0D%0A%0D%0AShip%20to%20%28city%20%2F%20postal%20code%29%3A" target="_blank" rel="noopener noreferrer">Contact for Price</a>
   </article>
 
@@ -515,9 +522,9 @@ hide:
        In hand; price on request rather than listed. -->
   <article class="mg-preowned-card" role="listitem">
     <div class="mg-preowned-card__media">
-      <img src="/images/stock-blades/brand-new-selected-butterfly-taksim-x.thumb.webp" data-full-src="/images/stock-blades/brand-new-selected-butterfly-taksim-x.webp" srcset="/images/stock-blades/brand-new-selected-butterfly-taksim-x.thumb-480.webp 360w, /images/stock-blades/brand-new-selected-butterfly-taksim-x.thumb.webp 540w, /images/stock-blades/brand-new-selected-butterfly-taksim-x.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Taksim X, 2005 metal tag, no code, 90g, brand new" loading="lazy" decoding="async">
+      <img src="/images/stock-blades/brand-new-selected-butterfly-taksim-x.thumb.webp" data-full-src="/images/stock-blades/brand-new-selected-butterfly-taksim-x.webp" srcset="/images/stock-blades/brand-new-selected-butterfly-taksim-x.thumb-480.webp 360w, /images/stock-blades/brand-new-selected-butterfly-taksim-x.thumb.webp 540w, /images/stock-blades/brand-new-selected-butterfly-taksim-x.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Taksim X, 2005 metal tag, no code, 90g" loading="lazy" decoding="async">
     </div>
-    <h3 class="mg-preowned-card__title">Butterfly Taksim X | 2005 Metal Tag (No Code) | 90g | Brand New</h3>
+    <h3 class="mg-preowned-card__title">Butterfly Taksim X | 2005 Metal Tag (No Code) | 90g</h3>
     <a class="mg-preowned-card__quote" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Butterfly%20Taksim%20X%20blade.%0D%0A%0D%0AShip%20to%20%28city%20%2F%20postal%20code%29%3A" target="_blank" rel="noopener noreferrer">Contact for Price</a>
   </article>
 
@@ -525,9 +532,9 @@ hide:
        hand; price on request rather than listed. -->
   <article class="mg-preowned-card" role="listitem">
     <div class="mg-preowned-card__media">
-      <img src="/images/stock-blades/brand-new-selected-butterfly-cofferlait.thumb.webp" data-full-src="/images/stock-blades/brand-new-selected-butterfly-cofferlait.webp" srcset="/images/stock-blades/brand-new-selected-butterfly-cofferlait.thumb-480.webp 360w, /images/stock-blades/brand-new-selected-butterfly-cofferlait.thumb.webp 540w, /images/stock-blades/brand-new-selected-butterfly-cofferlait.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Cofferlait, metal tag, no code, 84g, brand new" loading="lazy" decoding="async">
+      <img src="/images/stock-blades/brand-new-selected-butterfly-cofferlait.thumb.webp" data-full-src="/images/stock-blades/brand-new-selected-butterfly-cofferlait.webp" srcset="/images/stock-blades/brand-new-selected-butterfly-cofferlait.thumb-480.webp 360w, /images/stock-blades/brand-new-selected-butterfly-cofferlait.thumb.webp 540w, /images/stock-blades/brand-new-selected-butterfly-cofferlait.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Cofferlait, metal tag, no code, 84g" loading="lazy" decoding="async">
     </div>
-    <h3 class="mg-preowned-card__title">Butterfly Cofferlait | Metal Tag (No Code) | 84g | Brand New</h3>
+    <h3 class="mg-preowned-card__title">Butterfly Cofferlait | Metal Tag (No Code) | 84g</h3>
     <a class="mg-preowned-card__quote" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Butterfly%20Cofferlait%20blade.%0D%0A%0D%0AShip%20to%20%28city%20%2F%20postal%20code%29%3A" target="_blank" rel="noopener noreferrer">Contact for Price</a>
   </article>
 
