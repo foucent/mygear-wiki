@@ -2248,6 +2248,33 @@ body.mg-cart-open {
   margin-bottom: 0.15rem;
 }
 
+/* —— The blades page's lead line ——
+   Its H2 came off on request (2026-10-31); the sentence now stands alone
+   between the hero and the grid, so it takes the page-note family's faint
+   fill and hairline — a warm off-white that reads as a lead rather than a
+   second title. Muted ink on that fill still clears 5:1. */
+.md-typeset .mg-blades-intro {
+  margin: 0.1rem 0 1.6rem;
+  padding: 1.05rem 1.35rem;
+  background-color: #faf8f4;
+  border: 1px solid rgba(174, 158, 133, 0.28);
+  border-radius: 0.7rem;
+}
+
+.md-typeset .mg-blades-intro p {
+  margin: 0;
+  /* 0.8rem is the body size — html is 125%, so 1rem would be a 20px lead */
+  font-size: 0.8rem;
+  line-height: 1.6;
+  color: var(--ab-text-muted);
+}
+
+@media screen and (max-width: 480px) {
+  .md-typeset .mg-blades-intro {
+    padding: 0.9rem 1rem;
+  }
+}
+
 /* Shop hero photo slideshow (Gallery picks) */
 .mg-hero-slides {
   background-image: none;
