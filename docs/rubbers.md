@@ -67,7 +67,7 @@ hide:
   <article class="mg-preowned-card" role="listitem">
     <div class="mg-preowned-card__media">
       <span class="mg-preowned-card__badge mg-preowned-card__badge--stock">In stock</span>
-      <img src="/images/stock-rubbers/butterfly-tenergy-05.thumb.webp" data-full-src="/images/stock-rubbers/butterfly-tenergy-05.webp" srcset="/images/stock-rubbers/butterfly-tenergy-05.thumb-240.webp 240w, /images/stock-rubbers/butterfly-tenergy-05.thumb-480.webp 480w, /images/stock-rubbers/butterfly-tenergy-05.thumb.webp 720w, /images/stock-rubbers/butterfly-tenergy-05.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Tenergy 05" loading="lazy" decoding="async" data-options="2.1 red, 2.1 black">
+      <img src="/images/stock-rubbers/butterfly-tenergy-05/01.thumb.webp" data-full-src="/images/stock-rubbers/butterfly-tenergy-05/01.jpg" srcset="/images/stock-rubbers/butterfly-tenergy-05/01.thumb-480.webp 360w, /images/stock-rubbers/butterfly-tenergy-05/01.thumb.webp 540w, /images/stock-rubbers/butterfly-tenergy-05/01.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Tenergy 05" loading="lazy" decoding="async" data-options="2.1 red, 2.1 black" data-gallery="/images/stock-rubbers/butterfly-tenergy-05/01.jpg,/images/stock-rubbers/butterfly-tenergy-05/02.jpg,/images/stock-rubbers/butterfly-tenergy-05/03.jpg">
     </div>
     <h3 class="mg-preowned-card__title">Butterfly Tenergy 05 <span class="mg-preowned-card__price">$68</span></h3>
     <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Butterfly Tenergy 05 to cart" data-name="Butterfly Tenergy 05" data-price="68"><span aria-hidden="true">+</span><span>Add to cart</span></button>
