@@ -387,6 +387,12 @@
   margin: auto 0 0;
 }
 
+/* --split is named for the two controls it used to hold, a cart button and an
+   ask link with an "or" between them. Since 2026-11-04 /gear/ writes one
+   control in there ("Add to cart" where the card has a price, "Ask about this
+   setup" where it does not), and the class stays because this is the rule that
+   dresses that control as the underlined, centred link line — the flex
+   wrapper is a single child's row. */
 .md-typeset .mg-card__more--split {
   display: flex;
   flex-wrap: wrap;
@@ -426,12 +432,9 @@
   border-bottom-color: var(--ab-text);
 }
 
-.md-typeset .mg-card__or {
-  font-family: var(--ab-serif);
-  font-size: 15px;
-  font-style: normal;
-  color: var(--ab-text-muted);
-}
+/* .mg-card__or — the "or" between a card's two actions — stood here until
+   2026-11-04: /gear/ cut every action line down to one control that day (the
+   note is at the top of that page), so no card writes the word any more. */
 
 /* A shop card is measured against /gear/ on the sister site: 470 x 767, spent on
    a kicker, a one-line title and an action line. This card also has to carry a
@@ -519,81 +522,20 @@
   color: var(--ab-text-muted);
 }
 
-/* One card on /gear/ writes a paragraph where the other eleven write tags: the
-   player's own setup, whose full list lives on /gear/sora-matsushima/. It is
-   held to the height those six chips took, so the card sits in its row exactly
-   as it did before the paragraph arrived — two lines where the chips took two
-   rows, three where they took three. Which of the two happens depends on the
-   card's own width, not the viewport (the chips reflowed at about 444px of
-   column), so the clamp follows a container query on that card; a viewport
-   breakpoint would put a single-column phone and a two-column desktop on the
-   wrong sides of it. A browser without container queries keeps the three-line
-   default, which is the narrow column's answer anyway.
+/* (.mg-card__desc--clamped and the container query that sized it stood here
+   until 2026-11-04: the player cards on /gear/ carried a paragraph and it was
+   held to the height the build cards' chips had taken. The player's identity
+   moved into the title that day and the paragraph came off, so nothing on the
+   site is clamped any more — the rule was removed rather than left dead. The
+   page notes the move at the top of its grid.) */
 
-   The ellipsis is the disclosure, and the action beside it is the way out:
-   "View his gear" opens the page that carries the list in full. That link is
-   a plain anchor, not .mg-card__zoom, so neither gallery-lightbox.js nor
-   card-read-more.js claims the click — the photo is still what opens the
-   lightbox. */
-.md-typeset .mg-card--player {
-  container-type: inline-size;
-}
-
-.md-typeset .mg-card__desc--clamped {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  overflow: hidden;
-}
-
-@container (min-width: 444px) {
-  .md-typeset .mg-card__desc--clamped {
-    -webkit-line-clamp: 2;
-  }
-}
-
-/* The rubbers on a build, on one line under the title — on each of the twelve
-   cards that are all of /gear/ now, eleven builds and a player's own setup,
-   none of which carries a Forehand / Backhand table any more: the title is the
-   blade and this is everything that is on it.
-
-   Black, not the muted ink the spec *labels* were set in. What a reader scans
-   this card for is "Viscaria with Hurricane III on it", and every other name on
-   the page — the eleven build titles — is black; a
-   subtitle that stepped down to grey would make the answer to that scan the
-   quietest thing on the card. A size under the title and 600 rather than 900
-   keeps it a subtitle all the same.
-
-   No `order`, like .mg-card__specs and for the same reason: the copy column is
-   a flex row on explicit orders (tags 1, options 3, price 4, more 5), so a
-   child with none sorts at 0 with the title, and the markup is where it reads.
-
-   -4px of the title's own 12px of bottom margin handed back, which is the floor
-   and not the whole gap: the copy column is a wrapping flex row with the default
-   align-content, so spare height is shared out between its lines and the gap
-   grows with the row. Measured on the built page, the line under a title sits 8
-   to 30px below it on a desktop column and 8 to 36px on a phone one, by how much
-   content each card's neighbours have.
-
-   The names are written with U+00A0 between their words and before the "·",
-   which leaves the one ordinary space after the "·" as the only place the line
-   can break. On a phone column — 330px of content at a 420px viewport, 270px at
-   360px — the longest pair wants about 360px, so some of them do wrap. Left to
-   itself the browser breaks at any space and splits a maker from its model
-   ("Butterfly / Dignics 09C"); `text-wrap: balance` does no better, it just
-   moves that break in front of the "·". With the names held together, a
-   wrapped pair reads "DHS Hurricane 3 Blue Sponge ·" / "Butterfly
-   Dignics 09C". The two spaces render identically; only breaking differs. */
-.md-typeset .mg-card__sub {
-  flex: 0 0 100%;
-  margin: -4px 0 12px;
-  font-family: var(--ab-sans);
-  font-size: 13px;
-  font-weight: 600;
-  line-height: 1.3;
-  letter-spacing: 0.02em;
-  color: var(--ab-text);
-}
+/* (.mg-card__sub stood here until 2026-11-04: the rubber pair sat on its own
+   line under the title, its names held together with U+00A0 so the line could
+   only break at the "·". That day the player cards folded the line into their
+   titles (「然后将副标题合并到主标题」) and it came off the page, so the rule
+   went rather than staying dead. The titles use ordinary spaces throughout:
+   the longest of those names held together is wider than a phone column, and
+   a title cannot break inside one.) */
 
 /* The feature tags under a card's specs — the eleven build cards on /gear/,
    whose write-ups are five or six facts rather than a paragraph.
@@ -813,24 +755,35 @@
 /* ---------------------------------------------------------------------------
    4. Grids — each states its rung on the title ladder.
 
-   2 columns   ~464px   title 26px   (guide cards, /gear/)
+   2 columns   ~464px   title 20px   (guide cards, /gear/)
    3 columns   ~307px   title 17px   (every other shop grid)
    4 columns   ~225px   title 14px   (brand wall)
 --------------------------------------------------------------------------- */
 
 /* /gear/: 2 up, and the last grid in this recipe. At 470px a card holds a
-   portrait media band, and its title set at 26px needs the wider column — at
-   307px the same titles wrapped to three lines. /rubbers/, /add-ons/ and, since
-   the eleven blades that could not be priced joined the price list there,
-   /blades/ all sit in the pre-owned recipe now and take the 3-up rung with the
-   rest of the shop. */
+   portrait media band. /rubbers/ and, since the eleven blades that could not
+   be priced joined the price list there, /blades/ all sit in the pre-owned
+   recipe now and take the 3-up rung with the rest of the shop. (The old
+   /add-ons/ page came here on 2026-11-04, so its cards take this rung too.)
+
+   The title was 26px until 2026-11-04 (user: 「将 /gear/ 页的卡片标题设置成和
+   acebase.cc/gear/ 一样」). acebase.cc's own /gear/ cards set their titles at
+   20px/900 uppercase — measured on the built page at 1440, 768 and 390, the
+   same 20px/23px at every width — so this rung is theirs now. The price that
+   rides at the end of a title steps down with it: at the old 26px rung it was
+   19px, which reads as large as a 20px title; 15px is the size the stacked
+   .mg-card__price uses and keeps it a footnote to the name. */
 .md-typeset .mg-card-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 20px;
 }
 
 .md-typeset .mg-card-grid .mg-card__title {
-  font-size: 26px;
+  font-size: 20px;
+}
+
+.md-typeset .mg-card-grid .mg-card__title .mg-card__price {
+  font-size: 15px;
 }
 
 /* ---------------------------------------------------------------------------
@@ -841,9 +794,11 @@
    cards in that recipe need up to 222px of copy and would lose text if this
    height reached them.
 
-   1. The title is 20px, not 26px. At 26px the longest titles ("Butterfly
-      Ovtcharov Innerforce ALC Review, Price & Specs") ran to three lines in
-      the wide column and five in the narrow one, which is most of the block.
+   1. The title is the grid's own 20px (it was 26px here too until 2026-11-04,
+      when /gear/ moved to acebase.cc's 20px rung for titles). At 26px the
+      longest titles ("Butterfly Ovtcharov Innerforce ALC Review, Price &
+      Specs") ran to three lines in the wide column and five in the narrow
+      one, which is most of the block.
 
    2. On the two-column rung the copy is a fixed 200px, so a row of cards is
       one height top to bottom instead of stretching to whichever neighbour

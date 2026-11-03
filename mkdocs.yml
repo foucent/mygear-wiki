@@ -58,6 +58,10 @@ plugins:
         # straight at gear/index.md rather than chaining through /setups/.
         top-picks.md: gear/index.md
         setups.md: gear/index.md
+        # /add-ons/ closed 2026-11-04 (user: 「将 /add-ons/ 页的商品全都移至
+        # /gear/」). The catalogue and the Qilin shoe before it are cards on
+        # Gear; the stub keeps old links and search results landing there.
+        add-ons.md: gear/index.md
         getting-started/basic-questions.md: guide/essential-questions-before-buying.md
         getting-started/essential-questions-before-buying.md: guide/essential-questions-before-buying.md
         getting-started/blade-performance-metrics.md: guide/blade-performance-metrics.md
@@ -128,7 +132,7 @@ plugins:
         shop/how-to-order.md: order.md
         shop/blades.md: blades.md
         shop/rubbers.md: rubbers.md
-        shop/add-ons.md: add-ons.md
+        shop/add-ons.md: gear/index.md
         shop/pre-owned.md: pre-owned.md
         shop/shipping-and-delivery.md: FAQ.md
         shop/packaging-and-tracking.md: FAQ.md
@@ -227,8 +231,10 @@ nav:
   - Gear: gear/index.md
   - Blades: blades.md
   - Rubbers: rubbers.md
-  - Add-ons: add-ons.md
   - Pre-owned: pre-owned.md
+  # 2026-11-04: Add-ons left the nav — its fifteen products moved to Gear, and
+  # add-ons.md is a redirect to gear/index.md now (see redirect_maps).
+  #
   # Short labels: the nav row is eight items wide at 28px, so anything longer
   # than one word costs a line. The page headings and the frontmatter
   # descriptions are unchanged, so the pages themselves still read in full.
