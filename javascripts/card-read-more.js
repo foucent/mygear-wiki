@@ -17,12 +17,12 @@
  * in the wide column — while its narrow column takes the fold away altogether
  * through the stylesheet's --mg-read-more switch.
  *
- * /gear/'s twelfth card writes a description too, but the stylesheet clamps it
- * (.mg-card__desc--clamped, to the height the tags took) and its action is a
- * plain anchor to /gear/sora-matsushima/ rather than a zoom link. No zoom link
- * means this file never collects that card, so the link navigates instead of
- * becoming a disclosure — which is the point: the page behind it is where the
- * paragraph runs whole.
+ * /gear/'s player cards used to write descriptions too: the stylesheet clamped
+ * them to the height the tags took and their action was a plain anchor to the
+ * player's own page rather than a zoom link, so this file never collected
+ * them. Since 2026-11-04 those paragraphs are gone — the player and his side
+ * moved into the card's title and the rest of the list lives on /gear/<name>/
+ * — so this file has no caller on that page at all.
  *
  * /blades/ used to be the other caller — the eleven blades that could not be
  * priced, every one of them a paragraph — and those cards are in the

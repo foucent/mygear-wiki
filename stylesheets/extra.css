@@ -1621,11 +1621,8 @@ body.mg-cart-open {
   border-bottom-color: var(--ab-green);
 }
 
-.md-typeset .mg-card__or {
-  font-size: 0.92rem;
-  font-style: normal;
-  color: var(--ab-text-muted);
-}
+/* .mg-card__or (the "or" between two actions) was dropped on 2026-11-04 with
+   the action line it sat in: /gear/ now writes one control per card. */
 
 @media (max-width: 767px) {
   .mg-card-grid {
