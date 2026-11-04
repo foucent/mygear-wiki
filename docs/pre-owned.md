@@ -587,6 +587,11 @@ hide:
       <td>W968 Golden Slam | No.17 | 88g</td>
       <td style="text-align:right">$283</td>
     </tr>
+<tr data-added="2026-11-04">
+      <td><img src="/images/harimoto-salc-k-code-86g/01.thumb.webp" data-full-src="/images/harimoto-salc-k-code-86g/01.jpg" srcset="/images/harimoto-salc-k-code-86g/01.thumb-240.webp 180w, /images/harimoto-salc-k-code-86g/01.thumb-480.webp 360w, /images/harimoto-salc-k-code-86g/01.thumb.webp 540w, /images/harimoto-salc-k-code-86g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Harimoto SALC | K-Code | JP | 86g" loading="lazy" data-gallery="/images/harimoto-salc-k-code-86g/01.jpg,/images/harimoto-salc-k-code-86g/02.jpg,/images/harimoto-salc-k-code-86g/03.jpg,/images/harimoto-salc-k-code-86g/04.jpg,/images/harimoto-salc-k-code-86g/05.jpg,/images/harimoto-salc-k-code-86g/06.jpg,/images/harimoto-salc-k-code-86g/07.jpg"></td>
+      <td>Harimoto SALC | K-Code | JP | 86g</td>
+      <td style="text-align:right">$122</td>
+    </tr>
 <tr>
       <td><img src="/images/viscaria-w-code-cn-86g/01.thumb.webp" data-full-src="/images/viscaria-w-code-cn-86g/01.jpg" srcset="/images/viscaria-w-code-cn-86g/01.thumb-240.webp 180w, /images/viscaria-w-code-cn-86g/01.thumb-480.webp 360w, /images/viscaria-w-code-cn-86g/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Viscaria | W-Code | CN | 86g" loading="lazy" data-gallery="/images/viscaria-w-code-cn-86g/01.jpg,/images/viscaria-w-code-cn-86g/02.jpg,/images/viscaria-w-code-cn-86g/03.jpg,/images/viscaria-w-code-cn-86g/05.jpg,/images/viscaria-w-code-cn-86g/06.jpg,/images/viscaria-w-code-cn-86g/07.jpg,/images/viscaria-w-code-cn-86g/08.jpg"></td>
       <td>Viscaria | W-Code | CN | 86g</td>
