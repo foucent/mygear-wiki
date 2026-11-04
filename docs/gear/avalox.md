@@ -34,4 +34,4 @@ description: "Avalox table tennis blades — classic P500, YouTube review, and w
 
 !!! tip "Related"
 
-    Fiber placement: [Outer vs Inner Fiber](../guide/outer-vs-inner-fiber.md). Live USD references: [Blades](../blades.md). Photo gallery by brand: [Brand galleries](../index.md#brands).
+    Fiber placement: [Outer vs Inner Fiber](../guide/outer-vs-inner-fiber.md). Live USD references: [Blades](../blades.md).

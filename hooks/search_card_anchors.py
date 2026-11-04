@@ -42,10 +42,12 @@ _PREOWNED_TABLE = "mg-price-table--preowned"
 # __price, so this one list covers all three lookups.
 _CARD_NAMES = (_ARTICLE_CARD, _PREOWNED_CARD)
 _SLUG_MAX = 60
-# A card's name is its own heading, and which heading has moved once already:
-# /gear/ writes them as <h2> so the page runs h1 -> h2 with nothing skipped,
-# while the homepage feed that guide-grid.js builds still emits <h3>. Both are
-# this hook's business, so it matches the class and accepts either tag.
+# A card's name is its own heading, and which heading has moved twice: the
+# shop pages write them as <h2> so the page runs h1 -> h2 with nothing skipped
+# (the homepage's one grid, /etc/ and the price pages alike), and since
+# 2026-11-04 the homepage feed that guide-grid.js builds emits <h2> as well —
+# those cards are no longer a section of their own. Both are this hook's
+# business, so it matches the class and accepts either tag.
 _TITLE_TAGS = ("h2", "h3", "h4")
 
 _TAG = re.compile(r"<[^>]+>")

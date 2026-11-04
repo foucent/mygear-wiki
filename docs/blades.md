@@ -542,5 +542,5 @@ hide:
 
 <div class="admonition note mg-page-note">
   <p class="admonition-title">Related</p>
-  <p><a href="/rubbers/">Rubbers</a> · <a href="/gear/">Gear</a> · <a href="/order/">How to Order</a> · <a href="/FAQ/">FAQ & Shipping</a> · <a href="/updates/">Updates & Reviews</a></p>
+  <p><a href="/rubbers/">Rubbers</a> · <a href="/etc/">ETC</a> · <a href="/order/">How to Order</a> · <a href="/FAQ/">FAQ & Shipping</a> · <a href="/updates/">Updates & Reviews</a></p>
 </div>

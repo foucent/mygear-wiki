@@ -19,7 +19,9 @@ built from that section's own H3/P pairs, so the markup cannot say anything the
 reader cannot see. Parse it or emit nothing: no empty schema.
 
 Breadcrumbs are opt-in per page (BREADCRUMBS) and describe the trail the site
-actually offers — Home > Gear > <shop page> > product.
+actually offers — Home > Rubbers > <shop page> > product. The old middle crumb,
+"Gear", went on 2026-11-04 with gear/index.md (now a redirect to the homepage);
+the crumb must land on a page that is still there.
 """
 
 import html
@@ -82,10 +84,10 @@ RATINGS = {
 # Only the page's own URL is added automatically; the shop page it belongs to
 # is the opinion this table records.
 BREADCRUMBS = {
-    "dignics-09c": [("Home", ""), ("Gear", "gear/"), ("Rubbers", "rubbers/")],
-    "zyre-03": [("Home", ""), ("Gear", "gear/"), ("Rubbers", "rubbers/")],
-    "dignics-05": [("Home", ""), ("Gear", "gear/"), ("Rubbers", "rubbers/")],
-    "tenergy-05": [("Home", ""), ("Gear", "gear/"), ("Rubbers", "rubbers/")],
+    "dignics-09c": [("Home", ""), ("Rubbers", "rubbers/")],
+    "zyre-03": [("Home", ""), ("Rubbers", "rubbers/")],
+    "dignics-05": [("Home", ""), ("Rubbers", "rubbers/")],
+    "tenergy-05": [("Home", ""), ("Rubbers", "rubbers/")],
 }
 
 

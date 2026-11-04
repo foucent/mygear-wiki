@@ -148,30 +148,15 @@
   border-radius: 0;
 }
 
-/* index.md's home-page sections are plain markdown headings — "Brands" and
-   "Reviews & guides" — where the old "Shop" and "Hot Gear" ones were raw HTML
-   carrying a class. The two that remain would therefore miss the section-title
-   treatment, and the home page would show a different heading style for the
-   same job.
-
-   Scoping on the grid each one introduces restyles exactly those two and
-   nothing else. The obvious alternative — styling `.md-typeset h2` — would
-   turn every article heading on /order/, /pre-owned/ and all eighteen guides
-   into uppercase labels over a black rule, which is not what those pages
-   want. The margins match the classed titles' 0.75rem and reproduce the ~2rem
-   of air Material's own h2 margin was giving above. */
-.md-content__inner > h2:has(+ .mg-brand-grid),
-.md-content__inner > h2:has(+ .mg-guides) {
-  margin: 2rem 0 0.75rem;
-  padding: 0 0 0.4rem;
-  border: 0;
-  border-bottom: 1px solid var(--ab-text);
-  color: var(--ab-text);
-  font-size: 24px;
-  font-weight: 900;
-  letter-spacing: -0.01em;
-  text-transform: uppercase;
-}
+/* There was a rule here that dressed the homepage's section headings — the
+   uppercase-over-a-black-rule treatment, scoped by `h2:has(+ .mg-brand-grid)`
+   and `h2:has(+ .mg-guides)` so it caught exactly those two and nothing else.
+   The headings are gone: "Brands" on 2026-11-04 (「将首页的品牌列表删除」),
+   and the last two, "Setups" and "Reviews & guides", the same day (「将首页的
+   Setups 和Reviews & guides 之类的文字删除，意思就是不要分类，让他们融合在
+   一起」). The page is the hero and then one grid of cards, so the rule had
+   nothing left to style and went with them. Every other h2 on the site was
+   never in its scope and is unchanged. */
 
 /* ---------------------------------------------------------------------------
    3. The card.
@@ -392,7 +377,9 @@
    control in there ("Add to cart" where the card has a price, "Ask about this
    setup" where it does not), and the class stays because this is the rule that
    dresses that control as the underlined, centred link line — the flex
-   wrapper is a single child's row. */
+   wrapper is a single child's row. The homepage's Fan Zhendong ALC feed card
+   puts the pair back ("Watch Details on YouTube or Read more"), which is all
+   the wrapper needs to hold: two links and an .mg-card__or between them. */
 .md-typeset .mg-card__more--split {
   display: flex;
   flex-wrap: wrap;
@@ -432,9 +419,31 @@
   border-bottom-color: var(--ab-text);
 }
 
-/* .mg-card__or — the "or" between a card's two actions — stood here until
-   2026-11-04: /gear/ cut every action line down to one control that day (the
-   note is at the top of that page), so no card writes the word any more. */
+/* The YouTube mark inside the Fan Zhendong ALC card's video link (drawn by
+   guide-grid.js). Sized against the 15px serif line it rides on, and filled
+   with currentColor: this card has one warm ink, and a brand red would be the
+   only colour of its kind in the grid. */
+.md-typeset .mg-card__yt {
+  width: 17px;
+  height: 12px;
+  margin: 0 6px 0 0;
+  fill: currentColor;
+  /* On the baseline an inline SVG's box bottom sits on the letters' feet, a
+     shade low against the cap height beside it; a pixel up centres it. */
+  vertical-align: 1px;
+}
+
+/* The "or" between a card's two actions. /gear/ cut every action line down to
+   one control on 2026-11-04 and the rule was dropped with it; the same day the
+   homepage's Fan Zhendong ALC card brought the word back ("Watch Details on
+   YouTube or Read more" — see guide-grid.js), so it returns here. <em> for the
+   emphasis-free italic it is, and font-style: normal to undo that. */
+.md-typeset .mg-card__or {
+  font-family: var(--ab-serif);
+  font-size: 15px;
+  font-style: normal;
+  color: var(--ab-text-muted);
+}
 
 /* A shop card is measured against /gear/ on the sister site: 470 x 767, spent on
    a kicker, a one-line title and an action line. This card also has to carry a
@@ -790,15 +799,19 @@
    The homepage feed: a smaller title, a fixed copy block on the wide column,
    and excerpts that run whole everywhere.
 
-   Same recipe as /gear/ above, scoped to .mg-guides, because the twenty-two
-   cards in that recipe need up to 222px of copy and would lose text if this
-   height reached them.
+   Same recipe as /gear/ above, scoped to the guide cards alone (.mg-card--
+   guide) because the twenty-two cards in that recipe need up to 222px of copy
+   and would lose text if this height reached them. It used to be scoped to
+   the .mg-guides wrapper; since the feed's cards joined the setup cards in one
+   grid (2026-11-04, see index.md), the wrapper no longer surrounds a grid and
+   a class on the card is what tells the two kinds apart in there.
 
    1. The title is the grid's own 20px (it was 26px here too until 2026-11-04,
       when /gear/ moved to acebase.cc's 20px rung for titles). At 26px the
       longest titles ("Butterfly Ovtcharov Innerforce ALC Review, Price &
       Specs") ran to three lines in the wide column and five in the narrow
-      one, which is most of the block.
+      one, which is most of the block. The rule that said so here is gone: the
+      grid's own 20px rule above is what every title in the grid gets now.
 
    2. On the two-column rung the copy is a fixed 200px, so a row of cards is
       one height top to bottom instead of stretching to whichever neighbour
@@ -815,11 +828,10 @@
       it is on by --mg-read-more: off, set with the column rule below rather
       than by a breakpoint of its own.
 --------------------------------------------------------------------------- */
-.md-typeset .mg-guides .mg-card-grid {
-  --mg-clamp-lines: 3;
-}
-
-.md-typeset .mg-guides .mg-card__copy {
+/* The grid states its budget with data-mg-clamp-fixed (the rule beside
+   --mg-clamp-lines above), which is where the 3 lives; the duplicate that
+   used to sit here went with the wrapper. */
+.md-typeset .mg-card--guide .mg-card__copy {
   /* Border-box, or the 20px of side padding .mg-card__copy carries would ride
      on top of the 200 and the block would be 200 only for the one card whose
      text happens to fit. */
@@ -827,18 +839,15 @@
   height: 200px;
 }
 
-.md-typeset .mg-guides .mg-card__title {
-  font-size: 20px;
-}
-
 @media (max-width: 1099.98px) {
-  .md-typeset .mg-guides .mg-card-grid {
+  .md-typeset .mg-card-grid[data-mg-clamp-fixed] {
     /* The switch card-read-more.js reads. Off means no card in this grid is
-       clipped and "Read more" stays the article link. */
+       clipped and "Read more" stays the article link. Only .mg-card--guide
+       cards are collected there, so the setup cards are untouched by it. */
     --mg-read-more: off;
   }
 
-  .md-typeset .mg-guides .mg-card__copy {
+  .md-typeset .mg-card--guide .mg-card__copy {
     height: auto;
   }
 }

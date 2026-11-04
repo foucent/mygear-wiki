@@ -101,13 +101,18 @@
   </div>
 
   {#- band 2 — main nav -#}
+  {#- Home joined the row on 2026-11-04 (user: 「然后在导航栏加一个Home」). It
+      had been in nav all along but was skipped: the homepage's URL is "",
+      which is falsy, so the loop's old `{% if nav_item.url %}` never drew it.
+      It is drawn now, and its href is home_url — the same one the wordmark
+      above uses — because "" renders as an empty href. -#}
   <nav class="ab-mainnav" aria-label="{{ lang.t('tabs') }}">
     <div class="ab-mainnav__inner">
       <ul class="ab-mainnav__list">
         {% for nav_item in nav.items %}
-          {% if nav_item.url %}
+          {% if nav_item.url or nav_item == nav.homepage %}
             <li class="ab-mainnav__item">
-              <a class="ab-mainnav__link{% if nav_item.active %} is-active{% endif %}" href="{{ nav_item.url | url }}">{{ nav_item.title }}</a>
+              <a class="ab-mainnav__link{% if nav_item.active %} is-active{% endif %}" href="{{ nav_item.url | url if nav_item.url else home_url }}">{{ nav_item.title }}</a>
             </li>
           {% endif %}
         {% endfor %}

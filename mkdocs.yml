@@ -54,14 +54,18 @@ plugins:
         updates-reviews.md: updates.md
         # /top-picks/ became /setups/ when its blades and rubbers moved to
         # /blades/ and /rubbers/, and /setups/ became /gear/ when the page was
-        # renamed. Both stubs keep the older URLs alive. The first one points
-        # straight at gear/index.md rather than chaining through /setups/.
-        top-picks.md: gear/index.md
-        setups.md: gear/index.md
+        # renamed; /gear/ merged into the homepage on 2026-11-04. Every stub
+        # points straight at index.md rather than chaining through the older
+        # names.
+        top-picks.md: index.md
+        setups.md: index.md
         # /add-ons/ closed 2026-11-04 (user: 「将 /add-ons/ 页的商品全都移至
-        # /gear/」). The catalogue and the Qilin shoe before it are cards on
-        # Gear; the stub keeps old links and search results landing there.
-        add-ons.md: gear/index.md
+        # /gear/」). What it carried lives on /etc/ now, so the stub lands
+        # there; /gear/ itself merged into the homepage the same day (user:
+        # 「将 mygear.top/ 的内容与 mygear.top/gear/ 的内容合并」), and its
+        # twelve setup cards open the homepage.
+        add-ons.md: etc/index.md
+        gear/index.md: index.md
         getting-started/basic-questions.md: guide/essential-questions-before-buying.md
         getting-started/essential-questions-before-buying.md: guide/essential-questions-before-buying.md
         getting-started/blade-performance-metrics.md: guide/blade-performance-metrics.md
@@ -132,7 +136,7 @@ plugins:
         shop/how-to-order.md: order.md
         shop/blades.md: blades.md
         shop/rubbers.md: rubbers.md
-        shop/add-ons.md: gear/index.md
+        shop/add-ons.md: etc/index.md
         shop/pre-owned.md: pre-owned.md
         shop/shipping-and-delivery.md: FAQ.md
         shop/packaging-and-tracking.md: FAQ.md
@@ -214,26 +218,31 @@ extra:
 # 导航配置在这里
 nav:
   - Home: index.md
-  # Gear leads the shop row: it is where a blade and its rubbers get put
-  # together and quoted as one package. The seven selected blades and fourteen
-  # rubber models that used to sit on it now live on Blades and Rubbers, where
-  # they can be compared with everything else of their kind — and the eleven
-  # blades that have no price (nobody stocks them, or nobody has published a
-  # list price) went back to Blades as well, where they sit below the priced
-  # grid asking for a quote. What is left on Gear is the rackets: eleven builds
-  # and nothing else.
+  # 2026-11-04: Gear left the nav (user: 「将 mygear.top/ 的内容与
+  # mygear.top/gear/ 的内容合并」). Its twelve cards — the eleven players'
+  # setups and the Qilin shoe — open the homepage now, and gear/index.md is a
+  # redirect to index.md (see redirect_maps). The Brands grid that followed
+  # them on the homepage went the same day (user: 「将首页的品牌列表删除」), and
+  # so did the "Setups" / "Reviews & guides" headings — the page is one card
+  # flow, no categories (user: 「不要分类，让他们融合在一起」). Home itself is
+  # drawn in the masthead row now; it was in this nav list all along but the
+  # header template skipped the item whose URL is "" (user: 「然后在导航栏加一个
+  # Home」).
   #
-  # gear/index.md is this page. That directory is also where the thirty-four
-  # product, brand and player pages live (/gear/viscaria/, /gear/butterfly/,
-  # /gear/dang-qiu/, …; ten of them the players' own setups, seven added on
-  # 2026-10-26); they stay out of the nav and keep the URLs they have always
-  # had, so only the bare /gear/ is new here.
-  - Gear: gear/index.md
+  # gear/ is still a directory of thirty-four product, brand and player pages
+  # (/gear/viscaria/, /gear/butterfly/, /gear/dang-qiu/, …; ten of them the
+  # players' own setups, seven added on 2026-10-26); they stay out of the nav
+  # and keep the URLs they have always had.
   - Blades: blades.md
   - Rubbers: rubbers.md
+  # ETC is the accessories category, added the same day (user: 「新增ETC类目，
+  # 将 DHS No.15 VOC-Free Glue $8 及后面的卡片都移至ETC」): the thirteen cards
+  # that used to close /gear/ — glue, boosters, balls, cases, bags, care kits.
+  - ETC: etc/index.md
   - Pre-owned: pre-owned.md
   # 2026-11-04: Add-ons left the nav — its fifteen products moved to Gear, and
-  # add-ons.md is a redirect to gear/index.md now (see redirect_maps).
+  # the thirteen left after the two removals now sit on ETC; add-ons.md is a
+  # redirect (see redirect_maps).
   #
   # Short labels: the nav row is eight items wide at 28px, so anything longer
   # than one word costs a line. The page headings and the frontmatter

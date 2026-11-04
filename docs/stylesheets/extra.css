@@ -1621,8 +1621,14 @@ body.mg-cart-open {
   border-bottom-color: var(--ab-green);
 }
 
-/* .mg-card__or (the "or" between two actions) was dropped on 2026-11-04 with
-   the action line it sat in: /gear/ now writes one control per card. */
+/* The "or" between two actions — dropped on 2026-11-04 with /gear/'s
+   one-control action line, brought back the same day by the homepage's Fan
+   Zhendong ALC card (uncrate.css carries the same rule). */
+.md-typeset .mg-card__or {
+  font-size: 0.92rem;
+  font-style: normal;
+  color: var(--ab-text-muted);
+}
 
 @media (max-width: 767px) {
   .mg-card-grid {
@@ -2802,9 +2808,9 @@ html.md-no-js .md-typeset .mg-bio__toggle {
 }
 
 /* Home: the Hot Gear grid that used to sit here is gone. Its twelve cards were
-   /gear/ product pages, and those are cards in the Reviews & guides feed now —
-   one recipe for both, instead of a 4-up thumbnail grid beside a 2-up card
-   grid showing the same kind of page. */
+   /gear/ product pages, and those are cards in the homepage feed now — one
+   recipe for both, instead of a 4-up thumbnail grid beside a 2-up card grid
+   showing the same kind of page. */
 
 /* Product detail pages — image gallery + facts column */
 .md-typeset .mg-updated {
@@ -3189,13 +3195,16 @@ html.md-no-js .md-typeset .mg-bio__toggle {
 }
 
 /* ---------------------------------------------------------------------------
-   Homepage "Guides worth reading" — the section.
+   The homepage feed.
 
    The cards themselves are /gear/'s .mg-card recipe, built by
    javascripts/guide-grid.js and laid out by .mg-card-grid, so a guide and a
-   build read as one system and no card anatomy is written twice. Only the
-   section's own furniture is here: the wrapper the h2 above it is scoped to,
-   the sentinel that loads the next batch, and the status line.
+   build read as one system and no card anatomy is written twice. Since
+   2026-11-04 the feed's cards are appended to the setup cards' own grid (see
+   index.md), so the few rules that are about a guide and not a shop card are
+   keyed on .mg-card--guide, a class guide-grid.js puts on each card it builds
+   — not on the .mg-guides wrapper, which now holds only the sentinel, the
+   status line and the no-JS list.
 --------------------------------------------------------------------------- */
 .md-typeset .mg-guides {
   margin: 0.2rem 0 0.5rem;
@@ -3205,19 +3214,19 @@ html.md-no-js .md-typeset .mg-bio__toggle {
    containers it knows about before guide-grid.js has built these cards, so
    nothing is listening for the click and .mg-card__media img's zoom cursor
    would be a promise the card does not keep. */
-.md-typeset .mg-guides .mg-card__media img {
+.md-typeset .mg-card--guide .mg-card__media img {
   cursor: default;
 }
 
 /* The title is a link here — a shop card puts its one on the action line — so
    it takes the card's ink rather than Material's link colour, and says it is
    clickable on hover the way every other link on the site does. */
-.md-typeset .mg-guides .mg-card__title a {
+.md-typeset .mg-card--guide .mg-card__title a {
   color: inherit;
   text-decoration: none;
 }
-.md-typeset .mg-guides .mg-card__title a:hover,
-.md-typeset .mg-guides .mg-card__title a:focus {
+.md-typeset .mg-card--guide .mg-card__title a:hover,
+.md-typeset .mg-card--guide .mg-card__title a:focus {
   color: inherit;
   text-decoration: underline;
   text-underline-offset: 0.2em;
