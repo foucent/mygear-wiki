@@ -1,30 +1,34 @@
 /* ---------------------------------------------------------------------------
-   Reviews & guides — lazy-loaded feed (homepage)
-   Renders every article from the Guide directory, and every /gear/ product
-   page, as a shop card (.mg-card). Shows BATCH cards first; scrolling to the
-   sentinel loads the next batch until all of them are shown (infinite scroll).
+   The homepage feed — lazy-loaded (homepage)
+   Renders the /gear/ product pages as shop cards (.mg-card), appending them
+   to the grid that already holds the twelve setup cards: since 2026-11-04 the
+   page is one flow with no category headings over it (user: 「将首页的Setups 和
+   Reviews & guides 之类的文字删除，意思就是不要分类，让他们融合在一起」), so
+   this file names no grid of its own. Shows BATCH cards first; scrolling to
+   the sentinel loads the next batch until all of them are shown (infinite
+   scroll).
 
-   The two kinds of entry are one list because they are one job: each is a
-   page worth reading, with a cover, a title and a line of what is inside. The
-   twelve /gear/ product pages come first (product pages lead, in the order
-   the old Hot Gear grid ran), then the eleven player albums in the order
-   /gear/ runs them, then the eighteen guides.
+   The twelve entries are the /gear/ product reviews (in the order the old Hot
+   Gear grid ran). The eighteen guide articles came off the same day, last
+   (user: 「将首页中从Tibhar Darko Jorgic Infinity Carbon Review … 起的卡片
+   删除，也就是说不在首页中展示 /guide/ 的内容」): the homepage shows no
+   /guide/ content now — that directory keeps its own page at /guide/, which
+   is still in the nav and still the full index of all eighteen.
 
-   The player albums joined on 2026-10-26, the same day the last of the first
-   ten went up: without them the homepage ignored the biggest thing /gear/
-   gained that week. The two guide entries that were missing (blade thickness,
-   rubber lifespan) went in the same pass, so the list now really is "every
-   article from the Guide directory" as this header has always claimed. Fan
-   Zhendong's album is the eleventh, added alone on 2026-10-28.
+   The player albums joined on 2026-10-26 and lived on this list until the
+   same 2026-11-04 pass (user: 「将 Sora Matsushima's Gear … 至 Fan Zhendong's
+   Gear … 卡片删除」): the same eleven people stand on the homepage as setup
+   cards now, above this feed, so each album would have been shown twice on
+   one page. Their pages and search entries stay.
 --------------------------------------------------------------------------- */
 (function () {
   var MG_GUIDES = [
-    /* The first twelve entries are /gear/ product pages — review, specs and
-       live price on one URL. Each is a .mg-prod page whose own cover is a
-       1:1 studio shot, so the 3:2 card band crops top and bottom; the shared
-       band is the price of looking like the cards around it. Their covers
-       reuse the page's own srcset, which stops at the 600px thumb: there is
-       no larger variant on disk. */
+    /* The twelve entries are /gear/ product pages — review, specs and live
+       price on one URL. Each is a .mg-prod page whose own cover is a 1:1
+       studio shot, so the 3:2 card band crops top and bottom; the shared band
+       is the price of looking like the cards around it. Their covers reuse
+       the page's own srcset, which stops at the 600px thumb: there is no
+       larger variant on disk. */
     {
       title: "Butterfly Dignics 09C Review, Price & Specs",
       href: "/gear/dignics-09c/",
@@ -39,6 +43,11 @@
     {
       title: "Butterfly Fan Zhendong ALC Review, Price & Specs",
       href: "/gear/fan-zhendong-alc/",
+      /* The one card with a video: the review's own upload, the link given by
+         the user on 2026-11-04. makeCard() reads it and leads the action line
+         with "Watch Details on YouTube or Read more"; every other card has no
+         video field and keeps "Read more" alone. */
+      video: "https://youtu.be/FYnMmWJhQyI",
       img: "/images/price-list/blades/fan-zhendong-alc.jpg",
       srcset: "/images/price-list/blades/fan-zhendong-alc.thumb-240.webp 240w, /images/price-list/blades/fan-zhendong-alc.thumb-480.webp 480w, /images/price-list/blades/fan-zhendong-alc.thumb.webp 600w",
       sizes: "(max-width: 759.98px) 88vw, 462px",
@@ -157,335 +166,6 @@
       excerpt:
         "The clean, non-tacky flagship of the Dignics line — a code No. 05 topsheet built for spin, bonded to the firmer, more resilient Spring Sponge X.",
     },
-    /* The eleven player albums — /gear/'s player cards, one page each. The band
-       is the album's own cover, already a 3:2 crop, so unlike the twelve
-       product pages above nothing is cropped by the card. Their srcset keeps
-       the album cover's rungs and its full-size file, which is the lightbox
-       target the card names in data-full-src.
-
-       Order follows the cards on /gear/. The excerpt is the album's own
-       frontmatter description, unchanged, rather than a second version of the
-       same sentence that could drift away from the page. */
-
-    {
-      title: "Sora Matsushima's Gear: Fan Zhendong ALC, Dignics 09C, ZYRE-03",
-      href: "/gear/sora-matsushima/",
-      img: "/images/sora-matsushima/cover.webp",
-      srcset: "/images/sora-matsushima/cover.thumb-240.webp 240w, /images/sora-matsushima/cover.thumb-480.webp 480w, /images/sora-matsushima/cover.thumb-720.webp 720w, /images/sora-matsushima/cover.thumb-1000.webp 1000w, /images/sora-matsushima/cover.webp 1200w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "Sora Matsushima mid-stroke in a pink shirt with both hands on his racket",
-      cat: "Player",
-      excerpt:
-        "The Butterfly Fan Zhendong ALC setup Sora Matsushima plays: Dignics 09C on the forehand, ZYRE-03 on the backhand, Lezoline shoes and an Elista 10 shirt.",
-    },
-    {
-      title: "Wang Chuqin's Gear: DHS Q968, Hurricane 3 National, Hurricane 8",
-      href: "/gear/wang-chuqin/",
-      img: "/images/wang-chuqin/cover.webp",
-      srcset: "/images/wang-chuqin/cover.thumb-240.webp 240w, /images/wang-chuqin/cover.thumb-480.webp 480w, /images/wang-chuqin/cover.thumb.webp 720w, /images/wang-chuqin/cover.thumb-1000.webp 1000w, /images/wang-chuqin/cover.webp 1200w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "Wang Chuqin seen from behind, arms raised to the crowd, China shirt reading Wang C.Q.",
-      cat: "Player",
-      excerpt:
-        "The DHS setup Wang Chuqin plays: the inner-carbon Q968 blade with Hurricane 3 National blue sponge on the forehand and Hurricane 8 on the backhand.",
-    },
-    {
-      title: "Tomokazu Harimoto's Gear: Harimoto Innerforce Super ALC, ZYRE-03",
-      href: "/gear/tomokazu-harimoto/",
-      img: "/images/tomokazu-harimoto/cover.webp",
-      srcset: "/images/tomokazu-harimoto/cover.thumb-240.webp 240w, /images/tomokazu-harimoto/cover.thumb-480.webp 480w, /images/tomokazu-harimoto/cover.thumb.webp 720w, /images/tomokazu-harimoto/cover.webp 762w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "Tomokazu Harimoto shouting in a pink ANA Japan shirt",
-      cat: "Player",
-      excerpt:
-        "The Butterfly setup Tomokazu Harimoto plays: the Harimoto Innerforce Super ALC with ZYRE-03 on both wings, Lezoline Rifones shoes and a Jemelio shirt.",
-    },
-    {
-      title: "Dang Qiu's Gear: Timo Boll ALC Penhold, Dignics 09C",
-      href: "/gear/dang-qiu/",
-      img: "/images/dang-qiu/cover.webp",
-      srcset: "/images/dang-qiu/cover.thumb-240.webp 240w, /images/dang-qiu/cover.thumb-480.webp 480w, /images/dang-qiu/cover.thumb.webp 720w, /images/dang-qiu/cover.thumb-1000.webp 1000w, /images/dang-qiu/cover.webp 1080w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "Dang Qiu mid-stroke in a red LIEBHERR shirt and a red headband, racket raised",
-      cat: "Player",
-      excerpt:
-        "The setup the German penholder Dang Qiu plays: a special-order Timo Boll ALC in penhold with Dignics 09C on the forehand and the reverse backhand.",
-    },
-    {
-      title: "Patrick Franziska's Gear: Franziska Innerforce ZLC, ZYRE-03",
-      href: "/gear/patrick-franziska/",
-      img: "/images/patrick-franziska/cover.webp",
-      srcset: "/images/patrick-franziska/cover.thumb-240.webp 240w, /images/patrick-franziska/cover.thumb-480.webp 480w, /images/patrick-franziska/cover.thumb.webp 720w, /images/patrick-franziska/cover.thumb-1000.webp 1000w, /images/patrick-franziska/cover.webp 1080w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "Patrick Franziska from behind in a blue shirt with his name and the Butterfly mark, arms raised with his racket and a bundle of shirts",
-      cat: "Player",
-      excerpt:
-        "The Butterfly setup Patrick Franziska plays: his signature Franziska Innerforce ZLC with ZYRE-03 on both wings, after a long Tenergy and Dignics backhand line.",
-    },
-    {
-      title: "Félix Lebrun's Gear: Lebrun Hyper Carbon, Hybrid K3 Pro",
-      href: "/gear/felix-lebrun/",
-      img: "/images/felix-lebrun/cover.webp",
-      srcset: "/images/felix-lebrun/cover.thumb-240.webp 240w, /images/felix-lebrun/cover.thumb-480.webp 480w, /images/felix-lebrun/cover.thumb.webp 720w, /images/felix-lebrun/cover.thumb-1000.webp 1000w, /images/felix-lebrun/cover.webp 1200w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "Félix Lebrun shouting in glasses and a pink, yellow and blue Tibhar shirt, racket in hand",
-      cat: "Player",
-      excerpt:
-        "The Tibhar setup Félix Lebrun plays: his signature Félix Lebrun Hyper Carbon with Hybrid K3 Pro on both wings, penhold with the reverse backhand.",
-    },
-    {
-      title: "Lin Yun-Ju's Gear: Viscaria Super ALC, ZYRE-03, Dignics 05",
-      href: "/gear/lin-yun-ju/",
-      img: "/images/lin-yun-ju/cover.webp",
-      srcset: "/images/lin-yun-ju/cover.thumb-240.webp 240w, /images/lin-yun-ju/cover.thumb-480.webp 480w, /images/lin-yun-ju/cover.thumb.webp 720w, /images/lin-yun-ju/cover.thumb-1000.webp 1000w, /images/lin-yun-ju/cover.webp 1080w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "Lin Yun-Ju reaching across the table in a green and yellow shirt, the ball in the air in front of him",
-      cat: "Player",
-      excerpt:
-        "The Butterfly setup Lin Yun-Ju plays: Viscaria Super ALC with ZYRE-03 on the forehand and Dignics 05 on the backhand.",
-    },
-    {
-      title: "Truls Möregårdh's Gear: Cybershape Carbon, Helix Platinum XH",
-      href: "/gear/truls-moregardh/",
-      img: "/images/truls-moregardh/cover.webp",
-      srcset: "/images/truls-moregardh/cover.thumb-240.webp 240w, /images/truls-moregardh/cover.thumb-480.webp 480w, /images/truls-moregardh/cover.thumb.webp 720w, /images/truls-moregardh/cover.thumb-1000.webp 1000w, /images/truls-moregardh/cover.webp 1200w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "Truls Moregardh in a blue Sweden shirt, fist raised and racket in his other hand",
-      cat: "Player",
-      excerpt:
-        "The STIGA setup Truls Möregårdh plays: the hexagonal Cybershape Carbon with Helix Platinum XH on both wings, after a Carbonado 290 blade.",
-    },
-    {
-      title: "Hugo Calderano's Gear: XIOM Hyper Axylium, Joola Trinity",
-      href: "/gear/hugo-calderano/",
-      img: "/images/hugo-calderano/cover.webp",
-      srcset: "/images/hugo-calderano/cover.thumb-240.webp 240w, /images/hugo-calderano/cover.thumb-480.webp 480w, /images/hugo-calderano/cover.thumb.webp 720w, /images/hugo-calderano/cover.thumb-1000.webp 1000w, /images/hugo-calderano/cover.webp 1200w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "Hugo Calderano with his fist raised in a blue and green shirt, racket down at his side",
-      cat: "Player",
-      excerpt:
-        "The XIOM blade and Joola Trinity rubbers Hugo Calderano plays: Hyper Axylium with Trinity Charged on the forehand and Trinity Dynamic on the backhand.",
-    },
-    {
-      title: "Lin Shidong's Gear: Viscaria Golden, Hurricane 3 Neo, Dignics 09C",
-      href: "/gear/lin-shidong/",
-      img: "/images/lin-shidong/cover.webp",
-      srcset: "/images/lin-shidong/cover.thumb-240.webp 240w, /images/lin-shidong/cover.thumb-480.webp 480w, /images/lin-shidong/cover.thumb.webp 720w, /images/lin-shidong/cover.thumb-1000.webp 1000w, /images/lin-shidong/cover.webp 1200w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "Lin Shidong close up in China's blue shirt, reaching past the ball",
-      cat: "Player",
-      excerpt:
-        "The setup Lin Shidong plays: a gold-label Butterfly Viscaria with DHS Hurricane 3 Neo on the forehand and Butterfly Dignics 09C on the backhand.",
-    },
-    {
-      title: "Fan Zhendong's Gear: Fan Zhendong ALC, Hurricane 3 National, Dignics 09C",
-      href: "/gear/fan-zhendong/",
-      img: "/images/fan-zhendong/cover.webp",
-      srcset: "/images/fan-zhendong/cover.thumb-240.webp 240w, /images/fan-zhendong/cover.thumb-480.webp 480w, /images/fan-zhendong/cover.thumb.webp 720w, /images/fan-zhendong/cover.thumb-1000.webp 1000w, /images/fan-zhendong/cover.webp 1200w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "Fan Zhendong seen from behind on the Paris table, arms flung wide with his racket in one hand",
-      cat: "Player",
-      excerpt:
-        "The setup Fan Zhendong plays: the Butterfly Fan Zhendong ALC with DHS Hurricane 3 National blue sponge on the forehand and Butterfly Dignics 09C on the backhand.",
-    },
-    {
-      title: "Tibhar Darko Jorgic Infinity Carbon Review",
-      href: "/guide/tibhar-darko-jorgic-infinity-carbon/",
-      img: "/images/tibhar-darko-jorgic-infinity-carbon/blade_overall_1.webp",
-      srcset: "/images/tibhar-darko-jorgic-infinity-carbon/blade_overall_1.thumb-480.webp 480w, /images/tibhar-darko-jorgic-infinity-carbon/blade_overall_1.thumb.webp 720w, /images/tibhar-darko-jorgic-infinity-carbon/blade_overall_1.thumb-1000.webp 1000w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "Tibhar Darko Jorgic Infinity Carbon blade",
-      cat: "Review",
-      excerpt:
-        "An inner/outer aramid-carbon hybrid — the forehand feels like one blade, the backhand like another. Jorgic's and Li Hechen's blade, under review.",
-    },
-    {
-      title: "How to Choose a Blade: All-Wood, Outer & Inner Fiber",
-      href: "/guide/choosing-blade-structure/",
-      img: "/images/choosing-blade-structure/01.webp",
-      srcset: "/images/choosing-blade-structure/01.thumb-480.webp 480w, /images/choosing-blade-structure/01.thumb.webp 720w, /images/choosing-blade-structure/01.thumb-1000.webp 1000w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "All-wood, outer fiber and inner fiber blade structures",
-      cat: "Construction",
-      excerpt:
-        "Where the fiber sits — above or below the strength ply, or nowhere at all — decides feel, speed, dwell, and who each structure suits.",
-    },
-    {
-      title: "Essential Questions Before Buying",
-      href: "/guide/essential-questions-before-buying/",
-      img: "/images/blade-basics/01.webp",
-      srcset: "/images/blade-basics/01.thumb-480.webp 480w, /images/blade-basics/01.thumb.webp 720w, /images/blade-basics/01.thumb-1000.webp 1000w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "Butterfly Viscaria with Tibhar Hybrid K3",
-      cat: "Buying",
-      excerpt:
-        "A beginner-friendly checklist. Before you chase brand names, check six basics: weight, balance, face size, thickness, outer ply, and construction.",
-    },
-    {
-      title: "Blade Performance Metrics",
-      href: "/guide/blade-performance-metrics/",
-      img: "/images/blade-basics/03.webp",
-      srcset: "/images/blade-basics/03.thumb-480.webp 480w, /images/blade-basics/03.thumb.webp 720w, /images/blade-basics/03.thumb-1000.webp 1000w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "Assembled offensive table tennis setup",
-      cat: "Performance",
-      excerpt:
-        "When you shop for a blade, brand and looks matter less than the playing qualities underneath — six metrics that decide how a blade really plays.",
-    },
-    {
-      title: "Blade Feel Fundamentals",
-      href: "/guide/blade-feel-fundamentals/",
-      img: "/images/blade-basics/02.webp",
-      srcset: "/images/blade-basics/02.thumb-480.webp 480w, /images/blade-basics/02.webp 674w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "Two Yinhe blades with different handle shapes",
-      cat: "Feel",
-      excerpt:
-        "A practical buying guide for recreational players — how elasticity, hardness, and core wood shape the feel of a blade.",
-    },
-    {
-      title: "Accelerating With Gear",
-      href: "/guide/accelerating-with-gear/",
-      img: "/images/gear-acceleration/01.jpg",
-      srcset: "/images/gear-acceleration/01.thumb-480.webp 480w, /images/gear-acceleration/01.thumb.webp 720w, /images/gear-acceleration/01.jpg 799w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "Acceleration technique and gear setup",
-      cat: "Technique",
-      excerpt:
-        "Acceleration is first a technique story — better footwork, earlier reads, looser hands — then a gear question.",
-    },
-    {
-      title: "Hurricane 3 Multi-Stage Boosting",
-      href: "/guide/hurricane-3-multi-stage-boosting/",
-      img: "/images/h3-boost-method/01.webp",
-      srcset: "/images/h3-boost-method/01.thumb-480.webp 360w, /images/h3-boost-method/01.thumb.webp 540w, /images/h3-boost-method/01.thumb-1000.webp 750w, /images/h3-boost-method/01.webp 768w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "Boosted Hurricane 3 sponge edge",
-      cat: "Boosting",
-      excerpt:
-        "Five thin stages to a transparent, lively H3 sponge: open it, soften it deep, lock it with glue, then give it a final charge.",
-    },
-    {
-      title: "Harimoto SZLC vs SALC",
-      href: "/guide/harimoto-szlc-vs-salc/",
-      img: "/images/szlc-salc-tourney/01.jpg",
-      srcset: "/images/szlc-salc-tourney/01.thumb-480.webp 480w, /images/szlc-salc-tourney/01.jpg 552w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "Harimoto SZLC and SALC blades",
-      cat: "Comparison",
-      excerpt:
-        "Two Butterfly “Super Harimoto” inner blades look almost identical on paper — this breaks down where they really differ.",
-    },
-    {
-      title: "Outer vs Inner Fiber",
-      href: "/guide/outer-vs-inner-fiber/",
-      img: "/images/outer-vs-inner-fiber/01.webp",
-      srcset: "/images/outer-vs-inner-fiber/01.thumb-480.webp 480w, /images/outer-vs-inner-fiber/01.thumb.webp 720w, /images/outer-vs-inner-fiber/01.thumb-1000.webp 1000w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "Inner-fiber blade construction example",
-      cat: "Construction",
-      excerpt:
-        "A blade is at least 85% wood. Where the fiber sits — outer or inner — changes the feel and arc more than the fiber itself.",
-    },
-    {
-      title: "Blade Thickness, Penetration & Flatness",
-      href: "/guide/blade-thickness-and-flatness/",
-      img: "/images/blade-thickness/01.webp",
-      srcset: "/images/blade-thickness/01.thumb-480.webp 480w, /images/blade-thickness/01.thumb.webp 674w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "Custom KLC blades whose reinforcement plies are thicker than the W968's",
-      cat: "Construction",
-      excerpt:
-        "How blade thickness changes penetration, spin and speed — measured figures for the Harimoto ALC, W968 and Stiga CL, plus what blade flatness means for consistency.",
-    },
-    {
-      title: "Why Tenergy Before Dignics",
-      href: "/guide/why-tenergy-before-dignics/",
-      img: "/images/tenergy-to-dignics/03.webp",
-      srcset: "/images/tenergy-to-dignics/03.thumb-480.webp 480w, /images/tenergy-to-dignics/03.thumb.webp 720w, /images/tenergy-to-dignics/03.thumb-1000.webp 1000w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "Tenergy and Dignics rubbers",
-      cat: "Rubbers",
-      excerpt:
-        "Many Butterfly stars eventually land on Dignics — yet most of them still pass through Tenergy first.",
-    },
-    {
-      title: "Hurricane Blue vs Orange Sponge",
-      href: "/guide/hurricane-blue-vs-orange-sponge/",
-      img: "/images/hurricane-blue-orange/01.webp",
-      srcset: "/images/hurricane-blue-orange/01.thumb-480.webp 480w, /images/hurricane-blue-orange/01.webp 485w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "Hurricane 3 blue and orange sponge",
-      cat: "Rubbers",
-      excerpt:
-        "For amateurs, H3 sponge choice is not a color preference — it is matching the sponge to your technique.",
-    },
-    {
-      title: "Rubber Thickness vs Hardness",
-      href: "/guide/choosing-thickness-vs-hardness/",
-      img: "/images/rubber-thickness/01.webp",
-      srcset: "/images/rubber-thickness/01.thumb-480.webp 480w, /images/rubber-thickness/01.webp 656w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "Rubber thickness and hardness comparison",
-      cat: "Rubbers",
-      excerpt:
-        "Classic provincial Hurricane 3 examples — how thickness and hardness interact inside the H3 family.",
-    },
-    {
-      title: "Boosting Truth",
-      href: "/guide/boosting-truth/",
-      img: "/images/boosting-truth/01.webp",
-      srcset: "/images/boosting-truth/01.thumb-480.webp 480w, /images/boosting-truth/01.thumb.webp 720w, /images/boosting-truth/01.thumb-1000.webp 1000w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "Chinese tacky rubber setup on the table",
-      cat: "Boosting",
-      excerpt:
-        "Boosting is not a moral absolute — it is a tool for opening the sponge and adding spring. Here is when you actually need it.",
-    },
-    {
-      title: "How Long Rubbers Last",
-      href: "/guide/rubber-lifespan-and-durability/",
-      img: "/images/stock-rubbers/neo-h3-national-blue.jpg",
-      srcset: "/images/stock-rubbers/neo-h3-national-blue.thumb-480.webp 480w, /images/stock-rubbers/neo-h3-national-blue.thumb.webp 720w, /images/stock-rubbers/neo-h3-national-blue.thumb-1000.webp 1000w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "DHS Neo Hurricane 3 National blue sponge rubber",
-      cat: "Rubbers",
-      excerpt:
-        "How long table tennis rubbers really last — a durability ranking of Chinese, Japanese and German sheets, blue vs orange sponge life, and what actually wears out.",
-    },
-    {
-      title: "Table Tennis Kingdom Top 10 Shakehand Blades 2025",
-      href: "/guide/tt-kingdom-top-10-blades-2025/",
-      img: "/images/tt-kingdom-top-10-blades-2025/harimoto-super-alc.webp",
-      srcset: "/images/tt-kingdom-top-10-blades-2025/harimoto-super-alc.thumb-480.webp 480w, /images/tt-kingdom-top-10-blades-2025/harimoto-super-alc.thumb.webp 720w, /images/tt-kingdom-top-10-blades-2025/harimoto-super-alc.thumb-1000.webp 1000w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "Table Tennis Kingdom top 10 blades",
-      cat: "Blades",
-      excerpt:
-        "Table Tennis Kingdom's 2025 top 10 shakehand blades — from Japan's leading table tennis magazine.",
-    },
-    {
-      title: "Joola Hugo ARY-C Review",
-      href: "/guide/joola-hugo-ary-c/",
-      img: "/images/joola-hugo-ary-c/01.webp",
-      srcset: "/images/joola-hugo-ary-c/01.thumb-480.webp 480w, /images/joola-hugo-ary-c/01.thumb.webp 720w, /images/joola-hugo-ary-c/01.thumb-1000.webp 1000w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "Joola Hugo ARY-C blade",
-      cat: "Review",
-      excerpt:
-        "A Korean-made inner green aramid-carbon blade — the balance, rigidity, and violence of the Hugo ARY-C.",
-    },
-    {
-      title: "Xu Xin Blue Label vs Tibhar Felix",
-      href: "/guide/xu-xin-blue-label-vs-tibhar-felix/",
-      img: "/images/xu-xin-blue-label-vs-tibhar-felix/01.webp",
-      srcset: "/images/xu-xin-blue-label-vs-tibhar-felix/01.thumb-240.webp 240w, /images/xu-xin-blue-label-vs-tibhar-felix/01.thumb-480.webp 480w, /images/xu-xin-blue-label-vs-tibhar-felix/01.thumb.webp 720w, /images/xu-xin-blue-label-vs-tibhar-felix/01.thumb-1000.webp 1000w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
-      alt: "Xu Xin Blue Label and Tibhar Felix blades",
-      cat: "Review",
-      excerpt:
-        "Two penhold blades compared — construction, player evaluation, and which one fits your game.",
-    },
   ];
 
   var BATCH = 6;
@@ -497,16 +177,19 @@
   var observer = null;
 
   /* A guide card is a shop card — /gear/'s .mg-card recipe, class for class, so
-     the two grids are one system and the stylesheet needs no guide-specific
-     rules. What differs is only what the card is made of: no kicker, no price,
-     and a "Read more" where a build offers its photos and a quote.
+     the grid it joins is one system. What differs is only what the card is
+     made of: no kicker, no price, and a "Read more" where a build offers its
+     photos and a quote. .mg-card--guide is the one class the stylesheet keys
+     on: the handful of rules that are about a guide and not about the setup
+     cards beside it (the 200px copy block, the link-coloured title) hang off
+     it rather than off a wrapper, because both kinds of card share a grid.
 
      The card is an <article> rather than the <a> it used to be, because the
      recipe puts real links inside it; the media band is not one of them (the
      shop cards leave theirs to the lightbox). */
   function makeCard(g) {
     var card = document.createElement("article");
-    card.className = "mg-card";
+    card.className = "mg-card mg-card--guide";
 
     var media = document.createElement("div");
     media.className = "mg-card__media";
@@ -542,7 +225,10 @@
     var copy = document.createElement("div");
     copy.className = "mg-card__copy";
 
-    var title = document.createElement("h3");
+    /* An h2, as the setup cards' titles are: the two kinds of card are peers
+       in one grid and there is no section heading above them for an h2 to sit
+       under, so an h3 here would skip a level on the way down from the h1. */
+    var title = document.createElement("h2");
     title.className = "mg-card__title";
     var titleLink = document.createElement("a");
     titleLink.href = g.href;
@@ -565,9 +251,56 @@
        excerpts that do not fit have to be reachable rather than cut. Left
        unclipped the link is still a plain link to the article, which is what
        card-read-more.js does with a card it did not clip — so a short excerpt
-       keeps its old behaviour exactly. */
+       keeps its old behaviour exactly.
+
+       2026-11-04 (user: 「加上Watch Details on Youtube 按钮，也就是Watch
+       Details on Youtube or Read more」): a card that carries a video leads
+       with it — the "A or B" line the shop cards wrote before their
+       one-control pass, "or" in .mg-card__or. The YouTube link is external, so
+       it opens a tab of its own; .mg-card__zoom stays on "Read more" alone,
+       because that is the disclosure card-read-more.js and the lightbox look
+       for. */
     var more = document.createElement("p");
     more.className = "mg-card__more mg-card__more--split";
+    if (g.video) {
+      var watch = document.createElement("a");
+      watch.href = g.video;
+      watch.target = "_blank";
+      watch.rel = "noopener noreferrer";
+      /* The mark is drawn, not fetched: one path, the rounded badge with the
+         play triangle knocked out by evenodd, so it takes the link's own ink
+         (currentColor) instead of dropping a brand red into a warm-grey page.
+         aria-hidden, because the words beside it already say YouTube. */
+      var svgNs = "http://www.w3.org/2000/svg";
+      var mark = document.createElementNS(svgNs, "svg");
+      mark.setAttribute("class", "mg-card__yt");
+      mark.setAttribute("viewBox", "0 0 24 17");
+      mark.setAttribute("aria-hidden", "true");
+      mark.setAttribute("focusable", "false");
+      var shape = document.createElementNS(svgNs, "path");
+      shape.setAttribute("fill-rule", "evenodd");
+      shape.setAttribute(
+        "d",
+        "M23.5 2.66a3 3 0 0 0-2.11-2.12C19.5 0 12 0 12 0S4.5 0 2.61.54A3 3 0 0 0 .5 2.66" +
+          "C0 4.57 0 8.5 0 8.5s0 3.93.5 5.84a3 3 0 0 0 2.11 2.12C4.5 17 12 17 12 17" +
+          "s7.5 0 9.39-.54a3 3 0 0 0 2.11-2.12c.5-1.91.5-5.84.5-5.84s0-3.93-.5-5.84z" +
+          "M9.55 12.14V4.86L15.85 8.5z"
+      );
+      mark.appendChild(shape);
+      watch.appendChild(mark);
+      watch.appendChild(document.createTextNode("Watch Details on YouTube"));
+      more.appendChild(watch);
+      /* The spaces are text nodes, not padding: a flex item that is nothing
+         but white space is not laid out, so the line's 8px gap still sets the
+         spacing while the line's text reads as a sentence — which is what a
+         screen reader gets out of "Watch Details on YouTubeorRead more". */
+      more.appendChild(document.createTextNode(" "));
+      var or = document.createElement("em");
+      or.className = "mg-card__or";
+      or.textContent = "or";
+      more.appendChild(or);
+      more.appendChild(document.createTextNode(" "));
+    }
     var link = document.createElement("a");
     link.className = "mg-card__zoom";
     link.href = g.href;
@@ -599,9 +332,9 @@
       if (sentinel) sentinel.style.display = "none";
       if (status)
         status.textContent =
-          "All " + MG_GUIDES.length + " guides loaded.";
+          "All " + MG_GUIDES.length + " loaded.";
     } else if (status) {
-      status.textContent = "Showing " + idx + " of " + MG_GUIDES.length + " guides";
+      status.textContent = "Showing " + idx + " of " + MG_GUIDES.length;
     }
   }
 
