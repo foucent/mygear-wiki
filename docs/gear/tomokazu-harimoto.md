@@ -42,7 +42,7 @@ The blade is Butterfly's **Harimoto Tomokazu Innerforce Super ALC**, his signatu
 
 On **both wings** he plays [ZYRE-03](zyre-03.md), Butterfly's newest flagship: a clean, non-tacky Ricosheet topsheet over an extra-thick Spring Sponge X tuned hard, with the highest spin figure Butterfly lists for a rubber. The tacky side of the family is not in this setup at all — he loads serve and the opening loop with the sheet's own grip rather than with surface stickiness, and the sponge gives the pace back on a full swing. His forehand came up through Tenergy 80 and then Tenergy 05 before this, and his backhand through Tenergy 05FX and Tenergy 05, the same progression our [Tenergy before Dignics](../guide/why-tenergy-before-dignics.md) guide describes for the high-tension line.
 
-The rubbers are on the [Rubbers price table](../rubbers.md); the blades table currently lists the [Harimoto Innerforce ALC](../blades.md), so name the Super ALC in the quote request if that is the one you want.
+The rubbers are on the [Rubbers price table](../rubbers.md), and both blades are on the [Blades price table](../blades.md): the Harimoto Tomokazu Innerforce Super ALC at $168 and the [Harimoto Innerforce ALC](harimoto-innerforce-alc.md) at $130.
 
 ## Ordering
 

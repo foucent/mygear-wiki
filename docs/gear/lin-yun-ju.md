@@ -39,7 +39,7 @@ He is a left-handed shakehand attacker, and the blade under it is Butterfly's **
 
 On the **forehand** he plays [ZYRE-03](zyre-03.md), the clean Ricosheet topsheet over an extra-thick Spring Sponge X; before it, Tenergy 05 Hard. On the **backhand** he plays [Dignics 05](dignics-05.md), the non-tacky high-tension sheet of the Dignics line — and ZYRE-03 is what he had there before this, so the two sheets swapped sides rather than one simply replacing the other. The short version of that move: the newest, firmest sheet on the forehand, and the long-standing Dignics 05 back on the wing where he blocks and counters off the bounce.
 
-Both rubbers are on the [Rubbers price table](../rubbers.md). The blades table lists a Viscaria and the Fan Zhendong ALC, but not the Super ALC, so name it in the quote request.
+Both rubbers are on the [Rubbers price table](../rubbers.md), and the blade is on the [Blades price table](../blades.md) as the Viscaria Super ALC at $208.
 
 ## Ordering
 

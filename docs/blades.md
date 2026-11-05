@@ -259,6 +259,32 @@ hide:
     <h3 class="mg-preowned-card__title">Fan Zhendong ALC <span class="mg-preowned-card__price">$159</span></h3>
     <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Fan Zhendong ALC to cart" data-name="Fan Zhendong ALC" data-price="159"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
+  <!-- Two blades added on 2026-11-06, each at the price the shop gave that
+       day: Harimoto Tomokazu Innerforce Super ALC $168 and Viscaria Super ALC
+       $208. Neither had a price on this page before, so both player cards
+       on the homepage (Tomokazu Harimoto's and Lin Yun-Ju's) asked for a
+       quote; now they print these numbers instead. The photos are the
+       shop's own catalogue shots, square on white. The Harimoto file is
+       450px, so its srcset stops at the source — a 240 rung and the .jpg
+       itself, no upscaled rung; the Viscaria is 1200px and takes the usual
+       240/480/720/1000 ladder. Both are square, so the centred frame has
+       nothing to crop and neither card needs --fit. -->
+  <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media">
+      <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
+      <img src="/images/price-list/blades/harimoto-tomokazu-innerforce-super-alc.thumb.webp" data-full-src="/images/price-list/blades/harimoto-tomokazu-innerforce-super-alc.jpg" srcset="/images/price-list/blades/harimoto-tomokazu-innerforce-super-alc.thumb-240.webp 240w, /images/price-list/blades/harimoto-tomokazu-innerforce-super-alc.jpg 450w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Harimoto Tomokazu Innerforce Super ALC" loading="lazy" decoding="async">
+    </div>
+    <h3 class="mg-preowned-card__title">Harimoto Tomokazu Innerforce Super ALC <span class="mg-preowned-card__price">$168</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Harimoto Tomokazu Innerforce Super ALC to cart" data-name="Harimoto Tomokazu Innerforce Super ALC" data-price="168"><span aria-hidden="true">+</span><span>Add to cart</span></button>
+  </article>
+  <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media">
+      <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
+      <img src="/images/price-list/blades/viscaria-super-alc.thumb.webp" data-full-src="/images/price-list/blades/viscaria-super-alc.jpg" srcset="/images/price-list/blades/viscaria-super-alc.thumb-240.webp 240w, /images/price-list/blades/viscaria-super-alc.thumb-480.webp 480w, /images/price-list/blades/viscaria-super-alc.thumb.webp 720w, /images/price-list/blades/viscaria-super-alc.thumb-1000.webp 1000w, /images/price-list/blades/viscaria-super-alc.jpg 1200w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Viscaria Super ALC" loading="lazy" decoding="async">
+    </div>
+    <h3 class="mg-preowned-card__title">Viscaria Super ALC <span class="mg-preowned-card__price">$208</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Viscaria Super ALC to cart" data-name="Viscaria Super ALC" data-price="208"><span aria-hidden="true">+</span><span>Add to cart</span></button>
+  </article>
   <article class="mg-preowned-card" role="listitem">
     <div class="mg-preowned-card__media">
       <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>

@@ -233,11 +233,14 @@ description: "Get brand-new table tennis blades, popular rubbers, and sports gea
        else on the card moved, and the ten player cards below took the same
        shape that day, each line carrying its own price off the two tables.
        Where the table does not list the piece the row says "Price on
-       request" rather than a number: Harimoto's Super ALC, Franziska's ZLC,
-       Lin Yun-Ju's Viscaria Super ALC, Lin Shidong's Viscaria Golden, Hugo's
-       Hyper Axylium, Wang Chuqin's Hurricane 8, Lebrun's Hybrid K3 Pro and
-       Truls's Helix Platinum XH are all name-it-in-the-quote pieces on their
-       own /gear/ pages. The shop's name for a piece is not always the card's:
+       request" rather than a number: Franziska's ZLC, Lin Shidong's Viscaria
+       Golden, Hugo's Hyper Axylium, Wang Chuqin's Hurricane 8, Lebrun's
+       Hybrid K3 Pro and Truls's Helix Platinum XH are all name-it-in-the-
+       quote pieces on their own /gear/ pages. Harimoto's Super ALC and Lin
+       Yun-Ju's Viscaria Super ALC left that list on 2026-11-06, when both
+       blades joined /blades/ at the shop's price — $168 and $208.
+
+       The shop's name for a piece is not always the card's:
        Wang Chuqin's and Fan Zhendong's Hurricane 3 National is the table's
        Neo H3 National Blue at $50, Lin Shidong's Hurricane 3 Neo is the
        table's Neo Hurricane 3 at $23, and Truls's Cybershape Carbon is the
@@ -324,7 +327,7 @@ description: "Get brand-new table tennis blades, popular rubbers, and sports gea
     </div>
     <div class="mg-card__copy">      <h2 class="mg-card__title">Tomokazu Harimoto's setup</h2>
       <p class="mg-card__desc mg-card__desc--lines">
-        <span class="mg-card__line">Butterfly Harimoto Innerforce Super ALC / <span class="mg-card__line-price mg-card__line-price--ask">Price on request</span></span>
+        <span class="mg-card__line">Butterfly Harimoto Innerforce Super ALC / <span class="mg-card__line-price">$168</span></span>
         <span class="mg-card__line">Butterfly ZYRE-03 · Both Sides / <span class="mg-card__line-price">$89</span></span>
       </p>
       <p class="mg-card__more mg-card__more--split">
@@ -426,7 +429,7 @@ description: "Get brand-new table tennis blades, popular rubbers, and sports gea
     </div>
     <div class="mg-card__copy">      <h2 class="mg-card__title">Lin Yun-Ju's setup</h2>
       <p class="mg-card__desc mg-card__desc--lines">
-        <span class="mg-card__line">Butterfly Viscaria Super ALC / <span class="mg-card__line-price mg-card__line-price--ask">Price on request</span></span>
+        <span class="mg-card__line">Butterfly Viscaria Super ALC / <span class="mg-card__line-price">$208</span></span>
         <span class="mg-card__line">Butterfly ZYRE-03 / <span class="mg-card__line-price">$89</span></span>
         <span class="mg-card__line">Butterfly Dignics 05 / <span class="mg-card__line-price">$68</span></span>
       </p>
@@ -502,6 +505,117 @@ description: "Get brand-new table tennis blades, popular rubbers, and sports gea
       </p>
       <p class="mg-card__more mg-card__more--split">
         <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20Fan%20Zhendong%20ALC%20with%20Hurricane%203%20National%20on%20the%20forehand%20and%20Dignics%2009C%20on%20the%20backhand.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>
+      </p>
+    </div>
+  </article>
+
+  <!-- Zhou Qihao joined 2026-11-06, the twelfth player card, from a screenshot
+       of his gear profile (user: 「根据图片中的内容，以 …… 为模板生成新的卡片」).
+       The profile lists the blade and the two rubbers and nothing else — the
+       blade is Double Fish's Project Z, his own edition; the forehand is a
+       National Hurricane 3 with the blue sponge, the backhand Dignics 09C —
+       so the card is three rows, the same three-part shape as the eleven
+       above it.
+
+       The band is an action photograph of him serving — racket pulled up
+       over his head, the ball hanging in front of his face, the hall black
+       behind him — sent the same day as the card (user: 「用这张图作为封面
+       图」). The file is 3240px wide and 3:2 to the pixel, so the band takes
+       the full rung ladder the other bands have — 240, 480, 720, 1000 and
+       1200 — five sizes of one file and no enlargement anywhere. The card was first built with the portrait
+       cut from his profile screenshot, which was 468px wide — exactly the
+       width the band is drawn at, so it could not fill a 2x rung — and that
+       band lasted only until this photograph arrived, before anything was
+       published. The lid of the shop's Project Z box was the other candidate
+       and had been dropped too: it carries the same portrait in a much
+       larger file, but the box is photographed at an angle, so every
+       straight cut wide enough to keep his face and the racket also pulls in
+       the white table round the box's corners, and a product shot sitting in
+       a row of action bands reads as the wrong kind of picture.
+
+       The lightbox is photos only, like the eleven above: the blade face with
+       his name and signature on it, then the two rubbers, the same
+       neo-h3-national-blue and dignics-09c files the Fan Zhendong card
+       walks. The blade's row asks rather than prices, because /blades/
+       carries no list price for it: Double Fish sells through its own
+       channels. The rubbers are $50 and $73, the prices their own cards on
+       /rubbers/ show. The profile's name for the forehand rubber is the
+       table's "Neo H3 National Blue", spelled out as the table's own alt
+       text spells it: DHS Neo Hurricane 3 National Blue. -->
+
+  <article class="mg-card mg-card--player">
+    <div class="mg-card__media">
+      <img src="/images/zhou-qihao/cover.thumb.webp" data-full-src="/images/zhou-qihao/cover.webp" srcset="/images/zhou-qihao/cover.thumb-240.webp 240w, /images/zhou-qihao/cover.thumb-480.webp 480w, /images/zhou-qihao/cover.thumb.webp 720w, /images/zhou-qihao/cover.thumb-1000.webp 1000w, /images/zhou-qihao/cover.webp 1200w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Zhou Qihao serving with his racket raised above his head and the ball in front of his face" width="1200" height="800" loading="lazy" decoding="async" data-gallery="/images/double-fish-zhou-qihao-project-z/01.webp|Double Fish Zhou Qihao Project Z blade face with his name and signature,/images/stock-rubbers/neo-h3-national-blue.jpg|DHS Hurricane 3 National blue sponge rubber in its sealed packet,/images/dignics-09c/01.jpg|Butterfly Dignics 09C rubber sheets in red and black">
+    </div>
+    <div class="mg-card__copy">      <h2 class="mg-card__title">Zhou Qihao's setup</h2>
+      <p class="mg-card__desc mg-card__desc--lines">
+        <span class="mg-card__line">Double Fish Zhou Qihao Project Z / <span class="mg-card__line-price mg-card__line-price--ask">Price on request</span></span>
+        <span class="mg-card__line">DHS Neo Hurricane 3 National / <span class="mg-card__line-price">$50</span></span>
+        <span class="mg-card__line">Butterfly Dignics 09C / <span class="mg-card__line-price">$73</span></span>
+      </p>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20Zhou%20Qihao%20Project%20Z%20with%20Neo%20Hurricane%203%20National%20on%20the%20forehand%20and%20Dignics%2009C%20on%20the%20backhand.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>
+      </p>
+    </div>
+  </article>
+
+  <!-- Wen Ruibo and Li Tianyang joined the same day, the thirteenth and
+       fourteenth player cards, from the same batch as Zhou Qihao's (user:
+       「还有这两名选手」, with a profile screenshot and a match frame each).
+       Both play the National Hurricane 3 with the blue sponge on the
+       forehand, so both cards carry it at the table's $50.
+
+       Wen Ruibo's blade is Stiga's Luma Hybrid Carbon and his backhand a
+       sheet of DNA Hybrid XH. Neither is on /blades/ or /rubbers/, so both
+       rows ask instead of pricing — and the DNA Hybrid M that /rubbers/ does
+       carry at $38 is a different sheet in the same family, not this one, so
+       it is not borrowed. His band is the serve: the ball in the air above
+       his left hand, his eyes on it. It comes in at 1068px, so the ladder
+       stops one rung short of 1200.
+
+       Li Tianyang's blade is the DHS Classic 08X, which /blades/ prices at
+       $50, and his backhand is Friendship 729's 802-40 short pimples — a
+       chopper's backhand, and the one piece of his gear the shop does not
+       list, so it asks. His band is a broadcast frame from the Asian
+       Championships, the scoreboard's 4-6 still in the corner: 1242px, so
+       again no 1200 rung.
+
+       Both lightboxes are photos only, like the cards above. The blade and
+       two rubbers of Wen Ruibo's and the 802-40 of Li Tianyang's are the
+       profiles' own catalogue shots, the only photographs of those three
+       pieces that exist — 285px and 380px at source, doubled on the way in
+       the way Wang Chuqin's shoes and shirt were, and the only files here
+       that are enlargements. The Classic 08X and the blue-sponge sheet are
+       the shop's own photos, the same files /blades/ and /rubbers/ show. -->
+
+  <article class="mg-card mg-card--player">
+    <div class="mg-card__media">
+      <img src="/images/wen-ruibo/cover.thumb.webp" data-full-src="/images/wen-ruibo/cover.webp" srcset="/images/wen-ruibo/cover.thumb-240.webp 240w, /images/wen-ruibo/cover.thumb-480.webp 480w, /images/wen-ruibo/cover.thumb.webp 720w, /images/wen-ruibo/cover.thumb-1000.webp 1000w, /images/wen-ruibo/cover.webp 1068w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Wen Ruibo tossing the ball up to serve with his eyes on it and a dark purple hall behind him" width="1068" height="712" loading="lazy" decoding="async" data-gallery="/images/wen-ruibo/blade.webp|Stiga Luma Hybrid Carbon blade with the STIGA badge on the face,/images/stock-rubbers/neo-h3-national-blue.jpg|DHS Hurricane 3 National blue sponge rubber in its sealed packet,/images/wen-ruibo/backhand.webp|Stiga DNA Hybrid XH rubber in its box">
+    </div>
+    <div class="mg-card__copy">      <h2 class="mg-card__title">Wen Ruibo's setup</h2>
+      <p class="mg-card__desc mg-card__desc--lines">
+        <span class="mg-card__line">Stiga Luma Hybrid Carbon / <span class="mg-card__line-price mg-card__line-price--ask">Price on request</span></span>
+        <span class="mg-card__line">DHS Neo Hurricane 3 National / <span class="mg-card__line-price">$50</span></span>
+        <span class="mg-card__line">Stiga DNA Hybrid XH / <span class="mg-card__line-price mg-card__line-price--ask">Price on request</span></span>
+      </p>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20Stiga%20Luma%20Hybrid%20Carbon%20with%20Neo%20Hurricane%203%20National%20on%20the%20forehand%20and%20DNA%20Hybrid%20XH%20on%20the%20backhand.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card mg-card--player">
+    <div class="mg-card__media">
+      <img src="/images/li-tianyang/cover.thumb.webp" data-full-src="/images/li-tianyang/cover.webp" srcset="/images/li-tianyang/cover.thumb-240.webp 240w, /images/li-tianyang/cover.thumb-480.webp 480w, /images/li-tianyang/cover.thumb.webp 720w, /images/li-tianyang/cover.thumb-1000.webp 1000w, /images/li-tianyang/cover.webp 1242w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Li Tianyang mid-stroke in a black and purple shirt with his racket low and his free arm stretched out" width="1242" height="828" loading="lazy" decoding="async" data-gallery="/images/price-list/blades/dhs-classic-08x.jpg|DHS Classic 08X blade with the 08 badge on the handle,/images/stock-rubbers/neo-h3-national-blue.jpg|DHS Hurricane 3 National blue sponge rubber in its sealed packet,/images/li-tianyang/backhand.webp|Friendship 729 802-40 short pimples rubber in its packet">
+    </div>
+    <div class="mg-card__copy">      <h2 class="mg-card__title">Li Tianyang's setup</h2>
+      <p class="mg-card__desc mg-card__desc--lines">
+        <span class="mg-card__line">DHS Classic 08X / <span class="mg-card__line-price">$50</span></span>
+        <span class="mg-card__line">DHS Neo Hurricane 3 National / <span class="mg-card__line-price">$50</span></span>
+        <span class="mg-card__line">Friendship 729 802-40 / <span class="mg-card__line-price mg-card__line-price--ask">Price on request</span></span>
+      </p>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20DHS%20Classic%2008X%20with%20Neo%20Hurricane%203%20National%20on%20the%20forehand%20and%20Friendship%20729%20802-40%20on%20the%20backhand.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>
       </p>
     </div>
   </article>
