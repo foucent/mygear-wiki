@@ -531,6 +531,40 @@
   color: var(--ab-text-muted);
 }
 
+/* The player cards' gear lists (2026-11-06, user: 「…每款商品都占一行，并分别
+   标它们的价格」, then 「每行要用类似这样的格式 Rivay Porto Linen Cotton
+   Sweater / $628.」, then 「其它几个类似的卡片都以 …… 为模板标注价格」). Each
+   card's one desc line stacks its pieces, and each row reads "name / price"
+   on one line — a slash and the price the product's own card shows, not a
+   price column at the card's edge. The trailing full stop in the user's
+   example is left off: nothing else on the site ends a price with one. The
+   name keeps the paragraph's serif and muted colour; the price is the sans
+   and the red the title prices use. */
+.md-typeset .mg-card__desc--lines {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.md-typeset .mg-card__line {
+  display: block;
+}
+
+.md-typeset .mg-card__line-price {
+  font-family: var(--ab-sans);
+  font-weight: 900;
+  color: var(--ab-red);
+  white-space: nowrap;
+}
+
+/* The pieces the price tables do not list. They say "Price on request" where a
+   number would go (user, 2026-11-06), in the muted ink rather than the price
+   red: the row is answering the same question, not shouting a number. */
+.md-typeset .mg-card__line-price--ask {
+  font-weight: 700;
+  color: var(--ab-text-muted);
+}
+
 /* (.mg-card__desc--clamped and the container query that sized it stood here
    until 2026-11-04: the player cards on /gear/ carried a paragraph and it was
    held to the height the build cards' chips had taken. The player's identity
@@ -813,14 +847,28 @@
       one, which is most of the block. The rule that said so here is gone: the
       grid's own 20px rule above is what every title in the grid gets now.
 
-   2. On the two-column rung the copy is a fixed 200px, so a row of cards is
+   2. On the two-column rung the copy is a fixed 164px, so a row of cards is
       one height top to bottom instead of stretching to whichever neighbour
       wrote the most. It is fixed only there.
 
+      2026-11-06 (user: 「卡片行内的空白太多了，需要减少至少二行」): the block
+      was 200px, and most of the 200 was air. Measured on the built page, the
+      tallest guide card's copy — a two-line title, a three-line excerpt and
+      the action line — is 138px of text, and its gaps (16px of headroom,
+      12px under the title, 12px under the excerpt) bring it to 178, so the
+      block left 22px spare in every guide card. The setup cards, whose gear
+      lists run two lines shorter, carried 38px of it, as a gap above their
+      action line. So the gaps are trimmed here as well as the block: 8px
+      each, and the card's own bottom padding 20px to 12px. A card comes from
+      534px to 490 — two lines — and the tallest copy still clears the block
+      by a pixel. The grid is grid-auto-rows: 1fr, so the block sets every
+      card's height, not just the guide cards', and this is a change to the
+      whole page, made deliberately.
+
    3. The excerpt is never folded. The wide column fits every excerpt in the
-      200px whole, so "Read more" is a plain link to the guide. The narrow
+      164px block whole, so "Read more" is a plain link to the guide. The narrow
       column is a different case — the same paragraph needs four to six lines
-      there and no 200px block can hold it — and it used to fold the text at
+      there and no 164px block can hold it — and it used to fold the text at
       two lines and turn that link into a disclosure opening the paragraph
       over the card. A card should read the same on a phone as on a desktop,
       so below 1100 the copy block gives the height up instead: auto height,
@@ -833,10 +881,32 @@
    used to sit here went with the wrapper. */
 .md-typeset .mg-card--guide .mg-card__copy {
   /* Border-box, or the 20px of side padding .mg-card__copy carries would ride
-     on top of the 200 and the block would be 200 only for the one card whose
+     on top of the 164 and the block would be 164 only for the one card whose
      text happens to fit. */
   box-sizing: border-box;
-  height: 200px;
+  height: 164px;
+}
+
+/* The gaps this grid's cards read with (point 2 above). They are trimmed here
+   rather than on .mg-card__title and friends because those rules are the whole
+   site's, and the trim is about the feed: the same attribute that states this
+   grid's clamp budget is what scopes it. The setup cards are static markup and
+   the guide cards are built by guide-grid.js, but both are in this grid, so
+   both read these. */
+.md-typeset .mg-card-grid[data-mg-clamp-fixed] .mg-card {
+  padding-bottom: 12px;
+}
+
+.md-typeset .mg-card-grid[data-mg-clamp-fixed] .mg-card__copy > :first-child {
+  margin-top: 8px;
+}
+
+.md-typeset .mg-card-grid[data-mg-clamp-fixed] .mg-card__title {
+  margin-bottom: 8px;
+}
+
+.md-typeset .mg-card-grid[data-mg-clamp-fixed] .mg-card__desc {
+  margin-bottom: 8px;
 }
 
 @media (max-width: 1099.98px) {
