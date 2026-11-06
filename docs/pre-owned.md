@@ -497,10 +497,10 @@ hide:
       <td>DHS Long 5X | FL | 90g</td>
       <td style="text-align:right">$69</td>
     </tr>
-<tr data-added="2026-10-10">
+<tr data-added="2026-11-06">
       <td><img src="/images/dhs-s968-no-12-87g/01.thumb.webp" data-full-src="/images/dhs-s968-no-12-87g/01.jpg" srcset="/images/dhs-s968-no-12-87g/01.thumb-240.webp 180w, /images/dhs-s968-no-12-87g/01.thumb-480.webp 360w, /images/dhs-s968-no-12-87g/01.thumb.webp 540w, /images/dhs-s968-no-12-87g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS S968 | No.12 | 87g | Original Box" loading="lazy" data-gallery="/images/dhs-s968-no-12-87g/01.jpg,/images/dhs-s968-no-12-87g/02.jpg,/images/dhs-s968-no-12-87g/03.jpg,/images/dhs-s968-no-12-87g/04.jpg,/images/dhs-s968-no-12-87g/05.jpg,/images/dhs-s968-no-12-87g/06.jpg,/images/dhs-s968-no-12-87g/07.jpg"></td>
       <td>DHS S968 | No.12 | 87g | Original Box</td>
-      <td style="text-align:right">$239</td>
+      <td style="text-align:right">$238</td>
     </tr>
 <tr data-added="2026-10-10">
       <td><img src="/images/dhs-w968-no-08-88g/01.thumb.webp" data-full-src="/images/dhs-w968-no-08-88g/01.jpg" srcset="/images/dhs-w968-no-08-88g/01.thumb-240.webp 180w, /images/dhs-w968-no-08-88g/01.thumb-480.webp 360w, /images/dhs-w968-no-08-88g/01.thumb.webp 540w, /images/dhs-w968-no-08-88g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS W968 | No.08 | 88g | Original Box" loading="lazy" data-gallery="/images/dhs-w968-no-08-88g/01.jpg,/images/dhs-w968-no-08-88g/02.jpg,/images/dhs-w968-no-08-88g/03.jpg,/images/dhs-w968-no-08-88g/04.jpg,/images/dhs-w968-no-08-88g/05.jpg,/images/dhs-w968-no-08-88g/06.jpg,/images/dhs-w968-no-08-88g/07.jpg"></td>
@@ -591,6 +591,11 @@ hide:
       <td><img src="/images/harimoto-salc-k-code-86g/01.thumb.webp" data-full-src="/images/harimoto-salc-k-code-86g/01.jpg" srcset="/images/harimoto-salc-k-code-86g/01.thumb-240.webp 180w, /images/harimoto-salc-k-code-86g/01.thumb-480.webp 360w, /images/harimoto-salc-k-code-86g/01.thumb.webp 540w, /images/harimoto-salc-k-code-86g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Harimoto SALC | K-Code | JP | 86g" loading="lazy" data-gallery="/images/harimoto-salc-k-code-86g/01.jpg,/images/harimoto-salc-k-code-86g/02.jpg,/images/harimoto-salc-k-code-86g/03.jpg,/images/harimoto-salc-k-code-86g/04.jpg,/images/harimoto-salc-k-code-86g/05.jpg,/images/harimoto-salc-k-code-86g/06.jpg,/images/harimoto-salc-k-code-86g/07.jpg"></td>
       <td>Harimoto SALC | K-Code | JP | 86g</td>
       <td style="text-align:right">$122</td>
+    </tr>
+<tr data-added="2026-11-06">
+      <td><img src="/images/fan-zd-salc-y-code-cn-87g/01.thumb.webp" data-full-src="/images/fan-zd-salc-y-code-cn-87g/01.jpg" srcset="/images/fan-zd-salc-y-code-cn-87g/01.thumb-240.webp 180w, /images/fan-zd-salc-y-code-cn-87g/01.thumb-480.webp 360w, /images/fan-zd-salc-y-code-cn-87g/01.thumb.webp 540w, /images/fan-zd-salc-y-code-cn-87g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Fan ZD SALC | Y-Code | CN | 87g" loading="lazy" data-gallery="/images/fan-zd-salc-y-code-cn-87g/01.jpg,/images/fan-zd-salc-y-code-cn-87g/02.jpg,/images/fan-zd-salc-y-code-cn-87g/03.jpg,/images/fan-zd-salc-y-code-cn-87g/04.jpg,/images/fan-zd-salc-y-code-cn-87g/05.jpg,/images/fan-zd-salc-y-code-cn-87g/06.jpg,/images/fan-zd-salc-y-code-cn-87g/07.jpg"></td>
+      <td>Fan ZD SALC | Y-Code | CN | 87g</td>
+      <td style="text-align:right">$170</td>
     </tr>
 <tr>
       <td><img src="/images/viscaria-w-code-cn-86g/01.thumb.webp" data-full-src="/images/viscaria-w-code-cn-86g/01.jpg" srcset="/images/viscaria-w-code-cn-86g/01.thumb-240.webp 180w, /images/viscaria-w-code-cn-86g/01.thumb-480.webp 360w, /images/viscaria-w-code-cn-86g/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Viscaria | W-Code | CN | 86g" loading="lazy" data-gallery="/images/viscaria-w-code-cn-86g/01.jpg,/images/viscaria-w-code-cn-86g/02.jpg,/images/viscaria-w-code-cn-86g/03.jpg,/images/viscaria-w-code-cn-86g/05.jpg,/images/viscaria-w-code-cn-86g/06.jpg,/images/viscaria-w-code-cn-86g/07.jpg,/images/viscaria-w-code-cn-86g/08.jpg"></td>
