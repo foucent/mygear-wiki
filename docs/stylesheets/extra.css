@@ -3294,3 +3294,127 @@ html.md-no-js .md-typeset .mg-bio__toggle {
   background: var(--ab-accent-deep) !important;
   color: #fff !important;
 }
+
+/* ---- VIP rewards (/vip/): points lookup + result ----
+   The worker answers {found, tier, points} or {found:false, message}; the
+   three note variants below are the three ways the box can end up: a real
+   balance (green left rule), a miss (plain), an error (red). */
+.mg-vip {
+  max-width: 34rem;
+  margin: 1.25rem 0 0.5rem;
+  padding: 1.25rem 1.15rem 1.15rem;
+  border: 1px solid var(--ab-line);
+  border-radius: 0.65rem;
+  background: var(--ab-panel-2);
+}
+.mg-vip__label {
+  display: block;
+  margin: 0 0 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--ab-text);
+}
+.mg-vip__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.md-typeset .mg-vip__input {
+  flex: 1 1 12rem;
+  min-width: 0;
+  margin: 0;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--ab-line);
+  border-radius: 0;
+  background: #ffffff;
+  color: var(--ab-text);
+  font: inherit;
+  font-size: 0.82rem;
+}
+.md-typeset .mg-vip__input:focus {
+  border-color: var(--ab-accent-deep);
+  outline: 2px solid var(--ab-accent-deep);
+  outline-offset: 1px;
+}
+.md-typeset .mg-vip__btn {
+  flex: 0 0 auto;
+  padding: 0.55rem 1.15rem;
+  border: 0;
+  border-radius: 0;
+  background: var(--ab-accent-deep);
+  color: #ffffff;
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.md-typeset .mg-vip__btn:hover {
+  background: var(--ab-text);
+}
+.md-typeset .mg-vip__btn:disabled {
+  opacity: 0.6;
+  cursor: progress;
+}
+.mg-vip__result {
+  margin-top: 1rem;
+  font-size: 0.82rem;
+}
+.mg-vip__result:empty {
+  margin-top: 0;
+}
+.mg-vip__note {
+  margin: 0;
+  padding: 0.6rem 0.75rem;
+  border-left: 3px solid var(--ab-line);
+  background: #ffffff;
+  color: var(--ab-text-muted);
+}
+.mg-vip__note--error {
+  border-left-color: var(--ab-red);
+  color: var(--ab-red);
+}
+/* The error line carries the WhatsApp link; underline it so it reads as one
+   inside a paragraph that is otherwise all the same red. */
+.mg-vip__note a {
+  color: inherit;
+  text-decoration: underline;
+}
+.mg-vip__card {
+  padding: 0.85rem 1rem;
+  border-left: 3px solid var(--ab-green);
+  background: #eef6f0;
+}
+.mg-vip__card-title {
+  margin: 0 0 0.4rem;
+  font-weight: 700;
+  color: var(--ab-text);
+}
+.mg-vip__line {
+  margin: 0;
+  line-height: 1.5;
+  color: var(--ab-text);
+}
+.mg-vip__points {
+  font-size: 1.05rem;
+  color: var(--ab-red);
+}
+.mg-vip__redeem {
+  margin: 0.55rem 0 0;
+  font-size: 0.75rem;
+  color: var(--ab-text-muted);
+}
+.mg-vip__redeem a {
+  font-weight: 700;
+}
+@media (max-width: 600px) {
+  .mg-vip {
+    padding: 1.1rem 0.85rem 1rem;
+  }
+
+  /* 12rem of basis plus the button is wider than the box on a phone, which
+     put the button on its own line; 8rem keeps them side by side and still
+     grows the input to the rest of the row. */
+  .md-typeset .mg-vip__input {
+    flex-basis: 8rem;
+  }
+}

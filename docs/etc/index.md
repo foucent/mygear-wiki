@@ -32,6 +32,51 @@ hide:
 
 <div class="mg-card-grid" markdown="0">
 
+  <!-- 2026-11-07 (user: 「将首页中的 Fan Zhendong's match shoe $125 / Li-Ning
+       Qilin 2.0 PE 移到 http://127.0.0.1:8001/etc/ 页中」): the Qilin card
+       left the homepage and opens this grid now. Markup, price, photos and
+       behaviour are unchanged — only where it sits. Its own history, from the
+       day it joined the homepage on 2026-11-04, still explains its shape:
+
+       First (user: 「将 https://mygear.top/add-ons/ 页中的 Li-Ning Qilin 2.0 PE
+       $125 移到 https://mygear.top/gear/ 中我想看看效果」) it left /add-ons/ and
+       was rewritten in the homepage grid's recipe — 3:2 band, title with the
+       price at its end, one action line. Second pass, same day (user: 「将 主标题
+       和副标题合并成主标题，然后将 The Li-Ning Qilin 2.0 PE is the table tennis
+       shoe… 去掉… 参考 acebase.cc/gear/ 的卡片样式」): the subtitle joined the
+       title after an em dash and the paragraph came off, the shape the add-ons
+       cards below have. Third pass, same day (user: 「将 Li-Ning Qilin 2.0 PE —
+       Fan Zhendong's match shoe $125 … 的标题改为 Fan Zhendong's match shoe，
+       描述改为 Li-Ning Qilin 2.0 PE」): the two halves swapped — the title is
+       the line that says what the shoe is, the price still at its end, and the
+       product's own name sits under it as the card's one-line .mg-card__desc.
+
+       What it brought over from /add-ons/ is its substance: the photo set in
+       data-gallery, the $125 price, and the .mg-cart-add button price-cart.js
+       binds on any .mg-card. No data-lightbox-spec, so the lightbox opens
+       bare like the player cards'. The photos are the shop's own; nothing was
+       reshot.
+
+       2026-11-07, later (user: 「将 … 的第1和第3张图删除」): 01 (the pair on
+       the balcony) and 03 (one shoe on a leg, in a shop) came out of the set,
+       leaving five — 02 the boxed pair in tissue paper, then the four match
+       shots 04–07. 02 is the cover now, so the card's src, data-full-src and
+       srcset were repointed at it; 02 has a .thumb.webp and its original,
+       nothing between, so the srcset is those two widths (540w / 960w) and
+       not the four-step ladder 01 had. 01 and 03 keep their files under
+       /images/lining-qilin-2-pe/ — nothing on the site points at them now. -->
+  <article class="mg-card">
+    <div class="mg-card__media">
+      <img src="/images/lining-qilin-2-pe/02.thumb.webp" data-full-src="/images/lining-qilin-2-pe/02.jpg" srcset="/images/lining-qilin-2-pe/02.thumb.webp 540w, /images/lining-qilin-2-pe/02.jpg 960w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Li-Ning Qilin 2.0 PE table tennis shoe in blue and white" loading="lazy" decoding="async" data-gallery="/images/lining-qilin-2-pe/02.jpg,/images/lining-qilin-2-pe/04.jpg,/images/lining-qilin-2-pe/05.jpg,/images/lining-qilin-2-pe/06.jpg,/images/lining-qilin-2-pe/07.jpg">
+    </div>
+    <div class="mg-card__copy">      <h2 class="mg-card__title">Fan Zhendong's match shoe <span class="mg-card__price">$125</span></h2>
+      <p class="mg-card__desc">Li-Ning Qilin 2.0 PE</p>
+      <p class="mg-card__more mg-card__more--split">
+        <button type="button" class="mg-cart-add" aria-label="Add Li-Ning Qilin 2.0 PE to cart" data-name="Li-Ning Qilin 2.0 PE" data-price="125">Add to cart</button>
+      </p>
+    </div>
+  </article>
+
   <!-- 2026-11-04 (user: 「将 http://127.0.0.1:8001/add-ons/ 页的商品全都移至
        http://127.0.0.1:8001/gear/」): the fifteen add-ons products left their
        own page and close this grid, written in this page's card recipe like

@@ -373,11 +373,6 @@ hide:
       <td style="text-align:right">$73</td>
     </tr>
 <tr>
-      <td><img src="/images/koki-niwa-z-carbon/01.thumb.webp" data-full-src="/images/koki-niwa-z-carbon/01.jpg" srcset="/images/koki-niwa-z-carbon/01.thumb-240.webp 180w, /images/koki-niwa-z-carbon/01.thumb-480.webp 360w, /images/koki-niwa-z-carbon/01.thumb.webp 540w, /images/koki-niwa-z-carbon/01.jpg 790w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Koki Niwa Z-Carbon" loading="lazy" data-gallery="/images/koki-niwa-z-carbon/01.jpg,/images/koki-niwa-z-carbon/02.jpg,/images/koki-niwa-z-carbon/03.jpg,/images/koki-niwa-z-carbon/04.jpg,/images/koki-niwa-z-carbon/05.jpg,/images/koki-niwa-z-carbon/06.jpg"></td>
-      <td>Koki Niwa Z-Carbon</td>
-      <td style="text-align:right">$130</td>
-    </tr>
-<tr>
       <td><img src="/images/minion-jp-y-code-92g/01.thumb.webp" data-full-src="/images/minion-jp-y-code-92g/01.webp" srcset="/images/minion-jp-y-code-92g/01.thumb-240.webp 180w, /images/minion-jp-y-code-92g/01.thumb-480.webp 360w, /images/minion-jp-y-code-92g/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Minion (JP) | Y-Code | 92g" loading="lazy" data-gallery="/images/minion-jp-y-code-92g/01.webp,/images/minion-jp-y-code-92g/02.webp,/images/minion-jp-y-code-92g/03.jpg,/images/minion-jp-y-code-92g/04.jpg,/images/minion-jp-y-code-92g/05.jpg,/images/minion-jp-y-code-92g/06.jpg,/images/minion-jp-y-code-92g/07.jpg"></td>
       <td>Minion (JP) | Y-Code | 92g</td>
       <td style="text-align:right">$110</td>
@@ -552,11 +547,6 @@ hide:
       <td>TSP CG-40 | Old Iron Tag | ST | 76g</td>
       <td style="text-align:right">$93</td>
     </tr>
-<tr data-added="2026-10-23">
-      <td><img src="/images/koki-niwa-st-84g/01.thumb.webp" data-full-src="/images/koki-niwa-st-84g/01.jpg" srcset="/images/koki-niwa-st-84g/01.thumb-240.webp 135w, /images/koki-niwa-st-84g/01.thumb-480.webp 270w, /images/koki-niwa-st-84g/01.thumb.webp 405w, /images/koki-niwa-st-84g/01.jpg 1080w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Koki Niwa | ST | 84g" loading="lazy" data-gallery="/images/koki-niwa-st-84g/01.jpg,/images/koki-niwa-st-84g/02.jpg,/images/koki-niwa-st-84g/03.jpg,/images/koki-niwa-st-84g/04.jpg,/images/koki-niwa-st-84g/05.jpg,/images/koki-niwa-st-84g/06.jpg,/images/koki-niwa-st-84g/07.jpg"></td>
-      <td>Koki Niwa | ST | 84g</td>
-      <td style="text-align:right">$68</td>
-    </tr>
 <tr data-added="2026-10-26">
       <td><img src="/images/stiga-carbon-dynasty-xu-xin-black-label-cs-90g/01.thumb.webp" data-full-src="/images/stiga-carbon-dynasty-xu-xin-black-label-cs-90g/01.jpg" srcset="/images/stiga-carbon-dynasty-xu-xin-black-label-cs-90g/01.thumb-240.webp 180w, /images/stiga-carbon-dynasty-xu-xin-black-label-cs-90g/01.thumb-480.webp 360w, /images/stiga-carbon-dynasty-xu-xin-black-label-cs-90g/01.thumb.webp 540w, /images/stiga-carbon-dynasty-xu-xin-black-label-cs-90g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="STIGA | Carbon Dynasty | Xu Xin Black Label | CS | 90g" loading="lazy" data-gallery="/images/stiga-carbon-dynasty-xu-xin-black-label-cs-90g/01.jpg,/images/stiga-carbon-dynasty-xu-xin-black-label-cs-90g/02.jpg,/images/stiga-carbon-dynasty-xu-xin-black-label-cs-90g/03.jpg,/images/stiga-carbon-dynasty-xu-xin-black-label-cs-90g/04.jpg,/images/stiga-carbon-dynasty-xu-xin-black-label-cs-90g/05.jpg,/images/stiga-carbon-dynasty-xu-xin-black-label-cs-90g/06.jpg,/images/stiga-carbon-dynasty-xu-xin-black-label-cs-90g/07.jpg"></td>
       <td>STIGA | Carbon Dynasty | Xu Xin Black Label | CS | 90g</td>
@@ -598,6 +588,16 @@ hide:
       <td style="text-align:right">$170</td>
     </tr>
 <tr>
+      <td><img src="/images/koki-niwa-st-84g/01.thumb.webp" data-full-src="/images/koki-niwa-st-84g/01.jpg" srcset="/images/koki-niwa-st-84g/01.thumb-240.webp 135w, /images/koki-niwa-st-84g/01.thumb-480.webp 270w, /images/koki-niwa-st-84g/01.thumb.webp 405w, /images/koki-niwa-st-84g/01.jpg 1080w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Koki Niwa | ST | 84g" loading="lazy" data-gallery="/images/koki-niwa-st-84g/01.jpg,/images/koki-niwa-st-84g/02.jpg,/images/koki-niwa-st-84g/03.jpg,/images/koki-niwa-st-84g/04.jpg,/images/koki-niwa-st-84g/05.jpg,/images/koki-niwa-st-84g/06.jpg,/images/koki-niwa-st-84g/07.jpg"></td>
+      <td>Koki Niwa | ST | 84g</td>
+      <td style="text-align:right"><del>$68</del></td>
+    </tr>
+<tr>
+      <td><img src="/images/koki-niwa-z-carbon/01.thumb.webp" data-full-src="/images/koki-niwa-z-carbon/01.jpg" srcset="/images/koki-niwa-z-carbon/01.thumb-240.webp 180w, /images/koki-niwa-z-carbon/01.thumb-480.webp 360w, /images/koki-niwa-z-carbon/01.thumb.webp 540w, /images/koki-niwa-z-carbon/01.jpg 790w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Koki Niwa Z-Carbon" loading="lazy" data-gallery="/images/koki-niwa-z-carbon/01.jpg,/images/koki-niwa-z-carbon/02.jpg,/images/koki-niwa-z-carbon/03.jpg,/images/koki-niwa-z-carbon/04.jpg,/images/koki-niwa-z-carbon/05.jpg,/images/koki-niwa-z-carbon/06.jpg"></td>
+      <td>Koki Niwa Z-Carbon</td>
+      <td style="text-align:right"><del>$130</del></td>
+    </tr>
+<tr>
       <td><img src="/images/viscaria-w-code-cn-86g/01.thumb.webp" data-full-src="/images/viscaria-w-code-cn-86g/01.jpg" srcset="/images/viscaria-w-code-cn-86g/01.thumb-240.webp 180w, /images/viscaria-w-code-cn-86g/01.thumb-480.webp 360w, /images/viscaria-w-code-cn-86g/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Viscaria | W-Code | CN | 86g" loading="lazy" data-gallery="/images/viscaria-w-code-cn-86g/01.jpg,/images/viscaria-w-code-cn-86g/02.jpg,/images/viscaria-w-code-cn-86g/03.jpg,/images/viscaria-w-code-cn-86g/05.jpg,/images/viscaria-w-code-cn-86g/06.jpg,/images/viscaria-w-code-cn-86g/07.jpg,/images/viscaria-w-code-cn-86g/08.jpg"></td>
       <td>Viscaria | W-Code | CN | 86g</td>
       <td style="text-align:right"><del>$93</del></td>
@@ -617,16 +617,8 @@ hide:
       <td>Fan ZD ALC | X-Code | JP | CS | 85g</td>
       <td style="text-align:right"><del>$115</del></td>
     </tr>
-<tr>
-      <td><img src="/images/fan-zd-salc003/01.thumb.webp" data-full-src="/images/fan-zd-salc003/01.jpg" srcset="/images/fan-zd-salc003/01.thumb-240.webp 180w, /images/fan-zd-salc003/01.thumb-480.webp 360w, /images/fan-zd-salc003/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Fan ZD SALC | Y-Code | JP | 87g" loading="lazy" data-gallery="/images/fan-zd-salc003/01.jpg,/images/fan-zd-salc003/02.jpg,/images/fan-zd-salc003/03.jpg,/images/fan-zd-salc003/04.jpg,/images/fan-zd-salc003/05.jpg,/images/fan-zd-salc003/06.jpg,/images/fan-zd-salc003/07.jpg,/images/fan-zd-salc003/08.jpg"></td>
-      <td>Fan ZD SALC | Y-Code | JP | 87g</td>
-      <td style="text-align:right"><del>$138</del></td>
-    </tr>
-<tr>
-      <td><img src="/images/dhs-hurricane-sun-003/01.thumb.webp" data-full-src="/images/dhs-hurricane-sun-003/01.jpg" srcset="/images/dhs-hurricane-sun-003/01.thumb-240.webp 180w, /images/dhs-hurricane-sun-003/01.thumb-480.webp 360w, /images/dhs-hurricane-sun-003/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS Hurricane Sun | 90g | CS" loading="lazy" data-gallery="/images/dhs-hurricane-sun-003/01.jpg,/images/dhs-hurricane-sun-003/02.jpg,/images/dhs-hurricane-sun-003/03.jpg,/images/dhs-hurricane-sun-003/04.jpg,/images/dhs-hurricane-sun-003/05.jpg,/images/dhs-hurricane-sun-003/06.jpg,/images/dhs-hurricane-sun-003/07.jpg,/images/dhs-hurricane-sun-003/08.jpg"></td>
-      <td>DHS Hurricane Sun | 90g | CS</td>
-      <td style="text-align:right"><del>$75</del></td>
-    </tr>
+
+
 </tbody>
 </table>
 </div>

@@ -14,7 +14,8 @@ hide:
 
 | Date | Update |
 | --- | --- |
-| **2026-11-04** | **Merged:** the Gear page moved onto the homepage — the eleven players' setups and the Qilin shoe now open it, and its twelve product reviews follow them in the same grid: no section headings, one card flow, and no guide articles on the homepage (they all still live under **Guides**). **Added:** an **ETC** category for accessories — glue, boosters, balls, racket cases, bags and care kits — and a **Home** link in the menu. |
+| **2026-11-07** | **Added:** the **VIP Rewards** page — a member points system. Message me on **WhatsApp** to register your member details, and send any suggestions you have. |
+| **2026-11-04** | **Merged:** the Gear page moved onto the homepage. **Added:** an **ETC** category for accessories — glue, boosters, balls, racket cases, bags and care kits — and a **Home** link in the menu. |
 | **2026-09-25** | New black-and-white colour scheme across the site. Navigation layout adjusted, with shorter top-level menu labels. |
 | **2026-09-16** | **Added:** PayPal payments accepted. |
 | **2026-08-26** | Optimized blades & rubbers product display — in-stock grids, proxy-buy tables, compact cards, and mobile layout fixes. |

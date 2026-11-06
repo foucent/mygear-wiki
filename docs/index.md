@@ -35,6 +35,11 @@ description: "Get brand-new table tennis blades, popular rubbers, and sports gea
      other thirteen — the rest of /add-ons/ — are on /etc/ now, with the
      note this one used to close with.
 
+     2026-11-07: the Qilin left this grid for /etc/ (user: 「将首页中的 Fan
+     Zhendong's match shoe $125 / Li-Ning Qilin 2.0 PE 移到 …/etc/ 页中」), so
+     the fourteen player setups are what this grid opens with now, and the
+     Qilin's own history note sits on that page over the card.
+
      2026-11-04, later in the day (user: 「将页面中的其它卡片，比如 Butterfly
      Fan Zhendong ALC / Butterfly Dignics 09C · Butterfly ZYRE-03 的标题就应该
      是 Sora Matsushima · Okayama 的装备 Butterfly Fan Zhendong ALC」): the
@@ -55,7 +60,8 @@ description: "Get brand-new table tennis blades, popular rubbers, and sports gea
      Qilin card split into a phrase as its title and the product name as its
      description): the player cards took that split. The title is the person —
      "Sora Matsushima's setup", the page's own way of naming a card about a
-     player, beside "Fan Zhendong's match shoe" on the card above — and the
+     player, beside "Fan Zhendong's match shoe" on the Qilin card that stood
+     above it then (that card is on /etc/ since 2026-11-07) — and the
      gear drops to the description line: "Butterfly Fan Zhendong ALC —
      Butterfly Dignics 09C · Butterfly ZYRE-03", the blade, an em dash, the
      rubber pair, in the order it stood in the title. The fifteen product
@@ -153,46 +159,13 @@ description: "Get brand-new table tennis blades, popular rubbers, and sports gea
 <div class="mg-card-grid" id="mg-guides-grid" data-mg-clamp-fixed markdown="0">
 
 
-  <!-- 2026-11-04 (user: 「将 https://mygear.top/add-ons/ 页中的 Li-Ning Qilin
-       2.0 PE $125 移到 https://mygear.top/gear/ 中我想看看效果」): the Qilin
-       card left /add-ons/ and came here, rewritten in this page's own recipe —
-       3:2 band, title with the price at its end, and an action line — so it
-       reads as a card of this grid and not a shop card dropped into it.
+  <!-- 2026-11-07 (user: 「将首页中的 Fan Zhendong's match shoe $125 / Li-Ning
+       Qilin 2.0 PE 移到 http://127.0.0.1:8001/etc/ 页中」): the Qilin card
+       left this grid and now opens /etc/'s — card, price and seven-photo set
+       unchanged, its history note carried over with it (see that page's
+       note). This grid is the fourteen player setups now. -->
 
-       Same day, second pass (user: 「将 主标题和副标题合并成主标题，然后将 The
-       Li-Ning Qilin 2.0 PE is the table tennis shoe… 去掉… 参考
-       acebase.cc/gear/ 的卡片样式」): the subtitle "Fan Zhendong's match shoe"
-       is now the tail of the title, after an em dash, and the paragraph is
-       gone. The card is picture, one title, one action — the shape an
-       acebase.cc /gear/ card has. That is also the shape of the add-ons
-       cards below, so the whole grid now closes the same way.
-
-       Third pass, same day (user: 「将 Li-Ning Qilin 2.0 PE — Fan Zhendong's
-       match shoe $125 … 的标题改为 Fan Zhendong's match shoe，描述改为
-       Li-Ning Qilin 2.0 PE」): the two halves swap places. The title is now the
-       line that says what the shoe is — "Fan Zhendong's match shoe" — with the
-       price still at its end, and the product's own name sits under it as the
-       card's one-line .mg-card__desc. The words are the same two the card has
-       carried since it came over; only which one leads changed.
-       What it keeps from /add-ons/ is its substance: the
-       seven-photo set in data-gallery (01 is the boxed pair, the cover, and
-       the same file the add-ons card used), the $125 price, and the
-       .mg-cart-add button price-cart.js binds on any .mg-card. No
-       data-lightbox-spec, so the lightbox opens bare like the player cards'.
-       The photos are the shop's own; nothing here was reshot. -->
-  <article class="mg-card">
-    <div class="mg-card__media">
-      <img src="/images/lining-qilin-2-pe/01.thumb.webp" data-full-src="/images/lining-qilin-2-pe/01.jpg" srcset="/images/lining-qilin-2-pe/01.thumb-240.webp 188w, /images/lining-qilin-2-pe/01.thumb-480.webp 377w, /images/lining-qilin-2-pe/01.thumb.webp 565w, /images/lining-qilin-2-pe/01.thumb-1000.webp 784w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Li-Ning Qilin 2.0 PE table tennis shoe in blue and white" loading="lazy" decoding="async" data-gallery="/images/lining-qilin-2-pe/01.jpg,/images/lining-qilin-2-pe/02.jpg,/images/lining-qilin-2-pe/03.jpg,/images/lining-qilin-2-pe/04.jpg,/images/lining-qilin-2-pe/05.jpg,/images/lining-qilin-2-pe/06.jpg,/images/lining-qilin-2-pe/07.jpg">
-    </div>
-    <div class="mg-card__copy">      <h2 class="mg-card__title">Fan Zhendong's match shoe <span class="mg-card__price">$125</span></h2>
-      <p class="mg-card__desc">Li-Ning Qilin 2.0 PE</p>
-      <p class="mg-card__more mg-card__more--split">
-        <button type="button" class="mg-cart-add" aria-label="Add Li-Ning Qilin 2.0 PE to cart" data-name="Li-Ning Qilin 2.0 PE" data-price="125">Add to cart</button>
-      </p>
-    </div>
-  </article>
-
-  <!-- The second card. Sora Matsushima's own setup, taken from his Takkyu-Navi
+  <!-- Sora Matsushima's own setup, taken from his Takkyu-Navi
        profile: the blade, both rubbers and what they replaced, the shoes and
        the shirt. The title names him — "Sora Matsushima's setup" — and the
        description under it carries the blade and the rubber pair; the

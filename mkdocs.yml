@@ -188,6 +188,7 @@ extra_javascript:
   - javascripts/price-cart.js
   - javascripts/price-pager.js
   - javascripts/guide-grid.js
+  - javascripts/vip-points.js
 
 # Local `mkdocs serve` includes these; production `mkdocs build` / GitHub Pages omit them.
 draft_docs: |
@@ -220,8 +221,11 @@ nav:
   - Home: index.md
   # 2026-11-04: Gear left the nav (user: 「将 mygear.top/ 的内容与
   # mygear.top/gear/ 的内容合并」). Its twelve cards — the eleven players'
-  # setups and the Qilin shoe — open the homepage now, and gear/index.md is a
-  # redirect to index.md (see redirect_maps). The Brands grid that followed
+  # setups and the Qilin shoe — opened the homepage then. The Qilin moved on
+  # to ETC on 2026-11-07 (user: 「将首页中的 Fan Zhendong's match shoe $125 /
+  # Li-Ning Qilin 2.0 PE 移到 …/etc/ 页中」), so the fourteen player setups are
+  # what the homepage opens with now. gear/index.md is a redirect to index.md
+  # (see redirect_maps). The Brands grid that followed
   # them on the homepage went the same day (user: 「将首页的品牌列表删除」), and
   # so did the "Setups" / "Reviews & guides" headings — the page is one card
   # flow, no categories (user: 「不要分类，让他们融合在一起」). Home itself is
@@ -235,17 +239,24 @@ nav:
   # and keep the URLs they have always had.
   - Blades: blades.md
   - Rubbers: rubbers.md
+  # 2026-11-07 (user: 「Pre-owned放在rubbers后面」): Pre-owned moved up behind
+  # Rubbers. It is a shop category like the two above it, and it had been
+  # sitting between the two halves of this list.
+  - Pre-owned: pre-owned.md
   # ETC is the accessories category, added the same day (user: 「新增ETC类目，
   # 将 DHS No.15 VOC-Free Glue $8 及后面的卡片都移至ETC」): the thirteen cards
   # that used to close /gear/ — glue, boosters, balls, cases, bags, care kits.
   - ETC: etc/index.md
-  - Pre-owned: pre-owned.md
+  # 2026-11-07: VIP is the member-club page (/vip/) — a points lookup by phone
+  # number plus the earning rules. It was added and then moved the same day,
+  # into the run ETC · VIP · FAQ (user: 「将导航 etc，VIP，FAQ放在一起」).
+  - VIP: vip.md
   # 2026-11-04: Add-ons left the nav — its fifteen products moved to Gear, and
   # the thirteen left after the two removals now sit on ETC; add-ons.md is a
   # redirect (see redirect_maps).
   #
-  # Short labels: the nav row is eight items wide at 28px, so anything longer
-  # than one word costs a line. The page headings and the frontmatter
+  # Short labels: the nav row fits about eight of these at 28px, so anything
+  # longer than one word costs a line. The page headings and the frontmatter
   # descriptions are unchanged, so the pages themselves still read in full.
   #
   # Title case, and kept there — ALL CAPS re-measured at 77px over two lines
@@ -253,11 +264,15 @@ nav:
   # stays upper because it is an initialism, not a word. Guides is plural to
   # match the three catalogue entries; the rest are singular because they name
   # a process (Order), one running log (Updates), or one Q&A page (FAQ).
-  - Order: order.md
+  #
+  # 2026-11-07 (user: 「然后依次是 ETC,VIP,FAQ,order,guides,updates」): the tail
+  # of the row runs FAQ · Order · Guides · Updates — Guides ahead of Updates,
+  # where it used to close the list.
   - FAQ: FAQ.md
-  - Updates: updates.md
+  - Order: order.md
   # The 18 guide articles are deliberately *not* listed here — they live on
   # docs/guide/index.md, which is both this entry's target and the full index.
   # Listing them again as children would put the whole group back in the
   # sidebar, which is what moving the entry up here was meant to remove.
   - Guides: guide/index.md
+  - Updates: updates.md
