@@ -90,6 +90,12 @@
         return;
       }
 
+      // The record is keyed on the compact form ("+15551234567"), so spaces,
+      // dashes, dots and brackets are dropped before the number is sent — the
+      // same rule the worker applies, so a formatted number and its plain form
+      // reach the same row.
+      var lookup = value.replace(/[^\d+]/g, "");
+
       clear();
       result.appendChild(el("p", "mg-vip__note", "⏳ Searching…"));
       button.disabled = true;
@@ -102,7 +108,7 @@
       fetch(ENDPOINT, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ phone: value }),
+        body: JSON.stringify({ phone: lookup }),
         signal: abort.signal
       })
         .then(function (res) {
