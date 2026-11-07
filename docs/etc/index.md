@@ -67,7 +67,7 @@ hide:
        /images/lining-qilin-2-pe/ — nothing on the site points at them now. -->
   <article class="mg-card">
     <div class="mg-card__media">
-      <img src="/images/lining-qilin-2-pe/02.thumb.webp" data-full-src="/images/lining-qilin-2-pe/02.jpg" srcset="/images/lining-qilin-2-pe/02.thumb.webp 540w, /images/lining-qilin-2-pe/02.jpg 960w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Li-Ning Qilin 2.0 PE table tennis shoe in blue and white" loading="lazy" decoding="async" data-gallery="/images/lining-qilin-2-pe/02.jpg,/images/lining-qilin-2-pe/04.jpg,/images/lining-qilin-2-pe/05.jpg,/images/lining-qilin-2-pe/06.jpg,/images/lining-qilin-2-pe/07.jpg">
+      <img src="/images/lining-qilin-2-pe/02.thumb.webp" data-full-src="/images/lining-qilin-2-pe/02.jpg" srcset="/images/lining-qilin-2-pe/02.thumb-480.webp 360w, /images/lining-qilin-2-pe/02.thumb.webp 540w, /images/lining-qilin-2-pe/02.thumb-1000.webp 750w, /images/lining-qilin-2-pe/02.jpg 960w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Li-Ning Qilin 2.0 PE table tennis shoe in blue and white" loading="lazy" decoding="async" data-gallery="/images/lining-qilin-2-pe/02.jpg,/images/lining-qilin-2-pe/04.jpg,/images/lining-qilin-2-pe/05.jpg,/images/lining-qilin-2-pe/06.jpg,/images/lining-qilin-2-pe/07.jpg">
     </div>
     <div class="mg-card__copy">      <h2 class="mg-card__title">Fan Zhendong's match shoe <span class="mg-card__price">$125</span></h2>
       <p class="mg-card__desc">Li-Ning Qilin 2.0 PE</p>
