@@ -280,11 +280,12 @@
     // Every card container carries its images the same way — an <img> with an
     // optional data-gallery list — so they all ride this one binding rather
     // than getting a second. .mg-card-grid is the hand-written shop grid, the
-    // price table holds the pre-owned listings, and .mg-preowned-grid is that
-    // table's grid plus the /add-ons/ card list, which is built to the same
-    // recipe without a table behind it.
+    // price table holds the pre-owned listings, .mg-preowned-grid is that
+    // table's grid plus the /add-ons/ card list, and .mg-sb-grid is the home
+    // page's own layout (2026-11-09, /etc/ before the swap), whose cards keep
+    // the photo sets they had.
     document
-      .querySelectorAll(".mg-price-table, .mg-card-grid, .mg-preowned-grid")
+      .querySelectorAll(".mg-price-table, .mg-card-grid, .mg-preowned-grid, .mg-sb-grid")
       .forEach(function (tableWrap) {
       var imgs = tableWrap.querySelectorAll("img");
       var fallbackItems = imageItems(tableWrap);

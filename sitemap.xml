@@ -33,10 +33,6 @@
          <lastmod>2026-11-08</lastmod>
     </url>
     <url>
-         <loc>https://mygear.top/etc/</loc>
-         <lastmod>2026-11-08</lastmod>
-    </url>
-    <url>
          <loc>https://mygear.top/gear/avalox/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
@@ -254,6 +250,10 @@
     </url>
     <url>
          <loc>https://mygear.top/pre-owned/sold/</loc>
+         <lastmod>2026-11-08</lastmod>
+    </url>
+    <url>
+         <loc>https://mygear.top/setups/</loc>
          <lastmod>2026-11-08</lastmod>
     </url>
 </urlset>

@@ -1,0 +1,799 @@
+/* ============================================================
+   / — the Superbuy homepage layout, in this site's clothes
+   (2026-11-09, user: 「将 http://127.0.0.1:8001/etc/ 模仿
+   http://127.0.0.1:8003/页面进行更新，将现有ETC商品移至Popular gear中」,
+   and to the follow-up question: 只照搬版式，动作走现有购物车).
+
+   Built for /etc/ and then moved to / when the two pages swapped the same
+   day (user: 「将现在的Home页面改成配置页（英文），将ETC改为Home,并移到最前面」);
+   the class names are still .mg-sb-*.
+
+   The geometry is the one acebase.cc laid down from the real page and measured
+   at 1440 (see the header of acebase.cc's stylesheets/gear.css, and
+   _tmp_ocr/superbuy_metrics.py there):
+     inner column     1200px, centred
+     hero             600px tall, 105deg gradient, h1 36/900, meta 14/500
+     search           760x64, 48px input, 112x48 submit
+     chips            36px tall, radius 24
+     journey          white 1200x132 card lifted 54px over the hero's foot,
+                      three steps left/centre/right, chevron track with dots
+     feature row      four 304x136 banners
+     discovery        grey band, 48px padding, h2 24/700, 32px pill tabs,
+                      5-column grid of 227x318 cards
+   What did not come over is the palette and the action: this site is black
+   ink, tan rules, green buy buttons and red prices, its cards take the 0.55rem
+   corner the rest of the shop has, and the action is the shop's own cart
+   button (price-cart.js binds any .mg-cart-add). The hero box is a link box
+   like acebase's — Get price hands a pasted product link to WhatsApp (this
+   site's checkout is the chat, where acebase opens its email dialog), and a
+   plain word narrows the shelf below. home-sb.js holds that half.
+
+   Full bleed: the theme locks .md-content__inner to 960px, so the page lifts
+   that lock with :has() rather than 100vw — 100vw includes the scrollbar on
+   Windows and would put a horizontal overflow on the page. */
+
+/* ---------- the page takes the whole viewport column ---------- */
+
+.md-main__inner:has(.mg-sb) {
+  max-width: none;
+  margin-top: 0;
+}
+
+.md-content:has(.mg-sb) {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+/* Both margins carry !important because uncrate.css pins them with it — auto
+   on the wide branch and 1.2rem below 1100px — so the hero would otherwise
+   keep a gutter on the page that is meant to run edge to edge. */
+.md-main__inner:has(.mg-sb) .md-content > .md-content__inner:not([hidden]) {
+  max-width: none;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding: 0;
+}
+
+.md-typeset .mg-sb {
+  --sb-line: var(--ab-line);
+  --sb-soft: var(--ab-panel-2);
+  --sb-muted: var(--ab-text-muted);
+  --sb-chip: #ececec;
+
+  font-family: var(--ab-sans);
+  color: var(--ab-text);
+  background: #fff;
+}
+
+.md-typeset .mg-sb *,
+.md-typeset .mg-sb *::before,
+.md-typeset .mg-sb *::after {
+  box-sizing: border-box;
+}
+
+.md-typeset .mg-sb-inner {
+  width: min(1200px, 100% - 48px);
+  margin-inline: auto;
+}
+
+/* ---------- hero ---------- */
+
+.md-typeset .mg-sb-hero {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(105deg, #fbfaf7 0%, #f4efe6 42%, #d9ccb6 100%);
+}
+
+.md-typeset .mg-sb-hero__inner {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  min-height: 600px;
+}
+
+.md-typeset .mg-sb-hero__copy {
+  width: min(680px, 100%);
+  padding: 56px 0 108px;
+}
+
+/* The photo sits under the copy's right half and fades into the gradient on
+   its left, so the headline never lands on a busy frame. */
+.md-typeset .mg-sb-hero__art {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 54%;
+  pointer-events: none;
+}
+
+.md-typeset .mg-sb-hero__art img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border-radius: 0;
+  object-fit: cover;
+  object-position: 50% 42%;
+  -webkit-mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #000 38%);
+  mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #000 38%);
+}
+
+/* the site gives every h1 a 2px black rule and a 0.35rem pad; the hero's
+   headline is set without either */
+.md-typeset .mg-sb-hero__title {
+  margin: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+  color: var(--ab-text);
+  font-family: var(--ab-sans);
+  font-size: clamp(30px, 2.6vw, 36px);
+  font-weight: 900;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.md-typeset .mg-sb-hero__meta {
+  margin: 14px 0 0;
+  color: var(--sb-muted);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+/* ---------- hero search ---------- */
+
+.md-typeset .mg-sb-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: min(760px, 100%);
+  min-height: 64px;
+  margin: 26px 0 0;
+  padding: 8px 8px 8px 6px;
+  border: 1px solid var(--sb-line);
+  border-radius: 0.55rem;
+  background: #fff;
+}
+
+.md-typeset .mg-sb-search__field {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  margin: 0;
+  padding: 0 6px 0 14px;
+}
+
+.md-typeset .mg-sb-search__icon {
+  flex: none;
+  color: var(--ab-text-faint);
+}
+
+/* type="text", not "search": the box narrows a shelf and search inputs bring a
+   native clear button of their own */
+.md-typeset .mg-sb-search input {
+  width: 100%;
+  height: 48px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  color: var(--ab-text);
+  font-family: var(--ab-sans);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+  outline: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.md-typeset .mg-sb-search input::placeholder {
+  color: var(--ab-text-faint);
+}
+
+.md-typeset .mg-sb-search__submit {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  margin: 0;
+  padding: 0 30px;
+  border: 0;
+  border-radius: 0.55rem;
+  background: var(--ab-green);
+  color: #fff;
+  font-family: var(--ab-sans);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.md-typeset .mg-sb-search__submit:hover {
+  background: var(--ab-green-deep);
+}
+
+/* The line the Get price hand-off writes under the box (empty until then). */
+.md-typeset .mg-sb-search__note {
+  max-width: min(760px, 100%);
+  margin: 10px 0 0;
+  color: var(--ab-text-muted);
+  font-family: var(--ab-sans);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.md-typeset .mg-sb-search__note[hidden] {
+  display: none;
+}
+
+/* ---------- hero chips ---------- */
+
+.md-typeset .mg-sb-hero__tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.md-typeset .mg-sb-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  margin: 0;
+  padding: 0 18px;
+  border: 0;
+  border-radius: 0.55rem;
+  background: #fff;
+  color: var(--ab-text);
+  font-family: var(--ab-sans);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+}
+
+.md-typeset .mg-sb-chip:hover {
+  background: #f0eade;
+  color: var(--ab-text);
+}
+
+/* ---------- the three-step journey ---------- */
+
+.md-typeset .mg-sb-journey {
+  position: relative;
+  z-index: 3;
+}
+
+.md-typeset .mg-sb-journey__card {
+  margin-top: -54px;
+  padding: 20px 28px 22px;
+  border: 1px solid var(--sb-line);
+  border-radius: 0.55rem;
+  background: #fff;
+  box-shadow: 0 2px 6px -2px rgba(0, 0, 0, 0.04),
+    0 12px 28px -14px rgba(0, 0, 0, 0.16);
+}
+
+/* :not([hidden]) is not decoration: Material's `.md-typeset ol:not([hidden])`
+   forces display:flow-root and `[dir="ltr"] .md-typeset ol` keeps a 0.625em
+   left margin, and both outrank a plain two-class selector. */
+.md-typeset .mg-sb-journey__steps:not([hidden]) {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.md-typeset .mg-sb-step {
+  margin: 0;
+  text-align: left;
+}
+
+.md-typeset .mg-sb-step:nth-child(2) {
+  text-align: center;
+}
+
+.md-typeset .mg-sb-step:nth-child(3) {
+  text-align: right;
+}
+
+.md-typeset .mg-sb-step__title {
+  margin: 0;
+  color: var(--ab-text);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.md-typeset .mg-sb-step__num {
+  margin-right: 4px;
+  color: var(--ab-accent-deep);
+  font-weight: 800;
+}
+
+.md-typeset .mg-sb-step__text {
+  margin: 4px 0 0;
+  color: var(--sb-muted);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.md-typeset .mg-sb-step__text a {
+  color: var(--ab-accent-deep);
+}
+
+.md-typeset .mg-sb-journey__track {
+  position: relative;
+  height: 52px;
+  margin-top: 16px;
+  border-radius: 0.55rem;
+  background-color: #efe9dd;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='52' viewBox='0 0 36 52'%3E%3Cpath d='M7 13 21 26 7 39' fill='none' stroke='%23ffffff' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: repeat-x;
+  background-position: 10px 0;
+  background-size: 36px 52px;
+}
+
+.md-typeset .mg-sb-journey__dot {
+  position: absolute;
+  top: 50%;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--ab-accent-deep);
+  box-shadow: 0 0 0 6px #e2dac9;
+  transform: translateY(-50%);
+}
+
+.md-typeset .mg-sb-journey__dot:nth-child(1) {
+  left: 12px;
+}
+
+.md-typeset .mg-sb-journey__dot:nth-child(2) {
+  left: 50%;
+  margin-left: -9px;
+}
+
+.md-typeset .mg-sb-journey__dot:nth-child(3) {
+  right: 12px;
+}
+
+/* ---------- four catalogue banners ---------- */
+
+.md-typeset .mg-sb-features {
+  padding-top: 28px;
+}
+
+.md-typeset .mg-sb-features__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.md-typeset .mg-sb-feature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 136px;
+  padding: 20px 18px 20px 22px;
+  border-radius: 0.55rem;
+  color: var(--ab-text);
+  text-decoration: none;
+  overflow: hidden;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.md-typeset .mg-sb-feature:hover {
+  color: var(--ab-text);
+  box-shadow: 0 14px 28px -18px rgba(0, 0, 0, 0.4);
+  transform: translateY(-2px);
+}
+
+.md-typeset .mg-sb-feature--blades {
+  background: linear-gradient(120deg, #f5f1e9, #e7dcc8);
+}
+
+.md-typeset .mg-sb-feature--rubbers {
+  background: linear-gradient(120deg, #f8f2ec, #efded0);
+}
+
+.md-typeset .mg-sb-feature--preowned {
+  background: linear-gradient(120deg, #f1f4ef, #dde5d8);
+}
+
+.md-typeset .mg-sb-feature--setups {
+  background: linear-gradient(120deg, #f4f2f7, #e3ddec);
+}
+
+.md-typeset .mg-sb-feature__text {
+  display: block;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.md-typeset .mg-sb-feature__eyebrow {
+  display: block;
+  color: var(--ab-text-muted);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.md-typeset .mg-sb-feature__title {
+  display: block;
+  margin-top: 2px;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.md-typeset .mg-sb-feature__go {
+  flex: none;
+  display: inline-grid;
+  place-items: center;
+  color: var(--ab-accent-deep);
+}
+
+/* ---------- discovery band ---------- */
+
+.md-typeset .mg-sb-discovery {
+  margin-top: 36px;
+  padding: 48px 0 60px;
+  background: var(--sb-soft);
+}
+
+.md-typeset .mg-sb-discovery__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.md-typeset .mg-sb-discovery__title {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: var(--ab-text);
+  font-family: var(--ab-sans);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+}
+
+.md-typeset .mg-sb-discovery__lead {
+  margin: 8px 0 0;
+  color: var(--sb-muted);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.md-typeset .mg-sb-chat {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  height: 36px;
+  margin: 0;
+  padding: 0 18px;
+  border: 0;
+  border-radius: 0.55rem;
+  background: var(--ab-green);
+  color: #fff;
+  font-family: var(--ab-sans);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+}
+
+.md-typeset .mg-sb-chat:hover {
+  background: var(--ab-green-deep);
+  color: #fff;
+}
+
+/* category pills */
+
+.md-typeset .mg-sb-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.md-typeset .mg-sb-pill {
+  display: inline-flex;
+  align-items: center;
+  height: 32px;
+  margin: 0;
+  padding: 0 14px;
+  border: 0;
+  border-radius: 0.55rem;
+  background: var(--sb-chip);
+  color: var(--sb-muted);
+  font-family: var(--ab-sans);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.md-typeset .mg-sb-pill:hover {
+  background: #e0e0e0;
+}
+
+.md-typeset .mg-sb-pill.is-active {
+  background: var(--ab-text);
+  color: #fcfcfc;
+}
+
+.md-typeset .mg-sb-pill.is-active:hover {
+  background: #333;
+}
+
+/* card grid */
+
+.md-typeset .mg-sb-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.md-typeset .mg-sb-card {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 14px 14px 12px;
+  border: 1px solid var(--sb-line);
+  border-radius: 0.55rem;
+  background: #fff;
+  text-align: left;
+  transition: box-shadow 0.18s ease;
+}
+
+.md-typeset .mg-sb-card:hover {
+  box-shadow: 0 14px 26px -20px rgba(0, 0, 0, 0.45);
+}
+
+.md-typeset .mg-sb-card[hidden] {
+  display: none;
+}
+
+/* Square like the reference card, but `contain` rather than `cover`: these are
+   packaged products shot on white at every aspect there is, and a bottle cut
+   off at the cap reads worse than a little air around it. */
+.md-typeset .mg-sb-card__media {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  border-radius: 0.4rem;
+  background: #fafafa;
+}
+
+.md-typeset .mg-sb-card__media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 6px;
+  border-radius: 0;
+  object-fit: contain;
+  cursor: zoom-in;
+}
+
+/* the photo-count pill gallery-lightbox.js stamps on a multi-photo card */
+.md-typeset .mg-sb-card .mg-price-thumb-count {
+  right: 8px;
+  bottom: 8px;
+}
+
+.md-typeset .mg-sb-card__title {
+  display: -webkit-box;
+  overflow: hidden;
+  min-height: 2.8em;
+  margin: 12px 0 0;
+  padding: 0;
+  border: 0;
+  color: var(--ab-text);
+  font-family: var(--ab-sans);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0;
+  text-transform: none;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.md-typeset .mg-sb-card__quote {
+  margin: 6px 0 0;
+  padding: 0;
+}
+
+.md-typeset .mg-sb-card__price {
+  color: var(--ab-red);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.md-typeset .mg-sb-card__bottom {
+  margin-top: auto;
+  padding-top: 10px;
+}
+
+/* price-cart.js binds any .mg-cart-add, so the cart line is the shop's own
+   button; only its shape changes to the reference card's full-width action. */
+.md-typeset .mg-sb-card .mg-cart-add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 32px;
+  margin: 0;
+  padding: 0 10px;
+  border: 0;
+  border-radius: 0.4rem;
+  background: var(--ab-green);
+  color: #fff;
+  font-family: var(--ab-sans);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.md-typeset .mg-sb-card .mg-cart-add:hover {
+  background: var(--ab-green-deep);
+}
+
+.md-typeset .mg-sb-card .mg-cart-add--done {
+  background: var(--ab-green-deep);
+}
+
+.md-typeset .mg-sb-empty {
+  margin: 32px 0 0;
+  color: var(--sb-muted);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.md-typeset .mg-sb-empty[hidden] {
+  display: none;
+}
+
+/* a hash landing gets a little air under the band's edge */
+.md-typeset .mg-sb [id] {
+  scroll-margin-top: 16px;
+}
+
+/* ---------- breakpoints ---------- */
+
+/* Under 1200 the inner column shrinks with the viewport and the hero photo
+   would sit directly under the search box, so it goes; the copy sets the
+   hero's height instead of the fixed 600px. */
+@media screen and (max-width: 1199px) {
+  .md-typeset .mg-sb-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .md-typeset .mg-sb-hero__art {
+    display: none;
+  }
+
+  .md-typeset .mg-sb-hero__inner {
+    min-height: 0;
+  }
+
+  .md-typeset .mg-sb-hero__copy {
+    padding: 56px 0 96px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .md-typeset .mg-sb-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md-typeset .mg-sb-features__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .md-typeset .mg-sb-inner {
+    width: min(1200px, 100% - 32px);
+  }
+
+  .md-typeset .mg-sb-hero__copy {
+    padding: 36px 0 68px;
+  }
+
+  .md-typeset .mg-sb-search {
+    min-height: 56px;
+    padding: 6px;
+  }
+
+  .md-typeset .mg-sb-search__submit {
+    height: 44px;
+    padding: 0 18px;
+  }
+
+  .md-typeset .mg-sb-journey__card {
+    margin-top: -40px;
+    padding: 20px;
+  }
+
+  .md-typeset .mg-sb-journey__steps:not([hidden]) {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  /* the base rule aligns steps 2 and 3 by :nth-child, so this carries the
+     same weight to undo it on a one-column stack */
+  .md-typeset .mg-sb-step:nth-child(n) {
+    text-align: left;
+  }
+
+  .md-typeset .mg-sb-journey__track {
+    display: none;
+  }
+
+  .md-typeset .mg-sb-features {
+    padding-top: 20px;
+  }
+
+  .md-typeset .mg-sb-feature {
+    min-height: 108px;
+    padding: 14px 14px 14px 16px;
+  }
+
+  .md-typeset .mg-sb-feature__title {
+    font-size: 18px;
+  }
+
+  .md-typeset .mg-sb-discovery {
+    margin-top: 24px;
+    padding: 32px 0 40px;
+  }
+
+  .md-typeset .mg-sb-discovery__head {
+    flex-wrap: wrap;
+  }
+
+  .md-typeset .mg-sb-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .md-typeset .mg-sb-card {
+    padding: 12px 12px 10px;
+  }
+}
+
+@media screen and (max-width: 389px) {
+  .md-typeset .mg-sb-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
