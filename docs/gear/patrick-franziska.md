@@ -38,7 +38,7 @@ The blade is his signature **Franziska Innerforce ZLC**, made in Japan: an Inner
 
 On **both wings** he plays [ZYRE-03](zyre-03.md): Butterfly's clean Ricosheet topsheet over an extra-thick Spring Sponge X. He came to it late, and from a long way along the high-tension line. The forehand ran Tenergy 05, then Dignics 05. The backhand ran Tenergy 80, then Tenergy 64, then Tenergy 05, then Dignics 05 — the progression our [Tenergy before Dignics](../guide/why-tenergy-before-dignics.md) guide walks through, ending on the newest flagship on both sides.
 
-The rubbers are on the [Rubbers price table](../rubbers.md). The Franziska Innerforce ZLC is not on the [blades table](../blades.md), so name it in the quote request.
+The blade is on the [Blades price table](../blades.md) at $216, and the rubbers are on the [Rubbers price table](../rubbers.md).
 
 ## Ordering
 

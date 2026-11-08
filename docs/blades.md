@@ -293,6 +293,19 @@ hide:
     <h3 class="mg-preowned-card__title">Zhang Jike ALC <span class="mg-preowned-card__price">$209</span></h3>
     <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Zhang Jike ALC to cart" data-name="Zhang Jike ALC" data-price="209"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
+  <!-- Patrick Franziska's own blade: 5+2 with the ZLC layer under the face
+       wood, the inner-fibre build his signatures use. The price is the
+       shop's own, set 2026-11-08 (user: 「定价为$216」), not a scraped list
+       price — and it is the same number the player card on the homepage
+       prints for the blade. -->
+  <article class="mg-preowned-card" role="listitem">
+    <div class="mg-preowned-card__media">
+      <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
+      <img src="/images/price-list/blades/franziska-innerforce-zlc.thumb.webp" data-full-src="/images/price-list/blades/franziska-innerforce-zlc.jpg" srcset="/images/price-list/blades/franziska-innerforce-zlc.thumb-240.webp 240w, /images/price-list/blades/franziska-innerforce-zlc.thumb-480.webp 480w, /images/price-list/blades/franziska-innerforce-zlc.thumb.webp 720w, /images/price-list/blades/franziska-innerforce-zlc.thumb-1000.webp 1000w, /images/price-list/blades/franziska-innerforce-zlc.jpg 1200w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Franziska Innerforce ZLC blade face up with the black handle" loading="lazy" decoding="async">
+    </div>
+    <h3 class="mg-preowned-card__title">Butterfly Franziska Innerforce ZLC <span class="mg-preowned-card__price">$216</span></h3>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Butterfly Franziska Innerforce ZLC to cart" data-name="Butterfly Franziska Innerforce ZLC" data-price="216"><span aria-hidden="true">+</span><span>Add to cart</span></button>
+  </article>
   <article class="mg-preowned-card" role="listitem">
     <div class="mg-preowned-card__media mg-preowned-card__media--fit">
       <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>

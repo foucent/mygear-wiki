@@ -206,12 +206,13 @@ description: "Get brand-new table tennis blades, popular rubbers, and sports gea
        else on the card moved, and the ten player cards below took the same
        shape that day, each line carrying its own price off the two tables.
        Where the table does not list the piece the row says "Price on
-       request" rather than a number: Franziska's ZLC, Lin Shidong's Viscaria
-       Golden, Hugo's Hyper Axylium, Wang Chuqin's Hurricane 8, Lebrun's
-       Hybrid K3 Pro and Truls's Helix Platinum XH are all name-it-in-the-
-       quote pieces on their own /gear/ pages. Harimoto's Super ALC and Lin
-       Yun-Ju's Viscaria Super ALC left that list on 2026-11-06, when both
-       blades joined /blades/ at the shop's price — $168 and $208.
+       request" rather than a number: Lin Shidong's Viscaria Golden, Hugo's
+       Hyper Axylium, Wang Chuqin's Hurricane 8, Lebrun's Hybrid K3 Pro and
+       Truls's Helix Platinum XH are all name-it-in-the-quote pieces on their
+       own /gear/ pages. Harimoto's Super ALC and Lin Yun-Ju's Viscaria Super
+       ALC left that list on 2026-11-06, when both blades joined /blades/ at
+       the shop's price — $168 and $208 — and Franziska's ZLC followed on
+       2026-11-08 at $216, the shop's own price rather than a scraped one.
 
        The shop's name for a piece is not always the card's:
        Wang Chuqin's and Fan Zhendong's Hurricane 3 National is the table's
@@ -372,7 +373,7 @@ description: "Get brand-new table tennis blades, popular rubbers, and sports gea
     </div>
     <div class="mg-card__copy">      <h2 class="mg-card__title">Patrick Franziska's setup</h2>
       <p class="mg-card__desc mg-card__desc--lines">
-        <span class="mg-card__line">Butterfly Franziska Innerforce ZLC / <span class="mg-card__line-price mg-card__line-price--ask">Price on request</span></span>
+        <span class="mg-card__line">Butterfly Franziska Innerforce ZLC / <span class="mg-card__line-price">$216</span></span>
         <span class="mg-card__line">Butterfly ZYRE-03 · Both Sides / <span class="mg-card__line-price">$89</span></span>
       </p>
       <p class="mg-card__more mg-card__more--split">
