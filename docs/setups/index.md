@@ -377,15 +377,16 @@ description: "The blades and rubbers the world's top table tennis players actual
 
   <article class="mg-card mg-card--player">
     <div class="mg-card__media">
-      <img src="/images/patrick-franziska/cover.thumb.webp" data-full-src="/images/patrick-franziska/cover.webp" srcset="/images/patrick-franziska/cover.thumb-240.webp 240w, /images/patrick-franziska/cover.thumb-480.webp 480w, /images/patrick-franziska/cover.thumb.webp 720w, /images/patrick-franziska/cover.thumb-1000.webp 1000w, /images/patrick-franziska/cover.webp 1080w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Patrick Franziska from behind in a blue shirt with his name and the Butterfly mark, arms raised with his racket and a bundle of shirts" width="1080" height="720" loading="lazy" decoding="async" data-gallery="/images/patrick-franziska/blade.webp|Butterfly Franziska Innerforce ZLC blade face up with the dark handle,/images/zyre-03/01.jpg|Butterfly ZYRE-03 rubber sheets in red and black">
+      <img src="/images/patrick-franziska/cover.thumb.webp" data-full-src="/images/patrick-franziska/cover.webp" srcset="/images/patrick-franziska/cover.thumb-240.webp 240w, /images/patrick-franziska/cover.thumb-480.webp 480w, /images/patrick-franziska/cover.thumb.webp 720w, /images/patrick-franziska/cover.thumb-1000.webp 1000w, /images/patrick-franziska/cover.webp 1080w" sizes="(max-width: 759.98px) 88vw, 468px" alt="Patrick Franziska from behind in a blue shirt with his name and the Butterfly mark, arms raised with his racket and a bundle of shirts" width="1080" height="720" loading="lazy" decoding="async" data-gallery="/images/patrick-franziska/blade.webp|Butterfly Franziska Innerforce ZLC blade face up with the dark handle,/images/zyre-03/01.jpg|Butterfly ZYRE-03 rubber sheets in red and black,/images/dignics-09c/01.jpg|Butterfly Dignics 09C rubber sheets in red and black">
     </div>
     <div class="mg-card__copy">      <h2 class="mg-card__title">Patrick Franziska's setup</h2>
       <p class="mg-card__desc mg-card__desc--lines">
         <span class="mg-card__line">Butterfly Franziska Innerforce ZLC / <span class="mg-card__line-price">$216</span></span>
-        <span class="mg-card__line">Butterfly ZYRE-03 · Both Sides / <span class="mg-card__line-price">$89</span></span>
+        <span class="mg-card__line">Butterfly ZYRE-03 / <span class="mg-card__line-price">$89</span></span>
+        <span class="mg-card__line">Butterfly Dignics 09C / <span class="mg-card__line-price">$73</span></span>
       </p>
       <p class="mg-card__more mg-card__more--split">
-        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20Franziska%20Innerforce%20ZLC%20with%20ZYRE-03%20on%20both%20sides.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20Franziska%20Innerforce%20ZLC%20with%20ZYRE-03%20on%20the%20forehand%20and%20Dignics%2009C%20on%20the%20backhand.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>
       </p>
     </div>
   </article>
