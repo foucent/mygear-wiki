@@ -34,13 +34,18 @@ from html.parser import HTMLParser
 
 _ARTICLE_CARD = "mg-card"
 _PREOWNED_CARD = "mg-preowned-card"
+# The home page (the accessories shelf, /etc/ until 2026-11-09) was rebuilt on
+# acebase.cc's homepage layout and its cards took a class of their own rather
+# than the shop's two recipes — a smaller tile, the name and price on separate
+# lines.
+_ETC_CARD = "mg-sb-card"
 _PREOWNED_TABLE = "mg-price-table--preowned"
 # The card wrappers that are written out in the Markdown: the shop pages'
-# <article class="mg-card">, and /add-ons/, whose cards are built to the
-# pre-owned recipe instead — a square photo, the name with its price inside it,
-# one action line. A card's title and price are its own class plus __title and
-# __price, so this one list covers all three lookups.
-_CARD_NAMES = (_ARTICLE_CARD, _PREOWNED_CARD)
+# <article class="mg-card">, /add-ons/, whose cards are built to the pre-owned
+# recipe instead — a square photo, the name with its price inside it, one
+# action line — and the home page's tiles. A card's title and price are its own class
+# plus __title and __price, so this one list covers all four lookups.
+_CARD_NAMES = (_ARTICLE_CARD, _PREOWNED_CARD, _ETC_CARD)
 _SLUG_MAX = 60
 # A card's name is its own heading, and which heading has moved twice: the
 # shop pages write them as <h2> so the page runs h1 -> h2 with nothing skipped

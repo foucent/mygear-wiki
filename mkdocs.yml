@@ -55,17 +55,25 @@ plugins:
         # /top-picks/ became /setups/ when its blades and rubbers moved to
         # /blades/ and /rubbers/, and /setups/ became /gear/ when the page was
         # renamed; /gear/ merged into the homepage on 2026-11-04. Every stub
-        # points straight at index.md rather than chaining through the older
-        # names.
-        top-picks.md: index.md
-        setups.md: index.md
+        # points straight at the page that carries that content now rather than
+        # chaining through the older names — and since 2026-11-09 that page is
+        # /setups/ again (user: 「将现在的Home页面改成配置页（英文）」): the old
+        # home's setups and reviews moved there, and the accessories page took
+        # over /. There is no setups.md entry: docs/setups/index.md is a real
+        # page, and a stub at the same URL would overwrite it.
+        top-picks.md: setups/index.md
         # /add-ons/ closed 2026-11-04 (user: 「将 /add-ons/ 页的商品全都移至
-        # /gear/」). What it carried lives on /etc/ now, so the stub lands
-        # there; /gear/ itself merged into the homepage the same day (user:
-        # 「将 mygear.top/ 的内容与 mygear.top/gear/ 的内容合并」), and its
-        # twelve setup cards open the homepage.
-        add-ons.md: etc/index.md
-        gear/index.md: index.md
+        # /gear/」). What it carried lives on the accessories page, which was
+        # /etc/ and is the home page since 2026-11-09 (user: 「将ETC改为Home,并
+        # 移到最前面」); /gear/ itself merged into the old home the same day
+        # (user: 「将 mygear.top/ 的内容与 mygear.top/gear/ 的内容合并」), and
+        # that content is /setups/ now.
+        add-ons.md: index.md
+        gear/index.md: setups/index.md
+        # /etc/ was the accessories page until 2026-11-09, when it became the
+        # home page. The stub keeps every /etc/ link and bookmark landing on
+        # the same shelf at /.
+        etc/index.md: index.md
         getting-started/basic-questions.md: guide/essential-questions-before-buying.md
         getting-started/essential-questions-before-buying.md: guide/essential-questions-before-buying.md
         getting-started/blade-performance-metrics.md: guide/blade-performance-metrics.md
@@ -77,7 +85,7 @@ plugins:
         advanced/choosing-thickness-vs-hardness.md: guide/choosing-thickness-vs-hardness.md
         advanced/harimoto-szlc-vs-salc.md: guide/harimoto-szlc-vs-salc.md
         advanced/outer-vs-inner-fiber.md: guide/outer-vs-inner-fiber.md
-        advanced/ma-long-blade-evolution.md: index.md
+        advanced/ma-long-blade-evolution.md: setups/index.md
         advanced/why-tenergy-before-dignics.md: guide/why-tenergy-before-dignics.md
         advanced/hurricane-blue-vs-orange-sponge.md: guide/hurricane-blue-vs-orange-sponge.md
         advanced/boosting-truth.md: guide/boosting-truth.md
@@ -136,7 +144,7 @@ plugins:
         shop/how-to-order.md: order.md
         shop/blades.md: blades.md
         shop/rubbers.md: rubbers.md
-        shop/add-ons.md: etc/index.md
+        shop/add-ons.md: index.md
         shop/pre-owned.md: pre-owned.md
         shop/shipping-and-delivery.md: FAQ.md
         shop/packaging-and-tracking.md: FAQ.md
@@ -174,6 +182,9 @@ extra_css:
   - stylesheets/photo-wall.css
   - stylesheets/header.css
   - stylesheets/uncrate.css
+  # The home page's own layout (the Superbuy-recipe page). Last, so its plain
+  # rules can beat uncrate.css's card/grid defaults on the elements they share.
+  - stylesheets/home-superbuy.css
 
 extra_javascript:
   - javascripts/img-thumbs.js
@@ -189,6 +200,9 @@ extra_javascript:
   - javascripts/price-pager.js
   - javascripts/guide-grid.js
   - javascripts/vip-points.js
+  # The home page's link box, category pills and WhatsApp hand-off; a no-op
+  # everywhere else.
+  - javascripts/home-sb.js
 
 # Local `mkdocs serve` includes these; production `mkdocs build` / GitHub Pages omit them.
 draft_docs: |
@@ -218,20 +232,20 @@ extra:
 
 # 导航配置在这里
 nav:
+  # Home is the accessories page since 2026-11-09, first in the row (user:
+  # 「将ETC改为Home,并移到最前面」). It was the players' setups before that —
+  # the two pages swapped, and that content is the Setups item further down.
   - Home: index.md
   # 2026-11-04: Gear left the nav (user: 「将 mygear.top/ 的内容与
   # mygear.top/gear/ 的内容合并」). Its twelve cards — the eleven players'
   # setups and the Qilin shoe — opened the homepage then. The Qilin moved on
-  # to ETC on 2026-11-07 (user: 「将首页中的 Fan Zhendong's match shoe $125 /
-  # Li-Ning Qilin 2.0 PE 移到 …/etc/ 页中」), so the fourteen player setups are
-  # what the homepage opens with now. gear/index.md is a redirect to index.md
-  # (see redirect_maps). The Brands grid that followed
-  # them on the homepage went the same day (user: 「将首页的品牌列表删除」), and
+  # to the accessories page on 2026-11-07 (user: 「将首页中的 Fan Zhendong's
+  # match shoe $125 / Li-Ning Qilin 2.0 PE 移到 …/etc/ 页中」), so the fourteen
+  # player setups are what /setups/ opens with now. gear/index.md is a redirect
+  # to setups/index.md (see redirect_maps). The Brands grid that followed
+  # them on the old home went the same day (user: 「将首页的品牌列表删除」), and
   # so did the "Setups" / "Reviews & guides" headings — the page is one card
-  # flow, no categories (user: 「不要分类，让他们融合在一起」). Home itself is
-  # drawn in the masthead row now; it was in this nav list all along but the
-  # header template skipped the item whose URL is "" (user: 「然后在导航栏加一个
-  # Home」).
+  # flow, no categories (user: 「不要分类，让他们融合在一起」).
   #
   # gear/ is still a directory of thirty-four product, brand and player pages
   # (/gear/viscaria/, /gear/butterfly/, /gear/dang-qiu/, …; ten of them the
@@ -243,17 +257,20 @@ nav:
   # Rubbers. It is a shop category like the two above it, and it had been
   # sitting between the two halves of this list.
   - Pre-owned: pre-owned.md
-  # ETC is the accessories category, added the same day (user: 「新增ETC类目，
-  # 将 DHS No.15 VOC-Free Glue $8 及后面的卡片都移至ETC」): the thirteen cards
-  # that used to close /gear/ — glue, boosters, balls, cases, bags, care kits.
-  - ETC: etc/index.md
+  # 2026-11-09 (user: 「将现在的Home页面改成配置页（英文），将ETC改为Home,并移到
+  # 最前面」): the two swapped places. The accessories page — ETC until that
+  # morning, with the fourteen pieces behind its Popular add-ons band — is the
+  # site's home now, and the players' setups and the gear reviews moved here,
+  # to /setups/, under the Setups item. ETC itself is gone from the nav, and
+  # /etc/ is a stub to / (see redirect_maps).
+  - Setups: setups/index.md
   # 2026-11-07: VIP is the member-club page (/vip/) — a points lookup by phone
   # number plus the earning rules. It was added and then moved the same day,
   # into the run ETC · VIP · FAQ (user: 「将导航 etc，VIP，FAQ放在一起」).
   - VIP: vip.md
   # 2026-11-04: Add-ons left the nav — its fifteen products moved to Gear, and
-  # the thirteen left after the two removals now sit on ETC; add-ons.md is a
-  # redirect (see redirect_maps).
+  # the thirteen left after the two removals now sit in the home page's Popular
+  # gear band (ETC, then); add-ons.md is a redirect (see redirect_maps).
   #
   # Short labels: the nav row fits about eight of these at 28px, so anything
   # longer than one word costs a line. The page headings and the frontmatter

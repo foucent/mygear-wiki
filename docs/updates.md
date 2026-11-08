@@ -14,6 +14,7 @@ hide:
 
 | Date | Update |
 | --- | --- |
+| **2026-11-09** | **New home page:** the accessories shelf now opens the site — paste a product link and **Get price** opens **WhatsApp** with your link ready to send, or filter the shelf by word and category. The players' setups and the gear reviews moved to **Setups**. |
 | **2026-11-07** | **Added:** the **VIP Rewards** page — a member points system. Message me on **WhatsApp** to register your member details, and send any suggestions you have. |
 | **2026-11-04** | **Merged:** the Gear page moved onto the homepage. **Added:** an **ETC** category for accessories — glue, boosters, balls, racket cases, bags and care kits — and a **Home** link in the menu. |
 | **2026-09-25** | New black-and-white colour scheme across the site. Navigation layout adjusted, with shorter top-level menu labels. |
