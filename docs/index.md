@@ -33,6 +33,19 @@ hide:
      Gemini banner crop from earlier the same day (user: 「页面中的背景图需要
      换成这一张」), which is still in the folder if this one is rejected.
 
+     The hero's meta line names the three things the shop does (user,
+     2026-11-09: 「发送商品链接，我为你以美元报价，为你组装并发货」, then
+     「我为你采购并组装」): "Send a product link · I quote it in USD · I buy
+     and assemble it for you". Buying and assembling — gluing the rubbers onto
+     the blade — are promised up front, not only in the ordering page, and the
+     hero speaks as one person: this is a one-man shop, so it is "I", not
+     "we", here and in the journey card under it (user: 「不要说我们，说我就
+     行了」). Shipping moved to step 3, which now says "I buy the piece,
+     assemble it and ship it to your door". Step 1 sends a link to something
+     the shop does not stock (user: 「粘贴你想要买且我的店铺中没有的装备
+     链接」), not "any product link, or pick a piece from the shelf" — the
+     shelf underneath already sells what it has.
+
      The layout came from acebase.cc, but the hero's job did not stay there:
      this shop is a China proxy-buying service too (user: 「应该表达的是为用户
      提供从中国代购服务，而输入框应该是用户输入商品链接后，点击获取价格后，
@@ -57,7 +70,7 @@ hide:
     <div class="mg-sb-hero__inner mg-sb-inner">
       <div class="mg-sb-hero__copy">
         <h1 class="mg-sb-hero__title">Table tennis gear, bought from China for you</h1>
-        <p class="mg-sb-hero__meta">Send a product link &middot; We quote it in USD &middot; We buy it and ship it to your door</p>
+        <p class="mg-sb-hero__meta">Send a product link &middot; I quote it in USD &middot; I buy and assemble it for you</p>
         <form class="mg-sb-search" id="home-search-form" role="search">
           <label class="mg-sb-search__field">
             <svg class="mg-sb-search__icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
@@ -84,15 +97,15 @@ hide:
         <ol class="mg-sb-journey__steps">
           <li class="mg-sb-step">
             <p class="mg-sb-step__title"><span class="mg-sb-step__num">1</span> Send a link</p>
-            <p class="mg-sb-step__text">Paste any product link, or pick a piece from the shelf below.</p>
+            <p class="mg-sb-step__text">Paste a link to gear you want that my shop doesn't carry.</p>
           </li>
           <li class="mg-sb-step">
-            <p class="mg-sb-step__title"><span class="mg-sb-step__num">2</span> We quote it in USD</p>
-            <p class="mg-sb-step__text">One price for the item and its shipping — we buy it in China for you.</p>
+            <p class="mg-sb-step__title"><span class="mg-sb-step__num">2</span> I quote it in USD</p>
+            <p class="mg-sb-step__text">One price for the item and its shipping — I buy it in China for you.</p>
           </li>
           <li class="mg-sb-step">
             <p class="mg-sb-step__title"><span class="mg-sb-step__num">3</span> Confirm on WhatsApp</p>
-            <p class="mg-sb-step__text">Pay in the chat; we buy the piece and ship it to your door — see <a href="/order/">How to Order</a>.</p>
+            <p class="mg-sb-step__text">Pay in the chat; I buy the piece, assemble it and ship it to your door — see <a href="/order/">How to Order</a>.</p>
           </li>
         </ol>
         <div class="mg-sb-journey__track" aria-hidden="true">
@@ -315,7 +328,7 @@ hide:
 
       </div>
 
-      <p class="mg-sb-empty" id="home-empty" hidden>Nothing on the shelf matches that search — <a href="https://wa.me/8618627156285?text=Hello%2C%20I%27m%20looking%20for%20a%20table%20tennis%20accessory%20you%20don%27t%20list.">ask us in the chat</a> and we will look for it.</p>
+      <p class="mg-sb-empty" id="home-empty" hidden>Nothing on the shelf matches that search — <a href="https://wa.me/8618627156285?text=Hello%2C%20I%27m%20looking%20for%20a%20table%20tennis%20accessory%20you%20don%27t%20list.">ask me in the chat</a> and I will look for it.</p>
     </div>
   </section>
 
