@@ -268,6 +268,45 @@
   background: var(--ab-purple);
 }
 
+/* /vip/'s reward cards (2026-11-09). Same shape as the shop badges, but the
+   fact it states is not stock — it is that the card is bought with points, not
+   money — so it keeps the pre-order purple rather than claiming a "go" green
+   the reward does not have. */
+.md-typeset .mg-preowned-card__badge--reward {
+  background: var(--ab-purple);
+}
+
+/* The reward photos are packets and tools shot whole on white, and the glue
+   sponge is taller than it is wide, so the square is a frame rather than a
+   crop — same reasoning as the add-ons grid. The panel behind them is white,
+   so the contained picture and its frame read as one. */
+.md-typeset .mg-preowned-grid--vip .mg-preowned-card__media > img {
+  object-fit: contain;
+}
+
+/* Five rewards whose names run one to three lines. In a row their REDEEM
+   links would sit at five different heights, so the card becomes a column and
+   the action takes the foot; the row then reads as one line of buttons. */
+.mg-preowned-grid--vip .mg-preowned-card {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Needs a point of specificity on top of the family's own
+   `.md-typeset .mg-preowned-card__wa { margin: 12px auto 0 }`, which sits later
+   in this file and would otherwise put the action back under the name. */
+.md-typeset .mg-preowned-grid--vip .mg-preowned-card__wa {
+  margin-top: auto;
+}
+
+/* Two-up on a phone leaves ~161px per card, and "Redeem 1580 points" is 154 of
+   them — right against the card's edge. One point down buys back the gutter. */
+@media (max-width: 479.98px) {
+  .md-typeset .mg-preowned-grid--vip .mg-preowned-card__wa {
+    font-size: 12px;
+  }
+}
+
 /* The copy block: the family's inner 20px, on top of the card's outer one. */
 .md-typeset .mg-card__copy {
   display: flex;
