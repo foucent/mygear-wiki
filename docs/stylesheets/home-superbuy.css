@@ -17,7 +17,7 @@
      chips            36px tall, radius 24
      journey          white 1200x132 card lifted 54px over the hero's foot,
                       three steps left/centre/right, chevron track with dots
-     feature row      four 304x136 banners
+     feature row      five 304x136 banners (four before 2026-11-12)
      discovery        grey band, 48px padding, h2 24/700, 32px pill tabs,
                       5-column grid of 227x318 cards
    What did not come over is the palette and the action: this site is black
@@ -27,6 +27,30 @@
    like acebase's — Get price hands a pasted product link to WhatsApp (this
    site's checkout is the chat, where acebase opens its email dialog), and a
    plain word narrows the shelf below. home-sb.js holds that half.
+
+   2026-11-12 (user: 「将Popular add-ons的商品以 add-ons类目放置在 Pre-owned
+   之后，将setups的内容移至原来的 Popular add-ons，并更名为 热门配置（英文）」):
+   the accessory shelf and its pills left for /add-ons/, so the pill tabs and
+   the .mg-sb-card grid rules below have no page using them today; they stay
+   with the layout they were measured for. The fifth banner — Add-ons — took
+   the row to five columns (3 + 2 under 1024, 2 + 2 + 1 under 768; four and
+   2 + 2 after the Setups banner left with its page), and the
+   grey band now holds the players' setups in the shop's usual two-column
+   .mg-card-grid instead of a 227x318 card grid.
+
+   The same day, second turn: the twelve /gear/ reviews followed the setups
+   onto this page as a white band under the grey one, and both bands were then
+   asked to draw five cards a row on a PC (「尝试将它们在PC端，每行显示5条」) —
+   five from 1200, four from 1024, three from 760, one on a phone. The third
+   turn moved that second band to /guide/ whole (「将Popular gear的内容都移到
+   http://127.0.0.1:8001/guide/」): the grey setups band is the page's only
+   shelf now, and the white-band rule and the review cards' copy override went
+   with it. /guide/'s version of the shelf has rungs of its own over its 960px
+   column, in uncrate.css.
+
+   Later the same day the five-a-row rung was undone for the setups band
+   (「首页的Popular setups 改成每行显示3条」): three from 760 up, one on a
+   phone. See the rung below — the 4- and 5-column blocks are gone.
 
    Full bleed: the theme locks .md-content__inner to 960px, so the page lifts
    that lock with :has() rather than 100vw — 100vw includes the scrollbar on
@@ -371,7 +395,7 @@
   right: 12px;
 }
 
-/* ---------- four catalogue banners ---------- */
+/* ---------- five catalogue banners ---------- */
 
 .md-typeset .mg-sb-features {
   padding-top: 28px;
@@ -379,6 +403,8 @@
 
 .md-typeset .mg-sb-features__grid {
   display: grid;
+  /* four catalogues since 2026-11-12 — Add-ons joined after Pre-owned, and
+     the Setups banner left with its page the same day */
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 16px;
 }
@@ -412,6 +438,10 @@
 
 .md-typeset .mg-sb-feature--preowned {
   background: linear-gradient(120deg, #f1f4ef, #dde5d8);
+}
+
+.md-typeset .mg-sb-feature--addons {
+  background: linear-gradient(120deg, #eef4f8, #d9e6ef);
 }
 
 .md-typeset .mg-sb-feature--setups {
@@ -456,6 +486,24 @@
   margin-top: 36px;
   padding: 48px 0 60px;
   background: var(--sb-soft);
+}
+
+/* Three cards a row in the shelf, from a tablet up (user, 2026-11-12, later
+   the same day: 「首页的Popular setups 改成每行显示3条」 — an hour after the
+   five-a-row turn). The .mg-card-grid the rest of the site uses is two up;
+   this is the band's own rung, so /setups/ and the shop pages keep theirs. A
+   phone stays single-column on the grid's own rung.
+
+   Three is the width these cards want. The inner column caps at 1200px, so a
+   desktop card draws 389px and a 1024px window draws 315px — the earlier
+   five-a-row rung drew 182px there and set a 20px uppercase title to four
+   lines. The four- and five-rung media blocks this replaces are gone; one rung
+   covers every window above 760. */
+@media screen and (min-width: 760px) {
+  .md-typeset .mg-sb-discovery .mg-card-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+  }
 }
 
 .md-typeset .mg-sb-discovery__head {
@@ -716,6 +764,7 @@
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  /* four banners: 2 + 2, so no row ends on a lone card */
   .md-typeset .mg-sb-features__grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -762,6 +811,10 @@
 
   .md-typeset .mg-sb-features {
     padding-top: 20px;
+  }
+
+  .md-typeset .mg-sb-features__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .md-typeset .mg-sb-feature {

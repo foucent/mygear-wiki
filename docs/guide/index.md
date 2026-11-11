@@ -1,7 +1,7 @@
 ---
 title: "Table Tennis Guides, Blades, Rubbers & Technique | MyGear.Top"
 icon: material/book-open-page-variant
-description: "Table tennis guides on MyGear.Top — choosing a blade, fiber construction, rubber hardness and boosting, plus gear reviews and rankings. Eighteen articles."
+description: "Table tennis guides on MyGear.Top — choosing a blade, fiber construction, rubber hardness and boosting, plus gear reviews and rankings. Eighteen articles and twelve shop reviews."
 # The header bar says "Guides"; the list below is the page, with no title of
 # its own over it.
 hide:
@@ -27,6 +27,19 @@ hide:
 
      本页由 _tmp_ocr/make_guide_hub.py 生成 —— 它先跑
      _tmp_ocr/extract_guide_entries.js，从 guide-grid.js 现抽 18 条 —— 手改会丢。
+
+     2026-11-12 第三轮：列表下面又加了「Popular gear」货架（用户：「将 Popular
+     gear 的内容都移到 http://127.0.0.1:8001/guide/」），即首页那条带整条搬来，
+     见文末注释。**这一段不归 make_guide_hub.py 管**：它只重写 .mg-guide-hub 里的
+     18 行，且那支脚本抽的是 guide-grid.js 现在的 12 条 /gear/ 评测（不是这 18
+     篇文章），本身已经过期，别再跑它重生成整页。
+
+     第四轮（同一天，用户：「将 http://127.0.0.1:8001/guide/ 的 Popular gear
+     的排版和 <列表里的行卡> 等保持一致，且删除 Popular gear / 导语文字及分割
+     符」）：货架的小标题、导语和上面那条 hairline 全删，12 张卡片换成和 18 条
+     一样的横排卡，两段之间只剩列表的 16px 间距 —— 整页读起来是一张 30 条的连
+     续列表。`data-mg-clamp-fixed` 和 `.mg-card__zoom` 随之撤掉：行卡摘要整段
+     显示，不折叠（和上面 18 条一样）。
 -->
 
 <div class="mg-guide-hub" markdown="0">
@@ -253,3 +266,49 @@ hide:
   </div>
 
 </div>
+
+<!-- 2026-11-12, third and fourth turns.
+
+     Third (user: 「将Popular gear的内容都移到 http://127.0.0.1:8001/guide/」):
+     the twelve /gear/ product reviews the same day had put in a band under
+     "Popular setups" on the home page moved here, feed furniture and all.
+     Fourth, the same day (user: 「将 http://127.0.0.1:8001/guide/ 的 Popular
+     gear 的排版和 <列表里的行卡> 等保持一致，且删除Popular gear / 导语文字及
+     分割符」): the shelf's own heading, its lead line and the hairline above it
+     are gone, and guide-grid.js draws its cards with the articles' row recipe
+     (.mg-card--row), so the page is one list of thirty rows — the twelve shop
+     reviews carrying on from the eighteen articles at the same 16px rhythm.
+
+     What is left of a wrapper stands only because the lazy feed needs one: the
+     grid guide-grid.js appends to, the sentinel it watches, the status line and
+     the no-JS list. It stays outside .mg-guide-hub so that wrapper keeps
+     meaning "the eighteen articles". -->
+<section class="mg-guide-gear" id="popular-gear" markdown="0">
+
+  <div class="mg-card-grid" id="mg-guides-grid" markdown="0"></div>
+
+  <div class="mg-guides" markdown="0">
+
+    <div class="mg-guides__sentinel" aria-hidden="true"></div>
+
+    <p class="mg-guides__status" role="status" aria-live="polite">Loading more&hellip;</p>
+
+    <noscript>
+      <ul>
+        <li><a href="/gear/dignics-09c/">Butterfly Dignics 09C Review, Price &amp; Specs</a></li>
+        <li><a href="/gear/fan-zhendong-alc/">Butterfly Fan Zhendong ALC Review, Price &amp; Specs</a></li>
+        <li><a href="/gear/zhang-jike-alc/">Butterfly Zhang Jike ALC Review, Price &amp; Specs</a></li>
+        <li><a href="/gear/ovtcharov-innerforce-alc/">Butterfly Ovtcharov Innerforce ALC Review, Price &amp; Specs</a></li>
+        <li><a href="/gear/viscaria/">Butterfly Viscaria Review, Price &amp; Specs</a></li>
+        <li><a href="/gear/timo-boll-alc/">Butterfly Timo Boll ALC Review, Price &amp; Specs</a></li>
+        <li><a href="/gear/harimoto-innerforce-alc/">Butterfly Harimoto Innerforce ALC Review, Price &amp; Specs</a></li>
+        <li><a href="/gear/dhs-hurricane-long-5/">DHS Hurricane Long 5 Review, Price &amp; Specs</a></li>
+        <li><a href="/gear/victas-koki-niwa/">Victas Koki Niwa Review, Price &amp; Specs</a></li>
+        <li><a href="/gear/zyre-03/">Butterfly ZYRE-03 Review, Price &amp; Specs</a></li>
+        <li><a href="/gear/tenergy-05/">Butterfly Tenergy 05 Review, Price &amp; Specs</a></li>
+        <li><a href="/gear/dignics-05/">Butterfly Dignics 05 Review, Price &amp; Specs</a></li>
+      </ul>
+    </noscript>
+
+  </div>
+</section>

@@ -25,6 +25,36 @@ hide:
      away (the fourth banner was Guides until 2026-11-09, user: 「中的 Reading
      Guides 换成 /setups/ 页面」).
 
+     2026-11-12 (user: 「将Popular add-ons的商品以 add-ons类目放置在 Pre-owned
+     之后，将setups的内容移至原来的 Popular add-ons，并更名为 热门配置（英文）」):
+     the accessories left the page. They are a catalogue of their own now, on
+     /add-ons/ behind the fifth banner, which sits after Pre-owned — five
+     banners in all. The grey band at the foot of the page keeps its slot and
+     its id (`gear`, which the first chip and the search box scroll to) and
+     holds the players' setups instead, renamed "Popular setups": the same
+     fourteen cards /setups/ carries, copied whole, so a change to one of them
+     has to be made in both files. The band's category pills and the shelf
+     search went with the accessories — the link box still hands a link to
+     WhatsApp, but a plain word now only scrolls the page down.
+
+     The same day, a second turn: the twelve /gear/ reviews left /setups/ for
+     a band of their own under the setups, "Popular gear" (user: 「原来的
+     setups页的其它内容可以移到首页的Popular setups下面再建立一个 热门装备
+     （英文）」).
+
+     A third turn took that band off the page: the user had it all moved to
+     /guide/ (「将Popular gear的内容都移到 http://127.0.0.1:8001/guide/」),
+     heading, lead, cards and feed together. The page ends on one shelf again —
+     grey "Popular setups" — and /setups/, at that point, still its fourteen
+     player cards alone (the next paragraph takes even that away).
+
+     And a fourth, the same day: the page itself went (「删除
+     http://127.0.0.1:8001/setups/」) — nav entry, fifth banner and the three
+     redirect stubs that pointed at it too, so /setups/ and the older names
+     that led there are 404 now, as this site leaves every retired address.
+     The grey band below is the only place the fourteen player cards live; the
+     sentence above about changing a card in both files is history.
+
      The hero art is /images/home-hero/hero-dalu.webp, cut by
      _tmp_ocr/hero_art_prep.py (which records every source and its crop box)
      from the phone still the user supplied that day (user: 「换成这张试试」):
@@ -77,13 +107,13 @@ hide:
               <circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/>
               <path d="m16 16 5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
             </svg>
-            <input type="text" id="home-search" name="q" autocomplete="off" placeholder="Paste an Amazon, AliExpress or any store link" aria-label="Paste a product link for a sourcing price, or type a word to filter the shelf">
+            <input type="text" id="home-search" name="q" autocomplete="off" placeholder="Paste an Amazon, AliExpress or any store link" aria-label="Paste a product link for a sourcing price">
           </label>
           <button class="mg-sb-search__submit" type="submit">Get price</button>
         </form>
         <p class="mg-sb-search__note" id="home-note" aria-live="polite" hidden></p>
         <div class="mg-sb-hero__tools">
-          <a class="mg-sb-chip" href="#gear">Popular add-ons</a>
+          <a class="mg-sb-chip" href="#gear">Popular setups</a>
           <a class="mg-sb-chip" href="#how">How sourcing works</a>
           <a class="mg-sb-chip" href="https://wa.me/8618627156285?text=Hello%2C%20I%27d%20like%20a%20quote%20for%20table%20tennis%20gear.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A">Chat on WhatsApp</a>
         </div>
@@ -141,10 +171,10 @@ hide:
           </span>
           <span class="mg-sb-feature__go" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
         </a>
-        <a class="mg-sb-feature mg-sb-feature--setups" href="/setups/">
+        <a class="mg-sb-feature mg-sb-feature--addons" href="/add-ons/">
           <span class="mg-sb-feature__text">
-            <span class="mg-sb-feature__eyebrow">Players</span>
-            <span class="mg-sb-feature__title">Setups</span>
+            <span class="mg-sb-feature__eyebrow">Catalogue</span>
+            <span class="mg-sb-feature__title">Add-ons</span>
           </span>
           <span class="mg-sb-feature__go" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
         </a>
@@ -155,180 +185,243 @@ hide:
   <section class="mg-sb-discovery" id="gear">
     <div class="mg-sb-inner">
       <header class="mg-sb-discovery__head">
-        <h2 class="mg-sb-discovery__title">Popular add-ons</h2>
-        <a class="mg-sb-chat" href="https://wa.me/8618627156285?text=Hello%2C%20I%27d%20like%20a%20quote%20for%20table%20tennis%20accessories.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A">Open live chat</a>
+        <h2 class="mg-sb-discovery__title">Popular setups</h2>
+        <a class="mg-sb-chat" href="https://wa.me/8618627156285?text=Hello%2C%20I%27d%20like%20advice%20on%20a%20player%27s%20setup.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A">Open live chat</a>
       </header>
 
-      <p class="mg-sb-discovery__lead">The extras players most often add to their orders — glue, boosters, balls, cases, shoes and care kits, each line priced and one tap from the cart.</p>
+      <p class="mg-sb-discovery__lead">The blades and rubbers today's top players actually use &mdash; every line priced, and one tap opens the chat with the whole setup in the message.</p>
 
-      <div class="mg-sb-pills" id="home-pills">
-        <button class="mg-sb-pill is-active" type="button" data-category="all" aria-pressed="true">All</button>
-        <button class="mg-sb-pill" type="button" data-category="glue" aria-pressed="false">Glue &amp; boosters</button>
-        <button class="mg-sb-pill" type="button" data-category="balls" aria-pressed="false">Balls</button>
-        <button class="mg-sb-pill" type="button" data-category="cases" aria-pressed="false">Cases</button>
-        <button class="mg-sb-pill" type="button" data-category="care" aria-pressed="false">Care</button>
-        <button class="mg-sb-pill" type="button" data-category="shoes" aria-pressed="false">Shoes</button>
+      <!-- The fourteen player cards (user, 2026-11-12: 「将setups的内容
+           移至原来的 Popular add-ons，并更名 为 热门配置（英文）」). They were
+           copies of /setups/ until the user deleted that page the same day
+           (「删除 http://127.0.0.1:8001/setups/」) — these are the cards' only
+           home now, so a new player setup is added here and nowhere else.
+           What survives from the copy is the geometry: `sizes` names the
+           band's 389px card (three a row, see home-superbuy.css) and the
+           titles are h3s, because this band's own h2 covers them. -->
+      <div class="mg-card-grid" markdown="0">
+
+  <article class="mg-card mg-card--player">
+    <div class="mg-card__media">
+      <img src="/images/sora-matsushima/cover.thumb.webp" data-full-src="/images/sora-matsushima/cover.webp" srcset="/images/sora-matsushima/cover.thumb-480.webp 480w, /images/sora-matsushima/cover.thumb.webp 720w, /images/sora-matsushima/cover.thumb-1000.webp 1000w, /images/sora-matsushima/cover.webp 1200w" sizes="(max-width: 767.98px) 88vw, (max-width: 1023.98px) 31vw, 389px" alt="Sora Matsushima mid-stroke in a pink shirt with both hands on his racket" loading="lazy" decoding="async" data-gallery="/images/butterfly-fan-zhendong-alc/03.jpg|Butterfly Fan Zhendong ALC blade face up on its box,/images/dignics-09c/01.jpg|Butterfly Dignics 09C rubber sheets in red and black,/images/zyre-03/01.jpg|Butterfly ZYRE-03 rubber sheets in red and black,/images/sora-matsushima/shoes.webp|Butterfly Lezoline Revalis table tennis shoe in red,/images/sora-matsushima/shirt.webp|Butterfly Elista 10 shirt in pink and black">
+    </div>
+    <div class="mg-card__copy">      <h3 class="mg-card__title">Sora Matsushima's setup</h3>
+      <p class="mg-card__desc mg-card__desc--lines">
+        <span class="mg-card__line">Butterfly Fan Zhendong ALC / <span class="mg-card__line-price">$159</span></span>
+        <span class="mg-card__line">Butterfly Dignics 09C / <span class="mg-card__line-price">$73</span></span>
+        <span class="mg-card__line">Butterfly ZYRE-03 / <span class="mg-card__line-price">$89</span></span>
+      </p>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20Fan%20Zhendong%20ALC%20with%20Dignics%2009C%20and%20ZYRE-03.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card mg-card--player">
+    <div class="mg-card__media">
+      <img src="/images/wang-chuqin/cover.thumb.webp" data-full-src="/images/wang-chuqin/cover.webp" srcset="/images/wang-chuqin/cover.thumb-480.webp 480w, /images/wang-chuqin/cover.thumb.webp 720w, /images/wang-chuqin/cover.thumb-1000.webp 1000w, /images/wang-chuqin/cover.webp 1200w" sizes="(max-width: 767.98px) 88vw, (max-width: 1023.98px) 31vw, 389px" alt="Wang Chuqin seen from behind, arms raised to the crowd, China shirt reading Wang C.Q." loading="lazy" decoding="async" data-gallery="/images/dhs-q968-hurricane-king-national/01.jpg|DHS Q968 blade face up with the Hurricane King badge on the handle,/images/wang-chuqin/forehand.webp|DHS Hurricane 3 National blue sponge rubber in its box,/images/wang-chuqin/backhand.webp|DHS Hurricane 8 rubber in its box">
+    </div>
+    <div class="mg-card__copy">      <h3 class="mg-card__title">Wang Chuqin's setup</h3>
+      <p class="mg-card__desc mg-card__desc--lines">
+        <span class="mg-card__line">DHS Q968 / <span class="mg-card__line-price">$320</span></span>
+        <span class="mg-card__line">DHS Hurricane 3 National / <span class="mg-card__line-price">$50</span></span>
+        <span class="mg-card__line">DHS Hurricane 8 / <span class="mg-card__line-price mg-card__line-price--ask">Price on request</span></span>
+      </p>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20DHS%20Q968%20with%20Hurricane%203%20National%20blue%20sponge%20and%20Hurricane%208.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card mg-card--player">
+    <div class="mg-card__media">
+      <img src="/images/tomokazu-harimoto/cover.thumb.webp" data-full-src="/images/tomokazu-harimoto/cover.webp" srcset="/images/tomokazu-harimoto/cover.thumb-240.webp 240w, /images/tomokazu-harimoto/cover.thumb-480.webp 480w, /images/tomokazu-harimoto/cover.thumb.webp 720w, /images/tomokazu-harimoto/cover.webp 762w" sizes="(max-width: 767.98px) 88vw, (max-width: 1023.98px) 31vw, 389px" alt="Tomokazu Harimoto shouting in a pink ANA Japan shirt" width="762" height="508" loading="lazy" decoding="async" data-gallery="/images/tomokazu-harimoto/blade.webp|Butterfly Harimoto Tomokazu Innerforce Super ALC blade face up with the blue handle,/images/zyre-03/01.jpg|Butterfly ZYRE-03 rubber sheets in red and black,/images/tomokazu-harimoto/shoes.webp|Butterfly Lezoline Rifones table tennis shoe in black red and yellow,/images/tomokazu-harimoto/shirt.webp|Butterfly Jemelio shirts in black red and blue">
+    </div>
+    <div class="mg-card__copy">      <h3 class="mg-card__title">Tomokazu Harimoto's setup</h3>
+      <p class="mg-card__desc mg-card__desc--lines">
+        <span class="mg-card__line">Butterfly Harimoto Innerforce Super ALC / <span class="mg-card__line-price">$168</span></span>
+        <span class="mg-card__line">Butterfly ZYRE-03 · Both Sides / <span class="mg-card__line-price">$89</span></span>
+      </p>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20Harimoto%20Innerforce%20Super%20ALC%20with%20ZYRE-03%20on%20both%20sides.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card mg-card--player">
+    <div class="mg-card__media">
+      <img src="/images/dang-qiu/cover.thumb.webp" data-full-src="/images/dang-qiu/cover.webp" srcset="/images/dang-qiu/cover.thumb-240.webp 240w, /images/dang-qiu/cover.thumb-480.webp 480w, /images/dang-qiu/cover.thumb.webp 720w, /images/dang-qiu/cover.thumb-1000.webp 1000w, /images/dang-qiu/cover.webp 1080w" sizes="(max-width: 767.98px) 88vw, (max-width: 1023.98px) 31vw, 389px" alt="Dang Qiu mid-stroke in a red LIEBHERR shirt and a red headband, racket raised" width="1080" height="720" loading="lazy" decoding="async" data-gallery="/images/dang-qiu/rubber.webp|Butterfly Dignics 09C rubber box">
+    </div>
+    <div class="mg-card__copy">      <h3 class="mg-card__title">Dang Qiu's setup</h3>
+      <p class="mg-card__desc mg-card__desc--lines">
+        <span class="mg-card__line">Butterfly Timo Boll ALC / <span class="mg-card__line-price">$133</span></span>
+        <span class="mg-card__line">Butterfly Dignics 09C · Both Sides / <span class="mg-card__line-price">$73</span></span>
+      </p>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20Dignics%2009C%20on%20both%20sides%20of%20a%20penhold%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card mg-card--player">
+    <div class="mg-card__media">
+      <img src="/images/patrick-franziska/cover.thumb.webp" data-full-src="/images/patrick-franziska/cover.webp" srcset="/images/patrick-franziska/cover.thumb-240.webp 240w, /images/patrick-franziska/cover.thumb-480.webp 480w, /images/patrick-franziska/cover.thumb.webp 720w, /images/patrick-franziska/cover.thumb-1000.webp 1000w, /images/patrick-franziska/cover.webp 1080w" sizes="(max-width: 767.98px) 88vw, (max-width: 1023.98px) 31vw, 389px" alt="Patrick Franziska from behind in a blue shirt with his name and the Butterfly mark, arms raised with his racket and a bundle of shirts" width="1080" height="720" loading="lazy" decoding="async" data-gallery="/images/patrick-franziska/blade.webp|Butterfly Franziska Innerforce ZLC blade face up with the dark handle,/images/zyre-03/01.jpg|Butterfly ZYRE-03 rubber sheets in red and black,/images/dignics-09c/01.jpg|Butterfly Dignics 09C rubber sheets in red and black">
+    </div>
+    <div class="mg-card__copy">      <h3 class="mg-card__title">Patrick Franziska's setup</h3>
+      <p class="mg-card__desc mg-card__desc--lines">
+        <span class="mg-card__line">Butterfly Franziska Innerforce ZLC / <span class="mg-card__line-price">$216</span></span>
+        <span class="mg-card__line">Butterfly ZYRE-03 / <span class="mg-card__line-price">$89</span></span>
+        <span class="mg-card__line">Butterfly Dignics 09C / <span class="mg-card__line-price">$73</span></span>
+      </p>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20Franziska%20Innerforce%20ZLC%20with%20ZYRE-03%20on%20the%20forehand%20and%20Dignics%2009C%20on%20the%20backhand.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card mg-card--player">
+    <div class="mg-card__media">
+      <img src="/images/felix-lebrun/cover.thumb.webp" data-full-src="/images/felix-lebrun/cover.webp" srcset="/images/felix-lebrun/cover.thumb-240.webp 240w, /images/felix-lebrun/cover.thumb-480.webp 480w, /images/felix-lebrun/cover.thumb.webp 720w, /images/felix-lebrun/cover.thumb-1000.webp 1000w, /images/felix-lebrun/cover.webp 1200w" sizes="(max-width: 767.98px) 88vw, (max-width: 1023.98px) 31vw, 389px" alt="Félix Lebrun shouting in glasses and a pink, yellow and blue Tibhar shirt, racket in hand" width="1200" height="800" loading="lazy" decoding="async" data-gallery="/images/felix-lebrun/blade.webp|Tibhar Felix Lebrun Hyper Carbon blade face up with the red and blue handle,/images/felix-lebrun/rubber.webp|Tibhar Hybrid K3 Pro rubber box">
+    </div>
+    <div class="mg-card__copy">      <h3 class="mg-card__title">Félix Lebrun's setup</h3>
+      <p class="mg-card__desc mg-card__desc--lines">
+        <span class="mg-card__line">Tibhar Félix Lebrun Hyper Carbon / <span class="mg-card__line-price">$139</span></span>
+        <span class="mg-card__line">Tibhar Hybrid K3 Pro · Both Sides / <span class="mg-card__line-price mg-card__line-price--ask">Price on request</span></span>
+      </p>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20Felix%20Lebrun%20Hyper%20Carbon%20with%20Hybrid%20K3%20Pro%20on%20both%20sides.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card mg-card--player">
+    <div class="mg-card__media">
+      <img src="/images/lin-yun-ju/cover.thumb.webp" data-full-src="/images/lin-yun-ju/cover.webp" srcset="/images/lin-yun-ju/cover.thumb-240.webp 240w, /images/lin-yun-ju/cover.thumb-480.webp 480w, /images/lin-yun-ju/cover.thumb.webp 720w, /images/lin-yun-ju/cover.thumb-1000.webp 1000w, /images/lin-yun-ju/cover.webp 1080w" sizes="(max-width: 767.98px) 88vw, (max-width: 1023.98px) 31vw, 389px" alt="Lin Yun-Ju reaching across the table in a green and yellow shirt, the ball in the air in front of him" width="1080" height="720" loading="lazy" decoding="async" data-gallery="/images/lin-yun-ju/blade.webp|Butterfly Viscaria Super ALC blade face up with the blue-handled flared grip,/images/zyre-03/01.jpg|Butterfly ZYRE-03 rubber sheets in red and black,/images/dignics-05/01.jpg|Butterfly Dignics 05 rubber sheets in red and black">
+    </div>
+    <div class="mg-card__copy">      <h3 class="mg-card__title">Lin Yun-Ju's setup</h3>
+      <p class="mg-card__desc mg-card__desc--lines">
+        <span class="mg-card__line">Butterfly Viscaria Super ALC / <span class="mg-card__line-price">$208</span></span>
+        <span class="mg-card__line">Butterfly ZYRE-03 / <span class="mg-card__line-price">$89</span></span>
+        <span class="mg-card__line">Butterfly Dignics 05 / <span class="mg-card__line-price">$68</span></span>
+      </p>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20Viscaria%20Super%20ALC%20with%20ZYRE-03%20on%20the%20forehand%20and%20Dignics%2005%20on%20the%20backhand.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card mg-card--player">
+    <div class="mg-card__media">
+      <img src="/images/truls-moregardh/cover.thumb.webp" data-full-src="/images/truls-moregardh/cover.webp" srcset="/images/truls-moregardh/cover.thumb-240.webp 240w, /images/truls-moregardh/cover.thumb-480.webp 480w, /images/truls-moregardh/cover.thumb.webp 720w, /images/truls-moregardh/cover.thumb-1000.webp 1000w, /images/truls-moregardh/cover.webp 1200w" sizes="(max-width: 767.98px) 88vw, (max-width: 1023.98px) 31vw, 389px" alt="Truls Moregardh in a blue Sweden shirt, fist raised and racket in his other hand" width="1200" height="800" loading="lazy" decoding="async" data-gallery="/images/price-list/blades/stiga-cybershape-carbon-cwt-truls.jpg|STIGA Cybershape Carbon blade in its Truls Moregardh Edition hexagonal face up,/images/truls-moregardh/rubber.webp|STIGA Helix Platinum XH rubber box">
+    </div>
+    <div class="mg-card__copy">      <h3 class="mg-card__title">Truls Möregårdh's setup</h3>
+      <p class="mg-card__desc mg-card__desc--lines">
+        <span class="mg-card__line">STIGA Cybershape Carbon / <span class="mg-card__line-price">$232</span></span>
+        <span class="mg-card__line">STIGA Helix Platinum XH · Both Sides / <span class="mg-card__line-price mg-card__line-price--ask">Price on request</span></span>
+      </p>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20Cybershape%20Carbon%20with%20Helix%20Platinum%20XH%20on%20both%20sides.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card mg-card--player">
+    <div class="mg-card__media">
+      <img src="/images/hugo-calderano/cover.thumb.webp" data-full-src="/images/hugo-calderano/cover.webp" srcset="/images/hugo-calderano/cover.thumb-240.webp 240w, /images/hugo-calderano/cover.thumb-480.webp 480w, /images/hugo-calderano/cover.thumb.webp 720w, /images/hugo-calderano/cover.thumb-1000.webp 1000w, /images/hugo-calderano/cover.webp 1200w" sizes="(max-width: 767.98px) 88vw, (max-width: 1023.98px) 31vw, 389px" alt="Hugo Calderano with his fist raised in a blue and green shirt, racket down at his side" width="1200" height="800" loading="lazy" decoding="async" data-gallery="/images/hugo-calderano/blade.webp|XIOM Hugo Hyper Axylium blade face up with the blue handle,/images/hugo-calderano/forehand.webp|Joola Trinity Charged rubber in its green box,/images/hugo-calderano/backhand.webp|Joola Trinity Dynamic rubber in its green box,/images/hugo-calderano/shirt.webp|Polo Tempo table tennis polo in navy and in black">
+    </div>
+    <div class="mg-card__copy">      <h3 class="mg-card__title">Hugo Calderano's setup</h3>
+      <p class="mg-card__desc mg-card__desc--lines">
+        <span class="mg-card__line">XIOM Hugo Hyper Axylium / <span class="mg-card__line-price mg-card__line-price--ask">Price on request</span></span>
+        <span class="mg-card__line">Joola Trinity Charged / <span class="mg-card__line-price">$62</span></span>
+        <span class="mg-card__line">Joola Trinity Dynamic / <span class="mg-card__line-price">$62</span></span>
+      </p>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20Hyper%20Axylium%20with%20Trinity%20Charged%20on%20the%20forehand%20and%20Trinity%20Dynamic%20on%20the%20backhand.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card mg-card--player">
+    <div class="mg-card__media">
+      <img src="/images/lin-shidong/cover.thumb.webp" data-full-src="/images/lin-shidong/cover.webp" srcset="/images/lin-shidong/cover.thumb-240.webp 240w, /images/lin-shidong/cover.thumb-480.webp 480w, /images/lin-shidong/cover.thumb.webp 720w, /images/lin-shidong/cover.thumb-1000.webp 1000w, /images/lin-shidong/cover.webp 1200w" sizes="(max-width: 767.98px) 88vw, (max-width: 1023.98px) 31vw, 389px" alt="Lin Shidong close up in China's blue shirt, reaching past the ball" width="1200" height="800" loading="lazy" decoding="async" data-gallery="/images/lin-shidong/forehand.webp|DHS Hurricane 3 Neo rubber box,/images/dignics-09c/01.jpg|Butterfly Dignics 09C rubber sheets in red and black">
+    </div>
+    <div class="mg-card__copy">      <h3 class="mg-card__title">Lin Shidong's setup</h3>
+      <p class="mg-card__desc mg-card__desc--lines">
+        <span class="mg-card__line">Butterfly Viscaria Golden / <span class="mg-card__line-price mg-card__line-price--ask">Price on request</span></span>
+        <span class="mg-card__line">DHS Hurricane 3 Neo / <span class="mg-card__line-price">$23</span></span>
+        <span class="mg-card__line">Butterfly Dignics 09C / <span class="mg-card__line-price">$73</span></span>
+      </p>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20Viscaria%20with%20Hurricane%203%20Neo%20on%20the%20forehand%20and%20Dignics%2009C%20on%20the%20backhand.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card mg-card--player">
+    <div class="mg-card__media">
+      <img src="/images/fan-zhendong/cover.thumb.webp" data-full-src="/images/fan-zhendong/cover.webp" srcset="/images/fan-zhendong/cover.thumb-240.webp 240w, /images/fan-zhendong/cover.thumb-480.webp 480w, /images/fan-zhendong/cover.thumb.webp 720w, /images/fan-zhendong/cover.thumb-1000.webp 1000w, /images/fan-zhendong/cover.webp 1200w" sizes="(max-width: 767.98px) 88vw, (max-width: 1023.98px) 31vw, 389px" alt="Fan Zhendong seen from behind on the Paris table, arms flung wide with his racket in one hand" width="1200" height="800" loading="lazy" decoding="async" data-gallery="/images/butterfly-fan-zhendong-alc/03.webp|Butterfly Fan Zhendong ALC blade face up on its box,/images/stock-rubbers/neo-h3-national-blue.jpg|DHS Hurricane 3 National blue sponge rubber in its sealed packet,/images/dignics-09c/01.jpg|Butterfly Dignics 09C rubber sheets in red and black">
+    </div>
+    <div class="mg-card__copy">      <h3 class="mg-card__title">Fan Zhendong's setup</h3>
+      <p class="mg-card__desc mg-card__desc--lines">
+        <span class="mg-card__line">Butterfly Fan Zhendong ALC / <span class="mg-card__line-price">$159</span></span>
+        <span class="mg-card__line">DHS Hurricane 3 National / <span class="mg-card__line-price">$50</span></span>
+        <span class="mg-card__line">Butterfly Dignics 09C / <span class="mg-card__line-price">$73</span></span>
+      </p>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20Fan%20Zhendong%20ALC%20with%20Hurricane%203%20National%20on%20the%20forehand%20and%20Dignics%2009C%20on%20the%20backhand.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card mg-card--player">
+    <div class="mg-card__media">
+      <img src="/images/zhou-qihao/cover.thumb.webp" data-full-src="/images/zhou-qihao/cover.webp" srcset="/images/zhou-qihao/cover.thumb-240.webp 240w, /images/zhou-qihao/cover.thumb-480.webp 480w, /images/zhou-qihao/cover.thumb.webp 720w, /images/zhou-qihao/cover.thumb-1000.webp 1000w, /images/zhou-qihao/cover.webp 1200w" sizes="(max-width: 767.98px) 88vw, (max-width: 1023.98px) 31vw, 389px" alt="Zhou Qihao serving with his racket raised above his head and the ball in front of his face" width="1200" height="800" loading="lazy" decoding="async" data-gallery="/images/double-fish-zhou-qihao-project-z/01.webp|Double Fish Zhou Qihao Project Z blade face with his name and signature,/images/stock-rubbers/neo-h3-national-blue.jpg|DHS Hurricane 3 National blue sponge rubber in its sealed packet,/images/dignics-09c/01.jpg|Butterfly Dignics 09C rubber sheets in red and black">
+    </div>
+    <div class="mg-card__copy">      <h3 class="mg-card__title">Zhou Qihao's setup</h3>
+      <p class="mg-card__desc mg-card__desc--lines">
+        <span class="mg-card__line">Double Fish Zhou Qihao Project Z / <span class="mg-card__line-price mg-card__line-price--ask">Price on request</span></span>
+        <span class="mg-card__line">DHS Neo Hurricane 3 National / <span class="mg-card__line-price">$50</span></span>
+        <span class="mg-card__line">Butterfly Dignics 09C / <span class="mg-card__line-price">$73</span></span>
+      </p>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20Zhou%20Qihao%20Project%20Z%20with%20Neo%20Hurricane%203%20National%20on%20the%20forehand%20and%20Dignics%2009C%20on%20the%20backhand.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card mg-card--player">
+    <div class="mg-card__media">
+      <img src="/images/wen-ruibo/cover.thumb.webp" data-full-src="/images/wen-ruibo/cover.webp" srcset="/images/wen-ruibo/cover.thumb-240.webp 240w, /images/wen-ruibo/cover.thumb-480.webp 480w, /images/wen-ruibo/cover.thumb.webp 720w, /images/wen-ruibo/cover.thumb-1000.webp 1000w, /images/wen-ruibo/cover.webp 1068w" sizes="(max-width: 767.98px) 88vw, (max-width: 1023.98px) 31vw, 389px" alt="Wen Ruibo tossing the ball up to serve with his eyes on it and a dark purple hall behind him" width="1068" height="712" loading="lazy" decoding="async" data-gallery="/images/wen-ruibo/blade.webp|Stiga Luma Hybrid Carbon blade with the STIGA badge on the face,/images/stock-rubbers/neo-h3-national-blue.jpg|DHS Hurricane 3 National blue sponge rubber in its sealed packet,/images/wen-ruibo/backhand.webp|Stiga DNA Hybrid XH rubber in its box">
+    </div>
+    <div class="mg-card__copy">      <h3 class="mg-card__title">Wen Ruibo's setup</h3>
+      <p class="mg-card__desc mg-card__desc--lines">
+        <span class="mg-card__line">Stiga Luma Hybrid Carbon / <span class="mg-card__line-price mg-card__line-price--ask">Price on request</span></span>
+        <span class="mg-card__line">DHS Neo Hurricane 3 National / <span class="mg-card__line-price">$50</span></span>
+        <span class="mg-card__line">Stiga DNA Hybrid XH / <span class="mg-card__line-price mg-card__line-price--ask">Price on request</span></span>
+      </p>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20Stiga%20Luma%20Hybrid%20Carbon%20with%20Neo%20Hurricane%203%20National%20on%20the%20forehand%20and%20DNA%20Hybrid%20XH%20on%20the%20backhand.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>
+      </p>
+    </div>
+  </article>
+
+  <article class="mg-card mg-card--player">
+    <div class="mg-card__media">
+      <img src="/images/li-tianyang/cover.thumb.webp" data-full-src="/images/li-tianyang/cover.webp" srcset="/images/li-tianyang/cover.thumb-240.webp 240w, /images/li-tianyang/cover.thumb-480.webp 480w, /images/li-tianyang/cover.thumb.webp 720w, /images/li-tianyang/cover.thumb-1000.webp 1000w, /images/li-tianyang/cover.webp 1242w" sizes="(max-width: 767.98px) 88vw, (max-width: 1023.98px) 31vw, 389px" alt="Li Tianyang mid-stroke in a black and purple shirt with his racket low and his free arm stretched out" width="1242" height="828" loading="lazy" decoding="async" data-gallery="/images/price-list/blades/dhs-classic-08x.jpg|DHS Classic 08X blade with the 08 badge on the handle,/images/stock-rubbers/neo-h3-national-blue.jpg|DHS Hurricane 3 National blue sponge rubber in its sealed packet,/images/li-tianyang/backhand.webp|Friendship 729 802-40 short pimples rubber in its packet">
+    </div>
+    <div class="mg-card__copy">      <h3 class="mg-card__title">Li Tianyang's setup</h3>
+      <p class="mg-card__desc mg-card__desc--lines">
+        <span class="mg-card__line">DHS Classic 08X / <span class="mg-card__line-price">$50</span></span>
+        <span class="mg-card__line">DHS Neo Hurricane 3 National / <span class="mg-card__line-price">$50</span></span>
+        <span class="mg-card__line">Friendship 729 802-40 / <span class="mg-card__line-price mg-card__line-price--ask">Price on request</span></span>
+      </p>
+      <p class="mg-card__more mg-card__more--split">
+        <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20DHS%20Classic%2008X%20with%20Neo%20Hurricane%203%20National%20on%20the%20forehand%20and%20Friendship%20729%20802-40%20on%20the%20backhand.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>
+      </p>
+    </div>
+  </article>
+
       </div>
-
-      <div class="mg-sb-grid" id="home-grid" aria-label="Table tennis accessories">
-
-        <article class="mg-sb-card" data-category="shoes" data-search="li-ning qilin 2.0 pe fan zhendong match shoe shoes">
-          <div class="mg-sb-card__media">
-            <img src="/images/lining-qilin-2-pe/02.thumb.webp" data-full-src="/images/lining-qilin-2-pe/02.jpg" srcset="/images/lining-qilin-2-pe/02.thumb-480.webp 360w, /images/lining-qilin-2-pe/02.thumb.webp 540w, /images/lining-qilin-2-pe/02.thumb-1000.webp 750w, /images/lining-qilin-2-pe/02.jpg 960w" sizes="(max-width: 767.98px) 45vw, 199px" alt="Li-Ning Qilin 2.0 PE table tennis shoe in blue and white" loading="lazy" decoding="async" data-gallery="/images/lining-qilin-2-pe/02.jpg,/images/lining-qilin-2-pe/04.jpg,/images/lining-qilin-2-pe/05.jpg,/images/lining-qilin-2-pe/06.jpg,/images/lining-qilin-2-pe/07.jpg">
-          </div>
-          <h3 class="mg-sb-card__title">Fan Zhendong's match shoe — Li-Ning Qilin 2.0 PE</h3>
-          <p class="mg-sb-card__quote"><span class="mg-sb-card__price">$125</span></p>
-          <div class="mg-sb-card__bottom">
-            <button type="button" class="mg-cart-add" aria-label="Add Li-Ning Qilin 2.0 PE to cart" data-name="Li-Ning Qilin 2.0 PE" data-price="125">Add to cart</button>
-          </div>
-        </article>
-
-        <article class="mg-sb-card" data-category="glue" data-search="dhs no.15 no15 voc-free glue water based glue">
-          <div class="mg-sb-card__media">
-            <img src="/images/add-ons/dhs-no-15-voc-free-glue.thumb.webp" data-full-src="/images/add-ons/dhs-no-15-voc-free-glue.jpg" srcset="/images/add-ons/dhs-no-15-voc-free-glue.thumb-240.webp 180w, /images/add-ons/dhs-no-15-voc-free-glue.thumb-480.webp 360w, /images/add-ons/dhs-no-15-voc-free-glue.thumb.webp 540w, /images/add-ons/dhs-no-15-voc-free-glue.thumb-1000.webp 750w" sizes="(max-width: 767.98px) 45vw, 199px" alt="DHS No.15 VOC-Free Glue" loading="lazy" decoding="async">
-          </div>
-          <h3 class="mg-sb-card__title">DHS No.15 VOC-Free Glue</h3>
-          <p class="mg-sb-card__quote"><span class="mg-sb-card__price">$8</span></p>
-          <div class="mg-sb-card__bottom">
-            <button type="button" class="mg-cart-add" aria-label="Add DHS No.15 VOC-Free Glue to cart" data-name="DHS No.15 VOC-Free Glue" data-price="8">Add to cart</button>
-          </div>
-        </article>
-
-        <article class="mg-sb-card" data-category="care" data-search="dhs blade professional lacquer seal blade care">
-          <div class="mg-sb-card__media">
-            <img src="/images/add-ons/dhs-blade-professional-lacquer.thumb.webp" data-full-src="/images/add-ons/dhs-blade-professional-lacquer.jpg" srcset="/images/add-ons/dhs-blade-professional-lacquer.thumb-480.webp 480w, /images/add-ons/dhs-blade-professional-lacquer.thumb.webp 720w, /images/add-ons/dhs-blade-professional-lacquer.jpg 800w" sizes="(max-width: 767.98px) 45vw, 199px" alt="DHS Blade Professional Lacquer" loading="lazy" decoding="async">
-          </div>
-          <h3 class="mg-sb-card__title">DHS Blade Professional Lacquer</h3>
-          <p class="mg-sb-card__quote"><span class="mg-sb-card__price">$10</span></p>
-          <div class="mg-sb-card__bottom">
-            <button type="button" class="mg-cart-add" aria-label="Add DHS Blade Professional Lacquer to cart" data-name="DHS Blade Professional Lacquer" data-price="10">Add to cart</button>
-          </div>
-        </article>
-
-        <article class="mg-sb-card" data-category="glue" data-search="haifu national black oil booster">
-          <div class="mg-sb-card__media">
-            <img src="/images/add-ons/haifu-national-black-oil.thumb.webp" data-full-src="/images/add-ons/haifu-national-black-oil.jpg" srcset="/images/add-ons/haifu-national-black-oil.thumb-480.webp 480w, /images/add-ons/haifu-national-black-oil.thumb.webp 720w, /images/add-ons/haifu-national-black-oil.jpg 800w" sizes="(max-width: 767.98px) 45vw, 199px" alt="Haifu National Black Oil" loading="lazy" decoding="async">
-          </div>
-          <h3 class="mg-sb-card__title">Haifu National Black Oil</h3>
-          <p class="mg-sb-card__quote"><span class="mg-sb-card__price">$18</span></p>
-          <div class="mg-sb-card__bottom">
-            <button type="button" class="mg-cart-add" aria-label="Add Haifu National Black Oil to cart" data-name="Haifu National Black Oil" data-price="18">Add to cart</button>
-          </div>
-        </article>
-
-        <article class="mg-sb-card" data-category="glue" data-search="haifu sea moon booster">
-          <div class="mg-sb-card__media">
-            <img src="/images/add-ons/haifu-sea-moon-booster.thumb.webp" data-full-src="/images/add-ons/haifu-sea-moon-booster.jpg" srcset="/images/add-ons/haifu-sea-moon-booster.thumb-480.webp 480w, /images/add-ons/haifu-sea-moon-booster.thumb.webp 720w, /images/add-ons/haifu-sea-moon-booster.jpg 800w" sizes="(max-width: 767.98px) 45vw, 199px" alt="Haifu Sea Moon Booster" loading="lazy" decoding="async">
-          </div>
-          <h3 class="mg-sb-card__title">Haifu Sea Moon Booster</h3>
-          <p class="mg-sb-card__quote"><span class="mg-sb-card__price">$8</span></p>
-          <div class="mg-sb-card__bottom">
-            <button type="button" class="mg-cart-add" aria-label="Add Haifu Sea Moon Booster to cart" data-name="Haifu Sea Moon Booster" data-price="8">Add to cart</button>
-          </div>
-        </article>
-
-        <article class="mg-sb-card" data-category="balls" data-search="dhs 3-star three star balls table tennis balls">
-          <div class="mg-sb-card__media">
-            <img src="/images/add-ons/dhs-3-star-balls.thumb.webp" data-full-src="/images/add-ons/dhs-3-star-balls.jpg" srcset="/images/add-ons/dhs-3-star-balls.thumb-480.webp 480w, /images/add-ons/dhs-3-star-balls.thumb.webp 720w, /images/add-ons/dhs-3-star-balls.jpg 800w" sizes="(max-width: 767.98px) 45vw, 199px" alt="DHS 3-Star Balls" loading="lazy" decoding="async">
-          </div>
-          <h3 class="mg-sb-card__title">DHS 3-Star Balls</h3>
-          <p class="mg-sb-card__quote"><span class="mg-sb-card__price">$5</span></p>
-          <div class="mg-sb-card__bottom">
-            <button type="button" class="mg-cart-add" aria-label="Add DHS 3-Star Balls to cart" data-name="DHS 3-Star Balls" data-price="5">Add to cart</button>
-          </div>
-        </article>
-
-        <article class="mg-sb-card" data-category="cases" data-search="hard case for racket bat case">
-          <div class="mg-sb-card__media">
-            <img src="/images/add-ons/hard-case-for-racket.thumb.webp" data-full-src="/images/add-ons/hard-case-for-racket.jpg" srcset="/images/add-ons/hard-case-for-racket.thumb-480.webp 480w, /images/add-ons/hard-case-for-racket.jpg 610w" sizes="(max-width: 767.98px) 45vw, 199px" alt="Hard Case for Racket" loading="lazy" decoding="async">
-          </div>
-          <h3 class="mg-sb-card__title">Hard Case for Racket</h3>
-          <p class="mg-sb-card__quote"><span class="mg-sb-card__price">$5</span></p>
-          <div class="mg-sb-card__bottom">
-            <button type="button" class="mg-cart-add" aria-label="Add Hard Case for Racket to cart" data-name="Hard Case for Racket" data-price="5">Add to cart</button>
-          </div>
-        </article>
-
-        <article class="mg-sb-card" data-category="care" data-search="nittaku cleaning sponge cleaner care">
-          <div class="mg-sb-card__media">
-            <img src="/images/add-ons/nittaku-cleaning-sponge.thumb.webp" data-full-src="/images/add-ons/nittaku-cleaning-sponge.webp" srcset="/images/add-ons/nittaku-cleaning-sponge.thumb-480.webp 476w, /images/add-ons/nittaku-cleaning-sponge.webp 604w" sizes="(max-width: 767.98px) 45vw, 199px" alt="Nittaku Cleaning Sponge" loading="lazy" decoding="async">
-          </div>
-          <h3 class="mg-sb-card__title">Nittaku Cleaning Sponge</h3>
-          <p class="mg-sb-card__quote"><span class="mg-sb-card__price">$1</span></p>
-          <div class="mg-sb-card__bottom">
-            <button type="button" class="mg-cart-add" aria-label="Add Nittaku Cleaning Sponge to cart" data-name="Nittaku Cleaning Sponge" data-price="1">Add to cart</button>
-          </div>
-        </article>
-
-        <article class="mg-sb-card" data-category="cases" data-search="rubber protective sleeve cover racket case">
-          <div class="mg-sb-card__media">
-            <img src="/images/add-ons/rubber-protective-sleeve.thumb.webp" data-full-src="/images/add-ons/rubber-protective-sleeve.webp" srcset="/images/add-ons/rubber-protective-sleeve.thumb-480.webp 480w, /images/add-ons/rubber-protective-sleeve.webp 611w" sizes="(max-width: 767.98px) 45vw, 199px" alt="Rubber Protective Sleeve" loading="lazy" decoding="async">
-          </div>
-          <h3 class="mg-sb-card__title">Rubber Protective Sleeve</h3>
-          <p class="mg-sb-card__quote"><span class="mg-sb-card__price">$1</span></p>
-          <div class="mg-sb-card__bottom">
-            <button type="button" class="mg-cart-add" aria-label="Add Rubber Protective Sleeve to cart" data-name="Rubber Protective Sleeve" data-price="1">Add to cart</button>
-          </div>
-        </article>
-
-        <article class="mg-sb-card" data-category="care" data-search="sdi 3006c rubber cutter scissors care">
-          <div class="mg-sb-card__media">
-            <img src="/images/add-ons/sdi-3006c-rubber-cutter.thumb.webp" data-full-src="/images/add-ons/sdi-3006c-rubber-cutter.jpg" srcset="/images/add-ons/sdi-3006c-rubber-cutter.thumb-480.webp 360w, /images/add-ons/sdi-3006c-rubber-cutter.thumb.webp 540w, /images/add-ons/sdi-3006c-rubber-cutter.jpg 600w" sizes="(max-width: 767.98px) 45vw, 199px" alt="SDI 3006C Rubber Cutter" loading="lazy" decoding="async">
-          </div>
-          <h3 class="mg-sb-card__title">SDI 3006C Rubber Cutter</h3>
-          <p class="mg-sb-card__quote"><span class="mg-sb-card__price">$5</span></p>
-          <div class="mg-sb-card__bottom">
-            <button type="button" class="mg-cart-add" aria-label="Add SDI 3006C Rubber Cutter to cart" data-name="SDI 3006C Rubber Cutter" data-price="5">Add to cart</button>
-          </div>
-        </article>
-
-        <article class="mg-sb-card" data-category="cases" data-search="butterfly 2025 racket case bat case">
-          <div class="mg-sb-card__media">
-            <img src="/images/add-ons/butterfly-racket-case/01.thumb.webp" data-full-src="/images/add-ons/butterfly-racket-case/01.jpg" srcset="/images/add-ons/butterfly-racket-case/01.thumb-480.webp 480w, /images/add-ons/butterfly-racket-case/01.thumb.webp 720w, /images/add-ons/butterfly-racket-case/01.thumb-1000.webp 1000w" sizes="(max-width: 767.98px) 45vw, 199px" alt="Butterfly 2025 Racket Case" loading="lazy" decoding="async" data-gallery="/images/add-ons/butterfly-racket-case/01.jpg,/images/add-ons/butterfly-racket-case/02.jpg,/images/add-ons/butterfly-racket-case/03.jpg,/images/add-ons/butterfly-racket-case/04.jpg,/images/add-ons/butterfly-racket-case/05.jpg,/images/add-ons/butterfly-racket-case/06.jpg,/images/add-ons/butterfly-racket-case/07.jpg">
-          </div>
-          <h3 class="mg-sb-card__title">Butterfly 2025 Racket Case</h3>
-          <p class="mg-sb-card__quote"><span class="mg-sb-card__price">$30</span></p>
-          <div class="mg-sb-card__bottom">
-            <button type="button" class="mg-cart-add" aria-label="Add Butterfly 2025 Racket Case to cart" data-name="Butterfly 2025 Racket Case" data-price="30">Add to cart</button>
-          </div>
-        </article>
-
-        <article class="mg-sb-card" data-category="care" data-search="butterfly wristband sweatband care">
-          <div class="mg-sb-card__media">
-            <img src="/images/add-ons/butterfly-wristband/01.thumb.webp" data-full-src="/images/add-ons/butterfly-wristband/01.webp" srcset="/images/add-ons/butterfly-wristband/01.thumb-480.webp 480w, /images/add-ons/butterfly-wristband/01.thumb.webp 720w, /images/add-ons/butterfly-wristband/01.thumb-1000.webp 1000w" sizes="(max-width: 767.98px) 45vw, 199px" alt="Butterfly Wristband" loading="lazy" decoding="async" data-gallery="/images/add-ons/butterfly-wristband/01.webp,/images/add-ons/butterfly-wristband/02.jpg,/images/add-ons/butterfly-wristband/03.jpg,/images/add-ons/butterfly-wristband/04.jpg,/images/add-ons/butterfly-wristband/05.jpg">
-          </div>
-          <h3 class="mg-sb-card__title">Butterfly Wristband</h3>
-          <p class="mg-sb-card__quote"><span class="mg-sb-card__price">$10</span></p>
-          <div class="mg-sb-card__bottom">
-            <button type="button" class="mg-cart-add" aria-label="Add Butterfly Wristband to cart" data-name="Butterfly Wristband" data-price="10">Add to cart</button>
-          </div>
-        </article>
-
-        <article class="mg-sb-card" data-category="cases" data-search="butterfly 2026 racket bag bag case">
-          <div class="mg-sb-card__media">
-            <img src="/images/add-ons/butterfly-2026-racket-bag/01.thumb.webp" data-full-src="/images/add-ons/butterfly-2026-racket-bag/01.jpg" srcset="/images/add-ons/butterfly-2026-racket-bag/01.thumb-480.webp 480w, /images/add-ons/butterfly-2026-racket-bag/01.thumb.webp 720w, /images/add-ons/butterfly-2026-racket-bag/01.thumb-1000.webp 1000w" sizes="(max-width: 767.98px) 45vw, 199px" alt="Butterfly 2026 Racket Bag" loading="lazy" decoding="async" data-gallery="/images/add-ons/butterfly-2026-racket-bag/01.jpg,/images/add-ons/butterfly-2026-racket-bag/02.jpg,/images/add-ons/butterfly-2026-racket-bag/03.jpg,/images/add-ons/butterfly-2026-racket-bag/04.jpg,/images/add-ons/butterfly-2026-racket-bag/05.jpg,/images/add-ons/butterfly-2026-racket-bag/06.jpg,/images/add-ons/butterfly-2026-racket-bag/07.jpg,/images/add-ons/butterfly-2026-racket-bag/08.jpg">
-          </div>
-          <h3 class="mg-sb-card__title">Butterfly 2026 Racket Bag</h3>
-          <p class="mg-sb-card__quote"><span class="mg-sb-card__price">$31</span></p>
-          <div class="mg-sb-card__bottom">
-            <button type="button" class="mg-cart-add" aria-label="Add Butterfly 2026 Racket Bag to cart" data-name="Butterfly 2026 Racket Bag" data-price="31">Add to cart</button>
-          </div>
-        </article>
-
-        <article class="mg-sb-card" data-category="care" data-search="butterfly 2026 sports towel care">
-          <div class="mg-sb-card__media">
-            <img src="/images/add-ons/butterfly-2026-sports-towel/01.thumb.webp" data-full-src="/images/add-ons/butterfly-2026-sports-towel/01.webp" srcset="/images/add-ons/butterfly-2026-sports-towel/01.thumb-480.webp 480w, /images/add-ons/butterfly-2026-sports-towel/01.thumb.webp 720w, /images/add-ons/butterfly-2026-sports-towel/01.thumb-1000.webp 1000w" sizes="(max-width: 767.98px) 45vw, 199px" alt="Butterfly 2026 Sports Towel" loading="lazy" decoding="async" data-gallery="/images/add-ons/butterfly-2026-sports-towel/01.webp,/images/add-ons/butterfly-2026-sports-towel/02.webp,/images/add-ons/butterfly-2026-sports-towel/03.webp,/images/add-ons/butterfly-2026-sports-towel/04.webp">
-          </div>
-          <h3 class="mg-sb-card__title">Butterfly 2026 Sports Towel</h3>
-          <p class="mg-sb-card__quote"><span class="mg-sb-card__price">$6</span></p>
-          <div class="mg-sb-card__bottom">
-            <button type="button" class="mg-cart-add" aria-label="Add Butterfly 2026 Sports Towel to cart" data-name="Butterfly 2026 Sports Towel" data-price="6">Add to cart</button>
-          </div>
-        </article>
-
-      </div>
-
-      <p class="mg-sb-empty" id="home-empty" hidden>Nothing on the shelf matches that search — <a href="https://wa.me/8618627156285?text=Hello%2C%20I%27m%20looking%20for%20a%20table%20tennis%20accessory%20you%20don%27t%20list.">ask me in the chat</a> and I will look for it.</p>
     </div>
   </section>
 

@@ -262,8 +262,9 @@ hide:
   <!-- Two blades added on 2026-11-06, each at the price the shop gave that
        day: Harimoto Tomokazu Innerforce Super ALC $168 and Viscaria Super ALC
        $208. Neither had a price on this page before, so both player cards
-       on /setups/ (Tomokazu Harimoto's and Lin Yun-Ju's) asked for a
-       quote; now they print these numbers instead. The photos are the
+       in the home page's Popular setups band (Tomokazu Harimoto's and
+       Lin Yun-Ju's — they were on /setups/ until that page went on
+       2026-11-12) asked for a quote; now they print these numbers instead. The photos are the
        shop's own catalogue shots, square on white. The Harimoto file is
        450px, so its srcset stops at the source — a 240 rung and the .jpg
        itself, no upscaled rung; the Viscaria is 1200px and takes the usual
@@ -296,8 +297,9 @@ hide:
   <!-- Patrick Franziska's own blade: 5+2 with the ZLC layer under the face
        wood, the inner-fibre build his signatures use. The price is the
        shop's own, set 2026-11-08 (user: 「定价为$216」), not a scraped list
-       price — and it is the same number the player card on /setups/
-       prints for the blade. -->
+       price — and it is the same number Franziska's card in the home page's
+       Popular setups band prints for the blade (it read /setups/ until that
+       page went on 2026-11-12). -->
   <article class="mg-preowned-card" role="listitem">
     <div class="mg-preowned-card__media">
       <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
