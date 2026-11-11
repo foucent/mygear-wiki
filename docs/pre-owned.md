@@ -602,6 +602,11 @@ hide:
       <td>Harimoto SZLC | Old U-Code | CN | 86g | Without box | Edge repaired</td>
       <td style="text-align:right">$139</td>
     </tr>
+<tr data-added="2026-11-11">
+      <td><img src="/images/hurricane-king-wang-chuqin-fl-89g/01.thumb.webp" data-full-src="/images/hurricane-king-wang-chuqin-fl-89g/01.jpg" srcset="/images/hurricane-king-wang-chuqin-fl-89g/01.thumb-240.webp 180w, /images/hurricane-king-wang-chuqin-fl-89g/01.thumb-480.webp 360w, /images/hurricane-king-wang-chuqin-fl-89g/01.thumb.webp 540w, /images/hurricane-king-wang-chuqin-fl-89g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Hurricane King (Wang Chuqin) | FL | 89g" loading="lazy" data-gallery="/images/hurricane-king-wang-chuqin-fl-89g/01.jpg,/images/hurricane-king-wang-chuqin-fl-89g/02.jpg,/images/hurricane-king-wang-chuqin-fl-89g/03.jpg,/images/hurricane-king-wang-chuqin-fl-89g/04.jpg,/images/hurricane-king-wang-chuqin-fl-89g/05.jpg,/images/hurricane-king-wang-chuqin-fl-89g/06.jpg"></td>
+      <td>Hurricane King (Wang Chuqin) | FL | 89g</td>
+      <td style="text-align:right">$93</td>
+    </tr>
 <tr>
       <td><img src="/images/koki-niwa-st-84g/01.thumb.webp" data-full-src="/images/koki-niwa-st-84g/01.jpg" srcset="/images/koki-niwa-st-84g/01.thumb-240.webp 135w, /images/koki-niwa-st-84g/01.thumb-480.webp 270w, /images/koki-niwa-st-84g/01.thumb.webp 405w, /images/koki-niwa-st-84g/01.jpg 1080w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Koki Niwa | ST | 84g" loading="lazy" data-gallery="/images/koki-niwa-st-84g/01.jpg,/images/koki-niwa-st-84g/02.jpg,/images/koki-niwa-st-84g/03.jpg,/images/koki-niwa-st-84g/04.jpg,/images/koki-niwa-st-84g/05.jpg,/images/koki-niwa-st-84g/06.jpg,/images/koki-niwa-st-84g/07.jpg"></td>
       <td>Koki Niwa | ST | 84g</td>
