@@ -1793,6 +1793,11 @@
    Before 2026-10-22 the entries were a bare <ul>; for half a day before that,
    four group headings. Neither survives. The order is by date now, newest
    first — see make_guide_hub.py.
+
+   Since 2026-11-12 this recipe also lays out the twelve /gear/ reviews at the
+   foot of the page (see the note under it): the selectors read
+   `.mg-card--row` rather than being scoped to .mg-guide-hub, so one rule set
+   covers both lists and the page reads as one column of rows.
 --------------------------------------------------------------------------- */
 
 .md-guide-hub {
@@ -1805,7 +1810,7 @@
   gap: 16px;
 }
 
-.md-typeset .mg-guide-hub .mg-card--row {
+.md-typeset .mg-card--row {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1.9fr);
   align-items: start;
@@ -1814,16 +1819,19 @@
   text-align: left;
 }
 
-.md-typeset .mg-guide-hub .mg-card--row .mg-card__media img {
+.md-typeset .mg-card--row .mg-card__media img {
   aspect-ratio: 16 / 9;
   object-fit: cover;
   border: 1px solid var(--ab-line);
+  /* A row is not a gallery: gallery-lightbox.js never binds these, so the
+     shop card's zoom cursor would promise a click that does nothing. */
+  cursor: default;
 }
 
 /* The shop card's copy is a centred wrapping row (the price rides at the end
    of the name); a row card's copy is a plain left-handed column, so the
    kicker and "Read more" start where the headline does instead of centring. */
-.md-typeset .mg-guide-hub .mg-card--row .mg-card__copy {
+.md-typeset .mg-card--row .mg-card__copy {
   display: block;
   height: auto;
   padding: 0;
@@ -1832,11 +1840,11 @@
 
 /* No kicker above the headline here, so the shop card's 16px of headroom
    under the picture rule is not needed. */
-.md-typeset .mg-guide-hub .mg-card--row .mg-card__copy > :first-child {
+.md-typeset .mg-card--row .mg-card__copy > :first-child {
   margin-top: 0;
 }
 
-.md-typeset .mg-guide-hub .mg-card--row .mg-card__title {
+.md-typeset .mg-card--row .mg-card__title {
   margin: 0 0 8px;
   font-size: 22px;
   line-height: 1.28;
@@ -1846,7 +1854,7 @@
 
 /* Date and category as a kicker under the headline: a stamp, not copy, so it
    stays well under the headline's weight. */
-.md-typeset .mg-guide-hub .mg-card__meta {
+.md-typeset .mg-card--row .mg-card__meta {
   margin: 0 0 12px;
   font-family: var(--ab-sans);
   font-size: 12px;
@@ -1856,18 +1864,25 @@
   color: var(--ab-text-muted);
 }
 
-.md-typeset .mg-guide-hub .mg-card--row .mg-card__desc {
+.md-typeset .mg-card--row .mg-card__desc {
   margin: 0 0 12px;
   font-size: 16px;
   line-height: 25px;
 }
 
 /* A row is as tall as its own text, so the action line needs no pinning. */
-.md-typeset .mg-guide-hub .mg-card--row .mg-card__more {
+.md-typeset .mg-card--row .mg-card__more {
   margin: 0;
 }
 
-.md-typeset .mg-guide-hub .mg-card--row .mg-card__more a {
+/* A row's action line starts where its headline does. The guide cards' split
+   line (a video link and "Read more" side by side) centres itself for the
+   tiles; in a row it takes the row's left edge, like the articles' lone link. */
+.md-typeset .mg-card--row .mg-card__more--split {
+  justify-content: flex-start;
+}
+
+.md-typeset .mg-card--row .mg-card__more a {
   display: inline-block;
   padding: 0 0 2px;
   border: 0;
@@ -1883,8 +1898,8 @@
   text-decoration: none;
 }
 
-.md-typeset .mg-guide-hub .mg-card--row .mg-card__more a:hover,
-.md-typeset .mg-guide-hub .mg-card--row .mg-card__more a:focus {
+.md-typeset .mg-card--row .mg-card__more a:hover,
+.md-typeset .mg-card--row .mg-card__more a:focus {
   color: var(--ab-text);
   border-bottom-color: var(--ab-text);
 }
@@ -1892,14 +1907,45 @@
 /* Phone: the row stacks, picture over text, at the breakpoint Material drops
    the content column to one; the action goes back to the site's 16px there. */
 @media screen and (max-width: 767px) {
-  .md-typeset .mg-guide-hub .mg-card--row {
+  .md-typeset .mg-card--row {
     grid-template-columns: minmax(0, 1fr);
     gap: 14px;
   }
 
-  .md-typeset .mg-guide-hub .mg-card--row .mg-card__more a {
+  .md-typeset .mg-card--row .mg-card__more a {
     font-size: 16px;
   }
+}
+
+/* ---------------------------------------------------------------------------
+   The twelve /gear/ reviews at the foot of this page.
+
+   2026-11-12, third turn (user: 「将Popular gear的内容都移到
+   http://127.0.0.1:8001/guide/」): the shelf that same day had been built as
+   the home page's second band moved here whole — heading, lead and the feed
+   guide-grid.js draws. Fourth turn, same day (user: 「将 http://127.0.0.1:8001/
+   guide/ 的 Popular gear 的排版和 <列表里的行卡> 等保持一致，且删除Popular
+   gear / 导语文字及分割符」): the heading, the lead and the hairline that opened
+   the shelf are gone, and its cards are drawn with the articles' own
+   .mg-card--row recipe above — picture left, copy right, and the same 16px
+   between one row and the next on either side of the seam. What is left of the
+   section shows nothing: it is where the lazy feed keeps its grid, sentinel and
+   status line.
+
+   One card a row: the feed's grid is a stack here, not the tile grid
+   .mg-card-grid lays out elsewhere, and its rows are auto-height — a row is as
+   tall as its own text, and 1fr rows would level every row to the tallest.
+--------------------------------------------------------------------------- */
+
+.md-typeset .mg-guide-gear {
+  margin: 16px 0 0;
+}
+
+.md-typeset .mg-guide-gear .mg-card-grid {
+  grid-template-columns: minmax(0, 1fr);
+  grid-auto-rows: auto;
+  gap: 16px;
+  margin: 0;
 }
 
 @media (prefers-reduced-motion: reduce) {

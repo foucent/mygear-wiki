@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Table tennis guides on MyGear.Top — choosing a blade, fiber construction, rubber hardness and boosting, plus gear reviews and rankings. Eighteen articles.">
+        <meta name="description" content="Table tennis guides on MyGear.Top — choosing a blade, fiber construction, rubber hardness and boosting, plus gear reviews and rankings. Eighteen articles and twelve shop reviews.">
       
       
       
@@ -73,11 +73,11 @@
     <meta property="og:type" content="website">
   <meta property="og:site_name" content="MyGear.Top">
   <meta property="og:title" content="Table Tennis Guides, Blades, Rubbers & Technique | MyGear.Top">
-  <meta property="og:description" content="Table tennis guides on MyGear.Top — choosing a blade, fiber construction, rubber hardness and boosting, plus gear reviews and rankings. Eighteen articles.">
+  <meta property="og:description" content="Table tennis guides on MyGear.Top — choosing a blade, fiber construction, rubber hardness and boosting, plus gear reviews and rankings. Eighteen articles and twelve shop reviews.">
   <meta property="og:url" content="https://mygear.top/guide/">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Table Tennis Guides, Blades, Rubbers & Technique | MyGear.Top">
-  <meta name="twitter:description" content="Table tennis guides on MyGear.Top — choosing a blade, fiber construction, rubber hardness and boosting, plus gear reviews and rankings. Eighteen articles.">
+  <meta name="twitter:description" content="Table tennis guides on MyGear.Top — choosing a blade, fiber construction, rubber hardness and boosting, plus gear reviews and rankings. Eighteen articles and twelve shop reviews.">
 
   </head>
   
@@ -212,7 +212,7 @@
         
           
             <li class="ab-mainnav__item">
-              <a class="ab-mainnav__link" href="../setups/">Setups</a>
+              <a class="ab-mainnav__link" href="../add-ons/">Add-ons</a>
             </li>
           
         
@@ -423,16 +423,16 @@
   
   
     <li class="md-nav__item">
-      <a href="../setups/" class="md-nav__link">
+      <a href="../add-ons/" class="md-nav__link">
         
   
   
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 14c-2.67 0-8 1.33-8 4v2h16v-2c0-2.67-5.33-4-8-4m0-2a4 4 0 0 0 4-4 4 4 0 0 0-4-4 4 4 0 0 0-4 4 4 4 0 0 0 4 4M5 13.28l2.45 1.49-.65-2.81L9 10.08l-2.89-.25L5 7.19 3.87 9.83 1 10.08l2.18 1.88-.68 2.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2 10.96a.985.985 0 0 1-.37-1.37L3.13 7c.11-.2.28-.34.47-.42l7.83-4.4c.16-.12.36-.18.57-.18s.41.06.57.18l7.9 4.44c.19.1.35.26.44.46l1.45 2.52c.28.48.11 1.09-.36 1.36l-1 .58v4.96c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.99.99 0 0 1 3 16.5v-5.54c-.3.17-.68.18-1 0m10-6.81v6.7l5.96-3.35zM5 15.91l6 3.38v-6.71L5 9.21zm14 0v-3.22l-5 2.9c-.33.18-.7.17-1 .01v3.69zm-5.15-2.55 6.28-3.63-.58-1.01-6.28 3.63z"/></svg>
   
   <span class="md-ellipsis">
     
   
-    Setups
+    Add-ons
   
 
     
@@ -657,6 +657,19 @@
 
      本页由 _tmp_ocr/make_guide_hub.py 生成 —— 它先跑
      _tmp_ocr/extract_guide_entries.js，从 guide-grid.js 现抽 18 条 —— 手改会丢。
+
+     2026-11-12 第三轮：列表下面又加了「Popular gear」货架（用户：「将 Popular
+     gear 的内容都移到 http://127.0.0.1:8001/guide/」），即首页那条带整条搬来，
+     见文末注释。**这一段不归 make_guide_hub.py 管**：它只重写 .mg-guide-hub 里的
+     18 行，且那支脚本抽的是 guide-grid.js 现在的 12 条 /gear/ 评测（不是这 18
+     篇文章），本身已经过期，别再跑它重生成整页。
+
+     第四轮（同一天，用户：「将 http://127.0.0.1:8001/guide/ 的 Popular gear
+     的排版和 <列表里的行卡> 等保持一致，且删除 Popular gear / 导语文字及分割
+     符」）：货架的小标题、导语和上面那条 hairline 全删，12 张卡片换成和 18 条
+     一样的横排卡，两段之间只剩列表的 16px 间距 —— 整页读起来是一张 30 条的连
+     续列表。`data-mg-clamp-fixed` 和 `.mg-card__zoom` 随之撤掉：行卡摘要整段
+     显示，不折叠（和上面 18 条一样）。
 -->
 
 <div class="mg-guide-hub" markdown="0">
@@ -883,6 +896,52 @@
   </div>
 
 </div>
+
+<!-- 2026-11-12, third and fourth turns.
+
+     Third (user: 「将Popular gear的内容都移到 http://127.0.0.1:8001/guide/」):
+     the twelve /gear/ product reviews the same day had put in a band under
+     "Popular setups" on the home page moved here, feed furniture and all.
+     Fourth, the same day (user: 「将 http://127.0.0.1:8001/guide/ 的 Popular
+     gear 的排版和 <列表里的行卡> 等保持一致，且删除Popular gear / 导语文字及
+     分割符」): the shelf's own heading, its lead line and the hairline above it
+     are gone, and guide-grid.js draws its cards with the articles' row recipe
+     (.mg-card--row), so the page is one list of thirty rows — the twelve shop
+     reviews carrying on from the eighteen articles at the same 16px rhythm.
+
+     What is left of a wrapper stands only because the lazy feed needs one: the
+     grid guide-grid.js appends to, the sentinel it watches, the status line and
+     the no-JS list. It stays outside .mg-guide-hub so that wrapper keeps
+     meaning "the eighteen articles". -->
+<section class="mg-guide-gear" id="popular-gear" markdown="0">
+
+  <div class="mg-card-grid" id="mg-guides-grid" markdown="0"></div>
+
+  <div class="mg-guides" markdown="0">
+
+    <div class="mg-guides__sentinel" aria-hidden="true"></div>
+
+    <p class="mg-guides__status" role="status" aria-live="polite">Loading more&hellip;</p>
+
+    <noscript>
+      <ul>
+        <li><a href="/gear/dignics-09c/">Butterfly Dignics 09C Review, Price &amp; Specs</a></li>
+        <li><a href="/gear/fan-zhendong-alc/">Butterfly Fan Zhendong ALC Review, Price &amp; Specs</a></li>
+        <li><a href="/gear/zhang-jike-alc/">Butterfly Zhang Jike ALC Review, Price &amp; Specs</a></li>
+        <li><a href="/gear/ovtcharov-innerforce-alc/">Butterfly Ovtcharov Innerforce ALC Review, Price &amp; Specs</a></li>
+        <li><a href="/gear/viscaria/">Butterfly Viscaria Review, Price &amp; Specs</a></li>
+        <li><a href="/gear/timo-boll-alc/">Butterfly Timo Boll ALC Review, Price &amp; Specs</a></li>
+        <li><a href="/gear/harimoto-innerforce-alc/">Butterfly Harimoto Innerforce ALC Review, Price &amp; Specs</a></li>
+        <li><a href="/gear/dhs-hurricane-long-5/">DHS Hurricane Long 5 Review, Price &amp; Specs</a></li>
+        <li><a href="/gear/victas-koki-niwa/">Victas Koki Niwa Review, Price &amp; Specs</a></li>
+        <li><a href="/gear/zyre-03/">Butterfly ZYRE-03 Review, Price &amp; Specs</a></li>
+        <li><a href="/gear/tenergy-05/">Butterfly Tenergy 05 Review, Price &amp; Specs</a></li>
+        <li><a href="/gear/dignics-05/">Butterfly Dignics 05 Review, Price &amp; Specs</a></li>
+      </ul>
+    </noscript>
+
+  </div>
+</section>
 
 
 

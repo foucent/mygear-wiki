@@ -1,25 +1,35 @@
 /* ---------------------------------------------------------------------------
-   The homepage feed — lazy-loaded (homepage)
-   Renders the /gear/ product pages as shop cards (.mg-card), appending them
-   to the grid that already holds the twelve setup cards: since 2026-11-04 the
-   page is one flow with no category headings over it (user: 「将首页的Setups 和
-   Reviews & guides 之类的文字删除，意思就是不要分类，让他们融合在一起」), so
-   this file names no grid of its own. Shows BATCH cards first; scrolling to
-   the sentinel loads the next batch until all of them are shown (infinite
-   scroll).
+   The "Popular gear" shelf — lazy-loaded (/guide/)
+   Renders the /gear/ product pages as shop cards (.mg-card) into the grid
+   with id #mg-guides-grid. The grid has moved twice on 2026-11-12: first off
+   /setups/, where it sat under the setups cards (one flow, no headings), onto
+   the home page as a band of its own under "Popular setups" (「原来的 setups
+   页的其它内容可以移到首页的Popular setups下面再建立一个 热门装备（英
+   文）」), and then off the home page onto /guide/ (「将Popular gear的内容都
+   移到 http://127.0.0.1:8001/guide/」), where it stands below the eighteen
+   article rows. A page without the grid — the home page now, and /setups/ —
+   gets nothing: the script returns early.
+
+   Fourth turn, that same day (「将 … Popular gear 的排版和 <列表里的行卡> 等
+   保持一致，且删除Popular gear / 导语文字及分割符」): the shelf's heading, lead
+   and hairline are gone and these cards are rows — the articles' own
+   .mg-card--row recipe — so /guide/ is one list of thirty rows.
+   Shows BATCH cards first; scrolling to the sentinel loads the next batch
+   until all of them are shown (infinite scroll).
 
    The twelve entries are the /gear/ product reviews (in the order the old Hot
    Gear grid ran). The eighteen guide articles came off the same day, last
    (user: 「将首页中从Tibhar Darko Jorgic Infinity Carbon Review … 起的卡片
-   删除，也就是说不在首页中展示 /guide/ 的内容」): the homepage shows no
-   /guide/ content now — that directory keeps its own page at /guide/, which
-   is still in the nav and still the full index of all eighteen.
+   删除，也就是说不在首页中展示 /guide/ 的内容」): the home page shows no
+   /guide/ content — that directory keeps its own page at /guide/, which is
+   still in the nav and still the full index of all eighteen, and it is where
+   this feed lives now.
 
    The player albums joined on 2026-10-26 and lived on this list until the
    same 2026-11-04 pass (user: 「将 Sora Matsushima's Gear … 至 Fan Zhendong's
-   Gear … 卡片删除」): the same eleven people stand on the homepage as setup
-   cards now, above this feed, so each album would have been shown twice on
-   one page. Their pages and search entries stay.
+   Gear … 卡片删除」): the same eleven people stand on the home page as setup
+   cards, so each album would otherwise have been shown twice on that page.
+   Their pages and search entries stay.
 --------------------------------------------------------------------------- */
 (function () {
   var MG_GUIDES = [
@@ -34,9 +44,9 @@
       href: "/gear/dignics-09c/",
       img: "/images/dignics-09c/01.jpg",
       srcset: "/images/dignics-09c/01.thumb-240.webp 240w, /images/dignics-09c/01.thumb-480.webp 480w, /images/dignics-09c/01.thumb.webp 600w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
+      sizes: "(max-width: 767px) 92vw, (max-width: 1023.98px) 31vw, 312px",
       alt: "Butterfly Dignics 09C table tennis rubber in red and black",
-      cat: "Review",
+      cat: "Rubber",
       excerpt:
         "The tackier face of the Dignics family — a mildly tacky topsheet over Spring Sponge X. Line, specs, community ratings, and how it differs from Dignics 05 and Tenergy 05.",
     },
@@ -50,9 +60,9 @@
       video: "https://youtu.be/FYnMmWJhQyI",
       img: "/images/price-list/blades/fan-zhendong-alc.jpg",
       srcset: "/images/price-list/blades/fan-zhendong-alc.thumb-240.webp 240w, /images/price-list/blades/fan-zhendong-alc.thumb-480.webp 480w, /images/price-list/blades/fan-zhendong-alc.thumb.webp 600w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
+      sizes: "(max-width: 767px) 92vw, (max-width: 1023.98px) 31vw, 312px",
       alt: "Butterfly Fan Zhendong ALC table tennis blade",
-      cat: "Review",
+      cat: "Blade",
       excerpt:
         "Butterfly's outer-ALC reissue of the Viscaria formula under Fan Zhendong's name — Arylate-Carbon on the outside, firing early and easily.",
     },
@@ -61,9 +71,9 @@
       href: "/gear/zhang-jike-alc/",
       img: "/images/price-list/blades/zhang-jike-alc.jpg",
       srcset: "/images/price-list/blades/zhang-jike-alc.thumb-240.webp 240w, /images/price-list/blades/zhang-jike-alc.thumb-480.webp 480w, /images/price-list/blades/zhang-jike-alc.thumb.webp 600w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
+      sizes: "(max-width: 767px) 92vw, (max-width: 1023.98px) 31vw, 312px",
       alt: "Butterfly Zhang Jike ALC table tennis blade",
-      cat: "Review",
+      cat: "Blade",
       excerpt:
         "Zhang Jike's signature outer-ALC blade, in the same classic class as the Viscaria — built to wait for the opening, then explode through the ball.",
     },
@@ -72,9 +82,9 @@
       href: "/gear/ovtcharov-innerforce-alc/",
       img: "/images/price-list/blades/ovtcharov-innerforce-alc.jpg",
       srcset: "/images/price-list/blades/ovtcharov-innerforce-alc.thumb-240.webp 240w, /images/price-list/blades/ovtcharov-innerforce-alc.thumb-480.webp 480w, /images/price-list/blades/ovtcharov-innerforce-alc.thumb.webp 600w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
+      sizes: "(max-width: 767px) 92vw, (max-width: 1023.98px) 31vw, 312px",
       alt: "Butterfly Ovtcharov Innerforce ALC table tennis blade",
-      cat: "Review",
+      cat: "Blade",
       excerpt:
         "An Innerforce board — ALC under the face wood, so it keeps a wood-like touch on light strokes and lets the fibre join in only as you commit.",
     },
@@ -83,9 +93,9 @@
       href: "/gear/viscaria/",
       img: "/images/price-list/blades/viscaria.jpg",
       srcset: "/images/price-list/blades/viscaria.thumb-240.webp 240w, /images/price-list/blades/viscaria.thumb-480.webp 480w, /images/price-list/blades/viscaria.thumb.webp 600w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
+      sizes: "(max-width: 767px) 92vw, (max-width: 1023.98px) 31vw, 312px",
       alt: "Butterfly Viscaria table tennis blade",
-      cat: "Review",
+      cat: "Blade",
       excerpt:
         "The blade most players picture for a modern outer-fibre shakehand board — Arylate-Carbon on the outside, active from the smallest flex.",
     },
@@ -94,9 +104,9 @@
       href: "/gear/timo-boll-alc/",
       img: "/images/price-list/blades/timo-boll-alc.jpg",
       srcset: "/images/price-list/blades/timo-boll-alc.thumb-240.webp 240w, /images/price-list/blades/timo-boll-alc.thumb-480.webp 480w, /images/price-list/blades/timo-boll-alc.thumb.webp 600w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
+      sizes: "(max-width: 767px) 92vw, (max-width: 1023.98px) 31vw, 312px",
       alt: "Butterfly Timo Boll ALC table tennis blade",
-      cat: "Review",
+      cat: "Blade",
       excerpt:
         "The outer-fibre Viscaria recipe tuned for Boll's all-court game: controlled power, excellent touch, and no gear change from block to loop.",
     },
@@ -105,9 +115,9 @@
       href: "/gear/harimoto-innerforce-alc/",
       img: "/images/price-list/blades/harimoto-innerforce-alc.jpg",
       srcset: "/images/price-list/blades/harimoto-innerforce-alc.thumb-240.webp 240w, /images/price-list/blades/harimoto-innerforce-alc.thumb-480.webp 480w, /images/price-list/blades/harimoto-innerforce-alc.thumb.webp 600w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
+      sizes: "(max-width: 767px) 92vw, (max-width: 1023.98px) 31vw, 312px",
       alt: "Butterfly Harimoto Innerforce ALC table tennis blade",
-      cat: "Review",
+      cat: "Blade",
       excerpt:
         "Harimoto's signature inner-fibre blade — wood-like at low force, firm and fast once you commit, with forgiving control at mid force.",
     },
@@ -116,9 +126,9 @@
       href: "/gear/dhs-hurricane-long-5/",
       img: "/images/price-list/blades/dhs-hurricane-long-5.webp",
       srcset: "/images/price-list/blades/dhs-hurricane-long-5.thumb-240.webp 240w, /images/price-list/blades/dhs-hurricane-long-5.thumb-480.webp 480w, /images/price-list/blades/dhs-hurricane-long-5.thumb.webp 720w, /images/price-list/blades/dhs-hurricane-long-5.thumb-1000.webp 1000w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
+      sizes: "(max-width: 767px) 92vw, (max-width: 1023.98px) 31vw, 312px",
       alt: "DHS Hurricane Long 5 table tennis blade",
-      cat: "Review",
+      cat: "Blade",
       excerpt:
         "DHS's flagship market blade and retail sibling of the W968 Ma Long plays — light swings stay wood-like, the fibre waits until you commit.",
     },
@@ -127,9 +137,9 @@
       href: "/gear/victas-koki-niwa/",
       img: "/images/price-list/blades/victas-koki-niwa.jpg",
       srcset: "/images/price-list/blades/victas-koki-niwa.thumb-240.webp 240w, /images/price-list/blades/victas-koki-niwa.thumb-480.webp 480w, /images/price-list/blades/victas-koki-niwa.thumb.webp 600w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
+      sizes: "(max-width: 767px) 92vw, (max-width: 1023.98px) 31vw, 312px",
       alt: "Victas Koki Niwa table tennis blade",
-      cat: "Review",
+      cat: "Blade",
       excerpt:
         "Koki Niwa's signature blade: not about brute speed, but built to make every kind of spin easy to produce and every placement easy to reach.",
     },
@@ -138,9 +148,9 @@
       href: "/gear/zyre-03/",
       img: "/images/zyre-03/01.jpg",
       srcset: "/images/zyre-03/01.thumb-240.webp 240w, /images/zyre-03/01.thumb-480.webp 480w, /images/zyre-03/01.thumb.webp 600w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
+      sizes: "(max-width: 767px) 92vw, (max-width: 1023.98px) 31vw, 312px",
       alt: "Butterfly ZYRE-03 table tennis rubber",
-      cat: "Review",
+      cat: "Rubber",
       excerpt:
         "Butterfly's newest flagship rubber and the clean, non-tacky face of the family — an ultra-thin Ricosheet that loses less energy to the topsheet.",
     },
@@ -149,9 +159,9 @@
       href: "/gear/tenergy-05/",
       img: "/images/tenergy-05/01.jpg",
       srcset: "/images/tenergy-05/01.thumb-240.webp 240w, /images/tenergy-05/01.thumb-480.webp 480w, /images/tenergy-05/01.thumb.webp 600w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
+      sizes: "(max-width: 767px) 92vw, (max-width: 1023.98px) 31vw, 312px",
       alt: "Butterfly Tenergy 05 table tennis rubber",
-      cat: "Review",
+      cat: "Rubber",
       excerpt:
         "The rubber that set the modern benchmark for high-tension play in 2008, and still the model every other performance rubber is measured against.",
     },
@@ -160,9 +170,9 @@
       href: "/gear/dignics-05/",
       img: "/images/dignics-05/01.jpg",
       srcset: "/images/dignics-05/01.thumb-240.webp 240w, /images/dignics-05/01.thumb-480.webp 480w, /images/dignics-05/01.thumb.webp 600w",
-      sizes: "(max-width: 759.98px) 88vw, 462px",
+      sizes: "(max-width: 767px) 92vw, (max-width: 1023.98px) 31vw, 312px",
       alt: "Butterfly Dignics 05 table tennis rubber",
-      cat: "Review",
+      cat: "Rubber",
       excerpt:
         "The clean, non-tacky flagship of the Dignics line — a code No. 05 topsheet built for spin, bonded to the firmer, more resilient Spring Sponge X.",
     },
@@ -176,26 +186,30 @@
   var idx = 0;
   var observer = null;
 
-  /* A guide card is a shop card — /gear/'s .mg-card recipe, class for class, so
-     the grid it joins is one system. What differs is only what the card is
-     made of: no kicker, no price, and a "Read more" where a build offers its
-     photos and a quote. .mg-card--guide is the one class the stylesheet keys
-     on: the handful of rules that are about a guide and not about the setup
-     cards beside it (the 200px copy block, the link-coloured title) hang off
-     it rather than off a wrapper, because both kinds of card share a grid.
+  /* A row card — the recipe the eighteen articles above are laid out with
+     (.mg-card--row in uncrate.css): a 16:9 picture on the left, the copy beside
+     it. .mg-card--guide stays for the guide's own details, which the articles
+     happen to share: a linked title, no lightbox, no zoom cursor.
+
+     2026-11-12, fourth turn (「将 … Popular gear 的排版和 <列表里的行卡> 等
+     保持一致，且删除Popular gear / 导语文字及分割符」): these cards were tiles
+     for one afternoon — the home page's band moved here whole at noon — and are
+     rows now, carrying the articles' list on instead of opening a grid of their
+     own. The title is an h2 again, like every article's: nothing stands over
+     these cards any more.
 
      The card is an <article> rather than the <a> it used to be, because the
      recipe puts real links inside it; the media band is not one of them (the
      shop cards leave theirs to the lightbox). */
   function makeCard(g) {
     var card = document.createElement("article");
-    card.className = "mg-card mg-card--guide";
+    card.className = "mg-card mg-card--guide mg-card--row";
 
     var media = document.createElement("div");
     media.className = "mg-card__media";
     var img = document.createElement("img");
-    // The card draws at 462px; `img` still names the full-size file so the
-    // lightbox and any no-srcset browser keep working.
+    // The row's thumbnail draws at about 312px on the desktop column; `img`
+    // still names the full-size file so any no-srcset browser keeps working.
     img.src =
       window.mgImgThumbs && !window.mgImgThumbs.isThumb(g.img)
         ? window.mgImgThumbs.thumbSrc(g.img)
@@ -225,9 +239,9 @@
     var copy = document.createElement("div");
     copy.className = "mg-card__copy";
 
-    /* An h2, as the setup cards' titles are: the two kinds of card are peers
-       in one grid and there is no section heading above them for an h2 to sit
-       under, so an h3 here would skip a level on the way down from the h1. */
+    /* An h2, the same as every article's headline above: no heading covers
+       these rows since the fourth turn, so they are siblings of the articles
+       rather than contents of a titled section. */
     var title = document.createElement("h2");
     title.className = "mg-card__title";
     var titleLink = document.createElement("a");
@@ -235,6 +249,15 @@
     titleLink.textContent = g.title;
     title.appendChild(titleLink);
     copy.appendChild(title);
+
+    /* The kicker the articles carry as "date · category". A product review has
+       no date of its own — the /gear/ page's `updated` is when the page was
+       revised, not when the review ran — so the row states the one thing the
+       card knows for certain: which shelf the product sits on. */
+    var meta = document.createElement("p");
+    meta.className = "mg-card__meta";
+    meta.textContent = g.cat;
+    copy.appendChild(meta);
 
     var excerpt = document.createElement("p");
     excerpt.className = "mg-card__desc";
@@ -244,22 +267,15 @@
     /* The action line is the shop cards' split one, so a lone "Read more" sits
        on the same baseline the "X or Y" pair does.
 
-       The link carries .mg-card__zoom, which hands it to card-read-more.js as
-       the disclosure for a clipped description. That class used to be left off
-       on the argument that a guide's excerpt is short enough to show whole;
-       what changed is that the feed's copy block is a fixed height now, so the
-       excerpts that do not fit have to be reachable rather than cut. Left
-       unclipped the link is still a plain link to the article, which is what
-       card-read-more.js does with a card it did not clip — so a short excerpt
-       keeps its old behaviour exactly.
+       No .mg-card__zoom: a row's excerpt runs whole, as every article's above
+       does, so there is nothing for card-read-more.js to fold and the link is
+       the plain article link it has always been when nothing is clipped.
 
        2026-11-04 (user: 「加上Watch Details on Youtube 按钮，也就是Watch
        Details on Youtube or Read more」): a card that carries a video leads
        with it — the "A or B" line the shop cards wrote before their
        one-control pass, "or" in .mg-card__or. The YouTube link is external, so
-       it opens a tab of its own; .mg-card__zoom stays on "Read more" alone,
-       because that is the disclosure card-read-more.js and the lightbox look
-       for. */
+       it opens a tab of its own. */
     var more = document.createElement("p");
     more.className = "mg-card__more mg-card__more--split";
     if (g.video) {
@@ -302,7 +318,6 @@
       more.appendChild(document.createTextNode(" "));
     }
     var link = document.createElement("a");
-    link.className = "mg-card__zoom";
     link.href = g.href;
     link.textContent = "Read more";
     more.appendChild(link);
@@ -317,11 +332,11 @@
     slice.forEach(function (g) {
       grid.appendChild(makeCard(g));
     });
-    /* card-read-more.js clips the excerpts that do not fit the fixed copy
-       block, and it is loaded and started ahead of this file — so it has
-       already collected by the time the first batch exists, and the later
-       batches arrive after it. Announcing each batch, once its cards are in
-       the DOM, is how the two stay in step. */
+    /* card-read-more.js collects guide cards as they arrive, and it is loaded
+       ahead of this file. Rows are never folded — no .mg-card__zoom, no clamp
+       budget — so there is nothing for it to collect here now; the announcement
+       stays so the two files keep their old contract if cards are ever folded
+       again. */
     if (slice.length) {
       document.dispatchEvent(new CustomEvent("mg:cards-added"));
     }

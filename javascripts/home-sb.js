@@ -1,22 +1,21 @@
-/* The home page's hero box and category pills (2026-11-09).
+/* The home page's hero box, and the category pills the shelf used to carry.
 
-   The page is the accessories shelf rebuilt on acebase.cc's homepage layout,
-   and it became the site's home the same day; it offers proxy buying from
-   China, so the hero box now does what acebase's does — a product link is a
-   quote request, and Get price opens WhatsApp with the link already in the
-   message (this site's checkout has always been the chat, where acebase hands
-   the link to its Crisp inbox instead). Anything that is not a link is a word
-   to narrow the shelf with, because fourteen pieces is a shelf worth
-   narrowing; the pills filter by category, and the two stack.
+   The page was rebuilt on acebase.cc's homepage layout on 2026-11-09 and
+   became the site's home the same day; it offers proxy buying from China, so
+   the hero box does what acebase's does — a product link is a quote request,
+   and Get price opens WhatsApp with the link already in the message (this
+   site's checkout has always been the chat, where acebase hands the link to
+   its Crisp inbox instead).
 
-   A link never filters: pasting one would empty the shelf and read as broken,
-   so while the box holds a link the grid ignores it and shows every card the
-   pill allows.
+   The accessory shelf left for /add-ons/ on 2026-11-12 (user: 「将Popular
+   add-ons的商品以 add-ons类目放置在 Pre-owned之后」), so the grid and pills
+   are optional here now: when they are absent the box still opens the chat
+   with a link, and a plain word only scrolls the page to the setups band. The
+   filtering code stays for the shelf's card hooks (data-category and
+   data-search, lower-case), which is what a page that brings them back would
+   use.
 
-   Only this page's markup is touched: everything lives inside .mg-sb. The
-   cards carry data-category and data-search (the name plus the words a buyer
-   might use for it, lower-case) in docs/index.md; a card without data-search
-   simply never matches a query. */
+   Only this page's markup is touched: everything lives inside .mg-sb. */
 (function () {
   "use strict";
 
@@ -29,13 +28,15 @@
   var input = document.getElementById("home-search");
   var empty = document.getElementById("home-empty");
   var note = document.getElementById("home-note");
-  if (!grid || !pills) return;
+  /* The shelf left the home page on 2026-11-12 (it is /add-ons/ now), so the
+     grid and pills are optional: the box is the part that must keep working. */
+  if (!form || !input) return;
 
   /* The same number every other link on the site opens, and the same message
      shape: the item, then where it should be shipped. */
   var WHATSAPP = "https://wa.me/8618627156285";
 
-  var cards = Array.prototype.slice.call(grid.querySelectorAll(".mg-sb-card"));
+  var cards = grid ? Array.prototype.slice.call(grid.querySelectorAll(".mg-sb-card")) : [];
   var category = "all";
   var query = "";
 
@@ -89,17 +90,19 @@
     if (empty) empty.hidden = shown !== 0;
   }
 
-  pills.addEventListener("click", function (ev) {
-    var pill = ev.target.closest(".mg-sb-pill");
-    if (!pill) return;
-    category = pill.getAttribute("data-category") || "all";
-    Array.prototype.forEach.call(pills.querySelectorAll(".mg-sb-pill"), function (p) {
-      var on = p === pill;
-      p.classList.toggle("is-active", on);
-      p.setAttribute("aria-pressed", on ? "true" : "false");
+  if (pills) {
+    pills.addEventListener("click", function (ev) {
+      var pill = ev.target.closest(".mg-sb-pill");
+      if (!pill) return;
+      category = pill.getAttribute("data-category") || "all";
+      Array.prototype.forEach.call(pills.querySelectorAll(".mg-sb-pill"), function (p) {
+        var on = p === pill;
+        p.classList.toggle("is-active", on);
+        p.setAttribute("aria-pressed", on ? "true" : "false");
+      });
+      apply();
     });
-    apply();
-  });
+  }
 
   if (input) {
     input.addEventListener("input", function () {
