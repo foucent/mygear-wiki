@@ -163,8 +163,8 @@ hide:
       <img src="/images/stock-rubbers/neo-hurricane-3-provincial-blue.thumb.webp" data-full-src="/images/stock-rubbers/neo-hurricane-3-provincial-blue.webp" srcset="/images/stock-rubbers/neo-hurricane-3-provincial-blue.thumb-480.webp 480w, /images/stock-rubbers/neo-hurricane-3-provincial-blue.thumb.webp 720w, /images/stock-rubbers/neo-hurricane-3-provincial-blue.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS NEO Hurricane 3 Provincial Blue" loading="lazy" decoding="async" data-options="2.1 39° black, 2.1 40° black, 2.1 41° black, 2.15 39° black, 2.15 40° black">
     </div>
     <h3 class="mg-preowned-card__title">NEO Hurricane 3 Provincial Blue</h3>
-    <p class="mg-preowned-card__price">$36</p>
-    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add NEO Hurricane 3 Provincial Blue to cart" data-name="NEO Hurricane 3 Provincial Blue" data-price="36"><span aria-hidden="true">+</span><span>Add to cart</span></button>
+    <p class="mg-preowned-card__price">$33</p>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add NEO Hurricane 3 Provincial Blue to cart" data-name="NEO Hurricane 3 Provincial Blue" data-price="33"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
 
   <article class="mg-preowned-card" role="listitem" data-category="stiga">
@@ -183,8 +183,8 @@ hide:
       <img src="/images/stock-rubbers/neo-hurricane-3.thumb.webp" data-full-src="/images/stock-rubbers/neo-hurricane-3.webp" srcset="/images/stock-rubbers/neo-hurricane-3.thumb-480.webp 480w, /images/stock-rubbers/neo-hurricane-3.thumb.webp 720w, /images/stock-rubbers/neo-hurricane-3.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS Neo Hurricane 3" loading="lazy" decoding="async" data-options="39° black · hot, 40° black, 40° red, 39° red">
     </div>
     <h3 class="mg-preowned-card__title">Neo Hurricane 3</h3>
-    <p class="mg-preowned-card__price">$23</p>
-    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Neo Hurricane 3 to cart" data-name="Neo Hurricane 3" data-price="23"><span aria-hidden="true">+</span><span>Add to cart</span></button>
+    <p class="mg-preowned-card__price">$21</p>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Neo Hurricane 3 to cart" data-name="Neo Hurricane 3" data-price="21"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
 
   <article class="mg-preowned-card" role="listitem" data-category="dhs">
@@ -193,8 +193,8 @@ hide:
       <img src="/images/featured-rubbers/dhs-hurricane-3-neo-provincial-40orange-sponge.thumb.webp" data-full-src="/images/featured-rubbers/dhs-hurricane-3-neo-provincial-40orange-sponge.webp" srcset="/images/featured-rubbers/dhs-hurricane-3-neo-provincial-40orange-sponge.thumb-480.webp 480w, /images/featured-rubbers/dhs-hurricane-3-neo-provincial-40orange-sponge.thumb.webp 720w, /images/featured-rubbers/dhs-hurricane-3-neo-provincial-40orange-sponge.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS Neo Hurricane 3 Provincial Orange" loading="lazy" decoding="async" data-options="2.1 38° black, 2.1 39° black, 2.1 40° black, 2.1 41° black, 2.1 38° red, 2.1 39° red, 2.1 40° red, 2.15 39° black, 2.15 39° red, 2.15 40° black, 2.15 40° red, 2.1 37° soft red, 2.2 40° black, 2.2 39° red, 2.2 40° red">
     </div>
     <h3 class="mg-preowned-card__title">Neo Hurricane 3 Provincial Orange</h3>
-    <p class="mg-preowned-card__price">$30</p>
-    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Neo Hurricane 3 Provincial Orange to cart" data-name="Neo Hurricane 3 Provincial Orange" data-price="30"><span aria-hidden="true">+</span><span>Add to cart</span></button>
+    <p class="mg-preowned-card__price">$28</p>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Neo Hurricane 3 Provincial Orange to cart" data-name="Neo Hurricane 3 Provincial Orange" data-price="28"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
 
   <article class="mg-preowned-card" role="listitem" data-category="donic">
@@ -506,8 +506,8 @@ hide:
       <img src="/images/stock-rubbers/dhs-hurricane-provincial-8-80.thumb.webp" data-full-src="/images/stock-rubbers/dhs-hurricane-provincial-8-80.jpg" srcset="/images/stock-rubbers/dhs-hurricane-provincial-8-80.thumb-480.webp 473w, /images/stock-rubbers/dhs-hurricane-provincial-8-80.thumb.webp 709w, /images/stock-rubbers/dhs-hurricane-provincial-8-80.thumb-1000.webp 985w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS Hurricane Provincial 8-80" loading="lazy" decoding="async" data-options="2.1 38° red, 2.1 38° black, 2.1 37° red, 2.1 37° black">
     </div>
     <h3 class="mg-preowned-card__title">DHS Hurricane Provincial 8-80</h3>
-    <p class="mg-preowned-card__price">$46</p>
-    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add DHS Hurricane Provincial 8-80 to cart" data-name="DHS Hurricane Provincial 8-80" data-price="46"><span aria-hidden="true">+</span><span>Add to cart</span></button>
+    <p class="mg-preowned-card__price">$42</p>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add DHS Hurricane Provincial 8-80 to cart" data-name="DHS Hurricane Provincial 8-80" data-price="42"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
 
   <!-- Added 2026-11-12 from five supplier listings the user asked to merge
@@ -522,8 +522,8 @@ hide:
       <img src="/images/stock-rubbers/dhs-hurricane-8/01.thumb.webp" data-full-src="/images/stock-rubbers/dhs-hurricane-8/01.jpg" srcset="/images/stock-rubbers/dhs-hurricane-8/01.thumb-480.webp 475w, /images/stock-rubbers/dhs-hurricane-8/01.thumb.webp 712w, /images/stock-rubbers/dhs-hurricane-8/01.thumb-1000.webp 989w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS Hurricane 8" loading="lazy" decoding="async" data-options="2.15 hard black, 2.15 hard red, 2.2 hard black, 2.2 hard red, 2.15 mid-hard black, 2.15 mid-hard red, 2.2 mid-hard black, 2.2 mid-hard red, 2.15 soft black, 2.15 soft red, 2.2 soft red, 2.1 8-80 37° black, 2.1 8-80 37° red, 2.1 8-80 38° black, 2.1 8-80 38° red" data-gallery="/images/stock-rubbers/dhs-hurricane-8/01.jpg,/images/stock-rubbers/dhs-hurricane-8/02.jpg">
     </div>
     <h3 class="mg-preowned-card__title">DHS Hurricane 8</h3>
-    <p class="mg-preowned-card__price">$28</p>
-    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add DHS Hurricane 8 to cart" data-name="DHS Hurricane 8" data-price="28"><span aria-hidden="true">+</span><span>Add to cart</span></button>
+    <p class="mg-preowned-card__price">$26</p>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add DHS Hurricane 8 to cart" data-name="DHS Hurricane 8" data-price="26"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
 
   <!-- Added 2026-11-12 from a supplier listing, at its €53.20 converted
@@ -538,6 +538,21 @@ hide:
     <h3 class="mg-preowned-card__title">Tibhar Hybrid K3 Pro</h3>
     <p class="mg-preowned-card__price">$59</p>
     <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Tibhar Hybrid K3 Pro to cart" data-name="Tibhar Hybrid K3 Pro" data-price="59"><span aria-hidden="true">+</span><span>Add to cart</span></button>
+  </article>
+  <!-- Added 2026-11-13 from a supplier listing, at its €24.61 converted to
+       $27 (x1.111287 on the day, 27.35 rounded). Long pips for defenders;
+       the same price in every thickness. Two photographs of our own stock:
+       the silver package front and the printed back with the hardness table.
+       Eight variants: 1.5 / 1.0 / 0.5 mm and the sponge-free Ox, each in
+       black and red. -->
+  <article class="mg-preowned-card" role="listitem" data-category="victas">
+    <div class="mg-preowned-card__media">
+      <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
+      <img src="/images/stock-rubbers/victas-curl-p1v/01.thumb.webp" data-full-src="/images/stock-rubbers/victas-curl-p1v/01.jpg" srcset="/images/stock-rubbers/victas-curl-p1v/01.thumb-480.webp 360w, /images/stock-rubbers/victas-curl-p1v/01.thumb.webp 540w, /images/stock-rubbers/victas-curl-p1v/01.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Victas Curl P1V" loading="lazy" decoding="async" data-options="1.5 black, 1.5 red, 1.0 black, 1.0 red, 0.5 black, 0.5 red, Ox black, Ox red" data-gallery="/images/stock-rubbers/victas-curl-p1v/01.jpg,/images/stock-rubbers/victas-curl-p1v/02.jpg">
+    </div>
+    <h3 class="mg-preowned-card__title">Victas Curl P1V</h3>
+    <p class="mg-preowned-card__price">$27</p>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Victas Curl P1V to cart" data-name="Victas Curl P1V" data-price="27"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
 
 </div>
