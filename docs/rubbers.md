@@ -92,10 +92,11 @@ hide:
   <article class="mg-preowned-card" role="listitem" data-category="butterfly">
     <div class="mg-preowned-card__media">
       <span class="mg-preowned-card__badge mg-preowned-card__badge--stock">In stock</span>
-      <!-- Three photographs of our own stock (2026-11-12): the wrapped
-           package front twice and the back with its RED 红 label. The hero
-           slide above still uses the older single shot. -->
-      <img src="/images/stock-rubbers/butterfly-dignics-09c/01.thumb.webp" data-full-src="/images/stock-rubbers/butterfly-dignics-09c/01.jpg" srcset="/images/stock-rubbers/butterfly-dignics-09c/01.thumb-480.webp 360w, /images/stock-rubbers/butterfly-dignics-09c/01.thumb.webp 540w, /images/stock-rubbers/butterfly-dignics-09c/01.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Dignics 09C" loading="lazy" decoding="async" data-options="2.1 red, 2.1 black" data-gallery="/images/stock-rubbers/butterfly-dignics-09c/01.jpg,/images/stock-rubbers/butterfly-dignics-09c/02.jpg,/images/stock-rubbers/butterfly-dignics-09c/03.jpg">
+      <!-- Two photographs of our own stock (2026-11-12): the wrapped package
+           front and the back with its RED 红 label. The angled second front
+           shot was dropped on request. The hero slide above still uses the
+           older single shot. -->
+      <img src="/images/stock-rubbers/butterfly-dignics-09c/01.thumb.webp" data-full-src="/images/stock-rubbers/butterfly-dignics-09c/01.jpg" srcset="/images/stock-rubbers/butterfly-dignics-09c/01.thumb-480.webp 360w, /images/stock-rubbers/butterfly-dignics-09c/01.thumb.webp 540w, /images/stock-rubbers/butterfly-dignics-09c/01.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Dignics 09C" loading="lazy" decoding="async" data-options="2.1 red, 2.1 black" data-gallery="/images/stock-rubbers/butterfly-dignics-09c/01.jpg,/images/stock-rubbers/butterfly-dignics-09c/02.jpg">
     </div>
     <h3 class="mg-preowned-card__title">Butterfly Dignics 09C</h3>
     <p class="mg-preowned-card__price">$73</p>
@@ -145,11 +146,11 @@ hide:
   <article class="mg-preowned-card" role="listitem" data-category="dhs">
     <div class="mg-preowned-card__media">
       <span class="mg-preowned-card__badge mg-preowned-card__badge--stock">In stock</span>
-      <!-- Four photographs of our own stock (2026-11-12): the teal 国套
-           蓝海绵 package, the blue sponge through the wrap, the printed back
-           and the DHS authentication side. The hero slide above still uses
-           the older single shot. -->
-      <img src="/images/stock-rubbers/neo-h3-national-blue/01.thumb.webp" data-full-src="/images/stock-rubbers/neo-h3-national-blue/01.jpg" srcset="/images/stock-rubbers/neo-h3-national-blue/01.thumb-480.webp 360w, /images/stock-rubbers/neo-h3-national-blue/01.thumb.webp 540w, /images/stock-rubbers/neo-h3-national-blue/01.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS Neo Hurricane 3 National Blue" loading="lazy" decoding="async" data-options="2.1 40° black · hot, 2.1 39° black, 2.1 41° black, 2.1 42° black" data-gallery="/images/stock-rubbers/neo-h3-national-blue/01.jpg,/images/stock-rubbers/neo-h3-national-blue/02.jpg,/images/stock-rubbers/neo-h3-national-blue/03.jpg,/images/stock-rubbers/neo-h3-national-blue/04.jpg">
+      <!-- Two photographs of our own stock (2026-11-12): the teal 国套
+           蓝海绵 package and the printed back. The sponge shot and the DHS
+           authentication side were dropped on request. The hero slide above
+           still uses the older single shot. -->
+      <img src="/images/stock-rubbers/neo-h3-national-blue/01.thumb.webp" data-full-src="/images/stock-rubbers/neo-h3-national-blue/01.jpg" srcset="/images/stock-rubbers/neo-h3-national-blue/01.thumb-480.webp 360w, /images/stock-rubbers/neo-h3-national-blue/01.thumb.webp 540w, /images/stock-rubbers/neo-h3-national-blue/01.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS Neo Hurricane 3 National Blue" loading="lazy" decoding="async" data-options="2.1 40° black · hot, 2.1 39° black, 2.1 41° black, 2.1 42° black" data-gallery="/images/stock-rubbers/neo-h3-national-blue/01.jpg,/images/stock-rubbers/neo-h3-national-blue/02.jpg">
     </div>
     <h3 class="mg-preowned-card__title">Neo H3 National Blue</h3>
     <p class="mg-preowned-card__price">$50</p>
