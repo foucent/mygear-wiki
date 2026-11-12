@@ -1830,6 +1830,15 @@ body.mg-cart-open {
     grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 20px;
   }
+
+  /* /add-ons/ took the same measure and the same rung on the same day (user:
+     「http://127.0.0.1:8001/pre-owned/和http://127.0.0.1:8001/add-ons/ 页也
+     同样处理」): fourteen pieces, five across, so the four catalogue pages
+     stand in one grid. Scoped to the wide marker like the pre-owned rule. */
+  .md-main__inner:has(.mg-shop--wide) .mg-preowned-grid--addons {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 20px;
+  }
 }
 
 /* Rubbers cards also carry an option select (+ optional AliExpress price block) */
@@ -1840,6 +1849,401 @@ body.mg-cart-open {
 .md-typeset .mg-preowned-grid--rubbers .mg-preowned-card__opts-select {
   padding: 0.3rem 0.4rem;
   font-size: 0.68rem;
+}
+
+/* ---------------------------------------------------------------------------
+   /rubbers/ and /blades/ take the shelf's look (2026-11-12, user: 「将 http://
+   127.0.0.1:8001/rubbers/ 的商品样式和分类模仿 https://acebase.cc/ 的 Latest
+   prices on hot gear 的货架效果」, then 「将 http://127.0.0.1:8001/blades/ 页也
+   同样处理」).
+
+   What is copied is the shape, not acebase's blue: a row of rounded pills over
+   the grid, then white cards with a 16px corner, an inset square photo, a
+   two-line name at 14px, the price on its own line under it, and an action row
+   whose disc sits at the right edge. The palette stays this site's — the pills
+   go ink when active and the disc is ink, the price is ink, and the red stays
+   where it has always been in this shop, in the price of other pages' cards.
+
+   Everything here is scoped to `.mg-preowned-grid--shelf` (and the new
+   `.mg-shop-pills`), the class all four pages' grids carry since the same day
+   (「http://127.0.0.1:8001/pre-owned/和http://127.0.0.1:8001/add-ons/ 页也
+   同样处理」), so listings that keep the old recipe — /pre-owned/sold/ and the
+   rubber/blade tables' leftovers — are untouched. /blades/ runs two grids
+   under one pill row, which is why an emptied grid is taken out of the flow
+   below.
+--------------------------------------------------------------------------- */
+
+.md-typeset .mg-shop-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 20px 0 0;
+}
+
+.md-typeset .mg-shop-pill {
+  display: inline-flex;
+  align-items: center;
+  height: 32px;
+  margin: 0;
+  padding: 0 14px;
+  border: 0;
+  border-radius: 16px;
+  background: var(--ab-panel-2);
+  color: var(--ab-text-muted);
+  font-family: var(--ab-sans);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.md-typeset .mg-shop-pill:hover {
+  background: #ececec;
+  color: var(--ab-text);
+}
+
+.md-typeset .mg-shop-pill.is-active {
+  background: var(--ab-text);
+  color: #fff;
+}
+
+.md-typeset .mg-shop-pill.is-active:hover {
+  background: #2a2a2a;
+  color: #fff;
+}
+
+/* the pills sit closer to the grid than the grid's own top margin assumed */
+.md-typeset .mg-preowned-grid--shelf {
+  margin-top: 20px;
+}
+
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card {
+  padding: 16px 16px 10px;
+  border: 1px solid var(--ab-line-soft);
+  border-radius: 16px;
+  background: #fff;
+  text-align: left;
+  transition: box-shadow 0.18s ease;
+}
+
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card:hover {
+  border-color: var(--ab-line-soft);
+  box-shadow: 0 14px 26px -20px rgba(17, 24, 39, 0.45);
+  transform: none;
+}
+
+/* Five classes deep on purpose: uncrate.css loads after this file and its
+   `.md-typeset .mg-preowned-grid:not(.mg-preowned-grid--shop) .…__media` is
+   four, which is what gives the other listings their centred 240px square. */
+.md-typeset .mg-preowned-grid--shelf.mg-preowned-grid .mg-preowned-card > .mg-preowned-card__media {
+  width: 100%;
+  margin: 0;
+  border: 0;
+  border-radius: 14px;
+  background: var(--ab-panel-2);
+}
+
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card__badge {
+  top: 8px;
+  left: 8px;
+  padding: 4px 9px;
+  border-radius: 999px;
+  border: 0;
+}
+
+/* The name is a card line, not a caption: two lines are reserved with a
+   min-height so the prices line up across a row, and the price follows on its
+   own line — on this page the price is a sibling <p>, not the span inside the
+   <h3>. No clamp: the longest names here ("Joola Trinity Hugo Calderano
+   Charged") need three lines at 182px, and a clamped third line would cut the
+   product name rather than a description. */
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card__title {
+  margin: 12px 0 0 !important;
+  padding: 0;
+  color: var(--ab-text);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.45;
+  text-transform: none;
+  min-height: 2.9em;
+  /* /pre-owned/'s names run one to four lines — a blade's name carries its
+     iron-tag code, its weight and whether the box is there — so the two-line
+     reservation alone still lets a price land on a different line in every
+     card of a row. The name takes the card's spare height instead and the
+     price and the action sit on the row's floor, whatever the name costs
+     (2026-11-12, with the pre-owned pass). */
+  flex: 1 1 auto;
+}
+
+/* The price is a <p> of its own on this page, not the span inside the <h3> the
+   other listings write: only that lets the name reserve two lines by itself, so
+   a one-line name and a two-line name put their prices on the same line. The
+   card markup changed with this skin (2026-11-12). */
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card__price {
+  margin: 6px 0 0 !important;
+  padding: 0;
+  color: var(--ab-text);
+  font-size: 18px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.25;
+  white-space: normal;
+}
+
+/* The picker is part of the copy: one compact select, no side padding of its
+   own (the card supplies it). */
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card__opts {
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card__opts-label {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: var(--ab-text-muted);
+}
+
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card__opts-select {
+  height: 30px;
+  padding: 0 8px;
+  border: 1px solid var(--ab-line-soft);
+  border-radius: 8px;
+  background: #fff;
+  font-size: 12px;
+}
+
+/* The action row: label left, 32px disc right — the shelf's foot, with a plus
+   in the disc instead of an arrow because the click adds to the cart rather
+   than leaving the page. DOM order is "+ then label", so the row is reversed. */
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card__cart {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  min-height: 32px;
+  margin: auto 0 0;
+  padding: 10px 0 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  color: var(--ab-text) !important;
+  font-family: var(--ab-sans);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.2;
+  text-align: left;
+  text-transform: none;
+}
+
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card__cart:hover,
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card__cart:focus {
+  border: 0;
+  background: none;
+  color: var(--ab-text) !important;
+}
+
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card__cart > span[aria-hidden] {
+  flex: none;
+  display: inline-grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--ab-text);
+  color: #fff;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1;
+  transition: background-color 0.15s ease;
+}
+
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card__cart:hover > span[aria-hidden] {
+  background: var(--ab-red);
+}
+
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card__cart.mg-cart-add--done {
+  border: 0;
+  color: var(--ab-green) !important;
+}
+
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card__cart.mg-cart-add--done > span[aria-hidden] {
+  background: var(--ab-green);
+}
+
+/* The unpriced cards' action is the same foot with an arrow leaving it:
+   /blades/ keeps fifteen blades with no list price in a second run, and their
+   line says Contact for Price and goes to WhatsApp. The disc is drawn by the
+   link itself — there is no span to hang it on — and an arrow says "this one
+   leaves the page", which is the one thing that tells the two runs apart. */
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card__quote {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  min-height: 32px;
+  margin: auto 0 0;
+  padding: 10px 0 0;
+  border: 0;
+  background: none;
+  box-shadow: none;
+  color: var(--ab-text) !important;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.2;
+  text-align: left;
+  text-transform: none;
+}
+
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card__quote:hover,
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card__quote:focus {
+  border: 0;
+  color: var(--ab-text) !important;
+}
+
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card__quote::after {
+  content: "\2192";
+  flex: none;
+  display: inline-grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--ab-text);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  transition: background-color 0.15s ease;
+}
+
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card__quote:hover::after {
+  background: var(--ab-red);
+}
+
+/* A reserved blade is held for a named buyer: neither the plain white card a
+   shopper can add to the cart, nor the faded, struck-through record of a sale.
+   The shelf's own tan carries the state — a tint on the card, a pill on the
+   photo, and one line under the price naming the region — and the foot is the
+   quote link's, so the click asks rather than adds. The first one is the DHS
+   W968 No.31 held for a customer in Australia (2026-11-12). */
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card--reserved {
+  border-color: var(--ab-accent);
+  background: #fbf7f0;
+}
+
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card--reserved:hover {
+  border-color: var(--ab-accent);
+}
+
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card__reserved {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 2;
+  padding: 4px 9px;
+  border-radius: 999px;
+  background: var(--ab-accent-deep);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  pointer-events: none;
+}
+
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card__reserve-note {
+  margin: 6px 0 0 !important;
+  padding: 0;
+  color: var(--ab-accent-deep);
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card--reserved .mg-preowned-card__quote,
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card--reserved .mg-preowned-card__quote:hover,
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card--reserved .mg-preowned-card__quote:focus {
+  color: var(--ab-accent-deep) !important;
+}
+
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card--reserved .mg-preowned-card__quote::after {
+  background: var(--ab-accent-deep);
+}
+
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card--reserved .mg-preowned-card__quote:hover::after {
+  background: var(--ab-text);
+}
+
+/* /blades/ runs its priced cards and its quote-only cards in two grids under
+   one pill row. A filter can empty one of them, and an empty grid would still
+   hold its gap open between the two runs, so it leaves the flow — and with it
+   the divider, which the page tags data-hide-when-empty. */
+.md-typeset .mg-preowned-grid--shelf:not(:has(> .mg-preowned-card:not([hidden]))) {
+  display: none;
+}
+
+.md-typeset [data-hide-when-empty][hidden] {
+  display: none !important;
+}
+
+@media (max-width: 767.98px) {
+  .md-typeset .mg-shop-pill {
+    height: 30px;
+    padding: 0 12px;
+    font-size: 11px;
+  }
+
+  .md-typeset .mg-preowned-grid--shelf .mg-preowned-card {
+    padding: 12px 12px 8px;
+    border-radius: 14px;
+  }
+
+  .md-typeset .mg-preowned-grid--shelf .mg-preowned-card__media {
+    border-radius: 12px;
+  }
+
+  .md-typeset .mg-preowned-grid--shelf .mg-preowned-card__cart {
+    font-size: 11px;
+    gap: 6px;
+  }
+
+  .md-typeset .mg-preowned-grid--shelf .mg-preowned-card__cart > span[aria-hidden] {
+    width: 28px;
+    height: 28px;
+    font-size: 15px;
+  }
+
+  .md-typeset .mg-preowned-grid--shelf .mg-preowned-card__quote {
+    font-size: 11px;
+    gap: 6px;
+  }
+
+  .md-typeset .mg-preowned-grid--shelf .mg-preowned-card__quote::after {
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+  }
+
+  .md-typeset .mg-preowned-grid--shelf .mg-preowned-card__reserved {
+    top: 6px;
+    left: 6px;
+    padding: 3px 8px;
+    font-size: 9px;
+  }
+
+  .md-typeset .mg-preowned-grid--shelf .mg-preowned-card__reserve-note {
+    font-size: 10px;
+  }
 }
 
 .mg-preowned-card {
