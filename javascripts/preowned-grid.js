@@ -153,7 +153,10 @@
     wrap.dataset.mgGridReady = "1";
 
     var grid = document.createElement("div");
-    grid.className = "mg-preowned-grid";
+    // The modifier names this grid as the listing's own (2026-11-12): it is the
+    // only grid the script builds without one, and extra.css needs a hook for
+    // the five-up rung the wide shop pages take.
+    grid.className = "mg-preowned-grid mg-preowned-grid--preowned";
     grid.setAttribute("role", "list");
 
     var available = 0;

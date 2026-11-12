@@ -638,7 +638,14 @@
 
 
 
-<div class="mg-shop" markdown="0">
+<!-- mg-shop--wide (2026-11-12, user: 「将 /blades/ 的页面宽度和布局优化成和 / 页
+     一样，并将商品显示为一行5列」): the modifier is the page's marker, not a
+     style of its own. uncrate.css keys the home page's 1200px measure on it,
+     and extra.css turns the grid five-up from 1100px. It sits on the hero
+     wrapper because that is the element the page's shop markup starts with.
+     /rubbers/ and /pre-owned/ carry the same marker since the same day's
+     follow-up (「是的 rubbers， pre-owned 也同样进行处理」). -->
+<div class="mg-shop mg-shop--wide" markdown="0">
 
   <section class="mg-home-hero mg-home-hero--shop mg-hero-slides" aria-label="Table tennis blade photos">
     <div class="mg-hero-slides__track" aria-hidden="true">
