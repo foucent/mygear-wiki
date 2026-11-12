@@ -39,6 +39,24 @@
     );
   }
 
+  // A held blade is neither stock nor a closed sale: the message asks whether it
+  // has freed up, and for the runner-up if it has not.
+  function reservedWaUrl(name, price, region) {
+    var lines = [
+      "Hi, I see this blade is reserved for a customer in " + region + ".",
+      "Could you let me know if it frees up, or suggest a similar one?",
+      "",
+      "Product: " + name,
+      "Price: " + money(price),
+    ];
+    return (
+      "https://wa.me/" +
+      WA_NUMBER +
+      "?text=" +
+      encodeURIComponent(lines.join("\n"))
+    );
+  }
+
   function waIcon() {
     return (
       '<svg class="mg-preowned-card__wa-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">' +
@@ -159,6 +177,17 @@
     grid.className = "mg-preowned-grid mg-preowned-grid--preowned";
     grid.setAttribute("role", "list");
 
+    // /pre-owned/ wears the shelf skin and answers the brand pills above it;
+    // /pre-owned/sold/ carries the same table wrapper but no marker, so it
+    // keeps the recipe it had (2026-11-12: 「pre-owned 和 add-ons 页也同样
+    // 处理」, after /rubbers/ and /blades/). The id is what the pill row's
+    // data-grid names, and what the filter below is registered under.
+    var shelf = wrap.getAttribute("data-shelf") === "1";
+    if (shelf) {
+      grid.classList.add("mg-preowned-grid--shelf");
+      grid.id = "pre-owned-grid";
+    }
+
     var available = 0;
     var total = 0;
     var newItems = [];
@@ -173,17 +202,26 @@
       var name = (cells[1].textContent || "").trim();
       var priceCell = cells[2];
       var sold = !!priceCell.querySelector("del");
+      // The region the blade is held for; the row is in stock otherwise.
+      var reservedFor = (tr.getAttribute("data-reserved") || "").trim();
+      var reserved = !!reservedFor;
       var price = parsePrice(priceCell.textContent);
       if (!name || !(price >= 0)) return;
       var daysAdded = daysSinceAdded(tr.getAttribute("data-added"));
       var isNew = daysAdded !== null && daysAdded < 3;
 
       total += 1;
-      if (!sold) available += 1;
+      // A held blade is spoken for, so it is not counted as available stock.
+      if (!sold && !reserved) available += 1;
 
       var card = document.createElement("article");
       card.className =
-        "mg-preowned-card" + (sold ? " mg-preowned-card--sold" : "");
+        "mg-preowned-card" +
+        (sold
+          ? " mg-preowned-card--sold"
+          : reserved
+          ? " mg-preowned-card--reserved"
+          : "");
       card.setAttribute("role", "listitem");
       // The search index points at rows — see hooks/search_card_anchors.py —
       // so the anchor has to survive the row-to-card move. The table itself is
@@ -192,6 +230,11 @@
       card.dataset.name = name;
       card.dataset.price = String(price);
       if (sold) card.dataset.sold = "1";
+      if (reserved) card.dataset.reserved = reservedFor;
+      // The brand the row carries; the pill row reads it off the card.
+      if (tr.getAttribute("data-category")) {
+        card.setAttribute("data-category", tr.getAttribute("data-category"));
+      }
 
       var media = document.createElement("div");
       media.className = "mg-preowned-card__media";
@@ -205,7 +248,15 @@
         oos.textContent = "OUT OF STOCK";
         media.appendChild(oos);
       }
-      if (isNew) {
+      if (reserved && !sold) {
+        // A held blade wears its own label where NEW would sit, and the
+        // reservation outranks the three-day flag: the state a buyer needs to
+        // know first is that this one is spoken for (2026-11-12).
+        var rsvBadge = document.createElement("span");
+        rsvBadge.className = "mg-preowned-card__reserved";
+        rsvBadge.textContent = "Reserved";
+        media.appendChild(rsvBadge);
+      } else if (isNew) {
         var newBadge = document.createElement("span");
         newBadge.className = "mg-preowned-card__new";
         newBadge.textContent = "NEW";
@@ -216,10 +267,12 @@
       title.className = "mg-preowned-card__title";
       title.textContent = name;
 
-      // A <span> rather than a <p>: it goes inside the <h3>, at the end of the
-      // name. A <p> there would be invalid, and on the card's flex column it
-      // would claim a row of its own.
-      var priceEl = document.createElement("span");
+      // Two shapes. Off the shelf the price rides at the end of the name, so
+      // it is a <span>: a <p> inside the <h3> would be invalid, and on the
+      // card's flex column it would claim a row of its own. On the shelf it is
+      // a <p> of its own under the name, which is what lets the name reserve
+      // two lines and put the prices of a row on one line (2026-11-12).
+      var priceEl = document.createElement(shelf ? "p" : "span");
       priceEl.className = "mg-preowned-card__price";
       if (sold) {
         var del = document.createElement("del");
@@ -228,8 +281,10 @@
       } else {
         priceEl.textContent = money(price);
       }
-      title.appendChild(document.createTextNode(" "));
-      title.appendChild(priceEl);
+      if (!shelf) {
+        title.appendChild(document.createTextNode(" "));
+        title.appendChild(priceEl);
+      }
 
       var cta;
       if (sold) {
@@ -245,6 +300,16 @@
           }
         });
         cta.textContent = "Find Similar";
+      } else if (reserved) {
+        // Still a live listing, so it keeps the shelf's contact foot — the one
+        // /blades/'s unpriced cards use — rather than a cart button that would
+        // promise what the shop cannot ship.
+        cta = document.createElement("a");
+        cta.className = "mg-preowned-card__quote";
+        cta.href = reservedWaUrl(name, price, reservedFor);
+        cta.target = "_blank";
+        cta.rel = "noopener noreferrer";
+        cta.textContent = "Ask about this one";
       } else {
         cta = document.createElement("button");
         cta.type = "button";
@@ -258,6 +323,16 @@
 
       card.appendChild(media);
       card.appendChild(title);
+      if (shelf) card.appendChild(priceEl);
+      if (reserved) {
+        // The badge says what; this line says where to. The region alone is
+        // enough — the sentence it used to spell out wrapped to three lines
+        // on the phone for no extra information (2026-11-12).
+        var reserveNote = document.createElement("p");
+        reserveNote.className = "mg-preowned-card__reserve-note";
+        reserveNote.textContent = "Reserved for " + reservedFor;
+        card.appendChild(reserveNote);
+      }
       card.appendChild(cta);
       if (sold) soldCards.push(card);
       else if (isNew)
@@ -333,14 +408,33 @@
     var sentinel = document.createElement("div");
     sentinel.className = "mg-preowned-sentinel";
 
+    // Hiding is one write for both rules — how far the listing has been
+    // revealed, and which brand the pill row asks for — so a filter can never
+    // be undone by the next batch of cards arriving.
+    var filterCat = "all";
+
+    function shown(card) {
+      return (
+        filterCat === "all" || card.getAttribute("data-category") === filterCat
+      );
+    }
+
+    function sync() {
+      allCards.forEach(function (card, i) {
+        card.hidden = i >= visible || !shown(card);
+      });
+      // The rule belongs to the sold run, so it stands only over a sold card
+      // that is actually showing — after a filter as much as after a batch.
+      if (divider) {
+        divider.hidden = !allCards.some(function (card, i) {
+          return i >= availableCount && !card.hidden;
+        });
+      }
+    }
+
     function revealUpTo(n) {
-      n = Math.min(n, allCards.length);
-      for (var i = visible; i < n; i++) allCards[i].hidden = false;
-      visible = n;
-      // The rule belongs to the sold run, so it arrives with the first sold
-      // card rather than sitting over a batch of listings that are all still
-      // available.
-      if (divider) divider.hidden = n <= availableCount;
+      visible = Math.min(n, allCards.length);
+      sync();
       if (visible >= allCards.length) {
         sentinel.hidden = true;
         if (observer) observer.disconnect();
@@ -366,6 +460,24 @@
         { rootMargin: "400px 0px" }
       );
       observer.observe(sentinel);
+    }
+
+    if (shelf) {
+      // The pill row does not hide cards itself here — shop-pills.js looks the
+      // grid's id up in this registry and hands it the category instead,
+      // because the batch above is the one that owns the [hidden] flag.
+      window.mgGridFilters = window.mgGridFilters || {};
+      window.mgGridFilters[grid.id] = function (category) {
+        filterCat = category || "all";
+        // A brand's run is shown whole, however far down the list it reaches:
+        // the batch is there to keep the first paint light, not to hide what a
+        // filter asked for. Going back to All keeps what has been revealed.
+        if (filterCat !== "all" && visible < allCards.length) {
+          revealUpTo(allCards.length);
+        } else {
+          sync();
+        }
+      };
     }
 
     // A search result can name a single card (…/pre-owned/#pre-owned-viscaria).

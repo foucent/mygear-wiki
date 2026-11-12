@@ -130,7 +130,8 @@
 
    The marker class is on each page's shop wrapper. /blades/, /rubbers/ and
    /pre-owned/ carry it since 2026-11-12 (the same day's follow-up: 「是的
-   rubbers，pre-owned 也同样进行处理」); the rest of the site keeps the 960px
+   rubbers，pre-owned 也同样进行处理」), and /add-ons/ joined them that day
+   (「pre-owned 和 add-ons 页也同样处理」); the rest of the site keeps the 960px
    column. Specificity, not order, is what beats the plain `max-width: 960px`
    above; the margins need the flag for the same reason they carry it there. */
 .md-main__inner:has(.mg-shop--wide) .md-content > .md-content__inner:not([hidden]) {

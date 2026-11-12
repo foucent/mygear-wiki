@@ -191,6 +191,9 @@ extra_javascript:
   - javascripts/price-pager.js
   - javascripts/guide-grid.js
   - javascripts/vip-points.js
+  # The shelf's pills, on all four shop pages since 2026-11-12; a no-op on any
+  # page without .mg-shop-pills.
+  - javascripts/shop-pills.js
   # The home page's link box, category pills and WhatsApp hand-off; a no-op
   # everywhere else.
   - javascripts/home-sb.js
