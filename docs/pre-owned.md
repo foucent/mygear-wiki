@@ -8,7 +8,12 @@ hide:
   - toc
 ---
 
-<div class="mg-shop" markdown="0">
+<!-- mg-shop--wide (2026-11-12, user: 「是的 rubbers， pre-owned 也同样进行处理」,
+     following /blades/): the marker gives this page the home page's 1200px
+     measure (uncrate.css). The listing itself is still the price table — one
+     product a row with its photo and thumbnails — so the five-up rung blades
+     and rubbers take does not apply here. -->
+<div class="mg-shop mg-shop--wide" markdown="0">
 
   <section class="mg-home-hero mg-home-hero--shop mg-hero-slides" aria-label="Pre-owned table tennis blade photos">
     <div class="mg-hero-slides__track" aria-hidden="true">

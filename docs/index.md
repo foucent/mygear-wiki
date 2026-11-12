@@ -63,11 +63,13 @@ hide:
      Gemini banner crop from earlier the same day (user: 「页面中的背景图需要
      换成这一张」), which is still in the folder if this one is rejected.
 
-     The hero's meta line names the three things the shop does (user,
-     2026-11-09: 「发送商品链接，我为你以美元报价，为你组装并发货」, then
-     「我为你采购并组装」): "Send a product link · I quote it in USD · I buy
-     and assemble it for you". Buying and assembling — gluing the rubbers onto
-     the blade — are promised up front, not only in the ordering page, and the
+     The hero's meta line names the three things the shop does. It read
+     "Send a product link · I quote it in USD · I buy and assemble it for you"
+     until 2026-11-12, when the user rewrote it (「发送一个产品链接或名称，我为你
+     以美元报价，并提供组装和全球配送服务」): a link *or a name* can start the
+     chat, and the promise is assembly plus worldwide shipping rather than
+     buying. Assembling — gluing the rubbers onto the blade — is promised up
+     front, not only in the ordering page, and the
      hero speaks as one person: this is a one-man shop, so it is "I", not
      "we", here and in the journey card under it (user: 「不要说我们，说我就
      行了」). Shipping moved to step 3, which now says "I buy the piece,
@@ -100,7 +102,7 @@ hide:
     <div class="mg-sb-hero__inner mg-sb-inner">
       <div class="mg-sb-hero__copy">
         <h1 class="mg-sb-hero__title">Table tennis gear, bought from China for you</h1>
-        <p class="mg-sb-hero__meta">Send a product link &middot; I quote it in USD &middot; I buy and assemble it for you</p>
+        <p class="mg-sb-hero__meta">Send a product link or name &middot; I quote it in USD &middot; I assemble it and ship it worldwide</p>
         <form class="mg-sb-search" id="home-search-form" role="search">
           <label class="mg-sb-search__field">
             <svg class="mg-sb-search__icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
@@ -189,8 +191,6 @@ hide:
         <a class="mg-sb-chat" href="https://wa.me/8618627156285?text=Hello%2C%20I%27d%20like%20advice%20on%20a%20player%27s%20setup.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A">Open live chat</a>
       </header>
 
-      <p class="mg-sb-discovery__lead">The blades and rubbers today's top players actually use &mdash; every line priced, and one tap opens the chat with the whole setup in the message.</p>
-
       <!-- The fourteen player cards (user, 2026-11-12: 「将setups的内容
            移至原来的 Popular add-ons，并更名 为 热门配置（英文）」). They were
            copies of /setups/ until the user deleted that page the same day
@@ -198,7 +198,13 @@ hide:
            home now, so a new player setup is added here and nowhere else.
            What survives from the copy is the geometry: `sizes` names the
            band's 389px card (three a row, see home-superbuy.css) and the
-           titles are h3s, because this band's own h2 covers them. -->
+           titles are h3s, because this band's own h2 covers them.
+
+           The lead line under the title went the same day (user: 「The blades
+           and rubbers today's top players actually use — every line priced,
+           and one tap opens the chat with the whole setup in the message.」
+           去掉): the title now goes straight to the cards. `.mg-sb-discovery__lead`
+           stays in home-superbuy.css, unused. -->
       <div class="mg-card-grid" markdown="0">
 
   <article class="mg-card mg-card--player">
@@ -225,7 +231,7 @@ hide:
       <p class="mg-card__desc mg-card__desc--lines">
         <span class="mg-card__line">DHS Q968 / <span class="mg-card__line-price">$320</span></span>
         <span class="mg-card__line">DHS Hurricane 3 National / <span class="mg-card__line-price">$50</span></span>
-        <span class="mg-card__line">DHS Hurricane 8 / <span class="mg-card__line-price mg-card__line-price--ask">Price on request</span></span>
+        <span class="mg-card__line">DHS Hurricane 8 / <span class="mg-card__line-price">$28</span></span>
       </p>
       <p class="mg-card__more mg-card__more--split">
         <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20DHS%20Q968%20with%20Hurricane%203%20National%20blue%20sponge%20and%20Hurricane%208.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>
@@ -286,7 +292,7 @@ hide:
     <div class="mg-card__copy">      <h3 class="mg-card__title">Félix Lebrun's setup</h3>
       <p class="mg-card__desc mg-card__desc--lines">
         <span class="mg-card__line">Tibhar Félix Lebrun Hyper Carbon / <span class="mg-card__line-price">$139</span></span>
-        <span class="mg-card__line">Tibhar Hybrid K3 Pro · Both Sides / <span class="mg-card__line-price mg-card__line-price--ask">Price on request</span></span>
+        <span class="mg-card__line">Tibhar Hybrid K3 Pro · Both Sides / <span class="mg-card__line-price">$59</span></span>
       </p>
       <p class="mg-card__more mg-card__more--split">
         <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20Felix%20Lebrun%20Hyper%20Carbon%20with%20Hybrid%20K3%20Pro%20on%20both%20sides.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>
@@ -317,7 +323,7 @@ hide:
     <div class="mg-card__copy">      <h3 class="mg-card__title">Truls Möregårdh's setup</h3>
       <p class="mg-card__desc mg-card__desc--lines">
         <span class="mg-card__line">STIGA Cybershape Carbon / <span class="mg-card__line-price">$232</span></span>
-        <span class="mg-card__line">STIGA Helix Platinum XH · Both Sides / <span class="mg-card__line-price mg-card__line-price--ask">Price on request</span></span>
+        <span class="mg-card__line">STIGA Helix Platinum XH · Both Sides / <span class="mg-card__line-price">$65</span></span>
       </p>
       <p class="mg-card__more mg-card__more--split">
         <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20Cybershape%20Carbon%20with%20Helix%20Platinum%20XH%20on%20both%20sides.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>
@@ -413,7 +419,7 @@ hide:
       <p class="mg-card__desc mg-card__desc--lines">
         <span class="mg-card__line">DHS Classic 08X / <span class="mg-card__line-price">$50</span></span>
         <span class="mg-card__line">DHS Neo Hurricane 3 National / <span class="mg-card__line-price">$50</span></span>
-        <span class="mg-card__line">Friendship 729 802-40 / <span class="mg-card__line-price mg-card__line-price--ask">Price on request</span></span>
+        <span class="mg-card__line">Friendship 729 802-40 / <span class="mg-card__line-price">$19</span></span>
       </p>
       <p class="mg-card__more mg-card__more--split">
         <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20DHS%20Classic%2008X%20with%20Neo%20Hurricane%203%20National%20on%20the%20forehand%20and%20Friendship%20729%20802-40%20on%20the%20backhand.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>

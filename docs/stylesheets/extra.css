@@ -1791,7 +1791,15 @@ body.mg-cart-open {
   }
 }
 
+/* Five up from 1100px (2026-11-12, user: 「将商品显示为一行5列」). The page's
+   column is the home page's 1200px now (see .mg-shop--wide in uncrate.css), so
+   a card is 214px at 1440 and 194px at 1100 — the narrowest width the page is
+   ever asked for. Below 1100 the 3-up above is the widest that fits. */
 @media (min-width: 1100px) {
+  .mg-preowned-grid--blades {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 20px;
+  }
 }
 
 /* Rubbers page: stock grid at 3 columns + standard content width (mirror blades) */
@@ -1802,7 +1810,26 @@ body.mg-cart-open {
   }
 }
 
+/* Five up from 1100px, the blades rung (2026-11-12, user: 「是的 rubbers，
+   pre-owned 也同样进行处理」). The card is 214px at 1440 and 194px at 1100 —
+   enough for the option select, whose longest label ("2.15 hard black") sets
+   at about 80px inside the 154px the 20px insets leave. */
 @media (min-width: 1100px) {
+  .mg-preowned-grid--rubbers {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 20px;
+  }
+}
+
+/* Pre-owned's grid is built by preowned-grid.js from the price table, and
+   /pre-owned/sold/ carries the same table wrapper and so gets the same grid
+   class. The marker on the page, not the class, is what says "this grid is on
+   the wide page" — the sold list stays three-up in its 960px column. */
+@media (min-width: 1100px) {
+  .md-main__inner:has(.mg-shop--wide) .mg-preowned-grid--preowned {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 20px;
+  }
 }
 
 /* Rubbers cards also carry an option select (+ optional AliExpress price block) */

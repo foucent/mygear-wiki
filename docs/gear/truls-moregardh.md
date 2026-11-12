@@ -36,7 +36,8 @@ updated: "2026-10-26"
 
 The blade is the one everybody recognises: STIGA's **Cybershape Carbon**, with the squared-off hexagonal head rather than the round one. Our [STIGA gallery](stiga.md) covers the Cybershape Wood — the hexagonal all-wood retail version, which is a different and much cheaper build — and the [blades table](../blades.md) carries the Cybershape Carbon CWT Truls Edition, the one with his name on the face. Before the Cybershape he played STIGA's Carbonado 290.
 
-On **both wings** he plays **Helix Platinum XH**, STIGA's German-made sheet in its XH, extra-hard sponge grade. Both sides the same: no tacky forehand, no split between the wings. Before this pairing he had Mantra H on both sides — the same hard-sponge idea in the previous STIGA line, which is why the rubbers table's [Mantra M](../rubbers.md) is the soft cousin rather than the sheet he actually uses. Helix Platinum XH is not on the table, so name it in the quote request.
+On **both wings** he plays **Helix Platinum XH**, STIGA's German-made sheet in its XH, extra-hard sponge grade. Both sides the same: no tacky forehand, no split between the wings. Before this pairing he had Mantra H on both sides — the same hard-sponge idea in the previous STIGA line, which is why the rubbers table's [Mantra M](../rubbers.md) is the soft cousin rather than the sheet he actually uses. Helix Platinum XH is on the rubbers table now, at $65 — the extra-hard XH
+sponge in 2.2 mm, red or black.
 
 For the wood-and-fibre arguments behind a blade choice like this, our [choosing blade structure](../guide/choosing-blade-structure.md) guide is the place to start.
 

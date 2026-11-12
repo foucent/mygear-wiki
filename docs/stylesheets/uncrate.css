@@ -117,6 +117,28 @@
   }
 }
 
+/* The blades page takes the home page's measure.
+
+   2026-11-12 (user: 「将 http://127.0.0.1:8001/blades/ 的页面宽度和布局优化成
+   和 http://127.0.0.1:8001/页一样，并将商品显示为一行5列」). The home page's
+   bands are each capped by .mg-sb-inner at min(1200px, 100% - 48px); every
+   other page still sat in this file's 960px column, which is 240px narrower
+   than the front door a visitor had just come from — /blades/ at 1440 ran
+   240..1200 while the home page's shelves ran 120..1320. This gives the one
+   page the same measure, from the same formula, so the hero, both grids and
+   the related-note line up with the front page at every width.
+
+   The marker class is on each page's shop wrapper. /blades/, /rubbers/ and
+   /pre-owned/ carry it since 2026-11-12 (the same day's follow-up: 「是的
+   rubbers，pre-owned 也同样进行处理」); the rest of the site keeps the 960px
+   column. Specificity, not order, is what beats the plain `max-width: 960px`
+   above; the margins need the flag for the same reason they carry it there. */
+.md-main__inner:has(.mg-shop--wide) .md-content > .md-content__inner:not([hidden]) {
+  max-width: min(1200px, 100% - 48px);
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 /* ---------------------------------------------------------------------------
    2. Section headings.
 
