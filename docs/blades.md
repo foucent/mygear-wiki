@@ -40,15 +40,6 @@ hide:
 
 </div>
 
-  <!-- The page's own words, above the price tables. The heading that used to
-       carry them came off on request (2026-10-31); the sentence stands alone
-       in the site's faint note fill so a reader still meets the page's own
-       words before the grid does, without a second title competing with the
-       hero's H1. -->
-  <section class="mg-blades-intro" markdown="0">
-    <p>This page carries brand-new Butterfly, DHS and other popular table tennis blades. If the model you need is not listed here, I can proxy-buy it for you.</p>
-  </section>
-
   <!-- Every card in this grid is a price: the badge in the corner says how it
        is bought, and the action line is a cart button. The card's name is the
        cart line's, word for word, so what is read and what lands in the
@@ -476,6 +467,33 @@ hide:
     <p class="mg-preowned-card__price">$65</p>
     <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Butterfly Diode Pro to cart" data-name="Butterfly Diode Pro" data-price="65"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
+  <!-- Priced on request (2026-11-12): this card used to sit in the quote run
+       below, since Double Fish sells through its own channels. Asked for a
+       price, so it is $99 and carries the cart line like the rest of this run.
+       The four photographs are still the Double Fish brand page's own. -->
+  <article class="mg-preowned-card" role="listitem" data-category="double-fish">
+    <div class="mg-preowned-card__media">
+      <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
+      <img src="/images/double-fish-zhou-qihao-project-z/01.thumb.webp" data-full-src="/images/double-fish-zhou-qihao-project-z/01.webp" srcset="/images/double-fish-zhou-qihao-project-z/01.thumb-480.webp 320w, /images/double-fish-zhou-qihao-project-z/01.thumb.webp 480w, /images/double-fish-zhou-qihao-project-z/01.thumb-1000.webp 667w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Double Fish Zhou Qihao Project Z blade face" loading="lazy" decoding="async" data-gallery="/images/double-fish-zhou-qihao-project-z/01.webp,/images/double-fish-zhou-qihao-project-z/02.jpg,/images/double-fish-zhou-qihao-project-z/03.jpg,/images/double-fish-zhou-qihao-project-z/04.webp">
+    </div>
+    <h3 class="mg-preowned-card__title">Zhou Qihao Project Z</h3>
+    <p class="mg-preowned-card__price">$99</p>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Zhou Qihao Project Z to cart" data-name="Zhou Qihao Project Z" data-price="99"><span aria-hidden="true">+</span><span>Add to cart</span></button>
+  </article>
+  <!-- Wen Ruibo's blade, added 2026-11-12 with two studio photographs of one
+       wrapped blade (face and back). The price is the shop's own, set at
+       $150 — the overseas listing that carries the model asks $200; the
+       number here is the one the user gave, so it stays. Green aramid-carbon
+       layer, STIGA's own hybrid carbon build. -->
+  <article class="mg-preowned-card" role="listitem" data-category="stiga">
+    <div class="mg-preowned-card__media">
+      <span class="mg-preowned-card__badge mg-preowned-card__badge--proxy">Proxy buy</span>
+      <img src="/images/stiga-luma-hybrid-carbon/01.thumb.webp" data-full-src="/images/stiga-luma-hybrid-carbon/01.jpg" srcset="/images/stiga-luma-hybrid-carbon/01.thumb-480.webp 480w, /images/stiga-luma-hybrid-carbon/01.thumb.webp 720w, /images/stiga-luma-hybrid-carbon/01.jpg 800w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Stiga Luma Hybrid Carbon (Wen Ruibo Edition) blade with its green and grey handle, still in the factory wrap" loading="lazy" decoding="async" data-gallery="/images/stiga-luma-hybrid-carbon/01.jpg,/images/stiga-luma-hybrid-carbon/02.jpg">
+    </div>
+    <h3 class="mg-preowned-card__title">Stiga Luma Hybrid Carbon (Wen Ruibo Edition)</h3>
+    <p class="mg-preowned-card__price">$150</p>
+    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Stiga Luma Hybrid Carbon (Wen Ruibo Edition) to cart" data-name="Stiga Luma Hybrid Carbon (Wen Ruibo Edition)" data-price="150"><span aria-hidden="true">+</span><span>Add to cart</span></button>
+  </article>
 
 </div>
 
@@ -594,19 +612,6 @@ hide:
     </div>
     <h3 class="mg-preowned-card__title">Butterfly Schlager Light Carbon</h3>
     <a class="mg-preowned-card__quote" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Butterfly%20Schlager%20Light%20Carbon%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Contact for Price</a>
-  </article>
-
-  <!-- The one card here that is also a brand page's lead: Double Fish's page
-       carries a single blade, Zhou Qihao's Project Z, so the card and the
-       page show the same four photographs rather than the card getting
-       its own shoot. No price: Double Fish sells through its own channels
-       and has not published a list price, so the action asks for one. -->
-  <article class="mg-preowned-card" role="listitem" data-category="double-fish">
-    <div class="mg-preowned-card__media">
-      <img src="/images/double-fish-zhou-qihao-project-z/01.thumb.webp" data-full-src="/images/double-fish-zhou-qihao-project-z/01.webp" srcset="/images/double-fish-zhou-qihao-project-z/01.thumb-480.webp 320w, /images/double-fish-zhou-qihao-project-z/01.thumb.webp 480w, /images/double-fish-zhou-qihao-project-z/01.thumb-1000.webp 667w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Double Fish Zhou Qihao Project Z blade face" loading="lazy" decoding="async" data-gallery="/images/double-fish-zhou-qihao-project-z/01.webp,/images/double-fish-zhou-qihao-project-z/02.jpg,/images/double-fish-zhou-qihao-project-z/03.jpg,/images/double-fish-zhou-qihao-project-z/04.webp">
-    </div>
-    <h3 class="mg-preowned-card__title">Zhou Qihao Project Z</h3>
-    <a class="mg-preowned-card__quote" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Double%20Fish%20Zhou%20Qihao%20Project%20Z%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Contact for Price</a>
   </article>
 
   <!-- Waldner's all-wood Dicon in its Chinese-market box: Master Dicon, ST
