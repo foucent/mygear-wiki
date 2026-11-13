@@ -41,7 +41,7 @@ updated: "2026-10-23"
 
 The blade is Butterfly's **Fan Zhendong ALC**, the outer-ALC signature model: Arylate-Carbon on the outside of the core, so it fires early and rewards a compact, forward swing. It is the same construction family as the [Viscaria](viscaria.md) and the [Zhang Jike ALC](zhang-jike-alc.md), and the [Fan Zhendong ALC page](fan-zhendong-alc.md) has the full breakdown of how it plays.
 
-On the **forehand** he plays [Dignics 09C](dignics-09c.md), the mildly tacky hybrid in Butterfly's Dignics line — enough surface grip to load serve and opening loop from short contact, with the sponge's high tension behind it on a full swing. On the **backhand** he plays [ZYRE-03](zyre-03.md), Butterfly's newest flagship: a clean, non-tacky topsheet on the same extra-thick Spring Sponge X, tuned hard, with the highest spin figure Butterfly lists for a rubber.
+On the **forehand** he plays [Dignics 09C](dignics-09c.md), the mildly tacky hybrid in Butterfly's Dignics line — enough surface grip to load serve and opening loop from short contact, with the sponge's high tension behind it on a full swing. On the **backhand** he plays [ZYRE-03](zyre-03.md), Butterfly's newest flagship: a clean, non-tacky topsheet over a thick, firm sponge tuned hard, with the highest spin figure Butterfly lists for a rubber.
 
 The pairing puts the two different faces of the family on the two wings — tack on the forehand for the first ball, a clean, fast sheet on the backhand for the counter and the block. Both rubbers are on the [Rubbers price table](../rubbers.md); the blade is on the [Blades price table](../blades.md).
 

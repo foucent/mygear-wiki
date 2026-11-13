@@ -37,7 +37,7 @@ updated: "2026-11-09"
 
 The blade is his signature **Franziska Innerforce ZLC**, made in Japan: an Innerforce build, so the ZLC layer sits under the face wood instead of on top, and the blade reads quiet at low force before it opens up on a full swing. The same under-the-face layout is what our [blade feel fundamentals](../guide/blade-feel-fundamentals.md) guide describes for the inner-fibre family. Before it he played the Mazunov — since discontinued — and then the Apolonia ZLC.
 
-On the **forehand** he plays [ZYRE-03](zyre-03.md): Butterfly's clean Ricosheet topsheet over an extra-thick Spring Sponge X, the newest rubber in the high-tension line and the one he came to late. Before it the forehand ran Tenergy 05, then Dignics 05.
+On the **forehand** he plays [ZYRE-03](zyre-03.md): Butterfly's clean, non-tacky topsheet over a thick, hard sponge, the newest rubber in the high-tension line and the one he came to late. Before it the forehand ran Tenergy 05, then Dignics 05.
 
 On the **backhand** he plays [Dignics 09C](dignics-09c.md), the tacky high-tension sheet with the harder sponge. It closes a long line of his own — Tenergy 80, then Tenergy 64, then Tenergy 05, then Dignics 05 — the progression our [Tenergy before Dignics](../guide/why-tenergy-before-dignics.md) guide walks through.
 

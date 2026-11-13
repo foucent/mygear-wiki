@@ -152,7 +152,7 @@
       alt: "Butterfly ZYRE-03 table tennis rubber",
       cat: "Rubber",
       excerpt:
-        "Butterfly's newest flagship rubber and the clean, non-tacky face of the family — an ultra-thin Ricosheet that loses less energy to the topsheet.",
+        "Butterfly's newest flagship rubber and the clean, non-tacky face of the family — the highest ceiling in the range, and the most demanding to unlock.",
     },
     {
       title: "Butterfly Tenergy 05 Review, Price & Specs",
