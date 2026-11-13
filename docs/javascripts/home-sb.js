@@ -1,4 +1,10 @@
-/* The home page's hero box, and the category pills the shelf used to carry.
+/* NOT LOADED since 2026-11-13: the hero, its link box and chips were removed
+   from the home page and the racket advisor took their place; the page no
+   longer has `#home-search-form`, so this file would be a no-op. Kept, like
+   the shelf rules in home-superbuy.css, in case the box comes back — the
+   extra_javascript entry is gone.
+
+   The home page's hero box, and the category pills the shelf used to carry.
 
    The page was rebuilt on acebase.cc's homepage layout on 2026-11-09 and
    became the site's home the same day; it offers proxy buying from China, so

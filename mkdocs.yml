@@ -194,9 +194,11 @@ extra_javascript:
   # The shelf's pills, on all four shop pages since 2026-11-12; a no-op on any
   # page without .mg-shop-pills.
   - javascripts/shop-pills.js
-  # The home page's link box, category pills and WhatsApp hand-off; a no-op
-  # everywhere else.
-  - javascripts/home-sb.js
+  # home-sb.js is no longer loaded: its link box, chips and shelf went with
+  # the hero on 2026-11-13 (the file stays for the day the box comes back).
+  # The home page's racket advisor: five questions, a setup from the shop's
+  # stock, and the answer handed to WhatsApp; a no-op everywhere else.
+  - javascripts/racket-advisor.js
 
 # Local `mkdocs serve` includes these; production `mkdocs build` / GitHub Pages omit them.
 draft_docs: |

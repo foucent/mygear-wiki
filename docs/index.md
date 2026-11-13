@@ -11,10 +11,12 @@ hide:
      It was /etc/ before that, rebuilt on acebase.cc's homepage layout the same
      day (user: 「将 http://127.0.0.1:8001/etc/ 模仿
      http://127.0.0.1:8003/页面进行更新，将现有ETC商品移至Popular gear中」), and
-     the old home page — the players' setups — took over /setups/. The page is
+     the old home page — the players' setups — took over /setups/. The page was
      four bands: a gradient hero with the link box, the three-step journey card
      lifted over its foot, four catalogue banners, and the grey "Popular
      add-ons" band that holds the fourteen accessories behind category pills —
+     (2026-11-13: the hero and the journey card became the racket advisor,
+     which now opens the page; see below) —
      add-ons, not the catalogue: the blades and rubbers have pages of their own
      (user: 「这里要表达的是热门加购的一些附件，因为常见的底板和胶皮已经在…页面
      展示了」), and the lead says only that these are what players most often
@@ -88,6 +90,50 @@ hide:
      docs/stylesheets/home-superbuy.css for the measured geometry and
      docs/javascripts/home-sb.js for the box and the pills.
 
+     2026-11-13: the three-step sourcing card under the hero became the racket
+     advisor (user: 「部分改成咨询窗口，大意就是用户输入乒乓球龄，是习惯近台
+     还是中远台，正手体系还是反手体系，或正反手均衡等信息，我为客户提供球拍
+     选购建议」). It took the journey card's slot — a white panel with a
+     five-question form on the right and the intro on the left; the answer
+     appears under the form with three priced rows and a WhatsApp hand-off
+     carrying the answers. The sourcing steps moved off the card (they still
+     live on /order/, linked in the aside).
+     docs/javascripts/racket-advisor.js is the questions, the rules and the
+     prices; its numbers mirror docs/blades.md and docs/rubbers.md and must
+     move when they do.
+
+     The same day, second turn (user: 「将这部分去掉，将下面这部分替代它的
+     位置」): the hero itself went — headline, meta line, the link box, Get
+     price and the three chips — and the advisor band took its place at the
+     top of the page. The advisor's title is now the page's only h1.
+     home-sb.js (the link box's hand-off) is no longer loaded; the sourcing
+     promise still lives on /order/, linked from the advisor's aside.
+
+     Third turn, same day (「排版需要你重新优化，比如保留之前的背景图」, then
+     「我想要整块背景+卡片浮在上面那种」): the hero photo is back as the
+     band's full-bleed background — hero-dalu.webp with the 105deg gradient
+     washed over it — and the 1040px white card floats on top. The questions
+     sit in two columns inside the card and the result fills the card below
+     them; no side media column.
+
+     Fourth turn (2026-11-14, 「这个提交信息应该是一个多个步骤完成的，这样
+     可以让这段内容变的更简洁」): the questions became a step-by-step flow.
+     The fifth pass settled its shape (「将问题放在输入框内，让用户一步步做做
+     选择就好了」): the current question sits inside a long input-style box,
+     picking an option advances to the next question on its own, and the last
+     screen is the notes line — a long text input inside the same box.
+
+     Sixth turn, same day (「Grip和Budget for blade and rubbers 不要，只保留
+     其它三个，然后不需要你给用户推荐，用户提交时，直接将内容通过whatsapp
+     发送给我」): grip and budget went; the three remaining questions are
+     球龄 / 站位 / 主力手. Nothing is recommended on the page — Send on
+     WhatsApp opens the chat with the answers, and the form is swapped for a
+     confirmation with Open WhatsApp and Change answers.
+
+     Seventh turn: each question is a native dropdown (「将每一个问题变成下拉
+     单选」) styled as the same long bar; choosing from it still advances to
+     the next question, and a question reached with Back shows Continue.
+
      Every data-name and data-price is the string it was on the old grid, so a
      cart saved before the rebuild still matches its lines. The Qilin shoe
      keeps the title and photos its last edit gave it on 2026-11-07; the five
@@ -95,55 +141,97 @@ hide:
 
 <div class="mg-sb" markdown="0">
 
-  <section class="mg-sb-hero">
-    <div class="mg-sb-hero__art" aria-hidden="true">
-      <img src="/images/home-hero/hero-dalu.webp" alt="" loading="eager" decoding="async">
-    </div>
-    <div class="mg-sb-hero__inner mg-sb-inner">
-      <div class="mg-sb-hero__copy">
-        <h1 class="mg-sb-hero__title">Table tennis gear, bought from China for you</h1>
-        <p class="mg-sb-hero__meta">Send a product link or name &middot; I quote it in USD &middot; I assemble it and ship it worldwide</p>
-        <form class="mg-sb-search" id="home-search-form" role="search">
-          <label class="mg-sb-search__field">
-            <svg class="mg-sb-search__icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
-              <circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/>
-              <path d="m16 16 5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-            <input type="text" id="home-search" name="q" autocomplete="off" placeholder="Paste an Amazon, AliExpress or any store link" aria-label="Paste a product link for a sourcing price">
-          </label>
-          <button class="mg-sb-search__submit" type="submit">Get price</button>
-        </form>
-        <p class="mg-sb-search__note" id="home-note" aria-live="polite" hidden></p>
-        <div class="mg-sb-hero__tools">
-          <a class="mg-sb-chip" href="#gear">Popular setups</a>
-          <a class="mg-sb-chip" href="#how">How sourcing works</a>
-          <a class="mg-sb-chip" href="https://wa.me/8618627156285?text=Hello%2C%20I%27d%20like%20a%20quote%20for%20table%20tennis%20gear.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A">Chat on WhatsApp</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="mg-sb-journey" id="how">
+  <!-- The racket advisor replaced the three-step sourcing strip on 2026-11-13
+       (user: 「部分改成咨询窗口…用户输入乒乓球龄，是习惯近台还是中远台，正手
+       体系还是反手体系，或正反手均衡等信息，我为客户提供球拍选购建议」). The
+       sourcing steps themselves still live on /order/, linked from the aside
+       line here. It asks three questions (experience, table position, wing)
+       plus an optional notes line and hands the answers to WhatsApp; the
+       advice itself is given in the chat, not on the page.
+       docs/javascripts/racket-advisor.js holds the flow and message. -->
+  <section class="mg-sb-advisor" id="how">
     <div class="mg-sb-inner">
-      <div class="mg-sb-journey__card">
-        <ol class="mg-sb-journey__steps">
-          <li class="mg-sb-step">
-            <p class="mg-sb-step__title"><span class="mg-sb-step__num">1</span> Send a link</p>
-            <p class="mg-sb-step__text">Paste a link to gear you want that my shop doesn't carry.</p>
-          </li>
-          <li class="mg-sb-step">
-            <p class="mg-sb-step__title"><span class="mg-sb-step__num">2</span> I quote it in USD</p>
-            <p class="mg-sb-step__text">One price for the item and its shipping — I buy it in China for you.</p>
-          </li>
-          <li class="mg-sb-step">
-            <p class="mg-sb-step__title"><span class="mg-sb-step__num">3</span> Confirm on WhatsApp</p>
-            <p class="mg-sb-step__text">Pay in the chat; I buy the piece, assemble it and ship it to your door — see <a href="/order/">How to Order</a>.</p>
-          </li>
-        </ol>
-        <div class="mg-sb-journey__track" aria-hidden="true">
-          <span class="mg-sb-journey__dot"></span>
-          <span class="mg-sb-journey__dot"></span>
-          <span class="mg-sb-journey__dot"></span>
+      <div class="mg-sb-advisor__card">
+        <div class="mg-sb-advisor__content">
+        <div class="mg-sb-advisor__intro">
+          <p class="mg-sb-advisor__eyebrow">Racket advice</p>
+          <h1 class="mg-sb-advisor__title">Tell me how you play and I'll suggest the racket</h1>
+          <p class="mg-sb-advisor__lead">Three questions about your game, then send them to me on WhatsApp.</p>
+          <p class="mg-sb-advisor__aside">Buying works the usual way: <a href="/order/">send a link, I quote it, you confirm on WhatsApp</a>.</p>
+          <noscript>
+            <p class="mg-sb-advisor__aside">The advisor needs JavaScript — or message me on WhatsApp and I'll ask the same questions.</p>
+          </noscript>
+        </div>
+
+        <form class="mg-adv-form" id="adv-form" novalidate>
+          <div class="mg-adv-progress">
+            <span class="mg-adv-progress__track" aria-hidden="true"><i id="adv-progress-fill"></i></span>
+            <span class="mg-adv-progress__text" id="adv-step-label" aria-live="polite">Question 1 of 3 · Your game</span>
+          </div>
+
+          <div class="mg-adv-box">
+            <div class="mg-adv-screen" data-step="1">
+              <fieldset class="mg-adv-q">
+                <legend class="mg-adv-question">How long have you played?</legend>
+                <select class="mg-adv-select" name="experience">
+                  <option value="" disabled selected>Choose one…</option>
+                  <option value="new">New to the game</option>
+                  <option value="improver">1–3 years</option>
+                  <option value="club">3–8 years</option>
+                  <option value="competitor">Competing</option>
+                </select>
+              </fieldset>
+            </div>
+
+            <div class="mg-adv-screen" data-step="2" hidden>
+              <fieldset class="mg-adv-q">
+                <legend class="mg-adv-question">Where do you play from?</legend>
+                <select class="mg-adv-select" name="distance">
+                  <option value="" disabled selected>Choose one…</option>
+                  <option value="close">Close to the table</option>
+                  <option value="mid">Mid-distance</option>
+                  <option value="far">Away from the table</option>
+                </select>
+              </fieldset>
+            </div>
+
+            <div class="mg-adv-screen" data-step="3" hidden>
+              <fieldset class="mg-adv-q">
+                <legend class="mg-adv-question">Which wing do you rely on?</legend>
+                <select class="mg-adv-select" name="wing">
+                  <option value="" disabled selected>Choose one…</option>
+                  <option value="fh">Forehand-dominant</option>
+                  <option value="bh">Backhand-dominant</option>
+                  <option value="both">Both about equally</option>
+                </select>
+              </fieldset>
+            </div>
+
+            <div class="mg-adv-screen" data-step="4" hidden>
+              <label class="mg-adv-notes" for="adv-notes">
+                <span class="mg-adv-question">Anything else I should know? <em>(optional)</em></span>
+                <input type="text" id="adv-notes" name="notes" maxlength="300" autocomplete="off" placeholder="Your current blade, an injury, a model you're considering…">
+              </label>
+            </div>
+
+            <div class="mg-adv-box__foot">
+              <button class="mg-adv-back" type="button" hidden>Back</button>
+              <p class="mg-adv-form__note" id="adv-note" aria-live="polite" hidden></p>
+              <button class="mg-adv-next" type="button" hidden>Continue</button>
+              <button class="mg-adv-submit" type="submit" hidden>Send on WhatsApp</button>
+            </div>
+          </div>
+        </form>
+        </div>
+
+        <div class="mg-adv-result" id="adv-result" hidden aria-live="polite">
+          <p class="mg-adv-result__eyebrow">One more step</p>
+          <h2 class="mg-adv-result__title">Send your answers on WhatsApp</h2>
+          <p class="mg-adv-result__lead">The chat opens with your answers already written in.</p>
+          <div class="mg-adv-result__actions">
+            <a class="mg-adv-result__chat" id="adv-chat" href="https://wa.me/8618627156285">Open WhatsApp</a>
+            <button class="mg-adv-result__again" type="button">Change answers</button>
+          </div>
         </div>
       </div>
     </div>

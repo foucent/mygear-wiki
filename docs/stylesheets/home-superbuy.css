@@ -13,20 +13,25 @@
    _tmp_ocr/superbuy_metrics.py there):
      inner column     1200px, centred
      hero             600px tall, 105deg gradient, h1 36/900, meta 14/500
+                      (removed 2026-11-13; the advisor band below took its
+                      gradient and its place at the top)
      search           760x64, 48px input, 112x48 submit
-     chips            36px tall, radius 24
-     journey          white 1200x132 card lifted 54px over the hero's foot,
-                      three steps left/centre/right, chevron track with dots
+                      (removed with the hero)
+     chips            36px tall, radius 24 (removed with the hero)
+     advisor          white card on the hero's gradient, 340px intro column
+                      and the five-question form beside it, answer below
+                      (was the journey card, lifted 54px over the hero)
      feature row      five 304x136 banners (four before 2026-11-12)
      discovery        grey band, 48px padding, h2 24/700, 32px pill tabs,
                       5-column grid of 227x318 cards
    What did not come over is the palette and the action: this site is black
    ink, tan rules, green buy buttons and red prices, its cards take the 0.55rem
    corner the rest of the shop has, and the action is the shop's own cart
-   button (price-cart.js binds any .mg-cart-add). The hero box is a link box
-   like acebase's — Get price hands a pasted product link to WhatsApp (this
-   site's checkout is the chat, where acebase opens its email dialog), and a
-   plain word narrows the shelf below. home-sb.js holds that half.
+   button (price-cart.js binds any .mg-cart-add). The hero box was a link box
+   like acebase's — Get price handed a pasted product link to WhatsApp — until
+   2026-11-13, when the whole hero (copy, link box, chips) was removed and the
+   advisor took its place; home-sb.js, which held that half, is no longer
+   loaded.
 
    2026-11-12 (user: 「将Popular add-ons的商品以 add-ons类目放置在 Pre-owned
    之后，将setups的内容移至原来的 Popular add-ons，并更名为 热门配置（英文）」):
@@ -100,300 +105,430 @@
   margin-inline: auto;
 }
 
-/* ---------- hero ---------- */
+/* ---------- hero ----------
 
-.md-typeset .mg-sb-hero {
+   The gradient band, the photo, the headline, the meta line and the link box
+   were all removed on 2026-11-13 (user: 「将这部分去掉，将下面这部分替代它的
+   位置」): the racket advisor below now opens the page, and it takes the band
+   itself — same 105deg gradient, no photo. The rules for the dropped pieces
+   (`.mg-sb-hero*`, `.mg-sb-search*`, `.mg-sb-chip*`) went with them. */
+
+
+/* ---------- the racket advisor (the page's opening band) ----------
+
+   2026-11-13: the three-step sourcing card became a five-question advisor
+   (user: 「部分改成咨询窗口…我为客户提供球拍选购建议」), and the same day
+   the hero above it went (user: 「将这部分去掉，将下面这部分替代它的位置」).
+   The hero's photo came back the next pass (「排版需要你重新优化，比如保留
+   之前的背景图」, then 「我想要整块背景+卡片浮在上面那种」): it is the
+   band's full-bleed background, washed with the site's 105deg gradient, and
+   a 1040px white card floats on top of it. The five questions run in two
+   columns under the intro; the answer fills the card below them. See
+   docs/javascripts/racket-advisor.js for the questions and the rules. */
+
+/* The hero's photo is the band's own background — the card floats over it,
+   with the site's warm gradient washed over the picture so the tan/green
+   palette still reads. */
+.md-typeset .mg-sb-advisor {
   position: relative;
+  z-index: 3;
+  padding: 56px 0 60px;
+  background-color: #d9ccb6;
+  background-image:
+    linear-gradient(105deg, rgba(251, 250, 247, 0.55) 0%,
+      rgba(244, 239, 230, 0.42) 45%, rgba(217, 204, 182, 0.22) 100%),
+    url("../images/home-hero/hero-dalu.webp");
+  background-position: 0 0, 50% 46%;
+  background-size: auto, cover;
+  background-repeat: no-repeat;
+}
+
+.md-typeset .mg-sb-advisor__card {
+  width: min(1040px, 100%);
+  margin-inline: auto;
+  border: 1px solid var(--sb-line);
+  border-radius: 0.55rem;
+  background: #fff;
   overflow: hidden;
-  background: linear-gradient(105deg, #fbfaf7 0%, #f4efe6 42%, #d9ccb6 100%);
+  box-shadow: 0 2px 6px -2px rgba(0, 0, 0, 0.04),
+    0 18px 44px -18px rgba(0, 0, 0, 0.28);
 }
 
-.md-typeset .mg-sb-hero__inner {
-  position: relative;
-  z-index: 2;
-  display: flex;
-  align-items: center;
-  min-height: 600px;
+.md-typeset .mg-sb-advisor__content {
+  min-width: 0;
+  padding: 30px 32px 32px;
 }
 
-.md-typeset .mg-sb-hero__copy {
-  width: min(680px, 100%);
-  padding: 56px 0 108px;
+.md-typeset .mg-sb-advisor__intro {
+  max-width: 760px;
 }
 
-/* The photo sits under the copy's right half and fades into the gradient on
-   its left, so the headline never lands on a busy frame. */
-.md-typeset .mg-sb-hero__art {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
-  width: 54%;
-  pointer-events: none;
-}
-
-.md-typeset .mg-sb-hero__art img {
-  display: block;
-  width: 100%;
-  height: 100%;
+.md-typeset .mg-sb-advisor__eyebrow {
   margin: 0;
-  border-radius: 0;
-  object-fit: cover;
-  object-position: 50% 42%;
-  -webkit-mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #000 38%);
-  mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #000 38%);
+  color: var(--ab-accent-deep);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  line-height: 1.4;
+  text-transform: uppercase;
 }
 
-/* the site gives every h1 a 2px black rule and a 0.35rem pad; the hero's
-   headline is set without either */
-.md-typeset .mg-sb-hero__title {
-  margin: 0;
+/* The page has no other h1 now, so this is it — set without Material's
+   2px rule and padding. */
+.md-typeset .mg-sb-advisor__title {
+  margin: 6px 0 0;
   padding-bottom: 0;
   border-bottom: 0;
   color: var(--ab-text);
   font-family: var(--ab-sans);
-  font-size: clamp(30px, 2.6vw, 36px);
-  font-weight: 900;
-  line-height: 1.15;
-  letter-spacing: -0.02em;
+  font-size: clamp(24px, 2.1vw, 28px);
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 1.22;
 }
 
-.md-typeset .mg-sb-hero__meta {
-  margin: 14px 0 0;
+.md-typeset .mg-sb-advisor__lead {
+  margin: 10px 0 0;
   color: var(--sb-muted);
   font-size: 14px;
-  font-weight: 500;
+  line-height: 1.55;
+}
+
+.md-typeset .mg-sb-advisor__aside {
+  margin: 12px 0 0;
+  color: var(--sb-muted);
+  font-size: 13px;
   line-height: 1.5;
 }
 
-/* ---------- hero search ---------- */
-
-.md-typeset .mg-sb-search {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  width: min(760px, 100%);
-  min-height: 64px;
-  margin: 26px 0 0;
-  padding: 8px 8px 8px 6px;
-  border: 1px solid var(--sb-line);
-  border-radius: 0.55rem;
-  background: #fff;
+.md-typeset .mg-sb-advisor__aside a {
+  color: var(--ab-accent-deep);
+  text-decoration: underline;
 }
 
-.md-typeset .mg-sb-search__field {
-  display: flex;
-  flex: 1 1 auto;
-  align-items: center;
-  gap: 10px;
+/* ---------- the advisor form ---------- */
+
+.md-typeset .mg-adv-form {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+  margin-top: 20px;
   min-width: 0;
+}
+
+/* The form is display:grid, so [hidden] has to be spelled out. */
+.md-typeset .mg-adv-form[hidden] {
+  display: none;
+}
+
+/* One question at a time, inside a long input-style box. Picking an option
+   moves to the next question on its own; the last screen is the notes line. */
+.md-typeset .mg-adv-box {
+  padding: 16px 18px 14px;
+  border: 1px solid var(--sb-line);
+  border-radius: 0.75rem;
+  background: #fbfaf6;
+}
+
+.md-typeset .mg-adv-screen {
+  min-width: 0;
+}
+
+.md-typeset .mg-adv-screen[hidden] {
+  display: none;
+}
+
+.md-typeset .mg-adv-screen:focus {
+  outline: none;
+}
+
+.md-typeset .mg-adv-question {
+  display: block;
+  margin: 0 0 12px;
+  padding: 0;
+  color: var(--ab-text);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.md-typeset .mg-adv-question em {
+  color: var(--sb-muted);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.md-typeset .mg-adv-progress {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   margin: 0;
-  padding: 0 6px 0 14px;
 }
 
-.md-typeset .mg-sb-search__icon {
-  flex: none;
-  color: var(--ab-text-faint);
+.md-typeset .mg-adv-progress__track {
+  position: relative;
+  flex: 0 0 96px;
+  height: 4px;
+  border-radius: 99px;
+  background: var(--sb-line);
+  overflow: hidden;
 }
 
-/* type="text", not "search": the box narrows a shelf and search inputs bring a
-   native clear button of their own */
-.md-typeset .mg-sb-search input {
-  width: 100%;
-  height: 48px;
+.md-typeset .mg-adv-progress__track i {
+  display: block;
+  width: 20%;
+  height: 100%;
+  border-radius: 99px;
+  background: var(--ab-green);
+  transition: width 0.2s ease;
+}
+
+.md-typeset .mg-adv-progress__text {
+  color: var(--sb-muted);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.md-typeset .mg-adv-q {
+  min-width: 0;
   margin: 0;
   padding: 0;
   border: 0;
-  background: transparent;
-  box-shadow: none;
+}
+
+
+/* Each question is one dropdown, drawn as a long input with a tan chevron. */
+.md-typeset .mg-adv-select {
+  display: block;
+  width: 100%;
+  height: 52px;
+  margin: 0;
+  padding: 0 44px 0 16px;
+  border: 1px solid var(--sb-line);
+  border-radius: 0.65rem;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9'%3E%3Cpath d='M1 1l6 6 6-6' fill='none' stroke='%236f6250' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
   color: var(--ab-text);
   font-family: var(--ab-sans);
   font-size: 15px;
-  font-weight: 400;
-  line-height: 1.4;
-  outline: none;
+  line-height: 1;
+  cursor: pointer;
   -webkit-appearance: none;
   appearance: none;
 }
 
-.md-typeset .mg-sb-search input::placeholder {
-  color: var(--ab-text-faint);
+.md-typeset .mg-adv-select:invalid,
+.md-typeset .mg-adv-select option[value=""] {
+  color: var(--sb-muted);
 }
 
-.md-typeset .mg-sb-search__submit {
-  flex: none;
+.md-typeset .mg-adv-select:hover {
+  border-color: var(--ab-accent-deep);
+}
+
+.md-typeset .mg-adv-select:focus-visible {
+  border-color: var(--ab-green);
+  outline: 2px solid var(--ab-green-deep);
+  outline-offset: 1px;
+}
+
+/* The last screen's long bar. */
+.md-typeset .mg-adv-notes {
+  display: block;
+  margin: 0;
+}
+
+.md-typeset .mg-adv-notes input {
+  display: block;
+  width: 100%;
+  height: 52px;
+  margin: 0;
+  padding: 0 16px;
+  border: 1px solid var(--sb-line);
+  border-radius: 0.65rem;
+  background: #fff;
+  color: var(--ab-text);
+  font-family: var(--ab-sans);
+  font-size: 15px;
+  line-height: 1;
+}
+
+.md-typeset .mg-adv-notes input::placeholder {
+  color: var(--sb-muted);
+}
+
+.md-typeset .mg-adv-notes input:focus {
+  border-color: var(--ab-green);
+  outline: 2px solid var(--ab-green-deep);
+  outline-offset: 1px;
+}
+
+/* Foot of the box: Back on the left, Show my setup on the right. */
+.md-typeset .mg-adv-box__foot {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.md-typeset .mg-adv-submit {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 48px;
-  margin: 0;
-  padding: 0 30px;
+  height: 42px;
+  margin: 0 0 0 auto;
+  padding: 0 24px;
   border: 0;
   border-radius: 0.55rem;
   background: var(--ab-green);
   color: #fff;
   font-family: var(--ab-sans);
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1;
   cursor: pointer;
   transition: background-color 0.15s ease;
 }
 
-.md-typeset .mg-sb-search__submit:hover {
+.md-typeset .mg-adv-submit:hover {
   background: var(--ab-green-deep);
 }
 
-/* The line the Get price hand-off writes under the box (empty until then). */
-.md-typeset .mg-sb-search__note {
-  max-width: min(760px, 100%);
-  margin: 10px 0 0;
-  color: var(--ab-text-muted);
+.md-typeset .mg-adv-back {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--ab-accent-deep);
   font-family: var(--ab-sans);
   font-size: 13px;
-  font-weight: 500;
-  line-height: 1.5;
+  font-weight: 600;
+  line-height: 1.4;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
-.md-typeset .mg-sb-search__note[hidden] {
+.md-typeset .mg-adv-back:hover {
+  color: var(--ab-green-deep);
+}
+
+/* Only a revisited question needs it: the dropdown already holds a value, so
+   there is no change event left to advance on. */
+.md-typeset .mg-adv-next {
+  margin: 0 0 0 auto;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--ab-green-deep);
+  font-family: var(--ab-sans);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.md-typeset .mg-adv-next:hover {
+  color: var(--ab-green);
+}
+
+/* The submit, Next and Back carry display rules of their own, so [hidden] has
+   to win. */
+.md-typeset .mg-adv-submit[hidden],
+.md-typeset .mg-adv-next[hidden],
+.md-typeset .mg-adv-back[hidden] {
   display: none;
 }
 
-/* ---------- hero chips ---------- */
-
-.md-typeset .mg-sb-hero__tools {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 22px;
+.md-typeset .mg-adv-form__note {
+  grid-column: 1 / -1;
+  margin: 0;
+  color: var(--sb-muted);
+  font-size: 13px;
+  line-height: 1.5;
 }
 
-.md-typeset .mg-sb-chip {
+/* ---------- the advisor's answer ---------- */
+
+.md-typeset .mg-adv-result {
+  padding: 22px 32px 30px;
+  border-top: 1px solid var(--sb-line);
+}
+
+/* The result is a grid child, so [hidden] has to be spelled out. */
+.md-typeset .mg-adv-result[hidden] {
+  display: none;
+}
+
+.md-typeset .mg-adv-result__eyebrow {
+  margin: 0;
+  color: var(--ab-accent-deep);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.md-typeset .mg-adv-result__title {
+  margin: 4px 0 0;
+  color: var(--ab-text);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.md-typeset .mg-adv-result__lead {
+  margin: 6px 0 0;
+  color: var(--sb-muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.md-typeset .mg-adv-result__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.md-typeset .mg-adv-result__chat {
   display: inline-flex;
   align-items: center;
-  min-height: 36px;
-  margin: 0;
-  padding: 0 18px;
-  border: 0;
+  height: 44px;
+  padding: 0 24px;
   border-radius: 0.55rem;
-  background: #fff;
-  color: var(--ab-text);
-  font-family: var(--ab-sans);
+  background: var(--ab-green);
+  color: #fff;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1;
   text-decoration: none;
   transition: background-color 0.15s ease;
 }
 
-.md-typeset .mg-sb-chip:hover {
-  background: #f0eade;
-  color: var(--ab-text);
+.md-typeset .mg-adv-result__chat:hover {
+  background: var(--ab-green-deep);
+  color: #fff;
 }
 
-/* ---------- the three-step journey ---------- */
-
-.md-typeset .mg-sb-journey {
-  position: relative;
-  z-index: 3;
-}
-
-.md-typeset .mg-sb-journey__card {
-  margin-top: -54px;
-  padding: 20px 28px 22px;
-  border: 1px solid var(--sb-line);
-  border-radius: 0.55rem;
-  background: #fff;
-  box-shadow: 0 2px 6px -2px rgba(0, 0, 0, 0.04),
-    0 12px 28px -14px rgba(0, 0, 0, 0.16);
-}
-
-/* :not([hidden]) is not decoration: Material's `.md-typeset ol:not([hidden])`
-   forces display:flow-root and `[dir="ltr"] .md-typeset ol` keeps a 0.625em
-   left margin, and both outrank a plain two-class selector. */
-.md-typeset .mg-sb-journey__steps:not([hidden]) {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-  margin: 0;
+.md-typeset .mg-adv-result__again {
   padding: 0;
-  list-style: none;
-}
-
-.md-typeset .mg-sb-step {
-  margin: 0;
-  text-align: left;
-}
-
-.md-typeset .mg-sb-step:nth-child(2) {
-  text-align: center;
-}
-
-.md-typeset .mg-sb-step:nth-child(3) {
-  text-align: right;
-}
-
-.md-typeset .mg-sb-step__title {
-  margin: 0;
-  color: var(--ab-text);
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 1.35;
-}
-
-.md-typeset .mg-sb-step__num {
-  margin-right: 4px;
+  border: 0;
+  background: none;
   color: var(--ab-accent-deep);
-  font-weight: 800;
+  font-family: var(--ab-sans);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.3;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
-.md-typeset .mg-sb-step__text {
-  margin: 4px 0 0;
-  color: var(--sb-muted);
-  font-size: 13px;
-  line-height: 1.45;
-}
-
-.md-typeset .mg-sb-step__text a {
-  color: var(--ab-accent-deep);
-}
-
-.md-typeset .mg-sb-journey__track {
-  position: relative;
-  height: 52px;
-  margin-top: 16px;
-  border-radius: 0.55rem;
-  background-color: #efe9dd;
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='52' viewBox='0 0 36 52'%3E%3Cpath d='M7 13 21 26 7 39' fill='none' stroke='%23ffffff' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-  background-repeat: repeat-x;
-  background-position: 10px 0;
-  background-size: 36px 52px;
-}
-
-.md-typeset .mg-sb-journey__dot {
-  position: absolute;
-  top: 50%;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background: var(--ab-accent-deep);
-  box-shadow: 0 0 0 6px #e2dac9;
-  transform: translateY(-50%);
-}
-
-.md-typeset .mg-sb-journey__dot:nth-child(1) {
-  left: 12px;
-}
-
-.md-typeset .mg-sb-journey__dot:nth-child(2) {
-  left: 50%;
-  margin-left: -9px;
-}
-
-.md-typeset .mg-sb-journey__dot:nth-child(3) {
-  right: 12px;
-}
 
 /* ---------- five catalogue banners ---------- */
 
@@ -738,24 +873,19 @@
 
 /* ---------- breakpoints ---------- */
 
-/* Under 1200 the inner column shrinks with the viewport and the hero photo
-   would sit directly under the search box, so it goes; the copy sets the
-   hero's height instead of the fixed 600px. */
 @media screen and (max-width: 1199px) {
   .md-typeset .mg-sb-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
+}
 
-  .md-typeset .mg-sb-hero__art {
-    display: none;
+@media screen and (max-width: 1099px) {
+  .md-typeset .mg-sb-advisor {
+    padding: 32px 0 36px;
   }
 
-  .md-typeset .mg-sb-hero__inner {
-    min-height: 0;
-  }
-
-  .md-typeset .mg-sb-hero__copy {
-    padding: 56px 0 96px;
+  .md-typeset .mg-sb-advisor__content {
+    padding: 24px;
   }
 }
 
@@ -775,38 +905,41 @@
     width: min(1200px, 100% - 32px);
   }
 
-  .md-typeset .mg-sb-hero__copy {
-    padding: 36px 0 68px;
+  .md-typeset .mg-sb-advisor {
+    padding: 24px 0 28px;
   }
 
-  .md-typeset .mg-sb-search {
-    min-height: 56px;
-    padding: 6px;
+  .md-typeset .mg-sb-advisor__card {
+    padding: 0;
   }
 
-  .md-typeset .mg-sb-search__submit {
-    height: 44px;
-    padding: 0 18px;
-  }
-
-  .md-typeset .mg-sb-journey__card {
-    margin-top: -40px;
+  .md-typeset .mg-sb-advisor__content {
     padding: 20px;
   }
 
-  .md-typeset .mg-sb-journey__steps:not([hidden]) {
-    grid-template-columns: 1fr;
-    gap: 14px;
+  .md-typeset .mg-adv-form__note {
+    grid-column: 1;
   }
 
-  /* the base rule aligns steps 2 and 3 by :nth-child, so this carries the
-     same weight to undo it on a one-column stack */
-  .md-typeset .mg-sb-step:nth-child(n) {
-    text-align: left;
+  .md-typeset .mg-adv-box {
+    padding: 14px 14px 12px;
   }
 
-  .md-typeset .mg-sb-journey__track {
-    display: none;
+  /* Show my setup stays left of the fixed cart/WhatsApp floats */
+  .md-typeset .mg-adv-submit {
+    margin-left: 0;
+  }
+
+  .md-typeset .mg-adv-box__foot {
+    flex-wrap: wrap;
+  }
+
+  .md-typeset .mg-adv-result {
+    padding: 20px;
+  }
+
+  .md-typeset .mg-sb-advisor__title {
+    font-size: 21px;
   }
 
   .md-typeset .mg-sb-features {
