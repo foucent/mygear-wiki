@@ -1977,6 +1977,20 @@ body.mg-cart-open {
   flex: 1 1 auto;
 }
 
+/* A card whose product also has an article behind it (2026-11-13, the ZYRE-03
+   review): the name is the link. Nothing is added to the card, so it keeps the
+   shape of every other one — only the hover tells you it leads somewhere. */
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card__title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card__title a:hover,
+.md-typeset .mg-preowned-grid--shelf .mg-preowned-card__title a:focus {
+  color: var(--ab-green-deep);
+  text-decoration: underline;
+}
+
 /* The price is a <p> of its own on this page, not the span inside the <h3> the
    other listings write: only that lets the name reserve two lines by itself, so
    a one-line name and a two-line name put their prices on the same line. The

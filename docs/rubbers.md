@@ -84,7 +84,11 @@ hide:
       <span class="mg-preowned-card__badge mg-preowned-card__badge--stock">In stock</span>
       <img src="/images/stock-rubbers/butterfly-zyre-03.thumb.webp" data-full-src="/images/stock-rubbers/butterfly-zyre-03.webp" srcset="/images/stock-rubbers/butterfly-zyre-03.thumb-480.webp 360w, /images/stock-rubbers/butterfly-zyre-03.thumb.webp 540w, /images/stock-rubbers/butterfly-zyre-03.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly ZYRE-03" loading="lazy" decoding="async" data-options="2.7 red, 2.5 red, 2.7 black, 2.5 black">
     </div>
-    <h3 class="mg-preowned-card__title">Butterfly ZYRE-03</h3>
+    <!-- The only card on this page that also has an article behind it: the
+         ZYRE-03 review at /gear/zyre-03/, reached through the name. Nothing
+         extra is added to the card, so it keeps the shape of every other one
+         (2026-11-13). -->
+    <h3 class="mg-preowned-card__title"><a href="/gear/zyre-03/">Butterfly ZYRE-03</a></h3>
     <p class="mg-preowned-card__price">$89</p>
     <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Butterfly ZYRE-03 to cart" data-name="Butterfly ZYRE-03" data-price="89"><span aria-hidden="true">+</span><span>Add to cart</span></button>
   </article>
