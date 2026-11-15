@@ -635,8 +635,8 @@ hide:
       <td style="text-align:right">$93</td>
     </tr>
 <tr data-added="2026-11-15" data-category="dhs">
-      <td><img src="/images/dhs-q968-digital-no-039-87-5g/01.thumb.webp" data-full-src="/images/dhs-q968-digital-no-039-87-5g/01.jpg" srcset="/images/dhs-q968-digital-no-039-87-5g/01.thumb-240.webp 180w, /images/dhs-q968-digital-no-039-87-5g/01.thumb-480.webp 360w, /images/dhs-q968-digital-no-039-87-5g/01.thumb.webp 540w, /images/dhs-q968-digital-no-039-87-5g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS Q968 | Digital Version | No.039 | Wang Chuqin | FL | 87.5g" loading="lazy" data-gallery="/images/dhs-q968-digital-no-039-87-5g/01.jpg,/images/dhs-q968-digital-no-039-87-5g/02.jpg,/images/dhs-q968-digital-no-039-87-5g/03.jpg,/images/dhs-q968-digital-no-039-87-5g/04.jpg,/images/dhs-q968-digital-no-039-87-5g/05.jpg,/images/dhs-q968-digital-no-039-87-5g/06.jpg,/images/dhs-q968-digital-no-039-87-5g/07.jpg"></td>
-      <td>DHS Q968 | Digital Version | No.039 | Wang Chuqin | FL | 87.5g</td>
+      <td><img src="/images/dhs-q968-digital-no-039-87-5g/01.thumb.webp" data-full-src="/images/dhs-q968-digital-no-039-87-5g/01.jpg" srcset="/images/dhs-q968-digital-no-039-87-5g/01.thumb-240.webp 180w, /images/dhs-q968-digital-no-039-87-5g/01.thumb-480.webp 360w, /images/dhs-q968-digital-no-039-87-5g/01.thumb.webp 540w, /images/dhs-q968-digital-no-039-87-5g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS Q968 | No.039 | Wang Chuqin | 87.5g" loading="lazy" data-gallery="/images/dhs-q968-digital-no-039-87-5g/01.jpg,/images/dhs-q968-digital-no-039-87-5g/02.jpg,/images/dhs-q968-digital-no-039-87-5g/03.jpg,/images/dhs-q968-digital-no-039-87-5g/04.jpg,/images/dhs-q968-digital-no-039-87-5g/05.jpg,/images/dhs-q968-digital-no-039-87-5g/06.jpg,/images/dhs-q968-digital-no-039-87-5g/07.jpg"></td>
+      <td>DHS Q968 | No.039 | Wang Chuqin | 87.5g</td>
       <td style="text-align:right">$256</td>
     </tr>
 <tr data-added="2026-11-15" data-category="dhs">
