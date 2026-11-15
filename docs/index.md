@@ -154,9 +154,9 @@ hide:
       <div class="mg-sb-advisor__card">
         <div class="mg-sb-advisor__content">
         <div class="mg-sb-advisor__intro">
-          <p class="mg-sb-advisor__eyebrow">Racket advice</p>
-          <h1 class="mg-sb-advisor__title">Tell me how you play and I'll suggest the racket</h1>
-          <p class="mg-sb-advisor__lead">Three questions about your game, then send them to me on WhatsApp.</p>
+          <p class="mg-sb-advisor__eyebrow">Racket Advice</p>
+          <h1 class="mg-sb-advisor__title">Share your playing style, get a custom setup.</h1>
+          <p class="mg-sb-advisor__lead">Answer three quick questions about your game, then send them on WhatsApp.</p>
           <p class="mg-sb-advisor__aside">Buying works the usual way: <a href="/order/">send a link, I quote it, you confirm on WhatsApp</a>.</p>
           <noscript>
             <p class="mg-sb-advisor__aside">The advisor needs JavaScript — or message me on WhatsApp and I'll ask the same questions.</p>
