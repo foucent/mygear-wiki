@@ -2,7 +2,7 @@
    MyGear masthead — the same two bands AceBase (and uncrate.com
    before it) uses:
 
-     band 1  black, family strip over a centred wordmark, tools right
+     band 1  black, centred wordmark, tools right
      band 2  main nav, 1px black rule underneath
 
    The markup this styles lives in overrides/partials/header.html, which also
@@ -136,96 +136,6 @@
   margin-left: auto;
 }
 
-/* ---------- band 1 family strip ----------
-   The slim row sitting on the black band above the wordmark: the family and
-   the brand on one centred line, uppercase, with a hairline under them.
-   12px/700 with 0.5px of tracking, 24px between items, 13px above and
-   14px below, and a 1px white rule across the 960px column.
-
-   `px` throughout, and no rem: the strip is a fixed 960px column, so its
-   contents must not grow when Material steps the root font size up (20px →
-   22px at 100em → 24px at 125em). */
-
-.ab-family__list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 8px 24px;
-  box-sizing: border-box;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 13px 20px 14px;
-  list-style: none;
-  border-bottom: 1px solid var(--ab-header-fg);
-}
-
-.ab-family__item {
-  position: relative;
-}
-
-.ab-family__link {
-  display: block;
-  font-family: inherit;
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 15px;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  white-space: nowrap;
-  color: var(--ab-header-fg) !important;
-  text-decoration: none !important;
-  opacity: 0.85;
-  transition: opacity 0.15s ease, color 0.15s ease;
-}
-
-.ab-family__link:hover,
-.ab-family__link:focus-visible {
-  opacity: 1;
-  color: var(--ab-accent) !important;
-}
-
-/* uncrate's .atsign: the @ is spacing, not part of the name. */
-.ab-family__at {
-  padding-right: 2px;
-}
-
-/* ---------- the strip's cart ----------
-   A <button>, because it opens the cart drawer price-cart.js appends to <body>
-   rather than navigating anywhere — so it needs the link's type without the
-   button's chrome. The type itself comes from .ab-family__link, which this
-   deliberately does not restate: a `font:` shorthand here would win on file
-   order and reset the strip to the UA's 13.33px. */
-.ab-family__cart {
-  border: 0;
-  margin: 0;
-  padding: 0;
-  background: none;
-  cursor: pointer;
-}
-
-/* price-cart.js fills this in and clears `hidden` once there is something to
-   count. `[hidden]` has to be restated because the UA rule it relies on is
-   outranked by any author `display`. */
-.ab-family__cart-count {
-  display: inline-block;
-  min-width: 15px;
-  margin-left: 5px;
-  padding: 0 4px;
-  border-radius: 999px;
-  background: var(--ab-red);
-  color: #fff;
-  font-size: 10px;
-  line-height: 15px;
-  letter-spacing: 0;
-  text-align: center;
-  vertical-align: 1px;
-}
-
-.ab-family__cart-count[hidden] {
-  display: none;
-}
-
 .ab-band__tool {
   color: var(--ab-header-fg) !important;
 }
@@ -309,13 +219,6 @@
   .ab-band__inner {
     min-height: 68px;
     padding: 0 16px;
-  }
-
-  /* 16px rather than the 20px above: the band's own padding is 16px on a
-     narrow screen. */
-  .ab-family__list {
-    gap: 6px 16px;
-    padding: 10px 16px 11px;
   }
 
   /* The drawer label and the search icon sit ~200px apart on a 390px band,
