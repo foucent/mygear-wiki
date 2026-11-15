@@ -210,21 +210,12 @@ watch:
 
 extra:
   generator: false
-  # The black band's family strip. AceBase lists its sibling sites here and
-  # appends its own @handle; this site has no siblings to list, so the strip
-  # carries the brand alone. header.html adds the other two items — the cart,
-  # between this one and the @handle, and the "@ MyGear.Top" that opens the
-  # YouTube channel — because both need the handler/markup the loop can't give
-  # them.
-  family:
-    - label: MyGear.Top
-      link: /
   analytics:
     provider: google
     property: G-1VPCP3FZN6
-  # No `social:` block. It was the YouTube icon in the footer, and the same
-  # channel is now the "@ MyGear.Top" item in the masthead strip — one link to
-  # the channel, at the top of every page rather than the bottom.
+  # No `family:` or `social:` block. The masthead's family strip (brand link,
+  # cart, YouTube @handle) was removed on 2026-11-15 (user: 「这些去掉」); the
+  # cart is still reachable from the floating button.
 
 # 导航配置在这里
 nav:
