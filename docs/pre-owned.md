@@ -674,6 +674,11 @@ hide:
       <td>Fan ZD SALC | X-Code | JP | 90g</td>
       <td style="text-align:right">$132</td>
     </tr>
+<tr data-added="2026-11-22" data-category="butterfly">
+      <td><img src="/images/boll-alc-w-code-cn-88g/01.thumb.webp" data-full-src="/images/boll-alc-w-code-cn-88g/01.jpg" srcset="/images/boll-alc-w-code-cn-88g/01.thumb-240.webp 180w, /images/boll-alc-w-code-cn-88g/01.thumb-480.webp 360w, /images/boll-alc-w-code-cn-88g/01.thumb.webp 540w, /images/boll-alc-w-code-cn-88g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Boll ALC | W-Code | CN | 88g" loading="lazy" data-gallery="/images/boll-alc-w-code-cn-88g/01.jpg,/images/boll-alc-w-code-cn-88g/02.jpg,/images/boll-alc-w-code-cn-88g/03.jpg,/images/boll-alc-w-code-cn-88g/04.jpg,/images/boll-alc-w-code-cn-88g/05.jpg,/images/boll-alc-w-code-cn-88g/06.jpg,/images/boll-alc-w-code-cn-88g/07.jpg"></td>
+      <td>Boll ALC | W-Code | CN | 88g</td>
+      <td style="text-align:right">$85</td>
+    </tr>
 <tr data-category="nittaku">
       <td><img src="/images/koki-niwa-st-84g/01.thumb.webp" data-full-src="/images/koki-niwa-st-84g/01.jpg" srcset="/images/koki-niwa-st-84g/01.thumb-240.webp 135w, /images/koki-niwa-st-84g/01.thumb-480.webp 270w, /images/koki-niwa-st-84g/01.thumb.webp 405w, /images/koki-niwa-st-84g/01.jpg 1080w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Koki Niwa | ST | 84g" loading="lazy" data-gallery="/images/koki-niwa-st-84g/01.jpg,/images/koki-niwa-st-84g/02.jpg,/images/koki-niwa-st-84g/03.jpg,/images/koki-niwa-st-84g/04.jpg,/images/koki-niwa-st-84g/05.jpg,/images/koki-niwa-st-84g/06.jpg,/images/koki-niwa-st-84g/07.jpg"></td>
       <td>Koki Niwa | ST | 84g</td>
