@@ -51,7 +51,11 @@ can be redeemed for gear, vouchers, and gifts.
      780」): rubber care 500, JP wristband 1580, glue roller 850, clip sponge 780,
      added in that order after the first card. Photos keep the listing's order,
      the cover first, and are copied verbatim; each cover ships a 720 and a 480
-     thumb, the detail photos a 720. -->
+     thumb, the detail photos a 720.
+
+     2026-11-22: rubber cutting turntable, 600 points (「乒乓球拍胶皮切割转台」).
+     The listing supplied one square cover only, so this card has a single image
+     and a 720 + 480 thumb pair like the other covers. -->
 
 <div class="mg-vip-rewards" markdown="0">
   <div class="mg-preowned-grid mg-preowned-grid--vip" markdown="0" role="list">
@@ -99,6 +103,15 @@ can be redeemed for gear, vouchers, and gifts.
       </div>
       <h3 class="mg-preowned-card__title">Butterfly Clip Sponge <span class="mg-preowned-card__price">780 pts</span></h3>
       <a class="mg-preowned-card__wa" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20to%20redeem%20my%20VIP%20points%20for%20the%20Butterfly%20Clip%20Sponge%20%28780%20points%29.%0D%0A%0D%0APhone%20number%20on%20my%20orders%3A%0D%0A%0D%0AShip%20to%20%28city%20%2F%20postal%20code%29%3A%0D%0A" target="_blank" rel="noopener noreferrer">Redeem 780 points</a>
+    </article>
+
+    <article class="mg-preowned-card" role="listitem">
+      <div class="mg-preowned-card__media">
+        <span class="mg-preowned-card__badge mg-preowned-card__badge--reward">Reward</span>
+        <img src="/images/vip/rubber-cutting-turntable/01.thumb.webp" data-full-src="/images/vip/rubber-cutting-turntable/01.jpg" srcset="/images/vip/rubber-cutting-turntable/01.thumb-480.webp 480w, /images/vip/rubber-cutting-turntable/01.thumb.webp 720w" sizes="(max-width: 759.98px) 46vw, 305px" alt="White rotating table tennis rubber cutting turntable with a non-slip base" loading="lazy" decoding="async" data-gallery="/images/vip/rubber-cutting-turntable/01.jpg">
+      </div>
+      <h3 class="mg-preowned-card__title">Rubber Cutting Turntable <span class="mg-preowned-card__price">600 pts</span></h3>
+      <a class="mg-preowned-card__wa" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20to%20redeem%20my%20VIP%20points%20for%20the%20Rubber%20Cutting%20Turntable%20%28600%20points%29.%0D%0A%0D%0APhone%20number%20on%20my%20orders%3A%0D%0A%0D%0AShip%20to%20%28city%20%2F%20postal%20code%29%3A%0D%0A" target="_blank" rel="noopener noreferrer">Redeem 600 points</a>
     </article>
 
   </div>
