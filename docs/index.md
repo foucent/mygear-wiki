@@ -303,7 +303,7 @@ hide:
       <p class="mg-card__desc mg-card__desc--lines">
         <span class="mg-card__line">Butterfly Fan Zhendong ALC / <span class="mg-card__line-price">$159</span></span>
         <span class="mg-card__line">Butterfly Dignics 09C / <span class="mg-card__line-price">$73</span></span>
-        <span class="mg-card__line">Butterfly ZYRE-03 / <span class="mg-card__line-price">$89</span></span>
+        <span class="mg-card__line">Butterfly ZYRE-03 / <span class="mg-card__line-price">$88</span></span>
       </p>
       <p class="mg-card__more mg-card__more--split">
         <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20Fan%20Zhendong%20ALC%20with%20Dignics%2009C%20and%20ZYRE-03.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>
@@ -334,7 +334,7 @@ hide:
     <div class="mg-card__copy">      <h3 class="mg-card__title">Tomokazu Harimoto's setup</h3>
       <p class="mg-card__desc mg-card__desc--lines">
         <span class="mg-card__line">Butterfly Harimoto Innerforce Super ALC / <span class="mg-card__line-price">$168</span></span>
-        <span class="mg-card__line">Butterfly ZYRE-03 · Both Sides / <span class="mg-card__line-price">$89</span></span>
+        <span class="mg-card__line">Butterfly ZYRE-03 · Both Sides / <span class="mg-card__line-price">$88</span></span>
       </p>
       <p class="mg-card__more mg-card__more--split">
         <a class="mg-card__ask" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20Harimoto%20Innerforce%20Super%20ALC%20with%20ZYRE-03%20on%20both%20sides.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Ask about this setup</a>
@@ -364,7 +364,7 @@ hide:
     <div class="mg-card__copy">      <h3 class="mg-card__title">Patrick Franziska's setup</h3>
       <p class="mg-card__desc mg-card__desc--lines">
         <span class="mg-card__line">Butterfly Franziska Innerforce ZLC / <span class="mg-card__line-price">$216</span></span>
-        <span class="mg-card__line">Butterfly ZYRE-03 / <span class="mg-card__line-price">$89</span></span>
+        <span class="mg-card__line">Butterfly ZYRE-03 / <span class="mg-card__line-price">$88</span></span>
         <span class="mg-card__line">Butterfly Dignics 09C / <span class="mg-card__line-price">$73</span></span>
       </p>
       <p class="mg-card__more mg-card__more--split">
@@ -395,7 +395,7 @@ hide:
     <div class="mg-card__copy">      <h3 class="mg-card__title">Lin Yun-Ju's setup</h3>
       <p class="mg-card__desc mg-card__desc--lines">
         <span class="mg-card__line">Butterfly Viscaria Super ALC / <span class="mg-card__line-price">$208</span></span>
-        <span class="mg-card__line">Butterfly ZYRE-03 / <span class="mg-card__line-price">$89</span></span>
+        <span class="mg-card__line">Butterfly ZYRE-03 / <span class="mg-card__line-price">$88</span></span>
         <span class="mg-card__line">Butterfly Dignics 05 / <span class="mg-card__line-price">$68</span></span>
       </p>
       <p class="mg-card__more mg-card__more--split">
