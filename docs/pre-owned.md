@@ -480,9 +480,9 @@ hide:
       <td style="text-align:right">$618</td>
     </tr>
 <tr data-added="2026-10-03" data-category="butterfly">
-      <td><img src="/images/viscaria-golden-cn-v-code-91g/01.jpg" alt="Viscaria Golden | CN | V-Code | 91g" loading="lazy" data-gallery="/images/viscaria-golden-cn-v-code-91g/01.jpg,/images/viscaria-golden-cn-v-code-91g/02.jpg,/images/viscaria-golden-cn-v-code-91g/03.jpg,/images/viscaria-golden-cn-v-code-91g/04.jpg,/images/viscaria-golden-cn-v-code-91g/05.jpg,/images/viscaria-golden-cn-v-code-91g/06.jpg"></td>
+      <td><img src="/images/viscaria-golden-cn-v-code-91g/01.thumb.webp" data-full-src="/images/viscaria-golden-cn-v-code-91g/01.jpg" srcset="/images/viscaria-golden-cn-v-code-91g/01.thumb-240.webp 135w, /images/viscaria-golden-cn-v-code-91g/01.thumb-480.webp 270w, /images/viscaria-golden-cn-v-code-91g/01.thumb.webp 405w, /images/viscaria-golden-cn-v-code-91g/01.jpg 1080w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Viscaria Golden | CN | V-Code | 91g" loading="lazy" data-gallery="/images/viscaria-golden-cn-v-code-91g/01.jpg,/images/viscaria-golden-cn-v-code-91g/02.jpg,/images/viscaria-golden-cn-v-code-91g/03.jpg,/images/viscaria-golden-cn-v-code-91g/04.jpg,/images/viscaria-golden-cn-v-code-91g/05.jpg,/images/viscaria-golden-cn-v-code-91g/06.jpg,/images/viscaria-golden-cn-v-code-91g/07.jpg,/images/viscaria-golden-cn-v-code-91g/08.jpg"></td>
       <td>Viscaria Golden | CN | V-Code | 91g</td>
-      <td style="text-align:right">$580</td>
+      <td style="text-align:right">$669</td>
     </tr>
 <tr data-added="2026-10-04" data-category="dhs">
       <td><img src="/images/dhs-w968-no-06-87g/01.thumb.webp" data-full-src="/images/dhs-w968-no-06-87g/01.jpg" srcset="/images/dhs-w968-no-06-87g/01.thumb-240.webp 180w, /images/dhs-w968-no-06-87g/01.thumb-480.webp 360w, /images/dhs-w968-no-06-87g/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS W968 | No.06 | 87g | Original Box" loading="lazy" data-gallery="/images/dhs-w968-no-06-87g/01.jpg,/images/dhs-w968-no-06-87g/02.jpg,/images/dhs-w968-no-06-87g/03.jpg,/images/dhs-w968-no-06-87g/04.jpg,/images/dhs-w968-no-06-87g/05.jpg,/images/dhs-w968-no-06-87g/06.jpg,/images/dhs-w968-no-06-87g/07.jpg"></td>
@@ -678,6 +678,16 @@ hide:
       <td><img src="/images/boll-alc-w-code-cn-88g/01.thumb.webp" data-full-src="/images/boll-alc-w-code-cn-88g/01.jpg" srcset="/images/boll-alc-w-code-cn-88g/01.thumb-240.webp 180w, /images/boll-alc-w-code-cn-88g/01.thumb-480.webp 360w, /images/boll-alc-w-code-cn-88g/01.thumb.webp 540w, /images/boll-alc-w-code-cn-88g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Boll ALC | W-Code | CN | 88g" loading="lazy" data-gallery="/images/boll-alc-w-code-cn-88g/01.jpg,/images/boll-alc-w-code-cn-88g/02.jpg,/images/boll-alc-w-code-cn-88g/03.jpg,/images/boll-alc-w-code-cn-88g/04.jpg,/images/boll-alc-w-code-cn-88g/05.jpg,/images/boll-alc-w-code-cn-88g/06.jpg,/images/boll-alc-w-code-cn-88g/07.jpg"></td>
       <td>Boll ALC | W-Code | CN | 88g</td>
       <td style="text-align:right">$85</td>
+    </tr>
+<tr data-added="2026-11-24" data-category="dhs">
+      <td><img src="/images/long-5-golden-slam-88g/01.thumb.webp" data-full-src="/images/long-5-golden-slam-88g/01.jpg" srcset="/images/long-5-golden-slam-88g/01.thumb-240.webp 135w, /images/long-5-golden-slam-88g/01.thumb-480.webp 270w, /images/long-5-golden-slam-88g/01.thumb.webp 405w, /images/long-5-golden-slam-88g/01.jpg 1080w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Long 5 | Golden Slam | 88g | Original Box" loading="lazy" data-gallery="/images/long-5-golden-slam-88g/01.jpg,/images/long-5-golden-slam-88g/02.jpg,/images/long-5-golden-slam-88g/03.jpg,/images/long-5-golden-slam-88g/04.jpg,/images/long-5-golden-slam-88g/05.jpg,/images/long-5-golden-slam-88g/06.jpg,/images/long-5-golden-slam-88g/07.jpg,/images/long-5-golden-slam-88g/08.jpg,/images/long-5-golden-slam-88g/09.jpg"></td>
+      <td>Long 5 | Golden Slam | 88g | Original Box</td>
+      <td style="text-align:right">$75</td>
+    </tr>
+<tr data-added="2026-11-24" data-category="dhs">
+      <td><img src="/images/hurricane-king-wang-chuqin-fl-90g/01.thumb.webp" data-full-src="/images/hurricane-king-wang-chuqin-fl-90g/01.jpg" srcset="/images/hurricane-king-wang-chuqin-fl-90g/01.thumb-240.webp 135w, /images/hurricane-king-wang-chuqin-fl-90g/01.thumb-480.webp 270w, /images/hurricane-king-wang-chuqin-fl-90g/01.thumb.webp 405w, /images/hurricane-king-wang-chuqin-fl-90g/01.jpg 1080w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Hurricane King (Wang Chuqin) | FL | 90g" loading="lazy" data-gallery="/images/hurricane-king-wang-chuqin-fl-90g/01.jpg,/images/hurricane-king-wang-chuqin-fl-90g/02.jpg,/images/hurricane-king-wang-chuqin-fl-90g/03.jpg,/images/hurricane-king-wang-chuqin-fl-90g/04.jpg,/images/hurricane-king-wang-chuqin-fl-90g/05.jpg,/images/hurricane-king-wang-chuqin-fl-90g/06.jpg,/images/hurricane-king-wang-chuqin-fl-90g/07.jpg,/images/hurricane-king-wang-chuqin-fl-90g/08.jpg"></td>
+      <td>Hurricane King (Wang Chuqin) | FL | 90g</td>
+      <td style="text-align:right">$87</td>
     </tr>
 <tr data-category="nittaku">
       <td><img src="/images/koki-niwa-st-84g/01.thumb.webp" data-full-src="/images/koki-niwa-st-84g/01.jpg" srcset="/images/koki-niwa-st-84g/01.thumb-240.webp 135w, /images/koki-niwa-st-84g/01.thumb-480.webp 270w, /images/koki-niwa-st-84g/01.thumb.webp 405w, /images/koki-niwa-st-84g/01.jpg 1080w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Koki Niwa | ST | 84g" loading="lazy" data-gallery="/images/koki-niwa-st-84g/01.jpg,/images/koki-niwa-st-84g/02.jpg,/images/koki-niwa-st-84g/03.jpg,/images/koki-niwa-st-84g/04.jpg,/images/koki-niwa-st-84g/05.jpg,/images/koki-niwa-st-84g/06.jpg,/images/koki-niwa-st-84g/07.jpg"></td>
