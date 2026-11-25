@@ -4,7 +4,7 @@ icon: tt/blade
 source_url: https://mygear.top/product-category/blade/
 source_title: "Blades"
 imported: 2026-07-24
-description: "Table tennis blades in USD — Butterfly Viscaria CN K-Code, Fan Zhendong Golden, DHS W968 National and rare collectibles. WhatsApp quote, worldwide shipping."
+description: "Table tennis blades in USD — Butterfly Viscaria CN K-Code, Fan Zhendong Golden, DHS W968 and rare collectibles. WhatsApp quote, worldwide shipping."
 hide:
   - toc
 ---
@@ -77,15 +77,6 @@ hide:
 
 <div class="mg-preowned-grid mg-preowned-grid--blades mg-preowned-grid--shelf" id="blades-priced" markdown="0" role="list">
 
-  <article class="mg-preowned-card" role="listitem" data-category="dhs">
-    <div class="mg-preowned-card__media">
-      <span class="mg-preowned-card__badge mg-preowned-card__badge--preorder">Pre-order</span>
-      <img src="/images/stock-blades/dhs-national-player-version-w968.thumb.webp" data-full-src="/images/stock-blades/dhs-national-player-version-w968.jpg" srcset="/images/stock-blades/dhs-national-player-version-w968.thumb-480.webp 369w, /images/stock-blades/dhs-national-player-version-w968.thumb.webp 553w, /images/stock-blades/dhs-national-player-version-w968.thumb-1000.webp 768w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS W968 National" loading="lazy" decoding="async">
-    </div>
-    <h3 class="mg-preowned-card__title">DHS W968 National</h3>
-    <p class="mg-preowned-card__price">$704</p>
-    <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add DHS W968 National to cart" data-name="DHS W968 National" data-price="704"><span aria-hidden="true">+</span><span>Add to cart</span></button>
-  </article>
   <article class="mg-preowned-card" role="listitem" data-category="butterfly">
     <div class="mg-preowned-card__media">
       <span class="mg-preowned-card__badge mg-preowned-card__badge--stock">In stock</span>
