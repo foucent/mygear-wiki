@@ -657,17 +657,13 @@
        apart at a different price each. The photos are the ones the old cards
        carried, so the picture opens the same gallery it did.
 
-       This is the page's priced grid, not the whole page: the fifteen blades
-       with no price are a second grid below it, split off by the caption. They
-       are written in this recipe too — only the action line differs. See the
-       comment over them. -->
+       This is the page's only blade grid: one card per priced blade. -->
 
 <!-- The shelf's category row (2026-11-12, user: 「将 http://127.0.0.1:8001/
-     blades/ 页也同样处理」). It drives both runs on the page: a brand shows
-     its priced cards above the divider and its quote-only cards below it.
-     Cards hide with [hidden]; the divider carries data-hide-when-empty so
-     it drops out when nothing under it survives the filter. -->
-<div class="mg-shop-pills" id="blades-pills" data-grid="blades-priced blades-quote"
+     blades/ 页也同样处理」). It filters the priced cards; the quote-only run
+     that used to sit below the divider was removed on 2026-11-25.
+     Cards hide with [hidden]. -->
+<div class="mg-shop-pills" id="blades-pills" data-grid="blades-priced"
      role="group" aria-label="Filter blades by brand" markdown="0">
   <button type="button" class="mg-shop-pill is-active" data-category="all" aria-pressed="true">All</button>
   <button type="button" class="mg-shop-pill" data-category="butterfly" aria-pressed="false">Butterfly</button>
@@ -1093,166 +1089,6 @@
     <h3 class="mg-preowned-card__title">Stiga Luma Hybrid Carbon (Wen Ruibo Edition)</h3>
     <p class="mg-preowned-card__price">$150</p>
     <button type="button" class="mg-cart-add mg-preowned-card__cart" aria-label="Add Stiga Luma Hybrid Carbon (Wen Ruibo Edition) to cart" data-name="Stiga Luma Hybrid Carbon (Wen Ruibo Edition)" data-price="150"><span aria-hidden="true">+</span><span>Add to cart</span></button>
-  </article>
-
-</div>
-
-<div class="mg-preowned-divider mg-preowned-divider--lead" role="presentation" data-hide-when-empty="blades-quote">
-  <span class="mg-preowned-divider__text">
-    <span class="mg-preowned-divider__note">No list price — ask and I quote</span>
-  </span>
-</div>
-
-<!-- The blades with no price. Every card above this run has one: the
-     badge in the corner says how it is bought and the action line is a cart
-     button. These have neither — nobody stocks them, or nobody has published
-     a list price — so there is no listing to quote from and the action line
-     offers to check the price instead. Same recipe as the run above, down to
-     the square band and the upper-case name: the action line is the whole of
-     the difference between the two runs, and the caption over this one says
-     what it means.
-
-     They used to be read rather than scanned — a write-up each, in the .mg-card
-     recipe, in a grid of their own under this one. The caption stays because
-     the cards still cannot be priced; the paragraph that made them a different
-     kind of card, and the second recipe with it, are gone.
-
-     They were on /gear/, which shows rackets built out of parts and had no way
-     to say what a bare blade is. A blade waiting on a price is still a blade,
-     and a blade is this page. -->
-<div class="mg-preowned-grid mg-preowned-grid--blades mg-preowned-grid--shelf" id="blades-quote" markdown="0" role="list">
-
-  <!-- No price for this one: Xiom sells it through its own channels and has
-       not published a list price, so the action asks for one instead of
-       opening a cart line. -->
-  <article class="mg-preowned-card" role="listitem" data-category="xiom" id="card-xiom-hugo-supreme-alxi">
-    <div class="mg-preowned-card__media">
-      <img src="/images/xiom-hugo-supreme-alxi/01.thumb.webp" data-full-src="/images/xiom-hugo-supreme-alxi/01.jpg" srcset="/images/xiom-hugo-supreme-alxi/01.thumb-480.webp 480w, /images/xiom-hugo-supreme-alxi/01.thumb.webp 720w, /images/xiom-hugo-supreme-alxi/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Xiom Hugo Supreme ALXi" loading="lazy" decoding="async" data-gallery="/images/xiom-hugo-supreme-alxi/01.jpg,/images/xiom-hugo-supreme-alxi/02.jpg,/images/xiom-hugo-supreme-alxi/03.jpg,/images/xiom-hugo-supreme-alxi/04.jpg,/images/xiom-hugo-supreme-alxi/05.jpg,/images/xiom-hugo-supreme-alxi/06.jpg,/images/xiom-hugo-supreme-alxi/07.jpg,/images/xiom-hugo-supreme-alxi/08.jpg,/images/xiom-hugo-supreme-alxi/09.jpg,/images/xiom-hugo-supreme-alxi/10.jpg,/images/xiom-hugo-supreme-alxi/11.jpg,/images/xiom-hugo-supreme-alxi/12.jpg,/images/xiom-hugo-supreme-alxi/13.jpg,/images/xiom-hugo-supreme-alxi/14.jpg,/images/xiom-hugo-supreme-alxi/15.jpg">
-    </div>
-    <h3 class="mg-preowned-card__title">Xiom Hugo Supreme ALXi</h3>
-    <a class="mg-preowned-card__quote" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Xiom%20Hugo%20Supreme%20ALXi%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Contact for Price</a>
-  </article>
-
-  <!-- No price on this one either: Victas has not published one for this
-       model. -->
-  <article class="mg-preowned-card" role="listitem" data-category="victas" id="card-victas-quartet-afc">
-    <div class="mg-preowned-card__media">
-      <img src="/images/victas-quartet-afc/01.thumb.webp" data-full-src="/images/victas-quartet-afc/01.jpg" srcset="/images/victas-quartet-afc/01.thumb-480.webp 480w, /images/victas-quartet-afc/01.thumb.webp 720w, /images/victas-quartet-afc/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Victas Quartet AFC" loading="lazy" decoding="async" data-gallery="/images/victas-quartet-afc/01.jpg,/images/victas-quartet-afc/02.jpg,/images/victas-quartet-afc/03.jpg,/images/victas-quartet-afc/04.jpg,/images/victas-quartet-afc/05.jpg,/images/victas-quartet-afc/06.jpg,/images/victas-quartet-afc/07.jpg">
-    </div>
-    <h3 class="mg-preowned-card__title">Victas Quartet AFC</h3>
-    <a class="mg-preowned-card__quote" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Victas%20Quartet%20AFC%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Contact for Price</a>
-  </article>
-
-  <!-- No price, for the other reason a card can have none: nobody stocks
-       this blade, so there is no listing to quote from. The CO handle is
-       the whole argument for it, which is why it leads the photos. -->
-  <article class="mg-preowned-card" role="listitem" data-category="stiga" id="card-stiga-maplewood-v">
-    <div class="mg-preowned-card__media">
-      <img src="/images/stiga-maplewood-v/01.thumb.webp" data-full-src="/images/stiga-maplewood-v/01.jpg" srcset="/images/stiga-maplewood-v/01.thumb-480.webp 480w, /images/stiga-maplewood-v/01.thumb.webp 720w, /images/stiga-maplewood-v/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="STIGA Maplewood V" loading="lazy" decoding="async" data-gallery="/images/stiga-maplewood-v/01.jpg,/images/stiga-maplewood-v/02.jpg,/images/stiga-maplewood-v/03.jpg,/images/stiga-maplewood-v/04.jpg,/images/stiga-maplewood-v/05.jpg,/images/stiga-maplewood-v/06.jpg,/images/stiga-maplewood-v/07.jpg,/images/stiga-maplewood-v/08.jpg,/images/stiga-maplewood-v/09.jpg,/images/stiga-maplewood-v/10.jpg">
-    </div>
-    <h3 class="mg-preowned-card__title">STIGA Maplewood V</h3>
-    <a class="mg-preowned-card__quote" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20STIGA%20Maplewood%20V%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Contact for Price</a>
-  </article>
-
-  <!-- The Butterfly gallery's blades. None of them has a listing behind it to
-     quote from, so each one asks for a price rather than offering a cart
-     line, and the photos are the ones already on the Butterfly page. -->
-  <article class="mg-preowned-card" role="listitem" data-category="butterfly" id="card-butterfly-chuang-chih-yuan-gold">
-    <div class="mg-preowned-card__media">
-      <img src="/images/butterfly-chuang-chih-yuan-gold/01.thumb.webp" data-full-src="/images/butterfly-chuang-chih-yuan-gold/01.jpg" srcset="/images/butterfly-chuang-chih-yuan-gold/01.thumb-480.webp 480w, /images/butterfly-chuang-chih-yuan-gold/01.thumb.webp 720w, /images/butterfly-chuang-chih-yuan-gold/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Chuang Chih-Yuan Gold" loading="lazy" decoding="async" data-gallery="/images/butterfly-chuang-chih-yuan-gold/01.jpg,/images/butterfly-chuang-chih-yuan-gold/02.jpg,/images/butterfly-chuang-chih-yuan-gold/03.jpg,/images/butterfly-chuang-chih-yuan-gold/04.webp">
-    </div>
-    <h3 class="mg-preowned-card__title">Butterfly Chuang Chih-Yuan Gold</h3>
-    <a class="mg-preowned-card__quote" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Butterfly%20Chuang%20Chih-Yuan%20Gold%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Contact for Price</a>
-  </article>
-
-  <article class="mg-preowned-card" role="listitem" data-category="butterfly" id="card-butterfly-guo-yue">
-    <div class="mg-preowned-card__media">
-      <img src="/images/butterfly-guo-yue/01.thumb.webp" data-full-src="/images/butterfly-guo-yue/01.webp" srcset="/images/butterfly-guo-yue/01.thumb-480.webp 480w, /images/butterfly-guo-yue/01.thumb.webp 720w, /images/butterfly-guo-yue/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Guo Yue" loading="lazy" decoding="async" data-gallery="/images/butterfly-guo-yue/01.webp,/images/butterfly-guo-yue/02.webp">
-    </div>
-    <h3 class="mg-preowned-card__title">Butterfly Guo Yue</h3>
-    <a class="mg-preowned-card__quote" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Butterfly%20Guo%20Yue%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Contact for Price</a>
-  </article>
-
-  <article class="mg-preowned-card" role="listitem" data-category="butterfly" id="card-butterfly-hadraw-sk">
-    <div class="mg-preowned-card__media">
-      <img src="/images/butterfly-hadraw-sk/01.thumb.webp" data-full-src="/images/butterfly-hadraw-sk/01.jpg" srcset="/images/butterfly-hadraw-sk/01.thumb-480.webp 480w, /images/butterfly-hadraw-sk/01.thumb.webp 720w, /images/butterfly-hadraw-sk/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Hadraw SK" loading="lazy" decoding="async" data-gallery="/images/butterfly-hadraw-sk/01.jpg,/images/butterfly-hadraw-sk/02.jpg,/images/butterfly-hadraw-sk/03.jpg,/images/butterfly-hadraw-sk/04.jpg">
-    </div>
-    <h3 class="mg-preowned-card__title">Butterfly Hadraw SK</h3>
-    <a class="mg-preowned-card__quote" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Butterfly%20Hadraw%20SK%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Contact for Price</a>
-  </article>
-
-  <article class="mg-preowned-card" role="listitem" data-category="butterfly" id="card-butterfly-kong-linghui-arylate-carbon">
-    <div class="mg-preowned-card__media">
-      <img src="/images/butterfly-kong-linghui-arylate-carbon/01.thumb.webp" data-full-src="/images/butterfly-kong-linghui-arylate-carbon/01.jpg" srcset="/images/butterfly-kong-linghui-arylate-carbon/01.thumb-480.webp 480w, /images/butterfly-kong-linghui-arylate-carbon/01.thumb.webp 720w, /images/butterfly-kong-linghui-arylate-carbon/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Kong Linghui Arylate-Carbon" loading="lazy" decoding="async" data-gallery="/images/butterfly-kong-linghui-arylate-carbon/01.jpg,/images/butterfly-kong-linghui-arylate-carbon/02.jpg,/images/butterfly-kong-linghui-arylate-carbon/03.jpg,/images/butterfly-kong-linghui-arylate-carbon/04.jpg">
-    </div>
-    <h3 class="mg-preowned-card__title">Butterfly Kong Linghui Arylate-Carbon</h3>
-    <a class="mg-preowned-card__quote" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Butterfly%20Kong%20Linghui%20Arylate-Carbon%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Contact for Price</a>
-  </article>
-
-  <article class="mg-preowned-card" role="listitem" data-category="butterfly" id="card-butterfly-minions-caf">
-    <div class="mg-preowned-card__media">
-      <img src="/images/butterfly-minions-caf/01.thumb.webp" data-full-src="/images/butterfly-minions-caf/01.jpg" srcset="/images/butterfly-minions-caf/01.thumb-480.webp 480w, /images/butterfly-minions-caf/01.thumb.webp 720w, /images/butterfly-minions-caf/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Minions CAF" loading="lazy" decoding="async" data-gallery="/images/butterfly-minions-caf/01.jpg,/images/butterfly-minions-caf/02.jpg,/images/butterfly-minions-caf/03.jpg,/images/butterfly-minions-caf/04.jpg">
-    </div>
-    <h3 class="mg-preowned-card__title">Butterfly Minions CAF</h3>
-    <p class="mg-preowned-card__price">?</p>
-    <a class="mg-preowned-card__quote" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Butterfly%20Minions%20CAF%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Contact for Price</a>
-  </article>
-
-  <article class="mg-preowned-card" role="listitem" data-category="butterfly" id="card-butterfly-primorac-fiber-glass">
-    <div class="mg-preowned-card__media">
-      <img src="/images/butterfly-primorac-fiber-glass/01.thumb.webp" data-full-src="/images/butterfly-primorac-fiber-glass/01.jpg" srcset="/images/butterfly-primorac-fiber-glass/01.thumb-480.webp 480w, /images/butterfly-primorac-fiber-glass/01.thumb.webp 720w, /images/butterfly-primorac-fiber-glass/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Primorac Fiber Glass" loading="lazy" decoding="async" data-gallery="/images/butterfly-primorac-fiber-glass/01.jpg,/images/butterfly-primorac-fiber-glass/02.jpg,/images/butterfly-primorac-fiber-glass/03.jpg,/images/butterfly-primorac-fiber-glass/04.jpg">
-    </div>
-    <h3 class="mg-preowned-card__title">Butterfly Primorac Fiber Glass</h3>
-    <a class="mg-preowned-card__quote" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Butterfly%20Primorac%20Fiber%20Glass%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Contact for Price</a>
-  </article>
-
-  <article class="mg-preowned-card" role="listitem" data-category="butterfly" id="card-butterfly-schlager-light-carbon">
-    <div class="mg-preowned-card__media">
-      <img src="/images/butterfly-schlager-light-carbon/01.thumb.webp" data-full-src="/images/butterfly-schlager-light-carbon/01.jpg" srcset="/images/butterfly-schlager-light-carbon/01.thumb-480.webp 480w, /images/butterfly-schlager-light-carbon/01.thumb.webp 720w, /images/butterfly-schlager-light-carbon/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Schlager Light Carbon" loading="lazy" decoding="async" data-gallery="/images/butterfly-schlager-light-carbon/01.jpg,/images/butterfly-schlager-light-carbon/02.jpg,/images/butterfly-schlager-light-carbon/03.jpg,/images/butterfly-schlager-light-carbon/04.jpg">
-    </div>
-    <h3 class="mg-preowned-card__title">Butterfly Schlager Light Carbon</h3>
-    <a class="mg-preowned-card__quote" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Butterfly%20Schlager%20Light%20Carbon%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Contact for Price</a>
-  </article>
-
-  <!-- Waldner's all-wood Dicon in its Chinese-market box: Master Dicon, ST
-       handle, item 3017. A collectible rather than a stocked line, so there
-       is no list price to show and the action asks for one. -->
-  <article class="mg-preowned-card" role="listitem" data-category="donic" id="card-donic-j-o-waldner-dicon">
-    <div class="mg-preowned-card__media">
-      <img src="/images/donic-waldner-dicon/01.thumb.webp" data-full-src="/images/donic-waldner-dicon/01.jpg" srcset="/images/donic-waldner-dicon/01.thumb-480.webp 480w, /images/donic-waldner-dicon/01.thumb.webp 720w, /images/donic-waldner-dicon/01.thumb-1000.webp 1000w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Donic J.O. Waldner Dicon blade" loading="lazy" decoding="async" data-gallery="/images/donic-waldner-dicon/01.jpg,/images/donic-waldner-dicon/02.jpg,/images/donic-waldner-dicon/03.jpg,/images/donic-waldner-dicon/04.jpg,/images/donic-waldner-dicon/05.jpg,/images/donic-waldner-dicon/06.jpg,/images/donic-waldner-dicon/07.jpg">
-    </div>
-    <h3 class="mg-preowned-card__title">Donic J.O. Waldner Dicon</h3>
-    <a class="mg-preowned-card__quote" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Donic%20J.O.%20Waldner%20Dicon%20blade.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A" target="_blank" rel="noopener noreferrer">Contact for Price</a>
-  </article>
-
-  <!-- Golden Fan Zhendong, CN-market K-Code, 88.7g, brand new. In hand;
-       price on request rather than listed. -->
-  <article class="mg-preowned-card" role="listitem" data-category="butterfly" id="card-fan-zd-golden-cn-k-code-88-7g">
-    <div class="mg-preowned-card__media">
-      <img src="/images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb.webp" data-full-src="/images/stock-blades/brand-new-selected-fan-zhendong-golden.webp" srcset="/images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb-240.webp 180w, /images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb-480.webp 360w, /images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb.webp 540w, /images/stock-blades/brand-new-selected-fan-zhendong-golden.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Fan ZD Golden, CN K-Code, 88.7g" loading="lazy" decoding="async">
-    </div>
-    <h3 class="mg-preowned-card__title">Fan ZD Golden | CN | K-Code | 88.7g</h3>
-    <a class="mg-preowned-card__quote" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Fan%20ZD%20Golden%20blade.%0D%0A%0D%0AShip%20to%20%28city%20%2F%20postal%20code%29%3A" target="_blank" rel="noopener noreferrer">Contact for Price</a>
-  </article>
-
-  <!-- Taksim X with the 2005 metal tag and no letter code, 90g, brand new.
-       In hand; price on request rather than listed. -->
-  <article class="mg-preowned-card" role="listitem" data-category="butterfly" id="card-butterfly-taksim-x-2005-metal-tag-no-code-90g">
-    <div class="mg-preowned-card__media">
-      <img src="/images/stock-blades/brand-new-selected-butterfly-taksim-x.thumb.webp" data-full-src="/images/stock-blades/brand-new-selected-butterfly-taksim-x.webp" srcset="/images/stock-blades/brand-new-selected-butterfly-taksim-x.thumb-480.webp 360w, /images/stock-blades/brand-new-selected-butterfly-taksim-x.thumb.webp 540w, /images/stock-blades/brand-new-selected-butterfly-taksim-x.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Taksim X, 2005 metal tag, no code, 90g" loading="lazy" decoding="async">
-    </div>
-    <h3 class="mg-preowned-card__title">Butterfly Taksim X | 2005 Metal Tag (No Code) | 90g</h3>
-    <a class="mg-preowned-card__quote" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Butterfly%20Taksim%20X%20blade.%0D%0A%0D%0AShip%20to%20%28city%20%2F%20postal%20code%29%3A" target="_blank" rel="noopener noreferrer">Contact for Price</a>
-  </article>
-
-  <!-- Cofferlait with the metal tag and no letter code, 84g, brand new. In
-       hand; price on request rather than listed. -->
-  <article class="mg-preowned-card" role="listitem" data-category="butterfly" id="card-butterfly-cofferlait-metal-tag-no-code-84g">
-    <div class="mg-preowned-card__media">
-      <img src="/images/stock-blades/brand-new-selected-butterfly-cofferlait.thumb.webp" data-full-src="/images/stock-blades/brand-new-selected-butterfly-cofferlait.webp" srcset="/images/stock-blades/brand-new-selected-butterfly-cofferlait.thumb-480.webp 360w, /images/stock-blades/brand-new-selected-butterfly-cofferlait.thumb.webp 540w, /images/stock-blades/brand-new-selected-butterfly-cofferlait.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Cofferlait, metal tag, no code, 84g" loading="lazy" decoding="async">
-    </div>
-    <h3 class="mg-preowned-card__title">Butterfly Cofferlait | Metal Tag (No Code) | 84g</h3>
-    <a class="mg-preowned-card__quote" href="https://wa.me/8618627156285?text=Hi%2C%20I%27d%20like%20the%20price%20for%20a%20Butterfly%20Cofferlait%20blade.%0D%0A%0D%0AShip%20to%20%28city%20%2F%20postal%20code%29%3A" target="_blank" rel="noopener noreferrer">Contact for Price</a>
   </article>
 
 </div>
