@@ -79,8 +79,8 @@ price and condition — [back to what is available](/pre-owned/).
       <td style="text-align:right"><del>$98</del></td>
     </tr>
 <tr data-added="2026-09-17">
-      <td><img src="/images/fan-zd-salc-k-code-jp-89g/01.thumb.webp" data-full-src="/images/fan-zd-salc-k-code-jp-89g/01.webp" srcset="/images/fan-zd-salc-k-code-jp-89g/01.thumb-240.webp 180w, /images/fan-zd-salc-k-code-jp-89g/01.thumb-480.webp 360w, /images/fan-zd-salc-k-code-jp-89g/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Fan ZD SALC | K-Code | JP | 89g | Original Box" loading="lazy" data-gallery="/images/fan-zd-salc-k-code-jp-89g/01.webp,/images/fan-zd-salc-k-code-jp-89g/02.jpg,/images/fan-zd-salc-k-code-jp-89g/03.jpg,/images/fan-zd-salc-k-code-jp-89g/04.jpg,/images/fan-zd-salc-k-code-jp-89g/05.jpg,/images/fan-zd-salc-k-code-jp-89g/06.jpg,/images/fan-zd-salc-k-code-jp-89g/07.jpg"></td>
-      <td>Fan ZD SALC | K-Code | JP | 89g | Original Box</td>
+      <td><img src="/images/fan-zd-salc-k-code-jp-89g/01.thumb.webp" data-full-src="/images/fan-zd-salc-k-code-jp-89g/01.webp" srcset="/images/fan-zd-salc-k-code-jp-89g/01.thumb-240.webp 180w, /images/fan-zd-salc-k-code-jp-89g/01.thumb-480.webp 360w, /images/fan-zd-salc-k-code-jp-89g/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Fan ZD SALC | K-Code | JP | 89g" loading="lazy" data-gallery="/images/fan-zd-salc-k-code-jp-89g/01.webp,/images/fan-zd-salc-k-code-jp-89g/02.jpg,/images/fan-zd-salc-k-code-jp-89g/03.jpg,/images/fan-zd-salc-k-code-jp-89g/04.jpg,/images/fan-zd-salc-k-code-jp-89g/05.jpg,/images/fan-zd-salc-k-code-jp-89g/06.jpg,/images/fan-zd-salc-k-code-jp-89g/07.jpg"></td>
+      <td>Fan ZD SALC | K-Code | JP | 89g</td>
       <td style="text-align:right"><del>$118</del></td>
     </tr>
 <tr>
@@ -129,8 +129,8 @@ price and condition — [back to what is available](/pre-owned/).
       <td style="text-align:right"><del>$198</del></td>
     </tr>
 <tr data-added="2026-09-14">
-      <td><img src="/images/harimoto-salc-y-code-jp-86g/01.thumb.webp" data-full-src="/images/harimoto-salc-y-code-jp-86g/01.webp" srcset="/images/harimoto-salc-y-code-jp-86g/01.thumb-240.webp 180w, /images/harimoto-salc-y-code-jp-86g/01.thumb-480.webp 360w, /images/harimoto-salc-y-code-jp-86g/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Harimoto SALC | Y-code | JP | 86g | Original Box" loading="lazy" data-gallery="/images/harimoto-salc-y-code-jp-86g/01.webp,/images/harimoto-salc-y-code-jp-86g/02.webp,/images/harimoto-salc-y-code-jp-86g/03.jpg,/images/harimoto-salc-y-code-jp-86g/04.jpg,/images/harimoto-salc-y-code-jp-86g/05.jpg,/images/harimoto-salc-y-code-jp-86g/06.jpg,/images/harimoto-salc-y-code-jp-86g/07.jpg"></td>
-      <td>Harimoto SALC | Y-code | JP | 86g | Original Box</td>
+      <td><img src="/images/harimoto-salc-y-code-jp-86g/01.thumb.webp" data-full-src="/images/harimoto-salc-y-code-jp-86g/01.webp" srcset="/images/harimoto-salc-y-code-jp-86g/01.thumb-240.webp 180w, /images/harimoto-salc-y-code-jp-86g/01.thumb-480.webp 360w, /images/harimoto-salc-y-code-jp-86g/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Harimoto SALC | Y-code | JP | 86g" loading="lazy" data-gallery="/images/harimoto-salc-y-code-jp-86g/01.webp,/images/harimoto-salc-y-code-jp-86g/02.webp,/images/harimoto-salc-y-code-jp-86g/03.jpg,/images/harimoto-salc-y-code-jp-86g/04.jpg,/images/harimoto-salc-y-code-jp-86g/05.jpg,/images/harimoto-salc-y-code-jp-86g/06.jpg,/images/harimoto-salc-y-code-jp-86g/07.jpg"></td>
+      <td>Harimoto SALC | Y-code | JP | 86g</td>
       <td style="text-align:right"><del>$109</del></td>
     </tr>
 <tr data-added="2026-09-24">
@@ -149,13 +149,13 @@ price and condition — [back to what is available](/pre-owned/).
       <td style="text-align:right"><del>$189</del></td>
     </tr>
 <tr data-added="2026-10-04">
-      <td><img src="/images/dhs-s968-no-18-91g/01.thumb.webp" data-full-src="/images/dhs-s968-no-18-91g/01.jpg" srcset="/images/dhs-s968-no-18-91g/01.thumb-240.webp 135w, /images/dhs-s968-no-18-91g/01.thumb-480.webp 270w, /images/dhs-s968-no-18-91g/01.thumb.webp 405w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS S968 | No.18 | 91g | Original Box" loading="lazy" data-gallery="/images/dhs-s968-no-18-91g/01.jpg,/images/dhs-s968-no-18-91g/02.jpg,/images/dhs-s968-no-18-91g/03.jpg,/images/dhs-s968-no-18-91g/04.jpg,/images/dhs-s968-no-18-91g/05.jpg,/images/dhs-s968-no-18-91g/06.jpg,/images/dhs-s968-no-18-91g/07.jpg"></td>
-      <td>DHS S968 | No.18 | 91g | Original Box</td>
+      <td><img src="/images/dhs-s968-no-18-91g/01.thumb.webp" data-full-src="/images/dhs-s968-no-18-91g/01.jpg" srcset="/images/dhs-s968-no-18-91g/01.thumb-240.webp 135w, /images/dhs-s968-no-18-91g/01.thumb-480.webp 270w, /images/dhs-s968-no-18-91g/01.thumb.webp 405w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS S968 | No.18 | 91g" loading="lazy" data-gallery="/images/dhs-s968-no-18-91g/01.jpg,/images/dhs-s968-no-18-91g/02.jpg,/images/dhs-s968-no-18-91g/03.jpg,/images/dhs-s968-no-18-91g/04.jpg,/images/dhs-s968-no-18-91g/05.jpg,/images/dhs-s968-no-18-91g/06.jpg,/images/dhs-s968-no-18-91g/07.jpg"></td>
+      <td>DHS S968 | No.18 | 91g</td>
       <td style="text-align:right"><del>$232</del></td>
     </tr>
 <tr>
-      <td><img src="/images/viscaria-golden-cn-w-code-92g/01.thumb.webp" data-full-src="/images/viscaria-golden-cn-w-code-92g/01.jpg" srcset="/images/viscaria-golden-cn-w-code-92g/01.thumb-240.webp 180w, /images/viscaria-golden-cn-w-code-92g/01.thumb-480.webp 360w, /images/viscaria-golden-cn-w-code-92g/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Viscaria Golden | CN | W-Code | 92g | Original Box" loading="lazy" data-gallery="/images/viscaria-golden-cn-w-code-92g/01.jpg,/images/viscaria-golden-cn-w-code-92g/02.webp,/images/viscaria-golden-cn-w-code-92g/03.jpg,/images/viscaria-golden-cn-w-code-92g/04.jpg,/images/viscaria-golden-cn-w-code-92g/05.jpg,/images/viscaria-golden-cn-w-code-92g/06.jpg"></td>
-      <td>Viscaria Golden | CN | W-Code | 92g | Original Box</td>
+      <td><img src="/images/viscaria-golden-cn-w-code-92g/01.thumb.webp" data-full-src="/images/viscaria-golden-cn-w-code-92g/01.jpg" srcset="/images/viscaria-golden-cn-w-code-92g/01.thumb-240.webp 180w, /images/viscaria-golden-cn-w-code-92g/01.thumb-480.webp 360w, /images/viscaria-golden-cn-w-code-92g/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Viscaria Golden | CN | W-Code | 92g" loading="lazy" data-gallery="/images/viscaria-golden-cn-w-code-92g/01.jpg,/images/viscaria-golden-cn-w-code-92g/02.webp,/images/viscaria-golden-cn-w-code-92g/03.jpg,/images/viscaria-golden-cn-w-code-92g/04.jpg,/images/viscaria-golden-cn-w-code-92g/05.jpg,/images/viscaria-golden-cn-w-code-92g/06.jpg"></td>
+      <td>Viscaria Golden | CN | W-Code | 92g</td>
       <td style="text-align:right"><del>$617</del></td>
     </tr>
 <tr>

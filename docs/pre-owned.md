@@ -485,8 +485,8 @@ hide:
       <td style="text-align:right">$669</td>
     </tr>
 <tr data-added="2026-10-04" data-category="dhs">
-      <td><img src="/images/dhs-w968-no-06-87g/01.thumb.webp" data-full-src="/images/dhs-w968-no-06-87g/01.jpg" srcset="/images/dhs-w968-no-06-87g/01.thumb-240.webp 180w, /images/dhs-w968-no-06-87g/01.thumb-480.webp 360w, /images/dhs-w968-no-06-87g/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS W968 | No.06 | 87g | Original Box" loading="lazy" data-gallery="/images/dhs-w968-no-06-87g/01.jpg,/images/dhs-w968-no-06-87g/02.jpg,/images/dhs-w968-no-06-87g/03.jpg,/images/dhs-w968-no-06-87g/04.jpg,/images/dhs-w968-no-06-87g/05.jpg,/images/dhs-w968-no-06-87g/06.jpg,/images/dhs-w968-no-06-87g/07.jpg"></td>
-      <td>DHS W968 | No.06 | 87g | Original Box</td>
+      <td><img src="/images/dhs-w968-no-06-87g/01.thumb.webp" data-full-src="/images/dhs-w968-no-06-87g/01.jpg" srcset="/images/dhs-w968-no-06-87g/01.thumb-240.webp 180w, /images/dhs-w968-no-06-87g/01.thumb-480.webp 360w, /images/dhs-w968-no-06-87g/01.thumb.webp 540w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS W968 | No.06 | 87g" loading="lazy" data-gallery="/images/dhs-w968-no-06-87g/01.jpg,/images/dhs-w968-no-06-87g/02.jpg,/images/dhs-w968-no-06-87g/03.jpg,/images/dhs-w968-no-06-87g/04.jpg,/images/dhs-w968-no-06-87g/05.jpg,/images/dhs-w968-no-06-87g/06.jpg,/images/dhs-w968-no-06-87g/07.jpg"></td>
+      <td>DHS W968 | No.06 | 87g</td>
       <td style="text-align:right">$270</td>
     </tr>
 <tr data-added="2026-10-04" data-category="butterfly">
@@ -495,8 +495,8 @@ hide:
       <td style="text-align:right">$265</td>
     </tr>
 <tr data-added="2026-10-07" data-category="dhs">
-      <td><img src="/images/long-5-golden-grand-slam-121/01.thumb.webp" data-full-src="/images/long-5-golden-grand-slam-121/01.jpg" srcset="/images/long-5-golden-grand-slam-121/01.thumb-240.webp 180w, /images/long-5-golden-grand-slam-121/01.thumb-480.webp 360w, /images/long-5-golden-grand-slam-121/01.thumb.webp 540w, /images/long-5-golden-grand-slam-121/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Long 5 | Golden Grand Slam | 89g | Original Box" loading="lazy" data-gallery="/images/long-5-golden-grand-slam-121/01.jpg,/images/long-5-golden-grand-slam-121/02.jpg,/images/long-5-golden-grand-slam-121/03.jpg,/images/long-5-golden-grand-slam-121/04.jpg,/images/long-5-golden-grand-slam-121/05.jpg,/images/long-5-golden-grand-slam-121/06.jpg,/images/long-5-golden-grand-slam-121/07.jpg"></td>
-      <td>Long 5 | Golden Grand Slam | 89g | Original Box</td>
+      <td><img src="/images/long-5-golden-grand-slam-121/01.thumb.webp" data-full-src="/images/long-5-golden-grand-slam-121/01.jpg" srcset="/images/long-5-golden-grand-slam-121/01.thumb-240.webp 180w, /images/long-5-golden-grand-slam-121/01.thumb-480.webp 360w, /images/long-5-golden-grand-slam-121/01.thumb.webp 540w, /images/long-5-golden-grand-slam-121/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Long 5 | Golden Grand Slam | 89g" loading="lazy" data-gallery="/images/long-5-golden-grand-slam-121/01.jpg,/images/long-5-golden-grand-slam-121/02.jpg,/images/long-5-golden-grand-slam-121/03.jpg,/images/long-5-golden-grand-slam-121/04.jpg,/images/long-5-golden-grand-slam-121/05.jpg,/images/long-5-golden-grand-slam-121/06.jpg,/images/long-5-golden-grand-slam-121/07.jpg"></td>
+      <td>Long 5 | Golden Grand Slam | 89g</td>
       <td style="text-align:right">$98</td>
     </tr>
 <tr data-added="2026-10-07" data-category="dhs">
@@ -510,8 +510,8 @@ hide:
       <td style="text-align:right">$149</td>
     </tr>
 <tr data-added="2026-10-09" data-category="butterfly">
-      <td><img src="/images/maze-arylate-carbon-old-j-code/01.thumb.webp" data-full-src="/images/maze-arylate-carbon-old-j-code/01.jpg" srcset="/images/maze-arylate-carbon-old-j-code/01.thumb-240.webp 180w, /images/maze-arylate-carbon-old-j-code/01.thumb-480.webp 360w, /images/maze-arylate-carbon-old-j-code/01.thumb.webp 540w, /images/maze-arylate-carbon-old-j-code/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="M.Maze | Arylate-Carbon | Old J-Code | 90g | Original Box" loading="lazy" data-gallery="/images/maze-arylate-carbon-old-j-code/01.jpg,/images/maze-arylate-carbon-old-j-code/02.jpg,/images/maze-arylate-carbon-old-j-code/03.jpg,/images/maze-arylate-carbon-old-j-code/04.jpg,/images/maze-arylate-carbon-old-j-code/05.jpg,/images/maze-arylate-carbon-old-j-code/06.jpg,/images/maze-arylate-carbon-old-j-code/07.jpg"></td>
-      <td>M.Maze | Arylate-Carbon | Old J-Code | 90g | Original Box</td>
+      <td><img src="/images/maze-arylate-carbon-old-j-code/01.thumb.webp" data-full-src="/images/maze-arylate-carbon-old-j-code/01.jpg" srcset="/images/maze-arylate-carbon-old-j-code/01.thumb-240.webp 180w, /images/maze-arylate-carbon-old-j-code/01.thumb-480.webp 360w, /images/maze-arylate-carbon-old-j-code/01.thumb.webp 540w, /images/maze-arylate-carbon-old-j-code/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="M.Maze | Arylate-Carbon | Old J-Code | 90g" loading="lazy" data-gallery="/images/maze-arylate-carbon-old-j-code/01.jpg,/images/maze-arylate-carbon-old-j-code/02.jpg,/images/maze-arylate-carbon-old-j-code/03.jpg,/images/maze-arylate-carbon-old-j-code/04.jpg,/images/maze-arylate-carbon-old-j-code/05.jpg,/images/maze-arylate-carbon-old-j-code/06.jpg,/images/maze-arylate-carbon-old-j-code/07.jpg"></td>
+      <td>M.Maze | Arylate-Carbon | Old J-Code | 90g</td>
       <td style="text-align:right">$331</td>
     </tr>
 <tr data-added="2026-10-09" data-category="dhs">
@@ -520,13 +520,13 @@ hide:
       <td style="text-align:right">$69</td>
     </tr>
 <tr data-added="2026-11-06" data-category="dhs">
-      <td><img src="/images/dhs-s968-no-12-87g/01.thumb.webp" data-full-src="/images/dhs-s968-no-12-87g/01.jpg" srcset="/images/dhs-s968-no-12-87g/01.thumb-240.webp 180w, /images/dhs-s968-no-12-87g/01.thumb-480.webp 360w, /images/dhs-s968-no-12-87g/01.thumb.webp 540w, /images/dhs-s968-no-12-87g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS S968 | No.12 | 87g | Original Box" loading="lazy" data-gallery="/images/dhs-s968-no-12-87g/01.jpg,/images/dhs-s968-no-12-87g/02.jpg,/images/dhs-s968-no-12-87g/03.jpg,/images/dhs-s968-no-12-87g/04.jpg,/images/dhs-s968-no-12-87g/05.jpg,/images/dhs-s968-no-12-87g/06.jpg,/images/dhs-s968-no-12-87g/07.jpg"></td>
-      <td>DHS S968 | No.12 | 87g | Original Box</td>
+      <td><img src="/images/dhs-s968-no-12-87g/01.thumb.webp" data-full-src="/images/dhs-s968-no-12-87g/01.jpg" srcset="/images/dhs-s968-no-12-87g/01.thumb-240.webp 180w, /images/dhs-s968-no-12-87g/01.thumb-480.webp 360w, /images/dhs-s968-no-12-87g/01.thumb.webp 540w, /images/dhs-s968-no-12-87g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS S968 | No.12 | 87g" loading="lazy" data-gallery="/images/dhs-s968-no-12-87g/01.jpg,/images/dhs-s968-no-12-87g/02.jpg,/images/dhs-s968-no-12-87g/03.jpg,/images/dhs-s968-no-12-87g/04.jpg,/images/dhs-s968-no-12-87g/05.jpg,/images/dhs-s968-no-12-87g/06.jpg,/images/dhs-s968-no-12-87g/07.jpg"></td>
+      <td>DHS S968 | No.12 | 87g</td>
       <td style="text-align:right">$238</td>
     </tr>
 <tr data-added="2026-10-10" data-category="dhs">
-      <td><img src="/images/dhs-w968-no-08-88g/01.thumb.webp" data-full-src="/images/dhs-w968-no-08-88g/01.jpg" srcset="/images/dhs-w968-no-08-88g/01.thumb-240.webp 180w, /images/dhs-w968-no-08-88g/01.thumb-480.webp 360w, /images/dhs-w968-no-08-88g/01.thumb.webp 540w, /images/dhs-w968-no-08-88g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS W968 | No.08 | 88g | Original Box" loading="lazy" data-gallery="/images/dhs-w968-no-08-88g/01.jpg,/images/dhs-w968-no-08-88g/02.jpg,/images/dhs-w968-no-08-88g/03.jpg,/images/dhs-w968-no-08-88g/04.jpg,/images/dhs-w968-no-08-88g/05.jpg,/images/dhs-w968-no-08-88g/06.jpg,/images/dhs-w968-no-08-88g/07.jpg"></td>
-      <td>DHS W968 | No.08 | 88g | Original Box</td>
+      <td><img src="/images/dhs-w968-no-08-88g/01.thumb.webp" data-full-src="/images/dhs-w968-no-08-88g/01.jpg" srcset="/images/dhs-w968-no-08-88g/01.thumb-240.webp 180w, /images/dhs-w968-no-08-88g/01.thumb-480.webp 360w, /images/dhs-w968-no-08-88g/01.thumb.webp 540w, /images/dhs-w968-no-08-88g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS W968 | No.08 | 88g" loading="lazy" data-gallery="/images/dhs-w968-no-08-88g/01.jpg,/images/dhs-w968-no-08-88g/02.jpg,/images/dhs-w968-no-08-88g/03.jpg,/images/dhs-w968-no-08-88g/04.jpg,/images/dhs-w968-no-08-88g/05.jpg,/images/dhs-w968-no-08-88g/06.jpg,/images/dhs-w968-no-08-88g/07.jpg"></td>
+      <td>DHS W968 | No.08 | 88g</td>
       <td style="text-align:right">$248</td>
     </tr>
 <tr data-added="2026-10-13" data-category="butterfly">
@@ -535,18 +535,18 @@ hide:
       <td style="text-align:right">$130</td>
     </tr>
 <tr data-added="2026-10-13" data-category="dhs" data-reserved="Australia">
-      <td><img src="/images/dhs-w968-no-31-90g/01.thumb.webp" data-full-src="/images/dhs-w968-no-31-90g/01.jpg" srcset="/images/dhs-w968-no-31-90g/01.thumb-240.webp 180w, /images/dhs-w968-no-31-90g/01.thumb-480.webp 360w, /images/dhs-w968-no-31-90g/01.thumb.webp 540w, /images/dhs-w968-no-31-90g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS W968 | No.31 | 90g | Original Box" loading="lazy" data-gallery="/images/dhs-w968-no-31-90g/01.jpg,/images/dhs-w968-no-31-90g/02.jpg,/images/dhs-w968-no-31-90g/03.jpg,/images/dhs-w968-no-31-90g/04.jpg,/images/dhs-w968-no-31-90g/05.jpg,/images/dhs-w968-no-31-90g/06.jpg,/images/dhs-w968-no-31-90g/07.jpg"></td>
-      <td>DHS W968 | No.31 | 90g | Original Box</td>
+      <td><img src="/images/dhs-w968-no-31-90g/01.thumb.webp" data-full-src="/images/dhs-w968-no-31-90g/01.jpg" srcset="/images/dhs-w968-no-31-90g/01.thumb-240.webp 180w, /images/dhs-w968-no-31-90g/01.thumb-480.webp 360w, /images/dhs-w968-no-31-90g/01.thumb.webp 540w, /images/dhs-w968-no-31-90g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS W968 | No.31 | 90g" loading="lazy" data-gallery="/images/dhs-w968-no-31-90g/01.jpg,/images/dhs-w968-no-31-90g/02.jpg,/images/dhs-w968-no-31-90g/03.jpg,/images/dhs-w968-no-31-90g/04.jpg,/images/dhs-w968-no-31-90g/05.jpg,/images/dhs-w968-no-31-90g/06.jpg,/images/dhs-w968-no-31-90g/07.jpg"></td>
+      <td>DHS W968 | No.31 | 90g</td>
       <td style="text-align:right">$223</td>
     </tr>
 <tr data-added="2026-10-15" data-category="butterfly">
-      <td><img src="/images/butterfly-kim-taek-soo-old-iron-tag-88g/01.thumb.webp" data-full-src="/images/butterfly-kim-taek-soo-old-iron-tag-88g/01.jpg" srcset="/images/butterfly-kim-taek-soo-old-iron-tag-88g/01.thumb-240.webp 180w, /images/butterfly-kim-taek-soo-old-iron-tag-88g/01.thumb-480.webp 360w, /images/butterfly-kim-taek-soo-old-iron-tag-88g/01.thumb.webp 540w, /images/butterfly-kim-taek-soo-old-iron-tag-88g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Kim Taek Soo | Old Iron Tag | 88g | Original Box" loading="lazy" data-gallery="/images/butterfly-kim-taek-soo-old-iron-tag-88g/01.jpg,/images/butterfly-kim-taek-soo-old-iron-tag-88g/02.jpg,/images/butterfly-kim-taek-soo-old-iron-tag-88g/03.jpg,/images/butterfly-kim-taek-soo-old-iron-tag-88g/04.jpg,/images/butterfly-kim-taek-soo-old-iron-tag-88g/05.jpg,/images/butterfly-kim-taek-soo-old-iron-tag-88g/06.jpg,/images/butterfly-kim-taek-soo-old-iron-tag-88g/07.jpg"></td>
-      <td>Butterfly Kim Taek Soo | Old Iron Tag | 88g | Original Box</td>
+      <td><img src="/images/butterfly-kim-taek-soo-old-iron-tag-88g/01.thumb.webp" data-full-src="/images/butterfly-kim-taek-soo-old-iron-tag-88g/01.jpg" srcset="/images/butterfly-kim-taek-soo-old-iron-tag-88g/01.thumb-240.webp 180w, /images/butterfly-kim-taek-soo-old-iron-tag-88g/01.thumb-480.webp 360w, /images/butterfly-kim-taek-soo-old-iron-tag-88g/01.thumb.webp 540w, /images/butterfly-kim-taek-soo-old-iron-tag-88g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Butterfly Kim Taek Soo | Old Iron Tag | 88g" loading="lazy" data-gallery="/images/butterfly-kim-taek-soo-old-iron-tag-88g/01.jpg,/images/butterfly-kim-taek-soo-old-iron-tag-88g/02.jpg,/images/butterfly-kim-taek-soo-old-iron-tag-88g/03.jpg,/images/butterfly-kim-taek-soo-old-iron-tag-88g/04.jpg,/images/butterfly-kim-taek-soo-old-iron-tag-88g/05.jpg,/images/butterfly-kim-taek-soo-old-iron-tag-88g/06.jpg,/images/butterfly-kim-taek-soo-old-iron-tag-88g/07.jpg"></td>
+      <td>Butterfly Kim Taek Soo | Old Iron Tag | 88g</td>
       <td style="text-align:right">$1580</td>
     </tr>
 <tr data-added="2026-10-17" data-category="dhs">
-      <td><img src="/images/dhs-w968-no-23-88-5g/01.thumb.webp" data-full-src="/images/dhs-w968-no-23-88-5g/01.jpg" srcset="/images/dhs-w968-no-23-88-5g/01.thumb-240.webp 180w, /images/dhs-w968-no-23-88-5g/01.thumb-480.webp 360w, /images/dhs-w968-no-23-88-5g/01.thumb.webp 540w, /images/dhs-w968-no-23-88-5g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS W968 | No.23 | 88.5g | Original Box" loading="lazy" data-gallery="/images/dhs-w968-no-23-88-5g/01.jpg,/images/dhs-w968-no-23-88-5g/02.jpg,/images/dhs-w968-no-23-88-5g/03.jpg,/images/dhs-w968-no-23-88-5g/04.jpg,/images/dhs-w968-no-23-88-5g/05.jpg,/images/dhs-w968-no-23-88-5g/06.jpg,/images/dhs-w968-no-23-88-5g/07.jpg"></td>
-      <td>DHS W968 | No.23 | 88.5g | Original Box</td>
+      <td><img src="/images/dhs-w968-no-23-88-5g/01.thumb.webp" data-full-src="/images/dhs-w968-no-23-88-5g/01.jpg" srcset="/images/dhs-w968-no-23-88-5g/01.thumb-240.webp 180w, /images/dhs-w968-no-23-88-5g/01.thumb-480.webp 360w, /images/dhs-w968-no-23-88-5g/01.thumb.webp 540w, /images/dhs-w968-no-23-88-5g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS W968 | No.23 | 88.5g" loading="lazy" data-gallery="/images/dhs-w968-no-23-88-5g/01.jpg,/images/dhs-w968-no-23-88-5g/02.jpg,/images/dhs-w968-no-23-88-5g/03.jpg,/images/dhs-w968-no-23-88-5g/04.jpg,/images/dhs-w968-no-23-88-5g/05.jpg,/images/dhs-w968-no-23-88-5g/06.jpg,/images/dhs-w968-no-23-88-5g/07.jpg"></td>
+      <td>DHS W968 | No.23 | 88.5g</td>
       <td style="text-align:right">$231</td>
     </tr>
 <tr data-added="2026-10-17" data-category="dhs">
@@ -560,8 +560,8 @@ hide:
       <td style="text-align:right">$356</td>
     </tr>
 <tr data-added="2026-10-20" data-category="butterfly">
-      <td><img src="/images/mizutani-jun-zlc-s-code-87g/01.thumb.webp" data-full-src="/images/mizutani-jun-zlc-s-code-87g/01.jpg" srcset="/images/mizutani-jun-zlc-s-code-87g/01.thumb-240.webp 180w, /images/mizutani-jun-zlc-s-code-87g/01.thumb-480.webp 360w, /images/mizutani-jun-zlc-s-code-87g/01.thumb.webp 540w, /images/mizutani-jun-zlc-s-code-87g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Mizutani Jun ZLC | S-Code | 87g | Original Box" loading="lazy" data-gallery="/images/mizutani-jun-zlc-s-code-87g/01.jpg,/images/mizutani-jun-zlc-s-code-87g/02.jpg,/images/mizutani-jun-zlc-s-code-87g/03.jpg,/images/mizutani-jun-zlc-s-code-87g/04.jpg,/images/mizutani-jun-zlc-s-code-87g/05.jpg,/images/mizutani-jun-zlc-s-code-87g/06.jpg,/images/mizutani-jun-zlc-s-code-87g/07.jpg,/images/mizutani-jun-zlc-s-code-87g/08.jpg"></td>
-      <td>Mizutani Jun ZLC | S-Code | 87g | Original Box</td>
+      <td><img src="/images/mizutani-jun-zlc-s-code-87g/01.thumb.webp" data-full-src="/images/mizutani-jun-zlc-s-code-87g/01.jpg" srcset="/images/mizutani-jun-zlc-s-code-87g/01.thumb-240.webp 180w, /images/mizutani-jun-zlc-s-code-87g/01.thumb-480.webp 360w, /images/mizutani-jun-zlc-s-code-87g/01.thumb.webp 540w, /images/mizutani-jun-zlc-s-code-87g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Mizutani Jun ZLC | S-Code | 87g" loading="lazy" data-gallery="/images/mizutani-jun-zlc-s-code-87g/01.jpg,/images/mizutani-jun-zlc-s-code-87g/02.jpg,/images/mizutani-jun-zlc-s-code-87g/03.jpg,/images/mizutani-jun-zlc-s-code-87g/04.jpg,/images/mizutani-jun-zlc-s-code-87g/05.jpg,/images/mizutani-jun-zlc-s-code-87g/06.jpg,/images/mizutani-jun-zlc-s-code-87g/07.jpg,/images/mizutani-jun-zlc-s-code-87g/08.jpg"></td>
+      <td>Mizutani Jun ZLC | S-Code | 87g</td>
       <td style="text-align:right">$215</td>
     </tr>
 <tr data-added="2026-10-21" data-category="dhs">
@@ -595,8 +595,8 @@ hide:
       <td style="text-align:right">$88</td>
     </tr>
 <tr data-added="2026-10-30" data-category="dhs">
-      <td><img src="/images/dhs-long-5x-an-86-5g-original-box/01.thumb.webp" data-full-src="/images/dhs-long-5x-an-86-5g-original-box/01.jpg" srcset="/images/dhs-long-5x-an-86-5g-original-box/01.thumb-240.webp 180w, /images/dhs-long-5x-an-86-5g-original-box/01.thumb-480.webp 360w, /images/dhs-long-5x-an-86-5g-original-box/01.thumb.webp 540w, /images/dhs-long-5x-an-86-5g-original-box/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS Long 5X | AN | 86.5g | Original Box" loading="lazy" data-gallery="/images/dhs-long-5x-an-86-5g-original-box/01.jpg,/images/dhs-long-5x-an-86-5g-original-box/02.jpg,/images/dhs-long-5x-an-86-5g-original-box/03.jpg,/images/dhs-long-5x-an-86-5g-original-box/04.jpg,/images/dhs-long-5x-an-86-5g-original-box/05.jpg,/images/dhs-long-5x-an-86-5g-original-box/06.jpg,/images/dhs-long-5x-an-86-5g-original-box/07.jpg,/images/dhs-long-5x-an-86-5g-original-box/08.jpg"></td>
-      <td>DHS Long 5X | AN | 86.5g | Original Box</td>
+      <td><img src="/images/dhs-long-5x-an-86-5g-original-box/01.thumb.webp" data-full-src="/images/dhs-long-5x-an-86-5g-original-box/01.jpg" srcset="/images/dhs-long-5x-an-86-5g-original-box/01.thumb-240.webp 180w, /images/dhs-long-5x-an-86-5g-original-box/01.thumb-480.webp 360w, /images/dhs-long-5x-an-86-5g-original-box/01.thumb.webp 540w, /images/dhs-long-5x-an-86-5g-original-box/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS Long 5X | AN | 86.5g" loading="lazy" data-gallery="/images/dhs-long-5x-an-86-5g-original-box/01.jpg,/images/dhs-long-5x-an-86-5g-original-box/02.jpg,/images/dhs-long-5x-an-86-5g-original-box/03.jpg,/images/dhs-long-5x-an-86-5g-original-box/04.jpg,/images/dhs-long-5x-an-86-5g-original-box/05.jpg,/images/dhs-long-5x-an-86-5g-original-box/06.jpg,/images/dhs-long-5x-an-86-5g-original-box/07.jpg,/images/dhs-long-5x-an-86-5g-original-box/08.jpg"></td>
+      <td>DHS Long 5X | AN | 86.5g</td>
       <td style="text-align:right">$86</td>
     </tr>
 <tr data-added="2026-11-03" data-category="dhs">
@@ -680,8 +680,8 @@ hide:
       <td style="text-align:right">$85</td>
     </tr>
 <tr data-added="2026-11-24" data-category="dhs">
-      <td><img src="/images/long-5-golden-slam-88g/01.thumb.webp" data-full-src="/images/long-5-golden-slam-88g/01.jpg" srcset="/images/long-5-golden-slam-88g/01.thumb-240.webp 135w, /images/long-5-golden-slam-88g/01.thumb-480.webp 270w, /images/long-5-golden-slam-88g/01.thumb.webp 405w, /images/long-5-golden-slam-88g/01.jpg 1080w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Long 5 | Golden Slam | 88g | Original Box" loading="lazy" data-gallery="/images/long-5-golden-slam-88g/01.jpg,/images/long-5-golden-slam-88g/02.jpg,/images/long-5-golden-slam-88g/03.jpg,/images/long-5-golden-slam-88g/04.jpg,/images/long-5-golden-slam-88g/05.jpg,/images/long-5-golden-slam-88g/06.jpg,/images/long-5-golden-slam-88g/07.jpg,/images/long-5-golden-slam-88g/08.jpg,/images/long-5-golden-slam-88g/09.jpg"></td>
-      <td>Long 5 | Golden Slam | 88g | Original Box</td>
+      <td><img src="/images/long-5-golden-slam-88g/01.thumb.webp" data-full-src="/images/long-5-golden-slam-88g/01.jpg" srcset="/images/long-5-golden-slam-88g/01.thumb-240.webp 135w, /images/long-5-golden-slam-88g/01.thumb-480.webp 270w, /images/long-5-golden-slam-88g/01.thumb.webp 405w, /images/long-5-golden-slam-88g/01.jpg 1080w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Long 5 | Golden Slam | 88g" loading="lazy" data-gallery="/images/long-5-golden-slam-88g/01.jpg,/images/long-5-golden-slam-88g/02.jpg,/images/long-5-golden-slam-88g/03.jpg,/images/long-5-golden-slam-88g/04.jpg,/images/long-5-golden-slam-88g/05.jpg,/images/long-5-golden-slam-88g/06.jpg,/images/long-5-golden-slam-88g/07.jpg,/images/long-5-golden-slam-88g/08.jpg,/images/long-5-golden-slam-88g/09.jpg"></td>
+      <td>Long 5 | Golden Slam | 88g</td>
       <td style="text-align:right">$75</td>
     </tr>
 <tr data-added="2026-11-24" data-category="dhs">
@@ -690,18 +690,18 @@ hide:
       <td style="text-align:right">$87</td>
     </tr>
 <tr data-added="2026-11-25" data-category="dhs">
-      <td><img src="/images/w968-golden-slam-no-08-90g/01.thumb.webp" data-full-src="/images/w968-golden-slam-no-08-90g/01.jpg" srcset="/images/w968-golden-slam-no-08-90g/01.thumb-240.webp 180w, /images/w968-golden-slam-no-08-90g/01.thumb-480.webp 360w, /images/w968-golden-slam-no-08-90g/01.thumb.webp 540w, /images/w968-golden-slam-no-08-90g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="W968 Golden Slam | No.08 | 90g | Original Box | Edge repaired" loading="lazy" data-gallery="/images/w968-golden-slam-no-08-90g/01.jpg,/images/w968-golden-slam-no-08-90g/02.jpg,/images/w968-golden-slam-no-08-90g/03.jpg,/images/w968-golden-slam-no-08-90g/04.jpg,/images/w968-golden-slam-no-08-90g/05.jpg,/images/w968-golden-slam-no-08-90g/06.jpg,/images/w968-golden-slam-no-08-90g/07.jpg"></td>
-      <td>W968 Golden Slam | No.08 | 90g | Original Box | Edge repaired</td>
+      <td><img src="/images/w968-golden-slam-no-08-90g/01.thumb.webp" data-full-src="/images/w968-golden-slam-no-08-90g/01.jpg" srcset="/images/w968-golden-slam-no-08-90g/01.thumb-240.webp 180w, /images/w968-golden-slam-no-08-90g/01.thumb-480.webp 360w, /images/w968-golden-slam-no-08-90g/01.thumb.webp 540w, /images/w968-golden-slam-no-08-90g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="W968 Golden Slam | No.08 | 90g | Edge repaired" loading="lazy" data-gallery="/images/w968-golden-slam-no-08-90g/01.jpg,/images/w968-golden-slam-no-08-90g/02.jpg,/images/w968-golden-slam-no-08-90g/03.jpg,/images/w968-golden-slam-no-08-90g/04.jpg,/images/w968-golden-slam-no-08-90g/05.jpg,/images/w968-golden-slam-no-08-90g/06.jpg,/images/w968-golden-slam-no-08-90g/07.jpg"></td>
+      <td>W968 Golden Slam | No.08 | 90g | Edge repaired</td>
       <td style="text-align:right">$238</td>
     </tr>
 <tr data-added="2026-11-26" data-category="dhs">
-      <td><img src="/images/dhs-s968-no-10-small-head-89-5g/01.thumb.webp" data-full-src="/images/dhs-s968-no-10-small-head-89-5g/01.jpg" srcset="/images/dhs-s968-no-10-small-head-89-5g/01.thumb-240.webp 180w, /images/dhs-s968-no-10-small-head-89-5g/01.thumb-480.webp 360w, /images/dhs-s968-no-10-small-head-89-5g/01.thumb.webp 540w, /images/dhs-s968-no-10-small-head-89-5g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS S968 | No.10 | Small Head | 89.5g | Original Box" loading="lazy" data-gallery="/images/dhs-s968-no-10-small-head-89-5g/01.jpg,/images/dhs-s968-no-10-small-head-89-5g/02.jpg,/images/dhs-s968-no-10-small-head-89-5g/03.jpg,/images/dhs-s968-no-10-small-head-89-5g/04.jpg,/images/dhs-s968-no-10-small-head-89-5g/05.jpg,/images/dhs-s968-no-10-small-head-89-5g/06.jpg,/images/dhs-s968-no-10-small-head-89-5g/07.jpg"></td>
-      <td>DHS S968 | No.10 | Small Head | 89.5g | Original Box</td>
+      <td><img src="/images/dhs-s968-no-10-89-5g/01.thumb.webp" data-full-src="/images/dhs-s968-no-10-89-5g/01.jpg" srcset="/images/dhs-s968-no-10-89-5g/01.thumb-240.webp 180w, /images/dhs-s968-no-10-89-5g/01.thumb-480.webp 360w, /images/dhs-s968-no-10-89-5g/01.thumb.webp 540w, /images/dhs-s968-no-10-89-5g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="DHS S968 | No.10 | 89.5g" loading="lazy" data-gallery="/images/dhs-s968-no-10-89-5g/01.jpg,/images/dhs-s968-no-10-89-5g/02.jpg,/images/dhs-s968-no-10-89-5g/03.jpg,/images/dhs-s968-no-10-89-5g/04.jpg,/images/dhs-s968-no-10-89-5g/05.jpg,/images/dhs-s968-no-10-89-5g/06.jpg,/images/dhs-s968-no-10-89-5g/07.jpg"></td>
+      <td>DHS S968 | No.10 | 89.5g</td>
       <td style="text-align:right">$253</td>
     </tr>
 <tr data-added="2026-11-26" data-category="dhs">
-      <td><img src="/images/hurricane-sun-shin-yubin-86g/01.thumb.webp" data-full-src="/images/hurricane-sun-shin-yubin-86g/01.jpg" srcset="/images/hurricane-sun-shin-yubin-86g/01.thumb-240.webp 180w, /images/hurricane-sun-shin-yubin-86g/01.thumb-480.webp 360w, /images/hurricane-sun-shin-yubin-86g/01.thumb.webp 540w, /images/hurricane-sun-shin-yubin-86g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Hurricane Sun (Shin Yubin) | 86g | Original Box" loading="lazy" data-gallery="/images/hurricane-sun-shin-yubin-86g/01.jpg,/images/hurricane-sun-shin-yubin-86g/02.jpg,/images/hurricane-sun-shin-yubin-86g/03.jpg,/images/hurricane-sun-shin-yubin-86g/04.jpg,/images/hurricane-sun-shin-yubin-86g/05.jpg,/images/hurricane-sun-shin-yubin-86g/06.jpg,/images/hurricane-sun-shin-yubin-86g/07.jpg,/images/hurricane-sun-shin-yubin-86g/08.jpg"></td>
-      <td>Hurricane Sun (Shin Yubin) | 86g | Original Box</td>
+      <td><img src="/images/hurricane-sun-shin-yubin-86g/01.thumb.webp" data-full-src="/images/hurricane-sun-shin-yubin-86g/01.jpg" srcset="/images/hurricane-sun-shin-yubin-86g/01.thumb-240.webp 180w, /images/hurricane-sun-shin-yubin-86g/01.thumb-480.webp 360w, /images/hurricane-sun-shin-yubin-86g/01.thumb.webp 540w, /images/hurricane-sun-shin-yubin-86g/01.jpg 1440w" sizes="(max-width: 759.98px) 46vw, 305px" alt="Hurricane Sun (Shin Yubin) | 86g" loading="lazy" data-gallery="/images/hurricane-sun-shin-yubin-86g/01.jpg,/images/hurricane-sun-shin-yubin-86g/02.jpg,/images/hurricane-sun-shin-yubin-86g/03.jpg,/images/hurricane-sun-shin-yubin-86g/04.jpg,/images/hurricane-sun-shin-yubin-86g/05.jpg,/images/hurricane-sun-shin-yubin-86g/06.jpg,/images/hurricane-sun-shin-yubin-86g/07.jpg,/images/hurricane-sun-shin-yubin-86g/08.jpg"></td>
+      <td>Hurricane Sun (Shin Yubin) | 86g</td>
       <td style="text-align:right">$163</td>
     </tr>
 <tr data-category="nittaku">
