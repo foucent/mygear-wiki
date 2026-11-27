@@ -1,17 +1,20 @@
 {#-
   MyGear masthead — the two bands AceBase uses (and uncrate.com before it).
 
-    band 1  black, centred wordmark, tools on the right
+    band 1  black, family strip over a centred wordmark, tools on the right
     band 2  main nav, 1px black rule underneath
 
   Measurements live in docs/stylesheets/header.css.
 
   Three notes on how this differs from the AceBase file it is ported from:
 
-    * The family strip above the wordmark was removed on 2026-11-15 (user:
-      「这些去掉」— MyGear.Top, shop.mygear.top + cart count, @MyGear.Top).
-      The cart remains reachable from the floating button price-cart.js adds
-      to every page.
+    * The family strip above the wordmark came back on 2026-11-27, modelled on
+      uncrate.com's own top bar (user: 「将 网页的顶部模仿 uncrate.com 页面的
+      顶部，加上三个按钮和底部的那条分割线，将 @uncrate 改为链接到刚才的
+      trustpilot 链接」). It had been removed on 2026-11-15 (「这些去掉」). The
+      three items are the brand, the cart trigger and the @handle; the last one
+      now opens the Trustpilot review page instead of YouTube. The hairline
+      under the row runs the full width of the black band.
 
     * The nav loop is guarded on nav_item.url. Every entry in mkdocs.yml's nav
       is a plain page today, so the guard is inert — it is kept because a nav
@@ -37,6 +40,30 @@
 <header class="md-header" data-md-component="header">
   {#- band 1 — black -#}
   <div class="ab-band">
+    {#- The three-item family row above the wordmark, after uncrate.com's own
+        masthead: the brand, the cart and the @handle on one centred line, with
+        a hairline under it. The cart is a <button> — it opens the drawer
+        price-cart.js appends to <body> — so the header badge has an id for
+        that script to fill. The @handle is the third button and points at the
+        Trustpilot review page (2026-11-27). -#}
+    <div class="ab-family">
+      <ul class="ab-family__list">
+        <li class="ab-family__item">
+          <a class="ab-family__link" href="{{ home_url }}">MyGear.Top</a>
+        </li>
+        <li class="ab-family__item">
+          <button type="button" class="ab-family__link ab-family__cart" id="mg-cart-hdr" aria-label="Open cart" title="Your cart">
+            shop.mygear.top<span class="ab-family__cart-count" id="mg-cart-hdr-count" hidden>0</span>
+          </button>
+        </li>
+        <li class="ab-family__item">
+          <a class="ab-family__link" href="https://www.trustpilot.com/review/mygear.top" target="_blank" rel="noopener" title="Review MyGear.Top on Trustpilot" aria-label="Review MyGear.Top on Trustpilot">
+            <span class="ab-family__at" aria-hidden="true">@</span>MyGear.Top
+          </a>
+        </li>
+      </ul>
+    </div>
+
     <div class="ab-band__inner md-header__inner">
       {% if not hide_nav %}
         <label class="md-header__button md-icon ab-band__drawer" for="__drawer" aria-label="{{ lang.t('header') }}">

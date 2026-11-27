@@ -427,10 +427,11 @@
   function ensureUi() {
     if ($("#mg-cart-root")) return $("#mg-cart-root");
 
-    // One trigger, one drawer. The masthead's "shop.mygear.top" item was
-    // removed on 2026-11-15 (user: 「这些去掉」), so the floating button is the
-    // way in; it stacks over the WhatsApp float rather than fighting it for
-    // the corner — see .mg-float-stack in extra.css.
+    // Two triggers, one drawer. The masthead strip's "shop.mygear.top" item
+    // (restored 2026-11-27) is server-rendered and already in the DOM; the
+    // floating button is the one you can reach without looking up, and it
+    // stacks over the WhatsApp float rather than fighting it for the corner —
+    // see .mg-float-stack in extra.css.
     var root = document.createElement("div");
     root.id = "mg-cart-root";
     root.innerHTML =
@@ -477,6 +478,7 @@
   }
 
   function render(cart) {
+    var countEl = $("#mg-cart-hdr-count");
     var fabEl = $("#mg-cart-fab-count");
     var itemsEl = $("#mg-cart-items");
     var totalEl = $("#mg-cart-total");
@@ -485,8 +487,14 @@
 
     if (!itemsEl) return;
 
-    // The badge stays hidden at zero so the floating button carries no "0"
-    // over an empty cart. The button itself is always there.
+    // Both badges stay hidden at zero — one so an empty cart leaves the
+    // masthead strip reading as a plain label, the other so the floating
+    // button carries no "0" over an empty cart. The buttons themselves are
+    // always there.
+    if (countEl) {
+      countEl.textContent = String(count);
+      countEl.hidden = count === 0;
+    }
     if (fabEl) {
       fabEl.textContent = String(count);
       fabEl.hidden = count === 0;
@@ -552,10 +560,11 @@
   }
 
   function init() {
-    // Every page, not just the ones selling something. The floating button is
-    // built here, and the cart itself lives in localStorage — so a reader who
-    // added a blade on /blades/ can open it again from /guide/.
-    // enhanceTables/enhanceListings are no-ops where their elements are absent.
+    // Every page, not just the ones selling something. The masthead strip's
+    // cart button is on all of them, and the cart itself lives in
+    // localStorage — so a reader who added a blade on /blades/ can open it
+    // again from /guide/. enhanceTables/enhanceListings are no-ops where their
+    // elements are absent.
     enhanceTables();
     enhanceListings();
     enhanceCards();
@@ -594,7 +603,7 @@
         trackBeginCheckout(cart);
       }
 
-      if (e.target.closest("#mg-cart-fab")) {
+      if (e.target.closest("#mg-cart-hdr, #mg-cart-fab")) {
         openDrawer(true);
         return;
       }

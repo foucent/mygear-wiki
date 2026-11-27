@@ -213,9 +213,10 @@ extra:
   analytics:
     provider: google
     property: G-1VPCP3FZN6
-  # No `family:` or `social:` block. The masthead's family strip (brand link,
-  # cart, YouTube @handle) was removed on 2026-11-15 (user: 「这些去掉」); the
-  # cart is still reachable from the floating button.
+  # No `family:` or `social:` block. The masthead strip (brand, cart, @handle)
+  # is written out in overrides/partials/header.html — it came back on
+  # 2026-11-27 after uncrate.com's top bar, with the @handle now opening the
+  # Trustpilot review page.
 
 # 导航配置在这里
 nav:
