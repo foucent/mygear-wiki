@@ -2110,3 +2110,182 @@
     font-size: 16px;
   }
 }
+
+/* ---------------------------------------------------------------------------
+   17. /pre-owned/: the pre-order form.
+
+   2026-11-28 (user: 「将 /pre-owned/ 模仿 / 页面中的 Racket Advice 功能，为
+   用户提供二手球拍的预定」, then 「像首页的 Racket Advice 一样分几步提问让
+   用户进交，以减少网页的空间」). The home page's advisor is a white card
+   floating on a photo band; this one sits between the hero and the brand pills
+   as the same white card without the photo — the page already has its hero.
+   The steps themselves use the advisor's .mg-adv-* flow classes (loaded
+   site-wide by home-superbuy.css), so this section only draws the frame and
+   the text above the questions; the handle has no field because FL is the only
+   one we take and the intro says so. docs/javascripts/used-preorder.js holds
+   the flow and the message.
+--------------------------------------------------------------------------- */
+
+.mg-preorder {
+  max-width: 1040px;
+  margin: 18px auto 20px;
+  padding: 0 16px;
+}
+
+/* Inside the All grid the module is a full-width row (preowned-grid.js moves
+   it in after the twelfth blade); a brand filter hides it. */
+.mg-preorder--inline {
+  grid-column: 1 / -1;
+  max-width: none;
+  margin: 2px 0 10px;
+  padding: 0;
+}
+
+.mg-preorder--inline[hidden] {
+  display: none;
+}
+
+/* Two columns on desktop: the intro on the left and the questions on the
+   right. Stacking them cost three rows of height for no gain; side by side the
+   block is barely taller than its box. */
+.mg-preorder__card {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  align-items: start;
+  gap: 16px 28px;
+  padding: 18px 24px 20px;
+  border: 1px solid var(--ab-line);
+  border-radius: 0.55rem;
+  background: var(--ab-bg);
+}
+
+.mg-preorder__intro {
+  max-width: 420px;
+}
+
+.mg-preorder__eyebrow {
+  margin: 0;
+  color: var(--ab-accent-deep);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.md-typeset .mg-preorder__title {
+  margin: 4px 0 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+  color: var(--ab-text);
+  font-family: var(--ab-sans);
+  font-size: clamp(18px, 1.6vw, 21px);
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 1.22;
+}
+
+.mg-preorder__lead {
+  margin: 6px 0 0;
+  color: var(--ab-text-muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* The advisor's flow is tuned for a full-width card. In this right-hand
+   column the box, its controls and its rhythm step down a size. */
+.mg-preorder .mg-adv-form {
+  gap: 10px;
+  margin-top: 0;
+}
+
+.mg-preorder .mg-adv-box {
+  padding: 12px 14px 10px;
+}
+
+.mg-preorder .mg-adv-question {
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.mg-preorder .mg-adv-progress__track {
+  flex-basis: 72px;
+}
+
+.mg-preorder .mg-adv-progress__text {
+  font-size: 11px;
+}
+
+.mg-preorder .mg-adv-select,
+.mg-preorder .mg-adv-notes input {
+  height: 44px;
+  font-size: 14px;
+}
+
+.mg-preorder .mg-adv-box__foot {
+  margin-top: 10px;
+}
+
+.mg-preorder .mg-adv-submit {
+  height: 40px;
+  padding: 0 20px;
+}
+
+/* The result replaces the form in the same column, so it needs no rule of its
+   own above it. The green chat button is the advisor's. */
+.mg-preorder .mg-adv-result {
+  margin-top: 0;
+  padding: 8px 0 0;
+  border-top: 0;
+}
+
+/* The advisor's last question is a single-line input; this one takes a short
+   paragraph, so the textarea borrows the same shell. */
+.md-typeset .mg-adv-notes textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 96px;
+  margin: 0;
+  padding: 12px 16px;
+  border: 1px solid var(--ab-line);
+  border-radius: 0.65rem;
+  background: #fff;
+  color: var(--ab-text);
+  font-family: var(--ab-sans);
+  font-size: 15px;
+  line-height: 1.45;
+  resize: vertical;
+}
+
+.md-typeset .mg-adv-notes textarea::placeholder {
+  color: var(--ab-text-muted);
+}
+
+.md-typeset .mg-adv-notes textarea:focus {
+  border-color: var(--ab-green);
+  outline: 2px solid var(--ab-green-deep);
+  outline-offset: 1px;
+}
+
+/* Continue is disabled on the model step until something is typed. */
+.mg-preorder .mg-adv-next:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+@media screen and (max-width: 767px) {
+  .mg-preorder {
+    margin: 14px auto 18px;
+  }
+
+  .mg-preorder__card {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+    padding: 16px 16px 18px;
+  }
+
+  .mg-preorder__intro {
+    max-width: none;
+  }
+}

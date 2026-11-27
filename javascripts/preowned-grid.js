@@ -388,6 +388,20 @@
         "</span>";
     }
 
+    /* The pre-order card rides inside the All run, a dozen blades in, rather
+       than over the whole page at the top (2026-11-28, user: 「尝试将它放置在
+       页面的中间（在all分类中的时候）」). It is not a product and never joins
+       allCards: it spans the grid on its own and a brand filter hides it.
+       Keeping the slot within the first batch means no hidden card ever
+       appears above it, so it does not slide down as the batches reveal. */
+    var preorder = document.getElementById("preorder");
+    var PREORDER_AFTER = 12;
+    var preorderSlot = 0;
+    if (preorder) {
+      preorder.classList.add("mg-preorder--inline");
+      preorderSlot = Math.min(PREORDER_AFTER, availableCount);
+    }
+
     wrap.appendChild(grid);
 
     // Remove the source table entirely so mobile never shows
@@ -423,6 +437,8 @@
       allCards.forEach(function (card, i) {
         card.hidden = i >= visible || !shown(card);
       });
+      // The pre-order card belongs to the unfiltered run.
+      if (preorder) preorder.hidden = filterCat !== "all";
       // The rule belongs to the sold run, so it stands only over a sold card
       // that is actually showing — after a filter as much as after a batch.
       if (divider) {
@@ -445,7 +461,11 @@
       card.hidden = true;
       if (divider && i === availableCount) grid.appendChild(divider);
       grid.appendChild(card);
+      if (preorder && preorderSlot > 0 && i === preorderSlot - 1) {
+        grid.appendChild(preorder);
+      }
     });
+    if (preorder && preorderSlot === 0) grid.prepend(preorder);
     grid.appendChild(sentinel);
 
     if (allCards.length <= BATCH) {
