@@ -69,3 +69,32 @@
   <meta name="twitter:description" content="{{ og_desc }}">
   {%- endif %}
 {% endblock %}
+
+{#- Trustpilot review collector, added 2026-11-27. It sits in a slim band
+    directly above the footer, so it appears on every page without taking room
+    from the content: the footer was only a copyright line, and a review link
+    is exactly what belongs beside it. The band repeats the footer's black and
+    the iframe is capped at the page's 1200px measure by .mg-trustpilot.
+
+    The widget is a third-party iframe. The bootstrap script is async and sits
+    after every site script (block scripts), so it stays off the critical path,
+    matching the no-webfonts / no-third-party-in-the-way rule of the theme.
+
+    If a page should not carry it, add `hide: [footer]` to its front matter —
+    Material only uses that flag for the prev/next nav, so this block reads it
+    itself and skips the band. -#}
+{% block footer %}
+  {%- if not (page.meta and page.meta.hide and "footer" in page.meta.hide) %}
+  <div class="mg-trustpilot">
+    <div class="trustpilot-widget" data-locale="en-US" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="6b08d93adfcbffc160f9d031" data-style-height="52px" data-style-width="100%">
+      <a href="https://www.trustpilot.com/review/mygear.top" target="_blank" rel="noopener">Trustpilot</a>
+    </div>
+  </div>
+  {%- endif %}
+  {{ super() }}
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  <script type="text/javascript" src="https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+{% endblock %}

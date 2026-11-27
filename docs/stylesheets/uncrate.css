@@ -2005,6 +2005,22 @@
   text-align: center;
 }
 
+/* Trustpilot review collector (2026-11-27, overrides/main.html). The band sits
+   directly above <footer class="md-footer"> and repeats its black, so the
+   widget reads as part of the footer rather than a strip floating on the page.
+   The iframe is 52px tall and fills the band inside the shop's 1200px measure;
+   the padding keeps it off the edges on phones. */
+.mg-trustpilot {
+  padding: 24px 16px 8px;
+  background-color: var(--md-footer-bg-color);
+}
+
+.mg-trustpilot .trustpilot-widget {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 /* ---------------------------------------------------------------------------
    15. Landing on a card.
 
