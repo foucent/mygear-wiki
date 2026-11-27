@@ -8,34 +8,91 @@ hide:
   - toc
 ---
 
-<!-- mg-shop--wide (2026-11-12, user: 「是的 rubbers， pre-owned 也同样进行处理」,
-     following /blades/): the marker gives this page the home page's 1200px
-     measure (uncrate.css). The listing itself is still the price table — one
-     product a row with its photo and thumbnails — so the five-up rung blades
-     and rubbers take does not apply here. -->
-<div class="mg-shop mg-shop--wide" markdown="0">
-
-  <section class="mg-home-hero mg-home-hero--shop mg-hero-slides" aria-label="Pre-owned table tennis blade photos">
-    <div class="mg-hero-slides__track" aria-hidden="true">
-      <img class="mg-hero-slides__img is-active" src="/images/fan-zd-alc-k-code-cn-90g/01.thumb.webp" data-full-src="/images/fan-zd-alc-k-code-cn-90g/01.jpg" srcset="/images/fan-zd-alc-k-code-cn-90g/01.thumb-240.webp 180w, /images/fan-zd-alc-k-code-cn-90g/01.thumb-480.webp 360w, /images/fan-zd-alc-k-code-cn-90g/01.thumb.webp 540w, /images/fan-zd-alc-k-code-cn-90g/01.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 96vw, 960px" alt="" width="1200" height="900" decoding="async" fetchpriority="high">
-      <img class="mg-hero-slides__img" src="/images/dhs-hurricane-sun-92g/01.thumb.webp" data-full-src="/images/dhs-hurricane-sun-92g/01.jpg" srcset="/images/dhs-hurricane-sun-92g/01.thumb-240.webp 180w, /images/dhs-hurricane-sun-92g/01.thumb-480.webp 360w, /images/dhs-hurricane-sun-92g/01.thumb.webp 540w, /images/dhs-hurricane-sun-92g/01.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 96vw, 960px" alt="" width="1200" height="900" decoding="async" loading="lazy">
-      <img class="mg-hero-slides__img" src="/images/w968-golden-slam-no-35-88g/01.thumb.webp" data-full-src="/images/w968-golden-slam-no-35-88g/01.webp" srcset="/images/w968-golden-slam-no-35-88g/01.thumb-240.webp 180w, /images/w968-golden-slam-no-35-88g/01.thumb-480.webp 360w, /images/w968-golden-slam-no-35-88g/01.thumb.webp 540w, /images/w968-golden-slam-no-35-88g/01.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 96vw, 960px" alt="" width="1200" height="900" decoding="async" loading="lazy">
-      <img class="mg-hero-slides__img" src="/images/xiom-ice-azxi-91g/01.thumb.webp" data-full-src="/images/xiom-ice-azxi-91g/01.jpg" srcset="/images/xiom-ice-azxi-91g/01.thumb-240.webp 180w, /images/xiom-ice-azxi-91g/01.thumb-480.webp 360w, /images/xiom-ice-azxi-91g/01.thumb.webp 540w, /images/xiom-ice-azxi-91g/01.thumb-1000.webp 750w, /images/xiom-ice-azxi-91g/01.jpg 790w" sizes="(max-width: 759.98px) 96vw, 960px" alt="" width="1200" height="900" decoding="async" loading="lazy">
-      <img class="mg-hero-slides__img" src="/images/yasaka-alnade-cs-84g/01.thumb.webp" data-full-src="/images/yasaka-alnade-cs-84g/01.jpg" srcset="/images/yasaka-alnade-cs-84g/01.thumb-240.webp 180w, /images/yasaka-alnade-cs-84g/01.thumb-480.webp 360w, /images/yasaka-alnade-cs-84g/01.thumb.webp 540w, /images/yasaka-alnade-cs-84g/01.thumb-1000.webp 750w" sizes="(max-width: 759.98px) 96vw, 960px" alt="" width="1200" height="900" decoding="async" loading="lazy">
-      <img class="mg-hero-slides__img" src="/images/yinhe-cttaa-special-89g/01.thumb.webp" data-full-src="/images/yinhe-cttaa-special-89g/01.jpg" srcset="/images/yinhe-cttaa-special-89g/01.thumb-240.webp 180w, /images/yinhe-cttaa-special-89g/01.thumb-480.webp 360w, /images/yinhe-cttaa-special-89g/01.thumb.webp 540w, /images/yinhe-cttaa-special-89g/01.thumb-1000.webp 750w, /images/yinhe-cttaa-special-89g/01.jpg 790w" sizes="(max-width: 759.98px) 96vw, 960px" alt="" width="1200" height="900" decoding="async" loading="lazy">
+<!-- The hero band (photos, "MyGear.Top / Pre-owned" and the lead) was removed
+     on 2026-11-28 (user: 「将 … 这一块整体去掉，将文字说明作为 tips 放在页面
+     中」). Its one line of copy survives as the tip between the brand pills and
+     the table; the pre-order form now opens the page. -->
+<!-- Pre-order form (2026-11-28, user: 「将 /pre-owned/ 模仿 / 页面中的 Racket
+     Advice 功能，为用户提供二手球拍的预定（型号、87/90/93 ±1 克重、备注或
+     特殊要求）」). Like the home page's advisor it asks one question at a time
+     — model, weight, notes — inside the same long box and hands the answers
+     to WhatsApp; the reply and the stock search happen in the chat. FL is the
+     only handle we take, so it is stated in the intro and no handle field is
+     drawn. docs/javascripts/used-preorder.js holds the flow and the message. -->
+<section class="mg-preorder" id="preorder" markdown="0">
+  <div class="mg-preorder__card">
+    <div class="mg-preorder__intro">
+      <p class="mg-preorder__eyebrow">Pre-order a used blade</p>
+      <h2 class="mg-preorder__title">Haven't found a used blade you like?</h2>
+      <p class="mg-preorder__lead">Tell me the blade and the weight you play at; I'll look for one and reply on WhatsApp. For now, only <strong>popular models</strong> and <strong>FL</strong> handles are available.</p>
     </div>
-    <div class="mg-home-hero__inner">
-      <p class="mg-home-hero__brand">MyGear.Top</p>
-      <h1 class="mg-home-hero__title">Pre-owned</h1>
-      <p class="mg-home-hero__lead">This page mainly showcases cost-effective or collectible pre-owned blades. Stock is limited and updates may be delayed — please contact me to confirm availability before purchasing.</p>
-      <div class="mg-home-hero__actions">
-        <a class="mg-home-hero__btn mg-home-hero__btn--primary" href="https://wa.me/8618627156285?text=Hello%2C%20I%27d%20like%20a%20quote%20for%20pre-owned%20table%20tennis%20blades.%0D%0A%0D%0AShip%20to%20(city%20%2F%20postal%20code)%3A%0D%0A%0D%0A">Help me find a used blade</a>
-        <a class="mg-home-hero__btn mg-home-hero__btn--ghost" href="/order/">How to Order</a>
+
+    <form class="mg-adv-form mg-preorder__form" id="preorder-form" novalidate>
+      <div class="mg-adv-progress">
+        <span class="mg-adv-progress__track" aria-hidden="true"><i id="preorder-progress-fill"></i></span>
+        <span class="mg-adv-progress__text" id="preorder-step-label" aria-live="polite">Question 1 of 2 · The blade</span>
+      </div>
+
+      <div class="mg-adv-box">
+        <div class="mg-adv-screen" data-step="1">
+          <label class="mg-adv-notes" for="preorder-model">
+            <span class="mg-adv-question">Which model are you looking for?</span>
+            <input type="text" id="preorder-model" name="model" list="preorder-models" maxlength="80" autocomplete="off" placeholder="e.g. DHS W968, Butterfly Viscaria, Fan ZD SALC" required>
+          </label>
+          <datalist id="preorder-models">
+            <option value="DHS W968"></option>
+            <option value="DHS Q968"></option>
+            <option value="DHS S968"></option>
+            <option value="DHS Hurricane King (Wang Chuqin)"></option>
+            <option value="Butterfly Viscaria"></option>
+            <option value="Butterfly Fan Zhendong ALC"></option>
+            <option value="Butterfly Fan Zhendong SALC"></option>
+            <option value="Butterfly Harimoto ALC"></option>
+            <option value="Butterfly Harimoto SALC"></option>
+            <option value="Butterfly Timo Boll ALC"></option>
+            <option value="Butterfly Zhang Jike ALC"></option>
+          </datalist>
+        </div>
+
+        <div class="mg-adv-screen" data-step="2" hidden>
+          <fieldset class="mg-adv-q">
+            <legend class="mg-adv-question">What weight do you play at?</legend>
+            <select class="mg-adv-select" id="preorder-weight" name="weight">
+              <option value="" disabled selected>Choose one…</option>
+              <option value="87">87g (±1g)</option>
+              <option value="90">90g (±1g)</option>
+              <option value="93">93g (±1g)</option>
+            </select>
+          </fieldset>
+        </div>
+
+        <div class="mg-adv-screen" data-step="3" hidden>
+          <label class="mg-adv-notes" for="preorder-notes">
+            <span class="mg-adv-question">Anything else I should know? <em>(optional)</em></span>
+            <textarea id="preorder-notes" name="notes" rows="3" maxlength="300" placeholder="Condition, code/era, original box, or anything else that matters to you…"></textarea>
+          </label>
+        </div>
+
+        <div class="mg-adv-box__foot">
+          <button class="mg-adv-back" type="button" hidden>Back</button>
+          <p class="mg-adv-form__note" id="preorder-note" aria-live="polite" hidden></p>
+          <button class="mg-adv-next" type="button" hidden>Continue</button>
+          <button class="mg-adv-submit" type="submit" hidden>Send on WhatsApp</button>
+        </div>
+      </div>
+    </form>
+
+    <div class="mg-adv-result" id="preorder-result" hidden aria-live="polite">
+      <p class="mg-adv-result__eyebrow">One more step</p>
+      <h2 class="mg-adv-result__title">Send your pre-order on WhatsApp</h2>
+      <p class="mg-adv-result__lead">The chat opens with your details already written in.</p>
+      <div class="mg-adv-result__actions">
+        <a class="mg-adv-result__chat" id="preorder-chat" href="https://wa.me/8618627156285" target="_blank" rel="noopener">Open WhatsApp</a>
+        <button class="mg-adv-result__again" id="preorder-again" type="button">Edit request</button>
       </div>
     </div>
-  </section>
-
-</div>
+  </div>
+</section>
 
 <div class="mg-shop-pills" id="pre-owned-pills" data-grid="pre-owned-grid"
      role="group" aria-label="Filter pre-owned blades by brand" markdown="0">
@@ -52,6 +109,11 @@ hide:
   <button type="button" class="mg-shop-pill" data-category="xiom" aria-pressed="false">Xiom</button>
   <button type="button" class="mg-shop-pill" data-category="yasaka" aria-pressed="false">Yasaka</button>
   <button type="button" class="mg-shop-pill" data-category="yinhe" aria-pressed="false">Yinhe</button>
+</div>
+
+<div class="admonition tip">
+  <p class="admonition-title">Tip</p>
+  <p>This page mainly showcases cost-effective or collectible pre-owned blades. Stock is limited and updates may be delayed — please contact me to confirm availability before purchasing.</p>
 </div>
 
 <!-- Three states, all read off the row (2026-11-12): plain rows are in stock;

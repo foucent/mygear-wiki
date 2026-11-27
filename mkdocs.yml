@@ -182,6 +182,8 @@ extra_javascript:
   - javascripts/card-read-more.js
   - javascripts/whatsapp-float.js
   - javascripts/preowned-grid.js
+  # The pre-order form on /pre-owned/; a no-op on any page without it.
+  - javascripts/used-preorder.js
   - javascripts/gallery-lightbox.js
   - javascripts/photo-wall.js
   - javascripts/hero-slides.js
